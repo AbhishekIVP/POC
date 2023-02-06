@@ -1,0 +1,82 @@
+﻿<div id="divErrorDuplicateInner" style="width: 780px; overflow-x: hidden; height: 450px; ">
+    <div style="border-bottom: 1px solid #e8e8e8">
+        <div class="errorDivHeading" style="color: #666666bd; display: inline-block; width: 400px; height: 30px; font-size: 20px; vertical-align: top; padding: 10px;">
+            <img id="imgDuplicateErrorId" style="height: 30px; vertical-align:top; position:relative;bottom:5px;" />
+            <div class="errorDivHeading" style="color: black; height: 19px;">
+                <p id="UniquenessFailure" class="errorTopTxtCls" style="color: #000000a1;">
+                    Duplicate Security Found
+                </p>
+            </div>
+        </div>
+        <div style="width: 300px; display: inline-block; border: 1px solid rgba(240, 240, 240, 1); vertical-align: top; margin: 8px;">
+            <i class="fa fa-search" style="margin-top: 8px; color: rgba(240, 240, 240, 1)"></i>
+            <input style="border: none; outline: none;" type="text"
+                   data-bind="value: searchText, valueUpdate: 'keyup'" placeholder="Search key here...">
+        </div>
+        <div class="errorDivCloseUniqueness" style="height: 30px; margin-top: -14px;">
+            <i id="btnOkDuplicateValues" onclick="javascript:return false" class="fa fa-times modalCancelRemarkBtn"
+               style="cursor: pointer; font-size: 14px; cursor: pointer; font-size: 20px; float: right; line-height: 58px;"></i>
+        </div>
+    </div>
+    <div class="DuplicatePopupLeftBar mostly-customized-scrollbar"
+         data-bind="foreach: UniqueKeyLst">
+        <!-- ko if: $index() === 0 -->
+        <div class="DuplicatePopupLeftHeader">Unique Keys</div>
+        <!-- /ko -->
+        <div>
+
+            <div class="ChainSubInfo1" data-bind="click: onClickChain, style: { display: isKeyVisible() ? 'block' : 'none', background: isSelected() ? '#48a3dd' : '#F0F0F0', color: isSelected() ? 'white' : '#b7b7b7' }" style="width: 200px; height: 30px; border-bottom: 1px solid #e8e8e8; font-size: 14px; line-height: 30px;">
+
+                <div class="keyname UniquenessPopupEllipses" style="width: 165px; display: inline-block; margin-left: 20px;"
+                     data-bind="text: keyName, attr: { visible: isKeyVisible(), title: keyName }">
+                </div>
+                <i class="fa fa-caret-right" style="display: inline-block; line-height: 30px; vertical-align: top;" data-bind='visible: isSelected()'></i>
+
+            </div>
+        </div>
+    </div>
+    <div data-bind="foreach: UniqueKeyLst" style="display: inline-block; width: 550px; height: 380px; padding-left: 10px;">
+
+        <div class="rightChainParentDiv mostly-customized-scrollbar" data-bind="visible: isSelected(), style: { display: isSelected() ? 'inline-block' : 'none' }, foreach: rightChainAttributeListing">
+            <!-- ko if: $index() === 0 -->
+            <div data-bind="css: { 'DuplicatePopupRightHeader': ($parent.isSelected()) }">
+                <div class="DuplicatePopupLegnameCls" data-bind="visible: ($parent.isSelected() && $parent.selectedlegName() != null), style: { display: ($parent.isSelected() && $parent.selectedlegName() != null) ? 'inline-block' : 'none' }, text: 'Leg Name: ' + $parent.selectedlegName(), attr: { title: $parent.selectedlegName() }"></div>
+            </div>
+            <div data-bind="visible: $parent.isSelected()" style="background: #F0F0F0; display: inline-block; padding-left: 10px; line-height: 28px; height: 27px; width: 545px; color: gray; font-weight: bold;">
+                <div style="width: 40%;"
+                     data-bind="visible: $parent.isSelected(), style: { display: $parent.isSelected() ? 'inline-block' : 'none' }">
+                    Attribute
+                </div>
+                <div style="width: 58%;" data-bind="visible: $parent.isSelected(), style: { display: $parent.isSelected() ? 'inline-block' : 'none' }">Values</div>
+            </div>
+            <!-- /ko -->
+            <div class="DuplicatePopupRowsCls" style="padding-left: 10px; width: 545px;" data-bind="visible: $parent.isSelected(), style: { display: $parent.isSelected() ? 'block' : 'none' }">
+
+                <div style="width: 40%;" data-bind="visible: $parent.isSelected(), style: { display: $parent.isSelected() ? 'inline-block': 'none' }, text: attrName, attr: { title: attrName }" class="UniquenessPopupEllipses"></div>
+                <div style="width: 58%; color: #48a3dd" data-bind="visible: $parent.isSelected(), style: { display: $parent.isSelected() ? 'inline-block': 'none' }, text: attrValue, attr: { title: attrValue }" class="UniquenessPopupEllipses"></div>
+            </div>
+        </div>
+        <div class="rightChainParentDivChainSecParentDiv mostly-customized-scrollbar" data-bind="visible: isSelected(), style: { display: isSelected() ? 'inline-block' : 'none' }, foreach: rightChainDuplicateSecListing">
+            <div class="ChainSubInfo1" data-bind="visible: $parent.isSelected(), style: { display: $parent.isSelected() ? 'inline-block' : 'none' }">
+                <!-- ko if: $index() === 0 -->
+                <div class="DuplicatePopupRightSecHeader">
+                    <div class="DuplicatePopupRightSecBody" data-bind="visible: $parent.isSelected(), text: $parent.InstrumentIdHeader"></div>
+                    <div class="DuplicatePopupRightSecBody" data-bind="visible: $parent.isSelected(), text: 'State'"></div>
+                    <div class="DuplicatePopupRightSecBody" data-bind="visible: $parent.isSelected(), text: $parent.InstrumentTypeHeader"></div>
+                    <div class="DuplicatePopupRightSecBody" data-bind="visible: ($parent.isSelected() && $parent.ModuleName == 'Security'), text: 'Security Name'"></div>
+                </div>
+                <!-- /ko -->
+                <div class="DuplicatePopupRowsCls" data-bind="visible: $parent.isSelected(), style: { display: $parent.isSelected() ? 'block' : 'none' }">
+                    <div class="DuplicatePopupRightSecBody" style="text-decoration: underline; cursor: pointer;" data-bind="click: onClickDuplicateSecId, visible: $parent.isSelected(), text: secId, attr: { title: secId }"></div>
+
+                    <div class="DuplicatePopupRightSecBody" data-bind="visible: $parent.isSelected(), text: failureType, attr: { title: failureType }"></div>
+
+                    <div class="DuplicatePopupRightSecBody" data-bind="visible: $parent.isSelected(), text: secTypeName, attr: { title: secTypeName }"></div>
+
+                    <div class="DuplicatePopupRightSecBody" data-bind="visible: $parent.isSelected() && $parent.ModuleName == 'Security', text: secName, attr: { title: secName }"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="showRightDiv"></div>
+</div>

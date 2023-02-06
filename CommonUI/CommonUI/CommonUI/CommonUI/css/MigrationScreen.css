@@ -1,0 +1,525 @@
+﻿#MigrationScreenMain {
+    height: 100%;
+    position: relative;
+    background-image:linear-gradient(#ffffff, #f2f7ff) !important;
+}
+#MigrationGroupsParent {
+    text-align: center;
+    height: 130px;
+    margin: 0px 7%;
+    width: 86%;
+    /* position: relative; */
+    padding-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    /* display: flex; */
+}
+#GroupActionParent {
+    position: relative;
+    height: calc(100% - 160px);
+    width: 86%;
+    margin: 15px 7%;
+    background-color: white;
+    /* padding: 0px 14px; */
+    box-shadow: #00000030 0px 1px 8px;
+}
+#GroupsScrollLeft {
+    position: absolute;
+    top: 47px;
+    /* height: 100%; */
+    padding: 10px;
+    left: 5%;
+    /*display: none;*/
+}
+.MigrationGroups {
+    background-image: linear-gradient(#f2f7fc, #e9edf1);
+    box-shadow: inset 0px 0px 1px 1px #e2eafb;
+    /*background-color: #e2e2e2;*/
+    display: inline-block;
+    color: #737373;
+    height: 80px;
+    padding: 7px 20px;
+    width: 147px;
+    border-radius: 4px;
+    margin: 18px 27px;
+    /*box-shadow: #00000030 -3px 3px 3px;*/
+}
+.MigrationGroups.selected{
+    /*color: #3ea4b5;*/
+    box-shadow: -1px 2px 8px 2px #e2eafb;
+    border: solid #b8d0d8 2px;
+}
+.MigrationGroupName {
+    padding: 5px 0px;
+    color: #2c4368;
+    text-transform: uppercase;
+    font-family: oswald;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.MigrationGroupActions {
+    padding: 5px 0px;
+    border-top: solid #dedede 1px;
+}
+.action{
+    margin: 0px 10px;
+    color: #737373;
+    background-color: #f7f7f7c9;
+    padding: 6px;
+    position: relative;
+    border-radius: 16px;
+}
+.action.selected{
+    color: #effafd !important;
+    background-color: #74acbd;
+    /* font-weight: normal; */
+}
+.Uploadaction{
+    color: #80bdb7;
+} 
+#GroupsScrollRight {
+    position: absolute;
+    top: 47px;
+    /* height: 100%; */
+    padding: 10px;
+    /*display: none;*/
+    right: 5%;
+}
+#GroupActionDownload {
+    height: 100%;
+}
+.usergroupsymbol {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 22px;
+    color: white;
+    top: 9px;
+    left: 5px;
+    z-index: 2;
+    font-family: Lato;
+    border-radius: 4px;
+    position: absolute;
+    text-align: center;
+    background-color: #8e9ab5;
+}
+.usereach {
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 4px 0px;
+    padding: 4px 10px;
+    color: #a8b8cb;
+    position: relative;
+}
+.usereachname{
+    padding: 0px 7px;
+    border-radius: 4px;
+    border: solid #a8b8cb 1px;
+    cursor: pointer;
+    color: #535353;
+    overflow: hidden;
+    width: 90px;
+    font-size: 14px;
+    line-height: 22px;
+    text-overflow: ellipsis;
+    height: 26px;
+    font-family: Lato;
+    white-space:nowrap;
+}
+.usereach.selected{
+    color: #48a3dd;
+}
+.usereach.hidden{
+    display: none;
+}
+.usergroup{
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+#downloadwindowParent {
+    height: calc(100% - 46px);
+    padding: 10px 0px 10px 10px;
+}
+#downloadwindow{
+    /*height: calc(100% - 46px);*/
+    height:100%;
+    overflow: auto;
+    padding-top: 10px;
+}
+.usercheck{
+    position: absolute;
+    top: 9px;
+    left: 3px;
+    color: blue;
+    background-color: beige;
+}
+.GroupActionSearchParent {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+}
+#GroupActionDownloadSearch {
+    border: 0px;
+    outline: none;
+    width: 100%;
+    border-radius: 2px;
+    border-bottom: solid #bdbdbd 1px;
+    background-color: #f6f9ff;
+    padding-left: 30px;
+    /* border: 0px; */
+    /* outline: none; */
+}
+.ActionConfirmButton {
+    position: absolute;
+    top: 17px;
+    background-color: #39DAC6;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Lato;
+    cursor: pointer;
+    height: 25px;
+    line-height: 25px;
+    padding: 0px 5px;
+    right: 23px;
+    border-radius: 5px;
+}
+.groupactiontitle {
+    display: inline-block;
+    margin-right: 10%;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: oswald;
+    color: #8a8a8c;
+}
+
+
+.action.selected:after {
+    content: '';
+    position: absolute;
+    top: 41px;
+    left: 62%;
+    width: 0;
+    height: 0;
+    border: 9px solid transparent;
+    border-top-color: #74acbd;
+    border-bottom: 0;
+    z-index: 27;
+    margin-left: -13px;
+    margin-bottom: -13px;
+}
+
+.usereach.selected > .usereachname {
+    background-color: #d5e9f6;
+    border: 1px solid #70b8e4 !important;
+    color: #143042 !important;
+}
+
+.MgrsearchIcon {
+    position: absolute;
+    top: 4px;
+    left: 12px;
+}
+.MgrButtonBar {
+    display: inline-block;
+    float: right;
+    height: 26px;
+}
+.MgrActionText {
+    display: inline-block;
+    margin-right: 10px;
+    color: #70f2e1;
+    vertical-align: top;
+    font-family: Lato;
+    line-height: 26px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    /* font-weight: bold; */
+}
+.MgrActionButton {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    background-color: #41d6c7;
+    padding: 0px 7px;
+    border-radius: 2px;
+    /* height: 20px; */
+    vertical-align: top;
+    line-height: 26px;
+}
+
+.MgrGroupActionBar {
+    padding: 10px;
+    background-color: #f6f9ff;
+}
+
+.MgrSelectToggleParent {
+    display: inline-block;
+    margin-right: 10px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #f6f9ff;
+    /* padding: 2px 5px; */
+    line-height: 21px;
+    border: solid #00bef1 1px;
+    overflow: hidden;
+}
+.MgrSelectAll {
+    cursor: pointer;
+    width: 61px;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 8px 0px 7px;
+    /* border-right: solid #00BEF1 1px; */
+}
+.MgrSelectSelected {
+    display: inline-block;
+    cursor: pointer;
+    width: 61px;
+    font-size: 12px;
+    text-align: center;
+    padding: 0px 7px 0px 4px;
+}
+.MgrSelectAll.MgrSelected {
+    color: white;
+    background-color: #00BEF1;
+    width: 61px;
+    line-height: 22px;
+    text-align: center;
+    font-size: 12px;
+}
+.MgrSelectSelected.MgrSelected {
+    color: white;
+    background-color: #00BEF1;
+    line-height: 22px;
+}
+
+.MgrClearAll {
+    display: none;
+}
+#GroupActionUploadSearch {
+    width: 100%;
+    border-radius: 2px;
+    border-bottom: solid #bdbdbd 1px;
+    background-color: #f6f9ff;
+    padding-left: 30px;
+}
+
+div#UploadWindow {
+    height: calc(100% - 46px) !important;
+    position:relative;
+}
+
+.GroupActions {
+    height: 100%;
+}
+
+.MgrUploadsection {
+    height: 100%;
+    width: 18%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.UploadWindowContent {
+    height: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+.MgrUploadsection {
+        height: calc(100% - 50px);
+    width: 17%;
+    vertical-align: top;
+    padding-top: 32px;
+    margin: 0px 50px;
+    background-color: aliceblue;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+    border: solid #d4eaf3 1px;
+}
+.MgrUploadsectionTitle {
+    position: absolute;
+    width: 50%;
+    height: 25px;
+    border-radius: 4px;
+    top: -8px;
+    line-height: 25px;
+    color: white;
+    background-color: aqua;
+    margin: 0 25%;
+}
+.uploadeach {
+    /* background-color: #ffffff; */
+    /* display: inline-block; */
+    margin: -3px 0px;
+    width: 100%;
+    padding: 4px 25%;
+    color: #a8b8cb;
+    position: relative;
+}
+.uploadeachname {
+    padding: 0px 7px;
+    border-radius: 4px;
+    border: solid #a8b8cb 1px;
+    cursor: pointer;
+    color: #535353;
+    overflow: hidden;
+    /* width: 50%; */
+    font-size: 14px;
+    line-height: 22px;
+    text-overflow: ellipsis;
+    height: 26px;
+    font-family: Lato;
+}
+.UploadWindowContent {
+    height: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.MgrUploadsectionTitle {
+    position: absolute;
+    width: 76%;
+    height: 27px;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    top: -11px;
+    font-family: oswald;
+    text-transform: uppercase;
+    line-height: 27px;
+    color: white;
+    background-color: #86bed4;
+    margin: 0px 12%;
+}
+
+.uploadeach {
+    /* background-color: #ffffff; */
+    /* display: inline-block; */
+    margin: -3px 0px;
+    width: 100%;
+    padding: 4px 20%;
+    color: #a8b8cb;
+    position: relative;
+}
+
+.uploadeachname {
+    padding: 0px 7px;
+    border-radius: 4px;
+    border: solid #e8e8e8 1px;
+    cursor: pointer;
+    color: #3e3e3e;
+    overflow: hidden;
+    /* width: 50%; */
+    font-size: 12px;
+    line-height: 22px;
+    text-overflow: ellipsis;
+    height: 26px;
+    font-family: Lato;
+}
+
+#UploadUpdatedSection {
+    border: solid #dedbe4 1px;
+}
+#UploadUpdatedSection > .MgrUploadsectionTitle{
+    background-color: #b9b5c1;
+}
+#MgrUploadWindowBrowseText {
+    color: #4da4db;
+}
+
+.uploadeach.selected > .uploadeachname {
+    background-color: #d5e9f6;
+    border: 1px solid #70b8e4 !important;
+    color: #225779 !important;
+}
+
+.radWorkflowParentDropDrag {
+    position: absolute;
+    width: 16%;
+    left: 42%;
+    top: 175px;
+    text-align: center;
+}
+.PostUploadMain {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: auto;
+}
+
+.PostUploadRow {
+    display: block;
+    height: 34px;
+    position: relative;
+    line-height: 34px;
+    margin: 8px 15%;
+    border-radius: 7px;
+    width: 70%;
+}
+
+.PostUploadEntityName {
+    display: inline-block;
+    font-family: oswald;
+    width: 30%;
+    letter-spacing: 0.2px;
+    padding-left: 22px;
+}
+
+.PostUploadMessage {
+    display: inline-block;
+    width: 70%;
+    /* font-weight: bold; */
+}
+
+.PostUploadStatus {
+    /* display: inline-block; */
+    position: absolute;
+    line-height: 34px;
+    left: -9px;
+    font-size: 21px;
+    /* color: green; */
+    height: 100%;
+}
+
+.PostUploadRow.MgrSuccess > .PostUploadStatus {
+    color: #57C8A4;
+}
+
+.EntrydivChild {
+    overflow: auto;
+    height: 100%;
+}
+.EntrydivChild::-webkit-scrollbar
+{
+display:none;
+}
+
+.PostUploadRow.MgrSuccess {
+    background-color: #57c8a424;
+}
+
+.PostUploadRow.MgrSuccess > .PostUploadEntityName {
+    color: #57C8A4;
+}
+
+.PostUploadRow.MgrFailure > .PostUploadStatus {
+    color: #C18F95;
+}
+
+.PostUploadRow.MgrFailure > .PostUploadEntityName {
+    color: #C18F95;
+}
+
+.PostUploadRow.MgrFailure {
+    background-color: #c18f9521;
+}

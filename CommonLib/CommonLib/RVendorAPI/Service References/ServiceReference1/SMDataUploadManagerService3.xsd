@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/SecMasterDataUploadManager" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/SecMasterDataUploadManager" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/SecMasterService/SMDataUploadManagerService?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="ArrayOfPostingLocksOutputInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PostingLocksOutputInfo" nillable="true" type="tns:PostingLocksOutputInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPostingLocksOutputInfo" nillable="true" type="tns:ArrayOfPostingLocksOutputInfo" />
+  <xs:complexType name="PostingLocksOutputInfo">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="InstrumentIds" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element minOccurs="0" name="ModuleName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SystemName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PostingLocksOutputInfo" nillable="true" type="tns:PostingLocksOutputInfo" />
+  <xs:complexType name="ClearPostingLocksOutputInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsSuccess" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClearPostingLocksOutputInfo" nillable="true" type="tns:ClearPostingLocksOutputInfo" />
+</xs:schema>

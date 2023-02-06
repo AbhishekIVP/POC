@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="SMDataUploadManager" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/SecMasterService/SMDataUploadManagerService?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost/SecMasterService/SMDataUploadManagerService?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/SecMasterService/SMDataUploadManagerService?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost/SecMasterService/SMDataUploadManagerService?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/SecMasterDataUploadManager" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISMDataUploadManager_Register_InputMessage">
+    <wsdl:part name="parameters" element="tns:Register" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_Register_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_UnRegister_InputMessage">
+    <wsdl:part name="parameters" element="tns:UnRegister" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_UnRegister_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UnRegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_RegisterPriorRule_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterPriorRule" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_RegisterPriorRule_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterPriorRuleResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_UnRegisterPriorRule_InputMessage">
+    <wsdl:part name="parameters" element="tns:UnRegisterPriorRule" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_UnRegisterPriorRule_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UnRegisterPriorRuleResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_RegisterCorpAction_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterCorpAction" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_RegisterCorpAction_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterCorpActionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_UnRegisterCorpAction_InputMessage">
+    <wsdl:part name="parameters" element="tns:UnRegisterCorpAction" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_UnRegisterCorpAction_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UnRegisterCorpActionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_GetGuid_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGuid" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_GetGuid_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGuidResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_RegisterPosting_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterPosting" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_RegisterPosting_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterPostingResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_UnRegisterPosting_InputMessage">
+    <wsdl:part name="parameters" element="tns:UnRegisterPosting" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_UnRegisterPosting_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UnRegisterPostingResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_RegisterFileUpload_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterFileUpload" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_RegisterFileUpload_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterFileUploadResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_UnRegisterFileUpload_InputMessage">
+    <wsdl:part name="parameters" element="tns:UnRegisterFileUpload" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_UnRegisterFileUpload_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UnRegisterFileUploadResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_RegisterSecuritiesForUpdates_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterSecuritiesForUpdates" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_RegisterSecuritiesForUpdates_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterSecuritiesForUpdatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_UnRegisterSecuritiesForUpdates_InputMessage">
+    <wsdl:part name="parameters" element="tns:UnRegisterSecuritiesForUpdates" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_UnRegisterSecuritiesForUpdates_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UnRegisterSecuritiesForUpdatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_RegisterDownstreamPosting_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterDownstreamPosting" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_RegisterDownstreamPosting_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterDownstreamPostingResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_UnRegisterDownstreamPosting_InputMessage">
+    <wsdl:part name="parameters" element="tns:UnRegisterDownstreamPosting" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_UnRegisterDownstreamPosting_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UnRegisterDownstreamPostingResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_RegisterTimeSeriesLock_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterTimeSeriesLock" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_RegisterTimeSeriesLock_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterTimeSeriesLockResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_UnRegisterTimeSeriesLock_InputMessage">
+    <wsdl:part name="parameters" element="tns:UnRegisterTimeSeriesLock" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_UnRegisterTimeSeriesLock_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UnRegisterTimeSeriesLockResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_RegisterBBGAuditLock_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterBBGAuditLock" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_RegisterBBGAuditLock_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterBBGAuditLockResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_UnRegisterBBGAuditLock_InputMessage">
+    <wsdl:part name="parameters" element="tns:UnRegisterBBGAuditLock" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_UnRegisterBBGAuditLock_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UnRegisterBBGAuditLockResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_GetAvailableModules_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailableModules" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_GetAvailableModules_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailableModulesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_GetPostingLocks_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPostingLocks" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_GetPostingLocks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPostingLocksResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_ClearPostingLocks_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClearPostingLocks" />
+  </wsdl:message>
+  <wsdl:message name="ISMDataUploadManager_ClearPostingLocks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClearPostingLocksResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ISMDataUploadManager">
+    <wsdl:operation name="Register">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/Register" message="tns:ISMDataUploadManager_Register_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/RegisterResponse" message="tns:ISMDataUploadManager_Register_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UnRegister">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/UnRegister" message="tns:ISMDataUploadManager_UnRegister_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/UnRegisterResponse" message="tns:ISMDataUploadManager_UnRegister_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterPriorRule">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/RegisterPriorRule" message="tns:ISMDataUploadManager_RegisterPriorRule_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/RegisterPriorRuleResponse" message="tns:ISMDataUploadManager_RegisterPriorRule_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UnRegisterPriorRule">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/UnRegisterPriorRule" message="tns:ISMDataUploadManager_UnRegisterPriorRule_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/UnRegisterPriorRuleResponse" message="tns:ISMDataUploadManager_UnRegisterPriorRule_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterCorpAction">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/RegisterCorpAction" message="tns:ISMDataUploadManager_RegisterCorpAction_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/RegisterCorpActionResponse" message="tns:ISMDataUploadManager_RegisterCorpAction_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UnRegisterCorpAction">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/UnRegisterCorpAction" message="tns:ISMDataUploadManager_UnRegisterCorpAction_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/UnRegisterCorpActionResponse" message="tns:ISMDataUploadManager_UnRegisterCorpAction_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGuid">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/GetGuid" message="tns:ISMDataUploadManager_GetGuid_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/GetGuidResponse" message="tns:ISMDataUploadManager_GetGuid_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterPosting">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/RegisterPosting" message="tns:ISMDataUploadManager_RegisterPosting_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/RegisterPostingResponse" message="tns:ISMDataUploadManager_RegisterPosting_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UnRegisterPosting">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/UnRegisterPosting" message="tns:ISMDataUploadManager_UnRegisterPosting_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/UnRegisterPostingResponse" message="tns:ISMDataUploadManager_UnRegisterPosting_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterFileUpload">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/RegisterFileUpload" message="tns:ISMDataUploadManager_RegisterFileUpload_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/RegisterFileUploadResponse" message="tns:ISMDataUploadManager_RegisterFileUpload_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UnRegisterFileUpload">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/UnRegisterFileUpload" message="tns:ISMDataUploadManager_UnRegisterFileUpload_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/UnRegisterFileUploadResponse" message="tns:ISMDataUploadManager_UnRegisterFileUpload_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterSecuritiesForUpdates">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/RegisterSecuritiesForUpdates" message="tns:ISMDataUploadManager_RegisterSecuritiesForUpdates_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/RegisterSecuritiesForUpdatesResponse" message="tns:ISMDataUploadManager_RegisterSecuritiesForUpdates_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UnRegisterSecuritiesForUpdates">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/UnRegisterSecuritiesForUpdates" message="tns:ISMDataUploadManager_UnRegisterSecuritiesForUpdates_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/UnRegisterSecuritiesForUpdatesResponse" message="tns:ISMDataUploadManager_UnRegisterSecuritiesForUpdates_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterDownstreamPosting">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/RegisterDownstreamPosting" message="tns:ISMDataUploadManager_RegisterDownstreamPosting_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/RegisterDownstreamPostingResponse" message="tns:ISMDataUploadManager_RegisterDownstreamPosting_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UnRegisterDownstreamPosting">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/UnRegisterDownstreamPosting" message="tns:ISMDataUploadManager_UnRegisterDownstreamPosting_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/UnRegisterDownstreamPostingResponse" message="tns:ISMDataUploadManager_UnRegisterDownstreamPosting_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterTimeSeriesLock">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/RegisterTimeSeriesLock" message="tns:ISMDataUploadManager_RegisterTimeSeriesLock_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/RegisterTimeSeriesLockResponse" message="tns:ISMDataUploadManager_RegisterTimeSeriesLock_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UnRegisterTimeSeriesLock">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/UnRegisterTimeSeriesLock" message="tns:ISMDataUploadManager_UnRegisterTimeSeriesLock_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/UnRegisterTimeSeriesLockResponse" message="tns:ISMDataUploadManager_UnRegisterTimeSeriesLock_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterBBGAuditLock">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/RegisterBBGAuditLock" message="tns:ISMDataUploadManager_RegisterBBGAuditLock_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/RegisterBBGAuditLockResponse" message="tns:ISMDataUploadManager_RegisterBBGAuditLock_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UnRegisterBBGAuditLock">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/UnRegisterBBGAuditLock" message="tns:ISMDataUploadManager_UnRegisterBBGAuditLock_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/UnRegisterBBGAuditLockResponse" message="tns:ISMDataUploadManager_UnRegisterBBGAuditLock_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableModules">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/GetAvailableModules" message="tns:ISMDataUploadManager_GetAvailableModules_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/GetAvailableModulesResponse" message="tns:ISMDataUploadManager_GetAvailableModules_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPostingLocks">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/GetPostingLocks" message="tns:ISMDataUploadManager_GetPostingLocks_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/GetPostingLocksResponse" message="tns:ISMDataUploadManager_GetPostingLocks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ClearPostingLocks">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISMDataUploadManager/ClearPostingLocks" message="tns:ISMDataUploadManager_ClearPostingLocks_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISMDataUploadManager/ClearPostingLocksResponse" message="tns:ISMDataUploadManager_ClearPostingLocks_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ISMDataUploadManager" type="tns:ISMDataUploadManager">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Register">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/Register" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnRegister">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/UnRegister" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterPriorRule">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/RegisterPriorRule" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnRegisterPriorRule">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/UnRegisterPriorRule" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterCorpAction">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/RegisterCorpAction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnRegisterCorpAction">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/UnRegisterCorpAction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGuid">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/GetGuid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterPosting">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/RegisterPosting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnRegisterPosting">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/UnRegisterPosting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterFileUpload">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/RegisterFileUpload" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnRegisterFileUpload">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/UnRegisterFileUpload" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterSecuritiesForUpdates">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/RegisterSecuritiesForUpdates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnRegisterSecuritiesForUpdates">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/UnRegisterSecuritiesForUpdates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterDownstreamPosting">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/RegisterDownstreamPosting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnRegisterDownstreamPosting">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/UnRegisterDownstreamPosting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterTimeSeriesLock">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/RegisterTimeSeriesLock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnRegisterTimeSeriesLock">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/UnRegisterTimeSeriesLock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterBBGAuditLock">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/RegisterBBGAuditLock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnRegisterBBGAuditLock">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/UnRegisterBBGAuditLock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableModules">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/GetAvailableModules" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPostingLocks">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/GetPostingLocks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearPostingLocks">
+      <soap:operation soapAction="http://tempuri.org/ISMDataUploadManager/ClearPostingLocks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SMDataUploadManager">
+    <wsdl:port name="BasicHttpBinding_ISMDataUploadManager" binding="tns:BasicHttpBinding_ISMDataUploadManager">
+      <soap:address location="http://localhost/SecMasterService/SMDataUploadManagerService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

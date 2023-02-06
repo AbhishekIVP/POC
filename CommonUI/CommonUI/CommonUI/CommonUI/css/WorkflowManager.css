@@ -1,0 +1,621 @@
+﻿body {
+    background-color: #F0F3F6 !important;
+    font-family: sans-serif;
+}
+
+input[type=checkbox], input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+
+.sm_toggleContainer {
+    width: 100px;
+    height: 18px;
+    border-radius: 1px;
+    background-color: transparent;
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.sm_toggleBtn {
+    width: 30px;
+    height: 18px;
+    border-radius: 1px;
+    background-color: #75e0cc;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    font-size: 10px;
+    top: -19px;
+    padding-top: 2px;
+    text-align: center;
+}
+
+
+.workflowSetup_EmailStatePopUp {
+    width: 100%;
+    overflow-y: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family:'lato';
+    font-size:12px;
+}
+
+.keepApplicatioURLInFooterCheckbox {
+    display: inline-flex;
+    width: 32%;
+    margin-left: 60px
+}
+
+.SendConsolidatedEmailForBulkActionToggle {
+    display: inline-flex;
+    width: 25%;
+}
+
+.ViewEmailTemplate {
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+.SubjectDetails {
+    display: inline-flex;
+    margin-left: 45px;
+    width: 550px;
+    height: 23.14px;
+}
+
+.EnvironmentName {
+    display: inline-flex;
+    width: 15%;
+    border: 0px;
+    margin-right: 3px;
+    line-height: 22px
+}
+
+
+.BulkSubjectDetails {
+    display: inline-flex;
+    margin-left: 13px;
+    width: 550px;
+    height: 23.14px;
+    padding-left: 3px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+
+.TitleLine {
+    /*display: block;
+    font-weight: normal;
+    color: #121507;
+    font-size: 12px;
+    font-family: 'Lato';
+    width: 97%;
+    border: 0px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+    margin-left: 10px;
+    height: 40px;
+    column-count: 1;
+    border: none;
+    outline: none;*/
+    height:0;
+    display:none;
+}
+
+.StaticLine {
+    display: block;
+    font-size: 12px;
+    width: 97%;
+    border: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: normal;
+    color: #121507;
+    margin-left: 10px;
+    height: 40px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.DataSection {
+    width: 97%;
+    height: 40%;
+    margin-left: 12px;
+    margin-bottom: 5%;
+    margin-top: 90px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+
+.FooterSection {
+    display: block;
+    width: 97%;
+    margin-bottom: 5px;
+    margin-top: 7%;
+    margin-left: 10px;
+}
+
+.WorkflowName {
+    border: 0px;
+    text-align: left;
+    width: 20%;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.WorkflowTemplateName {
+    border: 0px;
+    width: 20%;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+.autocomplete-items-for-action {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete-items-for-action div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-items-for-action div:hover {
+    background-color: #e9e9e9;
+}
+
+.autocomplete-items-for-action-active {
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+}
+
+.sm_toggleText {
+    background-color: #f9f3f5;
+    font-size: 10px;
+    color: #888;
+    width: 30px;
+    padding-top: 3px;
+    display: inline-block;
+    text-align: center;
+}
+
+.sm_workFlowDisableDiv {
+    background-color: #fff;
+    filter: alpha(opacity=50);
+    opacity: 0.6;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+
+.workFlowDetailsError_popupContainer {
+    box-shadow: 5px 7px 22px -7px #6D6D6D;
+    /* background-image: url(images/popup_texture.png); */
+    background-color: #fff;
+    background-repeat: repeat;
+    min-height: 140px;
+    font-family: Lato;
+    border: 1px solid #D4D4D4;
+    border-top: 0px;
+    position: absolute;
+    top: 0px;
+    padding-top: 5px;
+    width: 400px;
+    margin-left: 40%;
+    z-index: 100000;
+}
+
+/*.workFlowDetailsError_popupHeader {
+    margin-left: 50px;
+    margin-top: 20px;
+}*/
+.workFlowDetailsError_popupHeader {
+    margin-left: 19px;
+    margin-top: 5px;
+}
+
+.workFlowDetailsError_popupMessageContainer {
+    margin-left: 25px;
+    margin-top: 10px;
+    /*width: 340px;*/
+    height: 80px;
+    font-size: 14px;
+    /*overflow-x: scroll;
+    overflow-y: scroll;*/
+}
+
+#workFlowDetailsError_popupCloseBtn {
+    float: right;
+    position: relative;
+    right: 2%;
+    cursor: pointer;
+}
+
+.workFlowDetailsError_imageContainer {
+    display: inline-block;
+}
+
+.workFlowDetailsError_messageContainer {
+    display: inline-block;
+}
+
+.workFlowDetailsError_popupTitle {
+    font-family: Lato;
+    font-size: 24px;
+}
+
+.workFlowDetailsError_messageContainer {
+    position: relative;
+    top: 4px;
+}
+
+.workFlowDetailsError_popupMessage {
+    font-family: Lato;
+}
+
+/*RuleState popup styling*/
+.RuleStatePopUp_HeaderSection {
+    font-size: 14px;
+    font-family: oswald;
+    font-weight: normal;
+    margin-top: 10px;
+    /*width :100%;*/
+}
+
+
+.EmailStatePopUp_HeaderSection {
+    font-size: 14px;
+    font-family: oswald;
+    font-weight: normal;
+    height: 40px;
+    background-color: white;
+    margin-bottom: 0.3%;
+}
+
+.SaveConfiguration {
+    font-family: Lato;
+    height: 22px;
+    border: 0 #ea9747;
+    background: #ea9747;
+    border-radius: 2px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    outline: none;
+    font-size: 13px;
+    text-align: center;
+    width: 90px;
+    color: #fff;
+    position: relative;
+    line-height: 21px;
+    right: 25px;
+    float: right;
+    top: 15px;
+    text-transform: capitalize;
+}
+
+
+.Headings {
+    width: 100%;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.Action {
+    display: inline-block;
+    position: relative;
+    /* width: 100px; */
+    margin-left: 70px;
+    margin-right: 47px;
+}
+
+.ApplicationURL {
+    width: 116px;
+    display: inline-block;
+    position: relative;
+    margin-left: 140px;
+}
+
+.ConsolidatedEmail {
+    display: inline-block;
+    position: relative;
+    width: 153px;
+    margin-left: 98px;
+}
+
+.EmailTemplate {
+    position: relative;
+    margin-left: 110px;
+    display: inline-block;
+}
+
+#RulestatePopupContainer {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 1px 2px 5px 0px #aaaaaa;
+    z-index: 99999 !important;
+    border-style: solid #D4D4D4;
+    width: 1000px;
+    float: right;
+}
+
+#EmailstatePopupContainer {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 1px 2px 5px 0px #aaaaaa;
+    z-index: 99999 !important;
+    border-style: solid #D4D4D4;
+    width: 1000px;
+    float: right;
+}
+
+
+.PopupHorizontalAlign {
+    display: inline-block;
+    padding-left: 1.3%;
+    /*margin-top: 0.6%;*/
+}
+
+.workflowSetup_StateName {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.workflowSetup_ActionName {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: auto;
+    text-overflow: inherit;
+    margin-bottom: 13px;
+    margin-top:9px;
+    font-weight:bold;
+}
+
+
+.PopupHorizontalAlign workflowSetup_ActionName {
+    margin-top: 9px;
+    font-weight: bold;
+
+}
+
+.MailHeaderSection {
+    width: 100%;
+    font-size: 13px;
+    color: #696969;
+    height:25%
+}
+
+.MailBodySection {
+    width: 99%;
+    margin-top: 27px;
+    display: inline-flex;
+    height: 68%;
+}
+.options_for_each_action {
+    display: inline-block;
+    width: 74%;
+    margin-left: 10px;
+}
+
+
+.KeepCreatorInCC {
+    float: right;
+    font-size: 15px;
+    margin-right: -150px;
+    display: inline-block;
+}
+
+.To {
+    display: inline-block;
+    /* margin: 10px 26px; */
+    margin-left: 27px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.CC {
+    display: inline-block;
+    /* margin: 10px 26px; */
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.Subject {
+    margin-top: 5px;
+    display: inline-flex;
+    /* margin: 10px 26px; */
+    margin-left: 27px;
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+.SubjectLine {
+    width: 550px;
+    margin-top: 1px;
+    background-color: #f8f8f8;
+    border: 0px;
+    border-bottom: 1px solid black;
+    cursor:text;
+}
+
+.BulkUpdateSubjectLine {
+    width: 550px;
+    border: 0px;
+    margin-top: 1px;
+    border-bottom: 1px solid black;
+    background: transparent;
+    cursor:text;
+}
+
+.BulkSubject {
+    display: inline-flex;
+    /* margin: 10px 26px; */
+    margin-left: 27px;
+    margin-top: 5px;
+}
+
+.RuleCheckboxClass {
+    display: inline-block;
+    width: 79%;
+    vertical-align: central;
+    /*align-content:center;*/
+}
+
+.CheckboxStyleMandatory {
+    width: 14%;
+}
+
+.CheckboxStyle {
+    width: 12%;
+}
+
+.CheckboxStyleUnique {
+    width: 12%;
+}
+
+.CheckboxAlertStyle {
+    width: 13%;
+}
+
+.CheckboxStyleValidation {
+    width: 12%;
+}
+
+#AlertHeader {
+    position: relative;
+    padding-left: 30px;
+}
+
+.CheckboxStyleBasket {
+    width: 16%;
+}
+
+.workflowSetup_RuleStatePopUp {
+    font-size: 14px;
+    font-weight: normal;
+    display: inline-block;
+    font-family: Lato;
+    color: #546c86;
+    letter-spacing: 0.5px;
+    padding-top: 1.5%;
+}
+
+
+
+#RuleStateErrorPopUp {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    color: red;
+    display: none;
+    font-size: 12px;
+    padding-left: 15px;
+    font-family: Lato;
+}
+
+.ActionsSummary {
+    width: 50%;
+    background-color: aliceblue;
+    height: 92%;
+    overflow-y: auto;
+}
+
+#ActionStateErrorPopUp {
+    position:absolute;
+    bottom:0;
+    /*padding-top: 130px;*/
+    padding-bottom: 10px;
+    display: inline-block;
+    color: red;
+    display: none;
+    font-size: 12px;
+    padding-left: 15px;
+    font-family: Lato;
+}
+
+input.SubjectLine[disabled] {
+    background-color: rgb(248, 248, 248);
+}
+
+input.BulkUpdateSubjectLine[disabled] {
+    background-color: rgb(248, 248, 248);
+}
+
+textarea.TitleLine[disabled] {
+    background-color: white;
+}
+
+textarea.StaticLine[disabled] {
+    background-color: white;
+}
+
+/*.RuleCheckboxHeader{
+    text-align:center;
+}*/
+.popupcaretstyle {
+    border-bottom-color: #fff;
+    border-bottom-style: inset;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-left-style: inset;
+    border-right-color: rgba(0, 0, 0, 0);
+    border-right-style: solid;
+    border-top-color: rgba(0, 0, 0, 0);
+    border-top-style: inset;
+    border-width: 15px;
+    color: #D4D4D4;
+    /*display: none;*/
+    font-size: 16px;
+    height: 0px;
+    left: -15px;
+    position: absolute;
+    top: -13.7px;
+    width: 0px;
+}
+
+.Popup_Outer_Div_Pointer {
+    position: absolute;
+    border-bottom-color: #aca4b3;
+    border-bottom-style: inset;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-left-style: inset;
+    border-right-color: rgba(0, 0, 0, 0);
+    border-right-style: solid;
+    border-top-color: rgba(0, 0, 0, 0);
+    border-top-style: inset;
+    border-width: 10px;
+    color: #333;
+    font-size: 16px;
+    height: 0px;
+    width: 0px;
+    z-index: 200;
+    display: none;
+}
+
+.ColumnWidthForRefMaster {
+    width: 15%;
+}

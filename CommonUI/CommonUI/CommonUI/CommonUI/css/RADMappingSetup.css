@@ -1,0 +1,1263 @@
+﻿
+.RMapSetupMain
+{
+    width: 100%;
+	height: 100%;
+}
+
+.RMapSetupLeftMain
+{
+    width: 20%;
+	height: 100%;
+	background-color: #FBF9F9;
+	display: inline-block;
+
+}
+
+.RMapSetupLeftHeaderMain
+{
+    height: 60px;
+	padding-top: 15px;
+	padding: 0 15px;
+	padding-top: 15px;
+
+}
+
+.RMapSetupLeftSearchMain
+{
+    width: 80%;
+	float: left;
+	height: 30px;
+
+}
+
+.RMapSetupLeftSearchParent
+{
+    float: left; 
+	height: 30px; 
+	line-height: 30px;
+
+}
+
+.RMapSetupLeftSearchView
+{
+    font-size: 17px;
+	color: #808082;
+	transform: rotate(90deg);
+	height: 20px;
+	width: 20px;
+}
+
+.RMapSetupSearchInput
+{
+    font-size: 12px;
+	font-family: Lato;
+	border: 0 none;
+	height: 30px;
+	margin-right: 0;
+	color: #808080;
+	outline: none;
+	/*background: #808080;*/ 
+	box-sizing: border-box;
+	border-bottom: 1px solid #00bff0;
+	padding-left: 10px;
+	width: 80%;
+	float: left;
+
+}
+
+.RMapSetupDisplayNone
+{
+     display:none !important; 
+}
+
+.RMapSetupCreateParent
+{
+    height: 25px;
+	width: 25px;
+	float: right;
+
+}
+
+.btnRMapSetupCreate
+{
+    color: #63E3CC;
+	font-size: 24px;
+	display: inline-block;
+	float: right;
+	cursor: pointer;
+
+}
+
+.RMapSetupLeftContentMain
+{
+    overflow-y: scroll;
+}
+
+.RMapSetupLeftContentMain::-webkit-scrollbar
+{
+    display: none; 
+}
+
+.RMapInfoParent
+{
+     padding: 5px 17px 5px 17px;
+     width: 100%;
+}
+
+.RMapInfoChild
+{
+    border: 1px solid #E9E9E9;
+    height: 40px;
+    line-height: 50px;
+    border-radius: 3px;
+    background: #F9F9FB;
+    position: relative;
+    display: inline-block;    
+    height: 50px;
+    position: relative;
+    width: 100%;    
+}
+
+.RMapInfoActive
+{
+   border-left-width: 5px !important;
+   border-left-color: #00BFF0! important;
+   box-shadow: 0px 0px 9px 0px rgba(136, 130, 130, 0.19);
+   -moz-box-shadow: 0px 0px 9px 0px rgba(136, 130, 130, 0.19);
+   -webkit-box-shadow: 0px 0px 9px 0px rgba(136, 130, 130, 0.19);
+   background-color :White;   
+}
+
+.RMapInfoName
+{
+   padding-left: 22px;
+   border: #E9E9E9;
+   border-radius: 3px;
+   vertical-align:top;
+   height: 25px;
+   line-height: 25px;
+   font-weight: normal;
+   font-size: 14px;
+   color: #676161;
+   font-family: Lato;
+   cursor:pointer;
+   font-weight: bold;
+   text-overflow: ellipsis;
+   overflow: hidden;
+   white-space: nowrap;
+}
+
+.RMapInfoType
+{
+    height: 20px;
+    line-height: 20px;    
+    font-family: Lato;
+    font-size: 12px;
+    padding-left: 22px;
+}
+
+.RMapSetupArrowRight
+{
+    position: absolute;
+	color: #00BFF0;
+	font-size: 22px;
+	right: -10px;
+	vertical-align: top;
+	top: 9px;
+
+}
+
+.RMapSetupScrollMain
+{
+    height: 40px;
+	line-height: 40px;
+	width: 100%;
+
+}
+
+.RMapSetupScrollDownParent
+{
+    width: 50%;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+
+}
+
+.RMapSetupScrollDown
+{
+    width: 100%;
+	color: #DEDBDE;
+	font-size: 34px;
+	cursor: pointer;
+	height: 40px;
+	width: 21px;
+
+}
+
+.RMapSetupScrollUpParent
+{
+    width: 50%;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+
+}
+
+.RMapSetupScrollUp
+{
+    width: 100%;
+	color: #DEDBDE;
+	font-size: 34px;
+	cursor: pointer;
+	height: 40px;
+	width: 21px;
+
+}
+
+.RMapSetupRightMain
+{
+    width: 80%;
+	height: 100%;
+	float: right;
+	display: inline-block;
+	background-color: #FFFFFF;
+
+}
+
+.RMapSetupRightHeaderMain
+{
+    height: 30px;
+    width:100%;
+}
+
+.RMapSetupRightHeaderLeft
+{
+    width: 60%;
+    float:left;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    font-family: oswald;
+    font-size: 15px;
+    color: #AE8F7F;
+}
+
+.RMapSetupRightHeaderRight
+{
+    width: 40%;
+    float:right;
+    height: 30px;
+    line-height: 30px;
+}
+
+.RMapSetupAddMapParent
+{
+    padding: 0 5px;
+	float:right;
+
+}
+
+.RMapSetupAddMap
+{  
+	border-radius: 2px;
+	background-color: #61E2CC;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	cursor: pointer;
+	height: 20px;
+	line-height: 19px;
+
+}
+
+.RMapSetupAddMap:hover
+{
+	background-color: #53bfb1;
+	outline: none;
+}
+
+
+.RMapDetailsContentMain
+{
+    width: 100%;
+    height:100%
+
+}
+
+.RMapDetailsGridContentParent
+{
+    width: 100%;
+    height:100%
+
+}
+
+.RADMappingDetailsGrid
+{
+    width: 100%;
+    height:100%
+
+}
+
+.RMapDetailUpdateParent
+{
+    height: 25px;
+	width: 25px;
+	float: left;
+
+}
+
+.btnRMapDetailUpdate
+{
+    color: lightgray;
+	font-size: 15px;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+
+}
+
+.RMapDetailDeleteParent
+{
+    height: 25px;
+	width: 25px;
+	float: left;
+
+}
+
+.btnRMapDetailDelete
+{
+    color: lightgray;
+    font-size: 15px;
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+}
+
+.RMapDetailsUpdateMain
+{
+   width: 100%;
+   height: 100%;
+   background: transparent;
+   position: absolute;
+   top: 0px;
+   padding-top: 100px;
+}
+.RMapDetailsUpdateContent
+{
+    width: 40%;
+    height: 180px;
+    background-color: white;
+    margin: 0 auto;
+    top: 134px;
+    box-shadow: 0px 0px 21px #a9a9a9;
+    border-radius: 2px;
+}
+.RMapDetailsHeaderSection
+{
+    width:100%;
+
+}
+.RMapDetailsHeaderParent
+{
+    height: 35px;
+    padding-left: 10px;
+    padding-top: 9px;
+    border-bottom: 1px solid #e3ddd9;
+}
+.RMapDetailsHeader
+{
+    width: 96%;
+    float: left;
+    color: #AE8F7F;
+    font-size: 15px;
+    font-family: Lato;
+
+}
+.RMapDetailsRemove
+{
+    float: left;
+    width: 3%;
+
+}
+.RMapDetailsErrorParent
+{
+    height: 35px;
+    padding-left: 25px;
+    padding-top: 9px;
+
+}
+.RMapDetailsError
+{
+    width: 96%;
+    float: left;
+    color: red;
+    font-size: 13px;
+    font-family: Lato;
+}
+.RMapDetailsBodySection
+{
+
+}
+.RMapDetailsBodyMain
+{
+    width: 100%;
+}
+.RLookupColmnParent
+{
+    width: 100%;
+    /* padding-top: 10px; */
+    padding: 5px;
+    height: 40px;
+}
+.RLookupColmnLabel
+{
+    width: 50%;
+    text-align: left;
+    background-color: rgb(240, 240, 240);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: rgb(111, 111, 111);
+    text-transform: capitalize;
+    float: left;
+    font-family: Lato;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    /* padding-top: 10px; */
+}
+.RLookupColmnValue
+{   
+    float: right; 
+    height: 30px;
+    line-height: 14px;
+    width: 50%;
+    display: inline-block;    
+    font-family: Lato;
+    vertical-align: middle;
+    text-align: left;
+    border-style: none;
+    border-image: initial;
+    outline: none;    
+    padding-bottom: 0px;
+    top: 0px;
+    font-size: 12px;
+    padding-top: 10px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(240, 240, 240);
+    border-left: 0px;
+}
+.RLookupColmnValueText
+{
+
+}
+.RTargetColmnParent
+{
+    width: 100%;
+    /* padding-top: 10px; */
+    /* padding: 12px 5px; */
+    padding: 5px;
+    height: 40px;
+}
+.RTargetColmnLabel
+{
+     width: 50%;
+    text-align: left;
+    background-color: rgb(240, 240, 240);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: rgb(111, 111, 111);
+    text-transform: capitalize;
+    float: left;
+    font-family: Lato;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+}
+.RTargetColmnValue
+{
+   float: right; 
+    height: 30px;
+    line-height: 14px;
+    width: 50%;
+    display: inline-block;    
+    font-family: Lato;
+    vertical-align: middle;
+    text-align: left;
+    border-style: none;
+    border-image: initial;
+    outline: none;    
+    padding-bottom: 0px;
+    top: 0px;
+    font-size: 12px;
+    padding-top: 10px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(240, 240, 240);
+    border-left: 0px;
+}
+.RTargetColmnValueText
+{
+
+}
+.RMapDetailsFooterSection
+{
+    width: 100%;
+    padding: 5px;
+    height: 40px;
+}
+.RMapDetailsUpdateParent
+{
+    padding: 0 5px;
+    float: right;
+
+}
+.btnRMapDetailsUpdate
+{
+    border-radius: 2px;
+    background-color: #61E2CC;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    height: 20px;
+    line-height: 19px;
+
+}
+
+.RMapDetailsCancelParent
+{
+    padding: 0 5px;
+    float: right;
+
+}
+.btnRMapDetailsCancel
+{
+    border-radius: 2px;
+    background-color: #61E2CC;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    height: 20px;
+    line-height: 19px;
+
+}
+
+.RMapSetupLoader
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(../Images/preloader1.GIF);
+    z-index: 99999;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: absolute;
+    top: 0px;
+    opacity: 0.5;
+    
+}
+
+.RMapSwitch
+{
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 22px;
+  line-height: 22px;
+}
+
+.RMapSwitch input {display:none;}
+
+.RMapSlider
+{
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+
+}
+
+.RMapSlider:before {
+  position: absolute;
+  content: "";
+  height: 19px;
+  width: 19px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .RMapSlider {
+  background-color: #2196F3;
+}
+
+input:focus + .RMapSlider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .RMapSlider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(37px);
+}
+
+.RMapSlider.RMapSliderRound {
+  border-radius: 34px;
+}
+
+.RMapSlider.RMapSliderRound:before {
+  border-radius: 50%;
+}
+
+.RMapAddMapMain
+{
+   width: 100%;
+   height: 100%;
+   background: transparent;
+   position: absolute;
+   top: 95px;
+   /* padding-top: 100px; */
+}
+
+.RMapAddMapContent
+{
+    width: 57%;
+    max-height: 500px;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: 0px 0px 21px #a9a9a9;
+    border-radius: 2px;
+    /* overflow: auto; */
+}
+
+.RMapAddMapHeaderSection {}
+
+.RMapAddMapHeaderSection {}
+
+.RMapAddMapHeaderParent {
+    height: 35px;
+    padding-left: 25px;
+    padding-top: 9px;
+    border-bottom: 1px solid #e3ddd9;
+}
+
+.RMapAddMapHeader {
+    width: 96%;
+    float: left;
+    color: #AE8F7F;
+    font-size: 15px;
+    font-family: Lato;
+}
+
+.RMapAddMapRemove {
+    float: left;
+    width: 3%;
+}
+
+.RMapAddMapErrorParent {
+    height: 35px;
+    padding-left: 25px;
+    padding-top: 9px;
+}
+
+.RMapAddMapError
+{
+    color: red;
+    font-size: 12px;
+    font-family: Lato;
+}
+
+.RMapAddMapBodySection {}
+
+.RMapAddMapBodyMain {
+    width: 100%;
+}
+
+.RMapAddMapCommon {
+    width: 100%;
+}
+
+.RMapToggleButtonParent {
+    width: 49%;
+    /* padding-top: 10px; */
+    padding: 4px 5px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.RMapAddMapInputText {
+    width: 50%;
+    text-align: left;
+    background-color: rgb(240, 240, 240);
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: rgb(111, 111, 111);
+    text-transform: capitalize;
+    float: left;
+    font-family: Lato;
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 5px;
+}
+
+.RMapToogleButtonValueParent {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    border-left: 0px solid;
+    width: 50%;
+    display: inline-block;
+    /* padding-left: 8px; */
+    font-family: Lato;
+    vertical-align: middle;
+    text-align: left;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    top: -3px;
+    font-size: 12px;
+    /* padding: 4px 0 20px 4px; */
+    border: 0px !important;
+}
+
+.RMapToogleButtonValue {
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: top;
+    /* border: 1px solid lightgray; */
+    width: 107px;
+    background-color: #E5E5E5;
+    text-align: center;
+    color: #777777;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.RMapToogleButtonValueHighLight {
+    background-color: #00BEEF !important;
+    color: white !important;
+}
+
+.RMapAddMapInputParent {
+    width: 49%;
+    /* padding-top: 10px; */
+    padding: 4px 5px;
+    height: 30px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+}
+
+.RMapAddMapInputValue {
+    float: right;
+    height: 22px;
+    line-height: 22px;
+    width: 50%;
+    display: inline-block;
+    font-family: Lato;
+    vertical-align: middle;
+    text-align: left;
+    border-style: none;
+    border-image: initial;
+    outline: none;
+    padding-bottom: 0px;
+    top: 0px;
+    font-size: 12px;
+    /* padding-top: 10px; */
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(240, 240, 240);
+    border-left: 0px;
+}
+
+.RMapToggleParent {
+    width: 100%;
+    /* padding-top: 10px; */
+    padding: 4px 5px;
+    height: 30px;
+    /* display: none; */
+    width: 49%;
+    /* padding-top: 10px; */
+    padding: 4px 5px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.RMapToogleValueParent {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    border-left: 0px solid;
+    width: 48%;
+    display: inline-block;
+    padding-left: 8px;
+    font-family: Lato;
+    vertical-align: middle;
+    text-align: left;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    top: -3px;
+    font-size: 12px;
+    /* padding: 4px 0 20px 4px; */
+    border: 0px !important;
+}
+
+.RMapFileUploadParent
+{
+    width: 100%; 
+    background-color: white;
+    box-shadow: 0px 0px 21px #a9a9a9;
+    padding: 0 10px;
+    padding-bottom: 10px;
+
+}
+
+.RMapUploadPopUp
+{
+     width: 100%;    
+    border-radius: 2px;
+
+}
+
+.RMapUploadPopHeader
+{
+    height: 35px;
+    padding-left: 25px;
+    padding-top: 9px;
+    border-bottom: 1px solid #e3ddd9;
+
+}
+
+.RMapUploadPopHeaderName
+{
+    width: 96%;
+    float: left;
+    color: #AE8F7F;
+    font-size: 15px;
+    font-family: Lato;
+}
+
+.RMapUploadMessage
+{
+    padding-left: 25px;
+    color: red;    
+    padding-top: 2px;
+    font-size: 12px;
+    font-family: Lato;
+
+}
+
+.RMapUploadFileDoc
+{
+    border: 4px dashed;
+    border-color: #EAE3E3;    
+
+}
+
+.RMapUploadButton
+{
+    color: #e2e0e0 !important;
+    font-size: 25px;    
+    top: 45px;    
+    width: 100%;
+    text-align: center;
+}
+
+.RMapDropDiv
+{
+    height: 29px;
+    font-size: 20px;    
+    cursor: pointer;    
+    color: #B4ADAC;
+    text-align: center;
+
+}
+
+.RMapParentDropDrag
+{
+    text-align: center;    
+    padding-top: 15px;
+
+}
+
+.RMapAddMapFooterSection
+{
+    width: 100%;
+    padding: 5px;
+    height: 40px;
+}
+
+.RMapAddMapAddParent
+{
+    padding: 0 5px;
+    float: right;
+
+}
+
+.btnRMapAddMapUpdate
+{
+    border-radius: 2px;
+    background-color: #61E2CC;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    height: 20px;
+    line-height: 19px;
+
+}
+
+.RMapAddMapCancelParent
+{
+    padding: 0 5px;
+    float: right;
+
+}
+
+.btnRMapAddMapCancel
+{
+    border-radius: 2px;
+    background-color: #61E2CC;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    height: 20px;
+    line-height: 19px;
+
+}
+
+.RMapInfoUpdate
+{
+    height: 45px;
+    width: 25px;
+    float: right;
+    line-height: 45px;
+    color: lightgrey;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.RMapInfoDelete
+{
+    height: 45px;
+    width: 25px;
+    float: right;
+    line-height: 45px;
+    color: lightgray;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.btnRMapInfoUpdate
+{
+    color: #63E3CC;
+	font-size: 15px;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+
+}
+
+.RMapInfoChildNameType
+{
+    width:80%;
+    float:left;
+
+}
+
+.RMapSelectionParent
+{
+    width: 100%;
+    font-family: Lato;
+    font-size: 12px;
+    width: 16%;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    font-size: 13px;
+    font-family: lato;
+    text-align: center;
+    width: 50%;
+}
+
+.RMapSelection
+{
+    float: left;
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    position: relative;
+}
+
+.RMapSelectionText 
+{
+    width: 100%;
+    font-size: 12px;
+    height: 22px;
+    line-height: 21px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.RMapEntitySelectionText:before
+{
+    content: "\f0d7";
+    font-family: FontAwesome;
+    position: absolute;
+    right: 7px;
+    top: 0px;
+    color: #7C7C7C;
+    font-size: 16px;
+}    
+
+.RMapEntitiesMainDiv
+{
+    width: 100%;
+    max-height : 200px;
+    overflow: auto;
+    position: absolute;
+    background-color: white;
+    z-index: 999;
+    padding: 5px;
+    box-shadow: -1px 1px 10px #a9a9a9;
+    border-radius: 4px;
+    top: 24px;
+}
+
+.RMapEntitiesDropDownParent
+{
+     width: 100%;
+    overflow: auto;
+    background-color: white;
+    z-index: 999;
+
+}
+
+.RMapEntitiesDropDownChild
+{
+    width: 90%;
+    font-family: Lato;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    cursor: pointer;
+    text-align: left;
+    float:left;
+
+
+}
+.RMapEntitiesDropDownChild:hover
+{
+    border-left:2px solid #00BFF0;
+    padding-left:3px;
+}
+
+.RMapAddMapInputValidation {
+    position: absolute;
+    height: 22px;
+    line-height: 22px;
+    width: 15px;
+    right: 0px;
+    background-color: #DE8A8A;
+    text-align: center;
+    color: white;
+}
+
+.RMapAlertMain {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    top: 0px;
+    padding-top: 100px;
+}
+
+.RMapAlertContent {
+    box-shadow: 5px 7px 22px -7px #6D6D6D;
+    background-image: url(images/popup_texture.png);
+    min-height: 150px;
+    font-family: Lato;
+    border: 1px solid #D4D4D4;
+    border-top: 0px;
+    position: absolute;
+    background-color: white;
+    left: 40%;
+    width: 400px;
+    z-index: 100000316;
+}
+
+.RMapAlertHeaderLine {
+    height: 4px;
+    width: 100%;
+    background-color: red;
+}
+
+.RMapAlertHeaderParent {
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.RMapAlertHeaderIcon {
+    width: 10%;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.RMapAlertHeaderMessage {
+    width: 90%;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    font-size: 20px;
+    color: red;
+    font-family: Lato;
+}
+
+
+.RMapAlertMessageBody {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    font-size: 13px;    
+    font-family: Lato;
+    padding: 5px;
+}
+
+.RMapAlertFooterMain {
+    width: 100%;
+    padding: 5px;
+    height: 40px;
+}
+
+.RMapAlertFooterParent {
+    padding: 0 5px;
+    float: right;
+    /* width: 50px; */
+}
+
+.RMapAlertFooterButton {
+    border-radius: 2px;
+    background-color: #61E2CC;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    height: 20px;
+    line-height: 19px;
+    width: 50px;
+}
+
+.RMapSearchDisplayNone
+{
+    display:none;
+}
+
+.RMapDropDownChildTick
+{
+    width:10%;    
+    height: 25px;
+    line-height: 25px;
+    float:right;
+}
+
+.RMapEntitiesDropDownChildParent
+{
+    width:100%;    
+    /*height: 25px;
+    line-height: 25px;*/
+}
+
+span.RMapNMoreClass 
+{
+    color: #00bcef;
+    cursor: pointer;
+}
+
+.RMapQtipParent
+{
+    
+}
+
+.RMapQtipChildParent
+{
+    
+    height:20px;
+    line-height:20px;
+}
+
+.RMapQtipChild
+{
+
+}
+
+.RMappingTab
+{
+    width:100%;
+    height:35px;
+    background-color: #7c7c7c;
+}
+
+
+
+
+

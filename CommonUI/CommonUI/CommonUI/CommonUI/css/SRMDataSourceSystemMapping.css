@@ -1,0 +1,658 @@
+/*.item {
+    border: 1px solid blue;
+    height:80px;
+    width: 80px;
+}
+.ds {
+    width:100px;
+    height:100px;
+    border:1px solid brown;
+    margin-left:50px;
+}
+.down{
+    width:100%;
+    height:auto;
+}
+.itemin{
+    margin-top:150px;
+    margin-bottom:100px;
+    border:2px pink solid;
+    width:100px;
+    height:100px;
+}*/
+
+.semdatasourceSystem_mapping_parent_div {
+    /*margin-left:0.5%;*/
+    /*margin-top: 1px;*/
+    /* margin-top: 0%; */
+}
+
+.horizontal_align_test_up {
+    display: inline-block;
+    /*padding:3.5%;*/
+}
+
+.horizontal_align_test_down {
+    display: inline-block;
+    /*padding:3.5%;*/
+}
+
+.horizontal_align_test_entity {
+    /*display:inline-block;*/
+    /* padding:3.5%; */
+    /*width:40%;*/
+}
+
+.grid_align_test {
+    display: inline-block;
+}
+
+.srmdatasourcesystemmap_parent {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #fafafa;
+}
+
+.srmdatasourcesystemmap_container {
+    /*margin-left:10%;*/
+    margin: auto;
+    width: 830px;
+}
+
+.srmdatasourcesystemmap_partition_grid {
+    width: 39.8%;
+    vertical-align: top;
+    background-color: #f0f0f0;
+}
+
+.srmDataSourceSystemMapping_upstreamcontainer {
+    /*height set in js line 97*/
+    /*width:20%;*/
+    /*margin-top:2%;*/
+    display: inline-block;
+    /*padding:3.5%;*/
+    /*padding-left:3.5%;
+     padding-right:3.5%;*/
+    /*background-color:#f5f2ec;*/
+    /*box-shadow: 3px 0px 10px -3px #dcdcdc;*/
+    vertical-align: top;
+    margin-left: 4%;
+}
+
+.srmDataSourceSystemMapping_downstreamcontainer {
+    /*height set in js line 97*/
+    /*width:20%;*/
+    /*margin-top:2%;*/
+    display: inline-block;
+    /*padding:3.5%;*/
+    /*padding-left:3.5%;
+     padding-right:3.5%;*/
+    /*margin-left: 10%;*/
+    vertical-align: top;
+}
+
+
+.srmdatasourcesystemmapping_arrow {
+    display: inline-block;
+    background-image: url('images/arrow.png');
+    background-repeat: no-repeat;
+    align-content: center;
+    /*background: url(App_Themes/CreateUpdate/images/association/arrow.png) no-repeat 50% 50%;*/
+    width: 14px;
+    height: 35px;
+    /*padding: 0px 10px 0px 10px;*/
+    vertical-align: top;
+    /*margin-top:14px;*/
+}
+
+.srmDataSourceSystemMapping_setmargin_right {
+    margin-right: 12%;
+    margin-left: 10%;
+}
+
+.srmDataSourceSystemMapping_setmargin_left {
+    margin-left: 24%;
+}
+
+.srmDataSourceSystemMapping_down_arrow {
+    display: inline-block;
+    background-image: url('images/downstream.png');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 15px;
+    vertical-align: middle;
+    /*margin-top:1px;*/
+    /*margin-left: 8%;*/
+    /*vertical-align: top;*/
+}
+
+.srmDataSourceSystemMapping_up_arrow {
+    display: inline-block;
+    background-image: url('images/upstream.png');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 15px;
+    vertical-align: middle;
+    /*margin-left: 8%;*/
+    /*vertical-align: top;*/
+}
+
+.srmDataSourceSystemMapping_align_mid {
+    vertical-align: middle;
+    margin-bottom: 0px;
+}
+
+.SRMDataSourceItem {
+    /*border: 1px solid blue;*/
+    /*height:40px;*/
+    width: 201px;
+    margin: 8px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    color: #667a90;
+    box-shadow: 1px 1px 1px 1px #cdcdcd;
+}
+
+.SRMDataSourceName {
+    /*height:40px;*/
+    /* width: 100%; */
+    text-align: left;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    /*word-wrap:break-word;*/
+    padding: 5px;
+    padding-left: 10px;
+}
+
+/*.SRMDataSourceInfo {
+  height:40px;
+  width:100%;  
+  text-align:center;
+  line-height:40px;
+}*/
+
+.SRMSystemItem {
+    /*border: 1px solid blue;*/
+    /*height:40px;*/
+    /*width: 280px;
+  margin: 20px;
+  border-radius:20px;
+  background: #669a85;
+  color:white;*/
+    cursor: pointer;
+    width: 201px;
+    margin: 8px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    color: #667a90;
+    box-shadow: 1px 1px 1px 1px #cdcdcd;
+}
+
+.SRMSystemName {
+    /*height:40px;
+  width:100%;  
+  text-align:center;
+  line-height:40px;
+  font-size:20px;*/
+    /*width: 100%;*/
+    text-align: left;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    word-wrap: break-word;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+/*.SRMSystemInfo {
+  height:40px;
+  width:100%;  
+  text-align:center;
+  line-height:40px;
+}*/
+
+.SRMDataSourceType {
+    /*margin-top:150px;
+   margin-bottom:100px;*/
+    /*border:2px pink solid;*/
+    width: 140%;
+    /*height:50px;*/
+    border-radius: 4px;
+    background: #405b79;
+    /*margin: 0 auto;*/
+}
+
+.SRMDataSourceEntityName {
+    /*height: 52px;*/
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding:5px;
+    padding-left: 0px;
+    text-transform: uppercase;
+    /*word-wrap:break-word;*/
+}
+
+.SRMDataSourceSystemMappingInlineBlock {
+    display: inline-block;
+    /*margin-right:2%;
+    margin-left:2%;*/
+}
+
+
+.SRMDataSourceSystemMappingPanel {
+    width: 50%;
+    vertical-align: middle;
+}
+
+.SRMDataSourceSystemMappingPanelCenter {
+    width: 33%;
+    vertical-align: top;
+}
+
+
+
+.SRMDataSourceCircle {
+    color: #d1d1d1 !important;
+}
+
+/*#SRMDataSourceAndSystemMappingParent {
+   margin-top:25px;
+}*/
+
+.SRMDataSourceFloatRight {
+    /*float:right;*/
+    /*text-align:right;*/
+    margin-left: auto;
+}
+
+.SRMTabItem {
+    display: inline-block;
+    /*width: 100px;
+    background: grey;
+    text-align:center;
+    margin-left: 20px;
+    border-radius: 15px;
+    height: 30px;
+    margin-top: 5px;
+    line-height: 30px;
+    color: white;*/
+    /*font-size: 20px*/
+    margin-right: 36px;
+    padding: 2px;
+    padding-top: 3px;
+    color: rgb(75, 73, 73);
+    font-size: 14px;
+    cursor: pointer;
+    font-family: lato;
+    /* text-transform: uppercase; */
+}
+
+.SRMTabNamesHeader {
+    text-align: center;
+    height: 29px;
+    box-shadow: 0px 0px 10px 0px #cdcdcd;
+    padding-bottom: 5px;
+    top: 0px;
+    position: relative;
+}
+
+.SRMSelectedTabNamesHeader {
+    cursor: default;
+    color: #4197ce;
+}
+
+.SRMTabDiv {
+    margin: 0 auto;
+    padding-top: 1px;
+}
+
+.SRMHide {
+    display: none;
+}
+
+#SRMDataSourceAndSystemMappingParent {
+    /*margin: 50px auto;
+    width: 1500px;*/
+}
+
+#SRMDataSourceAndSystemMappingGrid {
+    /*height: 0px;*/
+    /*position:absolute;
+    top:30px;
+    right: 0px;
+    left: 400px;
+    /*width:0px;*/
+    /*display:none;*/
+    /*border-left:1px solid #e6e6e6;
+    border-bottom:1px solid #e6e6e6;*/
+}
+
+.closeDataSourceAndSystemMappingGrid {
+    text-align: right;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.SRMDataSourceAndSystemMappingGridHeader {
+    width: 100%;
+    height: 30px;
+}
+
+.ColumnNames {
+    font-weight: bold;
+    /*margin-left: 35%;*/
+    width: 96%;
+    /*margin-top: 5%;*/
+    border: 1px solid #d6e0e7;
+    /*border:1px solid #d6dfe7;*/
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: #f8f8f8;
+}
+
+.SRMDataSourceAndSystemMapping_head_cells {
+    display: inline-block;
+    /*font-weight: bold;*/
+    width: 29%;
+    /*color: #a6aab6;*/
+    color: #8a8787;
+    font-size: 12px;
+    font-family: Lato;
+    padding: 5px;
+    padding-left: 10px !important;
+}
+
+.SRMDataSourceAndSystemMapping_cells {
+    display: inline-block;
+    /*padding: 5px;*/
+    width: 30%;
+    font-size: 12px;
+    color: #23292f;
+    font-family: Lato;
+    /*font-weight: bold;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-left: px;
+    /* padding-right: 15px; */
+    word-wrap: break-word;
+    /* border-bottom: 0.5px solid #ededed; */
+}
+
+.SRMDataSourceAndSystemMapping_head_cells_report {
+    display: inline-block;
+    /*font-weight: bold;*/
+    /*width: 40%;*/
+    /*color: #a6aab6;*/
+    color: #8a8787;
+    font-size: 12px;
+    font-family: Lato;
+    padding: 5px;
+    padding-left: 10px !important;
+    /*padding-left: 19%;*/
+}
+
+.SRMDataSourceAndSystemMapping_cells_report {
+    display: inline-block;
+    /*padding: 5px;*/
+    width: 40%;
+    font-size: 12px;
+    color: #23292f;
+    font-family: Lato;
+    /*font-weight: bold;*/
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    word-wrap: break-word;
+    /* border-bottom: 0.5px solid #ededed; */
+}
+.SRMDataSourceAndSystemMapping_cells_Attr_width{
+    width: 32%;
+    /*margin-left: 19%;*/
+}
+.SRMDataSourceAndSystemMapping_cells_RAttr_width{
+    width:40%;
+        margin-left: 7%;
+}
+
+.row_container {
+       /* padding-left: 19%; */
+       /* margin-left: 10px; */
+       width: 96%;
+       /* padding-left: 5px; */
+       /* margin-left: 10px; */
+       background-color: #FFFFFF;
+       border-left: 1px solid #d6e0e7;
+       border-right: 1px solid #d6e0e7;
+       border-bottom: 0.5px solid #ededed;
+}
+/*.row_container :nth-last-column() {
+    /*margin-left: 35%;*/
+/*width: 96%;
+    background-color: #FFFFFF;
+    border-left:1px solid #d6e0e7;
+    border-right:1px solid #d6e0e7;*/
+/*padding-bottom:10px; border-bottom: 5px solid #d6e0e7;
+}*/
+
+ .rowborder_report {
+    /* padding-left: 20%; */
+    /*padding-right: 20px;*/
+}
+
+.rowborder {
+    /* padding-left: 50px; */
+}
+
+#feedTable, #reportTable {
+    /*height: 650px;*/
+    overflow-y: auto;
+    /*margin: 0 auto;*/
+}
+
+
+.SRMDataSourceCenterAlign {
+    margin: 0 auto;
+}
+
+.SRMDataSourceAndMappingGridHeaders {
+    width: 95%;
+    height: 30px;
+    /*margin: 0 auto;*/
+    /* border-bottom: solid 1px #e7e6e6; */
+    margin-bottom: 15px;
+}
+
+.SRMDataSourceAndMappingGridHeaderColumn {
+    display: inline-block;
+    width: 60%;
+}
+
+/*.SRMDataSourceAndMappingGridLabel {
+    /*display:inline-block;*/
+/*width:30%;*/
+/* text-align:center;
+    font-family:  lato;
+    font-size: 13px;
+    font-weight:  bolder;
+    color: #b4bacc;*/
+/*padding-left: 20px;*/
+/*}*/
+
+.SRMDataSourceAndMappingGridValue {
+    /*display:inline-block;*/
+    /*width:70%;*/
+    /*text-align:center;*/
+    font-size: 14px;
+    font-family: lato;
+    font-weight: bold;
+    color: #4c5a67;
+    padding-left: 18px;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+
+/*.parentRow:nth-child(even) {
+    margin-left: 35%;
+    width: 30%;
+    background-color: #FFF;
+   
+}*/
+
+#SRMDataSourceAndSystemMappingGridSection {
+    /*background:#fdfdfd;*/
+}
+
+.Headermargin123 {
+    width: 100%;
+}
+
+.Header1 {
+    margin-left: 7%;
+}
+
+.Header2 {
+    margin-left: 56%;
+}
+
+.HeaderText {
+    display: inline-block;
+    margin-bottom: 100px;
+    /*font-size:20px;*/
+    font-family: 'Lato Bold';
+    font-size: 15px;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+    text-transform: uppercase;
+    /*text-decoration:underline;*/
+    border: 1px solid black;
+    border-width: 0px 0px 1px 0px;
+    padding-bottom: 0px;
+}
+
+.srmDataSourceSystemMapping_setarrow {
+    display: inline-block;
+    width: 37%;
+}
+
+.SRMSelectedText {
+    color: #FFFFFF;
+    background-color: #4da5dd;
+    border-radius: 4px;
+}
+
+/*.row_container:nth-child(2n+1){
+    background-color:#fdfdfd;
+}
+.row_container:nth-child(2n)
+{
+     background-color:#FFFFFF;
+}*/
+.srmdatasourcesystemmapping_set_editdiv {
+    display: inline-block;
+    width: 14%;
+    padding-top: 15px;
+    float: right;
+}
+
+.srmdatasourcesystemmapping_edit_button {
+    width: 51px;
+    height: 22px;
+    border-radius: 3px;
+    color: #75a2bf;
+    border: 1px #75a2bf solid;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    float: right;
+}
+
+.srmdatasourcesystemmapping_up_heading_div {
+    color: #405b79;
+    border-top: #405b79 5px solid;
+    text-align: center;
+    /*padding:5px;*/
+    width: 94%;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 5px;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+.srmdatasourcesystemmapping_down_heading_div {
+    color: #22998a;
+    border-top: #22998a 5px solid;
+    text-align: center;
+    padding: 5px;
+    width: 92%;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    /*padding-top:5px;*/
+    vertical-align: middle;
+    /*margin-left: 6px;*/
+}
+
+.SRMDataSourceAndSystemMapping_space {
+    width: 10px;
+    display: inline-block;
+    border-bottom: 0.5px solid #ededed;
+}
+
+/*.SRMDataSourceRightArrowSize {
+    font-size:50px !important;
+}
+.srmDataSourceSystemMapping_download{
+    font-size:30px !important;
+    color:black;
+    visibility:visible;
+}*/
+
+.srmDataSourceSystemMapping_down_label {
+    display: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    /*line-height: 41px;*/
+    padding: 10px;
+    width: 201px;
+    /*height: 50px;*/
+    border-radius: 4px;
+    background: #FFFFFF;
+    color: #667a90;
+    box-shadow: 1px 1px 1px 1px #cdcdcd;
+}
+
+
+.srmdatasourcesystemmapping_scrollbutton{
+        margin-left: 25%;
+    display:none;
+}
+
+.srmDataSourcesystemMapping_scrolldiv::-webkit-scrollbar {
+display: none;
+}
+
+#SRMDataSourceAndMapping_report_case{
+    display:none;
+}
+
+.srmdataSourcemapping_sethover:hover{
+    color:#696969 !important;
+}
+
+/*#srmDataSourceSystemMapping_scrollup_button:hover {
+    color: red;
+}*/

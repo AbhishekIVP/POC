@@ -1,0 +1,103 @@
+﻿.dataTable {
+    border: none;
+}
+
+#downloadIcon {
+    background-image: url(images/icons/download_migration_screen.png);
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    padding-top: 1px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#btn {
+    background-color: #8a8787;
+    color:white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+}
+
+#expensiveQuery tr td {
+    padding: 0px 7px;
+    white-space: nowrap;
+    border-right: 0px;
+    font-size: 12px;
+    vertical-align: middle;
+    cursor: default;
+    color: #1A1919;
+    font-family: "Istok Web",sans-serif;
+    line-height: 20px;
+    text-align: center;
+}
+
+table th {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 11px;
+    color: #8a8787;
+}
+
+table#expensiveQuery.dataTable tbody tr:hover {
+    background-color: #F2F2F2;
+}
+
+
+#showXmlPopUp {
+    width: 90vw;
+    height: 90vh;
+    z-index: 10;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    margin: auto;
+    background: white;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #d2d2d2;
+    /*background: rgba(0,0,0,0.6);*/
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#divXmlContainer {
+    height: 100%;
+    max-height: 85vh;
+    width: 100%;
+    overflow: auto;
+    white-space: pre-wrap;
+}
+
+.popover-title {
+    font-size: 11px;
+    color: #8a8787;
+}
+
+.popover-content {
+    font-size: 12px;
+    color: #1A1919;
+}
+
+.modal-header{
+   /* height:10px;*/
+    border-bottom:none;
+}
+
+.modal-title{
+    font-size:12px;
+}
+
+.noQueryContainer {
+    text-align: center;
+    color: #8a8787;
+    font-size: 12px;
+}

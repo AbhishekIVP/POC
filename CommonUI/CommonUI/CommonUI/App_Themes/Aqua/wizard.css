@@ -1,0 +1,375 @@
+﻿/* updated by pp 25 feb */
+
+.wizHeader
+{
+    font-family: 'lato' , Sans-Serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #333;
+    padding: 8px;
+    background: #DAF4F4;
+}
+
+#ctl00_cphMain_TransportTaskSetup_panelWizard, .wizardBox
+{
+    font-family: 'lato' , Sans-Serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #999;
+}
+.wizBtnDone
+{
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: inherit;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.wizBtnDone:hover
+{
+    text-decoration: underline;
+}
+
+.wizBtnActive
+{
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: inherit;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.wizBtnActive:hover
+{
+    text-decoration: none;
+}
+.wizBtnDisabled
+{
+    cursor: text;
+    background: none;
+    border: none;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #ABABAB;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.subWizard
+{
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    background: #05afaf;
+}
+
+.subWizard td
+{
+    padding: 4px;
+}
+
+.subWizSeparator
+{
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    background: url(images/wiz/subWizSeparator.gif) center center no-repeat;
+    width: 3px;
+}
+.subWizBtnDone
+{
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: inherit;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.subWizBtnActive
+{
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: inherit;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.subWizBtnDisabled
+{
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #ABABAB;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*LinkButton*/
+
+/*Wizard start*/
+.wizStartDone
+{
+    padding: 8px 0px 24px 0px;
+    vertical-align: top;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(162, 162, 162);
+    text-align: center;
+    height: 36px;
+    background-image: url(images/wiz/wizStartDone.gif);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 100px;
+}
+.wizStartDisabled
+{
+    padding: 8px 0px 24px 0px;
+    vertical-align: top;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #009999;
+    text-align: center;
+    height: 36px;
+    background-image: url(images/wiz/wizStartDisabled.gif);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 100px;
+}
+.wizStartActive
+{
+    padding: 8px 0px 24px 0px;
+    vertical-align: top;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #05afaf;
+    text-align: center;
+    height: 36px;
+    background-image: url(images/wiz/wizStartActive.gif);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 100px;
+}
+.wizStartActiveSbMnu
+{
+    padding: 8px 0px 24px 0px;
+    vertical-align: top;
+    text-align: center;
+    height: 36px;
+    background-image: url(images/wiz/wizStartActiveSbMnu.gif);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 100px;
+}
+/*Wizard End*/
+.wizEndDone
+{
+    padding: 8px 0px 24px 0px;
+    vertical-align: top;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(162, 162, 162);
+    text-align: center;
+    height: 36px;
+    background-image: url(images/wiz/wizEndDone.gif);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 100px;
+}
+.wizEndActive
+{
+    padding: 8px 0px 24px 0px;
+    vertical-align: top;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #669999;
+    text-align: center;
+    height: 36px;
+    background-image: url(images/wiz/wizEndActive.gif);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 100px;
+}
+.wizEndDisabled
+{
+    padding: 8px 0px 24px 0px;
+    vertical-align: top;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #009999;
+    height: 36px;
+    background-image: url(images/wiz/wizEndDisabled.gif);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100px;
+}
+.wizEndActiveSbMnu
+{
+    padding: 8px 0px 24px 0px;
+    vertical-align: top;
+    text-align: center;
+    height: 36px;
+    background-image: url(images/wiz/wizEndActiveSbMnu.gif);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+/*Wizard Regular*/
+.wizRegDone
+{
+    padding: 8px 0px 24px 0px;
+    vertical-align: top;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(162, 162, 162);
+    text-align: center;
+    height: 36px;
+    background-image: url(images/wiz/wizRegDone.gif);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 100px;
+}
+.wizRegActiveSbMnu
+{
+    padding: 8px 0px 24px 0px;
+    vertical-align: top;
+    text-align: center;
+    height: 36px;
+    background-image: url(images/wiz/wizRegActiveSbMnu.gif);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+.wizRegActive
+{
+    padding: 8px 0px 24px 0px;
+    vertical-align: top;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #669999;
+    text-align: center;
+    height: 36px;
+    background-image: url(images/wiz/wizRegActive.gif);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 100px;
+}
+.wizRegDisabled
+{
+    padding: 8px 0px 24px 0px;
+    vertical-align: top;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #009999;
+    text-align: center;
+    height: 36px;
+    background-image: url(images/wiz/wizRegDisabled.gif);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 100px;
+}
+.wizDoneOneSide
+{
+    padding: 8px 0px 24px 0px;
+    vertical-align: top;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #006666;
+    text-align: center;
+    height: 36px;
+    background-image: url(images/wiz/wizDoneOneSide.gif);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 100px;
+}
+
+.wizDoneOneSideNoSbMnu
+{
+    padding: 8px 0px 24px 0px;
+    vertical-align: top;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #05afaf;
+    text-align: center;
+    height: 36px;
+    background-image: url(images/wiz/wizDoneOneSideNoSbMnu.gif);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 100px;
+}
+
+.wizDisabled
+{
+    padding: 8px 0px 24px 0px;
+    vertical-align: top;
+    height: 36px;
+    background-image: url(images/wiz/wizDisabled.gif);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    text-align: center;
+}

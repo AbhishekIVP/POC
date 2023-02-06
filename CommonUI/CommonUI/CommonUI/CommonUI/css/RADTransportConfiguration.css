@@ -1,0 +1,759 @@
+﻿
+.RADTransportMain 
+ {
+    width: 100%;
+    height: 100%;
+ }
+
+.RADTransportLeftSection 
+ {
+    width: 20%;
+    height: 100%;
+    background-color: #FBF9F9;
+    display: inline-block;
+
+ }
+
+.RADTransportLeftSectionHeaderDiv 
+{
+    height: 60px;
+    padding-top: 15px;
+    padding: 0 15px;
+    padding-top: 15px;
+}
+
+.RADTransportLeftSectionSearch 
+{
+    width: 80%;
+    float: left;
+    height: 30px;
+}
+
+
+.RADTransportSearchView
+{
+    float: left; 
+    height: 30px; 
+    line-height: 30px;
+}
+
+
+.RADTransportSearchViewInput 
+{
+    font-size: 17px;
+    color: #808082;    
+    transform: rotate(90deg);    
+    height: 20px;    
+    width: 20px;
+}
+
+.RADTransportLeftSectionHeader 
+{
+    font-size: 12px;
+    font-family: Lato;
+    border: 0 none;
+    height: 30px;
+    margin-right: 0;
+    color: #808080;
+    outline: none;    
+    box-sizing: border-box;   
+    border-bottom: 1px solid #00bff0;
+    padding-left: 10px;
+    width: 80%;
+    float: left;
+}
+
+.RADTransportHiddenClass
+{
+    display : none;
+}
+
+.RADCreateTransport 
+{
+    height: 25px;
+    width: 25px;
+    float: right;
+}
+
+.btnRADCreateTransport
+ {
+    color: #63E3CC;
+    font-size: 24px;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+ }
+
+.RADTransportLeftSectionContent 
+{
+    overflow-y: scroll;
+}
+
+.RADTransportLeftSectionContent::-webkit-scrollbar 
+{
+    display: none; 
+}
+
+.RADTranportLeftSectionScroll
+{
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+}
+
+.RADTransportLeftSectionScrollDownParent
+{
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.RADTransportLeftSectionScrollDown
+{
+    width: 100%;
+    color: #DEDBDE;
+    font-size: 34px;
+    cursor: pointer;    
+    height: 40px;
+    width: 21px;
+}
+
+.RADTransportLeftSectionScrollUpParent
+{
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+}
+
+.RADTransportLeftSectionScrollUp
+{
+    width: 100%;
+    color: #DEDBDE;
+    font-size: 34px;
+    cursor: pointer;    
+    height: 40px;
+    width: 21px;
+}
+
+.RADTransportRightSection
+ {
+    width: 80%;
+    height: 100%;
+    float: right;
+    display: inline-block;
+    background-color: #FFFFFF;
+ }
+
+.RADTransportRightSectionHeader
+ {
+    height: 60px;
+    width:100%;
+ }
+
+.RADTransportRightSectionHeaderLeft
+ {
+    width: 60%;
+    float:left;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 6%;
+    font-family: Lato;
+ }
+
+.RADTransportNameParent
+ {
+    float: left;
+    width:100%;
+    padding-left: 5px;
+ }
+
+.lblRADTransportNameParent {
+    color: #676161;
+    font-family: Lato;
+    width: auto;
+    text-align: center;
+    border-bottom: 2px solid lightgray;
+    line-height: 14px;
+    max-width: 350px;
+}
+
+.RADTransportRightSectionHeaderRight
+ {
+    width: 40%;
+    float:right;
+    height: 60px;
+    line-height: 60px;
+ }
+
+.RADTransportDeleteButtonParent, .RADTransportSaveButtonParent, .RADTransportCancelButtonParent, .RADTransportEditButtonParent
+ {
+    padding: 0 5px;
+    float:right;
+ }
+
+.btnTransportDeleteButton, .btnRADTransportSaveButton, .btnRADTransportCancelButton, .btnRADTransportEditButton
+ {
+    background-color: #53bfb1;   
+    border-radius: 2px;
+    background-color: #61E2CC;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    height: 20px;
+    line-height: 19px;
+ }
+
+.btnTransportDeleteButton:hover, .btnRADTransportSaveButton :hover, .btnRADTransportCancelButton :hover, btnRADTransportEditButton :hover
+{
+    background-color: #53bfb1;
+    outline: none;
+}
+
+
+.RADTransportRightSectionContentParent
+ {
+    width: 100%;
+    height: 100%;
+ }
+
+
+ .RADTransportTileParent
+ {
+     padding: 5px 17px 5px 17px;
+ }
+
+ .RADTransportTile 
+{
+    border: 1px solid #E9E9E9;    
+    height: 50px;
+    line-height: 50px;    
+    border-radius: 3px;
+    background: #F9F9FB;
+    position: relative;
+}
+
+ .RADTransportTiles
+ {
+   padding-left: 22px;   
+   border: #E9E9E9;   
+   width: 100%;
+   border-radius: 3px;   
+   vertical-align:top;
+   height: 25px;
+   line-height: 32px;
+   font-weight: 700;
+   font-size: 12px;
+   color: #676161;
+   font-family: Lato;
+ }
+
+ .RADTransportDesc 
+ {
+    height: 25px;
+    line-height: 15px;
+    padding-left: 22px;
+    font-family: Lato;
+    font-size: 13px;
+ }
+
+ .RADTransportTileActive
+ {
+   border-left-width: 5px !important;   
+   border-left-color: #00BFF0! important;
+   box-shadow: 0px 0px 9px 0px rgba(136, 130, 130, 0.19);
+   -moz-box-shadow: 0px 0px 9px 0px rgba(136, 130, 130, 0.19);
+   -webkit-box-shadow: 0px 0px 9px 0px rgba(136, 130, 130, 0.19);
+   background-color :White;
+ }
+
+ .RADTransportTileActive > .RADFuncGroupTiles 
+{
+    padding-left: 17px;
+}
+
+.RADTransportTileActive > .functionDesc 
+{
+    padding-left: 17px;
+}
+
+.RADTrasnportArrow-Right 
+{
+    position: absolute;
+    color: #00BFF0;
+    font-size: 22px;
+    right: -10px;
+    vertical-align: top;
+    top: 15px;
+}
+
+.RADTransportPropertyParent {
+    height: 40px;
+    line-height: 40px;
+    padding: 5px 50px;
+    width: 44%;
+    padding: 0 5px;
+    margin-left: calc(38% - 420px);
+}
+
+.RADTransportPropertyChildKey
+{
+    width: 48%;
+    text-align: left;
+    background-color: rgb(240, 240, 240);    
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: rgb(111, 111, 111);
+    height: 30px;
+    line-height: 30px;
+    text-transform: capitalize;
+    float: left;    
+    padding-left: 20px;
+    font-family:Lato;
+    font-size:13px;
+    height: 30px;    
+    line-height: 30px;
+    
+}
+
+.RADTransportPropertyChildValue
+{
+    /*float: left;    
+    height: 30px;
+    line-height: 30px;    
+    border-left: 0px solid;
+    width: 48%;   
+    display: inline-block;
+    padding-left: 8px;
+    font-family: Lato;
+    vertical-align: middle;
+    text-align: left;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    padding-top: 0px;
+    padding-bottom: 0px;    
+    top: -3px;
+    font-size: 12px;*/
+    float: left;
+    height: 30px;
+    line-height: 19px;
+    border-left: 0px solid;
+    width: 46%;
+    display: inline-block;
+    padding-left: 8px;
+    font-family: Lato;
+    vertical-align: middle;
+    text-align: left;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    top: 0px;
+    font-size: 12px;
+    padding-top: 2px;
+}
+
+.RADTransportPropertyChildValueEditable
+{
+    border:solid;
+    border-width:1px;
+    border-color: rgb(240, 240, 240);
+    border-left: 0px;
+}
+
+.RADTransportPropertyChildValueInput {
+    float: left;
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    border: 0px solid;
+    outline: none;
+    
+}
+
+.RADTransportPropertyChildValueCheckDiv
+{
+
+    float: left;
+    width: 50%;
+    height: 30px;
+    line-height: 30px;    
+    border-left: 0px solid;
+    width: 50%;   
+    display: inline-block;
+    padding-left: 8px;
+    font-family: Lato;
+    vertical-align: middle;
+    text-align: left;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    padding-top: 0px;
+    padding-bottom: 0px;    
+    top: -3px;
+    font-size: 12px;
+}
+
+.RADTransportPropertyChildValueCheckBox {
+    float: left;
+    width: 20px;
+    height: 20px;
+    line-height: 28px;
+    border: 0px solid;
+    outline: none;
+}
+
+.RADTransportAlertPopUpParent
+ {
+    box-shadow: 5px 7px 22px -7px #6D6D6D;
+    background-image: url('images/popup_texture.png');
+    min-height: 168px;
+    font-family: Lato;
+    border: 1px solid #D4D4D4;
+    border-top: 0px;
+    position: absolute;
+    background-color: white;
+    left: 40%;
+    width: 400px;
+    z-index: 100000316;
+ }
+
+.RADTransportPopupAlertUpperSuccessDiv
+ {
+    height: 4px;
+    width: 100%;
+    background-color: #ACD373;    
+ }
+
+.RADTransportPopUpError
+ {
+    min-width: 200px;    
+ }
+
+.RADTransportDivLeft
+ {
+    display: inline-block;
+    vertical-align: top;
+    width: 12%;
+    margin-top: 27px;
+    margin-left: 20px;    
+ }
+
+.RADTransportSuccess
+ {
+    background-image: url("../Images/icons/rad_alert_success.png"); 
+    height: 50px;
+    width: 50px;
+ }
+
+.RADTransportErrorDivRight
+ {
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 30px;
+      width: 70%;
+      margin-left: 15px;
+ }
+
+.RADTransportSuccessDivHeading
+{
+
+}
+
+.RADTransportErrorDivText
+ {
+      font-size: 14px;
+      font-weight: normal;
+      margin-top: 15px;
+ }
+
+.RADTransportAlertUpperDiv
+ {
+    height: 4px;
+    width: 100%;
+    background-color: red;
+ }
+
+.RADTransportAlert
+ {
+    background-image: url("../Images/icons/rad_alert_icon.png"); 
+    height: 50px;
+    width: 50px;
+ }
+
+.RADTransportErrorDivHeading
+ {
+      font-size: 20px;
+      color: red;
+ }
+
+.RADTransportPopUpErrorFooter
+ {    
+   margin-top: 20px;
+ }
+
+.RADTransportPopUpErrorYes
+ {
+      
+    display: inline-block;
+    margin-left: 75%;
+    width: 40px;
+    text-align: center;
+    background-color: #EEEEEE;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    cursor:pointer;
+
+ }
+
+.RADTransportPopUpErrorNo
+ {      
+    display: inline-block;
+    margin-left: 10px;
+    width: 40px;
+    text-align: center;
+    background-color: #EEEEEE;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    cursor:pointer;
+ }
+
+.RADTransportDisplayNone
+{
+        display:none;
+}
+
+.RADTransportRequiredField
+{  
+    color: white;
+    background-color: #DE8A8A;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    width: 4%;
+    font-family: Lato;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+
+.RADTransportPropertyChildValuetoogleDiv 
+{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    border-left: 0px solid;
+    width: 48%;
+    display: inline-block;
+    padding-left: 8px;
+    font-family: Lato;
+    vertical-align: middle;
+    text-align: left;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    top: -3px;
+    font-size: 12px;
+    padding: 4px 0 20px 4px;
+    border:0px !important;
+}
+
+.RADTransportPropertyChildValueSQLtoogleDiv 
+{
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: top;
+    /* border: 1px solid lightgray; */
+    width: 100px;
+    background-color: #E5E5E5;
+    text-align: center;
+    color: #777777;
+    font-size: 12px;
+    cursor:pointer;
+}
+
+.RADTransportPropertyChildValueQindowtoogleDiv 
+{
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: top;
+    /* border: 1px solid lightgray; */
+    width: 100px;
+    background-color: #E5E5E5;
+    text-align: center;
+    color: #777777;
+    font-size: 12px;
+    cursor:pointer;
+}
+
+.RADSQLAuthSelected
+{
+    background-color: #00BEEF !important;
+    color: white !important;
+}
+
+.RADDisableClass
+{
+    pointer-events:none;
+}
+
+
+/**Spinner Div***/
+
+/* The spinner */
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+ 
+.spinner:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  border-top-color: #333;
+  animation: spinner .4s linear infinite;
+}
+
+
+.RADblockMatrix_OverLoad{
+    display:inline-block !important;
+}
+
+
+.RADTransportPropertyChildValueOntoogleDiv ,.RADTransportPropertyChildValueOfftoogleDiv 
+{
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: top;
+    width: 100px;
+    background-color: #E5E5E5;
+    text-align: center;
+    color: #777777;
+    font-size: 12px;
+    cursor:pointer;
+}
+
+
+.RADOnSelected
+{
+    background-color: #00BEEF !important;
+    color: white !important;
+}
+
+/*********Toggle******/
+/* The switch - the box around the slider */
+.RADAutoswitch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.RADAutoswitch input {display:none;}
+
+/* The slider */
+.RADAutoslider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.RADAutoslider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 20px;
+  left: 4px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .RADAutoslider {
+  background-color: #53abf1;
+}
+
+input:focus + .RADAutoslider {
+  box-shadow: 0 0 1px #53abf1;
+}
+
+input:checked + .RADAutoslider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.RADAutoslider.round {
+  border-radius: 34px;
+}
+
+.RADAutoslider.round:before {
+  border-radius: 50%;
+}
+
+.RADEnableToggle{
+    pointer-events:all;
+}
+
+.RADDisableToggle{
+    pointer-events:none;
+}
+
+.RTransportTab
+{
+    width:100%;
+    height:35px;
+    background-color: #7c7c7c;
+}
+
+
+
+
+
+
+
+
+
+
+

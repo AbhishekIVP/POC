@@ -1,0 +1,98 @@
+﻿.tagContainer {
+    position: relative;
+    display: inline-block;
+    width: 275px;
+    padding-bottom: 5px;
+    border: 1px solid #aaaaaa;
+}
+
+.tagContent {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 11px;
+    background: #48a3dd;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.tagText {
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+    .tagText.OverflowText {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 173px;
+    }
+
+.tagTextContainer {
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 70px;
+    top: 5px;
+}
+
+.tagTextElement {
+    outline: none !important;
+    border: none !important;
+    width: 100% !important;
+    padding: 0px !important;
+    height: 18px;
+    overflow: hidden;
+    font-family: Lato;
+}
+
+.tagClose {
+    position: relative;
+    display: inline-block;
+    color: white;
+    line-height: 16px !important;
+    margin-right: 4px;
+}
+
+.tagsearchddl {
+    position: absolute;
+    display: none;
+    height: 200px;
+    width: 200px;
+    z-index: 1000000;
+    font-family: Lato;
+    font-size: 12px;
+    border: 1px solid rgb(202, 202, 202);
+    background-color: #FFFFFF;
+}
+
+.tagsearchddlItem {
+    border-left: 5px solid #FCFCFC;
+    position: relative;
+    display: block;
+    width: 190px;
+    line-height: 25px;
+    text-indent: 5px;
+    height: 22px;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: Lato, sans-serif;
+    font-size: 11px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: Black;
+}
+
+    .tagsearchddlItem:hover {
+        border-left: 5px solid #48a3dd;
+        background: #f9f9f9 !important;
+        color: rgb(178, 178, 178);
+    }
+
+.tagsearchddlOverflowContainer {
+    padding-top: 4px;
+}

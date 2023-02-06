@@ -1,0 +1,352 @@
+﻿.altshut
+{
+    display: inline-block;
+    position: relative;
+    font-family: Lato;
+    font-size: 12px;
+    border: 1px solid rgb(202, 202, 202); /*box-shadow: 5px 7px 14px -8px #aaaaaa;*/
+    background-color: #FFFFFF;
+}
+
+.altshutbar
+{
+    position: relative;
+}
+
+.altshuttext
+{
+    position: relative;
+    display: inline-block;
+    height: 21px;
+    padding-left: 6px;
+    width: 95%;
+    margin-bottom: 4px;
+    border: none;
+    box-shadow: 0px 0px 7px 0px #aaaaaa;
+    font-family: Lato;
+}
+.altshutrun
+{
+    display: inline-block;
+    position: relative;
+}
+.altshutrun:hover
+{
+    cursor: pointer;
+}
+.altshutanchorrun
+{
+    text-decoration: none;
+    color: #48a3dd;
+    border-bottom: 1px dashed #48a3dd;
+    width: 120px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.altshutimage
+{
+    position: relative;
+    display: inline-block;
+    font-size: 14px !important;
+    height: 16px;
+    top: 2px;
+    color: black;
+}
+.altshutcon, .altshutnonedit
+{
+    position: relative;
+    display: block;
+    width: 100%;
+    z-index: 9999;
+    width: 200px;
+    height: 218px;
+}
+.altshutoptions
+{
+    max-height: 250px;
+    width: 100%;
+}
+
+.altshutoption
+{
+    position: relative;
+    display: block;
+    height: 20px;
+    border-left: 5px solid #FCFCFC;
+    line-height: 25px;
+    text-indent: 5px;
+    height: 25px;
+    overflow: hidden; /* added by neetika */
+    cursor: pointer;
+    font-family: Lato, sans-serif;
+    font-size: 11px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: Black;
+    text-align: left;
+}
+
+/*added by neetika color and border-left*/
+.altshutoption:hover
+{
+    border-left: 5px solid #48a3dd;
+    background: #f9f9f9 !important;
+    color: rgb(178, 178, 178);
+}
+/*added by neetika color and border-left*/
+.altshuthover
+{
+    color: #48a3dd;
+}
+
+.altshuted
+{
+    /*background: transparent;*/ /*color: #000;*/
+}
+
+.altshutdone
+{
+}
+.altshutdisabled
+{
+    color: rgb(200, 200, 200);
+    border-bottom: none;
+}
+
+.altshutrun2
+{
+    width: 100%;
+}
+
+.altshutanchorrun2
+{
+    border-bottom: none;
+    line-height: 23px;
+    margin-left: 5px;
+    color: Gray;
+}
+
+.altshutimage2
+{
+    float: right;
+    margin-right: 5px;
+}
+.altshutanchorcontainer
+{
+    float: left;
+}
+.altshutanchorcontainer2
+{
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.altshutsectionbar
+{
+    height: 20px;
+    position: relative;
+    line-height: 25px;
+    color: rgb(165, 165, 165);
+    text-indent: 2px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    margin-left: 7px;
+    margin-right: 3px;
+    width: 180px;
+}
+.altshuthidebar
+{
+    display: none;
+}
+.altshutmultioption, .altshutstatic
+{
+    position: relative;
+    display: inline-block;
+    width: 85%;
+    line-height: 25px;
+    text-indent: 5px;
+    height: 22px;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: Lato, sans-serif;
+    font-size: 11px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: Black;
+    float: left;
+}
+
+.altshutmulticon, .altshutstaticmulticon
+{
+    height: 25px;
+    border-left: 5px solid #FCFCFC;
+    clear: both;
+}
+.altshutmulticon:hover
+{
+    border-left: 5px solid #48a3dd;
+    background: #f9f9f9 !important;
+    color: rgb(178, 178, 178);
+}
+
+.altshutcheck
+{
+    position: relative;
+    display: inline-block;
+    float: right;
+    width: 27px;
+    top: 5px;
+    color: Black;
+}
+.altshutmultioptions
+{
+    max-height: none;
+    overflow-y: initial;
+}
+.altshutsectionfirst
+{
+    top: 3px;
+}
+.altshutallmultioption
+{
+    border: 1px solid #43D9C6;
+    width: 23px;
+    float: right;
+    border-radius: 3px;
+    position: relative;
+    margin-right: 14px;
+    color: rgb(0, 128, 104);
+    height: 20px;
+    margin-top: 5px;
+    line-height: 21px;
+    text-align: center;
+}
+.altshutallmultioption:hover
+{
+    color: White;
+    background: #43D9C6;
+    cursor: pointer;
+}
+.altshutallmultioptionchecked, .altshuteditbuttonchecked
+{
+    color: White;
+    background: #43D9C6;
+    cursor: pointer;
+}
+.altshutallmulticon
+{
+    z-index: 10;
+}
+.altshutallmulticon:hover
+{
+    cursor: pointer;
+    border-left: 5px solid #FCFCFC !important;
+    background: white !important;
+}
+.altshutsection, .altshutnoeditscroll
+{
+    position: relative;
+}
+.altshutanchorrun2:hover
+{
+    border-bottom: none;
+    line-height: 23px;
+    margin-left: 5px;
+    color: Gray;
+    text-decoration: none;
+}
+.altshuteditbutton
+{
+    display: block;
+    width: 100%;
+    position: relative;
+    color: #43D9C6;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 15px;
+    background: #f3f3f3;
+}
+.altshutstatic
+{
+    cursor: default;
+}
+.altshutdonebutton
+{
+    display: block;
+    width: 100%;
+    position: relative;
+    color: #43D9C6;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 15px;
+    background: #f3f3f3;
+}
+.altshutdonebutton:hover
+{
+}
+.altshuthead
+{
+    position: relative;
+    display: block;
+    height: 27px;
+    border-bottom: 1px solid rgb(191, 191, 191);
+    box-shadow: 0px 0px 4px 0px rgb(191, 191, 191);
+    background: #6f898a;
+}
+.altshutheadtext
+{
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Lato;
+    margin-left: 37px;
+    color: White;
+    top: -7px;
+}
+.altshutheadicon
+{
+    position: relative;
+    display: inline-block;
+    font-size: 28px !important;
+    font-family: Oswald;
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: White;
+    margin-left: 8px;
+    height: 25px;
+    width: 25px;
+    margin-top: 3px;
+}
+.altshutnonedit
+{
+    /*margin-top: 7px;*/
+}
+.altshutgroups
+{
+    background: #6f898a;
+}
+.altshutusers
+{
+    background: #888689;
+}
+.altshuticonusers
+{
+    background: url('images/altshutuser.png') no-repeat;
+    height: 22px;
+}
+.altshuticongroups
+{
+    background: url('images/altshutgroup.png') no-repeat;
+}
+.altshutheadtextusers
+{
+    top: -4px;
+    margin-left: 42px;
+}
+.altshuteditbutton:hover, .altshutdonebutton:hover
+{
+    cursor: pointer;
+}

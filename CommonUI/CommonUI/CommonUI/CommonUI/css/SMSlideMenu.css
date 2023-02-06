@@ -1,0 +1,150 @@
+.smslidemenu_filterDiv
+{
+    position:fixed;
+	width:300px;
+	background-color: #f6f6f6;
+    color: #777;
+    box-shadow: 2px 6px 9px 3px #B3A8A8;
+    border:1px solid #efefef;
+    z-index: 10000;
+    overflow: auto;
+    text-align: left;
+}
+
+.smslidemenu_filterItemCheckbox,.smslidemenu_filterItemText
+{
+    display: inline-block;
+    vertical-align: top;
+}    
+ 
+.smslidemenu_filterItemCheckbox
+{
+    font-size:20px;    
+    margin-top:4px;
+    color: #D2D2D2;
+}
+
+.smslidemenu_filterItemText
+{                         
+    margin-left: 10px;
+    width: 220px;
+    padding-top: 6px;
+    font-size: 11px;
+    color: #777;
+    font-weight: lighter;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: "Istok Web", sans-serif;
+}
+
+.smslidemenu_filterItemCheckbox.smslidemenu_selectedItem {
+    color: #48a3dd;
+}
+
+.smslidemenu_filterHeader
+{
+    font-size: 12px;
+    padding-left: 5px;
+    border-bottom: 1px solid #afafaf;
+    margin: 2px 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    padding-bottom: 5px;
+    font-family: "Lato";
+}
+
+.smslidemenu_filterItem
+{
+    cursor: pointer;            
+}
+
+.smslidemenu_itemListDiv
+{
+    padding: 2px 5px 5px 5px;
+    margin: 2px 10px 10px 10px;
+}
+.smslidemenu_itemListArrowIcon
+{
+    float: right;
+    padding-top: 2px;    
+}
+
+.smslidemenu_filterDate
+{
+    border: none;
+    color: #777;
+    width: auto;
+    border-bottom:1px solid #777;
+}
+
+.smslidemenu_btnGreen
+{
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    color: #FFF !important;
+    font-family: Lato;
+    font-size: 12px;
+    padding: 2px 10px;
+}
+
+.smslidemenu_applyBtn
+{
+    position: relative;
+    height: 22px;
+    width: 66px;
+    cursor: pointer;
+    display:inline-block;
+    vertical-align:top;
+    margin-left: 15px;
+}
+
+.smslidemenu_saveBtn
+{
+    position: relative;
+    height: 22px;
+    width: 66px;
+    cursor: pointer;
+    display:inline-block;
+    vertical-align:top;
+    margin-left: 100px;
+}
+
+.smslidemenu_filterHeading
+{
+    display:inline-block;
+    vertical-align:top;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Lato;
+    margin-top: 3px;
+}
+
+.smslidemenu_filterTopHeadSection
+{
+    margin-top: 10px;
+    margin-left: 10px;    
+}
+
+.smslidemenu_searchInput
+{
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    top: 5px;
+    background-color:transparent;
+    padding-left: 20px;
+    line-height: 16px;	
+	font-family: Lato;
+}
+
+.smslidemenu_searchIcon
+{
+    position: absolute;
+    top: 9px;
+    left: 20px;
+    font-size: 9px !important;
+}

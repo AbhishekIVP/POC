@@ -1,0 +1,489 @@
+﻿<CorpActions>
+  
+  <CorpAction name="CHG_NAME">
+    <Field name="CP_OLD_NAME" value=""/>
+    <Field name="CP_NEW_NAME" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+  
+  <CorpAction name="CHG_DOM">
+    <Field name="CP_OLD_STATE" value=""/>
+    <Field name="CP_NEW_STATE" value=""/>
+    <Field name="CP_ADDRESS" value=""/>
+    <Field name="CP_OLD_COUNTRY" value=""/>
+    <Field name="CP_NEW_COUNTRY" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="CHG_STATE">
+    <Field name="CP_OLD_STATE" value=""/>
+    <Field name="CP_NEW_STATE" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="CHG_RLOT">
+    <Field name="CP_OLD_LOT" value=""/>
+    <Field name="CP_NEW_LOT" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="CHG_TKR">
+    <Field name="CP_OLD_TKR" value=""/>
+    <Field name="CP_NEW_TKR" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="CHG_ID">
+    <Field name="CP_OLD_CUSIP" value=""/>
+    <Field name="CP_NEW_CUSIP" value=""/>
+    <Field name="CP_OLD_BELGIAN" value=""/>
+    <Field name="CP_OLD_CUSIP" value=""/>
+    <Field name="CP_NEW_CUSIP" value=""/>
+    <Field name="CP_OLD_FONDS" value=""/>
+    <Field name="CP_NEW_FONDS" value=""/>
+    <Field name="CP_OLD_ISIN" value=""/>
+    <Field name="CP_NEW_ISIN" value=""/>
+    <Field name="CP_OLD_SEDOL" value=""/>
+    <Field name="CP_NEW_SEDOL" value=""/>
+    <Field name="CP_OLD_SICOVAM" value=""/>
+    <Field name="CP_NEW_SICOVAM" value=""/>
+    <Field name="CP_OLD_VALOR" value=""/>
+    <Field name="CP_NEW_VALOR" value=""/>
+    <Field name="CP_OLD_WPK" value=""/>
+    <Field name="CP_NEW_WPK" value=""/>
+    <Field name="CP_OLD_COMMON" value=""/>
+    <Field name="CP_NEW_COMMON" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="DELIST">
+    <Field name="CP_EXCH" value=""/>
+    <Field name="CP_TKR" value=""/>
+    <Field name="CP_DELIST_REASON" value=""/>
+    <Field name="CP_NOTES" value=""/>
+ 
+  </CorpAction>
+
+  <CorpAction name="CHG_LIST">
+    <Field name="CP_OLD_EXCH" value=""/>
+    <Field name="CP_NEW_EXCH" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="LIST">
+    <Field name="CP_EXCH" value=""/>
+    <Field name="CP_TKR" value=""/>
+    <Field name="CP_SEC_TYP" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+  
+  <CorpAction name="VAR_INT_RST">
+    <Field name="CP_NXT_RESET_DT" value=""/>
+    <Field name="CP_NEW_CPN_RT" value=""/>
+    <Field name="CP_OLD_CPN_RT" value=""/>
+    <Field name="CP_VAR_INT_REASON" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+  
+  <CorpAction name="CHG_VOTE">
+    <Field name="CP_NEW_VOTES" value=""/>
+    <Field name="CP_OLD_VOTES" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+  
+  <CorpAction name="CRNCY_QT_CHNG">
+    <Field name="CP_OLD_CRNCY" value=""/>
+    <Field name="CP_NEW_CRNCY" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="RECONVENTION">
+    <Field name="CP_PRE_DAY_CNT_DES" value=""/>
+    <Field name="CP_POST_DAY_CNT_DES" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="REDENOMINATION">
+    <Field name="CP_POST_EURO_ID_ISIN" value=""/>
+    <Field name="CP_PRE_EURO_CRNCY" value=""/>
+    <Field name="CP_REDENOM_ROUND_METHOD" value=""/>
+    <Field name="CP_REDENOM_METHOD" value=""/>
+    <Field name="CP_PRE_EURO_CALENDAR_CODE" value=""/>
+    <Field name="CP_PRE_EURO_AMT_OUTSTANDING" value=""/>
+    <Field name="CP_POST_EURO_AMT_OUTSTANDING" value=""/>
+    <Field name="CP_PRE_EURO_MIN_PIECE" value=""/>
+    <Field name="CP_POST_EURO_MIN_PIECE" value=""/>
+    <Field name="CP_PRE_EURO_PAR_AMT" value=""/>
+    <Field name="CP_POST_EURO_PAR_AMT" value=""/>
+    <Field name="CP_PRE_EURO_MIN_INCREMENT" value=""/>
+    <Field name="CP_POST_EURO_MIN_INCREMENT" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="SH_HOLDER_MEET">
+    <Field name="CP_RECORD_DT" value=""/>
+    <Field name="CP_MEET_TYP" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="MERG">
+    <Field name="CP_MERGW_NAME" value=""/>
+    <Field name="CP_MERGW_ID_BB_COMP" value=""/>
+    <Field name="CP_MERG_NAME" value=""/>
+    <Field name="CP_MERG_ID_BB_COMP" value=""/>
+    <Field name="CP_AMT" value=""/>
+    <Field name="CP_TERMS" value=""/>
+    <Field name="CP_RATIO" value=""/>
+    <Field name="CP_STAT" value=""/>
+    <Field name="CP_CRNCY" value=""/>
+    <Field name="CP_SH_FRACTIONAL" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="SPIN">
+    <Field name="CP_SPINOFF_NAME" value=""/>
+    <Field name="CP_ID_BB_COMP" value=""/>
+    <Field name="CP_ID_BB_SEC" value=""/>
+    <Field name="CP_TERMS" value=""/>
+    <Field name="CP_RATIO" value=""/>
+    <Field name="CP_PAY_DT" value=""/>
+    <Field name="CP_RECORD_DT" value=""/>
+    <Field name="CP_COST" value=""/>
+    <Field name="CP_CRNCY" value=""/>
+    <Field name="CP_ADJ" value=""/>
+    <Field name="CP_ADJ_DT" value=""/>
+    <Field name="CP_TKR" value=""/>
+    <Field name="CP_DUE_BILL_RED_DT" value=""/>
+    <Field name="CP_SH_FRACTIONAL" value=""/>
+    <Field name="CP_TERMS_FLAG" value=""/>
+    <Field name="CP_INDICATOR" value=""/>
+    <Field name="CP_NOTES DT" value=""/>
+  </CorpAction>
+
+  <CorpAction name="BANCR">
+    <Field name="CP_BANCR_TYP" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="STOCK_BUY">
+    <Field name="CP_AMT" value=""/>
+    <Field name="CP_STOCK_BUY_TYP" value=""/>
+    <Field name="CP_COMPLETED_DT" value=""/>
+    <Field name="CP_TERM_FLAG" value=""/>
+    <Field name="CP_SEC_TYP" value=""/>
+    <Field name="CP_PX" value=""/>
+    <Field name="CP_SH" value=""/>
+    <Field name="CP_VAL_PURCHASED" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="EQY_OFFER">
+    <Field name="CP_FILING_SH_OFFER" value=""/>
+    <Field name="CP_FILING_AMT_OFFER" value=""/>
+    <Field name="CP_PRICING_SH_OFFER" value=""/>
+    <Field name="CP_PRICING_AMT_OFFER" value=""/>
+    <Field name="CP_INTL" value=""/>
+    <Field name="CP_INTL_SH_OFFER" value=""/>
+    <Field name="CP_INTL_AMT_OFFER" value=""/>
+    <Field name="CP_TOT_AMT_CRNCY" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="DBT_RDMP_CALL">
+    <Field name="CP_CONV_DT" value=""/>
+    <Field name="CP_DBT_RDMP_CALL_TYP" value=""/>
+    <Field name="CP_PX" value=""/>
+    <Field name="CP_AMT" value=""/>
+    <Field name="CP_AGENT" value=""/>
+    <Field name="CP_DBT_RDMP_CALL_REASON" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="DBT_OFFER_INC">
+    <Field name="CP_SETTLE_DT" value=""/>
+    <Field name="CP_PX" value=""/>
+    <Field name="CP_AMT" value=""/>
+    <Field name="CP_AMT_NON_COMP" value=""/>
+    <Field name="CP_AMT_COMP" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="DBT_OFFER_NEW">
+    <Field name="CP_SETTLE_DT" value=""/>
+    <Field name="CP_PX" value=""/>
+    <Field name="CP_AMT" value=""/>
+    <Field name="CP_MTY_DT" value=""/>
+    <Field name="CP_CPN" value=""/>
+    <Field name="CP_CPN_TYP" value=""/>
+    <Field name="CP_MARKET_SECTOR_DES" value=""/>
+    <Field name="CP_SECURITY_TYP" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+  
+  <CorpAction name="CHG_PAR">
+    <Field name="CP_OLD_PAR_VAL" value=""/>
+    <Field name="CP_NEW_PAR_VAL" value=""/>
+    <Field name="CP_SEC_TYP" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="DBT_RDMP_SINK">
+    <Field name="CP_OPTL_AMT" value=""/>
+    <Field name="CP_SCH_AMT" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="ACQUIS">
+    <Field name="CP_FLAG" value=""/>
+    <Field name="CP_TKR" value=""/>
+    <Field name="CP_NAME" value=""/>
+    <Field name="CP_ID_BB_COMP" value=""/>
+    <Field name="CP_UNIT" value=""/>
+    <Field name="CP_TOT_AMT" value=""/>
+    <Field name="CP_ACQUIS_TYP" value=""/>
+    <Field name="CP_CASH" value=""/>
+    <Field name="CP_CASH_FLAG" value=""/>
+    <Field name="CP_SH" value=""/>
+    <Field name="CP_SH_FLAG" value=""/>
+    <Field name="CP_DEBT" value=""/>
+    <Field name="CP_DEBT_FLAG" value=""/>
+    <Field name="CP_STAT" value=""/>
+    <Field name="CP_DT_FLAG" value=""/>
+    <Field name="CP_INIT_OFFER_PREMIUM" value=""/>
+    <Field name="CP_CUR_PREMIUM" value=""/>
+    <Field name="CP_PCT_OWNED" value=""/>
+    <Field name="CP_PCT_SOUGHT" value=""/>
+    <Field name="CP_ACCOUNTING_METHOD" value=""/>
+    <Field name="CP_UNSOLICITED" value=""/>
+    <Field name="CP_DETAIL_FLAG" value=""/>
+    <Field name="CP_CRNCY" value=""/>
+    <Field name="CP_CASH_VAL" value=""/>
+    <Field name="CP_ARBITRAGE_PROF" value=""/>
+    <Field name="CP_CUR_TOT_VAL" value=""/>
+    <Field name="CP_ADVISORS_NUM" value=""/>
+    <Field name="CP_SH_FRACTIONAL" value=""/>
+    <Field name="CP_ADVISORS" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="DIVEST">
+    <Field name="CP_SH" value=""/>
+    <Field name="CP_UNIT" value=""/>
+    <Field name="CP_ACQUIRED_BY" value=""/>
+    <Field name="CP_ID_BB_COMP" value=""/>
+    <Field name="CP_AMT" value=""/>
+    <Field name="CP_ACQUIS_TYP" value=""/>
+    <Field name="CP_CASH" value=""/>
+    <Field name="CP_CASH_FLAG" value=""/>
+    <Field name="CP_DEBT" value=""/>
+    <Field name="CP_DEBT_FLAG" value=""/>
+    <Field name="CP_SH_FLAG" value=""/>
+    <Field name="CP_STAT" value=""/>
+    <Field name="CP_DETAIL_FLAG" value=""/>
+    <Field name="CP_ACCOUNTING_METHOD" value=""/>
+    <Field name="CP_ADVISORS_NUM" value=""/>
+    <Field name="CP_ADVISORS" value=""/>
+    <Field name="CP_NOTES" value=""/>
+    <Field name="CP_CRNCY" value=""/>
+  </CorpAction>
+
+  <CorpAction name="PARTIAL_PAY">
+    <Field name="CP_INSTALL_AMT" value=""/>
+    <Field name="CP_INSTALL_DT" value=""/>
+    <Field name="CP_ADJ_DT" value=""/>
+    <Field name="CP_INSTALL_TYP" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+  
+  <CorpAction name="RECLASS">
+    <Field name="CP_OLD_CLASS" value=""/>
+    <Field name="CP_NEW_CLASS" value=""/>
+    <Field name="CP_RECLASS_TYP" value=""/>
+    <Field name="CP_TERMS" value=""/>
+    <Field name="CP_RATIO" value=""/>
+    <Field name="CP_OPTIONAL" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="PARTIAL_PAY">
+    <Field name="CP_INSTALL_AMT" value=""/>
+    <Field name="CP_INSTALL_DT" value=""/>
+    <Field name="CP_ADJ_DT" value=""/>
+    <Field name="CP_INSTALL_TYP" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="DBT_REP">
+    <Field name="CP_PX" value=""/>
+    <Field name="CP_OFFER" value=""/>
+    <Field name="CP_AMT_TENDER" value=""/>
+    <Field name="CP_AMT" value=""/>
+    <Field name="CP_COUNTER_PARTY" value=""/>
+    <Field name="CP_TENDER_TYP" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="DBT_RDMP_PUT">
+    <Field name="CP_PX" value=""/>
+    <Field name="CP_DBT_RDMP_PUT_TYP" value=""/>
+    <Field name="CP_PROVISIONAL" value=""/>
+    <Field name="CP_AGENT" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="EXCH_OFFER">
+    <Field name="CP_AMT" value=""/>
+    <Field name="CP_SECID" value=""/>
+    <Field name="CP_SECID_TYP" value=""/>
+    <Field name="CP_TKR" value=""/>
+    <Field name="CP_CPN" value=""/>
+    <Field name="CP_MTY_DT" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="VAR_PR_RDMP">
+    <Field name="CP_FACTOR" value=""/>
+    <Field name="CP_AMT" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="PAY_IN_KIND">
+    <Field name="CP_SH_NUM" value=""/>
+    <Field name="CP_AMT" value=""/>
+    <Field name="CP_AMT_TYP" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+  
+  <CorpAction name="RIGHTS_OFFER">
+    <Field name="CP_RECORD_DT" value=""/>
+    <Field name="CP_PX" value=""/>
+    <Field name="CP_TERMS" value=""/>
+    <Field name="CP_RATIO" value=""/>
+    <Field name="CP_TKR1" value=""/>
+    <Field name="CP_AMT1" value=""/>
+    <Field name="CP_TKR2" value=""/>
+    <Field name="CP_AMT2" value=""/>
+    <Field name="CP_TKR3" value=""/>
+    <Field name="CP_AMT3" value=""/>
+    <Field name="CP_CRNCY" value=""/>
+    <Field name="CP_PAY_DT" value=""/>
+    <Field name="CP_DESPATCH_DT" value=""/>
+    <Field name="CP_SUB_START_DT" value=""/>
+    <Field name="CP_PAY_DT" value=""/>
+    <Field name="CP_DESPATCH_DT" value=""/>
+    <Field name="CP_SUB_START_DT" value=""/>
+    <Field name="CP_SUB_END_DT" value=""/>
+    <Field name="CP_RIGHTS_OFFER_TYP" value=""/>
+    <Field name="CP_TRADE_END_DT" value=""/>
+    <Field name="CP_RENOUNCEABLE" value=""/>
+    <Field name="CP_MIN_BLOCK" value=""/>
+    <Field name="CP_PARI_PASU" value=""/>
+    <Field name="CP_PART_PAID" value=""/>
+    <Field name="CP_INIT_AMT" value=""/>
+    <Field name="CP_FINAL_DT" value=""/>
+    <Field name="CP_OPT_TKR" value=""/>
+    <Field name="CP_OPT_PX" value=""/>
+    <Field name="CP_OPT_NUM" value=""/>
+    <Field name="CP_ADJ" value=""/>
+    <Field name="CP_INDICATOR" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+
+  <CorpAction name="CONV_PX_RFIX">
+    <Field name="CP_OLD_PX" value=""/>
+    <Field name="CP_NEW_PX" value=""/>
+    <Field name="CP_OLD_RATIO" value=""/>
+    <Field name="CP_NEW_RATIO" value=""/>
+    <Field name="CP_OLD_EXCH_RT" value=""/>
+    <Field name="CP_NEW_EXCH_RT" value=""/>
+    <Field name="CP_CONV_PX_REASON" value=""/>
+    <Field name="CP_UNDL_CRNCY" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+  
+  <CorpAction name="EX_PX_RFIX">
+    <Field name="CP_OLD_PX" value=""/>
+    <Field name="CP_NEW_PX" value=""/>
+    <Field name="CP_OLD_RATIO" value=""/>
+    <Field name="CP_NEW_RATIO" value=""/>
+    <Field name="CP_OLD_EXCH_RT" value=""/>
+    <Field name="CP_EX_PX_REASON" value=""/>
+    <Field name="CP_WARRANT_PER_BOND" value=""/>
+    <Field name="CP_UNDL_CRNCY" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+  
+  <CorpAction name="FUNG_ISS">
+    <Field name="CP_ADDED_AMT" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+  
+  <CorpAction name="EXTEN_ISS">
+    <Field name="CP_PRV_MTY_DT" value=""/>
+    <Field name="CP_NXT_MTY_DT" value=""/>
+    <Field name="CP_EXTEN_ISS_REASON" value=""/>
+    <Field name="CP_STILL_EXTEND" value=""/>
+    <Field name="CP_NOTES" value=""/>
+  </CorpAction>
+  
+  <CorpAction name="DVD_CASH">
+    <Field name="CP_RECORD_DT" value=""/>
+    <Field name="CP_PAY_DT" value=""/>
+    <Field name="CP_FREQ" value=""/>
+    <Field name="CP_NET_AMT" value=""/>
+    <Field name="CP_TAX_AMT" value=""/>
+    <Field name="CP_GROSS_AMT" value=""/>
+    <Field name="CP_FRANKED_AMT" value=""/>
+    <Field name="CP_DVD_CRNCY" value=""/>
+    <Field name="CP_DVD_TYP" value=""/>
+    <Field name="CP_SPPL_AMT" value=""/>
+    <Field name="CP_FOREIGN_AMT" value=""/>
+    <Field name="CP_PAR_PCT" value=""/>
+    <Field name="CP_STOCK_OPT" value=""/>
+    <Field name="CP_REINVEST_RATIO" value=""/>
+    <Field name="CP_PX" value=""/>
+    <Field name="CP_TAX_RT" value=""/>
+    <Field name="CP_ADJ" value=""/>
+    <Field name="CP_ADJ_DT" value=""/>
+    <Field name="CP_INDICATOR" value=""/>
+    <Field name="CP_DVD_DRP_DISCOUNT" value=""/>
+    <Field name="CP_EUSD_TID" value=""/>
+    <Field name="CP_EUSD_TID_SW" value=""/>
+    <Field name="CP_NOTES" value=""/>
+    <Field name="CP_DIST_AMT_STATUS" value=""/>
+    <Field name="CP_TERMS" value=""/>
+    <Field name="CP_TKR1" value=""/>
+    <Field name="CP_RIGHTS_PER_SHARE" value=""/>
+    <Field name="CP_SHARES_PER_RIGHT" value=""/>
+    <Field name="CP_SUB_START_DT" value=""/>
+    <Field name="CP_SUB_END_DT" value=""/>
+    <Field name="CP_TRADE_START_DT" value=""/>
+    <Field name="CP_TRADE_END_DT" value=""/>
+    <Field name="CP_RIGHTS_SHARES" value=""/>
+    <Field name="CP_RIGHTS_TKR1" value=""/>
+  </CorpAction>
+  <CorpAction name="DVD_STOCK">
+    <Field name="CP_RECORD_DT" value=""/>
+    <Field name="CP_PAY_DT" value=""/>
+    <Field name="CP_AMT" value=""/>
+    <Field name="CP_DVD_STOCK_TYP" value=""/>
+    <Field name="CP_TKR" value=""/>
+    <Field name="CP_ADJ" value=""/>
+    <Field name="CP_ADJ_DT" value=""/>
+    <Field name="CP_INDICATOR" value=""/>
+    <Field name="CP_NOTES" value=""/>
+    <Field name="CP_DIST_AMT_STATUS" value=""/>
+  </CorpAction>
+  <CorpAction name="STOCK_SPLT">
+    <Field name="CP_TERMS" value=""/>
+    <Field name="CP_RATIO" value=""/>
+    <Field name="CP_RECORD_DT" value=""/>
+    <Field name="CP_STOCK_SPLT_TYP" value=""/>
+    <Field name="CP_ADJ" value=""/>
+    <Field name="CP_ADJ_DT" value=""/>
+    <Field name="CP_SH_FRACTIONAL" value=""/>
+    <Field name="CP_INDICATOR" value=""/>
+    <Field name="CP_NOTES" value=""/>
+    <Field name="CP_PAY_DT" value=""/>
+  </CorpAction>
+</CorpActions>

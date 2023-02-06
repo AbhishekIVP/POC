@@ -1,0 +1,644 @@
+﻿body
+{
+}
+
+.clearGrouping
+{
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 32px;
+    cursor: pointer;
+    background-image: url(images/icons/clear_all_group.gif);
+    margin-right: 5px;
+    height: 22px;
+}
+
+.clearFilter
+{
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 32px;
+    cursor: pointer;
+    background-image: url(images/icons/clear_all_filter.gif);
+    height: 22px;
+    margin-right: 5px;
+}
+
+.clearSort
+{
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 32px;
+    cursor: pointer;
+    background-image: url(images/icons/clear_all_sort.gif);
+    height: 22px;
+    margin-right: 5px;
+}
+
+.alternatingRow
+{
+    background-color: white;
+    white-space: nowrap;
+    font-size: 10px;
+    vertical-align: middle;
+    cursor: default;
+    color: #5e5e70;
+    padding: 0px;
+    font-family: 'Istok Web' , sans-serif;
+    height: 22px;
+    border-right: 0px;
+}
+.normalRow
+{
+    background-color: #fdfdfd;
+    white-space: nowrap;
+    font-size: 10px;
+    vertical-align: middle;
+    cursor: default;
+    color: #5e5e70;
+    padding: 0px;
+    font-family: 'Istok Web' , sans-serif;
+    height: 22px;
+}
+.alternatingRow td
+{
+    overflow: hidden;
+    word-wrap: break-word;
+    padding: 0 7px;
+    border: none;
+    border-bottom: 1px solid #f4f1f1;
+    color: #333;
+}
+.normalRow td
+{
+    overflow: hidden;
+    word-wrap: break-word;
+    padding: 0 7px;
+    border: none;
+    border-bottom: 1px solid #f4f1f1;
+    color: #333;
+}
+.alternatingRow:hover
+{
+    background-color: #F2F2F2;
+}
+.normalRow:hover
+{
+    background-color: #F2F2F2;
+}
+
+.checkedRow
+{
+    border: 1px solid #fbb785;
+    background-color: #C7C7C7;
+    white-space: nowrap;
+    border-right: 0px solid #999999;
+    border-top: #f7f7f7 1px solid;
+    border-left: 1px solid #f7f7f7;
+    font-size: 12px;
+    vertical-align: middle;
+    cursor: default;
+    color: #333;
+    padding: 0px;
+    font-family: 'Istok Web' , sans-serif;
+    height: 22px;
+}
+
+.checkedRow td
+{
+    padding: 0 7px;
+    border-left: 1px solid #eee; /*text-overflow:ellipsis;*/
+    word-wrap: break-word; /*white-space: nowrap;*/
+    overflow: hidden;
+}
+
+.recordSummary
+{
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 11px;
+    color: #333;
+    font-weight: bold;
+    white-space: nowrap;
+    padding-right: 15px;
+    border-right: 1px solid #d3d3d3;
+}
+
+.groupDropPanel
+{
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    color: #000;
+    background: rgb(245, 245, 245);
+    padding-left: 10px;
+    border-right: 1px solid #888;
+    border-left: 1px solid #888;
+}
+
+a.exportToExcel
+{
+    background-image: url(images/icons/ex_excel_all.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    width: 32px;
+    height: 22px;
+    margin-right: 5px;
+}
+
+a.exportToExcelVisibleRows
+{
+    background-image: url(images/icons/ex_excel_vis.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    width: 32px;
+    height: 22px;
+    margin-right: 5px;
+}
+
+
+.gridBtn
+{
+    font-size: 10px;
+    margin-left: 7px;
+    cursor: default;
+    color: #323232;
+    font-family: 'Istok Web' , sans-serif;
+    background-color: #f5f5f5;
+    z-index: 10;
+}
+/* added by pp 17 feb */
+input.gridBtn
+{
+    font-size: 10px;
+    margin: 0 5px;
+    cursor: default;
+    color: #666;
+    font-family: 'Istok Web' , sans-serif;
+    background: #fff url(images/searchIcon.png) 5px center no-repeat;
+    padding-left: 22px;
+    z-index: 10;
+    border: 1px solid #aaa;
+}
+
+.gridTxtBox
+{
+    font-size: 10px;
+    margin-left: 7px;
+    width: 30px;
+    cursor: default;
+    color: #323232;
+    font-family: 'Istok Web' , sans-serif;
+    background-color: #f5f5f5;
+}
+
+.upperHeader
+{
+    border: none;
+    font-family: 'Istok Web' , sans-serif;
+    padding: 2px 10px 1px 10px;
+    height: 24px;
+    z-index: 10;
+    background: #F6F6F6;
+    border-bottom: 1px solid #e7e7e7;
+}
+/* commented by pp 20 feb
+.header th
+{
+	border: none;
+	color: #525252;
+	padding-left: 7px;
+	border-left:1px solid #A9D1EE;
+	border-top:1px solid #A9D1EE;
+	border-right:none;
+	border-bottom:1px solid #6EAAD6;
+}
+*/
+/* added by pp 20 feb */
+.header th
+{
+    border: none;
+    color: #8a8787;
+    padding-left: 7px;
+    border-right: 1px dashed #E7E7E7;
+    border-top: none;
+    border-bottom: 1px solid #E0E0E0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.header th table
+{
+    background-color: white;
+}
+
+.header th td
+{
+    white-space: nowrap;
+    background-color: white;
+}
+
+.ascending
+{
+    /* copied from sortDownIcon Class*/
+    cursor: pointer;
+    padding: 0px 8px; /* commented by pp 20 feb 	background:none; 	background-image:url(images/gridSortUpIcon.gif); 	background-repeat:no-repeat; 	background-position:center; 	*/
+    background: url(images/icons/gridSortUpIcon.gif) center center no-repeat;
+    height: 25px; /* copied from sortDownIcon Class*/ /*cursor: pointer; 	background-image: url(images/asc.gif); 	background-repeat: no-repeat; 	background-position: center; 	padding: 7px;*/
+}
+
+.descending
+{
+    /* copied from sortUpIcon Class*/
+    cursor: pointer;
+    padding: 0px 8px;
+    background: none; /* commented by pp 20 feb 	background-image:url(images/gridSortDownIcon.gif); 	background-repeat:no-repeat; 	background-position:center; 	*/
+    background: url(images/icons/gridSortDownIcon.gif) center center no-repeat;
+    height: 25px; /* copied from sortUpIcon Class*/ /*cursor: pointer; 	background-image: url(images/desc.gif); 	background-repeat: no-repeat; 	background-position: center; 	padding: 7px;*/
+}
+
+.filterIcon
+{
+    cursor: pointer;
+    padding: 0px 8px;
+    background: none; /* commented by pp 20 feb 	background-image:url(images/gridDropIcon.gif); 	background-repeat:no-repeat; 	background-position:center; 	*/
+    background: url(images/icons/filter.png) center center no-repeat;
+    height: 25px;
+}
+
+.filterDropIcon
+{
+    cursor: pointer;
+    padding: 0px 8px;
+    background: none; /* commented by pp 20 feb 	background-image:url(images/gridFilterIcon.gif); 	background-repeat:no-repeat; 	background-position:center; 	*/
+    background: url(images/icons/gridFilterIcon.gif) center center no-repeat;
+    height: 25px;
+}
+
+.selectLabel
+{
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 11px;
+    color: #555555;
+    padding: 5px;
+}
+
+.prevPage
+{
+    width: 15px;
+    cursor: pointer;
+    background-image: url(images/previous.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.nextPage
+{
+    width: 15px;
+    cursor: pointer;
+    background-image: url(images/next.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.statusBar
+{
+    font-family: 'Istok Web' , sans-serif;
+    white-space: nowrap;
+    background: rgb(230, 230, 231);
+    font-size: 11px;
+    color: #333;
+    border-bottom: 1px solid #515151;
+}
+/* updated by pp 23 feb */
+.statusBar table td
+{
+    white-space: nowrap;
+    padding-left: 8px;
+    widows: 50px;
+}
+
+.btnRetry
+{
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-image: url(images/retry.png);
+    background-repeat: no-repeat;
+    background-position: center 50%;
+    width: 22px;
+}
+.btnRetryDisabled
+{
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-image: url(images/retry_disabled.png);
+    background-repeat: no-repeat;
+    background-position: center 50%;
+    width: 22px;
+}
+
+.successHeadCustom
+{
+    background: white;
+    font-size: 16px;
+    color: #B3B3B3;
+    padding: 5px 5px 13px 10px;
+    border: 0px;
+}
+
+/*Included from SMTopMenu.Css Start */
+body
+{
+}
+
+.topMenuTools
+{
+    position: absolute;
+    top: 55px; /*right: 20px;*/
+    display: block;
+    height: 19px;
+    width: 34px;
+    cursor: pointer;
+    background-image: url(images/topMenuTools.png);
+    background-repeat: no-repeat;
+    z-index: 10000;
+}
+.topMenuTools:hover, .topMenuToolsActive
+{
+    position: absolute;
+    height: 19px;
+    width: 34px;
+    cursor: pointer;
+    background-image: url(images/topMenuTools.png);
+    background-position: left -19px;
+    background-repeat: no-repeat;
+}
+.topMenuToolsDiv
+{
+    text-align: left;
+    position: absolute;
+    right: 20px;
+    top: 75px;
+    background-color: rgb(241, 242, 242);
+    width: 154px;
+    z-index: 10000;
+    border: 1px solid rgb(184,177,177);
+}
+
+.lnkLogOut
+{
+    display: block;
+    color: #0a66a7 !important;
+    text-decoration: none;
+    background-image: url(images/logoutIcon.png);
+    background-repeat: no-repeat;
+    padding-top: 7px;
+    background-position: 5px 7px;
+    padding-left: 26px;
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    height: 25px;
+    line-height: 22px;
+}
+
+.lnkProfile
+{
+    display: block;
+    text-decoration: none;
+    background-image: url(images/profileIcon.png);
+    background-repeat: no-repeat;
+    padding-top: 7px;
+    background-position: 5px 7px;
+    padding-left: 26px;
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    height: 25px;
+    line-height: 22px;
+    border-bottom: 1px dashed #555555;
+    color: #0a66a7 !important;
+}
+.lnkHome
+{
+    display: block;
+    text-decoration: none;
+    background-image: url(images/homeIcon.png);
+    background-repeat: no-repeat;
+    padding-top: 7px;
+    background-position: 5px 7px;
+    padding-left: 26px;
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    height: 25px;
+    line-height: 22px;
+    color: #0a66a7 !important;
+    border-bottom: 1px dashed #555555;
+}
+.lnkHome:hover, .lnkProfile:hover, .lnkLogOut:hover
+{
+    background-color: #e2e2e2;
+}
+.secmasterMenuHeader
+{
+    cursor: pointer;
+    border: none !important;
+    width: 110px;
+    height: 18px;
+    color: #fff;
+    background-image: url(images/Topmenu-blue.png) !important;
+    background-repeat: no-repeat;
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-left: 5px;
+    cursor: pointer;
+    float: left;
+}
+/*
+.secmasterMenuHeader
+{
+    cursor: pointer;
+    border-left: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-right:1px solid #e7e7e7 !important;
+    width: 110px;
+    height: 27px;
+    color: #fff;
+    background-image: url(images/buttonBackgrounds/btnSecmasterBg1.png) !important;
+    color: #585858;
+    font-family: Sans-Serif;
+    font-size: 17px;
+    padding-top: 2px;
+    padding-left: 5px;
+    cursor: pointer;
+    float: left;
+    line-height:26px;
+}*/
+.secmasterMenuHeader:hover, .activeMenuTab_secMaster
+{
+    /* width: 110px;     height: 18px;     background-image: url(images/Topmenu-grey.png) !important;     background-repeat: repeat-x;     font-family: Arial;     font-size: 12px;     padding-top: 2px;     padding-left: 5px;     font-weight: bold;     color: #333;*/
+    cursor: pointer;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    color: #000;
+    background-image: url(images/Topmenu-grey.png) !important;
+    background-repeat: repeat; /*background-color: #0A70B2;*/
+    text-align: center;
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 2px; /*padding-left: 5px;*/
+    float: left; /*background-position: 100px 18px;*/
+    border-left-color: #0b7abe;
+    border-right-color: #094e8c;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+/*Included from SMTopMenu.Css Start */
+
+.btnUpdate
+{
+    height: 20px;
+}
+
+.btnDelete
+{
+    height: 20px;
+    background-image: url(images/deleteIcon.png);
+}
+
+.button
+{
+    background: none;
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 22px;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 2px 7px;
+    margin-left: 5px;
+    width: auto;
+}
+
+.button:disabled
+{
+    background-image: none;
+    border: none;
+    background-color: #CFCFCF;
+    outline-color: none;
+    color: black;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+tr.alternatingRow, tr.alternatingRow td, tr.normalRow, tr.normalRow td
+{
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Istok Web' , sans-serif;
+}
+tr.header, .container table thead, .container table thead tr.header
+{
+    padding: 0px 2px 0px 2px;
+    font-family: 'Lato' , sans-serif;
+    font-size: 11px;
+}
+.container table tr td
+{
+    border: none;
+    color: #333;
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 12px;
+    border-bottom: 1px solid #f4f1f1;
+}
+th table tr td div
+{
+    font-family: 'Lato' , sans-serif;
+    height: 25px;
+    line-height: 25px;
+    font-size: 11px;
+    color: #8a8787;
+}
+.groupedRow table tr td
+{
+    border-style: none;
+    border-top: none;
+    border-bottom-width: 0px;
+}
+.container th table tr td
+{
+    font-family: 'Lato' , sans-serif;
+    height: 25px;
+    line-height: 25px;
+    font-size: 11px;
+    color: #8a8787;
+    border-style: none;
+}
+.header
+{
+    height: 25px !important;
+    min-height: auto !important;
+    padding: 2px;
+    background-color: White;
+    color: #8a8787;
+    border: none;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    vertical-align: middle;
+    cursor: pointer;
+    text-align: left;
+    font-family: 'Lato' , sans-serif;
+}
+
+.container > table
+{
+    border-bottom: 1px solid #E7E7E7;
+}
+
+/* To change Look of HTML Table like RADX in Refmaster*/
+.header td {
+  background-color: white;
+  border: none;
+  color: #8a8787;
+  padding-left: 7px;
+  border-right: 1px dashed #E7E7E7;
+  border-top: none;
+  border-bottom: 1px solid #E0E0E0;
+}
+/* To change Look of HTML Table like RADX*/
+
+/*For Impacted Securites Grid*/
+.SMImpactedSecurities th table tr td div
+{
+    width:140px !important;
+}

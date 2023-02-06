@@ -1,0 +1,151 @@
+﻿#SRMLegRoleParent {
+   background: #f9fafc; 
+   font-size:0px;
+}
+
+.SRMLegRoles {
+
+display:inline-block;
+
+/* text-align:center; */
+
+vertical-align:middle;
+}
+
+.SRMLegRolesWidth {
+    width: 17%;
+}
+
+
+
+.SRMLegRolesRight {
+    width: 50% !important;
+}
+
+.SRMLegRoleLeftItems {
+    width: 85%;
+    margin: 0 auto;
+    background:#cadde5;
+    margin-bottom: 8%;
+    margin-top:3%;
+    height: 45px;
+    line-height: 45px;
+    background: #f6e7e0;
+    /* border:thin black; */
+    border-radius: 5px;
+}
+
+.SRMLegRoleLeftItemsText {
+     font-size: 15px;
+     text-align:left;
+     padding-left: 17px;
+     color: #312018;
+}
+
+.SRMLegRoleCenterItems {
+    width: 70%;
+    background: #405b79;
+    margin: 0 auto;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 5px;
+}
+
+.SRMLegRoleRightItemsParent {
+    width: 95%;
+    margin: 0 auto;
+    /*display:inline-block;*/
+    /*background: #ebe8e1;*/
+
+}
+
+.SRMLegRoleRightItems{
+    display:inline-block;
+    background: #cfe4ed;
+    width: 30%;
+    margin-right: 3%;
+    height: 55px;
+    line-height: 55px;
+    margin-bottom: 17px;
+    margin-top: 17px;
+    border-radius: 5px;
+}
+
+
+
+.SRMLegArrow {
+    text-align:center;
+    font-size: 50px;
+    height:70px;
+    /*vertical-align: middle;*/
+    width: 70%;
+    color: #47617e;
+}
+
+.SRMArrowParent {
+    display:inline-block;
+    width: 4%;
+    vertical-align: top;
+    background:white;
+    text-align: center;
+}
+
+#SRMLegRoleLeft {
+    background: #f9fafc;
+    margin-right: 4%;
+}
+
+#SRMLegRoleRight {
+    background: #f9fafc;
+}
+
+#SRMLegRoleHeadersParent {
+    height: 60px;
+}
+
+.SRMLegRoleRightItemsText {
+    font-size: 15px;
+    text-align: center;
+    color: #324750;
+    /* text-transform: uppercase; */
+    /* font-family: oswald; */
+    /* font-weight: 600; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#SRMLegRoleCenter {
+    background:white;
+}
+
+.SRMLegRoleItemsCenterText {
+    color:white;
+    font-family:oswald;
+    font-size: 18px;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:500;
+}
+
+.SRMLegRoleRightHeaderText {
+    width: 95%;
+    margin: 0 auto;
+    color: #527e91;
+    font-family: oswald;
+    font-size: 20px;
+    /* font-weight: 600; */
+    letter-spacing: 0.1px;
+}
+
+.SRMLegRoleLeftHeaderText {
+    width: 70%;
+    margin: 0 auto;
+    color: #8f776c;
+    font-family: oswald;
+    font-size: 18px;
+    /* font-weight: 600; */
+    letter-spacing: 0.1px;
+    margin-bottom: 14px;
+    margin-left: 18px;
+}

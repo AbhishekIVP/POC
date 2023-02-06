@@ -1,0 +1,526 @@
+﻿/*By Sahil - This DropDown is applicable where there is a table inside the div, and apply this class in the div*/
+.CommonDropDownRows
+{
+    cursor: pointer;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .15);
+    border-radius: 0 0 4px 4px;
+    border: 1px solid #CDCDCD;
+    font-family: Lato, sans-serif;
+    font-size: 11px;
+}
+
+.CommonDropDownRows table
+{
+    border-collapse:collapse;    
+}
+
+.CommonDropDownRows tr td span input[type=checkbox]
+{
+    float: right;
+}
+
+.CommonDropDownRows tr td span label
+{
+    padding-left: 10px;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+.CommonDropDownRows tr
+{
+    border-left: 4px solid #fff;
+    height: 30px;
+}
+
+.CommonDropDownRows tr:hover
+{
+    color: #A8A6A6;
+    border-left: 5px solid #00bcef;
+}
+
+.CommonDropDownRow div:hover
+{
+    color: #A8A6A6;
+    border-left: 5px solid #00bcef;
+}
+
+.CommonDropDownRows input[type="checkbox"]:checked
+{
+    background: transparent;
+    color: #000;
+}
+
+/*To Hide the Hover Effect from Date Drop Down inside Custom Date Div*/
+.customDate:hover
+{
+    border-left:none !important;
+    color:#383839 !important;
+}
+
+.customDate tr:hover
+{
+    border-left:none !important;
+    color:#383839 !important;
+}
+
+.customDate td:first-child
+{
+      padding-right: 20px;    
+}
+/*--------------------------------------------------------*/
+
+.CommonInputBoxWithImage
+{
+    height: 50px;
+    border: 1px solid #D6D6D6;
+    border-radius: 5px;
+    border-bottom: 3px solid;
+    padding: 10px;
+    width:400px;
+}
+
+.CommonInputBoxWithImage input
+{
+    height: 34px;
+    background-color: #fff;
+    border: 0px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.CommonInputBoxWithImage span
+{
+    padding-top: 4px;
+}
+
+.CommonInputBoxWithImage input:-webkit-autofill
+{
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.CommonButtonAsText
+{
+    background: white;
+    border: none;
+    outline:none;
+    height: 22px;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 12px;
+    color: #43D9C6;
+    font-weight: normal;
+    margin: 0px;
+    cursor: pointer;
+    width: auto;
+    padding: 0px 5px;
+}
+
+.CommonDeleteButtonAsText
+{
+    background: white;
+    border: none;
+    outline:none;
+    height: 22px;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 12px;
+    color: #7c7c7c;
+    font-weight: normal;
+    margin: 0px;
+    cursor: pointer;
+    width: auto;
+    padding: 0px 5px;
+}
+
+.CommonButtonAsText[disabled]
+{
+    border: none;
+    background: none;
+    font-weight: normal;
+	color: #8F8F8F;
+	cursor: text;
+    font-size: 12px;
+}
+
+.CommonButtonAsTextWithBorder
+{
+    background: white;
+    border: 1px solid #43D9C6;
+    border-radius: 3px;
+    outline:none;
+    height: 22px;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 12px;
+    color: #43D9C6;
+    font-weight: normal;
+    margin: 0px;
+    cursor: pointer;
+    width: auto;
+    padding: 0px 5px;
+}
+
+.CommonButtonAsTextWithBorder[disabled]
+{
+    border: none;
+    background: none;
+    font-weight: normal;
+	color: #8F8F8F;
+	cursor: text;
+    font-size: 12px;
+}
+
+.CommonGreenBorderButton
+{
+    border: 1px solid #43D9C6;
+    height: 22px;
+    border-radius: 3px;
+}
+
+.CommonWhiteBtnStyle
+{
+    background-color: #fff;
+    outline-color: #43D9C6;
+    border: 1px solid #CACACA;
+    border-radius: 2px;
+    color: #ED6F74;
+    height: 23px;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 12px;
+    padding: 0px 10px;
+    cursor:pointer;
+}
+
+.CommonWhiteBtnStyle:hover
+{
+    color: #D32C33
+}
+
+.CommonWhiteBtnStyle:disabled
+{
+    color:#CACACA !important;
+    background-color:#FFF;
+    border:1px solid #CACACA;
+    font-size:12px;
+    cursor:default;
+}
+
+.CommonOutlineButton 
+{
+    font-size: 13px;
+    line-height: 14px;
+    color: #43d9c6;
+    height: 18px;
+    border-left: 1px solid #43d9c6;
+    border-right: 1px solid #43d9c6;
+    border-top: 1px solid #43d9c6;
+    border-bottom: 1px solid #43d9c6;
+    padding-left: 4px;
+    padding-right: 2px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: white;    
+}
+
+.CommonOutlineButton:hover 
+{
+    color : White;
+    background-color : #43d9c6;
+}
+
+.CommonIcon
+{
+    background-color:#fff;
+    outline:none;
+    font-size:18px;
+    border:none;    
+}
+
+/*---------------------Context Menu Css------------------------------*/
+.mycontextMenu
+{
+    background: #fff;
+    z-index: 10;
+    width: 172px;
+    color:#474747;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.mycontextMenu tr
+{
+    height:30px;
+    border-left:4px solid #FFF;
+}
+
+/*div.contextMenuDiv > span > div > .mycontextMenu > tbody > tr:hover
+{
+    background-color: #EEEEEE;
+    border-left:5px solid #00BFF0;
+}*/
+
+.mycontextMenu > tbody > tr:hover
+{
+    background-color: #EEEEEE;
+    border-left:5px solid #00BFF0;
+}
+
+.mycontextMenu tr td
+{
+    cursor: pointer;
+    height: 20px;
+    padding: 2px 0;
+    color:#474747;
+}
+
+.mycontextMenu tr td:eq(0)
+{
+    width:4px;
+    background-color:grey;    
+}
+
+/*--------------------------Context Menu End---------------------------*/
+
+.LinkExceptionFilterItems
+{
+    font-size: 14px; /*font-family: 'Helvetica Neue' ,Helvetica,Arial,sans-serif;*/
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    /*border-bottom: 1px dotted #000000;
+    color: #000000; Commnented By Sahil*/
+    color: #00BFF0;
+    /*font-weight: bold;*/
+    text-decoration: none;
+    padding-top: 5px; /*padding-right: 10px;*/ /*padding-bottom: 5px;*/
+    padding-left: 2px;
+    border-bottom: 1px dashed #00BFF0;
+    font-family:Lato;
+}
+
+.LinkExceptionFilterText
+{
+    font-size: 14px;
+    /*font-family: 'Helvetica Neue' ,Helvetica,Arial,sans-serif; /*border-bottom: 1px dotted #000000;*/
+    color: #323232;
+    /*font-weight: bold;*/
+    text-decoration: none;
+    padding-top: 5px; /*padding-right: 10px;*/
+    padding-bottom: 5px;
+    padding-left: 2px;
+    font-family:Lato;
+}
+
+.CommonListButtons
+{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 12px;
+    min-width: 150px;
+    height: 30px;
+    outline: none;    
+}
+
+.CommonListButtons:hover
+{
+    background-color: #EDEDED;
+}
+
+.plainBtnStyle
+{
+    background-color:#fff;
+    border:0px;
+    cursor:pointer;
+    color:#8A8A8A;
+    outline:none;    
+}
+
+/*End Sahil*/
+
+/* Changes by Tanya Pathak */
+.CommonGreenBtnStyle
+{
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 22px;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 12px;
+    padding: 2px 10px;
+    margin-left: 5px;
+    font-weight:400;
+    width: auto;
+    cursor:pointer;
+}
+
+.CommonCheckboxStyle
+{
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 11px;
+}
+
+.CommonRadioButtonListStyle
+{
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 11px;    
+}
+
+.DateControlInputStyle
+{
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 11px;
+    border: 1px solid #aaa;
+    border-left-color: white;
+    display: inline-block;
+}
+
+
+.CommonInputStyle tr:hover
+{
+    color: #A8A6A6;
+    border-left:4px solid #00bcef;
+}
+
+/* Changes by Tanya Pathak */
+
+/*Vipul Changes*/
+/*Last Edit by Tanya Pathak*/
+.CommonLabelStyle
+{
+    color: dimgray;
+    background-color: #F0F0F0;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    border: 1px solid #CECECE;
+    font-family: 'lato' , Sans-Serif;
+    border-right: 0px;
+    
+}
+
+
+.CommonOrangeBtnStyle
+{
+    font-family: Lato;
+    color: White;
+    height: 22px;
+    font-family: Lato;
+    font-size: 12px;
+    font-family: 'lato' , Sans-Serif;
+    width: auto;
+    text-align: center;
+    border: 0 #ea9747;
+    height: 22px;
+    background: #ea9747;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    outline: none;
+}
+
+.CommonInputStyle
+{
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 12px;
+    border: 1px solid #CECECE;
+    border-left: 0px !important;
+    background: none;
+    display: inline-block;
+}
+
+.CommonInputStyle:disabled
+{
+    border-left: none !important;
+}
+
+.CommonGreenBtnStyle:disabled
+{
+    background-image: none;
+    border: none;
+    background-color: #CFCFCF;
+    outline-color: none;
+    color: black;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.CommonOrangeBtnStyle:disabled
+{
+    background-image: none;
+    border: none;
+    background-color: #CFCFCF;
+    outline-color: none;
+    color: black;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+/*End Vipul Changes*/
+/* Common css for all input controls(Dropdown or input) */
+
+/* modified by neetika */
+.NSMCULabel
+{
+    /* line-height:30px;        height: 22px;*/
+}
+
+.NSMCUValue
+{
+    /* float:left;*/
+    height: 12px !important;
+    border: 1px solid #DADAD6 !important;
+    background: white !important;
+}
+
+input
+{
+    font-family: istok-web;
+    font-size: 12px;
+    color: inherit;
+}
+
+.selectLabel
+{
+	font-family: lato;
+	padding:5px;
+	white-space:nowrap;
+}
+.DateAttributeText
+{
+    background: #FFFFFF url(images/calendarIcon.png) no-repeat right 50%;
+    font-size: 12px;
+    color: #666;
+    padding-right:30px;
+    width: 90px;
+}
+
+.TimeAttributeText
+{
+    background: #FFFFFF url(images/time.jpg) no-repeat right 50%;
+    font-size: 12px;
+    color: #666;
+    font-family: Tahoma;
+    padding-right:30px;
+}
+
+.DateTimeAttributeText
+{
+    background: #FFFFFF url(images/datetime.png) no-repeat right 50%;
+    font-size: 12px;
+    color: #666;
+    font-family: Tahoma;
+}
+
+.CommonContinueButton
+{
+    color: white; 
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    padding-right : 7px; 
+    padding-bottom: 2px; 
+    border: none;
+    border-radius: 2px;    
+}

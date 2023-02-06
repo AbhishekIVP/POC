@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<scriptmanager>
+  <defaults>
+    <default ajaxscripts="1,5" services="2" scripts="3,4,5,6,7,8,34,38,39,47,48,49,50"></default>
+  </defaults>
+
+  <thirdparties>
+    <client id="1" name="googleapis"></client>
+    <client id="2" name="polaris"></client>
+    <client id="3" name="refmaster"></client>
+  </thirdparties>
+
+  <ajaxscripts>
+    <scriptreference id="1" embedded="1" name="com.ivp.rad.raduicontrols.Scripts.RScriptUtils.debug.js"  assembly="RADUIControls" path=""></scriptreference>
+    <scriptreference id="2" embedded="1" name="com.ivp.rad.raduicontrols.Scripts.RADCommonScripts.js"  assembly="RADUIControls" path=""></scriptreference>
+    <scriptreference id="3" embedded="1" name="com.ivp.rad.raduicontrols.Scripts.RADUIScripts.debug.js"  assembly="RADUIControls" path=""></scriptreference>
+    <scriptreference id="4" embedded="1" name="com.ivp.refmaster.ui.ScriptIncludes.RefMasterJSCommon.js"  assembly="RefMasterUI" path=""></scriptreference>
+    <scriptreference id="5" embedded="0" name=""  assembly="" path="~/ScriptIncludes/SecMasterJSCommon.debug.js"></scriptreference>
+    <scriptreference id="6" embedded="1" name="com.ivp.rad.controls.xgrid.Resources.Scripts.RADBrowserScripts.debug.js"  assembly="RADXGrid" path=""></scriptreference>
+    <scriptreference id="7" embedded="1" name="com.ivp.rad.controls.xgrid.Resources.Scripts.RADDragDropScripts.js"  assembly="RADXGrid" path=""></scriptreference>
+    <scriptreference id="8" embedded="1" name="com.ivp.rad.raduicontrols.Scripts.ConfigMigrationScript.js"  assembly="RADUIControls" path=""></scriptreference>
+    <scriptreference id="9" embedded="1" name="com.ivp.rad.raduicontrols.Scripts.taskManagerMain.js" assembly="RADUIControls" path=""/>
+    <scriptreference id="10" embedded="1" name="com.ivp.rad.raduicontrols.Scripts.taskStatusMain.js" assembly="RADUIControls" path=""/>
+  </ajaxscripts>
+
+  <services>
+    <servicereference id="1" path="~/BaseUserControls/Service/Service.asmx"></servicereference>
+    <servicereference id="2" path="~/BaseUserControls/Service/RRadAPI.svc"></servicereference>
+    <servicereference id="3" path="~/BaseUserControls/Service/RMRefMasterUIAPI.svc"></servicereference>
+    <servicereference id="4" path="~/BaseUserControls/Service/RMRefMasterAPI.svc"></servicereference>
+    <servicereference id="5" path="~/BaseUserControls/Service/RADRuleEditorService.svc"></servicereference>
+    <servicereference id="6" path="~/BaseUserControls/Service/SMRefAttributeAddition.svc"></servicereference>
+    <servicereference id="7" path="~/BaseUserControls/Service/RADGridService.svc"></servicereference>
+    <servicereference id="8" path="~/BaseUserControls/Service/SMExceptionManagement.svc"></servicereference>
+    <servicereference id="9" path="~/BaseUserControls/Service/SRMVendorAPIControl.svc"></servicereference>
+    <servicereference id="10" path="~/BaseUserControls/Service/RADAutoCompleteService.svc"></servicereference>
+    <servicereference id="11" path="~/BaseUserControls/Service/SMRealTimePrefSetup.svc"></servicereference>
+    <servicereference id="12" path="~/BaseUserControls/Service/SMRealTimeSecManagement.svc"></servicereference>
+    <servicereference id="13" path="~/BaseUserControls/Service/RADXRuleService.svc"></servicereference>
+    <servicereference id="14" path="~/BaseUserControls/Service/SMBasicService.svc"></servicereference>
+    <servicereference id="15" path="~/BaseUserControls/Service/RADXLGridService.svc"></servicereference>
+    <servicereference id="16" path="~/Services/RADXLComboBoxService.svc"></servicereference>
+    <servicereference id="17" path="~/Services/DatePickerService.svc"></servicereference>
+  </services>
+
+  <scripts>
+    <script id="3" src="js/json2.js"></script>
+    <script id="4" src="includes/SecMasterScripts.js"></script>
+    <script id="5" src="includes/updatePanel.js"></script>
+    <script id="6" src="includes/viewManager.js"></script>
+    <script id="7" src="includes/DisplayControls.js"></script>
+    <script id="8" src="includes/script.js"></script>
+    <script id="9" src="includes/grid.js"></script>
+    <script id="10" src="includes/downstream.js"></script>
+    <script id="11" src="includes/CreateUpdateSecurity.js"></script>
+    <script id="12" src="includes/FeedSummary.js"></script>
+    <script id="13" src="includes/RuleValidation.js"></script>
+    <script id="14" src="includes/downstream.js"></script>
+    <script id="15" src="includes/Hierarchy.js"></script>
+    <script id="16" src="includes/VendorPrioritization.js"></script>
+    <script id="17" src="includes/Exception.js"></script>
+    <script id="18" src="includes/AttributeManagement.js"></script>
+    <script id="19" src="includes/Transport.js"></script>
+    <script id="20" src="includes/ReamTimeManagement.js"></script>
+    <script id="21" src="includes/Search.js"></script>
+    <script id="22" src="includes/SectypeManagement.js"></script>
+    <script id="23" src="includes/SMRadXGridDynamicControlsManager.js"></script>
+    <script id="24" src="includes/CorpAction/CAActionIdentifier.js"></script>
+    <script id="25" src="includes/CorpAction/CADisplayControls.js"></script>
+    <script id="26" src="includes/CorpAction/CAFeedSummary.js"></script>
+    <script id="27" src="includes/CorpAction/CAFlow.js"></script>
+    <script id="28" src="includes/CorpAction/CALoading.js"></script>
+    <script id="29" src="includes/CorpAction/CARuleValidation.js"></script>
+    <script id="30" src="includes/CorpAction/CASearch.js"></script>
+    <script id="31" src="includes/CorpAction/CATransport.js"></script>
+    <script id="32" src="includes/CorpAction/CAUtils.js"></script>
+    <script id="33" src="includes/CorpAction/CAUndoTask.js"></script>
+    <script id="34" src="includes/XMLHttpSyncExecutor.js"></script>
+    <script id="35" src="includes/RAD/checkBox.js"></script>
+    <script id="36" src="js/jquery.jscrollpane.min.js"></script>
+    <script id="37" src="js/jquery.mousewheel.js"></script>
+    <script id="38" src="includes/jquery.slimscroll.js"></script>
+    <script id="39" src="includes/slimScrollHorizontal.js"></script>
+    <script id="40" src="includes/RAD/Datepicker/jquery.datetimepicker.js"></script>
+    <script id="41" src="includes/RAD/Datepicker/RADCustomDateTimePicker.js"></script>
+    <script id="42" src="includes/RAD/radxlcombobox.js"></script>
+    <script id="43" src="includes/select2.js"></script>
+    <script id="44" src="includes/SMSlimscroll.js"></script>
+    <script id="45" src="includes/selectize.js"></script>
+    <script id="46" src="includes/jquery.vhslimscroll.js"></script>
+    <script id="47" src="includes/SMSelect.js"></script>
+    <script id="48" src="includes/SMSlimscroll.js"></script>
+    <script id="49" src="includes/ViewPort.js"></script>
+	<script id="50" src="includes/ruleEditorScroll.js" ></script>
+
+	  <thirdparty id="2">
+      <script id="1" src="js/thirdparty/polaris/thirdparty/tree.js"></script>
+      <script id="2" src="js/thirdparty/polaris/thirdparty/select2.js"></script>
+      <script id="3" src="js/thirdparty/polaris/support.me/sammy/sammy.min.js"></script>
+      <script id="4" src="js/thirdparty/polaris/iago.core/iago.init.js"></script>
+      <script id="5" src="js/thirdparty/polaris/iago.core/iago.core.js"></script>
+      <script id="6" src="js/thirdparty/polaris/iago.core/iago.utils.js"></script>
+      <script id="7" src="js/thirdparty/polaris/iago.core/iago.handlers.js"></script>
+      <script id="8" src="js/thirdparty/polaris/iago.widgets/iago.widgets.inlineFilter.js"></script>
+      <script id="9" src="js/thirdparty/polaris/iago.widgets/iago.widgets.tree.js"></script>
+      <script id="10" src="js/thirdparty/polaris/support.me/datatables/jquery.dataTables.js"></script>
+      <script id="11" src="js/thirdparty/polaris/thirdparty/moment.js"></script>
+      <script id="12" src="js/thirdparty/polaris/thirdparty/daterangepicker.js"></script>
+      <script id="13" src="js/thirdparty/polaris/iago.widgets/iago.widgets.dateControl.js"></script>
+      <script id="14" src="js/thirdparty/polaris/iago.widgets/iago.widgets.tile.js"></script>
+      <script id="15" src="js/thirdparty/polaris/iago.widgets/iago.widgets.tile.datatable.js"></script>
+      <script id="16" src="js/thirdparty/polaris/iago.widgets/iago.widgets.dashboard.js"></script>
+      <script id="17" src="js/thirdparty/polaris/iago.widgets/jquery.flip.js"></script>
+      <script id="18" src="js/thirdparty/polaris/iago.widgets/iago.widgets.dataTable.js"></script>
+      <script id="19" src="js/thirdparty/polaris/thirdparty/timeline.js"></script>
+      <script id="20" src="js/thirdparty/polaris/support.me/gridster/jquery.gridster.min.js"></script>
+      <script id="21" src="js/thirdparty/polaris/iago.widgets/iago.widgets.rightFilter.js"></script>
+    </thirdparty>
+    <thirdparty id="3">
+      <script id="1" src="includes/fileUploadScript.js"></script>
+      <script id="2" src="includes/RefMasterUpgradeScript.js"></script>
+      <script id="3" src="includes/RMWizard.js"></script>
+      <script id="4" src="includes/RMAttributeManagement.js"></script>
+    </thirdparty>
+  </scripts>
+
+  <jquery>
+    <jscript id="1" src="js/Jquery1.10/jquery-1.10.2.js"></jscript>
+    <jscript id="2" src="js/Jquery1.10/jquery-ui-1.10.4.custom.js"></jscript>
+    <jscript id="3" src="js/Jquery1.10/jquery-ui-1.10.4.custom.min.js"></jscript>
+    <jscript id="4" src="js/jquery-1.7.1.min.js"></jscript>
+    <jscript id="5" src="js/jquery-ui-1.8.18.custom.min.js"></jscript>
+    <jscript id="6" src="js/Jquery1.11/jquery-1.11.1.min.js"></jscript>
+    <jscript id="7" src="js/Jquery1.11/jquery-ui.min.js"></jscript>
+    <jscript id="8" src="js/Jquery1.11/jquery-1.11.1.js"></jscript>
+    <jscript id="9" src="JS/jquery1.8.3.min.js"></jscript>
+    <jscript id="10" src="JS/jquery-1.8.3.js"></jscript>
+    <jscript id="11" src="JS/Jquery1.9/jquery-1.9.1.js"></jscript>
+    <jscript id="12" src="JS/Jquery1.9/jquery-1.9.1.min.js"></jscript>
+    <jscript id="13" src="JS/Jquery1.9/jquery-ui-1.9.2.js"></jscript>
+    <jscript id="14" src="JS/Jquery1.9/jquery-ui-1.9.2.min.js"></jscript>
+    <jscript id="15" src="JS/Jquery1.9/jquery-ui-1.9.1.js"></jscript>
+  </jquery>
+
+  <stylesheet>
+    <link id="1" href="css/smoothness/jQueryCTM-ui-1.10.3.css" />
+    <link id="2" href="css/SMCss/zCommonTaskManagerStyle.css"></link>
+    <!--<link id="3" href="css/SMCss/RefM_MigrationGrid.css"></link>
+    <link id="4" href="css/SMCss/RefM_MigrationUtility.css"></link>-->
+    <link id="5" href="css/smoothness/jquery-ui-1.8.18.custom.css"></link>
+    <link id="6" href="css/SMCss/Customjquery.datetimepicker.css"  />
+    <link id="7" href="css/SMCss/RADDateTimePicker.css"  />
+    <link id="8" href="css/smoothness/jquery-ui.min.css"  />
+    <link id="9" href="css/thirdparty/secmaster/select2.css"  />
+    <link id="10" href="css/thirdparty/secmaster/selectize.default.css"  />
+    <link id="11" href="css/SMCss/SMSelect.css" />
+    <thirdparty id="1">
+      <link id="1" href="css/thirdparty/googleapis/Lato.css" />
+      <link id="2" href="css/thirdparty/googleapis/IstokWeb.css" />
+    </thirdparty>
+    <thirdparty id="2">
+      <link id="1" href="App_Themes/SuperAwesome/30_IagoWidgets/iago.widgets.inlineFilter.css" />
+      <link id="2" href="App_Themes/SuperAwesome/30_IagoWidgets/iago.widgets.tree.css" />
+    </thirdparty>
+    <thirdparty id="3">
+      <link id="1" href="css/thirdparty/refmaster/RefM_MigrationUtility_SecMaster.css" />
+      <link id="2" href="css/thirdparty/refmaster/RefM_MigrationGrid_SecMaster.css" />
+      <link id="3" href="css/thirdparty/refmaster/RefMasterCss.css" />
+      <link id="4" href="css/thirdparty/refmaster/DataReconciliation.css" />
+      <link id="5" href="css/thirdparty/refmaster/jqx.web.css" />
+      <link id="6" href="css/thirdparty/refmaster/jqx.base.css" />
+      <link id="7" href="css/thirdparty/refmaster/jqx.grid_outer.css" />
+      <link id="8" href="App_Themes/Aqua/RMCommonTheme.css" />
+    </thirdparty>
+  </stylesheet>
+</scriptmanager>

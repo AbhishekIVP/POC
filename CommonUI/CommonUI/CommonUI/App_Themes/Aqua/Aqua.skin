@@ -1,0 +1,507 @@
+<asp:Image runat="server" SkinID="imgHeaderLeft" ImageUrl="images/headerLeft.jpg" />
+<%-- Added by pp 10 feb --%>
+<asp:Image runat="server" SkinID="imgHeaderRight" ImageUrl="images/headerTxtRight.jpg" />
+<asp:Image runat="server" SkinID="imgHidePane" ImageUrl="images/leftMenu/splitter.gif" />
+<asp:Image runat="server" SkinID="imgHidePaneArr" ImageUrl="images/hidePane.gif" /><%-- Added by pp 12 feb --%>
+<asp:Image runat="server" SkinID="imgShowPane" ImageUrl="images/splitterEx.gif" />
+<asp:Image runat="server" SkinID="imgShowPaneArr" ImageUrl="images/showPane.gif" /><%-- Added by pp 12 feb --%>
+<asp:Image runat="server" SkinID="imgHideHead" ImageUrl="images/topSplitter.gif" />
+<%-- Added by pp 10 feb --%>
+<asp:Image runat="server" SkinID="imgLoginHead" ImageUrl="images/loginHeader.jpg" />
+<asp:Image runat="server" SkinID="imgIvpLogo" ImageUrl="images/IVPlogo.gif" />
+<asp:Image runat="server" SkinID="imgShowHead" ImageUrl="images/topSplitterEx.gif" />
+<asp:Image runat="server" SkinID="imgSecMasterLogo" ImageUrl="images/security_master_logo.png" /><%-- Added by Sahil 19th June,15 --%>
+<asp:Image runat="server" SkinID="imgIVPLoginLogo" ImageUrl="images/indus valley partners_ logo.png" /><%-- Added by Sahil 19th June,15 --%>
+<asp:Image runat="server" SkinID="loginBtnArrow" ImageUrl="images/LoginArrow.png" /><%-- Added by Sahil 17th July,15 --%>
+
+<asp:Image runat="server" SkinID="MpCurveLeftop" ImageUrl="images/panelCrvLeft.gif" />
+<%-- Added by pp 10 feb --%>
+<asp:Image runat="server" SkinID="blueThemeThumb" ImageUrl="images/blueThemeThumbnail.jpg" />
+<asp:Image runat="server" SkinID="greyThemeThumb" ImageUrl="images/greyThemeThumbnail.jpg" />
+<asp:Image runat="server" SkinID="chocolateThemeThumb" ImageUrl="images/chocolateThemeThumbnail.gif" />
+<asp:Image runat="server" SkinID="sunsetBlueThumb" ImageUrl="images/sunsetBlueThemeThumbnail.gif" />
+<asp:Image runat="server" SkinID="woodyThumb" ImageUrl="images/woodyThemeThumbnail.jpg" />
+<asp:Image runat="server" SkinID="MpCurveRightop" ImageUrl="images/panelCrvRight.gif" />
+<asp:Image runat="server" SkinID="MpCurveBotleft" ImageUrl="images/panelFootCrvLeft.gif" />
+<asp:Image runat="server" SkinID="MpCurveBotright" ImageUrl="images/panelFootCrvRight.gif" />
+<asp:Image runat="server" SkinID="successIcon" ImageUrl="images/successIcon.gif" />
+<asp:Image runat="server" SkinID="alertIcon" ImageUrl="images/alertIcon.gif" />
+<asp:Image runat="server" SkinID="topLeftCrv" ImageUrl="images/popupTopLeftCrv.gif" />
+<asp:Image runat="server" SkinID="topRightCrv" ImageUrl="images/popupTopRightCrv.gif" />
+<asp:Image runat="server" SkinID="bottomLeftCrv" ImageUrl="images/popupBottomLeftCrv.gif" />
+<asp:Image runat="server" SkinID="bottomRightCrv" ImageUrl="images/popupBottomRightCrv.gif" />
+<asp:Image runat="server" SkinID="ATLeftCrv" ImageUrl="images/auditTrailTopLeftCrv.gif" />
+<asp:Image runat="server" SkinID="ATRightCrv" ImageUrl="images/auditTrailTopRightCrv.gif" />
+<asp:ImageButton runat="server" SkinID="ClearUpload" ImageUrl="images/clear.gif" />
+<asp:ImageButton runat="server" SkinID="ManageUpload" ImageUrl="images/upload2.png" />
+<asp:ImageButton runat="server" SkinID="FileUpload" ImageUrl="images/upload-icon.png" />
+<asp:ImageButton runat="server" SkinID="ViewUpload" ImageUrl="images/View-icon.png" />
+
+<asp:ImageButton runat="server" SkinID="imgTickMark" ImageUrl="images/tickMark.png.png" />
+<asp:ImageButton runat="server" SkinID="imgRefreshIconBtn" ImageUrl="images/refreshIconBtn.png" />
+<asp:ImageButton runat="server" SkinID="imgRightArrow" ImageUrl="images/rightArrow.png" />
+<asp:Button runat="server" SkinID="gridSearchBtnBg" ImageUrl="images/gridSearchBtnBg.png" />
+<asp:Button runat="server" SkinID="previewBtnBg" ImageUrl="images/previewBtnBg.png" />
+<asp:Button runat="server" SkinID="saveBtnBg" ImageUrl="images/saveBtnBg.png" />
+
+
+
+<asp:ImageButton runat="server" SkinID="CreateFromAPIFTP" ImageUrl="images/transPixel.gif" />
+<asp:ImageButton runat="server" SkinID="CreateFromAPIFTPBulk" ImageUrl="images/transPixel.gif" />
+<asp:ImageButton runat="server" SkinID="saveSecurity" ImageUrl="images/transPixel.gif" />
+
+
+<asp:ImageButton runat="server" SkinID="saveSecurityLater" ImageUrl="images/transPixel.gif" />
+<asp:ImageButton runat="server" SkinID="saveDraft" ImageUrl="images/transPixel.gif" />
+<asp:ImageButton runat="server" SkinID="updateBtn" ImageUrl="images/transPixel.gif" />
+<asp:ImageButton runat="server" SkinID="updateLater" ImageUrl="images/transPixel.gif" />
+<asp:ImageButton runat="server" SkinID="undoBtn" ImageUrl="images/transPixel.gif" />
+<asp:ImageButton runat="server" SkinID="postToBtn" ImageUrl="images/transPixel.gif" />
+<asp:ImageButton runat="server" SkinID="quickFindUndlyer" ImageUrl="images/transPixel.gif" />
+<asp:ImageButton runat="server" SkinID="undoQuickFindUnderlyer" ImageUrl="images/transPixel.gif" />
+
+<asp:Image runat="server" SkinID="Loading" ImageUrl="images/loading.gif" />
+<asp:ImageButton runat="server" SkinID="retry" ImageUrl="images/retry.png" />
+<asp:ImageButton runat="server" SkinID="retryDisabled" ImageUrl="images/retry_disabled.png" />
+
+<asp:ImageButton runat="server" SkinID="calculateMnemonic" ImageUrl="images/transPixel.gif" />
+
+<asp:ImageButton runat="server" SkinID="redirectUpdate" ImageUrl="images/edit-btn.png" />
+<asp:ImageButton runat="server" SkinID="knowledgeDateView" ImageUrl="images/btnViewSecurity.png" />
+
+<%--   For RefMaster 1012 onwards   --%>
+<asp:ImageButton runat="server" SkinID="CurveData" ImageUrl="images/chart_curve.png"/>
+<asp:ImageButton runat="server" SkinID="AddNewLookup" ImageUrl="images/R_icon.png"/>
+<%--   For RefMaster 1012 onwards end --%>
+
+<%--   thumbnails   --%>
+    <asp:ImageButton runat="server" SkinID="SunsetThumb" CssClass="thumbnails" ImageUrl="images/thumbnails/sunsetThumb.jpg" />
+    <asp:ImageButton runat="server" SkinID="ChocoThumb" CssClass="thumbnails" ImageUrl="images/thumbnails/chocoThumb.jpg" />
+    <asp:ImageButton runat="server" SkinID="ForestThumb" CssClass="thumbnails" ImageUrl="images/thumbnails/forestThumb.jpg" />
+    <asp:ImageButton runat="server" SkinID="WoodThumb" CssClass="thumbnails" ImageUrl="images/thumbnails/woodThumb.jpg" />
+    
+    <asp:Image runat="server" SkinID="thumbArrowLeft" ImageUrl="images/thumbArrowLeft.gif" />
+    <asp:Image runat="server" SkinID="thumbArrowRight" ImageUrl="images/thumbArrowRight.gif" />
+<%--   thumbnails   --%>
+
+
+<asp:ImageButton SkinId="UpdateDisabled" CSSClass="image-button" runat="server" ImageUrl="images/updateIconDisabled.gif"></asp:ImageButton>
+<asp:ImageButton SkinId="DeleteDisabled" CSSClass="image-button" runat="server" ImageUrl="images/deleteIconDisabled.gif"></asp:ImageButton>
+<asp:ImageButton SkinID="btnModifyDisabled" ImageUrl="images/btnModifyDisabled.gif" Visibility="hidden" runat="server"></asp:ImageButton>
+ 
+
+<%-- Added by santosh 12 march --%>
+<asp:Image runat="server" SkinID="hlpTmBg" ImageUrl="images/hlp-tm-bg.gif" />
+
+
+
+
+
+
+<asp:Image runat="server" SkinID="upDownArrow" ImageUrl="images/up-down-arrow.gif" align="right" />
+
+<asp:ImageButton runat="server" SkinID="ImgUpDownArrow" ImageUrl="images/up-down-arrow.gif" /><%--Added by Tojo --%>
+<asp:ImageButton SkinId="btnApproved" runat="server" CSSClass="image-button"  ImageUrl="images/approve-icon.png"></asp:ImageButton>
+<asp:ImageButton SkinID="btnCreat" ImageUrl="images/create-icon.png" CSSClass="image-button" runat="server"></asp:ImageButton>
+<asp:ImageButton SkinId="btnReject" runat="server" CSSClass="image-button"  ImageUrl="images/reject-icon.png"></asp:ImageButton>
+<asp:ImageButton SkinID="activate" ImageUrl="images/activate-btn.gif" CSSClass="activate-btn" runat="server"></asp:ImageButton>
+<asp:ImageButton SkinId="subscribe" runat="server" CSSClass="image-button"  ImageUrl="images/subscribe-icon.gif"></asp:ImageButton>
+<asp:ImageButton SkinId="checkMark" runat="server" CSSClass="image-button" ImageUrl="images/check-mark.gif"></asp:ImageButton>
+
+<asp:ImageButton SkinID="hlpButton" ImageUrl="images/help.png" CSSClass="image-button" runat="server"></asp:ImageButton>
+<asp:ImageButton SkinID="btnMoveUp" ImageUrl="images/shuttle/moveUpBtn.gif" CSSClass="image-button" runat="server"></asp:ImageButton>
+<asp:ImageButton SkinID="btnMoveDown" ImageUrl="images/shuttle/moveDownBtn.gif" CSSClass="image-button" runat="server"></asp:ImageButton>
+
+<asp:ImageButton SkinID="btnSelectAttributes" ImageUrl="images/selectAttributes.gif" CSSClass="image-button" runat="server"></asp:ImageButton>
+<asp:ImageButton SkinID="btnSaveSearch" ImageUrl="images/saveSearch.gif" CSSClass="image-button" runat="server"></asp:ImageButton>
+<asp:ImageButton SkinID="btnGetSavedSearch" ImageUrl="images/getSaveSearch.gif" CSSClass="image-button" runat="server"></asp:ImageButton>
+<asp:ImageButton SkinID="btnSearchConfiguration" ImageUrl="images/searchConfigIcon.png" CSSClass="image-button" runat="server"></asp:ImageButton>
+
+
+<asp:ImageButton runat="server" SkinID="discardBtn" CSSClass="image-button" ImageUrl="images/icons/discard-btn.gif" />
+<asp:ImageButton runat="server" SkinID="viewBtn" CSSClass="image-button" ImageUrl="images/icons/view-btn.gif" />
+<asp:ImageButton runat="server" SkinID="ATCloseBtn" ImageUrl="images/auditTrailCloseBtn.gif" />
+<asp:LinkButton runat="server" SkinID="logoutMessage" text="Logout" />
+<asp:ImageButton runat="server" SkinID="imgAdd" ImageUrl="images/add-btn.jpg" />
+<asp:ImageButton runat="server" SkinID="imgUpdate" ImageUrl="images/update-btn.jpg" />
+<asp:ImageButton runat="server" SkinID="imgDelete" ImageUrl="images/delete-btn.jpg" />
+<asp:ImageButton SkinId="imgChngPswd" runat="server" ImageUrl="images/changePassword.gif"></asp:ImageButton> 
+<asp:ImageButton SkinId="GridUserDetails" runat="server" ImageUrl="images/detailsIcon.gif"></asp:ImageButton>
+<asp:ImageButton SkinId="Update" runat="server" ImageUrl="images/edit_icon.png"></asp:ImageButton>
+<asp:ImageButton SkinId="Delete" runat="server" ImageUrl="images/Trash.png"></asp:ImageButton> 
+<asp:ImageButton SkinId="CrossDelete" runat="server" ImageUrl="images/deleteIcon.png"></asp:ImageButton>
+<asp:ImageButton SkinId="GridCustomUserDetails" runat="server" ImageUrl="images/customUserDetailsIcon.gif"></asp:ImageButton> 
+<asp:ImageButton SkinId="Calendar" runat="server" ImageUrl="images/cal.gif"></asp:ImageButton> 
+<asp:ImageButton SkinID="btnModify" ImageUrl="images/Configure.png" CSSClass="updateButtonCSS" Width="19px" runat="server"></asp:ImageButton>
+
+
+<asp:ImageButton SkinId="imgClone" runat="server" ImageUrl="images/transPixel.gif"></asp:ImageButton>
+<asp:ImageButton SkinId="imgCloneDefault" runat="server" ImageUrl="images/cloneIcon.gif"></asp:ImageButton>
+
+
+
+<asp:ImageButton SkinId="imgRefresh" runat="server" ImageUrl="images/btnRefresh.gif"></asp:ImageButton>
+<asp:ImageButton SkinId="imgSwitchToNormal" runat="server" ImageUrl="images/btnSwitchToNormal.gif"></asp:ImageButton>
+<asp:ImageButton SkinId="imgSwitchToSequential" runat="server" ImageUrl="images/btnSwitchToSequential.gif"></asp:ImageButton>
+<asp:ImageButton SkinId="imgTextual" runat="server" ImageUrl="images/btnTextual.gif"></asp:ImageButton>
+<asp:ImageButton SkinId="imgTextualPressed" runat="server" ImageUrl="images/btnTextualPressed.gif"></asp:ImageButton>
+<asp:ImageButton SkinId="imgGraphical" runat="server" ImageUrl="images/btnGraphical.gif"></asp:ImageButton>
+<asp:ImageButton SkinId="imgGraphicalPressed" runat="server" ImageUrl="images/btnGraphicalPressed.gif"></asp:ImageButton>
+<asp:ImageButton SkinId="imgGroupColumn" runat="server" ImageUrl="images/btnGroupColumn.gif"></asp:ImageButton>
+<asp:ImageButton SkinId="imgGroupRows" runat="server" ImageUrl="images/btnGroupRows.gif"></asp:ImageButton>
+<asp:ImageButton SkinId="auditTrailBigIcon" runat="server" ImageUrl="images/auditTrailIconBig.gif"></asp:ImageButton>
+<asp:ImageButton SkinId="imgLaunch" runat="server" ImageUrl="images/launch1.gif"></asp:ImageButton>
+
+
+<ivpGrid:RGrid SkinID="regularGrid" Width="99%" CSSAscSort="ascSorting" CSSDescSort="descSorting" CSSUpperHeaderRow="headPanel3"
+                HorizontalAlign="center" HeaderStyle-Height="25px" CSSExportToExcel="exportToExcel"
+                RowStyle-CssClass="gridData" runat="server" 
+                AllowSorting="True" AllowPaging="True" 
+                AutoGenerateColumns="False" CSSDataRow="dataRow" 
+                CSSHeaderRow="gridHeader" CSSPagerRow="gridHeader" CSSTextBox="input" ExportToExcelRequired="true" UpperHeaderRowRequired="true"  RecordSummaryRequired="true" IsFiltered="false"></ivpGrid:RGrid>
+<ivpGrid:RGrid SkinID="fixedGrid" Width="100%" CSSAscSort="ascSorting" CSSDescSort="descSorting" CSSUpperHeaderRow="headPanel3"
+                HorizontalAlign="center" HeaderStyle-Height="25px" CSSExportToExcel="exportToExcel"
+                RowStyle-CssClass="gridData" runat="server" 
+                AllowSorting="True" AllowPaging="false" 
+                AutoGenerateColumns="False" CSSDataRow="dataRow" 
+                CSSHeaderRow="gridHeader" CSSPagerRow="gridHeader" CSSTextBox="input" ExportToExcelRequired="true" UpperHeaderRowRequired="true"  RecordSummaryRequired="true" IsFiltered="false"></ivpGrid:RGrid>                
+<ivpGrid:RGrid SkinID="regularGridWithAutoGenColTrue" Width="99%" CSSAscSort="ascSorting" CSSDescSort="descSorting" CSSUpperHeaderRow="headPanel3"
+                HorizontalAlign="center" HeaderStyle-Height="25px" CSSExportToExcel="exportToExcel"
+                RowStyle-CssClass="gridData" runat="server" 
+                AllowSorting="True" 
+                AutoGenerateColumns="True" CSSDataRow="dataRow" 
+                CSSHeaderRow="gridHeader" CSSPagerRow="gridHeader" CSSTextBox="input" ExportToExcelRequired="false" UpperHeaderRowRequired="true"  RecordSummaryRequired="true" IsFiltered="false"></ivpGrid:RGrid>
+<ivpGrid:RGrid SkinID="regularGridWithoutExcel" Width="99%" CSSAscSort="ascSorting" CSSDescSort="descSorting" CSSUpperHeaderRow="headPanel3"
+                HorizontalAlign="center" HeaderStyle-Height="25px" CSSExportToExcel="exportToExcel"
+                RowStyle-CssClass="gridData" runat="server" 
+                AllowSorting="True" AllowPaging="True" 
+                AutoGenerateColumns="False" CSSDataRow="dataRow" 
+                CSSHeaderRow="gridHeader" CSSPagerRow="gridHeader" CSSTextBox="input" UpperHeaderRowRequired="true"  RecordSummaryRequired="true" IsFiltered="false"></ivpGrid:RGrid>
+<ivpGrid:RGrid SkinID="regularGridWithoutUpperHeader" Width="99%" CSSAscSort="ascSorting" CSSDescSort="descSorting" CSSUpperHeaderRow="headPanel3"
+                HorizontalAlign="center" HeaderStyle-Height="25px" CSSExportToExcel="exportToExcel"
+                RowStyle-CssClass="gridData" runat="server" 
+                AllowSorting="True" AllowPaging="True" 
+                AutoGenerateColumns="False" CSSDataRow="dataRow" 
+                CSSHeaderRow="gridHeader" CSSPagerRow="gridHeader" CSSTextBox="input" RecordSummaryRequired="true" IsFiltered="false"></ivpGrid:RGrid>
+<ivpGrid:RGrid SkinID="gridFixedHeader" Width="100%" CSSAscSort="ascSorting" CSSDescSort="descSorting" CSSUpperHeaderRow="headPanel3"
+                HorizontalAlign="center" HeaderStyle-Height="25px" CSSExportToExcel="exportToExcel"
+                RowStyle-CssClass="gridData" runat="server" 
+                AllowSorting="True" AllowPaging="false" 
+                CSSDataRow="dataRow" RecordSummaryRequired="true" IsFiltered="false" 
+                CSSHeaderRow="gridHeader" CSSPagerRow="gridHeader" CSSTextBox="input" UpperHeaderRowRequired="true"></ivpGrid:RGrid>
+<ivpGrid:RGrid SkinID="gridFixedHeaderBold" Width="100%" CSSAscSort="ascSorting" CSSDescSort="descSorting" CSSUpperHeaderRow="headPanel3"
+                HorizontalAlign="left" HeaderStyle-Height="25px" CSSExportToExcel="exportToExcel"
+                RowStyle-CssClass="gridData" runat="server" 
+                AllowSorting="True" AllowPaging="false" 
+                RecordSummaryRequired="true" IsFiltered="false" 
+                CSSHeaderRow="gridHeader" CSSPagerRow="gridHeader" CSSTextBox="input" UpperHeaderRowRequired="true"></ivpGrid:RGrid>
+<ivpGrid:RGrid SkinID="regularGridWithoutUpperHeaderAndPaging" Width="99%" CSSAscSort="ascSorting" CSSDescSort="descSorting" CSSUpperHeaderRow="headPanel3"
+                HorizontalAlign="center" HeaderStyle-Height="25px" CSSExportToExcel="exportToExcel"
+                RowStyle-CssClass="gridData" runat="server" 
+                AllowSorting="True" AllowPaging="False" 
+                AutoGenerateColumns="False" CSSDataRow="dataRow" 
+                CSSHeaderRow="gridHeader" CSSPagerRow="gridHeader" CSSTextBox="input" RecordSummaryRequired="true" IsFiltered="false"></ivpGrid:RGrid>
+                
+<ivpGrid:RExtGridView 
+SkinID="masterGrid" 
+Width="99.9%" 
+CSSAscSort="ascSorting" 
+CSSDescSort="descSorting" 
+CSSUpperHeaderRow="headPanel3"
+HorizontalAlign="center" 
+HeaderStyle-Height="25px" 
+CSSExportToExcel="exportToExcel"
+RowStyle-CssClass="gridData" 
+runat="server" 
+AllowSorting="True" 
+AllowPaging="True" 
+AutoGenerateColumns="False" 
+CSSDataRow="dataRow" 
+CSSHeaderRow="gridHeader" 
+CSSPagerRow="gridHeader" 
+CSSTextBox="input" 
+CollapseButtonCssClass="GridCollapseButton" 
+ExpandButtonCssClass="GridExpandButton" 
+UpperHeaderRowRequired="true" 
+RecordSummaryRequired="true" 
+IsFiltered="false">
+</ivpGrid:RExtGridView>
+
+<asp:TreeView SkinID="treeMenu" CssClass="treeReports " runat="server" LineImagesFolder="~/App_Themes/Aqua/images/tree-reports/" NodeIndent="20" ShowLines="True" />
+
+<asp:TreeView SkinID="treeMenu1" runat="server" LineImagesFolder="~/App_Themes/Aqua/images/hierarchy-images/" 
+CssClass="tree" ParentNodeStyle-CssClass="mainNode" RootNodeStyle-CssClass="mainNode"
+LeafNodeStyle-CssClass="childNode" HoverNodeStyle-CssClass="hoverNode" 
+SelectedNodeStyle-CssClass="selectedNode"   SelectedNodeStyle-ForeColor="#C65C16" NodeIndent="17" ShowLines="True"/>
+
+<radGrid:RADGrid SkinID="radMasterGrid" 
+runat="server" 
+AllowSorting="false" 
+CssClearFilter="clearFilter" 
+CssClearGroup="clearGrouping"  
+CssClearSort="clearSort"  
+CssExportToExcel="exportToExcel" 
+CssExportToExcelVisibleRows="exportToExcelVisibleRows" 
+CssRecordSummary="recordSummary" 
+CssUpperHeader="gridHeader" 
+CssUpperHeaderInputType="gridBtn"  
+CssPagerPrevButton="prevPage" 
+CssPagerNextButton="nextPage"  
+CssPagerIndex="gridTxtBox" 
+CssPagerSize="gridTxtBox" 
+CssAscSort="ascending" 
+CssDescSort="descending" 
+CssSortIcon="sortIcon" 
+CssSortIndex="sortIndex" 
+CssFilterIcon="filterIcon" 
+CssFilterIndex="filterIndex"  
+CssFilterButton="filterButton"  
+CssFilterCancelButton="filterCancelButton" 
+CssFilterResetButton="filterResetButton" 
+CssFilterSelectButtonPanel="selectButtonPanel" 
+CssFilterSelectLabel="selectLabel" 
+CssFilterSelectList="filterSelectList" 
+CssFilterSelectCheckBox="selectCheckBox" 
+
+CssGroupCollapseButton="collapseGroupButton" 
+CssGroupExpandButton="expandGroupButton" 
+CssGridCollapseButton="collapseGridButton" 
+CssGridExpandButton="expandGridButton" 
+CssGroupHeader="groupHeader" 
+CssGroupHeaderClose="groupHeaderClose" 
+CssGroupDragButton="groupDragButton"
+CssGroupDragButtonSeparator="groupDragButtonSeparator"
+CssGroupOnDragHeader="groupOnDragHeader"
+CssGroupDragVisualClue = "groupDragVisualClue"
+CssGroupDropPanel="groupDropPanel"
+CssStatusBar="statusBar" 
+CssGridTextBox="gridTxtBox" 
+CssGroupedRow="groupedRow" 
+CssFilteredIcon="filterDropIcon" 
+Width="99%"
+ExpandControlId="expand"
+CollapseControlId="collapse" >  
+<AlternatingRowStyle CssClass="alternatingRow" />
+<RowStyle CssClass="normalRow" />
+<HeaderStyle CssClass="header" />
+<PagerStyle CssClass="pagerRow" />
+</radGrid:RADGrid>
+
+
+
+
+<radGrid:RADGrid SkinID="gridWithClientSideFunctionality" 
+runat="server" 
+AllowSorting="false" 
+CssClearFilter="clearFilter" 
+CssClearGroup="clearGrouping"  
+CssClearSort="clearSort"  
+CssExportToExcel="exportToExcel" 
+CssExportToExcelVisibleRows="exportToExcelVisibleRows" 
+CssRecordSummary="recordSummary" 
+CssUpperHeader="upperHeader" 
+CssUpperHeaderInputType="gridBtn"  
+CssPagerPrevButton="prevPage" 
+CssPagerNextButton="nextPage"  
+CssPagerIndex="gridTxtBox" 
+CssPagerSize="gridTxtBox" 
+CssAscSort="ascending" 
+CssDescSort="descending" 
+CssSortIcon="sortIcon" 
+CssSortIndex="sortIndex" 
+CssFilterIcon="filterIcon" 
+CssFilterIndex="filterIndex"  
+CssFilterButton="filterButton"  
+CssFilterCancelButton="filterCancelButton" 
+CssFilterResetButton="filterResetButton" 
+CssFilterSelectButtonPanel="selectButtonPanel" 
+CssFilterSelectLabel="selectLabel" 
+CssFilterSelectList="filterSelectList" 
+CssFilterSelectCheckBox="selectCheckBox" 
+
+CssGroupCollapseButton="collapseGroupButton" 
+CssGroupExpandButton="expandGroupButton" 
+CssGridCollapseButton="collapseGridButton" 
+CssGridExpandButton="expandGridButton" 
+CssGroupHeader="groupHeader" 
+CssGroupHeaderClose="groupHeaderClose" 
+CssGroupDragButton="groupDragButton"
+CssGroupDragButtonSeparator="groupDragButtonSeparator"
+CssGroupOnDragHeader="groupOnDragHeader"
+CssGroupDragVisualClue = "groupDragVisualClue"
+CssGroupDropPanel="groupDropPanel"
+CssStatusBar="statusBar" 
+CssGridTextBox="gridTxtBox" 
+CssGroupedRow="groupedRow" 
+CssFilteredIcon="filterDropIcon" 
+Width="99%"
+ExpandControlId="expand"
+CollapseControlId="collapse" >  
+<AlternatingRowStyle CssClass="alternatingRow" />
+<RowStyle CssClass="normalRow" />
+<HeaderStyle CssClass="header" />
+<PagerStyle CssClass="pagerRow" />
+</radGrid:RADGrid>
+
+<radxGrid:RADXGrid SkinID="xgridWithClientSideFunctionality" 
+runat="server" 
+AllowSorting="false" 
+CssClearFilter="clearFilter" 
+CssClearGroup="clearGrouping"  
+CssClearSort="clearSort"  
+CssExportToExcel="exportToExcel" 
+CssExportToExcelVisibleRows="exportToExcelVisibleRows" 
+CssRecordSummary="recordSummary" 
+CssUpperHeader="upperHeader" 
+CssUpperHeaderInputType="gridBtn"  
+CssPagerPrevButton="prevPage" 
+CssPagerNextButton="nextPage"  
+CssPagerIndex="gridTxtBox" 
+CssPagerSize="gridTxtBox" 
+CssAscSort="ascending" 
+CssDescSort="descending" 
+CssSortIcon="sortIcon" 
+CssSortIndex="sortIndex" 
+CssFilterIcon="filterIcon" 
+CssFilterIndex="filterIndex"  
+CssFilterButton="filterButton"  
+CssFilterCancelButton="filterCancelButton" 
+CssFilterResetButton="filterResetButton" 
+CssFilterSelectButtonPanel="selectButtonPanel" 
+CssFilterSelectLabel="selectLabel" 
+CssFilterSelectList="filterSelectList" 
+CssFilterSelectCheckBox="selectCheckBox" 
+
+CssGroupCollapseButton="collapseGroupButton" 
+CssGroupExpandButton="expandGroupButton" 
+CssGridCollapseButton="collapseGridButton" 
+CssGridExpandButton="expandGridButton" 
+CssGroupHeader="groupHeader" 
+CssGroupHeaderClose="groupHeaderClose" 
+CssGroupDragButton="groupDragButton"
+CssGroupDragButtonSeparator="groupDragButtonSeparator"
+CssGroupOnDragHeader="groupOnDragHeader"
+CssGroupDragVisualClue = "groupDragVisualClue"
+CssGroupDropPanel="groupDropPanel"
+CssStatusBar="statusBar" 
+CssGridTextBox="gridTxtBox" 
+CssGroupedRow="groupedRow" 
+CssFilteredIcon="filterDropIcon" 
+Width="99%"
+ExpandControlId="expand"
+CollapseControlId="collapse" CssFrozenColumn="frozenColumn" CssSaveMyView="manageViewIcon" CssSelectedRow="selectedRow" CssCheckedRow="checkedRow" CssGroupFooter="groupFooter" CssSearchedCell="highlightedCell">  
+<AlternatingRowStyle CssClass="alternatingRow" />
+<RowStyle CssClass="normalRow" />
+<HeaderStyle CssClass="header" />
+<PagerStyle CssClass="pagerRow" />
+</radxGrid:RADXGrid>
+
+<%-- RAD X Grid for Security lookup --%>
+<radxGrid:RADXGrid SkinID="xgridWithClientSideFunctionality_SecurityLookup" 
+runat="server" 
+AllowSorting="false" 
+CssClearFilter="clearFilter" 
+CssClearGroup="clearGrouping"  
+CssClearSort="clearSort"  
+CssExportToExcel="exportToExcel" 
+CssExportToExcelVisibleRows="exportToExcelVisibleRows" 
+CssRecordSummary="recordSummary" 
+CssUpperHeader="upperHeader" 
+CssUpperHeaderInputType="gridBtn"  
+CssPagerPrevButton="prevPage" 
+CssPagerNextButton="nextPage"  
+CssPagerIndex="gridTxtBox" 
+CssPagerSize="gridTxtBox" 
+CssAscSort="ascending" 
+CssDescSort="descending" 
+CssSortIcon="sortIcon" 
+CssSortIndex="sortIndex" 
+CssFilterIcon="filterIcon" 
+CssFilterIndex="filterIndex"  
+CssFilterButton="filterButton"  
+CssFilterCancelButton="filterCancelButton" 
+CssFilterResetButton="filterResetButton" 
+CssFilterSelectButtonPanel="selectButtonPanel" 
+CssFilterSelectLabel="selectLabel" 
+CssFilterSelectList="filterSelectList" 
+CssFilterSelectCheckBox="selectCheckBox" 
+
+CssGroupCollapseButton="collapseGroupButton" 
+CssGroupExpandButton="expandGroupButton" 
+CssGridCollapseButton="collapseGridButton" 
+CssGridExpandButton="expandGridButton" 
+CssGroupHeader="groupHeader" 
+CssGroupHeaderClose="groupHeaderClose" 
+CssGroupDragButton="groupDragButton"
+CssGroupDragButtonSeparator="groupDragButtonSeparator"
+CssGroupOnDragHeader="groupOnDragHeader"
+CssGroupDragVisualClue = "groupDragVisualClue"
+CssGroupDropPanel="groupDropPanel"
+CssStatusBar="statusBar" 
+CssRuleEditorPopup="ruleEditorPopup"
+CssGridTextBox="gridTxtBox" 
+CssGroupedRow="groupedRow" 
+CssFilteredIcon="filterDropIcon" 
+Width="99%"
+ExpandControlId="expand"
+CollapseControlId="collapse" CssFrozenColumn="frozenColumn" CssSaveMyView="manageViewIcon" CssSelectedRow="selectedRow" CssCheckedRow="checkedRow" CssGroupFooter="groupFooter" CssSearchedCell="highlightedCell">  
+<AlternatingRowStyle CssClass="alternatingRow" />
+<RowStyle CssClass="secLookupNormalRow" />
+<HeaderStyle CssClass="secLookupHeader" />
+<PagerStyle CssClass="pagerRow" />
+</radxGrid:RADXGrid>
+<%-- RAD X Grid for Security lookup --%>
+
+<radxGrid:RADXGrid SkinID="xGridWithoutClientSideFunctionality" 
+runat="server" 
+AllowSorting="false" 
+CssClearFilter="clearFilter" 
+CssClearGroup="clearGrouping"  
+CssClearSort="clearSort"  
+CssExportToExcel="exportToExcel" 
+CssExportToExcelVisibleRows="exportToExcelVisibleRows" 
+CssRecordSummary="recordSummary" 
+CssUpperHeader="headPanel3" 
+CssUpperHeaderInputType="gridBtn"  
+CssPagerPrevButton="prevPage" 
+CssPagerNextButton="nextPage"  
+CssPagerIndex="gridTxtBox" 
+CssPagerSize="gridTxtBox" 
+CssAscSort="ascending" 
+CssDescSort="descending" 
+CssSortIcon="sortIcon" 
+CssSortIndex="sortIndex" 
+CssFilterIcon="filterIcon" 
+CssFilterIndex="filterIndex"  
+CssFilterButton="filterButton"  
+CssFilterCancelButton="filterCancelButton" 
+CssFilterResetButton="filterResetButton" 
+CssFilterSelectButtonPanel="selectButtonPanel" 
+CssFilterSelectLabel="selectLabel" 
+CssFilterSelectList="filterSelectList" 
+CssFilterSelectCheckBox="selectCheckBox" 
+
+CssGroupCollapseButton="collapseGroupButton" 
+CssGroupExpandButton="expandGroupButton" 
+CssGridCollapseButton="collapseGridButton" 
+CssGridExpandButton="expandGridButton" 
+CssGroupHeader="groupHeader" 
+CssGroupHeaderClose="groupHeaderClose" 
+CssGroupDragButton="groupDragButton"
+CssGroupDragButtonSeparator="groupDragButtonSeparator"
+CssGroupOnDragHeader="groupOnDragHeader"
+CssGroupDragVisualClue = "groupDragVisualClue"
+CssRuleEditorPopup="ruleEditorPopup"
+CssGroupDropPanel="blueGridGroupDropPanel"
+CssStatusBar="pagerRow" 
+CssGridTextBox="gridTxtBox" 
+CssGroupedRow="groupedRow" 
+CssFilteredIcon="filterDropIcon" 
+Width="99%"
+ExpandControlId="expand"
+CollapseControlId="collapse"  CssFrozenColumn="frozenColumn" CssCheckedRow="checkedRow" CssGroupFooter="groupFooter" CssSearchedCell="highlightedCell">  
+<AlternatingRowStyle CssClass="alternatingRow" />
+<RowStyle CssClass="normalRow" />
+<HeaderStyle CssClass="blueGridHeader" />
+<PagerStyle CssClass="pagerRow" />
+</radxGrid:RADXGrid>

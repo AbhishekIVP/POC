@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configs>
+	<module>
+		<wizard>
+			<config key="secmasterwizard" filename="com.ivp.secm.ui.ConfigFiles.Embedded.WizardConfig.xml" assemblyname="SecMasterUI"  moduleid ="3" ></config>
+			<config key="refMasterWizard" filename="com.ivp.refmaster.ui.ConfigFiles.Embedded.WizardConfig.xml" assemblyname="RefMasterUI"  moduleid ="6" ></config>
+		</wizard>
+		<wizardflow>
+			<config key="secmasterwizardFlow" filename="com.ivp.secm.ui.ConfigFiles.Embedded.WizardFlowConfig.xml" assemblyname="SecMasterUI" moduleid ="3" ></config>
+			<config key="refMasterWizardFlow" filename="com.ivp.refmaster.ui.ConfigFiles.Embedded.WizardFlowConfig.xml" assemblyname="RefMasterUI" moduleid ="6" ></config>
+		</wizardflow>
+		<viewconfig>
+      <config key="secmasterconfig" filename="ConfigFiles\ViewConfig.xml" assemblyname="" moduleid ="3" ></config>
+      <config key="corpactionconfig" filename="com.ivp.corpact.ui.ConfigFiles.Embedded.ViewConfig.xml" assemblyname="CorpActionUI" moduleid ="9" ></config>
+			<config key="radviewconfig" filename="com.ivp.rad.raduicontrols.ConfigFiles.Embedded.ViewConfig.xml" assemblyname="RADUIControls" moduleid ="1" ></config>
+			<config key="refMasterViewConfig" filename="com.ivp.refmaster.ui.ConfigFiles.Embedded.ViewConfig.xml" assemblyname="RefMasterUI" moduleid ="6" ></config>
+		</viewconfig>
+    <viewconfiglite>
+      <config key="secmasterliteconfig" filename="ConfigFiles\ViewLiteConfig.xml" assemblyname="" moduleid ="3" ></config>
+      <config key="secmasterliteconfig_iago" filename="ConfigFiles\ViewLiteConfig_Iago.xml" assemblyname="" moduleid ="3" ></config>
+    </viewconfiglite>
+    <litemasterscriptsservices>
+      <config key ="litemasterscriptsservicesconfig" filename ="ConfigFiles\SecMLiteMasterScriptsAndServicesConfig.xml" assemblyname="" moduleid ="3" ></config>
+    </litemasterscriptsservices>
+		<auditlog>
+			<config key="radauditlog" filename="com.ivp.rad.RAuditLog.ConfigFiles.AuditLogConfig.xml" assemblyname="RAuditLog" moduleid ="1" ></config>
+		</auditlog>
+		<parser>
+			<config key ="radparser" filename ="com.ivp.rad.parser.ConfigFiles.ParserConfig.xml" assemblyname="RParsers" moduleid ="1" ></config>
+		</parser>
+		<pbadapter>
+			<config key ="radpbadapter" filename ="com.ivp.rad.RPbAdaptor.ConfigFiles.PbAdapterConfig.xml" assemblyname="RPbAdaptor" moduleid ="1" ></config>
+		</pbadapter>
+		<piechart>
+			<config key ="radpiechart" filename ="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.PieChartSchema.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+		</piechart>
+		<drilldownschema>
+			<config key="drilldownschema" filename="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.DrillDownSchema.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+		</drilldownschema>
+		<radui>
+			<config key ="radUI" filename ="com.ivp.rad.raduicontrols.ConfigFiles.Embedded.RADUIConfig.xml" assemblyname="RADUIControls" moduleid ="1" ></config>
+		</radui>
+		<reportingcore>
+			<config key ="reportingcore" filename ="com.ivp.rad.reporting.ConfigFiles.ReportingCoreConfig.xml" assemblyname="RReportingManager" moduleid ="1" ></config>
+		</reportingcore>
+		<reportingsetup>
+			<config key ="reportingsetup" filename ="com.ivp.rad.reporting.ConfigFiles.ReportingSetupConfig.xml" assemblyname="RReportingManager" moduleid ="1" ></config>
+		</reportingsetup>
+		<vendorapicontrol>
+			<config key ="RVendorInterfaceStaticXML" filename ="ConfigFiles\RVendorInterface.xml" assemblyname="" moduleid ="3" ></config>
+			<config key="RefM_staticXML" filename="com.ivp.refmaster.ui.ConfigFiles.Embedded.StaticXML.xml" assemblyname="RefMasterUI" moduleid ="6" ></config>
+		</vendorapicontrol>
+		<usermanagement>
+			<config key ="raduseranagement" filename ="configfiles\UserManagementConfig.xml" assemblyname="" moduleid ="1" ></config>
+		</usermanagement>
+		<vendormanagement>
+			<config key ="secmastervendormanagement" filename ="ConfigFiles\VendorManagement.xml" assemblyname="" moduleid ="3" ></config>
+			<config key="VendorConfigurationPath" filename="ConfigFiles\VendorManagement.xml" assemblyName="" moduleid="6"></config>
+		</vendormanagement>
+		<transport>
+			<config key="radtransport" filename ="com.ivp.rad.transport.ConfigFiles.TransportConfig.xml" assemblyname="RTransport" moduleid ="1" ></config>
+		</transport>
+		<refmasterconfig>
+			<config key="RefM_EntityCreation" filename="com.ivp.refmaster.ui.ConfigFiles.Embedded.EntityCreationPreAlpha.xslt" assemblyname="RefMasterUI" moduleid ="6" ></config>
+			<config key="RefM_AttributeManagement" filename="com.ivp.refmaster.ui.ConfigFiles.Embedded.RMAttributeManagement.xslt" assemblyname="RefMasterUI" moduleid ="6" ></config>
+			<config key="RefM_DynamicDBConfig" filename="com.ivp.refmaster.ui.ConfigFiles.Embedded.RDynamicDBConfig.xml" assemblyname="RefMasterUI" moduleid ="6" ></config>
+			<config key="RefM_RefMasterControllerConfig" filename="com.ivp.refmaster.ui.ConfigFiles.Embedded.RefMasterControllerConfig.xml" assemblyname="RefMasterUI" moduleid ="6" ></config>
+			<config key="RefM_ReportingConfiguration" filename="com.ivp.refmaster.ui.ConfigFiles.Embedded.RefMasterReportConfig.xml" assemblyname="RefMasterUI" moduleid ="6" ></config>
+			<config key="RefM_CurveConfig" filename="configFiles\CurveInfo.xml" assemblyname="" moduleid="6" ></config>
+      <config key="RefM_ConditionalFilterConfig" filename="configFiles\ConditionalFilterInfo.xml" assemblyname="" moduleid="6" ></config>
+		</refmasterconfig>
+		<secmasterconfig>
+			<config key="SecMCoreConfigPath" filename="com.ivp.secm.ui.ConfigFiles.Embedded.SecMCoreConfig.xml" assemblyname="SecMasterUI" moduleid ="3" ></config>
+			<config key="SecMCoreControlsXSLTConfigPath" filename="com.ivp.secm.ui.ConfigFiles.Embedded.Security.xslt" assemblyname="SecMasterUI" moduleid ="3" ></config>
+			<config key="SecMDynamicConfigurationPath" filename="com.ivp.secm.ui.ConfigFiles.Embedded.SecMDynamicConfig.xml" assemblyname="SecMasterUI" moduleid ="3" ></config>
+			<config key="WizardConfigPath" filename="com.ivp.secm.ui.ConfigFiles.Embedded.WizardConfig.xml" assemblyname="SecMasterUI" moduleid ="3" ></config>
+			<config key="WizardFlowConfigPath" filename="com.ivp.secm.ui.ConfigFiles.Embedded.WizardFlowConfig.xml" assemblyname="SecMasterUI" moduleid ="3" ></config>
+			<config key="SecMSubscriptionConfig" filename="com.ivp.secm.ui.ConfigFiles.Embedded.EmailTemplate.xml" assemblyname="SecMasterUI" moduleid ="3" ></config>
+			<config key="SecMClassSchemaPath" filename="com.ivp.secm.ui.ConfigFiles.Embedded.SecMClassSchema.xml" assemblyname="SecMasterUI" moduleid ="3" ></config>
+			<config key="SecMCustCtrlMappingPath" filename="com.ivp.secm.ui.ConfigFiles.Embedded.CustCtrlMapping.xml" assemblyname="SecMasterUI" moduleid ="3" ></config>
+			<config key="SecMHelpTextConfig" filename="com.ivp.secm.ui.ConfigFiles.Embedded.HelpText.xml" assemblyname="SecMasterUI" moduleid ="3" ></config>
+			<config key="FieldDetailsSchemaPath" filename="com.ivp.secm.ui.ConfigFiles.Embedded.fieldDetails.xsd" assemblyname="SecMasterUI" moduleid ="3" ></config>
+			<config key="SecurityXSLTPath" filename="com.ivp.secm.ui.ConfigFiles.Embedded.Security.xslt" assemblyname="SecMasterUI" moduleid ="3" ></config>
+			<config key="DefaultManagerXSLTPath" filename="com.ivp.secm.ui.ConfigFiles.Embedded.DefaultManager.xslt" assemblyname="SecMasterUI" moduleid ="3" ></config>
+			<config key="AttributeManagementXSLTPath" filename="com.ivp.secm.ui.ConfigFiles.Embedded.SMAttributeManagement.xslt" assemblyname="SecMasterUI" moduleid ="3" ></config>
+
+		</secmasterconfig>
+		<corpactionconfig>
+			<config key="CorpAClassSchemaPath" filename="com.ivp.corpact.ui.ConfigFiles.Embedded.CorpAClassSchema.xml" assemblyname="CorpActionUI" moduleid ="9" ></config>
+		</corpactionconfig>
+	</module>
+	<application>
+		<dalconfig>
+			<config key="dalConfig" filename="ConfigFiles\DalConfig.xml" assemblyname="" moduleid ="3" ></config>
+		</dalconfig>
+		<ruleconfig>
+			<config key="secmasterrule" filename="com.ivp.rad.ruleengine.ConfigFiles.RuleConfig.xml" assemblyname="RRuleEngine" moduleid="1" />
+		</ruleconfig>
+		<logger>
+			<config key ="logger" filename ="ConfigFiles\LoggerConfig.xml" assemblyname="" moduleid ="3" ></config>
+		</logger>
+		<secmastercore>
+			<config key ="secmastercore" filename ="ConfigFiles\SecMCoreConfig.xml" assemblyname="" moduleid ="3" ></config>
+		</secmastercore>
+		<secmasterdynamic>
+			<config key ="secmasterdynamic" filename ="ConfigFiles\SecMDynamicConfig.xml" assemblyname="" moduleid ="3" ></config>
+		</secmasterdynamic>
+		<secmastersetup>
+			<config key ="secmastersetup" filename ="ConfigFiles\SecMSetupConfig.xml" assemblyname="" moduleid ="3" ></config>
+		</secmastersetup>
+		<errorConfig>
+			<config key="errorConfig" filename="ConfigFiles\ErrorMailConfig.xml" assemblyName="" moduleid="1"></config>
+		</errorConfig>
+	</application>
+	<embeddedmodules>
+		<module>
+			<add modulename="RAD" moduleid="5" />
+			<add modulename="RefMaster" moduleid="6" />
+			<add modulename="SecMaster" moduleid="3" />
+			<add modulename="CorpAction" moduleid="9" />
+			<add modulename="Security Master Services" moduleid="4" />
+		</module>
+	</embeddedmodules>
+</configs>

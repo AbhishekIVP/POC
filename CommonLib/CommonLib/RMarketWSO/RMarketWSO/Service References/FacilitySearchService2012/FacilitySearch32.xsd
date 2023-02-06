@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" elementFormDefault="qualified" targetNamespace="http://markit.com/Markit/LoanReferenceData/2012/07" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://datadownload.wsostage.com/LoanReferenceData/2012/07/FacilitySearch.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://datadownload.wsostage.com/LoanReferenceData/2012/07/FacilitySearch.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="GetFacilityBySecurityIdRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://markit.com/Markit/LoanReferenceData/2012/07" minOccurs="0" name="SecurityIds" nillable="true" type="q1:ArrayOfSecurityId" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ArrayOfSecurityId">
+    <xs:sequence>
+      <xs:element xmlns:q2="http://markit.com/Markit/LoanReferenceData/2012/07" minOccurs="0" maxOccurs="unbounded" name="SecurityId" nillable="true" type="q2:SecurityId" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q3="http://markit.com/Markit/LoanReferenceData/2012/07" name="ArrayOfSecurityId" nillable="true" type="q3:ArrayOfSecurityId" />
+  <xs:complexType name="SecurityId">
+    <xs:sequence>
+      <xs:element name="SecurityIdName" nillable="true" type="xs:string" />
+      <xs:element name="SecurityIdValue" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q4="http://markit.com/Markit/LoanReferenceData/2012/07" name="SecurityId" nillable="true" type="q4:SecurityId" />
+  <xs:element name="GetFacilityResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+        <xs:element xmlns:q5="http://markit.com/Markit/LoanReferenceData/2012/07" minOccurs="0" name="Results" nillable="true" type="q5:FacilitySearchResults" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="FacilitySearchResults">
+    <xs:sequence>
+      <xs:element xmlns:q6="http://markit.com/Markit/LoanReferenceData/2012/07" name="Issuer" nillable="true" type="q6:Issuer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q7="http://markit.com/Markit/LoanReferenceData/2012/07" name="FacilitySearchResults" nillable="true" type="q7:FacilitySearchResults" />
+  <xs:complexType name="Issuer">
+    <xs:sequence>
+      <xs:element xmlns:q8="http://markit.com/Markit/LoanReferenceData/2012/07" name="BankDeal" nillable="true" type="q8:BankDeal" />
+      <xs:element name="GlobalPositionID" nillable="true" type="xs:int" />
+      <xs:element name="WSODataIssuerID" nillable="true" type="xs:int" />
+      <xs:element name="MarkitIssuerID" nillable="true" type="xs:string" />
+      <xs:element name="MoodyIssuerID" nillable="true" type="xs:string" />
+      <xs:element name="SPIssuerID" nillable="true" type="xs:string" />
+      <xs:element name="EquityID" nillable="true" type="xs:string" />
+      <xs:element name="Name" nillable="true" type="xs:string" />
+      <xs:element name="AbbrevName" nillable="true" type="xs:string" />
+      <xs:element name="Country" nillable="true" type="xs:string" />
+      <xs:element name="HasPublicEquity" nillable="true" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q9="http://markit.com/Markit/LoanReferenceData/2012/07" name="Issuer" nillable="true" type="q9:Issuer" />
+  <xs:complexType name="BankDeal">
+    <xs:sequence>
+      <xs:element xmlns:q10="http://markit.com/Markit/LoanReferenceData/2012/07" name="Facility" nillable="true" type="q10:Facility" />
+      <xs:element xmlns:q11="http://markit.com/Markit/LoanReferenceData/2012/07" name="AgentBankDetails" nillable="true" type="q11:AgentBank" />
+      <xs:element xmlns:q12="http://markit.com/Markit/LoanReferenceData/2012/07" name="BankDealSponsor" nillable="true" type="q12:BankDealSponsor" />
+      <xs:element name="GlobalPositionID" nillable="true" type="xs:int" />
+      <xs:element name="MarkitBankDealID" nillable="true" type="xs:string" />
+      <xs:element name="WSODataBankDealID" nillable="true" type="xs:int" />
+      <xs:element name="Name" nillable="true" type="xs:string" />
+      <xs:element name="StreetName" nillable="true" type="xs:string" />
+      <xs:element name="Underwriter" nillable="true" type="xs:string" />
+      <xs:element name="PrepaymentNotes" nillable="true" type="xs:string" />
+      <xs:element name="GlobalAmount" nillable="true" type="xs:decimal" />
+      <xs:element name="MinAssignment" nillable="true" type="xs:decimal" />
+      <xs:element name="CreditDate" nillable="true" type="xs:dateTime" />
+      <xs:element name="IsCovLite" nillable="true" type="xs:boolean" />
+      <xs:element name="CurrencyType" nillable="true" type="xs:string" />
+      <xs:element name="DefaultNotes" nillable="true" type="xs:string" />
+      <xs:element name="AgentConsent" nillable="true" type="xs:boolean" />
+      <xs:element name="BorrowerConsent" nillable="true" type="xs:boolean" />
+      <xs:element name="AssignmentFee" nillable="true" type="xs:decimal" />
+      <xs:element name="MinHold" nillable="true" type="xs:decimal" />
+      <xs:element name="PublicLoan" nillable="true" type="xs:string" />
+      <xs:element name="CanAffiliate" nillable="true" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q13="http://markit.com/Markit/LoanReferenceData/2012/07" name="BankDeal" nillable="true" type="q13:BankDeal" />
+  <xs:complexType name="Facility">
+    <xs:sequence>
+      <xs:element xmlns:q14="http://markit.com/Markit/LoanReferenceData/2012/07" name="Securities" nillable="true" type="q14:ArrayOfSecurity" />
+      <xs:element xmlns:q15="http://markit.com/Markit/LoanReferenceData/2012/07" name="RateOptions" nillable="true" type="q15:ArrayOfRateOption" />
+      <xs:element xmlns:q16="http://markit.com/Markit/LoanReferenceData/2012/07" name="RateLimits" nillable="true" type="q16:ArrayOfRateLimit" />
+      <xs:element xmlns:q17="http://markit.com/Markit/LoanReferenceData/2012/07" name="MultiCurrencies" nillable="true" type="q17:ArrayOfMultiCurrency" />
+      <xs:element xmlns:q18="http://markit.com/Markit/LoanReferenceData/2012/07" name="Marks" nillable="true" type="q18:ArrayOfMark" />
+      <xs:element xmlns:q19="http://markit.com/Markit/LoanReferenceData/2012/07" name="Ratings" nillable="true" type="q19:ArrayOfRating" />
+      <xs:element xmlns:q20="http://markit.com/Markit/LoanReferenceData/2012/07" name="SICs" nillable="true" type="q20:ArrayOfSIC" />
+      <xs:element xmlns:q21="http://markit.com/Markit/LoanReferenceData/2012/07" name="Spreads" nillable="true" type="q21:ArrayOfSpread" />
+      <xs:element xmlns:q22="http://markit.com/Markit/LoanReferenceData/2012/07" name="CallSchedule" nillable="true" type="q22:ArrayOfCallScheduleFeePay" />
+      <xs:element name="WSODataFacilityID" nillable="true" type="xs:int" />
+      <xs:element name="Name" nillable="true" type="xs:string" />
+      <xs:element name="Type" nillable="true" type="xs:string" />
+      <xs:element name="Country" nillable="true" type="xs:string" />
+      <xs:element name="Notes" nillable="true" type="xs:string" />
+      <xs:element name="Guarantor" nillable="true" type="xs:string" />
+      <xs:element name="Purpose" nillable="true" type="xs:string" />
+      <xs:element name="MaturityDate" nillable="true" type="xs:dateTime" />
+      <xs:element name="OriginalCommitment" nillable="true" type="xs:double" />
+      <xs:element name="CurrentCommitment" nillable="true" type="xs:double" />
+      <xs:element name="CurrentOutstanding" nillable="true" type="xs:double" />
+      <xs:element name="FirstPaymentDate" nillable="true" type="xs:dateTime" />
+      <xs:element name="CurrencyType" nillable="true" type="xs:string" />
+      <xs:element name="IsSynthetic" nillable="true" type="xs:boolean" />
+      <xs:element name="IsDelayedDraw" nillable="true" type="xs:boolean" />
+      <xs:element name="IsDIP" nillable="true" type="xs:boolean" />
+      <xs:element name="IsGuaranteed" nillable="true" type="xs:boolean" />
+      <xs:element name="IsLCCreditLinked" nillable="true" type="xs:boolean" />
+      <xs:element name="IsPositionClosed" nillable="true" type="xs:boolean" />
+      <xs:element name="IsFixed" nillable="true" type="xs:boolean" />
+      <xs:element name="TradesWithAccrued" nillable="true" type="xs:boolean" />
+      <xs:element name="AbbrevName" nillable="true" type="xs:string" />
+      <xs:element name="HasLCSublimit" nillable="true" type="xs:boolean" />
+      <xs:element name="LCSublimit" nillable="true" type="xs:decimal" />
+      <xs:element name="Seniority" nillable="true" type="xs:string" />
+      <xs:element name="LienType" nillable="true" type="xs:string" />
+      <xs:element name="IssuePrice" nillable="true" type="xs:decimal" />
+      <xs:element name="PaymentFrequency" nillable="true" type="xs:string" />
+      <xs:element name="StatedxIBORSpread" nillable="true" type="xs:float" />
+      <xs:element name="MinAssignment" nillable="true" type="xs:float" />
+      <xs:element name="MinHold" nillable="true" type="xs:float" />
+      <xs:element name="IssuingBankConsent" nillable="true" type="xs:boolean" />
+      <xs:element name="Collateral" nillable="true" type="xs:string" />
+      <xs:element name="IsDefault" nillable="true" type="xs:boolean" />
+      <xs:element name="ActivityTracked" nillable="true" type="xs:boolean" />
+      <xs:element name="CAVerified" nillable="true" type="xs:boolean" />
+      <xs:element name="LastUpdate" nillable="true" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q23="http://markit.com/Markit/LoanReferenceData/2012/07" name="Facility" nillable="true" type="q23:Facility" />
+  <xs:complexType name="ArrayOfSecurity">
+    <xs:sequence>
+      <xs:element xmlns:q24="http://markit.com/Markit/LoanReferenceData/2012/07" minOccurs="0" maxOccurs="unbounded" name="Security" nillable="true" type="q24:Security" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q25="http://markit.com/Markit/LoanReferenceData/2012/07" name="ArrayOfSecurity" nillable="true" type="q25:ArrayOfSecurity" />
+  <xs:complexType name="Security">
+    <xs:sequence>
+      <xs:element name="Type" nillable="true" type="xs:string" />
+      <xs:element name="Value" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q26="http://markit.com/Markit/LoanReferenceData/2012/07" name="Security" nillable="true" type="q26:Security" />
+  <xs:complexType name="ArrayOfRateOption">
+    <xs:sequence>
+      <xs:element xmlns:q27="http://markit.com/Markit/LoanReferenceData/2012/07" minOccurs="0" maxOccurs="unbounded" name="RateOption" nillable="true" type="q27:RateOption" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q28="http://markit.com/Markit/LoanReferenceData/2012/07" name="ArrayOfRateOption" nillable="true" type="q28:ArrayOfRateOption" />
+  <xs:complexType name="RateOption">
+    <xs:sequence>
+      <xs:element name="Name" nillable="true" type="xs:string" />
+      <xs:element name="Behavior" nillable="true" type="xs:string" />
+      <xs:element name="Spread" nillable="true" type="xs:float" />
+      <xs:element name="Frequency" nillable="true" type="xs:string" />
+      <xs:element name="DateOffset" nillable="true" type="xs:int" />
+      <xs:element name="StartDate" nillable="true" type="xs:dateTime" />
+      <xs:element name="EndDate" nillable="true" type="xs:dateTime" />
+      <xs:element name="FirstPayDate" nillable="true" type="xs:dateTime" />
+      <xs:element name="MonthCount" nillable="true" type="xs:string" />
+      <xs:element name="YearCount" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q29="http://markit.com/Markit/LoanReferenceData/2012/07" name="RateOption" nillable="true" type="q29:RateOption" />
+  <xs:complexType name="ArrayOfRateLimit">
+    <xs:sequence>
+      <xs:element xmlns:q30="http://markit.com/Markit/LoanReferenceData/2012/07" minOccurs="0" maxOccurs="unbounded" name="RateLimit" nillable="true" type="q30:RateLimit" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q31="http://markit.com/Markit/LoanReferenceData/2012/07" name="ArrayOfRateLimit" nillable="true" type="q31:ArrayOfRateLimit" />
+  <xs:complexType name="RateLimit">
+    <xs:sequence>
+      <xs:element name="RateOption" nillable="true" type="xs:string" />
+      <xs:element name="LimitType" nillable="true" type="xs:string" />
+      <xs:element name="RateType" nillable="true" type="xs:string" />
+      <xs:element name="Limit" nillable="true" type="xs:float" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q32="http://markit.com/Markit/LoanReferenceData/2012/07" name="RateLimit" nillable="true" type="q32:RateLimit" />
+  <xs:complexType name="ArrayOfMultiCurrency">
+    <xs:sequence>
+      <xs:element xmlns:q33="http://markit.com/Markit/LoanReferenceData/2012/07" minOccurs="0" maxOccurs="unbounded" name="MultiCurrency" nillable="true" type="q33:MultiCurrency" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q34="http://markit.com/Markit/LoanReferenceData/2012/07" name="ArrayOfMultiCurrency" nillable="true" type="q34:ArrayOfMultiCurrency" />
+  <xs:complexType name="MultiCurrency">
+    <xs:sequence>
+      <xs:element name="CurrencyType" nillable="true" type="xs:string" />
+      <xs:element name="Limit" nillable="true" type="xs:float" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q35="http://markit.com/Markit/LoanReferenceData/2012/07" name="MultiCurrency" nillable="true" type="q35:MultiCurrency" />
+  <xs:complexType name="ArrayOfMark">
+    <xs:sequence>
+      <xs:element xmlns:q36="http://markit.com/Markit/LoanReferenceData/2012/07" minOccurs="0" maxOccurs="unbounded" name="Mark" nillable="true" type="q36:Mark" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q37="http://markit.com/Markit/LoanReferenceData/2012/07" name="ArrayOfMark" nillable="true" type="q37:ArrayOfMark" />
+  <xs:complexType name="Mark">
+    <xs:sequence>
+      <xs:element name="WSODataFacilityID" nillable="true" type="xs:int" />
+      <xs:element name="Source" nillable="true" type="xs:string" />
+      <xs:element name="Type" nillable="true" type="xs:string" />
+      <xs:element name="Ask" nillable="true" type="xs:float" />
+      <xs:element name="Bid" nillable="true" type="xs:float" />
+      <xs:element name="Mid" nillable="true" type="xs:float" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q38="http://markit.com/Markit/LoanReferenceData/2012/07" name="Mark" nillable="true" type="q38:Mark" />
+  <xs:complexType name="ArrayOfRating">
+    <xs:sequence>
+      <xs:element xmlns:q39="http://markit.com/Markit/LoanReferenceData/2012/07" minOccurs="0" maxOccurs="unbounded" name="Rating" nillable="true" type="q39:Rating" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q40="http://markit.com/Markit/LoanReferenceData/2012/07" name="ArrayOfRating" nillable="true" type="q40:ArrayOfRating" />
+  <xs:complexType name="Rating">
+    <xs:sequence>
+      <xs:element name="WSODataFacilityID" nillable="true" type="xs:int" />
+      <xs:element name="ID" nillable="true" type="xs:int" />
+      <xs:element name="Source" nillable="true" type="xs:string" />
+      <xs:element name="Type" nillable="true" type="xs:string" />
+      <xs:element name="Name" nillable="true" type="xs:string" />
+      <xs:element name="StartDate" nillable="true" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q41="http://markit.com/Markit/LoanReferenceData/2012/07" name="Rating" nillable="true" type="q41:Rating" />
+  <xs:complexType name="ArrayOfSIC">
+    <xs:sequence>
+      <xs:element xmlns:q42="http://markit.com/Markit/LoanReferenceData/2012/07" minOccurs="0" maxOccurs="unbounded" name="SIC" nillable="true" type="q42:SIC" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q43="http://markit.com/Markit/LoanReferenceData/2012/07" name="ArrayOfSIC" nillable="true" type="q43:ArrayOfSIC" />
+  <xs:complexType name="SIC">
+    <xs:sequence>
+      <xs:element name="ID" nillable="true" type="xs:int" />
+      <xs:element name="Type" nillable="true" type="xs:string" />
+      <xs:element name="Name" nillable="true" type="xs:string" />
+      <xs:element name="Code" nillable="true" type="xs:string" />
+      <xs:element name="StartDate" nillable="true" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q44="http://markit.com/Markit/LoanReferenceData/2012/07" name="SIC" nillable="true" type="q44:SIC" />
+  <xs:complexType name="ArrayOfSpread">
+    <xs:sequence>
+      <xs:element xmlns:q45="http://markit.com/Markit/LoanReferenceData/2012/07" minOccurs="0" maxOccurs="unbounded" name="Spread" nillable="true" type="q45:Spread" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q46="http://markit.com/Markit/LoanReferenceData/2012/07" name="ArrayOfSpread" nillable="true" type="q46:ArrayOfSpread" />
+  <xs:complexType name="Spread">
+    <xs:sequence>
+      <xs:element name="Type" nillable="true" type="xs:string" />
+      <xs:element name="Value" nillable="true" type="xs:float" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q47="http://markit.com/Markit/LoanReferenceData/2012/07" name="Spread" nillable="true" type="q47:Spread" />
+  <xs:complexType name="ArrayOfCallScheduleFeePay">
+    <xs:sequence>
+      <xs:element xmlns:q48="http://markit.com/Markit/LoanReferenceData/2012/07" minOccurs="0" maxOccurs="unbounded" name="CallScheduleFeePay" nillable="true" type="q48:CallScheduleFeePay" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q49="http://markit.com/Markit/LoanReferenceData/2012/07" name="ArrayOfCallScheduleFeePay" nillable="true" type="q49:ArrayOfCallScheduleFeePay" />
+  <xs:complexType name="CallScheduleFeePay">
+    <xs:sequence>
+      <xs:element name="Order" nillable="true" type="xs:int" />
+      <xs:element name="Date" nillable="true" type="xs:dateTime" />
+      <xs:element name="Price" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q50="http://markit.com/Markit/LoanReferenceData/2012/07" name="CallScheduleFeePay" nillable="true" type="q50:CallScheduleFeePay" />
+  <xs:complexType name="AgentBank">
+    <xs:sequence>
+      <xs:element name="MarkitAgentBankID" nillable="true" type="xs:string" />
+      <xs:element name="AgentBank" nillable="true" type="xs:string" />
+      <xs:element name="AgentContact" nillable="true" type="xs:string" />
+      <xs:element name="AgentPhone" nillable="true" type="xs:string" />
+      <xs:element name="AgentEmail" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q51="http://markit.com/Markit/LoanReferenceData/2012/07" name="AgentBank" nillable="true" type="q51:AgentBank" />
+  <xs:complexType name="BankDealSponsor">
+    <xs:sequence>
+      <xs:element name="PrimarySponsor" nillable="true" type="xs:string" />
+      <xs:element name="Sponsor2" nillable="true" type="xs:string" />
+      <xs:element name="Sponsor3" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q52="http://markit.com/Markit/LoanReferenceData/2012/07" name="BankDealSponsor" nillable="true" type="q52:BankDealSponsor" />
+  <xs:complexType name="GeneralServiceFault">
+    <xs:sequence>
+      <xs:element name="id" type="ser:guid" />
+      <xs:element name="message" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q53="http://markit.com/Markit/LoanReferenceData/2012/07" name="GeneralServiceFault" nillable="true" type="q53:GeneralServiceFault" />
+  <xs:element name="GetAvailableFacilitiesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q54="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="AvailableFacilities" nillable="true" type="q54:ArrayOfint" />
+        <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetContractsByFacilityIdRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AsOfDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="WSODataFacilityId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetContractsByFacilityIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+        <xs:element xmlns:q55="http://markit.com/Markit/LoanReferenceData/2012/07" minOccurs="0" name="Results" nillable="true" type="q55:ArrayOfContract" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ArrayOfContract">
+    <xs:sequence>
+      <xs:element xmlns:q56="http://markit.com/Markit/LoanReferenceData/2012/07" minOccurs="0" maxOccurs="unbounded" name="Contract" nillable="true" type="q56:Contract" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q57="http://markit.com/Markit/LoanReferenceData/2012/07" name="ArrayOfContract" nillable="true" type="q57:ArrayOfContract" />
+  <xs:complexType name="Contract">
+    <xs:sequence>
+      <xs:element name="WSODataContractID" nillable="true" type="xs:int" />
+      <xs:element name="ContractName" nillable="true" type="xs:string" />
+      <xs:element name="ContractType" nillable="true" type="xs:string" />
+      <xs:element name="RateOption" nillable="true" type="xs:string" />
+      <xs:element name="GlobalAmount" nillable="true" type="xs:decimal" />
+      <xs:element name="AllInRate" nillable="true" type="xs:float" />
+      <xs:element name="BaseRate" nillable="true" type="xs:float" />
+      <xs:element name="Spread" nillable="true" type="xs:float" />
+      <xs:element name="StartDate" nillable="true" type="xs:dateTime" />
+      <xs:element name="NextPaymentDate" nillable="true" type="xs:dateTime" />
+      <xs:element name="MaturityDate" nillable="true" type="xs:dateTime" />
+      <xs:element name="InterestDue" nillable="true" type="xs:decimal" />
+      <xs:element name="InterestReceived" nillable="true" type="xs:decimal" />
+      <xs:element name="Notes" nillable="true" type="xs:string" />
+      <xs:element name="CurrencyType" nillable="true" type="xs:string" />
+      <xs:element name="ExchangeRate" nillable="true" type="xs:decimal" />
+      <xs:element name="Frequency" nillable="true" type="xs:int" />
+      <xs:element name="AccrualBasis" nillable="true" type="xs:string" />
+      <xs:element name="MonthCount" nillable="true" type="xs:string" />
+      <xs:element name="YearCount" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q58="http://markit.com/Markit/LoanReferenceData/2012/07" name="Contract" nillable="true" type="q58:Contract" />
+  <xs:element name="GetAmortByFacilityIdRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="WSODataFacilityId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAmortByFacilityIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+        <xs:element xmlns:q59="http://markit.com/Markit/LoanReferenceData/2012/07" minOccurs="0" name="Results" nillable="true" type="q59:AmortizationSchedule" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="AmortizationSchedule">
+    <xs:sequence>
+      <xs:element name="WSODataAmortizationId" nillable="true" type="xs:int" />
+      <xs:element name="WSOAmortizationId" nillable="true" type="xs:int" />
+      <xs:element name="Name" nillable="true" type="xs:string" />
+      <xs:element name="ScheduleDate" nillable="true" type="xs:dateTime" />
+      <xs:element name="EndDate" nillable="true" type="xs:dateTime" />
+      <xs:element xmlns:q60="http://markit.com/Markit/LoanReferenceData/2012/07" name="Amortizations" nillable="true" type="q60:ArrayOfAmortization" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q61="http://markit.com/Markit/LoanReferenceData/2012/07" name="AmortizationSchedule" nillable="true" type="q61:AmortizationSchedule" />
+  <xs:complexType name="ArrayOfAmortization">
+    <xs:sequence>
+      <xs:element xmlns:q62="http://markit.com/Markit/LoanReferenceData/2012/07" minOccurs="0" maxOccurs="unbounded" name="Amortization" nillable="true" type="q62:Amortization" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q63="http://markit.com/Markit/LoanReferenceData/2012/07" name="ArrayOfAmortization" nillable="true" type="q63:ArrayOfAmortization" />
+  <xs:complexType name="Amortization">
+    <xs:sequence>
+      <xs:element name="Date" nillable="true" type="xs:dateTime" />
+      <xs:element name="Amount" nillable="true" type="xs:decimal" />
+      <xs:element name="Received" nillable="true" type="xs:boolean" />
+      <xs:element name="Price" nillable="true" type="xs:decimal" />
+      <xs:element name="Notes" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q64="http://markit.com/Markit/LoanReferenceData/2012/07" name="Amortization" nillable="true" type="q64:Amortization" />
+</xs:schema>

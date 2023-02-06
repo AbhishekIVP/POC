@@ -1,0 +1,3358 @@
+﻿/************************** POSITION MASTER TAGGING PLUGIN CSS *****************************/
+
+@media (max-width: 1400px)
+{
+    .tag_header_right_btnset_div /*used*/
+    {
+        left: 80% !important;
+        }
+    .add-rule-icon /*ussed*/
+    {
+        margin-left:90% !important;
+        } 
+    .custElemRuleApplicable
+    {
+        margin-left: 10% !important;
+        } 
+   .custElemRuleDate
+   {
+        margin-left: 15% !important;
+       }  
+   .show-calendar {
+         left: 299px !important;
+    }     
+    div[id^=editRuleFormDateControl_].show-calendar {
+        left: 403px;
+    }  
+    div#runTagsDateControl_dateInfo.opensleft {
+    top: 225px !important;
+    }   
+    div#runTagsDateControl_dateInfo.show-calendar {
+    left: 409px !important;
+    top: 225px !important;
+    }  
+}
+    
+@media (max-width: 1366px) and (max-height: 768px)
+{
+       .tag_header_right_btnset_after
+        {
+        left:0% !important;
+        }
+    #editTagDetails
+    {
+     display:none;
+     position: relative;
+    top: -13px;
+    display: block;
+    color: black !important;
+     }   
+    .tag_config_list_div {
+    /*max-height: 590px;*/
+    overflow: auto;
+    clear: both;
+    background:#fbfbfb;
+    }
+    .datatable_header
+    {
+    width:957px !important;
+    }
+    .tag_config_list_container_togglemax-height {
+   /* max-height: 466px !important;*/
+    }
+    #tagTypeDiv {
+        width: 17.5% !important;
+        padding: 9px;
+        border: 1px solid rgb(204, 204, 204);
+        position: absolute;
+        top: 32.4% !important;
+        left: 35% !important;
+        position:absolute;
+        z-index:10;
+        -webkit-box-shadow: 1px 2px 6px rgba(0,0,0,.3);
+        }
+        #tPrecision
+{
+    width:70px !important;
+    }
+    .negative-select,.units-select
+{
+    width:100px !important;
+    }   
+    #tagTypeDiv .config_form_elem { /*used*/
+margin-left: -3px;
+height:29px;
+
+}
+  .tag_header_right_btnset_div { /*used*/
+
+left: 83% !important;
+
+}
+.show-calendar {
+left: 295px !important;
+}
+div[id^=editRuleFormDateControl_].show-calendar {
+left: 358px !important;
+}
+div#runTagsDateControl_dateInfo.show-calendar {
+left: 366px !important;
+}
+.add-rule-icon /*used*/
+{
+    margin-left:90% !important;
+    }
+.custElemRuleDate 
+ {    margin-left: 17% !important;
+    }  
+    .custElemRuleApplicable
+{
+   margin-left: 7% !important;
+    }  
+    .onToggleTag
+    {
+        height:81.7% !important;
+        }
+    
+#gridViewSearchDiv
+{
+    margin-right:-31px !important;
+    }
+    
+    .custElemRulePrior
+    {
+        margin-left: 0% !important;
+        }
+        
+          #tag_config_footer
+{
+    top:99.8% !important;
+    }
+      
+ 
+}
+
+@media (max-height: 680px)
+{
+      #tagTypeDiv {       
+        top: 40.2% !important;
+        left: 35% !important;
+        }
+        #tagTypeDiv label.tag_config_form_label
+        {
+            width:31% !important;
+            }
+    .custElemRulePrior
+    {
+        margin-left: 0% !important;
+        }
+    }
+    
+@media (max-height: 640px)
+{
+      #tag_config_footer
+{
+    top:94.6% !important;
+    }
+    #gridViewSearchDiv
+{
+    margin-right:-31px !important;
+    }
+    .onToggleTag {
+height: 77.8% !important;
+}
+    
+    }
+@media (max-height: 600px)
+{
+     #tagTypeDiv {       
+        top: 44% !important;
+        left: 35% !important;
+        }
+    #tag_config_footer
+{
+    top:94% !important;
+    }
+    
+    }
+@media(max-width: 1200px)
+{
+    .edit-del-div-onTagExpand
+    {
+        margin-left:76% !important;
+        }
+    .tag_header_right_btnset_after
+    {
+        left:0% !important;
+        }
+   .tag_header_right_btnset_div /*used*/
+    {
+        left:88.5% !important;
+        }
+   .add-rule-icon /*used*/
+    {
+        margin-left: 87% !important;    
+    } 
+            #tPrecision
+{
+    width:52px !important;
+    }      
+        .negative-select,.units-select
+{
+    width:82px !important;
+    }    
+        #tagTypeDiv .config_form_elem {/*used*/
+        margin-left: -3px;
+        height:29px;
+
+}
+.show-calendar {
+left: 122px !important;
+}
+    div[id^=editRuleFormDateControl_].show-calendar {
+        left: 300px;
+    }  
+     div[id^=editRuleFormDateControl_].opensleft {
+        left: 747px !important;
+    } 
+    div#runTagsDateControl_dateInfo.opensleft {
+    top: 225px !important;
+    }   
+    div#runTagsDateControl_dateInfo.show-calendar {
+    left: 152px !important;
+    top: 225px !important;
+    }  
+    #gridViewSearchDiv
+{
+    margin-right:-25px !important;
+    }
+    .custElemRuleDate {
+margin-left: 10% !important;
+}
+.custElemRulePrior
+    {
+        margin-left: 0% !important;
+        }
+}   
+
+@media(max-width: 1024px)
+{
+    .edit-del-div-onTagExpand
+    {
+        margin-left:76% !important;
+        }
+    .tag_header_right_btnset_after
+    {
+        left:0% !important;
+        }
+   .tag_header_right_btnset_div /*used*/
+    {
+        left:86.5% !important;
+        }     
+    .addTagTitleDiv
+    {   
+    width: 13% !important;    
+    } 
+    .add-rule-icon /*used*/
+    {
+        margin-left: 85% !important;    
+    }  
+        #tagTypeDiv {
+        left: 35% !important;
+        }   
+                #tPrecision
+{
+    width:36px !important;
+    }
+        .negative-select,.units-select
+{
+    width:70px !important;
+    } 
+    #tagTypeDiv .config_form_elem { /*used*/
+margin-left: -5px;
+height:29px;
+}
+
+    #gridViewSearchDiv
+    {
+    margin-right:-18px !important;
+    }
+  
+  .show-calendar {
+    left: 299px !important;
+    }
+div[id^=editRuleFormDateControl_].opensleft {
+    left: 640px !important;
+    }
+div[id^=editRuleFormDateControl_].opensleft {
+    left: 158px !important;
+    }
+       .custElemRuleDate {
+margin-left: 1% !important;
+} 
+    
+}
+@media(max-width: 980px)
+{
+    .tag_header_right_btnset_after
+    {
+        left:0% !important;
+        }
+    .tag_header_right_btnset_div /*used*/
+    {
+        left:86% !important;
+        }    
+    .addTagTitleDiv
+    {   
+    width: 14% !important;    
+    }  
+    .add-rule-icon /*used*/
+    {
+        margin-left: 85% !important;    
+    }   
+                    #tPrecision
+{
+    width:46px !important;
+    }
+        .negative-select,.units-select
+{
+    width:60px !important;
+    } 
+    #tagTypeDiv .config_form_elem { /*used*/
+margin-left: -5px;
+height:29px;
+
+}
+  
+}
+   
+/*...........................................................................................*/    
+  .modal-open .select2-results li {
+
+border-left: 4px solid white;
+}
+.modal-open .select2-results .select2-highlighted {
+  background: #f9f9f9 !important;
+  color: #555555 !important;
+   border-left: 4px solid #00bcef !important;
+   }
+.modal-open .select2-drop-active
+{
+   box-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 6px 0px;
+box-sizing: border-box;
+border-radius: 0 0 2px 2px !important; 
+    } 
+      
+   .modal-open .select2-drop
+   {
+       color:#666 !important;
+       font-size:12px !important;
+       margin-top: -8px;
+}
+       
+  .modal-open .select2-choice
+  {
+      background-image:none !important;
+      border-radius:0px !important;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-bottom: 1px solid #E2E2E2;
+    background: white;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    color:Black;
+    transition: all 0.3s ease-out;
+  /*  background: url(images/icons/arrow_ivp.png) no-repeat right white;
+    -webkit-appearance: none;*/
+      }
+       .modal-open .select2-chosen /*used for select2's on the page*/
+       {
+            background: url(images/icons/arrow_ivp.png) no-repeat right white;
+    -webkit-appearance: none; 
+    width:96% !important;
+           }
+   .modal-open .select2-arrow
+   {
+       display:none !important;
+       }
+   
+.tag-config-header-title /*the span on top first page*/
+{
+    background-color: #f6f6f6 !important;
+    padding:5px 5px 2px 10px !important;
+    height: 35px !important;
+    margin: 0px !important;
+    color: White !important;
+    border: 1px solid #EEE !important; /*border-left: 4px solid #4D4F55;*/
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.tag-config-content
+{
+    padding: 0px !important;
+    height: 100%;
+}
+.tag_config_form_label /*not needed*/
+{
+    font-weight: bold !important;
+    font-size: 13px !important;
+}
+.add-tag-icon:before /*the add icon before add tag*/
+{
+    font-family: FontAwesome;
+    content: "\f055";
+    margin-left: 3px;
+    font-weight: normal;
+    font-size: large;
+    vertical-align: middle;
+    color: #43d9c6;
+   
+
+}
+
+.header-row .tag-list-col {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.add-tag-icon /*the span that contains add tag and + icon*/
+{
+    cursor: pointer;
+   /* opacity: 0.7;*/
+    /*display: block !important;*/
+    width: 18px;
+    height: 18px;
+  /*  background-color: #fff;*/
+    margin-top: -20px;
+    margin-left:5px;
+   /*   margin-left: 87%;
+    border-radius: 10px;*/
+    color:#43d9c6;
+    font-size:12px;
+}
+.add-tag-icon:hover
+{
+    cursor: pointer;
+    opacity: 1;
+}
+.custom-close-btn
+{
+    margin-top: 10px !important;
+    margin-right: 10px !important;
+    color: #aaa !important;
+    display:none;
+}
+
+button.btn.btn-circle {
+outline: none !important;
+}
+.custom-close-btn:hover
+{
+    opacity: 1;
+    color: White;
+}
+
+.form-element /*the elements that are present on each tile and also associated with complete div  of the form also when rules ared displayed the div that contains the rule_name*/
+{
+    display: inline-block;
+    vertical-align: middle;
+  
+    /* margin-left: 5px; */
+   /* margin-right: 17px;
+    margin-bottom: 10px;   width: 17%;*/
+    overflow: hidden;
+    /* position: relative; */
+    padding:1px;
+    /* margin-top: 8px; */
+    white-space: nowrap;
+    /* top: 4px; */
+}
+.tag_config_form /*the form that opens up on add tag */
+{
+   /* margin: auto !important;  margin-top:10px;background-color: #f6f6f6;*/
+   padding: 5px !important;
+width: 99.5%;
+float: left;
+overflow-x: hidden;
+}
+#tag_config_form div > input, #tag_config_form div > select /*not needed*/
+{
+    height: 21px !important;
+    border-radius:2px !important;
+    font-size: 12px;
+    font-family: Lato;
+}
+
+.tag_config_header_icons {
+COLOR: #B8B8B8;
+margin-right: 10px;
+cursor:pointer;
+/* margin-top: 22px; */
+}
+.tag_row_after_expnd
+{
+    height:auto !important;
+    }
+#tag_config_content_body
+{
+    /*border: 1px solid #47a3da;
+    margin-top: 10px !important;
+   /* padding: 10px !important;*/
+    padding-top: 0px !important;
+    width: 100%;
+
+    height: 100%;
+}
+.my-modal-dialog
+{
+    width: 78.5% !important;
+    /*height: 92% !important;*/
+    overflow:hidden;
+  /*  border: 1px solid #d6dcdd;*/
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 7px 0px;
+    top:15px;
+}
+.my-modal-content
+{
+    height: 100% !important;
+    outline: none;
+outline-color: transparent;
+border: none;
+
+}
+
+.my-custom-modal-body
+{
+    height: 96% !important;
+     padding: 0px !important;
+}
+
+.tag-form-custom-btn
+{
+    background-color: #eee !important;
+    border-radius: 0 !important;
+    height: 25px !important;
+    padding: 2px 12px !important;
+    background-image: none !important;
+    border-color:#E9E4E4;
+    font-weight:normal;
+    color:Black;
+}
+.tag-form-custom-btn:hover
+{  background-color: #eee !important;
+    border-radius: 0 !important;
+       border-color:#E9E4E4;
+    font-weight:normal;
+    color:Black;
+ /* box-shadow: 2px 2px 3px #D4D4D4; */
+    }
+.align-div-custom
+{
+}
+.tag-list-col /*for the data present in the tile and also for the rule heading.*/
+{
+    /*width: 16% !important;  
+    margin-left: 5px !important;*/
+      margin-bottom: 0px !important;
+      font-size: 13px;
+    
+      /* color: red; */
+      font-family: Lato;
+      font-size: 12px !important;
+}
+.tag-list-col-auto
+{
+    margin-bottom: 0px !important;
+    /*margin-left: 5px !important;*/
+    width: auto;
+    /* margin-top: 1px; */
+}
+.tag_list_col_icon
+{
+    width: 20px !important;
+    margin: 0px !important;
+}
+
+.col-delete /*the delete icon on each tile*/
+{
+    /*opacity: 0.3;*/
+    color:rgb(202, 202, 202);
+    cursor:pointer;
+    
+}
+.col-delete:hover
+{
+   /* opacity: 1;*/
+   color:Black;
+}
+.col-edit /*not needed*/
+{
+    cursor:pointer;
+    /* opacity: 0.3; */
+}
+.col-edit:hover
+{
+    opacity: 1;
+}
+div.data-row:hover
+{
+   /* background-color: #f6f6f6;*/
+   cursor:pointer;
+   /*border:2px solid #A0C9D6;*/
+}
+
+#tag_activity_div
+{
+    width:29%;
+    display: inline-block;
+vertical-align: top;
+    }
+#tag_config_footer
+{
+    border-top: 1px solid #eee;
+    display:block;
+    height: 25px;
+z-index:1000;
+    position:absolute;
+   /* top: 95.6%;
+    position: fixed;*/
+
+    width:99.8%;
+    /* padding-top: 5px; */
+    /* margin-top: -5px; */
+    /* padding-bottom: 0px; */
+}
+    
+    
+ #tag_config_footer_btnset
+ {
+     float:right;
+     }   
+.tag_config_list_div
+{
+   /* max-height: 555px;*/
+    overflow: auto;
+    clear: both;
+    overflow-x:hidden;
+    
+   background: white;
+}
+.tag_config_list_container_togglemax-height
+{
+  /*  max-height: 515px !important;*/
+}
+
+
+.delete-modal-dialog
+{
+    
+    border-radius: 0px !important;
+    width: 400px;
+    box-shadow: 0 3px 5px rgba(0,0,0,.5);
+}
+
+
+.delete-dialog-close-btn
+{
+    margin-top: 4px !important;
+    margin-right: 10px !important;
+    display:none;
+}
+
+/*.delete-dialog-footer
+{
+    padding: 5px !important;
+}*/
+.delete-dialog-footer{
+ /*   padding: 5px !important;
+    text-align: center;
+    border: none !important;
+    position: relative;
+    top: -115px;*/
+    display:none;
+}
+/*.delete-dialog-btns
+{
+    height: 25px;
+    border-radius: 0;
+    background-color: #47A3DA !important;
+    background-image: none !important;
+    padding: 2px 12px !important;
+}*/
+#delPopUpTagNameSpan
+{
+    font-size:13px;
+    font-weight:bold;
+    
+    height: 14px;
+    text-overflow: ellipsis;
+    /* overflow: hidden; */
+    line-height: 14px;
+    float: left;
+    width: 120px;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+div#deleteContainer { /*for the content of qtip */
+font-size: 12px;
+
+}
+
+    
+ 
+/*.................previous pos tagging css...........................*/
+
+.navigation-main
+{
+    width: 25px;
+    opacity: 1;
+    position: fixed;
+    z-index: 1001;
+    border-radius: 4px 4px 0px 0px;
+    background-color: #fff;
+}
+
+
+.navigation-main ul
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    list-style-image: none;
+}
+
+.navigation-main ul li
+{
+    /* padding-top:5px; padding-bottom:5px; */
+}
+
+
+
+.navigation-main .high
+{
+    /* height:40px; width:30px; */
+}
+
+
+
+.navigation-main .primary
+{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 10003;
+}
+
+
+.navigation-main .primary .main-item
+{
+    height: 25px;
+}
+
+.iconstyle
+{
+    color: black;
+    font-size: 20px;
+}
+
+.vertical_content
+{
+    display: none;
+    margin-left: -90%;
+    margin-top: 0px;
+    position: absolute;
+    width: 80%;
+    z-index: 100;
+    border: none;
+    min-width: 700px;
+}
+
+.body_content
+{
+    margin-left: 42px;
+}
+
+.body_content_child
+{
+    height: 98%;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+    margin-right: 10px !important;
+}
+
+
+#rule_editor_content
+{
+    /*  margin-left:40px; */
+}
+
+
+#fade
+{
+    display: none; /*  ensures it’s invisible until it’s called */
+    position: absolute; /* makes the div go into a position that’s absolute to the browser viewing area */
+    top: 63px; /* makes the div span all the way across the viewing area */
+    background-color: black;
+    -moz-opacity: 0.0; /* makes the div transparent, so you have a cool overlay effect */
+    opacity: .00;
+    filter: alpha(opacity=0);
+    width: 100%;
+    height: 100%;
+    z-index: 9; /* makes the div the second most top layer, so it’ll lay on top of everything else EXCEPT for divs with a higher z-index (meaning the #overlay ruleset) */
+}
+
+.verticalGradient
+{
+    background: rgb(167,199,220); /* Old browsers */ /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E3YzdkYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4NWIyZDMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(left,  rgba(167,199,220,1) 0%, rgba(133,178,211,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(167,199,220,1)), color-stop(100%,rgba(133,178,211,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(167,199,220,1) 0%,rgba(133,178,211,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(167,199,220,1) 0%,rgba(133,178,211,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(167,199,220,1) 0%,rgba(133,178,211,1) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(167,199,220,1) 0%,rgba(133,178,211,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', endColorstr='#85b2d3',GradientType=1 ); /* IE6-8 */
+}
+
+
+.labelstyle
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.panel-title
+{
+    font-size: 1.5em;
+    padding: 5px 14px;
+    margin-bottom: 0px;
+    color: #fff;
+    background-color: rgb(0, 136, 204);
+    border-color: #bbb;
+    border-radius: 4px 4px 0px 0px;
+}
+/*
+.panel-heading
+{
+    margin-right: 10px;
+}*/
+
+.panel-body
+{
+    margin-right: 10px;
+}
+
+.panel-color-background
+{
+    background-color: #F5F5F5 !important;
+}
+
+.panel-content
+{
+    padding: 0px 12px;
+    border: 1px solid #efefef;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 0px;
+    background: #fff;
+    position: absolute;
+    -webkit-box-shadow: 5px 1px 15px rgba(50, 50, 50, 0.97);
+    -moz-box-shadow: 5px 1px 15px rgba(50, 50, 50, 0.97);
+    box-shadow: 5px 1px 15px rgba(50, 50, 50, 0.97);
+}
+
+.form-control-pm
+{
+    display: block;
+    padding: 0px 5px;
+    font-size: 12px;
+    line-height: 1.428571429;
+    color: #555555;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    height: 20px;
+}
+
+.form-group
+{
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+
+.containerDiv
+{
+    background-color: #fff;
+    border-width: 1px;
+    border-color: #ddd;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: none;
+    border-style: solid;
+    padding: 5px;
+}
+
+
+.vertical-icon
+{
+    width: 16px;
+    height: 16px;
+    padding: 5px;
+    display: block; /*     border-bottom:1px solid #ccc;          -webkit-box-shadow: inset 0 1px 1px #ccc;     box-shadow: inset 0 1px 1px #ccc; */
+}
+
+#vertical_left_bar
+{
+    height: 60px;
+    border-radius: 10px 0px 0px 10px;
+    border-left: 2px solid #08C;
+    border-top: 2px solid #08C;
+    border-bottom: 2px solid #08C;
+}
+
+/*
+.vertical-icon:hover
+{
+    width:16px;
+    height:16px;
+    padding:5px;
+    display:block;
+    background-color: #fbfbfb;
+    cursor:pointer;
+}
+*/
+
+.glyphicon-tag
+{
+    background-image: url("../images/positionmaster/glyphicons_066_tags.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 9999;
+}
+
+
+.glyphicon-rule
+{
+    background-image: url("../images/positionmaster/glyphicons_150_edit.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.glyphicon-override-rule
+{
+    background-image: url("../images/positionmaster/glyphicons_154_more_windows.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.glyphicon-apply-tag
+{
+    background-image: url("../images/positionmaster/glyphicons_220_play_button.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.glyphicon-filter-blotter
+{
+    background-image: url("../images/positionmaster/glyphicons_320_filter.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.glyphicon-rule-action
+{
+    background-image: url("../images/positionmaster/glyphicons_150_edit.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    cursor: pointer;
+}
+
+.glyphicon-rule-action:hover
+{
+    background-image: url("../images/positionmaster/glyphicons_150_edit.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    cursor: pointer;
+}
+
+.glyphicon-override-rule-action
+{
+    background-image: url("../images/positionmaster/glyphicons_154_more_windows.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    cursor: pointer;
+}
+
+.glyphicon-override-rule-action:hover
+{
+    background-image: url("../images/positionmaster/glyphicons_154_more_windows.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    cursor: pointer;
+}
+
+/*
+.glyphicon-apply:hover
+{
+    background-image:url("../images/positionmaster/glyphicons_206_ok_2.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:12px 16px;
+    opacity:1;
+    filter:alpha(opacity=100); /* For IE8 and earlier 
+    cursor:pointer;
+}
+*/
+
+.glyphicon-apply
+{
+    background-image: url("../images/positionmaster/glyphicons_206_ok_2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 12px 16px;
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    cursor: pointer;
+}
+
+.glyphicon-bin
+{
+    background-image: url("../images/positionmaster/glyphicons_016_bin.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 12px 16px;
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    cursor: pointer;
+}
+
+.glyphicon-bin:hover
+{
+    background-image: url("../images/positionmaster/glyphicons_016_bin.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 12px 16px;
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    cursor: pointer;
+}
+
+.glyphicon-pencil
+{
+    background-image: url("../images/positionmaster/glyphicons_030_pencil.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    cursor: pointer;
+}
+
+.glyphicon-pencil:hover
+{
+    background-image: url("../images/positionmaster/glyphicons_030_pencil.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    cursor: pointer;
+}
+
+.glyphicon-branch
+{
+    background-image: url("../images/positionmaster/glyphicons_426_git_merge.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+}
+
+.formButton
+{
+    margin-top: 10px !important;
+    cursor: pointer !important;
+    height: 25px !important;
+    border: 1px solid #08C;
+    background: #08C url(../images/ui-bg_inset-soft_25_0088CC_1x100.png) 50% 50% repeat-x;
+    font-weight: normal;
+    color: #fff;
+}
+
+.formButton:hover
+{
+    margin-top: 10px !important;
+    cursor: pointer !important;
+    height: 25px !important;
+    border: 1px solid #08c;
+    background: #08C url(../images/ui-bg_inset-soft_25_0088CC_1x100.png) 50% 50% repeat-x;
+    font-weight: normal;
+    color: #fff;
+    -webkit-box-shadow: 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.97);
+    box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.97);
+}
+
+.form-control-container
+{
+    width: 50%;
+    height: 26px !important;
+}
+
+
+select.form-control-pm
+{
+    width: 180px;
+    height: 23px !important;
+    margin-top: 2px;
+}
+
+#tp-reference-attribute
+{
+    width: 180px;
+}
+
+select #tp-tag-default-value
+{
+    width: 180px;
+}
+
+input #tp-tag-default-value
+{
+    width: 180px;
+}
+
+
+.close
+{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #000000;
+    text-shadow: 0 1px 0 #ffffff;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    text-decoration: none;
+}
+.close:hover
+{
+    color: #000000;
+    text-decoration: none;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    cursor: pointer;
+}
+
+.badge
+{
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 10px 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 10px;
+}
+
+.failureAlert
+{
+    padding: 0px 5px 21px 13px; /*4px 15px 12px 14px;     margin-bottom: 20px;*/
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    display: block;
+    height: 12px;
+    margin-top: 10px;
+}
+
+.failureAlert span
+{
+    font-family: "Helvetica Neue" ,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.failureAlert a
+{
+    color: #b94a48 !important;
+}
+
+.failureAlert a:hover
+{
+    color: #a8413f !important;
+}
+
+
+.successAlert
+{
+   padding: 1px 15px 21px 20px;
+  /*  padding: 4px 15px 12px 14px;  margin-bottom: 20px;*/
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    display: block;
+    height: 12px;
+    margin-top: 10px;
+}
+
+.successAlert span
+{
+    font-family: "Helvetica Neue" ,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.successAlert a
+{
+    color: #468847 !important;
+}
+
+.successAlert a:hover
+{
+    color: #3e773e !important;
+}
+
+.softAlert
+{
+    padding: 4px 15px 12px 14px; /* margin-bottom: 20px;*/
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #c09853;
+    background-color: #fcf8e3;
+    border-color: #fbeed5;
+    display: block;
+    height: 12px;
+    margin-top: 10px;
+}
+
+.softAlert span
+{
+    font-family: "Helvetica Neue" ,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.softAlert a
+{
+    color: #c09853 !important;
+}
+
+.softAlert a:hover
+{
+    color: #a07c45 !important;
+}
+
+
+
+/* Rule Template */
+
+.rule-list-content
+{
+    background-color: #fff;
+    border-width: 1px;
+    border-color: #ddd;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: none;
+    border-style: solid;
+    position: relative; /*background-color:#FFFEF6;*/
+    background-color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: move;
+}
+
+.ruleName
+{
+    font-size: 16px;
+    font-weigth: bold;
+}
+
+.ruleName:first-letter
+{
+    text-transform: uppercase;
+}
+
+.ruleDescription
+{
+    font-size: 12px;
+    color: #9e9e9e;
+}
+
+.priority
+{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    color: #82CDF5;
+}
+
+.extraInfo
+{
+    font-size: 12px;
+}
+
+.action-anchor
+{
+    text-decoration: underline;
+    font-size: 10px;
+    font-color: blue;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.ui-state-highlight
+{
+    height: 1.5em;
+    line-height: 1.2em;
+}
+
+.highlight_it
+{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.tag-message
+{
+    font-size: 12px;
+}
+
+#tagGridContainer ul
+{
+    padding: 0px;
+}
+
+#manageRuleContainer ul
+{
+    padding: 0px;
+}
+
+#manageOverrideContent ul
+{
+    padding: 0px;
+}
+
+#tag_content
+{
+    padding: 0px;
+}
+
+#taskProgressContainer .ui-progressbar .ui-progressbar-value
+{
+    background-image: none !important;
+    margin: 0 !important;
+    background-color: transparent;
+}
+
+#taskProgressContainer .ui-widget-header
+{
+    /* border: 1px solid #4297d7; */
+    background: #a6c9e2 url(/themeroller/images/ui-bg_gloss-wave_75_2191c0_500x100.png) 50% 50% repeat-x !important;
+    color: #a6c9e2;
+    font-weight: bold;
+}
+
+#taskProgressContainer .ui-widget-content
+{
+    border: 1px solid #a6c9e2 !important;
+    background: #fcfdfd url(/themeroller/images/ui-bg_inset-hard_100_fcfdfd_1x100.png) 50% bottom repeat-x;
+    color: #222222;
+}
+
+#taskProgressContainer .ui-progressbar
+{
+    position: relative;
+}
+
+#taskProgressContainer .progress-label
+{
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+.rulelist
+{
+    margin-top: 0px;
+}
+
+.tagLabelInruleWrap
+{
+    margin-top: 5px;
+}
+
+.tagLabelInruleWrap span
+{
+    color: #666;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
+.viewHierarchyButton
+{
+    border: 1px solid #ccc;
+    cursor: pointer;
+    width: 24px;
+}
+
+.viewHierarchyButton:hover
+{
+    border: 1px solid #ccc;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.97);
+    box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.97);
+}
+
+.form-group label
+{
+    display: inline-block;
+    margin-bottom: 2px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.form-btn
+{
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 0px 8px;
+    font-size: 14px;
+    height: 27px;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.form-btn:focus, .form-btn:active:focus, .form-btn.active:focus
+{
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+.form-btn:hover, .form-btn:focus
+{
+    text-decoration: none;
+}
+
+.form-btn:active, .form-btn.active
+{
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+
+.editable-form
+{
+    /* background-color: #F2F9FC;  border: 1px solid #ddd;  background-color: #EEEEEE;   border: 1px solid #C9ECFC;*/
+   
+   
+    min-height: 300px;
+}
+
+
+.btn-external
+{
+    background-color: #0088CC;
+    border-color: #0088CC;
+    color: #fff;
+}
+
+.btn-external:hover
+{
+    background-color: #43AFE6;
+    border-color: #43AFE6;
+    color: #fff;
+}
+
+.btn-internal
+{
+    color: #000;
+    background-color: #C9ECFC;
+    border-color: #ABC6D3;
+}
+
+.btn-internal:hover
+{
+    color: #000;
+    background-color: #ACE3FC;
+    border-color: #ABC6D3;
+}
+
+.bootstrap-global-css
+{
+    font-family: "Helvetica Neue" ,Helvetica,Arial,sans-serif; /* font-size: 14px; */
+    line-height: 1.42857143; /* color: #333; */
+}
+
+.glyphicon-collapse
+{
+    background-image: url("../images/positionmaster/glyphicons_368_collapse.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+}
+
+.glyphicon-expand
+{
+    background-image: url("../images/positionmaster/glyphicons_367_expand.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+}
+
+.glyphicon-plus
+{
+    background-image: url("../images/positionmaster/glyphicons_432_plus.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+}
+
+.glyphicon-table
+{
+    background-image: url("../images/positionmaster/glyphicons_119_table.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.glyphicon-refresh
+{
+    background-image: url("../images/positionmaster/glyphicons_081_refresh.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+}
+
+.data-row-content
+{
+   
+    padding: 10px 0 10px 0;
+    min-height: 100px;
+   /* background-color: #F5F5F5; border-bottom: 1px solid #ccc;*/
+}
+
+.rule-header-row
+{
+    background-color: #DDDFDF;
+    padding: 2px 0px 2px 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.rule-data-row
+{
+    border-bottom: 1px solid #F4F4F4;
+    padding: 2px 0 5px 0 !important;
+    background-color: #fff;
+}
+
+.data-row
+{
+    border-radius: 3px !important;
+    }
+
+
+
+.rule-data-innerrow /*row for each rule presesnt in a tag*/
+{
+    padding: 2px 0 5px 0 !important;
+    padding: 2px 0 5px 0 !important;
+    background-color: #fff;
+}/*
+.editable-form .daterangepicker .ranges li.active
+{
+    background: #eeeeee !important;
+    border: 1px solid #eeeeee !important;
+    color: Black !important;
+}
+
+
+.editable-form .daterangepicker .ranges li:hover
+{
+    background: #eeeeee !important;
+    border: 1px solid #eeeeee !important;
+    color: Black !important;
+}*/
+
+
+.highlight-expand, highlight-expand:hover
+{
+   
+    font-weight: bold;
+    color: #47A3DA;
+}
+
+
+.col-priority
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 2px;
+    padding-left: 2px;
+    overflow: hidden;
+    float: left;
+    width: 60px;
+}
+
+.col-rule-priority
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 2px;
+    padding-left: 2px;
+    overflow: hidden;
+    float: left;
+    width: 20px;
+}
+
+.col-edit
+{
+    position: relative;
+    padding-right: 20px;
+    padding-left: 2px;
+    float: right;
+    height: 16px;
+    width: 16px;
+    color: rgb(202, 202, 202);
+}
+
+.col-delete
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 2px;
+    padding-left: 2px;
+    float: right;
+    height: 16px;
+    width: 14px !important;
+    color:rgb(202, 202, 202);
+   /* margin-right: 5% !important;*/
+}
+.cellvalue {/*not needed if .cellvalueGrid gets the prop of margin-left*/
+margin-left: 7px;
+}
+.col-accordion-icon
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 2px;
+    padding-left: 2px;
+    overflow: hidden;
+    float: left;
+    width: 30px;
+}
+
+.ruleEditorUpdatePanel .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-default, .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default {
+color: #fff !important;
+background: #47A3DA !important;}
+
+.ruleEditorUpdatePanel .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary, .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary {
+color: #fff !important;
+background: #47A3DA !important;}
+/*
+
+.selected_div_highlight
+{
+    margin-left:1% !important;
+    margin-right:1% !important;
+    box-shadow: 0px 0px 4px 4px #d8d8d8;
+    margin: auto !important;
+}*/
+.selected_div_highlight_edit
+{
+    box-shadow: 0px 0px 4px 4px #BBBBBB;
+    margin: auto !important;
+}
+.selected_div_highlight > div
+{
+   /* border-bottom:3px solid #DDD !important;*/
+}
+#taglist-body-container
+{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.positionPageHeader
+{
+    height: 22px !important;
+    padding: 0px 2px 2px 2px;
+}
+
+.addIcon
+{
+    color: #47A3DA !important;
+    font-size: 18px !important;
+    padding: 0px 0px 0px 0px !important;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+#overlaydiv
+{
+    z-index: 99;
+    top: 75px;
+}
+
+.filterContainer
+{
+    border: 1px solid #B4B8BB;
+    padding: 2px;
+    background-color: #B2DDF3;
+    margin-top: 1px;
+    border-radius: 2px;
+    margin-top: 1px;
+}
+
+.filterContainer:hover
+{
+    border: 1px solid #B4B8BB;
+    padding: 2px;
+    background-color: #79CBF5;
+    margin-top: 1px;
+    border-radius: 2px;
+    margin-top: 1px;
+}
+
+.refreshTaskBtn
+{
+    float: right;
+    margin-top: -28px;
+    margin-right: 30px;
+    height: 16px;
+    width: 16px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#tag_config_list_container textarea
+{
+    border-radius:2px !important;
+    }
+
+#tag_config_list_container div#prettyCode /*the editor that contains the copy of rule*/
+{
+    border-radius:2px !important;
+    
+    }
+.refreshTaskBtn:hover
+{
+    float: right;
+    margin-top: -28px;
+    margin-right: 30px;
+    height: 16px;
+    width: 16px;
+    background-color: #D2E9F8;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.tag_config_list_container_fade
+{
+    opacity:0.2;
+    }
+
+/* spinner css*/
+​.spinner
+{
+    width: 100px;
+}
+.spinner input
+{
+    text-align: right;
+}
+.input-group-btn-vertical
+{
+    position: relative;
+    white-space: nowrap;
+    width: 1%;
+    vertical-align: middle;
+    display: table-cell;
+}
+.input-group-btn-vertical > .btn
+{
+    display: block;
+    float: none;
+    width: 100%;
+    max-width: 100%; /* padding: 8px;*/
+    margin-left: -1px;
+    position: relative;
+    border-radius: 0;
+}
+.input-group-btn-vertical > .btn:first-child
+{
+    border-top-right-radius: 4px;
+}
+.input-group-btn-vertical > .btn:last-child
+{
+    margin-top: -2px;
+    border-bottom-right-radius: 4px;
+}
+.input-group-btn-vertical i
+{
+    position: absolute;
+    top: 0;
+    left: 7px;
+}
+div[id^=ruleFormDateControl].daterangepicker .ranges li.active
+{
+    color: Black;
+    background: #eee;
+     border:1px solid #eee;
+}
+div[id^=ruleFormDateControl].daterangepicker .ranges li:hover
+{
+    color: Black;
+    background: #eee;
+    border:1px solid #eee;
+}
+}
+div[id^=ruleFormDateControl].daterangepicker .ranges li
+{
+    color: Black;
+    
+}
+
+div[id^=editRuleFormDateControl].daterangepicker .ranges li.active
+{
+    color: Black;
+    background: #eee;
+     border:1px solid #eee;
+}
+div[id^=editRuleFormDateControl].daterangepicker .ranges li:hover
+{
+    color: Black;
+    background: #eee;
+    border:1px solid #eee;
+}
+
+div[id^=editRuleFormDateControl].daterangepicker .ranges li
+{
+    color: Black;
+    
+}
+
+#RunTagsContainer .date-div
+{
+   background:#eee;
+   color:Black;  
+    }
+    
+    
+   div[id^=runTagsDateControl].daterangepicker .ranges li.active
+{
+    color: Black;
+    background: #eee;
+     border:1px solid #eee;
+}
+ div[id^=runTagsDateControl].daterangepicker .ranges li:hover
+{
+    color: Black;
+    background: #eee;
+    border:1px solid #eee;
+}
+
+ div[id^=runTagsDateControl].daterangepicker .ranges li
+{
+    color: Black;
+    
+}
+
+#tag_config_div .select2-container
+{
+    font-size: 12px;
+    font-family: Lato;
+    width:100%;
+    margin-top: -6px;
+}
+    
+#tp-is-dimension
+{
+    vertical-align: middle;
+    margin-top: 0PX;
+    }
+    
+.tagDetailHeader{
+
+	display : -webkit-box;
+
+	font-weight : bold;
+color: rgb(145, 144, 144);
+text-align: center;
+}
+
+.colHeader{
+	width : 150px;
+
+}
+#deleteBody
+{
+    
+    margin-bottom: 18px;
+    padding: 10px 1px 0px;  
+    color: rgb(157, 156, 156);
+    max-width: 260px;
+    text-overflow: ellipsis;
+    display: inline-block;
+    display: inline-block;  max-width: 88%;  
+    white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  vertical-align: middle;
+}
+.tagDetailContent{
+	padding-left : 8px;
+	margin-top : 2px;
+
+}
+
+.tagDetailContentRow{
+	border-bottom : 1px solid #eee;
+	display: -webkit-box;
+
+}   
+
+.prior_badge
+{
+    width: 20px !important;
+    background-color: #d4d4d4;
+    color: white;
+    /*border-radius: 3PX;*/
+    text-align: -webkit-center;
+    height: 18px;
+    }
+        
+ .deleteContainer .cancelBtn,.tag_config_form_btnset .cancelBtn,.ruleEditorUpdatePanel .cancelBtn{
+      color:#d45453 !important;
+background: transparent !important;
+border: NONE;
+font-size:12px;
+      margin-left: 0px !important;
+}
+ .deleteContainer  .cancelBtn:hover,.tag_config_form_btnset .cancelBtn:hover,.ruleEditorUpdatePanel .cancelBtn:hover
+  {
+      color:red !important;
+      outline:none;
+        border: transparent;
+      }    
+ .custom_runTagBtn /*All The run buttons present*/
+ {
+     
+    margin-left: 8px;
+    border-radius: 3px;
+    background: #43d9c6;
+    color: white;
+    border: transparent;
+    font-weight: normal;
+    width: 65px;
+    height: 21px;
+    padding-top: 2px;
+    float:right;
+    width: 72px;
+     
+    font-family: Lato;
+    line-height: 16px;
+    vertical-align: middle;
+}       
+ .custom_runTagBtn:hover
+   {
+       
+       background: #53bfb1;
+        color: white;
+        border: transparent;
+        outline:none;
+       }   
+ .pm_date_div
+      {
+          
+        background: transparent;
+        cursor: pointer;
+        padding: 5px 5px;
+        color: #1cbbb4;
+        font-weight: normal;
+        height: 26px;
+        padding-top: 2px;
+        border:none;
+          }
+   
+   
+#pm_date_control .custom-calender-icon
+   {
+        float: left;
+        margin-top: 3px;
+        color: #959191;
+        margin-left: 10px;    
+       }
+       
+#pm_date_control .custom-angle-down
+   {      
+        color: #959191;
+        margin-right: 5px;
+       }
+       
+       
+div[id^=pm_date_control].daterangepicker .ranges li.active
+{
+    color: #1cbbb4;
+    background: #eee;
+     border:1px solid #eee;
+}
+ div[id^=pm_date_control].daterangepicker .ranges li:hover
+{
+    color: #1cbbb4;
+    background: #eee;
+    border:1px solid #eee;
+}
+
+ div[id^=pm_date_control].daterangepicker .ranges li
+{
+    color: #1cbbb4;
+    
+}      
+
+#sub-header
+{
+    height: 33px; 
+    text-align: right;
+    border-bottom: 3px solid #636363;
+    }
+    
+    
+.add-tag-btn
+ {
+    float: left;
+    color: #43d9c6;  /*1BBC9B*/
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor:pointer;
+     
+ }
+     
+.pm_custm_caret
+{
+   margin-left: 20px !important; 
+   color: #ececec;
+         
+}
+        
+  .pm_custm_caret_toggle
+  {
+    margin-left: 20px !important; 
+    color: #aaa;
+      }      
+      
+      
+ .tag_config_div /*to set font size of certain ele like save button n all*/
+ {
+     font-size:13px;
+     height: 100%;
+}   
+ /*    
+ .arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	
+	border-top: 10px solid #d4d4d4;
+}
+   */   
+.selected_div_grid {
+    display: -webkit-inline-box;
+}
+.selected_div /*check selected_div_fixed_collpased */
+{
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:270px !important;
+    background: #FBFBFB !important;
+    /* background-color: #fbfbfb; */
+}
+.selected_div_fixed /*not needed*/
+{
+    width: 24%;
+    }
+    .selected_div_fixed_collpased /* not neededthe selected divs*/
+{
+    width:100%;
+    background: #FBFBFB !important;
+    }
+.selected_div_bckgrnd
+{
+    /* background: #f5f5f5 !important; */
+    background-color: #f !important;
+    /*border:2px solid #A0C9D6;*/
+    }
+.onToggleTag
+{
+width: 22%;
+float: left;
+border-right: 1px solid #eee;
+height: 99.5%;
+/*padding-left: 10px;*/
+    }    
+/*
+.tag-expand-div
+{
+    
+    width: 70%;
+    max-height:625px;
+    overflow: auto;
+    overflow-x: hidden;
+    float: left;
+    display:none;
+    margin-top: 10px;
+    }   
+    */
+  .cust_tag_row /*for each inner div inside the selected div*/
+  {
+      cursor: pointer;
+      height:30px; 
+      border:1px solid #f1f1f1;
+      color: #4b4b4b;
+      margin-bottom:3px; 
+      width: 100%; 
+      height: 116px;
+      box-shadow: 2px 2px 3px #D4D4D4;  
+      border-radius: 3px !important;
+}   
+     /*
+  .cust_tag_row_expanded
+  {
+      width: 100%;
+      height:100px;
+      }     */ 
+      
+  #tag_config_form.form-element
+{
+    display:block;
+    }    
+    
+  .tag_config_form_header /*the div that contains Tag Configuration*/
+  {
+      color:#6d6d6d;
+      font-size:14px;
+      border-bottom:2px solid #bcbcbc;
+      margin-bottom: 10px;
+      cursor:pointer;
+      padding: 25px 0px 5px;
+      width: 98%;
+      }  
+      
+  .config_form_elem /*the class of the div that contains label name and text box it is used in media query too*/
+  {
+      display:block;
+      /* width:50%; */
+      margin-bottom: 12px;
+      width:100%;
+      margin-left: -10px;
+      height: 22px;
+      }    
+ 
+ /*
+ .edit-del-btn-onTagExpand
+ {
+    position: relative;
+    left: 33%;
+    top: -65px;
+    margin-left: 0px !important;
+     }     
+     */
+.edit-del-div-onTagExpand
+{
+    display: inline-flex;
+    margin-left: 81%;    
+    /* margin-top: 7px; */
+    /* top: 10px; */
+    position: absolute;
+    margin-right: 7px;
+    height: 20px;
+    bottom: 2px;
+}    
+    
+ /*
+#tag_config_list_body .mix
+{
+    display:none;
+    } */   
+#testdiv div
+{
+    width:30px;
+    height:30px;
+    background-color:#aaa;
+    color:White;
+    }   
+    
+ .tag_config_list
+{   width: 70%;
+    border-right: 1px solid #eee;    
+    display: inline-block;
+    vertical-align: top;
+   /* height:671px;*/
+     }   
+     
+ #tag_activity_header
+ {
+     text-align:center;
+     color:#777576;
+     padding-top:15px;
+     font-size: 12px;
+     font-weight: bold;
+     }
+     
+ #activity_close_icon
+ {
+    float: right;
+    font-weight: normal;
+    color: #dbdbdb;
+    margin-top: 2px;
+     }       
+     
+label.tag_config_form_label { /*not needed*/
+width: 40%;
+}
+      
+#addTagElemDiv input[type='text'] /*used with the txt box if we add font-size:12px here then use of class on line 479 */
+{
+    width: 50%;
+ 
+    border: 1px solid #e2e2e2;
+    }  
+.display_inline
+{
+    display:inline-block !important;
+    }
+    
+ .display_block /*not needed see line 2423*/
+ {
+     display:block;
+     width:auto !important;
+        }
+	
+  .tile-col /*needed with the inner block of selected div*/
+  {
+     width:100px;
+     color: #B3B1B1;
+     display: inline-block !important;
+      }     
+ .cellvalueGrid /*again used in tile view for the inner text if we give margin-left:7px; 1691 .cellvalue is not reqd*/
+ {
+     display: inline-block;
+     max-width:88%;
+     white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    vertical-align: middle;
+    
+     }     
+  .datatable_filterLabel
+  {
+      color:#fff;
+      }   
+ .taglistSearchInpt /*the search bar on lhs*/
+ {
+  /*  float: right;*/
+    height: 22px;
+    border:1px solid #DBDBDB;
+    border-radius:2px;
+    padding: 2px;
+    padding-left: 5px;
+    color:Black;
+    background:#fbfbfb;
+   /*  margin-top:-25px;
+     margin-right:10px;*/
+     
+     }
+     .taglistSearchInptAfter /*search bar on the lhs */
+     {
+    border:1px solid transparent;
+    width:86%;
+         
+         }    
+     
+ .ops_header_tagList
+ {
+    height: 40px;
+    padding: 10px;
+    padding-top: 15PX;
+    color: #959191;
+    margin-bottom: 15PX;
+     }    
+     
+ .filter_select_tagList
+ {
+    border-color: #DBDBDB;
+    border-radius: 2px;
+    width: 120px;
+    margin-left: 10px;
+     }    
+.tag_row
+{
+    border-bottom: 1px solid #eee;
+    /*height: 27px;*/
+    }
+.info_icon_after
+{
+    border: 1px #aaa;
+    border-style: inset;
+    background: #CFCFCF;
+    padding: 3px 3px 2px 3px;
+    border-radius: 3px;
+    color: #555454;
+    
+    }     
+.tag_config_list_expanded
+{
+    width: 100%;
+border: none;
+    height: 100%;
+}  
+    
+.cust_tag_prior /*The tag priority that comes on each tile in the lhs*/
+{
+    width: 18px !important;
+    text-align: center;
+
+    height: 18px !important;
+    background: #a897aa;
+    border-radius: 4px;
+    color: white;
+    margin-right: -1.5%;
+    font-family: 'Istok-web' sans-serif;
+    margin-left: 2%;
+    float: right;
+    margin-top: 5px;
+    font-size: 11px !important;
+    line-height: 16px;
+    vertical-align: middle;
+}     
+   .tag_name_gridView /*in the tile view the name of the tag that comes in bold on the top of each tile*/
+     {
+         /* float: right; */
+         color: #00bcef;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-bottom: 5px;
+        font-weight: bold;
+        padding-left: 5px;
+        width:auto !important;
+        margin-top:3px;
+         text-overflow: ellipsis;
+         max-width: 100%;
+}
+    
+    .tagName_listView
+    {
+        width:20%;
+        }
+    .tagDescp_listView
+    {
+      /*  width:22% !important;*/
+        height:20px;
+        }  
+       .tileColumn
+       {
+          /* display:none;*/
+           } 
+    .tile-row /*with the div used if attacch display:block; width :auto !important */
+    {
+        width:13%;
+        padding-left: 4px;
+        font-size: 12px !important;
+    }           
+    .tag_descp_gridView /*the tag desc in grid view in the tiles*/
+    {
+        color: #B3B1B1;
+        font-size: 12px;
+        margin-bottom: 5px;
+       
+        }     
+        
+    .prior_gridView {
+        /* margin-top: -97px; */
+        float: right;
+    } 	
+	.addTagTitle /*used for the title on the first page that is add tag*/
+	{
+	    color: #00bcef;
+	    margin-left:150px;
+	    display:none;
+	    position: relative;
+        top: 12px;
+        
+
+    }
+	    
+	.tag_header_right_btnset_after
+	{
+	    position: relative;
+
+	    } 
+	    
+.tag_header_right_btnset_div
+{
+    position: relative;
+    left: 26.6%;
+    /*top:-15px;*/
+    }
+    
+    .tagNameHolderSpan
+    {
+       color: #00bcef;
+       text-transform: uppercase;
+        }	    
+        
+  #tag_config_div .nav-tabs > .active > a, /*the active tab for rules and overrides when it is active turns blue*/
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus
+{
+    color: #00bcef !important;
+    border-color: transparent transparent #aaa transparent;
+    padding:3px;
+    font-weight:bold;
+    padding-left:0px;
+}   
+
+ #tag_config_div .nav-tabs > li > a, /*The inactive tab for rules and overrides*/
+.nav-tabs  > li > a:hover,
+.nav-tabs  > li > a:focus
+{
+    color: #C5C1C1;
+    background:none;
+    border-color: transparent transparent #aaa transparent;
+     padding:3px;
+      padding-left:0px;
+}   
+
+#tag_config_div > .nav-tabs > li > a:hover,
+#tag_config_div > .nav-tabs > li > a:focus {
+  border-top-color: transparent;
+  border-bottom-color: #ddd;
+   padding:3px;
+    padding-left:0px;
+  
+}
+
+ #tag_config_div .nav-tabs /*the span */
+ {
+     border-bottom:2px solid #bcbcbc !important;
+     font-weight:normal;
+     font-size: 14px;
+     font-family: Lato;
+     margin-top:5px;
+     }
+         
+ .config_form_span
+ {
+     display:none;
+     width: 50%;
+     vertical-align: middle;
+     line-height: 20px;
+     font-size: 12px;
+     font-family: 'Istok-Web' sans-serif;
+     text-overflow: ellipses !important;
+}         
+ 
+ .display_none
+ {
+     /*display:none !important;*/
+     opacity:0 !important;
+     } 
+     
+ #editTagDetails
+ {
+     display:none;
+     position: relative;
+     top: -15px;
+     display: block;
+     color: black !important;
+     }   
+ #gridViewSearchDiv
+ {
+    float: right;
+margin-right: -39px;
+
+    margin-top: -1px; 
+     
+    padding-top: 4px;
+    background:#fbfbfb;
+     }    
+     
+ .tag_config_form_header_after
+ {
+     border-bottom: 2px solid #eee;
+     }   
+     
+ .tag-expand-div-after
+ {
+      border-top: 1px solid #eee;
+     }      
+     
+ .ruleEditorUpdatePanel_edit /*not needed*/
+ {
+     background:#f9f9f9;
+     }   
+ .prior_align
+ {
+     text-align:center;
+     margin-left: 15px;
+     }    
+     
+ #tag_config_list_body2_div thead
+ {
+     color: #959191;
+      
+     }
+ /* #tag_config_list_body2_div table.dataTable thead th, table.dataTable thead td
+     {
+border-bottom: 2px solid #CFCFCF !important;
+
+         }*/
+         
+ #tag_config_list_body2_div .dataTables_scroll  table.dataTable thead th, table.dataTable thead td
+ {
+     padding: 10px 18px;
+border-bottom: 2px solid #cfcfcf;
+ }
+
+ #tag_config_list_body2_div .dataTables_wrapper.no-footer .dataTables_scrollBody {
+border-bottom: 1px solid #eee!important;
+}    
+
+.datatable_header
+{
+   
+    }
+.datatable_row_cust
+{
+    cursor:pointer;
+    color:black;
+    height: 40px;
+    }    
+ 
+
+.marginLeftTagConfigForm /*used for the div class present on the rhs of the form element*/
+{
+   /* margin-left:4%;*/
+      
+   margin-left: 2%;
+    
+   width: 48%;
+}    
+#tag_config_list_body2_div .dataTables_scrollBody
+{
+   height: auto !important;
+   /* max-height: 600px;*/
+}
+
+    
+#tag_config_list_body2_div #tag_config_list_body2_filter
+{
+    margin-top:5px;
+    }    
+    
+   .dataTable td {
+    text-overflow: ellipsis;
+	max-width:72px;
+	white-space: nowrap;
+	overflow: hidden;
+	
+   }
+   #tag_config_list_body2_div table.dataTable tbody td
+   {
+       border-bottom:1px solid #eee !important;
+       }
+ .datatableEdit
+ {
+     text-align:center;
+     padding-right:0px;
+     }
+ .datatableDel
+ {
+     text-align:center;
+     padding-left:0px;
+     }        
+     
+ .searchAftrToggle
+ {
+     float: none !important;
+    border-bottom: 1px solid #f9f9f9;
+     }
+ input#taglistSearchInpt:focus {
+outline: none !important;
+}
+
+.searchIconGridView
+{
+    vertical-align: text-top;
+margin-left: 2px;
+color: #aaa;
+background:#fbfbfb;
+    }
+ #rulebodyContainer .date-div
+ {
+     
+     width:195px;
+     }      
+     
+.cancelBtnPopUp /*not needed if float: none property is given with the element */
+ {color: rgb(141, 139, 139) !important;
+font-weight: BOLD !IMPORTANT;
+float:none !important;
+}       
+.deleteBtnPopUp /*the delete button on qtip*/
+{
+    background:#E2565F !important;
+float:none !important;
+    
+    }
+    
+ .gridviewDiv_after
+ {
+    margin: 1px !important;
+    /* width: 85% !important; */
+     }   
+       
+
+#tag_configuration_span{ /*the span containing Tag Configuration */
+      width: 100%;
+      display: inline-block;
+       }
+       
+ .ruleTextDiv
+ {    overflow: hidden;
+      display: flex;   
+      cursor:pointer;  
+     font-size: 12px;    font-family: 'Istok-Web' sans-serif;    margin-left: 2px;
+     padding-top:2px;
+     }      
+     
+ .ruleTextDivHeight
+ {
+      max-height: 50px;
+     }    
+     
+ .tag_config_collapsed
+ {
+     /*max-height: 465px;*/
+overflow: auto;
+overflow-x: hidden;
+     
+     }  
+ .tag_config_expanded {
+    /* max-height: 260px;*/
+overflow: auto;
+overflow-x: hidden;
+     
+     }    
+     
+ .cust_alert_mssngr
+ {
+     
+     border-radius: 0px;
+width: 98.5%;
+border: transparent;
+text-align: center;
+margin-left:7px;
+     }       
+     
+     
+ .leftAlignedElements label.tag_config_form_label { /*labels of left alligned elements*/
+width: 30%;
+vertical-align: middle;
+line-height: 22px;
+font-size: 12px !important;
+font-family: Lato !important;
+} 
+
+input[id^=tp-tag-default-value]
+{
+    width:86% !important;
+    }
+.leftAlignedElements /*the class of the div elements  on lhs of the form*/
+{
+    width:48%;
+    }
+    
+.addTagTitleDiv
+{
+    display: inline;
+    margin-left: 54%;
+    width: 12%;
+    
+    }  
+.add-rule-icon /*add rule button*/
+{    
+    background-color: #fff; 
+    margin-left: 91.5%;
+    position: relative;
+    top: -25px;
+    }  
+    
+.tag_config_content_body_after
+{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    
+    }
+         
+.red
+{
+    color:Red !important;
+    }  
+    
+    
+    .red :hover
+    {
+    color:Red !important;
+        
+        }
+              
+i.fa.fa-th-large {
+font-size: large;
+}
+
+i.fa.fa-th-list {
+font-size: initial;
+}
+
+#tagTypeDiv
+{
+    width: 17.5%;
+padding: 9px;
+border: 1px solid rgb(204, 204, 204);
+position: absolute;
+    top: 32.2%;
+    left: 35%;
+    padding-left: 17px;
+    z-index:10;
+background:white;
+-webkit-box-shadow: 1px 2px 6px rgba(0,0,0,.3);
+    }
+    
+#tagTypeDiv label.tag_config_form_label {
+width: 32%;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+vertical-align:middle;
+}    
+
+#tagTypeDiv .config_form_elem { /*used*/
+/*margin-left: -5px;*/
+height:29px;
+
+}
+    
+#tPrecision
+{
+    width:100px;
+    }
+   
+    
+ #tag_config_list pre {
+overflow-x: hidden;
+}   
+
+
+/*..........................rule form css ................................................*/
+.custElemRuleName /*for the rule name on rule form*/
+{    margin-left : 6px !important;
+     width: 28%; 
+     margin-right: 10%;
+    font-size: 12px;    font-family: Lato;}
+    
+.custElemRuleDate /*rule date*/
+{
+    width: 240px !important;
+     margin-left: 20%;
+    font-size: 12px;
+    font-family: Lato;
+}    
+    
+.custElemRulePrior /*rule priority*/
+{
+    width: auto !important;
+    margin-left:3%;
+    font-size: 12px;
+    font-family: Lato;
+}
+    
+.custElemRuleApplicable
+{
+    width:268px !important;
+    margin-left: 14%;
+    }        
+.custElemRulePriorS
+{
+    width:auto !important;
+    margin-left: 25px;
+    } 
+    .modal-backdrop {
+background-color: white;
+
+}
+
+#tagTypeEditBtn
+{
+    display:none;
+    }
+div#tagTypeEditBtn {
+font-size: initial;
+float: none;
+position: relative;
+left: -45px;
+top: -2px;
+}
+
+.tag_expand_div_content
+{
+    width:100%;
+    margin-top: 15px;
+    }
+
+
+       
+       
+       
+       
+       
+       /*************************************************************Scroller***************************************************/
+.tag_config_div ::-webkit-scrollbar-track /**RAIL**/
+{
+    -webkit-box-shadow: inset 0 0 0 rgba(0,0,0,0);
+    background-color: #FFF;
+    border-radius:0px;
+}
+
+
+.tag_config_div ::-webkit-scrollbar-track:hover /**RAIL**/
+{ 
+    background-color: #F5F5F5;
+}
+
+.tag_config_div ::-webkit-scrollbar
+{
+    background-color: #fff;
+}
+
+.tag_config_div ::-webkit-scrollbar-thumb /**THE ONE THAT ROLLS**/
+{
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+    background-color: #FFF;
+    border-radius:0px;
+}
+
+.tag_config_div ::-webkit-scrollbar-thumb:hover /**THE ONE THAT ROLLS**/
+{    
+    opacity:0.4;
+    background-color: rgb(160,159,159);
+}
+
+.rightContentDiv /*the div that contains entire rule form*/
+{
+    float:right;
+    width: 78%;
+    overflow:auto;
+    height:inherit;
+    padding-right:10px;
+    overflow-x:hidden;
+    padding-left: 12px;
+    /* border-left: 1px solid grey; */
+}
+
+.units-select,.negative-select
+{
+    width:130px;
+    }
+    
+.tag_config_list_body /*the class of the div that contains tile view */
+{
+    color: Black;
+    padding-bottom: 5px !important;
+    overflow: auto;
+    overflow-x:hidden;
+    float: right;
+    /* margin-top:5px; */
+    width: 100%;} 
+    
+#tag_config_footer_btnset .custom_runTagBtn
+{
+    margin-right:-20px;
+    }      
+ span.tag-detail-colon {
+font-weight: bold;
+width: 10%;
+text-align: center;
+}   
+ 
+.tagNameHolderSpan_div {
+    /*display: inline;*/
+    max-width: 12%;
+    width:12%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 55%;
+    position:relative;
+    top:-5px;
+    cursor:default;
+}
+ .datatableDefVal
+ {
+     padding-left:30px !important;
+     }
+     
+.list-group /*rule editor div*/
+{
+    margin-top:-25px;
+    }     
+     
+.tag_configList_content
+{
+    background: white;
+    height: 95%;
+    /*width: 21%;*/
+}
+    
+.tag_config_heading
+{
+    display:inline; 
+    }    
+    
+.tag_config_heading_span /*used for heading on top*/
+{
+    margin-right: 10px;
+    color: #a5a3a3;
+    position: relative;
+    top: 0px;
+    }    
+    
+.tag_header_right_btnset_div /*used for the div that contains add tag and run*/
+{
+     display:inline;
+     position: absolute;
+     left: 85%;
+     top:8px;
+     }    
+    
+/* date control custom css for plugin */    
+    
+.show-calendar {
+left: 496px ;
+}    
+div#runTagsDateControl_dateInfo.show-calendar
+{
+left: 751px !important ;
+top:323px ;
+    }
+    
+div#runTagsDateControl_dateInfo.opensleft:after, div[id^=editRuleFormDateControl_].opensleft:after, div[id^=ruleFormDateControl_].opensleft:after
+{
+content: initial !important;
+    } 
+div#runTagsDateControl_dateInfo.opensleft:before, div[id^=editRuleFormDateControl_].opensleft:before, div[id^=ruleFormDateControl_].opensleft:before
+{
+content: initial !important;
+
+    }    
+    
+ div#runTagsDateControl_dateInfo.opensleft
+ {
+/* top:323px !important; */
+z-index: 999999 !important;     
+     }   
+   div[id^=editRuleFormDateControl_].show-calendar
+   {
+       left: 553px !important;
+       
+       }   
+div[id^=editRuleFormDateControl_].opensleft
+   {
+       left: 1037px ;
+       }     
+/* date control custom css for plugin  end*/ 
+.custom-dropdown
+{
+    width: 85px;
+    margin: 0 auto;
+    border: 1px solid white;
+    /*border-bottom: 1px solid #E2E2E2;*/
+    background: white;
+    border-radius: 2px;
+    color: #666;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-out;
+    background: url(images/icons/arrow_ivp.png) no-repeat right white;
+    -webkit-appearance: none;
+    }       
+ 
+ /*.custom-dropdown option
+{
+    color: #666;
+    padding:15px !important;  
+    line-height:14px;
+}
+
+     */
+     
+     
+ #addTagElemDiv .ui-widget-content /*not needed*/
+ {
+     border:1px solid #e2e2e2;
+     height:21px;
+     }
+     
+span.err-validation {
+color: #D59EA1;
+display:none;
+}     
+
+.err-input
+{
+    border-bottom: 2px solid #D59EA1 !important;
+    }
+    
+.valid-input
+{
+    border-bottom: 2px solid #C1D3A9;
+    }
+    
+ .qtip-light-right {
+background-color: white;
+border-color: #E2E2E2;
+color:#53BFB1; /*#454545    #43d9c6*/
+box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+margin-left: -7px;
+}
+
+.qtip-light-left {
+background-color: white;
+border-color: #E2E2E2;
+color:#53BFB1; /*#454545    #43d9c6*/
+box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+margin-left: 7px;
+}
+
+
+.modal-open ul.select2-results {
+margin: 0px !important;
+padding: 0px!important;
+margin-top: 5px !important;
+margin-bottom: 5px !important;
+}
+
+.nameHolderForDelDialog
+{
+    text-align:left; 
+   display: -webkit-box; 
+    
+       
+    width: 139px;
+    padding-left: 3px;
+    text-overflow: ellipsis;
+}
+.ui-widget-content /*needed with the spinner associated with the priority.*/
+{
+    background:white !important; 
+    width: 68%;
+}
+    
+#ruleFormDateControl_57_dateInfo.opensleft /* for demo purpose - remove ltr*/
+{
+    left:563px !important;
+    }  
+    
+    
+    
+    
+.tag_config_SelectedDivArrow
+{
+    margin-top: 55px;
+border-left: 15px solid white;
+border-bottom: 10px solid transparent;
+border-top: 10px solid rgba(220, 41, 134, 0);
+width: 0px;
+height: 0px;
+    }  
+    
+    
+    
+.SearchBoxHidden .taglistSearchInpt 
+{
+     visibility:hidden;
+    width:1px;
+}
+
+.SearchBoxVisible .taglistSearchInpt 
+{
+    width:150px;
+   height:20px;    
+/*line-height:22px;*/
+float:left;
+vertical-align:middle;
+margin-top:1px;
+border:0px;
+ border-bottom:1px solid #DBDDE0;
+ background-color:#F6F6F6;
+ visibility:visible;
+    }
+    
+   .SearchBoxVisible .SearchIcon 
+    {margin-left: 2px;
+/* padding-left: 10px; */
+/* z-index: 100000; */
+position: absolute;
+margin-top: 4px;}
+
+.tag-detail-colon { /*not needed*/
+    float: left;
+}
+
+label.tag_config_form_label { /*applied on all the labels*/
+    width: 35%;
+    font-weight:bold;/*can be used here instead of line 396*/
+    float: left;
+    line-height: 22px;
+    vertical-align: middle;
+    font-size: 12px !important;
+    font-family: Lato;
+}
+
+.tag_config_inputs {
+    width: 50%;
+    float: left;
+    text-indent: 3px;
+    opacity: 10;
+}
+
+.selected_Inner_Div {
+    border-radius: 3px !important;
+    border: 1px solid #efefef;
+    box-shadow: 0px 0px 0px;
+}
+
+div#tag_config_list_container {
+    height: 100%;
+}
+
+
+.qtip-shadow .qtip-tip
+{
+    display:none !important;
+    }
+    
+    .col_delete_selected
+    {
+        color:Black !important;
+        }
+        
+        
+        .col_rule_deleteSelected
+        {
+            color:Black !important;
+            }
+            
+            .col_edit_selected /*when fa icons are selected they are turned black*/
+            {
+                color:Black !important;
+                }
+                
+                .Inner_Selected_Tile
+                {
+    background-color: #f7f7f7;
+                   /* padding:5px;
+                    background-color: #f9f9f9;
+                    border:5px solid #fbfbfb;*/
+                    }
+                    
+              .InnerTile { /*for the data inside the selected div that is the tile view*/
+    /*background-color: #f9f9f9;
+    /* padding: 5px; */
+   
+    height: 100%;
+    /* padding: 0px 6px; */
+    padding-right: 7px;
+    /* background-color: #f7f7f7; */
+    position: relative;
+}
+
+
+.EmptyRefAttributeDiv {
+    height: 35px;
+}
+
+.tag_tile_arrow
+{
+    width: 20px;
+height: 20px;
+border-top-width: 11px;
+border-top-style: solid;
+border-top-color: transparent;
+border-left-width: 8px;
+border-left-style: solid;
+border-left-color: #e1e1e1;
+border-bottom-width: 9px;
+border-bottom-style: solid;
+border-bottom-color: transparent;
+margin-left: 2px;
+margin-top: 45px;
+    }
+    
+    .edit-del-div-onTagExpand_OnePresent
+    {
+        margin-top: -45px !important;
+        }
+        
+        .EmptyTaskDesc {
+    height: 35px; /*change to 20px*/
+}
+
+.onSaveRulePopup { /*when a new rule is added the div that appears on the screen*/
+    background-color: white;
+    position: absolute;  left: 52%;  top: 45%;  z-index: 99999999;  padding: 10px;  
+    font-family: Lato;
+    opacity: 1 !important;
+    /* border: 1px solid grey; */
+    box-shadow: 0px 0px 15px rgb(225, 216, 216);
+    font-size: 12px;
+}
+
+.WarningOnEditPopUp {
+    background-color: white;  position: absolute;  left: 52%;  top: 45%;  z-index: 99999999;  padding: 10px;  opacity: 1 !important;  border: 1px solid grey;
+}
+
+.Save_Discard_Warning_Dialog
+{   top: 300px;
+    left: 700px;
+    overflow: hidden;
+    
+    }
+    
+    .Save_Discard_Warning_Dialog .modal-content { /*not needed content class that is opened on opening a rule in edit mode*/
+    height: 100px;
+    width: 270px;
+}
+
+.Save_Discard_Warning_Dialog .modal-body { /*save and discard buttons if a rule is opened in edit mode and prev rule not saved*/
+    height: 35px;
+}
+
+button.btn.Save_EditRule_Btn {
+    height: 22px;
+    font-size: 12px;
+    line-height: 22px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px;
+    padding: 0px 15px;
+}
+
+button.btn.Cancel_EditRule_Btn {
+    height: 22px;  font-size: 12px;  line-height: 22px;  vertical-align: middle;  text-align: center;  margin: 0px;  padding: 0px 15px;
+}
+
+.Save_Discard_Warning_Dialog .modal-footer {
+    padding: 10px;
+}
+
+.delPopUpTagNameSpan {
+text-align: center;
+font-family: Lato;
+height: 23px;
+font-size: 13px;
+text-overflow: ellipsis;
+overflow: hidden;
+}
+
+.AddedRuleText /*the div inside the outer div that contains entire msg eg "abc" has been added*/
+{
+    padding-bottom: 10px; text-align: -webkit-left; font-size: medium; color: #171717;
+    padding-left: 5px;
+}
+
+.ruleUpdateMessage {
+    background-color: rgb(245, 245, 245);
+    /* margin-top: -33px; */
+    color: #04a4cf;
+    /* margin-bottom: 10px; */
+    position: relative;
+    margin-left: 35%;
+    text-align: center;
+    width: 35%;
+    padding-left: 7px;
+    top: -48px;
+    /* box-shadow: 0px -6px 23px rgb(235, 234, 234); */
+    padding-top: 3px;
+    font-family: Lato;
+    font-size: 13px;
+}

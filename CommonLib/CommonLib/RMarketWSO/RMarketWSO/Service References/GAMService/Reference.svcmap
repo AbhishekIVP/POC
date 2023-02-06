@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4d237c67-356f-473c-a09c-d2bea4c6019e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://datadownload.wsostage.com/GlobalAssetManagement/2012/05/GAM.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GAM.xsd" MetadataType="Schema" ID="0e95873b-ea67-405a-9edd-5eda7c976ba1" SourceId="1" SourceUrl="https://datadownload.wsostage.com/GlobalAssetManagement/2012/05/GAM.svc?xsd=xsd1" />
+    <MetadataFile FileName="GAM1.xsd" MetadataType="Schema" ID="699dcdcd-8092-4fcb-87a4-3f581cc414f0" SourceId="1" SourceUrl="https://datadownload.wsostage.com/GlobalAssetManagement/2012/05/GAM.svc?xsd=xsd2" />
+    <MetadataFile FileName="GAM2.xsd" MetadataType="Schema" ID="82b41354-7e73-4017-87fe-7fd64219ec03" SourceId="1" SourceUrl="https://datadownload.wsostage.com/GlobalAssetManagement/2012/05/GAM.svc?xsd=xsd0" />
+    <MetadataFile FileName="GamService.wsdl" MetadataType="Wsdl" ID="c4133df4-d0a5-49d0-9f80-f96574d69d3f" SourceId="1" SourceUrl="https://datadownload.wsostage.com/GlobalAssetManagement/2012/05/GAM.svc" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

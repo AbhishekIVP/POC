@@ -1,0 +1,119 @@
+﻿
+        body {
+            font-family: Arial;
+        }
+
+        #SRCContainer{
+            width:900px;
+            margin-left:auto;
+            margin-top:40px;
+            margin-right:auto;
+            position:relative;
+            overflow-y:auto;
+            overflow-x:auto;
+            font-size:small;
+        }
+
+        .SRCColumn{
+           
+            display:inline-block;
+            color:grey;
+            /*padding:10px 30px;*/
+            width: 300px;
+            height: 10px;
+            font-weight:bold;
+            
+        }
+
+        .SRCRow{
+            display:block;
+            /*width:900px;*/
+          }
+
+        .SRCRow .col {
+        display: inline-block;
+        padding: 5px 30px;
+        font-size:small;
+        width:70px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color:gray;  
+        }
+
+        .tag{
+        width:275px;
+        text-align:center;
+        
+        }
+        .tagcell{
+        background-color:gainsboro;
+        border-radius:40px;
+        width:100px;
+        margin-top:5px;
+        text-align:center;
+        display:inline-block;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+     
+        }
+        .config{
+        width:20px;
+        padding-left:10px;
+        padding-right:25px;
+        text-align:center;
+        }
+       
+          .delete{
+        width:45px;
+         padding-right:5px;
+        padding-left:140px;
+        text-align:center;
+        /*margin-left:150px;*/
+        }
+    
+        .bordered{
+            border-bottom: 1px solid grey;
+        }
+
+        .AddBut{
+            float:right;
+            background-color:darkcyan;
+            border:none;
+            color:white;
+            text-align:center;
+            font-size:small;
+            padding:10px 10px;
+            border-radius:4px;
+        }
+        .search{
+            border:none;
+            border-bottom:1px solid grey;
+            padding-left:10px;
+        }
+        #searchicon{
+            padding-left:20px;
+        }
+       
+        .optionbut{
+            background-color:darkcyan;
+            border:none;
+            color: white;
+            text-align:center;
+            font-size:small;
+            padding:10px 10px;
+            border-radius:4px;
+        }
+        
+        .SRCRow:hover #hoverbuts{
+           visibility:visible;
+        }
+        #hoverbuts{
+              visibility:hidden;
+                 width:145px;
+                 
+             }
+       
+       
+

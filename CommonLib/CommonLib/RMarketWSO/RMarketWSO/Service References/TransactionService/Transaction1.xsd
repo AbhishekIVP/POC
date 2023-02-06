@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" elementFormDefault="qualified" targetNamespace="http://markit.com/Markit/Transaction/2012/06" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://datadownload.wsostage.com/GlobalTransaction/2012/06/Transaction.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:element name="GetTransactionsByFacilityRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="WSODataFacilityId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTransactionsByFacilityResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+        <xs:element xmlns:q1="http://markit.com/Markit/Transaction/2012/06" minOccurs="0" name="Results" nillable="true" type="q1:TransactionResults" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="TransactionResults">
+    <xs:sequence>
+      <xs:element name="GroupId" nillable="true" type="ser:guid" />
+      <xs:element xmlns:q2="http://markit.com/Markit/Transaction/2012/06" name="Transactions" nillable="true" type="q2:ArrayOfTransaction" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q3="http://markit.com/Markit/Transaction/2012/06" name="TransactionResults" nillable="true" type="q3:TransactionResults" />
+  <xs:complexType name="ArrayOfTransaction">
+    <xs:sequence>
+      <xs:element xmlns:q4="http://markit.com/Markit/Transaction/2012/06" minOccurs="0" maxOccurs="unbounded" name="Transaction" nillable="true" type="q4:Transaction" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q5="http://markit.com/Markit/Transaction/2012/06" name="ArrayOfTransaction" nillable="true" type="q5:ArrayOfTransaction" />
+  <xs:complexType name="Transaction">
+    <xs:sequence>
+      <xs:element name="Id" type="xs:int" />
+      <xs:element name="Type" nillable="true" type="xs:string" />
+      <xs:element name="Content" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q6="http://markit.com/Markit/Transaction/2012/06" name="Transaction" nillable="true" type="q6:Transaction" />
+  <xs:complexType name="GeneralServiceFault">
+    <xs:sequence>
+      <xs:element name="id" type="ser:guid" />
+      <xs:element name="message" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q7="http://markit.com/Markit/Transaction/2012/06" name="GeneralServiceFault" nillable="true" type="q7:GeneralServiceFault" />
+  <xs:element name="ConfirmTransactionsRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GroupId" type="ser:guid" />
+        <xs:element minOccurs="0" name="WSODataFacilityId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConfirmTransactionsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RejectTransactionsRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GroupId" type="ser:guid" />
+        <xs:element minOccurs="0" name="WSODataFacilityId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RejectTransactionsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SetDownloadStartDateRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="WSODataFacilityId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SetDownloadStartDateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

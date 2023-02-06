@@ -1,0 +1,164 @@
+.iago-rightFilter
+{
+    /*padding: 5px;*/
+}
+.iago-rightFilter .iago-rightFilter-information
+{
+    height: 95%;
+    width: 250px;
+    background: #222;
+    /*opacity: .9;*/
+    opacity: 1;
+    position: fixed;
+    z-index: 1001;
+    top: 28px;
+    right: 0px;
+    display: none;
+    padding: 10px;
+    overflow:auto;
+    font-family: 'istok web';
+    text-align: left;
+}
+#pageHeaderCustomDiv .iago-rightFilter-information{
+    top: 28px;
+    background-color: #f6f6f6;
+    color: #777777;
+    box-shadow: 2px 3px 9px 3px rgb(206, 206, 206);
+}
+#pageHeaderCustomDiv .filterWidgetTitle {
+    background-color: #f6f6f6;
+    color: inherit;
+    padding-left: 2px;
+    border-bottom: 1px solid;
+}
+
+#pageHeaderCustomDiv .iago-rightFilter-information .custom-div {
+    border: none;
+    padding: 0px;
+}
+#pageHeaderCustomDiv .iago-rightFilter-information .custom-div div [data-bind="foreach: CheckboxInfo"] {
+  margin-top: -10px;
+}
+#pageHeaderCustomDiv .iago-rightFilter-information.iago-right {
+    top: 79px;
+    box-shadow: 2px 3px 9px 3px rgb(179, 168, 168);
+}
+#pageHeaderCustomDiv .iago-rightFilter-information.iago-rightFilterShift {
+  top: 78px;
+  box-shadow: 2px 3px 9px 3px rgb(179, 168, 168);
+}
+.filterWidgetTitle
+{
+    font-weight: normal;
+    color: white;
+    background-color: #000;
+    padding: 5px;
+    /* padding-left: 6px; */
+    margin-top: 10px;
+    opacity: 1;
+    cursor: pointer;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size:12px;
+}
+
+.filterWidgetTitle > .expand-filter:after
+{
+    font-family: FontAwesome;
+    content: "\f107";
+    font-weight: bold;
+    margin-right: 5px;
+    float: left;
+    cursor: pointer;
+}
+
+.filterWidgetTitle > .collapsed-filter:after
+{
+    font-family: FontAwesome;
+    content: "\f105";
+    font-weight: bold;
+    margin-right: 5px !important;
+    float: right;
+    cursor: pointer;
+}
+.expand-filter
+{
+    cursor: pointer;
+}
+.iago-rightFilter-information
+{
+    color: White;
+}
+
+.custom-filter
+{
+    color:#93e1f5;
+    /*color: #C6C5C5;*/
+    margin-top: 6px;
+}
+
+.custom-div
+{
+    padding-left: 10px;
+    border: 1px solid #000;
+    border-top: 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size:11px;
+}
+
+label
+{
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.custom-anchor:after
+{
+    color: white;
+    font-family: FontAwesome;
+    content: "\f127";
+    right: 50px !important;
+    top: 55px;
+    z-index: 99999;
+    height: 12px !important;
+    cursor: pointer;
+}
+.right-menu-pin
+{
+    opacity: 1 !important;
+    right: 17px !important;
+}
+
+.toggle-pin-icon:after
+{
+    font-family: FontAwesome;
+    content: "\f0c1";
+    color: White;
+    z-index: 99999;
+    cursor: pointer;
+}
+.toggle-pin-icon, .custom-anchor
+{
+    cursor: pointer;
+}
+
+.toggle-filter-icon > .rightFilterDiv > i.fa-filter:before
+{
+    color:#00bff0;
+    /*color:#47a3da;*/
+}
+.iago-rightFilter > .rightFilterDiv{
+    padding:10px 7px;
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+.toggle-filter-icon.iago-rightFilter > div{
+    opacity: 1 !important;
+}
+.filterHeader{
+    font-weight: bold;
+    font-size: 14px;    
+    margin-top:-7px !important;
+    font-family: LATO;
+}

@@ -1,0 +1,178 @@
+﻿.statusCls {
+    cursor: pointer;
+    color: #43d9c6;
+}
+
+.filterIconCls {
+    cursor: pointer;
+    padding: 0px 8px;
+    background: none;
+    background: url(images/filter.png) center center no-repeat;
+    height: 25px;
+    float: right;
+}
+
+    .filterIconCls:hover {
+        background: url(images/Filter_hover.png) center center no-repeat;
+    }
+
+.contentDivClass {
+    margin: 0px auto;
+    width: 1024px;
+}
+
+.searchInput {
+    float: right;
+    border: none;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.filterSearchInput {
+    border: none;
+    margin-right: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 4px;
+    height: 20px;
+}
+
+.tableUpperHeader {
+    height: 35px;
+    font-size: 13px;
+    background-color: #eaeff5;
+    width: 1024px;
+    margin: 0 auto;
+    border-top: 1px solid #E0E4E7;
+}
+
+tbody {
+    display: block;
+    overflow: auto;
+}
+
+    thead, tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed; /* even columns width , fix width of table too*/
+    }
+
+.tableTdCls {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 8px;
+}
+
+.tableCls {
+    border-spacing: 1px 10px;
+    border-collapse: collapse;
+}
+
+.tableHeaderCss {
+    color: #8a8787;
+    background-color: #dae4ee;
+    width: 180px;
+    color: #8a8787;
+    padding-left: 7px;
+    border-right: 1px dashed #EFEFEF;
+    border-top: 0px;
+    height: 20px;
+    vertical-align: middle;
+    overflow: hidden;
+    border-bottom: 1px solid #E0E0E0;
+    cursor: pointer;
+}
+
+.tableRows {
+    background-color: #eff7ff;
+    margin-bottom: 8px;
+    height: 20px;
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.mostly-customized-scrollbar::-webkit-scrollbar {
+    overflow-y: auto;
+    width: 6px;
+    height: 6px;
+    border-radius: 7px;
+    background: #cccccc;
+    cursor: pointer;
+}
+
+.mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+    background: #999;
+}
+
+.filterCategoryChckBoxRowCss {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.filterCategoryRowCss {
+    display: inline-block;
+    margin-top: 8px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+}
+
+.filterSearchDivCss {
+    border-bottom: 1px solid #aaa;
+    width: 85%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.filterChkBxDivCss {
+    margin-left: 15px;
+}
+
+.filterMainDivOptionsCss {
+    background: white;
+}
+
+.filterDivOptionsCss {
+    display: inline-block;
+    width: 26px;
+    font-size: 17px;
+    text-align: center;
+    color: #aaa;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.alertBG {
+    background-color: #000;
+    filter: alpha(opacity=50);
+    opacity: 0.1;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    vertical-align: top;
+}
+
+.RefreshCls {
+    cursor: pointer;
+    border-width: 0px;
+    color: #43d9c6;
+    padding: 0px;
+    /*border-bottom: 1px solid #43d9c6 !important;*/
+    margin: 0px 3px 0px 3px;
+}
+
+.poolCls {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0px 3px 0px 3px;
+}
+
+.poolActionCls {
+    display: inline-block;
+    cursor: pointer;
+    color: #43d9c6;
+    margin: 0px 3px 0px 3px;
+}

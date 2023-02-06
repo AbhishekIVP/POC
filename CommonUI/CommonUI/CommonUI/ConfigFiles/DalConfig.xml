@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DBSettings>
+  <providers>
+    <provider>
+      <db>SQL</db>
+      <classname>com.ivp.rad.dal.RSQLDBProvider</classname>
+      <datefomat>yyyyMMdd HH:mm:ss</datefomat>
+    </provider>
+    <provider>
+      <db>ORACLE</db>
+      <classname>com.ivp.rad.dal.ROracleDBProvider</classname>
+      <datefomat>dd-mmm-yy</datefomat>
+    </provider>
+  </providers>
+  <connections>
+    <connection>
+      <id>radDB</id>
+      <db>SQL</db>
+      <connstring>Data Source=192.168.0.78\dev12;Initial Catalog=IVPRAD;User ID=sa;password=sa@12345678;Min Pool Size=10;Max Pool Size=100;Connect Timeout=600;</connstring>
+    </connection>
+    <connection>
+      <id>SecMDB</id>
+      <db>SQL</db>
+      <connstring>Data Source=192.168.0.78\dev12;Initial Catalog=IVPSecMaster;User ID=sa;password=sa@12345678;Min Pool Size=10;Max Pool Size=100;Connect Timeout=600;</connstring>
+    </connection>
+    <connection>
+      <id>SecMArchiveDB</id>
+      <db>SQL</db>
+      <connstring>Data Source=192.168.0.78\dev12;Initial Catalog=IVPSecMaster_Archive;User ID=sa;password=sa@12345678;Min Pool Size=10;Max Pool Size=100;Connect Timeout=600;</connstring>
+    </connection>
+    <connection>
+      <id>SecMVendorDB</id>
+      <db>SQL</db>
+      <connstring>Data Source=192.168.0.78\dev12;Initial Catalog=IVPSecMasterVendor;User ID=sa;password=sa@12345678;Min Pool Size=10;Max Pool Size=100;Connect Timeout=600;</connstring>
+    </connection>
+    <connection>
+      <id>SecMVendorArchiveDB</id>
+      <db>SQL</db>
+      <connstring>Data Source=192.168.0.78\dev12;Initial Catalog=IVPSecMasterVendor_Archive;User ID=sa;password=sa@12345678;Min Pool Size=10;Max Pool Size=100;Connect Timeout=600;</connstring>
+    </connection>
+    <connection>
+      <id>CorpActDB</id>
+      <db>SQL</db>
+      <connstring>Data Source=192.168.0.78\dev12;Initial Catalog=IVPCorpAction;User ID=sa;password=sa@12345678;Min Pool Size=10;Max Pool Size=100;Connect Timeout=600;</connstring>
+    </connection>
+    <connection>
+      <id>CorpActArchiveDB</id>
+      <db>SQL</db>
+      <connstring>Data Source=192.168.0.78\dev12;Initial Catalog=IVPCorpAction_Archive;User ID=sa;password=sa@12345678;Min Pool Size=10;Max Pool Size=100;Connect Timeout=600;</connstring>
+    </connection>
+    <connection>
+      <id>CorpActVendorDB</id>
+      <db>SQL</db>
+      <connstring>Data Source=192.168.0.78\dev12;Initial Catalog=IVPCorpActionVendor;User ID=sa;password=sa@12345678;Min Pool Size=10;Max Pool Size=100;Connect Timeout=600;</connstring>
+    </connection>
+    <connection>
+      <id>CorpActVendorArchiveDB</id>
+      <db>SQL</db>
+      <connstring>Data Source=192.168.0.78\dev12;Initial Catalog=IVPCorpActionVendor_Archive;User ID=sa;password=sa@12345678;Min Pool Size=10;Max Pool Size=100;Connect Timeout=600;</connstring>
+    </connection>
+    <connection>
+      <id>orcl</id>
+      <db>ORACLE</db>
+      <connstring>Data Source=orcl;Persist Security Info=True;User ID=scott;password=tiger;</connstring>
+    </connection>
+    <connection>
+      <id>refMDBVendor</id>
+      <db>SQL</db>
+      <connstring>Data Source=192.168.0.78\dev12;Initial Catalog=IVPRefMasterVendor;User ID=sa;password=sa@12345678;Min Pool Size=10;Max Pool Size=100;Connect Timeout=600;</connstring>
+    </connection>
+    <connection>
+      <id>refMDBVendor_Archive</id>
+      <db>SQL</db>
+      <connstring>Data Source=192.168.0.78\dev12;Initial Catalog=IVPRefMasterVendor_Archive;User ID=sa;password=sa@12345678;Min Pool Size=10;Max Pool Size=100;Connect Timeout=600;</connstring>
+    </connection>
+    <connection>
+      <id>refMDB</id>
+      <db>SQL</db>
+      <connstring>Data Source=192.168.0.78\dev12;Initial Catalog=IVPRefMaster;User ID=sa;password=sa@12345678;Min Pool Size=10;Max Pool Size=100;Connect Timeout=600;</connstring>
+    </connection>
+    <connection>
+      <id>refMDB_Archive</id>
+      <db>SQL</db>
+      <connstring>Data Source=192.168.0.78\dev12;Initial Catalog=IVPRefMaster_Archive;User ID=sa;password=sa@12345678;Min Pool Size=10;Max Pool Size=100;Connect Timeout=600;</connstring>
+    </connection>
+    <connection>
+      <id>aspStateDB</id>
+      <db>SQL</db>
+      <connstring>Data Source=192.168.0.78\dev12;Initial Catalog=ASPSTATE;User ID=sa;password=sa@12345678;Min Pool Size=10;Max Pool Size=100;Connect Timeout=600;</connstring>
+    </connection>
+    <connection>
+      <id>CTMDB</id>
+      <db>SQL</db>
+      <connstring>Data Source=192.168.0.78\dev12;Initial Catalog=IVPSRMTaskManager;User ID=sa;password=sa@12345678;Min Pool Size=10;Max Pool Size=1000;Connect Timeout=600;</connstring>
+    </connection>
+  </connections>
+  <nhibernate>
+    <settings>
+      <db>SQL</db>
+      <assembly>Sql.Class.dll</assembly>
+      <namespace>com.ivp.rad.data</namespace>
+      <dialect>NHibernate.Dialect.MsSql2000Dialect</dialect>
+    </settings>
+    <settings>
+      <db>ORACLE</db>
+      <assembly>nitin.Class.dll</assembly>
+      <namespace>com.ivp.rad.data</namespace>
+      <dialect>NHibernate.Dialect.OracleDialect</dialect>
+    </settings>
+  </nhibernate>
+  <queryoperators>
+    <selecter>com.ivp.rad.dal.ADOOperations.RADOSelector</selecter>
+    <inserter>com.ivp.rad.dal.ADOOperations.RADOImpl</inserter>
+    <updater>com.ivp.rad.dal.ADOOperations.RADOImpl</updater>
+    <deleter>com.ivp.rad.dal.ADOOperations.RADOImpl</deleter>
+  </queryoperators>
+  <configsettings>
+    <minpool>0</minpool>
+    <maxpool>50</maxpool>
+    <idletimeout>600</idletimeout>
+    <timerinterval>10</timerinterval>
+    <querymanagerconnectionid>local</querymanagerconnectionid>
+  </configsettings>
+</DBSettings>

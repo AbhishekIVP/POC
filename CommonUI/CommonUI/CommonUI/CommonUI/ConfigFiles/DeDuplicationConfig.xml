@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<attributes_to_show>
+  <attribute display_name="Security Id" showas="Security Id"/>
+  <attribute display_name="Security Name" showas="Security Name"/>
+  <attribute display_name="Security Type" showas="Type"/>
+  <attribute display_name="Bloomberg Ticker" showas="Bloomberg Ticker"/>
+</attributes_to_show>

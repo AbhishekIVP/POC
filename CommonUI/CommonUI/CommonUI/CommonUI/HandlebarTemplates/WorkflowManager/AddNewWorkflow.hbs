@@ -1,0 +1,34 @@
+﻿{{#each css}}
+<link rel="stylesheet" type="text/css" href="{{css}}" />
+{{/each}}
+
+<div class="workflow-back-icon">
+    <i class="fa fa-arrow-circle-left"></i>
+</div>
+
+<div class="add-new-workflow-form">
+    
+    <div class="col-sm-12">
+        <p class="newWorkflowErroMessage"></p>
+        <div class="new-workflow-title">ADD NEW WORKFLOW</div>
+
+        <input id="newWorkflowName" class="new-workflow-text-box" placeholder="Enter WorkFlow Name">
+
+        <div class="new-workflow-group-control">
+            <div class="new-workflow-label">Module</div>
+            <div id="newWorkflowModuleDropdown" class="new-workflow-dropdown"></div>
+        </div>
+
+        <div class="new-workflow-group-control">
+            <div class="new-workflow-label">Action Type</div>            
+            <div id="newWorkflowActionTypeDropdown" class="new-workflow-dropdown"></div>
+        </div>
+
+        <div id="newWorkflowSubmit" class="new-workflow-button" data-bind="click: onClickCreateWorkflow">ADD</div>
+    </div>
+</div>
+
+
+{{#each scripts}}
+<script src="{{script}}"></script>
+{{/each}}

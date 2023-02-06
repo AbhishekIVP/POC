@@ -1,0 +1,166 @@
+.ajax__tab_header
+{
+    color: #7d7d7d;
+    border-bottom: 1px solid #f0f0f0;
+}
+.ajax__tab_tab
+{
+    height: 24px;
+    line-height: 31px;
+    margin: 0px;
+    font-size: 14px !important;
+    padding: 0px;
+    margin-right: 20px !important;
+}
+.ajax__tab_active
+{
+    color: #00bff0  !important;
+}
+.ajax__tab_panel
+{
+    padding: 0px 30px 0px 30px;
+}
+/* default layout */
+.ajax__tab_default .ajax__tab_header
+{
+    white-space: nowrap;
+}
+.ajax__tab_default .ajax__tab_outer
+{
+    display: -moz-inline-box;
+    display: inline-block;
+}
+.ajax__tab_default .ajax__tab_inner
+{
+    display: -moz-inline-box;
+    display: inline-block;
+}
+.ajax__tab_default .ajax__tab_tab
+{
+    margin-right: 0px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    display: -moz-inline-box;
+    display: inline-block;
+}
+
+/* xp theme */
+.ajax__tab_xp .ajax__tab_header
+{
+    vertical-align: bottom;
+    padding-bottom: 0px !important;
+}
+.ajax__tab_xp .ajax__tab_outer
+{
+}
+.ajax__tab_xp .ajax__tab_inner
+{
+}
+.ajax__tab_xp
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+}
+.ajax__tab_xp .ajax__tab_active
+{
+    display: inline-block;
+    background-color: #fff;
+}
+.ajax__tab_xp .ajax__tab_hover .ajax__tab_outer
+{
+}
+.ajax__tab_xp .ajax__tab_hover .ajax__tab_inner
+{
+}
+.ajax__tab_xp .ajax__tab_hover
+{
+}
+.ajax__tab_xp .ajax__tab_active .ajax__tab_outer
+{
+}
+.ajax__tab_xp .ajax__tab_active .ajax__tab_inner
+{
+}
+.ajax__tab_xp .ajax__tab_active
+{
+}
+.ajax__tab_active .ajax__tab_outer .ajax__tab_inner .ajax__tab_tab div
+{
+    border: none;
+}
+.ajax__tab_outer .ajax__tab_inner .ajax__tab_tab div
+{
+    border: none;
+}
+.ajax__tab_xp .ajax__tab_body
+{
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+/* scrolling */
+.ajax__scroll_horiz
+{
+    overflow-x: scroll;
+}
+.ajax__scroll_vert
+{
+    overflow-y: scroll;
+}
+.ajax__scroll_both
+{
+    overflow: scroll;
+}
+.ajax__scroll_auto
+{
+    overflow: auto;
+}
+
+/* plain theme */
+.ajax__tab_plain .ajax__tab_outer
+{
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 1px;
+}
+.ajax__tab_plain .ajax__tab_inner
+{
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 1px;
+}
+.ajax__tab_plain .ajax__tab_body
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.ajax__tab_plain .ajax__tab_header
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.ajax__tab_plain .ajax__tab_active .ajax__tab_outer
+{
+}
+
+
+/* --- This block of code is designed especially for Security Master ---*/
+.tabWithoutDiv .ajax__tab_xp .ajax__tab_hover .ajax__tab_inner
+{
+    background-color: #fff;
+}
+.tabWithoutDiv .ajax__tab_active .ajax__tab_outer .ajax__tab_inner
+{
+    background-color: #fff;
+}
+.tabWithoutDiv .ajax__tab_active .ajax__tab_outer .ajax__tab_inner .ajax__tab_tab
+{
+    border-bottom: 2px solid #00bff0  !important;
+}
+.tabWithoutDiv .ajax__tab_outer .ajax__tab_inner .ajax__tab_tab
+{
+    margin: 0px;
+    border: none;
+}
+/* --- This block of code is designed especially for Security Master ---*/

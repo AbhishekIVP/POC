@@ -1,0 +1,200 @@
+﻿body {
+}
+
+.patchDeploymentHistoryRoot {
+}
+
+.deploymentTitle {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.exportButton {
+    display: inline-block;
+    float: right;
+    padding-right: 10px;
+    font-size: 12px;
+    padding-top: 3px;
+    cursor: pointer;
+    text-align: right;
+    position: relative;
+    color: #43D9C6;
+}
+
+    .exportButton > i {
+        padding: 3px;
+    }
+
+    .exportButton > .exportOptions {
+        position: relative;
+        box-shadow: #cdcdcd 2px 4px 5px;
+        display: none;
+        text-align: left;
+        z-index: 100;
+        color: black;
+        border: 1px solid #CACACA;
+    }
+
+    .exportButton:hover .exportOptions {
+        display: block;
+    }
+
+.exportOptions > .exportOption {
+    padding: 5px;
+    background: white;
+    border-left: 5px solid white;
+}
+
+.exportOption:hover {
+    border-left: 5px solid #48a3dd;
+}
+
+#deploymentHistory {
+    padding: 20px;
+    font-size: 13px;
+    top: 0px;
+}
+
+.deploymentHistoryHeaderRow, .hotfixHeaderRow, .BuildRow, .hotfixRow {
+    display: block;
+    padding: 7px 13px;
+}
+
+.deploymentHistoryHeaderRow {
+    color: grey;
+    height: 20px;
+}
+
+.hotfixRow > div {
+    padding-left: 3px;
+}
+
+.refHistory {
+}
+
+    .refHistory .deploymenHeader:nth-child(5), .refHistory .BuildRow > div:nth-child(5) {
+        width: 20%;
+    }
+
+    .refHistory .deploymenHeader:nth-child(4), .refHistory .BuildRow > div:nth-child(4) {
+        width: 13%;
+    }
+
+    .refHistory .deploymenHeader:nth-child(3), .refHistory .BuildRow > div:nth-child(3) {
+        width: 20%;
+    }
+
+    .refHistory .deploymenHeader:nth-child(2), .refHistory .BuildRow > div:nth-child(2) {
+        width: 16%;
+        display: none;
+    }
+
+    .refHistory .deploymenHeader:nth-child(1), .refHistory .BuildRow > div:nth-child(1) {
+        width: 20%;
+    }
+
+.deploymenHeader, .BuildRow > div, .hotfixHeader, .hotfixRow > div {
+    display: inline-block;
+    width: 12%;
+}
+
+    .deploymenHeader:nth-child(5), .BuildRow > div:nth-child(5) {
+        width: 12%;
+    }
+
+    .deploymenHeader:nth-child(4), .BuildRow > div:nth-child(4) {
+        width: 16%;
+    }
+
+    .deploymenHeader:nth-child(3), .BuildRow > div:nth-child(3) {
+        width: 16%;
+    }
+
+    .deploymenHeader:nth-child(1), .BuildRow > div:nth-child(1) {
+        width: 16%;
+    }
+
+    .hotfixRow > div:nth-child(5) {
+        width: 17%;
+    }
+
+    .hotfixHeader:nth-child(1), .hotfixRow > div:nth-child(1) {
+        width: 28%;
+    }
+
+    .hotfixHeader:nth-child(2), .hotfixRow > div:nth-child(2) {
+        width: 16%;
+    }
+
+    .hotfixHeader:nth-child(3), .hotfixRow > div:nth-child(3) {
+        width: 31%;
+    }
+
+    .hotfixHeader:nth-child(4), .hotfixRow > div:nth-child(4) {
+        width: 23%;
+    }
+
+.deploymentHistoryRows {
+    max-height: 385px;
+    overflow-y: auto;
+    color: #454545;
+}
+
+    .deploymentHistoryRows > div {
+    }
+
+.BuildRow {
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    margin-bottom: 3px;
+}
+
+    .BuildRow div {
+        padding-left: 2px;
+    }
+
+    .BuildRow > div:nth-child(6), .BuildRow > div:nth-child(7) {
+        color: #9c9c9c;
+        text-align: center;
+        cursor: pointer;
+    }
+
+.hotfixShown > div:nth-child(6) {
+    color: #30bba6;
+    cursor: pointer;
+}
+
+.hotfixShown {
+    margin-bottom: 0px;
+    border-radius: 4px 4px 0 0;
+}
+
+    .hotfixShown + .hotfixRowsContainer {
+        display: block;
+        margin-bottom: 3px;
+    }
+
+.hotfixRowsContainer {
+    background: #F9F9F9;
+    border: 1px solid #d8d8d8;
+    border-top: none;
+    margin-bottom: 5px;
+    border-radius: 0 0 4px 4px;
+    font-size: 12.5px;
+    display: none;
+}
+
+.hotfixHeaderRow {
+}
+
+.hotfixHeader {
+    padding-left: 3px;
+}
+
+.noHotfix > div:nth-child(6) {
+    visibility: collapse;
+}
+
+.noReleaseNotes > div:nth-child(7) {
+    visibility: collapse;
+}

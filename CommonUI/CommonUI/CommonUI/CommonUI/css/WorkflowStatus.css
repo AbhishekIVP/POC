@@ -1,0 +1,561 @@
+﻿/*----------------Workflow tabs : Start--------------*/
+.WorkflowTabsContainer {
+    text-align: center;
+    margin: 3px 5px 3px 5px;
+    padding-top: 9px;
+    font-size: 0;
+}
+
+.WorkflowTab {
+    display: inline-block;
+    vertical-align: top;
+    padding: 3px 5px 3px 5px;
+    font-size: 13px;
+    border: 1px solid #48a3dd;
+    width: 200px;
+    cursor: pointer;
+}
+
+.WorkflowTabActive {
+    color: white;
+    background: #48a3dd;
+}
+
+.WorkflowTabText {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 1px;
+}
+
+.WorkflowTabCount {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 5px 0px 10px;
+    font-family: Oswald;
+    font-size: 15px;
+}
+/*----------------Workflow tabs : End----------------*/
+
+
+/*----------------Workflow my request users : Start--------------*/
+.workflowUserContainer {
+    font-size: 16px;
+    padding: 17px 5px 5px 0px;
+    color: #1a4a56;
+    font-family: Lato;
+    cursor: pointer;
+    border-bottom: 2px solid #a1b6bc;
+    margin: 0px 10px;
+}
+
+.workflowUserContainerActive {
+    border-bottom: none;
+}
+
+.WorkflowMoreUsers {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 6px 0px 8px;
+    cursor: pointer;
+}
+
+.WorkflowMoreUserSection {
+    font-size: 13px;
+    color: #1a4a56;
+    font-family: Lato;
+    padding-bottom: 1px;
+}
+/*----------------Workflow my request users : End----------------*/
+
+
+
+/*----------------Workflow Actions : Start--------------*/
+.WorkflowActionButtonsDiv {
+    font-size: 12px;
+    position: absolute;
+    right: 40px;
+    top: 12px;
+    display: none;
+}
+
+.WorkflowActionPending {
+    display: none;
+}
+
+.WorkflowActionButtonsGrouped {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #EA9747;
+    border-radius: 2px;
+    margin-right: 7px;
+    padding-bottom: 1px;
+    height: 24px;
+}
+
+.WorkflowActionButtonsGroupedDisabled {
+    background-color: #ebe9e9;
+}
+
+.WorkflowActionButtonsGrouped .WorkflowActionButtonsSuperDiv {
+    width: auto;
+    text-align: center;
+    border: none;
+    height: 22px;
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: top;
+    outline: none;
+    padding: 1px 6px;
+}
+
+.WorkflowActionButtonsSeparator {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #F5B170;
+    width: 1px;
+    height: 16px;
+    margin: 3px;
+}
+
+.WorkflowActionButtonsGroupedDisabled .WorkflowActionButtonsSeparator {
+    background-color: white;
+}
+
+.WorkflowActionButtonsSeparated {
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 1px;
+    height: 24px;
+    margin-right: 7px;
+}
+
+.WorkflowActionButtonsSeparatedDisabled {
+    background-color: #ebe9e9;
+}
+
+.WorkflowActionButtonsSeparated .WorkflowActionButtonsSuperDiv {
+    height: 24px;
+}
+
+.WorkflowActionButtonsSeparatedDisabled .CommonWhiteBtnStyle:disabled {
+    background-color: #ebe9e9;
+    color: #868686 !important;
+    border: none;
+    font-size: 12px;
+    cursor: default;
+    font-weight: normal;
+}
+
+.CommonOrangeBtnStyle:disabled {
+    background-color: #ebe9e9 !important;
+    color: #868686 !important;
+}
+/*----------------Workflow Actions : End----------------*/
+
+.workflowEmptyGrid {
+    font-size: 13px;
+    font-family: Lato;
+    margin: 30px 5px 5px 20px;
+}
+
+.workflowGridHeaderSecId, #impactedSecuritiesPopupDiv .secIdClick {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #48a3dd;
+    margin-right: 1px;
+}
+
+.workflowGridHeaderSecname {
+    color: #48a3dd;
+}
+
+.workflowGridHeaderSection {
+    font-family: Lato;
+}
+
+.workflowGroupSecurityDiv {
+    position: relative;
+    border-right: 1px solid #E4E1E1;
+    width: 200px;
+    background-color: #F6F6F6;
+    margin-top: 2px;
+    left: -99%;
+}
+
+    .workflowGroupSecurityDiv span {
+        margin-left: 3px;
+        top: -3px;
+        position: relative;
+    }
+
+.workflowGridHeaderRequestedOnText {
+    float: right;
+    margin-right: 25px;
+    color: #848484 !important;
+}
+
+.workflowEmptyLogDiv {
+    font-family: Lato;
+    font-size: 12px;
+    height: 45px;
+    line-height: 45px;
+    background: #f9f9f9;
+    padding-left: 10px;
+    text-align: center;
+    color: #888888;
+    margin-bottom: 13px;
+}
+
+.workflowViewLogClick, .workflowAttributeValueClick {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #48a3dd;
+}
+
+.workflowLogPendingDiv {
+    display: inline-block;
+    font-size: 16px;
+    padding: 0px 5px 8px 0px;
+    font-family: Lato;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    background: #ece4cd;
+    height: 45px;
+    line-height: 43px;
+    width: 500px;
+    color: #a38225;
+}
+
+.maingroupDragButton {
+    left: 215px;
+    position: relative;
+}
+
+.workflowViewLogDiv {
+    font-family: Lato;
+}
+
+.workflowLogActionDivs {
+    display: block;
+    height: 75px;
+    padding: 2px 0px 14px 0px;
+    border-left: 1px solid #f3f3f3;
+}
+
+.workflowLogApproved .workflowLogInner {
+    border-top-color: rgb(180, 204, 161);
+}
+
+.workflowLogRejected .workflowLogInner {
+    border-top-color: rgb(234, 139, 139);
+}
+
+.workflowLogDeleted .workflowLogInner {
+    border-top-color: #B5B541;
+}
+
+.workflowLogSuppressed .workflowLogInner {
+    border-top-color: #B5B541;
+}
+
+.workflowLogPending .workflowLogInner {
+    border-top-color: #B5B541;
+}
+
+.workflowLogCurrentLevel .workflowLogInner {
+    color: #E0C066;
+}
+
+.workflowLogNextLevels .workflowLogInner {
+    color: #c7c5c5;
+}
+
+.workflowLogApproved .workflowLogAction {
+    color: rgb(180, 204, 161);
+}
+
+.workflowLogRejected .workflowLogAction {
+    color: rgb(234, 139, 139);
+}
+
+.workflowLogDeleted .workflowLogAction {
+    color: #B5B541;
+}
+
+.workflowLogSuppressed .workflowLogAction {
+    color: #B5B541;
+}
+
+.workflowLogPending .workflowLogAction {
+    color: #B5B541;
+}
+
+.workflowLogInner {
+    display: inline-block;
+    vertical-align: top;
+    width: 720px;
+    height: 100%;
+    background: #f9f9f9;
+    border-top: 3px solid;
+}
+
+.workflowLogAction {
+    display: inline-block;
+    vertical-align: top;
+    font-family: Oswald;
+    width: 130px;
+    padding: 16px 5px 5px 15px;
+    font-size: 17px;
+}
+
+.workflowLogActionBy {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    padding: 8px 5px 5px 10px;
+}
+
+.workflowLogActionByUpper {
+    font-size: 11px;
+    color: #8f8e8e;
+}
+
+.workflowLogActionByLower {
+    padding-top: 5px;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.workflowLogRemarks {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    padding: 8px 5px 5px 10px;
+}
+
+.workflowLogRemarksUpper {
+    font-size: 11px;
+    color: #8f8e8e;
+}
+
+.workflowLogRemarksLower {
+    padding-top: 5px;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.workflowLogWorkflowLevel {
+    float: right;
+    width: 150px;
+    margin: 11px 0px 5px 5px;
+    height: 34px;
+    background: #f0f0f0;
+    padding: 4px 5px 5px 8px;
+}
+
+.workflowLogWorkflowLevelText {
+    display: inline-block;
+    vertical-align: top;
+    color: #8f8e8e;
+    font-size: 11px;
+    padding: 5px 5px 4px 5px;
+}
+
+.workflowLogWorkflowLevelCount {
+    font-family: Oswald;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 17px;
+    padding: 1px 5px 5px 10px;
+}
+
+.workflowLogActionOn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 5px 5px 10px;
+    font-size: 11px;
+    color: #7b7b7b;
+}
+
+.workflowLogUsers {
+    font-size: 18px;
+    padding: 2px 5px 8px 5px;
+    margin: 0px 5px 0px 5px;
+    line-height: 52px;
+    font-family: Oswald;
+}
+
+.workflowLogNextLevels .workflowLogUsers {
+    color: #717171;
+}
+
+.workflowLogLeftStatus {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #e8e8e8;
+    border-radius: 7px;
+    margin: 31px 15px 0px 0px;
+    position: relative;
+    left: -7px;
+    top: -6px;
+    background: white;
+}
+
+.workflowLogApproved .workflowLogLeftStatus {
+    color: rgb(180, 204, 161);
+    font-size: 11px;
+    padding: 1px 0px 0px 0px;
+}
+
+.workflowLogRejected .workflowLogLeftStatus {
+    color: rgb(234, 139, 139);
+    font-size: 11px;
+    padding: 1px 0px 0px 2px;
+}
+
+.workflowLogCurrentLevel .workflowLogLeftStatus {
+    background: #5bc5e0;
+}
+
+.workflowLogNextLevels .workflowLogLeftStatus {
+    background: #ececec;
+    border-color: #ececec;
+}
+
+.workflowPanelImpactedtDiv {
+    box-shadow: 0px -6px 6px -6px rgba(0,0,0,0.8);
+    border: 1px solid #e7e7e7;
+    position: fixed;
+    z-index: 10000;
+    background-color: White;
+}
+
+.panelHead.workflowImpactedSectionsHeader {
+    padding: 14px 5px 1px 0px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #a1b6bc;
+}
+
+.workflowImpactedScrollContainer {
+    max-height: 165px;
+}
+
+.container input[disabled] {
+    background: #CFCFCF !important;
+}
+
+.workflowDownArrowDiv {
+    position: absolute;
+    top: -14px;
+    right: 6px;
+}
+
+.workflowDownArrow {
+    font-size: 25px !important;
+    position: relative;
+    top: -3px;
+    color: white;
+    height: 17px;
+}
+
+#workflowRefreshButton {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 14px;
+    margin-top: 4px;
+    color: rgb(210, 210, 210);
+}
+
+    #workflowRefreshButton:hover {
+        color: #9C9A9A !important;
+    }
+
+.unSuccessHead {
+    height: 50px !important;
+}
+
+.successHead{
+
+    font-family: 'Lato' , sans-serif;
+    font-size: 20px;
+    padding: 5px 5px 5px 82px;
+    background: url(images/icons/pass_icon.png) 14px center no-repeat;
+    height: 44px;
+}
+
+.alertLabel {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    padding-left: 82px;
+    padding-top: 4px;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: #666;
+    max-height: 125px;
+    overflow: auto;
+    overflow-x: hidden;
+    display: block;
+    word-wrap: normal;
+    word-break: break-word;
+}
+
+.alertClose{
+    color: #FFF;
+    cursor: pointer;
+    position: absolute;
+    top: 1%;
+    left: 68%;
+    outline: none;
+    padding-top: 30px;
+    background: url(images/icons/faCrossIconHover.png) 14px center no-repeat;
+}
+
+.pageButton{
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 22px;
+    /*font-family: 'lato' , Sans-Serif;*/
+    font-size: 12px;
+    margin-left: 5px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.TabscssAfter {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    color: #48a3dd !important;
+    border-bottom: 3px solid !important;
+    border-bottom-color: #48a3dd !important;
+    font-size: 12px;
+    font-family: Lato;
+    cursor: pointer;
+}
+
+.nav > li > a {
+    padding: 7px 15px;
+}
+
+    .nav > li > a:hover, .nav > li > a:focus {
+        color: #48a3dd !important;
+        background-color: White;
+        border-color: White;
+    }
+
+.PanelsContainerDiv > div {
+    width: 60%;
+}
+
+    .PanelsContainerDiv > div > table {
+        margin: 0 auto;
+    }

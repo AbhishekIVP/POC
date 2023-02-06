@@ -1,0 +1,172 @@
+﻿.RC_MainDivs {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+}
+
+#RC_LeftMainDiv {
+    width: 300px;
+    background: linear-gradient(#f5f7f9 40%, #fdfdfe);
+    /*background-color: #e5ecf6;*/
+}
+
+#RC_SectionTypeSMSelectDiv {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px #566b86 solid;
+}
+
+    #RC_SectionTypeSMSelectDiv .smselect {
+        width: 280px !important;
+    }
+
+    #RC_SectionTypeSMSelectDiv .smselectcon {
+        width: 275px;
+    }
+
+    #RC_SectionTypeSMSelectDiv .smselectanchorrun {
+        font-size: 14px;
+        color: #3e4d5e;
+        font-weight: bold;
+    }
+
+    #RC_SectionTypeSMSelectDiv .fa-sort-desc {
+        color: #566b86;
+    }
+
+#RC_LeftPaneSearchParentDiv {
+    height: 20px;
+    margin-left: 12px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    width: 275px;
+    border-bottom: #a9a9a9 1px solid;
+    /*border-bottom: 0.5px #566b86 solid;*/
+}
+
+    #RC_LeftPaneSearchParentDiv .notify-icon {
+        display: inline-block;
+        color: #a9a9a9;
+        font-size: 15px;
+    }
+
+#RC_LeftPaneSearchDiv {
+    display: inline-block;
+    margin-left: 2px;
+}
+
+#RC_LeftPaneSearchInputBox {
+    border: none;
+    width: 250px;
+    background-color: #f5f7f9 !important;
+}
+
+#RC_SectionData {
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: "Oswald";
+}
+
+.RC_TypeRow {
+    /*background-color: #d8e5f5;*/
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+    border-radius: 2px;
+}
+
+.RC_TypeInfo {
+    width: 270px;
+    /*margin-bottom:7px;*/
+}
+
+.RC_TypeName {
+    padding-top: 5px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 12px;
+    width: 251px;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+.RC_ParentType {
+    height: 15px;
+    line-height: 15px;
+    font-style: italic;
+    padding-left: 12px;
+    width: 257px;
+    font-size: 10px;
+}
+
+.RC_TypeData {
+    margin-left: 14px;
+    /*margin-right: 14px;*/
+    width: 250px;
+}
+
+.RC_TypeDataLeft {
+    border-top: 2px #495f77 solid;
+    border-bottom: 2px #495f77 solid;
+    display: inline-block;
+    vertical-align: top;
+    width: 237px;
+    margin-top: 7px;
+}
+
+.RC_TypeDataRight {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 3px;
+    width: 5px;
+    margin-top: 7px;
+}
+
+.RC_RuleTypeName {
+    height: 20px;
+    line-height: 20px;
+    padding-left: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-bottom: 1px;
+    letter-spacing: 0.5px;
+    font-family: "Lato";
+}
+
+.RC_RightCaret {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+/*Utility*/
+.SRMRuleCatalogParentEllipses {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 20px;
+}
+
+.scroll::-webkit-scrollbar-track {
+    background: #ddd;
+    border-radius: 20px;
+}
+
+/*Right Filter*/
+#SMRRuleCatalogRightFilterDiv .smslidemenu_applyBtn {
+    float: right;
+}

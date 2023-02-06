@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E4C79F50-852F-4B4B-ACA0-0CD472C3B9B4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>com.ivp.rad.RMarketWSO</RootNamespace>
+    <AssemblyName>RMarketWSO</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\RefDlls\RAD Assemblies\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RConfigurationManagement, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\RefDlls\RAD Assemblies\RConfigurationManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="RCryptography, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\RefDlls\RAD Assemblies\RCryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="RDAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\RefDlls\RAD Assemblies\RDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="RLoggerException, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\RefDlls\RAD Assemblies\RLoggerException.dll</HintPath>
+    </Reference>
+    <Reference Include="RUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\RefDlls\RAD Assemblies\RUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="SRMCommon">
+      <HintPath>..\..\..\..\..\..\RefDlls\CommonDlls\SRMCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Info\AgentBankInfo.cs" />
+    <Compile Include="Info\AmortizationInfo.cs" />
+    <Compile Include="Info\AmortizationScheduleInfo.cs" />
+    <Compile Include="Info\BankDealInfo.cs" />
+    <Compile Include="Info\CallSchedulePayInfo.cs" />
+    <Compile Include="Info\ContractInfo.cs" />
+    <Compile Include="Info\FacilityInfo.cs" />
+    <Compile Include="Info\IssuerInfo.cs" />
+    <Compile Include="Info\RateOptionInfo.cs" />
+    <Compile Include="Info\RMarketResponseInfo.cs" />
+    <Compile Include="Info\Transactions\AccrualAdjustment.cs" />
+    <Compile Include="Info\Transactions\BankDealUpdate.cs" />
+    <Compile Include="Info\Transactions\Borrow.cs" />
+    <Compile Include="Info\Transactions\BorrowEarly.cs" />
+    <Compile Include="Info\Transactions\BorrowNew.cs" />
+    <Compile Include="Info\Transactions\Buy.cs" />
+    <Compile Include="Info\Transactions\CloseContract.cs" />
+    <Compile Include="Info\Transactions\Combine.cs" />
+    <Compile Include="Info\Transactions\CommitmentIncrease.cs" />
+    <Compile Include="Info\Transactions\CommitmentReduction.cs" />
+    <Compile Include="Info\Transactions\ConvertContract.cs" />
+    <Compile Include="Info\Transactions\FacilityIncrease.cs" />
+    <Compile Include="Info\Transactions\FXAdjustment.cs" />
+    <Compile Include="Info\Transactions\IssuerUpdate.cs" />
+    <Compile Include="Info\Transactions\MiscellaneousFees.cs" />
+    <Compile Include="Info\Transactions\PaydownFullPaydownEarly.cs" />
+    <Compile Include="Info\Transactions\PaydownPartial.cs" />
+    <Compile Include="Info\Transactions\ProcessReceivable.cs" />
+    <Compile Include="Info\Transactions\RateChange.cs" />
+    <Compile Include="Info\Transactions\ReceiveInterimInterest.cs" />
+    <Compile Include="Info\Transactions\ReceiveOldInterest.cs" />
+    <Compile Include="Info\Transactions\Restructuring.cs" />
+    <Compile Include="Info\Transactions\Rollback.cs" />
+    <Compile Include="Info\Transactions\Rollover.cs" />
+    <Compile Include="Info\Transactions\SplitContract.cs" />
+    <Compile Include="Info\Transactions\UpdateContract.cs" />
+    <Compile Include="RMarketController.cs" />
+    <Compile Include="RMarketManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RMarketUtils.cs" />
+    <Compile Include="RTransactionUtils.cs" />
+    <Compile Include="Service References\FacilitySearchService2012\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\FacilitySearchService2013\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\FacilitySearchService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\GAMService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\TransactionService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FacilitySearchService2012\com.ivp.rad.RMarketWSO.FacilitySearchService2012.AmortizationSchedule.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService2012\com.ivp.rad.RMarketWSO.FacilitySearchService2012.Contract.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService2012\com.ivp.rad.RMarketWSO.FacilitySearchService2012.FacilitySearchResults.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService2012\com.ivp.rad.RMarketWSO.FacilitySearchService2012.GetAmortByFacilityIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService2012\com.ivp.rad.RMarketWSO.FacilitySearchService2012.GetAvailableFacilitiesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService2012\com.ivp.rad.RMarketWSO.FacilitySearchService2012.GetContractsByFacilityIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService2012\com.ivp.rad.RMarketWSO.FacilitySearchService2012.GetFacilityResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService2012\FacilitySearch1.wsdl" />
+    <None Include="Service References\FacilitySearchService2012\FacilitySearch3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FacilitySearchService2012\FacilitySearch31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FacilitySearchService2012\FacilitySearch32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FacilitySearchService2012\WidgetService2.wsdl" />
+    <None Include="Service References\FacilitySearchService2012\WidgetService21.wsdl" />
+    <None Include="Service References\FacilitySearchService2013\com.ivp.rad.RMarketWSO.FacilitySearchService2013.AmortizationSchedule1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService2013\com.ivp.rad.RMarketWSO.FacilitySearchService2013.Contract1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService2013\com.ivp.rad.RMarketWSO.FacilitySearchService2013.CreditDocumentFacility1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService2013\com.ivp.rad.RMarketWSO.FacilitySearchService2013.FacilitySearchResults1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService2013\com.ivp.rad.RMarketWSO.FacilitySearchService2013.ResponseCovenantLite1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService2013\com.ivp.rad.RMarketWSO.FacilitySearchService2013.ResponseCreditDocument1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService2013\com.ivp.rad.RMarketWSO.FacilitySearchService2013.Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService2013\FacilitySearch.wsdl" />
+    <None Include="Service References\FacilitySearchService2013\FacilitySearch.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FacilitySearchService2013\FacilitySearch1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FacilitySearchService2013\FacilitySearch2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FacilitySearchService2013\FacilitySearch3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FacilitySearchService2013\WidgetService.wsdl" />
+    <None Include="Service References\FacilitySearchService2013\WidgetService1.wsdl" />
+    <None Include="Service References\FacilitySearchService\com.ivp.rad.RMarketWSO.FacilitySearchService.AmortizationSchedule1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService\com.ivp.rad.RMarketWSO.FacilitySearchService.CreditDocumentFacility1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService\com.ivp.rad.RMarketWSO.FacilitySearchService.FacilitySearchResults1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService\com.ivp.rad.RMarketWSO.FacilitySearchService.ResponseCovenantLite1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService\com.ivp.rad.RMarketWSO.FacilitySearchService.ResponseCreditDocument1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService\com.ivp.rad.RMarketWSO.FacilitySearchService.Result1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FacilitySearchService\FacilitySearch.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FacilitySearchService\FacilitySearch1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FacilitySearchService\FacilitySearch2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FacilitySearchService\LoanReferenceDataService.wsdl" />
+    <None Include="Service References\GAMService\com.ivp.rad.RMarketWSO.GAMService.SubscribedFacility1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GAMService\com.ivp.rad.RMarketWSO.GAMService.UnsubscribedFacility1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GAMService\GAM.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GAMService\GAM1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GAMService\GAM2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GAMService\GamService.wsdl" />
+    <None Include="Service References\TransactionService\com.ivp.rad.RMarketWSO.TransactionService.TransactionResults1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TransactionService\Transaction.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TransactionService\Transaction1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TransactionService\WidgetService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\FacilitySearchService2012\" />
+    <WCFMetadataStorage Include="Service References\FacilitySearchService2013\" />
+    <WCFMetadataStorage Include="Service References\FacilitySearchService\" />
+    <WCFMetadataStorage Include="Service References\GAMService\" />
+    <WCFMetadataStorage Include="Service References\TransactionService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\GAMService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\GAMService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\GAMService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TransactionService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TransactionService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TransactionService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FacilitySearchService2013\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FacilitySearchService2013\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FacilitySearchService2013\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FacilitySearchService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FacilitySearchService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FacilitySearchService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FacilitySearchService2012\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FacilitySearchService2012\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FacilitySearchService2012\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(TargetPath)" "$(ProjectDir)..\..\..\..\..\..\RefDLLs\RAD Assemblies\"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

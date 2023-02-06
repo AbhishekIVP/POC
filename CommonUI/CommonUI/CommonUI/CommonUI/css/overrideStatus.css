@@ -1,0 +1,345 @@
+﻿.os_panelSections
+{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.overrideStatusActionListStyle
+{
+    width:110px;
+    float:right;
+}
+
+.overrideStatusAction
+{
+    font-family: Lato;
+    color: White;
+    height: 22px;
+    font-family: Lato;
+    font-size: 12px;
+    font-family: 'lato' , Sans-Serif;
+    width: auto;
+    text-align: center;
+    border: 0 #ea9747;
+    height: 22px;
+    background: #ea9747;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    outline: none;
+    font-size: 14px;
+    text-align: center;
+    width: 70px;
+    color: #fff;
+    line-height: 21px;
+}
+
+.overrideStatusActionSectionStyle {
+	margin-bottom: 5px;
+    height: 23px;
+}
+
+.overrideStatusDisabled
+{
+    background-color: #CFCFCF;
+    color: #000;
+    cursor: default;
+}
+
+.overrideStatusRow
+{
+    /*border: 1px solid #eaeaea;
+    border-radius: 4px;*/
+    height:33px;
+}
+
+.overrideStatusColumn
+{
+    display:inline-block;
+    vertical-align: top;
+}
+
+.overrideStatusAttrName
+{
+    width:300px;
+}
+
+.overrideStatusAttrExpiryDate
+{
+    width:400px;
+}
+
+.overrideStatusAttrExpiryNew input
+{
+    border-radius: 8px;
+    border: 1px solid #e2e2e2;
+    height: 25px;
+    padding: 0px 5px;
+}
+
+.overrideStatusAttrExpiryNew
+{
+    width:150px;
+}
+
+.overrideStatusAttrIcon
+{
+    width:50px;
+}
+
+.overrideStatusAttrListStyle
+{
+    width:800px;
+    margin:10px auto;
+    overflow: auto;
+}
+
+.overrideStatusAddAttributeSectionStyle
+{
+    width:800px;
+    margin:0px auto;
+}
+
+.overrideStatusAddIcon
+{
+    color: #43D9C6;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 22px;
+    margin-top: 4px;
+    background-color: transparent;
+}
+
+.overrideStatusTitle
+{
+    line-height: 1.5;
+    color: #838383;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top:10px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.overrideStatusHorizontalAlign
+{
+    display: inline-block;
+	vertical-align: top;
+}
+
+.slideDateControlLeftOption
+{
+    width: 35%;
+    color: #cdcdcd;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    border: 1px solid #cdcdcd;
+    border-radius: 9px;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+.slideDateControlRightOption
+{
+    height: 30px;
+    width: 45%;
+    margin-left: 10px;
+    border: 1px solid #cdcdcd;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.slideDateControlRightOption input
+{
+    height: 27px;
+    border: 0px;
+    font-family: "Lato";
+    outline: none;
+    background-color:transparent;
+    text-align: center;
+}
+
+.slideDateControlContainer
+{
+    width: 350px;
+    /*border: 1px solid #00bcef;*/
+    /*border-radius: 3px;*/
+}
+
+#overrideStatusAttrDropDown
+{
+    margin-top:3px;
+}
+
+.overrideStatusAttrColumn
+{
+    margin-top: 5px;
+    padding-left: 10px;
+    color: #838080;
+    font-size: 14px;
+    border-right: 1px solid #dcdcdc;
+}
+
+.overrideStatusDeleteIcon
+{
+    color: #cdcdcd;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 22px;
+    margin-top: 4px;
+    background-color: transparent;
+}
+
+.slideDateControl_selected
+{
+    background-color: #00bcef;
+    color: #fff;
+    border-radius: 9px;
+    text-align: center;
+    border:1px solid #00bcef
+}
+
+#oversideStatusViewOverrides
+{
+    width:150px;
+}
+
+.overrideStatusActionBtns
+{
+    float: right;
+    right: 10px;
+    position: relative;
+}
+
+.overrideStatusMinimizedDiv
+{
+    height:0px;
+    top:150px;
+    position:absolute;
+    z-index:1000;
+    width:1200px;
+}
+
+.overrideStatusPopupBorder
+{
+    border:1px solid #e2e2e2;
+    padding:5px 10px 5px 10px;
+}
+
+#overrideStatusScreenSection
+{
+    background-color:#fff;
+}
+
+.overrideStatusOverlay
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #d2d2d2;
+    opacity: 0.4;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+}
+
+.overrideStatusClosePopup
+{
+    position:absolute;
+	right:5px;
+	top:5px;
+	cursor:pointer;
+	color:#b1b1b1;
+}
+
+.overrideStatusActionGreen
+{
+    background-color:#43D9C6;
+}
+
+.overrideStatusRefreshButtonDiv {
+    /*display: inline-block; 
+    margin-right: 14px; 
+    margin-top: 5px;*/
+    color: rgb(210, 210, 210);
+    font-size: 17px;
+    vertical-align: top;
+}
+
+.overrideStatusAttrExpiryDateTitle
+{
+    border-bottom:1px dashed #cdcdcd;
+    color:#cdcdcd;
+    width:400px;
+}
+
+.overrideStatusRefreshButtonParent {
+    display:inline-block;
+    cursor:pointer;
+    padding-left: 10px;
+}
+
+.overrideStatusMessagePopupStyle
+{
+	box-shadow: 5px 7px 22px -7px #6D6D6D;
+    background-image: url(images/popup_texture.png);
+    background-repeat: repeat;
+    min-height: 160px;
+    font-family: Lato;
+    border: 1px solid #D4D4D4;
+    position: absolute;
+    top:0px;
+    width:400px;
+}
+
+.overrideStatuspopupTitle 
+{
+    padding-top:15px;
+    font-size: 16px;
+}
+
+.overrideStatusPopupCloseBtn 
+{
+	color: #cdcdcd;
+    cursor: pointer;
+    float: right;
+    margin-right: 4px;
+    margin-top: 3px;
+}
+
+.overrideStatusPopupCloseBtn:hover
+{
+    color:#888;
+}
+
+.overrideStatusUpperSection 
+{
+    margin-top: 25px;
+    margin-left: 10%;	
+}
+
+.overrideStatusUpperSection .overrideStatuspopupTitle 
+{
+    margin-left:10px;	
+}
+
+.overrideStatusMessage
+{
+    margin-left: 26%;
+    width: 73%;
+    margin-right: 0%;
+    color:#696969;
+}
+
+.overrideStatusNoGridSection
+{
+    margin: 5px 20px;
+    font-size: 14px;
+}
+    

@@ -1,0 +1,933 @@
+﻿.RuleCataLogMainGrid {
+    display: inline-block;
+}
+
+.dashboardDownArrow {
+    font-size: 25px !important;
+    position: relative;
+    top: -9px;
+    color: #48a3dd;
+    height: 17px;
+}
+
+.smRuleCataLogButton {
+    display: inline-block;
+}
+
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-size-adjust: auto;
+    //height:15px;
+    background-color: #48A3DD;
+    /*line-height: 15px;*/
+    font-weight: bold;
+}
+
+.SMRuleSetup_headerContents {
+    width: 200px;
+    display: inline-block;
+}
+
+.SMRuleSetup_pud {
+    float: right; /*margin-right: 8px;*/
+    padding-right: 20px; /*width: 112px;*/
+    display: inline-block; /*left: 12px;*/ /*        position: relative;     right: -21px;*/
+    width: 250px;
+    text-align: right;
+    box-sizing: border-box;
+    cursor: default !important;
+    bottom: 15px;
+    position: relative;
+}
+
+.SMRuleSetup_arrow {
+    /*text-align: right;*/
+    box-sizing: border-box;
+    /*color: #ac7339;*/
+    font-size: 15px;
+}
+
+.SMRuleSetup_RuleTextWrapper {
+    width: 95%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    display: inline-block;
+    left: 17px !important;
+    position: relative;
+}
+
+.SMRuleSetup_update {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.SMRuleSetup_modify {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.SMRuleSetup_priority_catalog {
+    /*background-color: grey;*/
+    color: white;
+    /* text-align: center; */
+    display: inline-block;
+    /* margin-right: 8px; */
+    position: relative;
+    top: 1px;
+    line-height: 19px;
+    font-size: 11px;
+    font-family: oswald;
+}
+
+
+
+.SMRuleSetup_ShowRule {
+    font-size: 13px !important; /*margin-bottom: 5px;*/
+    display: block;
+    width: 100%;
+    font-weight: normal !important;
+}
+
+.SMRuleSetup_rulename {
+    display: inline-block;
+    font-weight: bold;
+    left: 17px;
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    color: #556370;
+    font-size: 13px !important;
+}
+
+.SMRuleSetup_rulecount {
+    display: inline-block;
+    font-weight: normal !important;
+    position: relative;
+    left: 20px;
+    top: 4px;
+    font-size: 12px;
+}
+
+.SMRuleSetup_attrname {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: oswald;
+    font-weight: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 90%;
+}
+
+.SMRuleSetup_change_state {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 3px;
+    position: relative;
+    top: 6px;
+}
+
+
+/*.switch {
+    position: relative;
+    display: inline-block;
+
+
+    width: 24px;
+    height: 14px;
+    top: 3px;
+    right: 4px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 12px;
+    background-color: white;
+    transition: .4s;
+    top: 2px;
+}
+input:checked + .slider {
+  background-color: #808080;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+/*  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);*/
+/*  transform: translateX(10px);
+}*/
+
+/* Rounded sliders */
+/*.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}*/
+
+
+/*button {
+    margin: 2px;
+    height: 20px;
+    width: 100px;
+    }
+*/
+.SMRuleSetup_Expand {
+    /*    display: inline-block;     margin-right: 10px;     margin-top: 10px;     cursor: pointer;     */ /*bottom: 10px;*/
+}
+
+.SMRuleSetup_Collapse {
+    /*  display: inline-block;     margin-right: 10px;     margin-top: 10px;     cursor: pointer;*/ /*bottom: 10px;*/
+    font-size: 14px;
+    color: #43d9c6;
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+    cursor: pointer;
+    font-family: lato;
+    display: inline-block;
+    /*padding-left: 2%;*/
+    position: relative;
+    width: 80px;
+}
+
+.SMRuleSetup_Expand_Collapse {
+    /*text-align: right;     position: relative;     bottom: 20px;*/
+    text-align: right;
+    width: 40%;
+    padding-right: 15px;
+}
+
+.SMRuleSetup_Expand_Button {
+    font-weight: bold;
+}
+
+.SMRuleSetup_Collapse_Button {
+    font-weight: bold;
+}
+
+.SMRuleSetup_hr {
+    border: none;
+    height: 1px;
+    background: #eee;
+    width: 97.5%;
+}
+
+.SMRuleSetup_Add_Rules {
+    /*    display: inline-block;     right : 10px;*/
+    text-align: right;
+}
+
+.SMRuleSetup_ruleTypeName {
+    display: inline-block;
+    font-weight: bold;
+}
+
+#aaa {
+    /*overflow: hidden;*/
+}
+
+.SMRuleSetup_textline {
+    background-color: transparent;
+    color: #48a3dd !important;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #b3b3b3 1px; /*padding: 3px 10px;*/
+    font-family: oswald !important;
+    font-size: 14px;
+}
+
+.SMRuleSetup_PanelRuleCreation {
+    display: none;
+    width: 87%;
+    top: 62px;
+    right: 0px; /*box-shadow: 0px -6px 6px -6px rgba(0,0,0,0.8);*/
+    border: 1px solid #e7e7e7;
+    position: fixed;
+    z-index: 10000;
+    background-color: White;
+}
+
+.SMRuleSetup_rulegroupname {
+    display: inline-block;
+    font-weight: bold;
+    color: #000000;
+    left: 12px;
+    position: relative;
+}
+
+
+
+.SMRuleSetup_checkedGroup {
+    top: 2px;
+    position: relative;
+}
+
+.SMRuleGroupSetup_Scrollable {
+    /*top: 10px;*/
+    width: 25%; /*position: relative;*/ /*left: 30%;*/
+    display: inline-block; /*height: 450px;*/ /*overflow: auto;*/
+}
+/*.SMRuleGroupSetup_Scrollable{
+
+  }
+*/
+.SMRuleSetup_CommonRulesHeader {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#SMNullAttributeRuleGroupContainer {
+    /*left: 1%;*/
+    padding-left: 10px;
+    position: relative;
+    font-size: 14px;
+}
+
+#SMNullAttributeRuleContainer {
+    /*padding: 1%;*/
+    /*padding-left: 1%;*/
+    padding-left: 10px;
+    /*padding-top: 1%;*/
+    padding-top: 10px;
+    position: relative;
+    font-size: 14px;
+    display: inline-block;
+}
+
+
+.SMRuleSetup_Scrollable {
+    display: inline-block; /*height: 400px;*/
+    width: 100%; /*top: 20px;*/
+    position: relative;
+}
+
+.SMRuleSetup_RuleText {
+    text-align: justify;
+}
+
+.SMRuleSetup_RulesContent {
+    /*height: 580px;*/
+}
+
+.SMRuleSetup_priority_show {
+    display: inline-block;
+}
+
+.SMPanelStyle {
+    font-family: oswald;
+}
+
+.SMRuleSetup_ErrorPanels {
+    display: none;
+    font-family: lato;
+    font-size: 15px;
+}
+
+    .SMRuleSetup_ErrorPanels ul {
+        margin: 0px;
+    }
+
+.SMRuleSetup_ResetButton {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: none;
+    color: #43d9c6;
+    font-size: 13px;
+}
+
+.SMRuleSetup_SaveButton {
+    display: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.SMRuleSetup_Close_Overlay {
+    cursor: pointer;
+    float: right;
+    margin: 3px 9px 0px 0px;
+    height: 13px;
+    width: 11px;
+    opacity: 0.2;
+}
+
+.SMRuleSetup_ruleandgroup {
+    width: 80%;
+    display: inline-block;
+}
+
+.SMRuleSetup_colon {
+    font-weight: bold;
+    margin-left: 3px;
+    margin-right: 3px;
+    display: inline-block;
+    left: 10px;
+    position: relative;
+}
+
+.SMRuleSetup_arrowAddRules {
+    font-size: 15px !important;
+    position: relative;
+    color: #43d9c6;
+    left: 16px; /*top: 0px; */
+    bottom: 1px;
+    cursor: pointer;
+}
+
+.SMRuleSetup_btnAddRule {
+    width: 95px;
+    margin-bottom: 0px;
+    background-color: White;
+    border: 0px;
+    color: #43d9c6;
+    font-size: 15px !important;
+}
+
+#SMAttributeRuleGroupContainer {
+    display: inline;
+}
+
+
+.SMRuleSetup_sectype_name {
+    left: 40px;
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+.SMRuleSetup_state {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 15px;
+    position: relative;
+    top: 0px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.SMRuleSetup_Attr_pud {
+    float: right;
+    /* margin-right: 8px; */
+    padding-right: 20px;
+    /* width: 112px; */
+    display: inline-block;
+    /* left: 12px; */
+    width: 14%;
+    text-align: right;
+    box-sizing: border-box;
+    cursor: pointer;
+    /* bottom: 15px; */
+    position: relative;
+}
+
+.SMRuleSetup_arrow_common {
+    box-sizing: border-box;
+    color: #48a3dd;
+    font-size: 13px;
+}
+
+.SMRuleSetup_Add_Rules_common {
+    position: relative;
+    top: 4px;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.SMRuleSetup_size {
+    font-size: 13px !important;
+}
+
+.SMRuleSetup_highlighter {
+    opacity: 0.4;
+}
+
+
+.SMRuleSetup_State_On {
+    width: 13px;
+    height: 13px;
+    background: #00cc44;
+    /*border-radius: 50%;*/
+    /*border: orange 2px solid;*/
+}
+
+.SMRuleSetup_State_Off {
+    width: 13px;
+    height: 13px;
+    background: #ff3333;
+    /*border-radius: 50%;*/
+    /*border: orange 2px solid;*/
+}
+
+.SMRuleSetup_Depending_Container {
+    width: 56%;
+    display: inline-block;
+}
+
+.SMRuleSetup_Depending {
+    display: inline-block;
+    font-size: 14px;
+    /*font-weight: bold;*/
+    font-family: Lato;
+    color: #546c86;
+}
+
+.SMRuleSetup_Depending_Label {
+    font-size: 13px;
+    font-weight: normal;
+    display: inline-block;
+    font-family: Lato;
+    color: #7f8f82;
+}
+
+
+.SMRuleSetup_Dependent_Container {
+    display: inline-block;
+    position: relative;
+    width: 43%;
+}
+
+.SMRuleSetup_Dependent {
+    display: inline-block;
+    font-size: 14px;
+    /*font-weight: bold;*/
+    font-family: Lato;
+    color: #546c86;
+}
+
+.SMRuleSetup_Dependent_Label {
+    font-size: 13px;
+    font-weight: normal;
+    display: inline-block;
+    font-family: Lato;
+    color: #7f8f82;
+}
+
+.SMRuleSetup_Depending_Dependent_RuleContainer {
+    display: inline-block;
+    position: relative;
+    width: 77%;
+    font-size: 14px;
+    font-family: lato;
+    vertical-align: top;
+    top: 2px;
+}
+
+.SMRuleSetup_Attr_Ruletype_Container {
+    display: inline-block;
+    width: 22%;
+    font-size: 15px;
+    color: #546c86;
+}
+
+.SMRuleSetup_isCommonRule {
+    display: inline-block;
+    right: 3%;
+    position: relative;
+    font-weight: bold;
+    top: 4px;
+    font-size: 13px;
+}
+
+.SMRuleSetup_ruletypename {
+    display: inline-block;
+    position: relative;
+    left: 14px;
+    top: 5px;
+    font-size: 13px;
+    font-family: lato;
+    color: #556370;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+
+.SMRuleSetup_ruleObjectContainer {
+    /*width: 95%;
+    position: relative;
+    left: 5%;*/
+}
+
+#SMRuleSetup_RulesContentId {
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 1%;
+}
+
+    #SMRuleSetup_RulesContentId::-webkit-scrollbar {
+        width: 6px !important;
+        /*background-color: #666;*/
+    }
+    /* Add a thumb */
+    #SMRuleSetup_RulesContentId::-webkit-scrollbar-thumb {
+        background: #666;
+    }
+
+    #SMRuleSetup_RulesContentId::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0) !important;
+        background-color: transparent !important;
+        background: transparent !important;
+        /*border-radius: 10px;*/
+    }
+
+.SMRuleSetup_Expand_Collapse {
+    float: right;
+    position: relative;
+    /*right: 2%;*/
+    z-index: 100;
+    line-height: 30px;
+}
+
+#SMRuleSetup_SearchOnRules {
+    width: 216px !important; /*border-radius: 7px; box-shadow: 0px 0px 10px rgb(165, 165, 165) inset;    */
+    height: 19px !important;
+    /*padding-top: 10px !important;*/
+    background-color: transparent !important;
+    outline: none !important;
+    outline-style: none !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: solid #b3b3b3 1px !important;
+    position: relative !important;
+    bottom: 3px !important;
+}
+
+    #SMRuleSetup_SearchOnRules::-webkit-input-placeholder {
+        color: #626262 !important;
+    }
+
+/*.SMRuleSetup_Outer_Div_Pointer {
+    display: none;
+}*/
+
+.SMRuleSetup_Outer_Div_Pointer {
+    position: absolute;
+    border-bottom-color: #B3B3B3;
+    border-bottom-style: inset;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-left-style: inset;
+    border-right-color: rgba(0, 0, 0, 0);
+    border-right-style: solid;
+    border-top-color: rgba(0, 0, 0, 0);
+    border-top-style: inset;
+    border-width: 10px;
+    color: #333;
+    font-size: 16px;
+    height: 0px;
+    /*left: 1237.98px;*/
+    width: 0px;
+    /*top: 172px;*/
+    z-index: 200;
+}
+
+.SMRuleSetup_Inner_Div_Pointer {
+    border-bottom-color: #FFF;
+    border-bottom-style: inset;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-left-style: inset;
+    border-right-color: rgba(0, 0, 0, 0);
+    border-right-style: solid;
+    border-top-color: rgba(0, 0, 0, 0);
+    border-top-style: inset;
+    border-width: 10px;
+    color: #333;
+    display: block;
+    font-size: 16px;
+    height: 0px;
+    left: -9px;
+    position: absolute;
+    top: -8px;
+    width: 0px;
+}
+
+.SMRuleSetup_attrContainerDiv {
+    display: none;
+    background-color: white;
+    /*cursor: pointer;*/
+    box-shadow: 0px -1px 9px 0px #aaaaaa;
+    width: 160px;
+    font-family: Lato;
+    font-size: 12px;
+}
+
+#SMRuleSetup_NullAttributeRuleContainer {
+    width: 75%;
+    height: 400px;
+}
+
+.smNoRecordsContainerStyle {
+    margin: 0 auto !important;
+}
+
+#SMRuleSetup_NullAttributeRuleContainerForSearch {
+    width: 100%;
+    height: 400px;
+}
+
+#SMRuleSetup_Header_Contents {
+    width: 100%;
+    height: 45px;
+}
+
+#SMRuleSetup_TypeName {
+    display: inline-block;
+    font-size: 14px;
+    font-family: oswald;
+    position: relative;
+    left: 1%;
+    top: 15%;
+    color: #8ea3ba;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.SMRuleSetup_SearchPanel {
+    display: inline-block;
+}
+
+.SMRuleSetup_Rules {
+    border: 1px solid #c4ced8;
+    margin-left: 12px;
+    /*margin-right: 20px;*/
+    background-color: #f8fcff;
+    margin-bottom: 12px;
+    border-radius: 4px;
+}
+
+.SMRuleSetup_CatalogHr {
+    border: none;
+    height: 1px;
+    background: #e6e6e6;
+    width: 97.5%;
+}
+
+.SMRuleSetup_SelectedRule {
+    background-color: #f8fcff;
+}
+
+.SMRuleSetup_NotSelectedRule {
+    background-color: #fff;
+}
+
+#SMRuleSetup_NullAttributeRuleContainerForSearch {
+    display: none;
+}
+
+.SMRuleSetup_RuleStateON {
+    display: inline-block;
+    width: 30px;
+    border-radius: 2px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+    font-family: oswald;
+    background-color: #64a2d0;
+}
+
+.SMRuleSetup_RuleStateOFF {
+    display: inline-block;
+    width: 30px;
+    border-radius: 2px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+    font-family: oswald;
+    background-color: lightgray;
+}
+
+.SMRuleSetUp_Attr {
+    border-left: 3px solid white;
+    padding: 5px;
+    font-family: Lato;
+}
+
+.SMRuleSetup_Depending_More {
+    display: inline-block;
+    /* color: #546c86 !important; */
+    /* display: inline-block; */
+    /* background-color: darkgray; */
+    color: #546c86;
+    /* border-radius: 50%; */
+    width: 15px;
+    text-align: center;
+    /* float: right; */
+    /* margin-right: 160px; */
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    /* top: 1px; */
+    line-height: 22px;
+    font-weight: normal;
+    /*margin-left: 5px;*/
+    display: inline-block;
+    /* color: #546c86 !important; */
+}
+
+.SMRuleSetup_Dependent_More {
+    display: inline-block;
+    /* color: #546c86 !important; */
+    /* display: inline-block; */
+    /* background-color: darkgray; */
+    color: #546c86;
+    /* border-radius: 50%; */
+    width: 15px;
+    text-align: center;
+    /* float: right; */
+    /* margin-right: 160px; */
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    /* top: 1px; */
+    line-height: 22px;
+    font-weight: normal;
+    /*margin-left: 5px;*/
+    display: inline-block;
+    /* color: #546c86 !important; */
+}
+
+.SMRuleSetup_CollapseDisable {
+    pointer-events: none;
+    display: none;
+}
+
+.SMRuleSetup_CollapseEnable {
+    pointer-events: all;
+    display: inline-block;
+}
+
+#SMRuleSetup_Mapped_Types {
+    font-size: 14px;
+    /*padding-right: 20px;*/
+    cursor: pointer;
+    font-family: lato;
+    display: inline-block;
+    padding-left: 2%;
+    position: relative;
+    color: #43d9c6;
+    width: 90px;
+}
+
+#SMRuleSetup_SearchOnRules {
+    display: none;
+}
+
+.SMRuleSetup_AttributeRulesBinding {
+    /*line-height: 10px;*/
+}
+
+.SMRuleSetup_ApllicableOn {
+    display: inline-block;
+    color: #758a85;
+    font-weight: normal;
+    top: 1px;
+    position: relative;
+    cursor: default !important;
+}
+
+.SMRuleSetup_ApllicableOnCount {
+    display: inline-block;
+    background-color: #758a85 !important;
+    color: white;
+    border-radius: 2px;
+    width: 20px;
+    text-align: center;
+    /* float: right; */
+    /* margin-right: 160px; */
+    display: inline-block;
+    /* margin-right: 8px; */
+    position: relative;
+    top: 2px;
+    line-height: 20px;
+    font-weight: normal;
+    margin-left: 5px;
+    font-size: 11px;
+    font-family: oswald;
+    cursor: pointer !important;
+}
+
+.SMRuleSetup_priority_Container {
+    background-color: #aca4b3;
+    color: white;
+    border-radius: 2px;
+    width: 45px;
+    text-align: center;
+    /* float: right; */
+    /* margin-right: 160px; */
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    line-height: 20px;
+}
+
+.SMRuleSetup_priority_icon {
+    background-image: url('../images/priorty.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 10px;
+    position: relative;
+    top: 1px;
+}
+
+
+.SMRuleSetup_attrContainerDiv {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 250px;
+}
+
+    .SMRuleSetup_attrContainerDiv::-webkit-scrollbar {
+        width: 5px;
+        /*background-color: #666;*/
+    }
+    /* Add a thumb */
+    .SMRuleSetup_attrContainerDiv::-webkit-scrollbar-thumb {
+        background: #666;
+    }
+
+    .SMRuleSetup_attrContainerDiv::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0) !important;
+        background-color: transparent !important;
+        background: transparent !important;
+        /*border-radius: 10px;*/
+    }

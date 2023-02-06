@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0f2895f4-b7fc-46fa-b8bb-21f17c5f24c6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://datadownload.wsostage.com/GlobalTransaction/2012/06/Transaction.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Transaction.xsd" MetadataType="Schema" ID="afc7d2fa-8148-4bed-8896-171f51c08207" SourceId="1" SourceUrl="https://datadownload.wsostage.com/GlobalTransaction/2012/06/Transaction.svc?xsd=xsd1" />
+    <MetadataFile FileName="Transaction1.xsd" MetadataType="Schema" ID="10e9ffa2-6f59-496f-a0de-5d37820cd43f" SourceId="1" SourceUrl="https://datadownload.wsostage.com/GlobalTransaction/2012/06/Transaction.svc?xsd=xsd0" />
+    <MetadataFile FileName="WidgetService.wsdl" MetadataType="Wsdl" ID="30d509c0-403c-41ff-b07c-3ff974f3665a" SourceId="1" SourceUrl="https://datadownload.wsostage.com/GlobalTransaction/2012/06/Transaction.svc" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

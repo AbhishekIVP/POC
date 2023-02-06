@@ -1,0 +1,229 @@
+﻿.dataTable
+{
+border-right:1px solid #B4DEFA;
+border-bottom:1px solid #B4DEFA;
+}
+.dataAlternate
+{
+font-size:11px;
+font-weight:bold;
+color:#fff;
+border:1px solid #fff;
+background-color:#96D0FF;
+}
+.data
+{
+
+font-size:11px;
+font-weight:bold;
+color:#3385C1;
+
+border:1px solid #BFE4FF;
+background-color:#fff;
+}
+.itemsPanel
+{
+	background-image:url(images/itemPnlBg.gif);
+	background-position:top;
+	background-repeat:repeat-x;
+	border:1px solid #8CCCF8;
+	height:30px;
+	background-color:#DAEFFD;
+	
+	font-size:11px;
+	font-weight:bold;
+	color:#2B6B99;
+}
+.btnControls
+{
+	cursor:move;
+	background-image:url(images/itemCntrlsBg.gif);
+	background-repeat:repeat-x;
+	border:1px solid #498BBB;
+	padding:2px 20px;
+	
+	font-size:11px;
+	font-weight:bold;
+	color:#2B6B99;
+}
+.groupPanelTop
+{
+	background-color:#fff;
+	background-image:url(images/groupPanelTopBg.gif);
+	background-repeat:repeat-x;
+	background-position:top;
+	border:1px solid #6AC0FF;
+	height:30px;
+	
+	font-size:11px;
+	font-weight:bold;
+	color:#2B6B99;
+}
+.groupPanelLeft
+{
+	vertical-align:top;
+	background-color:#fff;
+	background-image:url(images/groupPanelLeftBg.gif);
+	background-repeat:repeat-y;
+	background-position:left;
+	border:1px solid #6AC0FF;
+	
+	font-size:11px;
+	font-weight:bold;
+	color:#2B6B99;
+}
+.groupPanelRight
+{
+	padding:20px;
+	vertical-align:top;
+	background-color:#fff;
+	background-image:url(images/groupPanelRightBg.gif);
+	background-repeat:repeat-y;
+	background-position:right;
+	border:1px solid #6AC0FF;
+	
+	font-size:11px;
+	font-weight:bold;
+	color:#2B6B99;
+}
+.panelTitle
+{
+	background-image:url(images/panelTitleBg.gif);
+	background-repeat:repeat-x;
+	
+	font-size:11px;
+	font-weight:bold;
+	color:#3385C1;
+	padding-left:15px;
+	height:23px;
+}
+
+.gridHeaders
+{
+	background-color:#4789B9;
+	
+	font-weight:bold;
+	font-size:11px;
+	color:#fff;
+	border:1px solid #fff;
+}
+.progressBarRed
+{
+	background-color:#917E06;
+    background-image:url(images/prgressBarDarkRed.jpg);
+    background-repeat:repeat-x;
+    background-position:top;
+    border:1px solid #786901;
+    height:13px;
+    color:Black;
+    
+    font-weight:normal;
+    font-size:10px;
+    text-decoration:none;
+    cursor:pointer;
+}
+.progressBarRed:hover
+{
+	background-color:#917E06;
+    background-image:url(images/prgressBarDarkRed.jpg);
+    background-repeat:repeat-x;
+    background-position:top;
+    border:1px solid #786901;
+    height:13px;
+    color:Black;
+    
+    font-weight:normal;
+    font-size:10px;
+    text-decoration: underline;
+    cursor:pointer;
+}
+.progressBarGreen
+{
+	background-color:#1B9204;
+    background-image:url(images/prgressBarGreen.jpg);
+    background-repeat:repeat-x;
+    background-position:top;
+    border:1px solid #199600;
+    height:13px;
+    color:Black;
+    
+    font-weight:normal;
+    font-size:10px;
+    text-decoration:none;
+    cursor:pointer;
+}
+.progressBarGreen:hover
+{
+	background-color:#1B9204;
+    background-image:url(images/prgressBarGreen.jpg);
+    background-repeat:repeat-x;
+    background-position:top;
+    border:1px solid #199600;
+    height:13px;
+    color:Black;
+    
+    font-weight:normal;
+    font-size:10px;
+    text-decoration: underline;
+    cursor:pointer;
+}
+.progressBarLightRed
+{
+	background-color:#0648A9;
+    background-image:url(images/prgressBarLightRed.jpg);
+    background-repeat:repeat-x;
+    background-position:top;
+    border:1px solid #2661BA;
+    height:13px;
+    color:Black;
+    
+    font-weight:normal;
+    font-size:10px;
+    text-decoration:none;
+    cursor:pointer;
+}
+.progressBarLightRed:hover
+{
+	background-color:#0648A9;
+    background-image:url(images/prgressBarLightRed.jpg);
+    background-repeat:repeat-x;
+    background-position:top;
+    border:1px solid #2661BA;
+    height:13px;
+    color:Black;
+    
+    font-weight:normal;
+    font-size:10px;
+    text-decoration: underline;
+    cursor:pointer;
+}
+.progressBarDarkRed
+{
+	background-color:#6F06B8;
+    background-image:url(images/prgressBarRed.jpg);
+    background-repeat:repeat-x;
+    background-position:top;
+    border:1px solid #6505AA;
+    height:13px;
+    color:Black;
+    
+    font-weight:normal;
+    font-size:10px;
+    text-decoration:none;
+    cursor:pointer;
+}
+.progressBarDarkRed:hover
+{
+	background-color:#6F06B8;
+    background-image:url(images/prgressBarRed.jpg);
+    background-repeat:repeat-x;
+    background-position:top;
+    border:1px solid #6505AA;
+    height:13px;
+    color:Black;
+    
+    font-weight:normal;
+    font-size:10px;
+    text-decoration: underline;
+    cursor:pointer;
+}

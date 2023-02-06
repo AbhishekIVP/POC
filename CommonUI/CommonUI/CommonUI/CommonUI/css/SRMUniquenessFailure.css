@@ -1,0 +1,115 @@
+﻿#divErrorDuplicateInner .errorDivHeading {
+    font-size: 20px;
+    color: #F4AD02;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+#divErrorDuplicateInner .errorTopTxtCls {
+    display: inline-block;
+    vertical-align: top;
+    color: #C7898C;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 5px;
+    margin-left: 10px;
+}
+
+#divErrorDuplicateInner .errorDivCloseUniqueness {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px; 
+    float: right;
+    margin-right: 5px;
+    margin-left: 0px !important;
+}
+
+#divErrorDuplicateInner .DuplicatePopupLeftHeader {
+    height: 29px;
+    background: #F0F0F0;
+    font-size: 12px;
+    padding-left: 20px;
+    line-height: 28px;
+    font-weight: bold;
+    color: gray;
+    width: 180px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+#divErrorDuplicateInner .DuplicatePopupRightHeader {
+    /*height: 29px;*/
+    /*background: rgb(226, 226, 226);*/
+    font-size: 12px;
+    line-height: 28px;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 1px solid #e8e8e8;
+    font-weight: bold;
+    color: gray;
+}
+
+#divErrorDuplicateInner .DuplicatePopupRightSecBody {
+    display: inline-block;
+    width: 125px;
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#divErrorDuplicateInner .DuplicatePopupRightSecHeader {
+    width: 555px;
+    background: #F0F0F0;
+    line-height: 28px;
+    height: 27px;
+    /*margin-top: 30px;*/
+}
+
+#divErrorDuplicateInner .DuplicatePopupRowsCls {
+    height: 20px;
+    line-height: 20px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+#divErrorDuplicateInner .DuplicatePopupLeftBar {
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    height: 395px;
+    background: #F0F0F0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#divErrorDuplicateInner .DuplicatePopupLegnameCls {
+    color: gray;
+    font-weight: bold;
+}
+
+#divErrorDuplicateInner .rightChainParentDiv {
+    height: 170px;
+    margin-bottom: 15px;
+    overflow-y: auto;
+}
+
+#divErrorDuplicateInner .rightChainParentDivChainSecParentDiv {
+    height: 190px;
+    overflow-y: auto;
+}
+
+#divErrorDuplicateInner .mostly-customized-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    border-radius: 7px;
+    background: #cccccc;
+}
+
+#divErrorDuplicateInner .mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+    background: #999;
+}
+
+#divErrorDuplicateInner .UniquenessPopupEllipses{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

@@ -1,0 +1,321 @@
+﻿body {
+    font-family:lato;
+}
+
+.SRMLandingPageList {
+    display:inline-block;
+    /*width:100%;*/
+    /*padding: 2%;*/
+    vertical-align: top;
+}
+
+.SRMLandingPageListItem {
+    height: 118px;
+    width: 22%;
+    display: inline-block;
+    margin-left: 2%;
+    margin-bottom:2%;
+    /*border:solid #fafafa;*/
+    border-radius: 5px;
+    background-color: #eef5fd;
+}
+
+.SRMLandingPageHalves {
+    /*height: 50%;*/
+}
+
+.SRMLandingPageLowerHalf {
+    width:100%;
+    height: 69px;
+    margin-top: 10px;
+    /* background:#ffffff; */
+}
+
+
+.SRMLandingPageUpperHalf {
+    height: 38px;
+    line-height: 45px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.1px !important;
+    border-bottom-color: #d3e0f1;
+    /* background: #d7dde2; */
+}
+
+.SRMLandingPageCountItemLeft {
+    /*display:inline-block;*/
+    /* width: 38%; */
+    margin-left: 15%;
+    /*margin-right:5%;*/
+    margin-bottom: 3px;
+}
+
+.SRMLandingPageCountItem:first-child {
+    /*padding-left:5%;*/
+}
+
+.SRMLandingPageCountItemCommonLeft {
+    display:inline-block;
+    /*width:49%;*/
+    vertical-align: top;
+    /* color: white; */
+    width: 10%;
+}
+
+.SRMLandingPageItemLeft {
+    height: 30px;
+    /* margin-top: 2px; */
+    /* line-height: 50%; */
+    /* vertical-align: middle; */
+    line-height: 30px;
+}
+
+.SRMLandingPageListParent {
+    overflow-y:auto;
+}
+
+.SRMLandingPageTypeName {
+    padding-left:3%;
+    /* font-size: 20px; */
+    /* height:100%; */
+    font-size: 16px !important;
+    /* line-height: 100%; */
+    font-family: oswald;
+    /* border-bottom-style: solid; */
+    /* border-bottom-width: 0.1px !important; */
+    /* border-bottom-color: #d3e0f1; */
+    margin-left: 1px;
+    margin-right: 1px;
+    text-transform: uppercase;
+    color: #4a6381;
+    text-overflow: hidden;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.SRMLandingPageCountItemIcon {
+    width:15%;
+}
+
+.SRMLandingPageCountItemNameRight {
+    /* width:65%; */
+    color: #91aecc;
+    font-family: lato;
+    font-size:12px;
+}
+
+.SRMLandingPageCountItemNameLeft {
+    width: 50%;
+    color: #4c7196;
+    font-family: lato;
+    font-size: 13px;
+
+    padding-left: 6px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.SRMLandingPageCountItemValueLeft {
+    width: 15%;
+    color: #4c7196;
+    font-size: 16px;
+    font-family: oswald;
+    /* text-align: center; */
+    cursor: pointer;
+}
+
+.SRMLandingPageCountItemValueRight {
+    /* width:15%; */
+    color: #809bbc;
+    font-size: 15px;
+    font-family: oswald;
+    width: 30%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+
+
+
+/*Tabs*/
+.SRMTabItem {
+    display:inline-block;
+    /*width: 100px;
+    background: grey;
+    text-align:center;
+    margin-left: 20px;
+    border-radius: 15px;
+    height: 30px;
+    margin-top: 5px;
+    line-height: 30px;
+    color: white;*/
+    /*font-size: 20px*/
+    margin-right: 36px;
+    padding: 2px;
+    padding-top: 3px;
+    color: rgb(75, 73, 73);
+    font-size: 14px;
+    cursor: pointer;
+    font-family: lato;
+    /* text-transform: uppercase; */
+}
+
+.SRMTabNamesHeader {
+    /* text-align:center; */
+    height: 29px;
+    box-shadow: 0px 0px 10px 0px #cdcdcd;
+    padding-bottom: 0px;
+    padding-top: 1px;
+    margin-bottom: 2px;
+    /* top: 0px; */
+    /* position: relative; */
+}
+
+.SRMSelectedTabNamesHeader {
+    cursor: default;
+    color: #4197ce;
+}
+
+.SRMTabDiv {
+    /* margin: 0 auto; */
+    padding-top: 1px;
+    display: inline-block;
+    /* padding-left: 25%; */
+    /* width: 80%; */
+    /* margin: 0 auto; */
+    width: 50%;
+    margin-left: 10%;
+    /* vertical-align: middle; */
+    /* text-align: center; */
+    margin-top: 2px;
+}
+
+.SRMLandingPageModules {
+    height: 0px;
+    position:absolute;
+    /*top:30px;*/
+    /*right: 0px;*/
+    /*left: 0px;*/
+    width:0px;    
+    display:none;
+    border-left:1px solid #e6e6e6;
+    border-bottom:1px solid #e6e6e6;
+}
+
+
+
+.SRMLandingPageCloseButton {
+    text-align: right;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.SRMTypeHeaderText {
+    display:inline-block;
+    height:22px;
+}
+
+.SRMLandingPageCloseButton {
+    display:inline-block;
+    color: grey;
+    float: right;
+    font-size: 15px;
+    vertical-align: middle;
+    margin-right: 20px;
+    width: 5%;
+    margin-top: 6px;
+    vertical-align:middle;
+}
+
+#SRMLandingPageSearchTextInputBox {
+    /*margin-left: 5%;*/
+    width:70%;
+    border:none;
+    height:25px;
+    font-size: 14px;
+}
+
+#SRMLandingPageSearchText {
+    /*margin-left: 70%;
+    width:25% !important;*/
+    height:30px;
+    line-height: 30px;
+    /*border-radius: 16px;*/
+    border-bottom: solid 1px;
+    border-color: #cacaca;
+}
+
+#SRMLandingPageSearchIcon {
+    width:2%;
+    margin-left: 1%;
+    font-size:16px;
+    height:25px;
+}
+
+.SRMLandingPageSearchTextParent {
+    padding-bottom: 15px;
+    padding-top: 10px;
+    margin-left: 2%;
+    margin-right: 4.3%;
+}
+
+.SRMTypeHeaderText {
+    padding-left: 12px;
+    /* font-size: 20px; */
+    /* height: 100%; */
+    font-size: 15px !important;
+    /* line-height: 100%; */
+    font-family: oswald;
+    display: inline-block;
+    width: 20%;
+    margin-top: 2px;
+    /* vertical-align: middle; */
+}
+
+.SRMTypeHeader {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.SRMLegRoleNameText {
+    /*margin-bottom: 3px;*/
+}
+
+.SRMLandingPageLeftHalf {
+    display:inline-block;
+    width: 74%;
+    /*background-color:#bacfec;*/
+    background: linear-gradient(#b2c9e4, #bdd5f0);
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    box-shadow: 2px 0px 8px 1px #d2d2d2;
+}
+
+.SRMLandingPageRightHalf {
+    display:inline-block;
+    width: 25%;
+    /* background-color:#eef5fd; */
+    vertical-align: top;
+    height: 113px;
+}
+
+.SRMLandingPageCountItemRight {
+    /* height:50%; */
+    padding-bottom: 10px;
+}
+
+.SRMLandingPageItemRight {
+    /* padding-top:1px; */
+    padding-top: 20px;
+}
+
+.SRMLandingPageCountItemCommonRight {
+    padding:0px;
+    text-align: center;
+}
+
+.SRMCLP_Ellipses {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

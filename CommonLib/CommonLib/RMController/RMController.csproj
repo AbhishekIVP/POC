@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F0608466-6FA0-432A-8A79-C7EDAC3E9719}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>com.ivp.common</RootNamespace>
+    <AssemblyName>RMController</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ObjectTable">
+      <HintPath>..\..\..\..\..\RefDlls\referencedDLL\ObjectTable.dll</HintPath>
+    </Reference>
+    <Reference Include="RADUIControls">
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RADUIControls.dll</HintPath>
+    </Reference>
+    <Reference Include="RADXRuleEditor">
+      <HintPath>..\..\..\..\..\refdlls\RAD Assemblies\RADXRuleEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="RBusinessCalendar">
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RBusinessCalendar.dll</HintPath>
+    </Reference>
+    <Reference Include="RConfigManager">
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RConfigManager.dll</HintPath>
+    </Reference>
+    <Reference Include="RConfigurationManagement, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RConfigurationManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="RCultureManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RCultureManager.dll</HintPath>
+    </Reference>
+    <Reference Include="RCustomClass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RCustomClass.dll</HintPath>
+    </Reference>
+    <Reference Include="RDAL">
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="RLoggerException">
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RLoggerException.dll</HintPath>
+    </Reference>
+    <Reference Include="RTransport, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RTransport.dll</HintPath>
+    </Reference>
+    <Reference Include="RUserManagement, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RUserManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="RUtils">
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="RXRuleEngine">
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RXRuleEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="SRMCommon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\CommonDlls\SRMCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="SRMCommonModules, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\CommonDlls\SRMCommonModules.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\RMCommonConstants.cs" />
+    <Compile Include="Common\RMCommonController.cs" />
+    <Compile Include="Common\RMCommonDBManager.cs" />
+    <Compile Include="Common\RMCommonInfo.cs" />
+    <Compile Include="Common\RMLookupDataMassage.cs" />
+    <Compile Include="DownstreamSystems\RMDownstreamSystemsController.cs" />
+    <Compile Include="DownstreamSystems\RMDownstreamSystemsDBManager.cs" />
+    <Compile Include="DownstreamSystems\RMDownstreamSystemsInfo.cs" />
+    <Compile Include="Exceptions\EMExceptionController.cs" />
+    <Compile Include="Exceptions\EMExceptionInfo.cs" />
+    <Compile Include="Migration\EntityTypeModelerSync.cs" />
+    <Compile Include="Migration\RMCommonMigration.cs" />
+    <Compile Include="Migration\RMDataSourceMigrationHelpers.cs" />
+    <Compile Include="Migration\RMDataSourceMigrationSync.cs" />
+    <Compile Include="Migration\RMDataSourceMigrationValidations.cs" />
+    <Compile Include="Migration\RMEntityTypeModelerMigration.cs" />
+    <Compile Include="Migration\RMEntityTypeModelerValidations.cs" />
+    <Compile Include="DataSource\RMDataSourceConstants.cs" />
+    <Compile Include="DataSource\RMDataSourceController.cs" />
+    <Compile Include="DataSource\RMDataSourceDBManager.cs" />
+    <Compile Include="Migration\RMPrioritizationMigrationValidations.cs" />
+    <Compile Include="Migration\RMPrioritizationSync.cs" />
+    <Compile Include="Migration\RMRealTimePreferenceSync.cs" />
+    <Compile Include="Migration\RMRealTimePreferenceValidations.cs" />
+    <Compile Include="Migration\RMTimeSeriesTaskSync.cs" />
+    <Compile Include="Modeler\RMModelerConstants.cs" />
+    <Compile Include="Modeler\RMModelerController.cs" />
+    <Compile Include="Modeler\RMModelerDBManager.cs" />
+    <Compile Include="Modeler\RMModelerInfo.cs" />
+    <Compile Include="Prioritization\RMPrioritizationConstants.cs" />
+    <Compile Include="Prioritization\RMPrioritizationController.cs" />
+    <Compile Include="Prioritization\RMPrioritizationDBManager.cs" />
+    <Compile Include="Prioritization\RMPrioritizationInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataSource\RMDataSourceInfo.cs" />
+    <Compile Include="Reporting\EMReportingTaskController.cs" />
+    <Compile Include="RealTimePreference\RMPreferenceConstants.cs" />
+    <Compile Include="RealTimePreference\RMPreferenceController.cs" />
+    <Compile Include="RealTimePreference\RMPreferenceInfo.cs" />
+    <Compile Include="RealTimePreference\RMRealTimePreferenceDBManager.cs" />
+    <Compile Include="Reporting\RMReportingConstants.cs" />
+    <Compile Include="Reporting\RMReportingController.cs" />
+    <Compile Include="Reporting\RMReportingDBManager.cs" />
+    <Compile Include="Reporting\RMReportingInfo.cs" />
+    <Compile Include="Reporting\RMReportingTaskInfo.cs" />
+    <Compile Include="TimeSeries\RMTimeSeriesController.cs" />
+    <Compile Include="TimeSeries\RMTimeSeriesDBManager.cs" />
+    <Compile Include="TransportTasks\RMTransportTasksConstants.cs" />
+    <Compile Include="TransportTasks\RMTransportTasksController.cs" />
+    <Compile Include="SecMaster\RMSectypeAPI.cs" />
+    <Compile Include="SecMaster\RMSectypeController.cs" />
+    <Compile Include="TransportTasks\TransportTasksDBManager.cs" />
+    <Compile Include="Vendor Management\SRMVendorManagement.cs" />
+    <Compile Include="Vendor Management\SRMVendorManagementConstants.cs" />
+    <Compile Include="Vendor Management\SRMVendorManagementDBManager.cs" />
+    <Compile Include="Vendor Management\SRMVendorSettingsController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonDAL\CommonDAL.csproj">
+      <Project>{CB89F4FF-2FC0-426E-BBBE-C0B03CAADFB2}</Project>
+      <Name>CommonDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RCommonTaskManager\RCommonTaskManager.csproj">
+      <Project>{9C550547-055F-4187-B5D1-3546D09B0682}</Project>
+      <Name>RCommonTaskManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RVendorAPI\SRMVendorAPI.csproj">
+      <Project>{fece7635-718a-4628-b69c-55debb043135}</Project>
+      <Name>SRMVendorAPI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SMController\SMController.csproj">
+      <Project>{00fc7867-3a5c-4fb9-a943-9b0ba38d7b34}</Project>
+      <Name>SMController</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(TargetPath)" "$(ProjectDir)..\..\..\..\..\RefDLLs\CommonDlls\"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configs>
+  <module>
+    <wizard>
+      <config key="reconwizard" filename="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.WizardConfig.xml" assemblyname="RadAdmin"  moduleid ="1" ></config>
+      <config key="refMasterWizard" filename="com.ivp.refmaster.ui.ConfigFiles.Embedded.WizardConfig.xml" assemblyname="RefMasterUI"  moduleid ="6" ></config>
+    </wizard>
+    <wizardflow>
+      <config key="reconwizardFlow" filename="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.WizardFlowConfig.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+      <config key="refMasterWizardFlow" filename="com.ivp.refmaster.ui.ConfigFiles.Embedded.WizardFlowConfig.xml" assemblyname="RefMasterUI" moduleid ="6" ></config>
+    </wizardflow>
+    <viewconfig>
+      <config key="reconviewconfig" filename="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.ViewConfig.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+      <config key="radviewconfig" filename="com.ivp.rad.raduicontrols.ConfigFiles.Embedded.ViewConfig.xml" assemblyname="RADUIControls" moduleid ="1" ></config>
+      <config key="refMasterViewConfig" filename="com.ivp.refmaster.ui.ConfigFiles.Embedded.ViewConfig.xml" assemblyname="RefMasterUI" moduleid ="6" ></config>
+    </viewconfig>
+    <auditlog>
+      <config key="radauditlog" filename="com.ivp.rad.RAuditLog.ConfigFiles.AuditLogConfig.xml" assemblyname="RAuditLog" moduleid ="1" ></config>
+    </auditlog>
+    <histogram>
+      <config key="reconhistogram" filename="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.HistogramSchema.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+    </histogram>
+    <linechart>
+      <config key="reconlinechart" filename="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.LineChartSchema.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+    </linechart>
+    <parser>
+      <config key ="radparser" filename ="com.ivp.rad.parser.ConfigFiles.ParserConfig.xml" assemblyname="RParsers" moduleid ="1" ></config>
+    </parser>
+    <pbadapter>
+      <config key ="radpbadapter" filename ="com.ivp.rad.RPbAdaptor.ConfigFiles.PbAdapterConfig.xml" assemblyname="RPbAdaptor" moduleid ="1" ></config>
+    </pbadapter>
+    <piechart>
+      <config key ="radpiechart" filename ="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.PieChartSchema.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+    </piechart>
+    <drilldownschema>
+      <config key="DrillDownSchemaCashBalance" filename="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.DrillDownSchemaCashBalance.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+      <config key="DrillDownSchemaCashBalanceConsolidated" filename="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.DrillDownSchemaCashBalanceConsolidated.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+      <config key="drilldownschemaContinuity" filename="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.DrillDownSchema.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+      <config key="drilldownschemaUnexplained" filename="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.DrillDownSchemaUnexplained.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+      <config key="drilldownschemaContinuitySummary" filename="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.DrillDownSchemaSummary.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+      <config key="drilldownschemaUnexplainedSummary" filename="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.DrillDownSchemaUnexplainedSummary.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+    </drilldownschema>
+    <radui>
+      <config key ="radUI" filename ="com.ivp.rad.raduicontrols.ConfigFiles.Embedded.RADUIConfig.xml" assemblyname="RADUIControls" moduleid ="1" ></config>
+    </radui>
+    <reportingcore>
+      <config key ="reportingcore" filename ="com.ivp.rad.reporting.ConfigFiles.ReportingCoreConfig.xml" assemblyname="RReportingManager" moduleid ="1" ></config>
+    </reportingcore>
+    <reportingsetup>
+      <config key ="reportingsetup" filename ="com.ivp.rad.reporting.ConfigFiles.ReportingSetupConfig.xml" assemblyname="RReportingManager" moduleid ="1" ></config>
+    </reportingsetup>
+    <usermanagement>
+      <config key ="raduseranagement" filename ="configfiles\UserManagementConfig.xml" assemblyname="" moduleid ="1" ></config>
+    </usermanagement>
+    <vendormanagement>
+      <config key ="reconvendormanagement" filename ="configfiles\VendorManagement.xml" assemblyname="" moduleid ="1" ></config>
+      <config key="VendorConfigurationPath" filename="ConfigFiles\VendorManagement.xml" assemblyName="" moduleid="6"></config>
+    </vendormanagement>
+    <transport>
+      <config key="radtransport" filename ="com.ivp.rad.transport.ConfigFiles.TransportConfig.xml" assemblyname="RTransport" moduleid ="1" ></config>
+    </transport>
+    <vendorapicontrol>
+      <config key="RefM_staticXML" filename="com.ivp.refmaster.ui.ConfigFiles.Embedded.StaticXML.xml" assemblyname="RefMasterUI" moduleid ="6" ></config>
+    </vendorapicontrol>
+    <refmasterconfig>
+      <config key="RefM_EntityCreation" filename="com.ivp.refmaster.ui.ConfigFiles.Embedded.EntityCreationPreAlpha.xslt" assemblyname="RefMasterUI" moduleid ="6" ></config>
+      <config key="RefM_AttributeManagement" filename="com.ivp.refmaster.ui.ConfigFiles.Embedded.AttributeManagement.xslt" assemblyname="RefMasterUI" moduleid ="6" ></config>
+      <config key="RefM_DynamicDBConfig" filename="com.ivp.refmaster.ui.ConfigFiles.Embedded.RDynamicDBConfig.xml" assemblyname="RefMasterUI" moduleid ="6" ></config>
+      <config key="RefM_RefMasterControllerConfig" filename="com.ivp.refmaster.ui.ConfigFiles.Embedded.RefMasterControllerConfig.xml" assemblyname="RefMasterUI" moduleid ="6" ></config>
+      <config key="RefM_ReportingConfiguration" filename="com.ivp.refmaster.ui.ConfigFiles.Embedded.RefMasterReportConfig.xml" assemblyname="RefMasterUI" moduleid ="6" ></config>
+    </refmasterconfig>
+  </module>
+  <application>
+    <dalconfig>
+      <config key="dalConfig" filename="configfiles\DalConfig.xml" assemblyname="" moduleid ="1" ></config>
+    </dalconfig>
+    <applicationconfig>
+      <config key="applicationConfig" filename="configfiles\ApplicationConfig.xml" assemblyname="" moduleid ="1" ></config>
+    </applicationconfig>
+    <ruleconfig>
+      <config key ="radrule" filename ="com.ivp.rad.ruleengine.ConfigFiles.RuleConfig.xml" assemblyname="RRuleEngine" moduleid ="1" ></config>
+    </ruleconfig>
+    <extadapter>
+      <config key ="extadapter" filename ="configfiles\ExtAdapterConfig.xml" assemblyname="" moduleid ="1" ></config>
+    </extadapter>
+    <logger>
+      <config key ="logger" filename ="ConfigFiles\LoggerConfig.xml" assemblyname="" moduleid ="1" ></config>
+    </logger>
+    <reconcore>
+      <config key ="reconcore" filename ="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.ReconCoreConfig.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+    </reconcore>
+    <recondynamic>
+      <config key ="recondynamic" filename ="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.ReconDynamicConfig.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+    </recondynamic>
+    <reconreport>
+      <config key ="reconreport" filename ="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.ReconReportConfig.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+    </reconreport>
+    <reconsetup>
+      <config key ="reconsetup" filename ="configfiles\ReconSetupConfig.xml" assemblyname="" moduleid ="1" ></config>
+    </reconsetup>
+    <recontype>
+      <config key ="recontype" filename ="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.ReconTypeConfig.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+    </recontype>
+    <reconworkflowrules>
+      <config key ="ruleoperand" filename ="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.RRuleOperands.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+      <config key ="ruleoperation" filename ="com.ivp.rad.RADAdminUI.ConfigFiles.Embedded.RRuleOperations.xml" assemblyname="RadAdmin" moduleid ="1" ></config>
+    </reconworkflowrules>
+    <errorConfig>
+      <config key="errorConfig" filename="ConfigFiles\ErrorMailConfig.xml" assemblyName="" moduleid="1"></config>
+    </errorConfig>
+
+  </application>
+  <embeddedmodules>
+    <module>
+      <add modulename="RAD" moduleid="5" />
+      <add modulename="RefMaster" moduleid="6" />
+    </module>
+  </embeddedmodules>
+</configs>

@@ -1,0 +1,827 @@
+﻿*
+{
+  /* -webkit-backface-visibility:hidden;*/
+   /* -webkit-user-select: none; */
+}
+
+::-webkit-scrollbar
+{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track
+{
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: rgb(43, 43, 43);
+    border-radius: 10px;
+}
+
+h2
+{
+    font-size: 1.5em;
+}
+h3
+{
+    margin-top:0px;margin-bottom:5px;
+}
+
+#pageHeader {
+display: inline-block;
+height: 53px;
+background: url('../images/recon_logo_int.png');
+background-repeat: no-repeat;
+width: 100%;
+}
+
+.tmpMenu {
+padding: 3px 73px;
+display: inline-block;
+color: #fff;
+font-family: Arial;
+font-size: 12px;
+font-weight: bold;
+padding-top: 2px;
+padding-left: 5px;
+cursor: pointer;
+background: -webkit-linear-gradient(top,#0B73B6,#0A5F9F);
+border-right-color: #094e8c;
+border-left-style: solid;
+border-width: 3px;
+border-right-style: solid;
+border-left-color: #0b7abe;
+}
+
+#pageHeaderContainer {
+background-color: rgb(68, 136, 175);
+position: relative;
+margin: -10px;
+height: 79px;
+width: 101.2%;
+background: -webkit-linear-gradient(left, white,rgb(0, 99, 155));
+background: -ms-linear-gradient(left, white,rgb(0, 99, 155));
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#00639b',GradientType=1);
+border-bottom: 3px inset rgb(2, 63, 129);
+box-shadow: 0px 0px 10px;
+z-index: 10000;
+background-image: url('../images/header-patt.jpg');
+}
+
+#content
+{
+    margin: 25px;
+}
+
+body
+{
+    /*overflow: hidden;*/
+    background-color: #EBEBEB;
+    font-size: 12px;
+    background-image: url(../images/bright_squares.png);
+}
+
+.update-icon:hover, .delete-icon:hover, .subscribe-icon:hover, .details-icon:hover, .expand-icon:hover
+{
+    opacity: 0.7;
+    filter: alpha(opacity=75);
+}
+
+.update-icon, .delete-icon, .subscribe-icon, .details-icon, .expand-icon
+{
+    z-index: 100;
+    text-align: center;
+    width: 22px;
+    height: 20px;
+    margin: -10px;
+}
+
+#tBody .custom_handler {
+	background:url(../CTMimages/application-code-128.png);
+}
+#tBody .details
+{
+    background: url('../CTMimages/Info_Button-128.png');
+}
+
+#tBody .configure
+{
+    background: url('../CTMimages/edit.png');
+}
+#tBody .children-row .configure
+{
+    background:none;
+    cursor:default;
+}
+#tBody .configure_page_url
+{
+    background: url('../CTMimages/settings.png');
+}
+
+#tBody .delete_ico
+{
+    background: url('../CTMimages/deletered.png');
+}
+
+#tBody .last_run_status.red
+{
+    background: url('../images/redball.gif');
+    background-size: 22px;
+}
+
+
+
+#tBody .last_run_status.green
+{
+    background-image: url(../CTMimages/Flag-green-icon.png);
+  
+}
+
+
+#tBody .is_muted.muted
+{
+    background-image: url(../CTMimages/Iconfinder_0037_25-light.png);
+}
+
+#tBody .is_muted.unmuted
+{
+    background-image: url(../CTMimages/Black_ThumbsUp-light.png);
+}
+
+#tBody .trigger_task
+{
+    padding: 0px 10px;
+    height: 27px;
+}
+
+#tBody .details, #tBody .configure, #tBody .delete_ico, #tBody .is_muted,#tBody .last_run_status,#tBody .custom_handler,#tBody .configure_page_url
+{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 20px; /*22*/
+    background-position: center;
+    padding: 0px 10px;/*10px 10px*/
+    cursor: pointer;
+    height: 30px;
+    
+}
+
+.expand-icon
+{
+    content: url('../CTMimages/toggle-expand-alt_sticker.png');
+}
+
+.children-row div.ctm-cell.subscribe.subscribed, .gridRow div.ctm-cell.subscribe.subscribed
+{
+    background-position: -446px -34px;
+}
+
+.children-row div.ctm-cell.subscribe, .gridRow div.ctm-cell.subscribe
+{
+    width: 0px;
+    background: url('../images/app2.png') no-repeat top center;
+    height: 22px;
+    margin-bottom: -8px;
+    background-position: -428px -34px;
+    margin-left: 40px;
+    margin-right: 40px;
+    vertical-align:super;
+   
+}
+
+/*.gridHead .ctm-cell:hover
+{
+    background-color: #307EC1;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}*/
+
+.childrend-row div.ctm-cell.chain_id
+{
+    width: 18px;
+    height: 34px;
+    background: url('../pngIcons/app2.png') no-repeat top center;
+    height: 32px;
+    margin-bottom: -8px;
+    background-position: -428px -34px;
+    margin-left: 30px;
+}
+
+.flow_id
+{
+    width: 10px;
+    z-index: 100;
+}
+
+#mainContainer
+{
+    
+    width: 100%;/*1452px;*/
+    min-width:1455px;
+    border-radius: 10px;
+    font-size: 12px;
+    box-shadow: 0px 0px 8px rgb(146, 146, 146);
+    border: 1px solid rgb(218, 218, 218);
+}
+#lightbox
+{
+    position: fixed;
+    /*background-color: rgb(0,0,0);
+    opacity:0.4;
+    
+     filter: alpha(opacity=40);*/ /* IE 7 and Earlier */
+    /* Next 2 lines IE8 *//*
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+    */
+    background:url(http://upload.wikimedia.org/wikipedia/commons/d/d3/Black_%2850%25_transparent%29.png);
+    
+  
+    
+    height: 120%;
+    width: 120%;
+    display: none;
+    top: 0px;
+    left: 0px;
+    margin: -10px;
+    z-index: 50;
+}
+.popup
+{
+    position: fixed;
+    display: none;
+    padding: 50px;
+    background-color: rgb(230, 230, 230);
+    z-index: 100;
+    color: rgb(43, 43, 43);
+    border-radius: 10px;
+}
+#slidingPanelBtn, #schedulingInfoPanelBtn
+{
+    position: relative;
+    background-color: rgb(39, 108, 182);
+    float: right;
+     right: 44px;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 3px 4px rgb(126, 126, 126);
+}
+
+#slidingPanelBtn:hover
+{
+    opacity: .9;
+}
+#slidingContent
+{
+    display: none;
+    box-shadow: 0px 0px 20px rgb(111, 111, 111);
+    position: relative;
+    height: 0px;
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    border-radius: 0px 0px 10px 10px;
+    border: 3px solid rgb(13, 88, 170);
+    background: -webkit-linear-gradient(top,rgb(223, 223, 223),rgb(205, 209, 216));
+    background: -ms-linear-gradient(top,rgb(223, 223, 223),rgb(205, 209, 216));
+    color: rgb(37, 37, 37);
+}
+
+#left1, #left2, #left3
+{
+    padding: 0px 0px 0px 22px;
+    position: relative;
+    float: left;
+    width: 34%;
+}
+.left1, .left2, .left3
+{
+    padding: 44px;
+    position: relative;
+    float: left;
+}
+#tasksContainer, #selectedTasksContainer
+{
+    height: 200px;
+    overflow: auto;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(172, 172, 172);
+    margin-top: 5px;
+    list-style-type: none;
+    border-radius: 6px;
+}
+
+#slidingContent #tasksContainer .tasks
+{
+    color: #445775;
+    padding: 5px;
+    border-bottom: 1px solid silver;/*border-bottom: 1px solid rgb(194,194,194);*/ /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1)));*/ /*border-radius:5px;*/\
+    position:relative;
+}
+.tasks.even {
+background-color: rgb(235, 235, 235);
+}
+#slidingContent #tasksContainer .tasks:hover, #slidingContent #tasksContainer .tasks.selected:hover
+{
+    border-bottom: 1px inset rgba(255,255,255, 0.28);
+    background-color: rgb(56, 92, 138);
+    padding: 5px;
+    color: white; /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(55, 159, 255, 1)), color-stop(50%,rgba(113, 189, 239, 1)), color-stop(51%,rgba(33, 164, 226, 1)), color-stop(100%,rgba(114, 184, 240, 1)));*/
+}
+
+#slidingContent #tasksContainer .tasks.selected
+{
+    border-bottom: 1px inset rgba(255,255,255, 0.28);
+    background-color: rgb(56, 92, 138);
+    color: rgb(255, 253, 253) /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(55, 159, 255, 1)), color-stop(50%,rgba(113, 189, 239, 1)), color-stop(51%,rgba(33, 164, 226, 1)), color-stop(100%,rgba(114, 184, 240, 1)));*/;
+}
+
+#ctm-gridHead:after {
+position: absolute;
+content: ' ';
+height: 3%;
+width: 100%;
+background-color: transparent;
+background: -webkit-linear-gradient(top,rgb(241, 241, 241),rgba(255, 255, 255, 0));background: -ms-linear-gradient(top,rgb(241, 241, 241),rgba(255, 255, 255, 0));
+top: 0px;
+left: 0;
+border-radius: 200px 264px 300px 300px;
+}
+#selectedTasksContainer li
+{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1)));
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%);
+    padding: 5px;
+    border-bottom: 1px solid silver;
+    border-radius: 5px;
+}
+#selectedTasksContainer li:active
+{
+    cursor: move;
+}
+#selectedTasksContainer li:hover
+{
+   /* background-color: Orange;*/
+}
+#deletePlaceholder
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 30px;
+    background: url(../CTMimages/trashcan-128.png), -webkit-linear-gradient(bottom,rgba(182, 48, 48, 1) 20%, rgba(224, 48, 48, 0.26) 55%,rgba(85, 0, 0, 0)100%);
+    background: url(../CTMimages/trashcan-128.png), -ms-linear-gradient(bottom,rgba(182, 48, 48, 1) 20%, rgba(224, 48, 48, 0.26) 55%,rgba(85, 0, 0, 0)100%);
+    display: block;
+    z-index: 2000;
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#deletePlaceholderBg
+{
+    display: none;
+    background: -webkit-linear-gradient(top,rgba(255, 0, 0, 0.01),rgba(255, 0, 0, 0.3) 85%,rgb(216, 18, 18));background: -ms-linear-gradient(top,rgba(255, 0, 0, 0.01),rgba(255, 0, 0, 0.3) 85%,rgb(216, 18, 18));
+}
+#schedulingInfo
+{
+    display: none;
+    box-shadow: 0px 0px 20px rgb(111, 111, 111);
+    position: absolute;
+    height: 340px;
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    border-radius: 0px 0px 10px 10px;
+    border: 3px solid rgb(13, 88, 170);
+    background: -webkit-linear-gradient(top,rgb(223, 223, 223),rgb(205, 209, 216));background: -ms-linear-gradient(top,rgb(223, 223, 223),rgb(205, 209, 216));
+    top: 0px;
+    color: rgb(37, 37, 37);
+    z-index: 3000;
+}
+#schedulingInfo2
+{display: none;
+
+position: relative;
+height: 100%;
+width: 100%;
+background-color: rgb(224, 224, 224);
+background: -webkit-linear-gradient(top,rgb(223, 223, 223),rgb(205, 209, 216));
+background: -ms-linear-gradient(top,rgb(223, 223, 223),rgb(205, 209, 216));
+top: 0px;
+color: rgb(37, 37, 37);
+
+left: 0px;
+}
+
+#schedulingInfo2 .left1, #schedulingInfo2 .left2{
+padding: 0px;
+
+}
+.popup
+{
+    display: none;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    background-color: rgba(2, 45, 92, 0.63);
+    border-radius: 10px 10px 10px 10px;
+    z-index: 60;
+    padding: 20px;
+    box-shadow: 0px 0px 50px rgb(36, 36, 36);
+}
+#configureTasksPopup
+{
+}
+
+#configureTasksTable td
+{
+    text-align: center;
+}
+.popupBody
+{
+    background-color: rgb(224, 224, 224);
+    background: -webkit-linear-gradient(top,rgb(223, 223, 223),rgb(205, 209, 216)); background: -ms-linear-gradient(top,rgb(223, 223, 223),rgb(205, 209, 216));
+    padding: 10px;
+    color: rgb(61, 61, 61);
+    
+    position: relative;
+    box-shadow:0px 0px 10px rgb(53, 53, 53);
+    
+}
+
+.toolbar
+{
+    height: 25px;
+    padding: 12px;
+    padding-left: 0px;
+}
+.toolbar > *
+{
+    vertical-align:top;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: 2px solid rgb(29, 91, 139);
+    color: rgb(51, 51, 51);
+    padding: 1.5px;
+    box-shadow: 0px 0px 10px rgb(145, 146, 146);
+}
+
+.customSelectContainer
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 179px;
+    background-image: url(../CTMimages/down4-512.png);
+    background-repeat: no-repeat;
+    background-position: 97%;
+    padding-right: 20px;
+    background-size: 17px;
+    background-color: whiteSmoke;
+}
+#configureTasksTable tbody tr
+{
+    background-color: rgb(238, 238, 238);
+}
+
+.ivpCornerImage {
+position: absolute;
+background-image: url(../CTMimages/client-r-rotated.png);
+width: 201px;
+height: 143px;
+bottom: 0px;
+right: -61px;
+background-repeat: no-repeat;
+opacity: 0.6;
+}
+.dependantSelected {
+box-shadow: 0px 0px 15px rgb(88, 88, 88);
+border: 2px solid rgb(132, 181, 219);
+position: relative;
+}
+.gridRow.dependantSelected:hover{}
+    
+#ctm-gridHead .ctmcheckbox {
+	
+	position: relative;
+    z-index: 1;
+}
+.btn3way {
+position: relative;
+background: rgb(61, 138, 223);
+width: 52px;
+height: 12px;
+padding: 7px 20px;
+border-radius: 5px;
+color: rgb(224, 224, 224);
+cursor: pointer;
+box-shadow: 0px 0px 10px rgb(119, 119, 119);
+text-shadow: 1px 1px 2px rgb(63, 63, 63);
+}
+.btn3way .btnLeft, .btn3way .btnRight
+{
+	display:none;
+    position: absolute;
+    top: 0px;
+    width: 50%;
+    height: 55%;
+    background-color: rgb(56, 56, 56);
+    background-color: rgba(56, 56, 56, 0.69);
+    
+    padding:7px 0px;
+    
+}
+.btnLeft:hover, .btnRight:hover {
+opacity: 1.0;
+}
+.btnLeft:active, .btnRight:active {
+opacity: .8;
+}
+
+.btn3way .btnLeft
+{
+	left:0px;
+	border-radius: 5px 0px 0px 5px;
+	-webkit-backface-visibility: hidden;
+	
+}
+
+.btn3way .btnRight
+{
+	right:0px;
+	border-radius: 0px 5px 5px 0px;
+	width: 49.5%;
+}
+
+.btnRight:after {
+content: '';
+position: absolute;
+/*background-color: white;*/
+left: 3px;
+top: 2px;
+height: 45%;
+width: 89%;
+border-radius: 10px 0px 10px 0px;
+background: -webkit-linear-gradient(top,rgba(255, 255, 255, 0.07),rgba(255, 255, 255, 0.51),rgba(255, 255, 255, 0));
+background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.07) ,rgba(255, 255, 255, 0.51) ,rgba(255, 255, 255, 0) );
+background: linear-gradient(to bottom, rgba(255, 255, 255, 0.07) ,rgba(255, 255, 255, 0.51) ,rgba(255, 255, 255, 0));
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=rgba(255, 255, 255, 0.07), endColorstr=rgba(255, 255, 255, 0.51),GradientType=0 );
+
+}
+
+.btnLeft:after {
+content: '';
+position: absolute;
+/*background-color: white;*/
+left: 3px;
+bottom: 2px;
+height: 45%;
+width: 89%;
+border-radius: 10px 0px 10px 0px;
+background: -webkit-linear-gradient(top,rgba(255, 255, 255, 0.07),rgba(255, 255, 255, 0.51),rgba(255, 255, 255, 0));
+background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.07) ,rgba(255, 255, 255, 0.51) ,rgba(255, 255, 255, 0) );
+background: linear-gradient(to bottom, rgba(255, 255, 255, 0.07) ,rgba(255, 255, 255, 0.51) ,rgba(255, 255, 255, 0));
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=rgba(255, 255, 255, 0.07), endColorstr=rgba(255, 255, 255, 0.51),GradientType=0 );
+
+}
+.threeWayCheckBox{
+-webkit-user-select:none;
+color: rgb(78, 78, 78);
+font-size: 13px;
+width: 15px;
+height: 15px;
+box-shadow: 0px 0px 5px rgb(148, 148, 148) inset;
+border-radius: 3px;
+border: 1px solid rgb(165, 165, 165);
+padding: 1px 1px;
+text-align: center;
+cursor:pointer;
+font-weight: bold;
+background-color: white;
+}
+
+.threeWayCheckBox.off{
+}
+
+.threeWayCheckBox.or
+{
+background: url(../CTMimages/success.png);
+background-repeat: no-repeat;
+background-size: 15px;
+background-position: 1px;
+
+}
+
+.threeWayCheckBox.and
+{
+background: url(../CTMimages/success.png);
+background-repeat: no-repeat;
+background-size: 15px;
+background-position: 1px;
+font-size: 15px;
+}
+
+.parsley-error-list {
+font-size: 11px;
+margin: 2px;
+list-style-type: none;
+color: rgb(238, 71, 71);
+margin-top: -3px;
+position:absolute;
+}
+
+input.parsley-error, textarea.parsley-error {
+color: #B94A48 !important;
+background-color: #F2DEDE !important;
+border: 1px solid #CF6E7D !important;
+}
+input.parsley-success, textarea.parsley-success {
+color: #468847 !important;
+background-color: #DFF0D8 !important;
+border: 1px solid #84B15F !important;
+}
+
+#configureTasksTable .thead {
+background-color: rgb(39, 39, 39);
+color: rgb(202, 202, 202);
+}
+
+.taskChartItems {
+position: absolute;
+border-radius: 10px;
+display: inline-block;
+background-color: rgb(4, 90, 138);
+background: -webkit-linear-gradient(top,rgb(4, 90, 138),rgb(0, 53, 83));
+padding: 10px;
+margin: 2px;
+box-shadow: 0px 0px 10px rgb(143, 143, 143);
+color: rgb(214, 214, 214);
+}
+
+#taskChart {
+color: rgb(4, 90, 138);
+display: none;
+position: absolute;
+background-color: rgb(228, 239, 245);
+padding: 3px;
+border: 3px dashed rgb(93, 141, 168);
+box-shadow: 0px 0px 10px rgb(114, 113, 113);
+right: 8px;
+top: 38px;
+border-radius: 10px;
+}
+	
+#preLoader {
+position: fixed;
+display: none;
+height: 131px;
+width: 131px;
+right: 57px;
+z-index: 500000;
+background-image: url('../images/preloader2.gif');
+background-repeat: no-repeat;
+background-color: rgba(248, 248, 248, 0.78);
+border: 10px solid rgba(2, 45, 92, 0.63);
+padding: 20px;
+background-position: 20px;
+border-radius: 28px;
+}
+	
+#successSubscribtionListContainer .subscribeEntity.selected {
+/*background-color: rgb(99, 134, 109);*/background-color: rgb(60, 118, 172);
+color: rgb(248, 248, 248);
+}
+#failureSubscribtionListContainer .subscribeEntity.selected {
+/*background-color: rgb(177, 126, 126);*/
+background-color: rgb(60, 118, 172);
+color: rgb(240, 240, 240);
+}
+
+.subscriptionListContainer
+{margin: -5px 5px;float:left;
+width: 326px;
+    }
+#successSubscribtionListContainer,#failureSubscribtionListContainer {
+border: 1px solid rgb(184, 184, 184);
+max-height: 116px;
+overflow: auto;
+background: white;
+margin-bottom: 10px;
+}
+
+#successSubscribtionListContainer {
+	
+	
+color: rgb(41, 41, 41);
+}
+#failureSubscribtionListContainer {
+	
+color: rgb(41, 41, 41);
+}
+
+
+#showDependancy 
+{
+    text-shadow: 1px 1px 2px black;
+float: right;
+background: url(../CTMimages/Numbers-128.png) rgb(75, 75, 75);
+background-size: 20px;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 30px;
+box-shadow: 2px 2px 10px rgb(156, 156, 156);
+background-repeat: no-repeat;
+background-position: right;
+padding: 4px 9px;
+padding-right: 27px;
+color: rgb(207, 203, 203);
+cursor: pointer;
+}
+
+#showDependancy:hover 
+{
+    text-shadow: 1px 1px 2px white;
+background-color: rgb(171, 210, 218);
+color: rgb(68, 68, 68);
+}
+.cross {
+	
+
+width: 23px;
+height: 20.5px;
+position: absolute;
+right: -12px;
+top: -12px;
+background: url(../CTMimages/close-icon.png);
+background-size: 23px;
+background-repeat: no-repeat;
+cursor:pointer;
+
+}
+
+#schedulingInfo2SlideBtn
+{
+    box-shadow: 0px 3px 5px rgb(65, 65, 65);
+background:rgb(69, 119, 153);
+font-size: 13px;
+padding: 5px 19px;
+position: absolute;
+right: 10px;
+bottom: -25px;
+z-index: 1;
+color: rgb(224, 224, 224);
+border-radius: 0px 0px 10px 10px;
+cursor: pointer;
+}
+
+/*#ctm-gridHead .ctm-cell {
+text-shadow: 1px 1px 2px rgb(163, 163, 163);
+}
+*/
+#successSubscribtionListContainer .even {
+background-color: rgb(225, 233, 224);
+}
+
+#failureSubscribtionListContainer .even {
+background-color: rgb(233, 224, 224);
+}
+
+.ui-widget-header {
+border: 1px solid #aaaaaa;
+color: #DDDDDD;
+font-weight: bold;
+background: -webkit-linear-gradient(top,rgb(39, 108, 182),rgb(30, 83, 139));
+background: -ms-linear-gradient(top,rgb(39, 108, 182),rgb(30, 83, 139));
+background:rgb(39, 108, 182);
+}
+
+.ui-widget-content {
+border: 1px solid #aaaaaa;  
+color: #222222;
+background: rgb(226, 226, 226);
+}
+
+.glow-text {
+	-webkit-animation: text-glow 1s 1 linear;
+}
+
+@-webkit-keyframes text-glow
+{
+0% {opacity:1}
+50% {opacity:0.0}
+100% {opacity1}
+}
+
+.ctm-cell.dependantOnBtn {
+padding: 16px 10px;
+background: url("../CTMimages/gear blue.png");
+background-repeat: no-repeat;
+background-size: 28px;
+background-position: center;
+cursor: pointer;
+}
+#content
+{
+    zoom: .9;
+overflow: auto;}

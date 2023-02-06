@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://markit.com/Markit/LoanReferenceData/2012/04" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:i0="http://markit.com/Markit/LoanReferenceData/2013/11" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://markit.com/Markit/LoanReferenceData/2012/04" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="FacilitySearchServicePort_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <sp:SignedSupportingTokens xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:UsernameToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+              <wsp:Policy>
+                <sp:WssUsernameToken10 />
+              </wsp:Policy>
+            </sp:UsernameToken>
+          </wsp:Policy>
+        </sp:SignedSupportingTokens>
+        <sp:Wss11 xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy />
+        </sp:Wss11>
+        <sp:Trust10 xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:MustSupportIssuedTokens />
+            <sp:RequireClientEntropy />
+            <sp:RequireServerEntropy />
+          </wsp:Policy>
+        </sp:Trust10>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:import namespace="http://markit.com/Markit/LoanReferenceData/2013/11" location="http://datadownload.wsostage.com/LoanReferenceData/2013/11/FacilitySearch.svc?wsdl" />
+  <wsdl:types />
+  <wsdl:binding name="FacilitySearchServicePort" type="i0:FacilitySearchService">
+    <wsp:PolicyReference URI="#FacilitySearchServicePort_policy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetFacilityBySecurityId">
+      <soap:operation soapAction="http://markit.com/Markit/LoanReferenceData/2013/11/GetFacilityBySecurityId" style="document" />
+      <wsdl:input name="GetFacilityBySecurityIdRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetFacilityResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="GeneralServiceFaultFault">
+        <soap:fault use="literal" name="GeneralServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableFacilities">
+      <soap:operation soapAction="http://markit.com/Markit/LoanReferenceData/2013/11/GetAvailableFacilities" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAvailableFacilitiesResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="GeneralServiceFaultFault">
+        <soap:fault use="literal" name="GeneralServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetContractsByFacilityId">
+      <soap:operation soapAction="http://markit.com/Markit/LoanReferenceData/2013/11/GetContractsByFacilityId" style="document" />
+      <wsdl:input name="GetContractsByFacilityIdRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetContractsByFacilityIdResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="GeneralServiceFaultFault">
+        <soap:fault use="literal" name="GeneralServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetAmortizationByFacilityId">
+      <soap:operation soapAction="http://markit.com/Markit/LoanReferenceData/2013/11/GetAmortizationByFacilityId" style="document" />
+      <wsdl:input name="GetAmortByFacilityIdRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAmortByFacilityIdResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="GeneralServiceFaultFault">
+        <soap:fault use="literal" name="GeneralServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetCreditDocumentBySecurityId">
+      <soap:operation soapAction="http://markit.com/Markit/LoanReferenceData/2013/11/GetCreditDocumentBySecurityId" style="document" />
+      <wsdl:input name="GetCreditDocumentBySecurityIdRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetCreditDocumentBySecurityIdResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="GeneralServiceFaultFault">
+        <soap:fault use="literal" name="GeneralServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetCreditDocumentById">
+      <soap:operation soapAction="http://markit.com/Markit/LoanReferenceData/2013/11/GetCreditDocumentById" style="document" />
+      <wsdl:input name="GetCreditDocumentByIdRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetCreditDocumentByIdResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="GeneralServiceFaultFault">
+        <soap:fault use="literal" name="GeneralServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetFacilityCreditDocuments">
+      <soap:operation soapAction="http://markit.com/Markit/LoanReferenceData/2013/11/GetFacilityCreditDocuments" style="document" />
+      <wsdl:input name="GetFacilityCreditDocumentBySecurityIdRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetFacilityCreditDocumentResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="GeneralServiceFaultFault">
+        <soap:fault use="literal" name="GeneralServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableCreditDocumentFacilities">
+      <soap:operation soapAction="http://markit.com/Markit/LoanReferenceData/2013/11/GetAvailableCreditDocumentFacilities" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetAvailableCreditDocumentFacilitiesResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="GeneralServiceFaultFault">
+        <soap:fault use="literal" name="GeneralServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetCovenantLiteBySecurityId">
+      <soap:operation soapAction="http://markit.com/Markit/LoanReferenceData/2013/11/GetCovenantLiteBySecurityId" style="document" />
+      <wsdl:input name="GetCovenantLiteBySecurityIdRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetCovenantLiteResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="GeneralServiceFaultFault">
+        <soap:fault use="literal" name="GeneralServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

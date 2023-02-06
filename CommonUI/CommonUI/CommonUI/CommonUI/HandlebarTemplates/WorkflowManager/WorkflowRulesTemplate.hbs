@@ -1,0 +1,106 @@
+﻿{{#each css}}
+<link rel="stylesheet" type="text/css" href="{{css}}" />
+{{/each}}
+
+{{#each workflowRulesTemplate}}
+<div data-ruleSetid="{{WorkflowRuleSetID}}" class="WorkflowRuleSetID" data-index="{{@index}}" data-isdefaultWorkFlow="{{SRMWorkFlowIsDefault}}" data-radworkflowinstanceId="{{RadWorkFlowInstanceID}}" data-moduleid="{{moduleId}}" data-priority="{{WorkFlowRulePriority}}" data-ruleText="{{SRMWorkFlowRuleText}}" data-radtemplatename="{{RadWorkFlowInstanceName}}">
+    <div class="workflow-rules-setup-card">
+        <div class="RadWorkFlowRuleWithTemplateContainer">
+            <div class="SRMShowRADWorkFlowRuleContainer" data-name="{{RadWorkFlowInstanceName}}">
+                <i class="fa fa-eye SRMShowRADWorkFlowRule" data-index="{{@index}}" data-name="{{RadWorkFlowInstanceName}}"></i>
+
+
+                {{#if SRMWorkFlowIsDefault}}
+                <div class="SRMWorkFlowShowDefault" title="Default WorkFlow">Default WorkFlow</div>
+                {{else}}
+                <div class="SRMWorkFlowRuleShowRule">
+                    <div class="SRMWorkFlowRuleRuleTextWrapper">
+                        <!--<label style="display: inline-block;">
+                            Rule :
+                        </label>-->
+                        <div style="display: inline-block;" class="SRMWorkFlowRuleText" title="{{SRMWorkFlowRuleText}}">
+                            {{SRMWorkFlowRuleText}}
+                        </div>
+                    </div>
+                </div>
+                {{/if}}
+            </div>
+            <!--#if SRMWorkFlowIsDefault}}-->
+            <!--<div class="SRMWorkFlowRuleName" title="Default WorkFlow">Default WorkFlow</div>-->
+            <!--else}}-->
+            <!--<div class="SRMWorkFlowRuleName" title=WorkFlowRuleName}}>WorkFlowRuleName}}</div>-->
+            <!--{/if}}-->
+            <div class="RadWorkFlowInstanceNameContainer">
+                <div class="RadWorkFlowInstanceNameText">Template : </div>
+                <div class="RadWorkFlowInstanceName" title="{{RadWorkFlowInstanceName}}">{{RadWorkFlowInstanceName}}</div>
+            </div>
+        </div>
+        <div class="SRMWorkFlow_pud">
+            {{#if SRMWorkFlowIsDefault}}
+            {{else}}
+            <div class="SRMWorkFlowRulePriorityContainer">
+                <div class="SRMWorkFlowRule_priority_icon">
+                </div>
+                <div class="SRMWorkFlowRulePriority" style="cursor:default;" title="{{WorkFlowRulePriority}}">
+                    {{WorkFlowRulePriority}}
+                </div>
+            </div>
+            {{/if}}
+            <!-- change state button start -->
+            {{#if SRMWorkFlowIsDefault}}
+            {{else}}
+            <div class="SRMWorkFlowRuleStateContainer">
+                <div class="SRMWorkFlowRuleState">
+
+                    {{#if SRMWorkFlowRuleState}}
+                    <div id="{{SRMWorkFlowRuleStateID}}" class="SRM_ruleStateON">ON</div>
+                    {{else}}
+                    <div id="{{SRMWorkFlowRuleStateID}}" class="SRM_ruleStateOFF">OFF</div>
+                    {{/if}}
+
+                    <!--<button id=SRMWorkFlowRuleStateID}} aria-hidden="true" #if SRMWorkFlowRuleState}} class="SRM_ruleStateON“/if}}"></button>-->     <!--Keep Initially OFF State-->
+                </div>
+            </div>
+            {{/if}}
+            <!-- change state button end-->
+            <div class="SRMWorkFlowEditEmailTemplateContainer">
+                <div class="SRMWorkFlowEditEmailTemplate">Email Template</div>
+            </div>
+
+            <div class="SRMWorkFlowRuleUpdateContainer">
+                <div class="SRMWorkFlowRuleUpdate">
+                    <i class="fa fa-pencil-square-o fa-lg SRMWorkFlowRuleUpdateIcon" aria-hidden="true" id="{{SRMWorkFlowRuleUpdateID}}">
+                    </i>
+                </div>
+            </div>
+
+            <div class="SRMWorkFlowRuleDeleteContainer">
+                <div class="SRMWorkFlowRuleDelete">
+                    <i class="SRMWorkFlowRuleDeleteIcon fa fa-trash-o fa-lg" aria-hidden="true" id="{{SRMWorkFlowRuleDeleteID}}">
+                    </i>
+                </div>
+            </div>
+
+            <div class="SRMWorkFlowRuleStatePopUpContainer">
+                <div class="SRMWorkFlowRuleStatePopUp">
+                    <!--<i class="SRMWorkFlowRuleStatePopUpIcon fa fa-plus-square-o fa-lg" aria-hidden="true" id="{{@index}}">
+            </i>-->
+                    <div class="SRMWorkFlowRuleStatePopUpIcon">Data Validation</div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--<div class="workflowSetup_editableTemplateContainer">
+            <div class="workflowSetup_editableTemplate">EDIT</div>
+        </div>-->
+    </div>
+</div>
+
+{{#workflowRuleinsertIframePanel @index}}{{/workflowRuleinsertIframePanel}}
+{{/each}}
+
+
+{{#each scripts}}
+<script src="{{script}}"></script>
+{{/each}}

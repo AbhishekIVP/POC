@@ -1,0 +1,553 @@
+﻿`
+{
+    height: auto !important;
+}
+
+#tabToggleDiv
+{
+    /* position: absolute; */
+    /* left: 44%; */
+    /* margin-left: -110px; */
+    /* margin-top:10px; */
+    width: 376px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.tabToggleClass
+{
+    margin-right: 36px;
+    padding: 2px;
+    padding-top: 0px;
+    color: rgb(75, 73, 73);
+    font-size: 14px;
+    cursor: pointer;
+    font-family: lato;
+    /*text-transform: uppercase;*/
+}
+
+.selectedTabClass
+{
+    /*color: rgb(0, 0, 0);
+    border-bottom: 4px solid rgba(4, 163, 206, 1);*/
+    cursor: default;
+    color: #4197ce;
+}
+
+#outer-div
+{
+    /* position: absolute; */
+    /* top: 125px; */
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.left-section {
+    width: 255px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left-section-head
+{
+    height: 38px;
+}
+
+.right-section {
+    /*width: 840px;*/
+    display: inline-block;
+    /*overflow-x: auto;*/
+    /*height:300px;*/
+}
+
+.right-section-inner-head
+{
+    height: 38px;
+    /* width: 1320px; */
+}
+
+.right-section-inner
+{
+    width:135%;
+}
+.row
+{
+    padding-bottom:15px;
+}
+.row-left 
+{
+    display: inline-block;
+    width: 100%;
+    background-color: #62778f;
+    border-radius: 4px;
+    padding-left: 5px;
+    color: white;
+    font-family: lato;
+    margin-bottom: 8px;
+}
+
+.typeName
+{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	display: inline-block;
+	padding-top: 6px;
+	padding-bottom: 4px;
+	font-size: 13px;
+	width: 70%;
+	color: white;
+}
+
+.typeExceptionCount
+{
+    display: inline-block;
+    border-left: solid 1px #6c737b;
+    padding-left: 10px;
+    color: #e09999;
+    font-family: oswald;
+    float: right;
+    margin-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    width: 20%;
+    font-size: 17px;
+}
+
+.row-right
+{
+    display: inline-block;
+    width: 1320px;
+    background-color: #ffffff;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    margin-bottom: 7px;
+    margin-left: 1px;
+}
+
+.exceptions-details-div
+{
+    /*display:none;*/
+    /*left:0px;
+    position:absolute;*/
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 200px;
+    height: 0px;
+    /* box-shadow: 1px 1px 10px #808080; */
+    background-color: #fff;
+    z-index:99;
+}
+
+.exceptionsTypeDiv
+{
+    display: inline-block;
+    /*margin-left: 20px;*/
+    width:120px;
+    text-align:center;
+}
+
+.exceptionsType
+{
+    display:inline;
+    color: #6e6969;
+    font-family: lato;
+    font-size: 13px;
+    /* */
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    width: 120px;
+}
+
+.exceptionsCount,.exceptionsCountZero
+{
+    display:inline;
+    /*border: solid 1px #cecece;*/
+    padding: 4px;
+    margin-left: 5px;
+    /*background-color: #f4f4f4;*/
+    color: #d98383;
+    font-family: oswald;
+    font-size: 15px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    border-radius: 2px;
+}
+
+/*** CSS From Dashboard ***/
+.DataExceptionsTagsScrollContainer
+{
+    display: inline-block;
+    overflow: hidden;
+    margin:10px auto;
+    height: 100%;
+    vertical-align: top;
+}
+
+.DataExceptionsTag
+{
+    display: inline-block;
+    vertical-align: top;
+    height: 21px;
+    margin: 0px 0px 0px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 0px;
+}
+
+.DataExceptionsTagSelected .DataExceptionsTagTitle
+{
+    background: #48a3dd;
+    color: white;
+    border: 0px;
+}
+
+.DataExceptionsTagSelected .DataExceptionsTagCount
+{
+    background: #48a3dd;
+    color: #ffffff;
+}
+
+.DataExceptionsTagTitleHover
+{
+    background: #48a3dd !important;
+    color: white !important;
+}
+
+.DataExceptionsTagCountHover
+{
+    background:  #E7E7E7 !important;
+    color: #8E8E8E !important;
+}
+
+.DataExceptionsTagTitle
+{
+    display: inline-block;
+    vertical-align: top;
+    height: 33px;
+    font-size: 14px;
+    background: #9cc9e6;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Oswald;
+    line-height: 33px;
+    padding: 0px 10px;
+}
+
+.DataExceptionsTagCount
+{
+    display: inline-block;
+    vertical-align: top;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 17px;
+    color: #ffffff;
+    background: #9cc9e6;
+    /* border-radius: 3px; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0px 10px;
+}
+
+.dashboardDownArrow
+{
+    font-size: 30px !important;
+    position: relative;
+    top: 3px;
+    color: #48a3dd;
+    height: 17px;
+}
+
+/***  ***/
+
+#rightMenuDiv
+{
+    position: absolute;
+    right: 20px;
+    top: 7px;
+    color: #d2d2d2;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+div#allsystemsDiv {
+    /* position: absolute; */
+    width: 96%;
+    /* margin-left: 0%; */
+    /* margin-right: 5%; */
+    height: 85%;
+    color: #514b4b;
+    background-color: #fafafa;
+    padding-left: 4%;
+    padding-right: 6%;
+    /* width: 1410px; */
+    margin: 0px auto;
+}
+
+.outer-system-div {
+    width: 46%;
+    margin-right: 4%;
+    background-color: #f5f5f5;
+    display: inline-block;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    /* margin-top: 1%; */
+    margin-top: 7px;
+    width: 46%;
+}
+
+.outer-system-div:hover
+{
+    /*box-shadow: 0px 0px 9px gray;*/
+}
+.system-exception-type {
+    margin-left: 15px;
+    padding-top: 5px;
+    font-family: oswald;
+    text-transform: uppercase;
+    color: #767678;
+    font-size: 15px;
+}
+
+.system-exception {
+    padding-top: 25px;
+    margin-left: 7px;
+    padding-bottom: 25px;
+    background-color: #e8ebf0;
+    margin-right: -5px;
+    border-radius: 2px;
+}
+
+.system-exception-left {
+    width: 25%;
+    display: inline-block;
+    padding-left: 2%;
+}
+
+.system-exception-right {
+    width: 24%;
+    display: inline-block;
+    padding-left: 3%;
+}
+
+.system-sec-name {
+    font-family: lato;
+    color: #498399;
+    font-size: 15px;
+    display: inline;
+    vertical-align: super;
+    padding-right: 16px;
+}
+
+.system-sec-sub-name
+{
+    font-family: lato;
+    width: 60%;
+    display: inline;
+    font-size: 12px;
+    vertical-align: top;
+    color: #498399;
+    font-size: 12px;
+}
+
+.system-sec-count {
+    display: inline;
+    font-family: oswald;
+    font-size: 17px;
+    color: #498399;
+}
+
+.system-sec-count:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.system-ref-name {
+	font-family: lato;
+	color: #498399;
+	font-size: 15px;
+	display: inline;
+	vertical-align: super;
+	padding-right: 16px;
+}
+
+.system-ref-sub-name
+{
+    font-family: lato;
+    width: 60%;
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: top;
+    color: #606378;
+    font-size: 12px;
+}
+
+.system-ref-count {
+	display: inline;
+	font-family: oswald;
+	font-size: 17px;
+	color: #498399;
+}
+
+.system-ref-count:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.system-sec-count-zero
+{
+    display: inline-block;
+    background-image: url("../css/images/thumb_sec.png");
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+    opacity: 0.6;
+}
+
+.system-ref-count-zero 
+{
+	display: inline-block;
+	background-image: url("../css/images/thumb_ref.png");
+	width: 25px;
+	height: 25px;
+	background-repeat: no-repeat;
+	vertical-align: bottom;
+	opacity: 0.6;
+}
+
+.system-sec-count-zero-text {
+    display: inline-block;
+    padding-top: 3px;
+    padding-bottom: 16px;
+    color: #635d58;
+    font-family: lato;
+    position: relative;
+    top: 7px;
+    font-size: 14px;
+}
+
+.loadingMsg
+{
+    text-align: center;
+    width: 100%;
+    top: 0px;
+    position: absolute;    
+}
+
+.alertBG
+{
+    background-color: #000;
+    filter: alpha(opacity=50);
+    opacity: 0.1;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    vertical-align: top;
+}
+
+.downArrowDiv
+{
+    display: block;
+    position:relative;
+    margin:0px 5px;
+}
+
+#dateFilter
+{
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+    top: 5px;
+    color: #48a3dd;
+    font-size: 13px;
+    padding: 2px 4px 0px 0px;
+    font-family: 'lato' , Sans-Serif;
+    text-align: right;
+    overflow: hidden;
+}
+
+.noexceptionsDiv{
+    width: 500px;
+    padding-bottom: 13px;
+    font-size: 13px;
+    font-family: lato;
+}
+
+.EM_backBtnText
+{
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    font-size: 13px;
+    padding-right: 10px;
+    font-family: Lato;
+}
+
+.EM_tagsArrow 
+{
+    font-size:18px !important;
+    cursor: pointer;
+    margin: 18px 5px;
+}
+
+.EM_tagsHover
+{
+    background-color:#48a3dd;
+}
+
+.dashboardDownArrowDiv
+{
+    height:25px;
+}
+
+#em_topSection
+{
+    height: inherit;
+    top: 0px;
+    position: relative;
+    box-shadow: 0px 0px 10px 0px #cdcdcd;
+    padding-bottom: 5px;
+}
+
+#em_pageContainer
+{
+    background-color: #fafafa;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#em_errorMsgContainer{
+    width:100%;
+    height:400px;
+    position:relative;
+}
+
+.system-exception-outer-div
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #dfe5ea;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 100%;
+}

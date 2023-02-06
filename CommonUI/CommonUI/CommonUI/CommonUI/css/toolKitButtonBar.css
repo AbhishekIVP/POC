@@ -1,0 +1,8853 @@
+/* Button Bar Header Css Start */
+/* Button Bar Header Css Start */
+/* Button Bar Header Css Start */
+/* Button Bar Header Css Start */
+/* Button Bar Header Css Start */
+/* Button Bar Header Css Start */
+.buttonBarHeader
+{
+    /* height: 60px; */
+    font-family: 'Oswald' , sans-serif;
+    font-weight: normal; /* padding: 3px 0; */
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+#toolKitTabContainer
+{
+    background-color:#F2F5F8;
+}
+
+.buttonBar
+{
+    height: 60px;
+    width: 90px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.buttonImage
+{
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    line-height: 40px;
+}
+
+.buttonLabel
+{
+    height: 20px; /* font-size: 20px; */
+    overflow: hidden;
+    text-align: center;
+}
+/* Button Bar Header Css End */
+
+
+
+/*  Add Widget Css Start */
+.addWidgetPopUp
+{
+    max-width: 400px;
+    position: absolute;
+    top: 117px;
+    left: 10px;
+    min-width: 370px;
+    border: 1px solid lightgray;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 4px #e0dede;
+}
+
+.addWidgetPopUp:after
+{
+    content: "";
+    position: absolute;
+    top: -13px;
+    left: 234px;
+    border-style: solid;
+    border-width: 0 13px 13px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.addWidgetPopUp:before
+{
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 233px;
+    border-style: solid;
+    border-width: 0 14px 14px;
+    border-color: lightgray transparent;
+    display: block;
+    z-index: 0;
+}
+
+.gridSectionWdgt
+{
+    margin: 0 5px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+}
+
+.chartSectionWdgt
+{
+    margin: 0 5px; /* border-bottom: 1px solid lightgray; */
+    padding-bottom: 5px;
+}
+
+.gridlstItemsHeader
+{
+    color: #04a4cf;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.gridlstItems:hover
+{
+    border-left: 4px solid #5F9043;
+}
+
+.gridlstItemsparent:hover
+{
+    background-color: #EAEAEA;
+}
+
+.chartlstItemsParent:hover
+{
+    background-color: #EAEAEA;
+}
+
+.gridlstItems
+{
+    padding-left: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    border-left: 4px #C5C5C5 solid;
+}
+
+.chartlstItemsHeader
+{
+    color: #04a4cf;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.chartlstItems:hover
+{
+    border-left: 4px solid #5F9043;
+}
+
+.chartlstItems
+{
+    padding-left: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    border-left: 4px #C5C5C5 solid;
+}
+.bindTabs
+{
+    font-family: 'Oswald' , sans-serif;
+    font-weight: normal; /* padding: 3px 0; */ /* border-bottom: 2px solid lightgray;*/
+    padding-bottom: 2px;
+    cursor: pointer;
+    height: 30px; /* width: 30px; */
+    display: inline-block;
+}
+.newTabClass
+{
+    margin-top: 0;
+    position: relative;
+    border-bottom: 3px solid #00bcef;
+    background-color: transparent !important;
+    background: url(../../SuperAwesome/icons/selected_tab_texture.png);
+    width: 100px;
+    color: white;
+    list-style-type: none;
+    height: 30px;
+    text-align: center;
+    line-height: 25px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.existingTab
+{
+    margin-top: 0;
+    position: relative;
+    border-bottom: 3px solid #00bcef;
+    background-color: transparent !important;
+    background: url(../../SuperAwesome/icons/selected_tab_texture.png);
+    width: 100px;
+    color: white;
+    list-style-type: none;
+    height: 33px;
+    text-align: center;
+    line-height: 31px;
+    margin-right: 10px;
+    display: inline-block; /* color: white !important; */
+}
+li.existingTab a
+{
+    color: White;
+}
+li.newTabClass a
+{
+    color: White;
+}
+.gridlstItemsparent
+{
+    padding: 5px;
+    background-color: #F1F2F4;
+}
+
+.chartlstItemsParent
+{
+    padding: 5px;
+    background-color: #F1F2F4;
+}
+
+/*  Add Widget Css End */
+
+
+/*  Select DataSource Css Start */
+.addDataSourcePopup
+{
+  /*  position: relative;*/
+    /* border-bottom: 4px solid #21ACE5; */
+    background-color: white;
+    height: 73px;
+}
+
+
+
+.dataSourceItem
+{
+    font-family: 'Istok Web';
+    display: inline-block;
+    width: 160px;
+    text-align: left;
+    color: #919496;
+    height: 35px;
+    border-radius: 15px;
+    line-height: 35px;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+.dataSourcelabel
+{
+    font-family: 'Istok Web';
+    /* cursor: pointer; */
+    /* border-left: 4px #C5C5C5 solid; */
+    /* margin-left: 5px; */
+    display: inline-block;
+    width: 145px;
+    text-align: right;
+    color: #AEAEAE;
+    height: 35px;
+    font-size: 16px;
+    /* border: 1px solid #21ACE5; */
+    border-radius: 15px;
+    line-height: 35px;
+    /* margin-right: 20px; */
+    font-size: 16px;
+    /* position: relative; */
+    /* right: 5px; */
+    /* padding-right: 20px; */
+    text-transform: uppercase;
+}
+
+.dataSourceItemParent:hover
+{
+    background-color: #EAEAEA;
+}
+
+.DataSourceHeader
+{
+    font-family: Lato;
+    font-size: 13px;
+    margin: 0 5px;
+    padding: 5px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.landingPage
+{
+    height : 73px;   
+}
+
+.DataSourceBodyDisplay
+{
+    text-align: right ! important;
+    display:inline-block;
+    width:50%;
+    line-height: 45px;
+    height: 45px; 
+}
+
+.DataSourceBody
+{
+    text-align: center;
+    line-height: 33px;
+    height: 33px;
+    /* padding-top: 5px; */
+}
+
+.dataSourceItemParent
+{
+    padding: 5px 0;
+    background-color: #F1F2F4;
+    vertical-align: middle;
+}
+
+/*  Select DataSource Css End */
+
+
+
+/* GlobalFilter Css Start */
+.globalFiltersCollection
+{
+    /* height: 70%; */
+    width: 100%;
+    background-color: #fbfbfb;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.globalFIlter
+{
+    /*height: 159px;*/
+    width: 100%;
+    padding: 6px 17px;
+    position: relative;
+}
+
+.filterName
+{
+    display: inline-block;
+    /* padding-left: 10px; */
+    text-transform: uppercase;
+    font-family: Oswald;
+    height: 22px;
+    line-height: 22px;
+}
+
+.filterSourceTable
+{
+    float: left;
+    width: 55%;
+    padding-left: 10px;
+    overflow: hidden;
+    height: 22px;
+    line-height: 22px;
+    text-overflow: ellipsis;
+    border-right: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+}
+
+.filterSourceColumn
+{
+    float: left;
+    width: 55%;
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 22px;
+    line-height: 22px;
+    text-overflow: ellipsis;
+    border-right: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+}
+
+.filterDefaultValue
+{
+    /* height:20px; */
+    display: inline-block;
+    width: 55%;
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+    text-overflow: ellipsis;
+    border-right: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    position:relative;
+}
+
+.globalFilterInnerDiv
+{
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+    padding-bottom: 2px;
+    border-radius: 4px;
+    /* border: 1px solid lightgray; */
+    font-family: Lato;
+    padding: 0 10px;
+    /*height: 148px;*/
+    padding-top: 5px;
+}
+
+.globalFilterFooter
+{
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    /* padding-right: 20px; */
+    vertical-align: middle;
+    position: relative;
+    width: 100%;
+}
+
+.globalFilterParentDiv 
+{
+    width: 300px;
+    height: 30px;
+    position: relative;
+    z-index: 999;
+}
+
+.globalFilterLable 
+{
+    width: 150px;
+    float: left;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 30px;
+}
+
+.globalFilterInput 
+{
+    float: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.btnSaveGlobalFilter
+{
+    /* position: absolute; */
+    float: right;
+    top: 3px;
+    right: -13px;
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 22px;
+    font-family: Lato;
+    font-size: 14px;
+    /* padding: 2px 10px; */
+    cursor: pointer;
+    line-height: 22px;
+    width: 80px;
+    text-align: center;
+}
+
+.btnCancelGlobalFilter
+{
+    /* position: absolute; */
+    float: right;
+    top: 3px;
+    right: -13px;
+    /* background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%); */
+    border: none;
+    /* background-color: #43D9C6; */
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: #bdbdbd;
+    height: 22px;
+    font-family: Lato;
+    font-size: 14px;
+    /* padding: 2px 10px; */
+    cursor: pointer;
+    line-height: 22px;
+    width: 80px;
+    text-align: center;
+}
+
+.globalFilterPopUp
+{
+    /* height: 100%; */
+    position: absolute;
+    width: 350px;
+    /* min-width: 325px; */
+    top: 42px;
+    border-radius: 2px;
+    background-color: #fbfbfb;
+    font-family: Lato;
+    box-shadow: 0px 4px 8px rgba(97, 97, 97, 0.16);
+    /* border: 1px solid lightgray; */
+    z-index: 99;
+    /* padding: 7px 20px 20px 20px; */
+    padding-bottom: 0px;
+    padding-top: 1px;
+}
+
+.globalFilterPopUp:after
+{
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 256px;
+    border-style: solid;
+    border-width: 0 8px 9px;
+    border-color: white transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.globalFilterPopUp:before
+{
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 256px;
+    border-style: solid;
+    border-width: 0 8px 9px;
+    border-color: #d6d6d6 transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+}
+.globalFilterPopUpParamScreen
+{
+    /* height: 100%; */
+    position: absolute;
+    max-width: 350px;
+    min-width: 325px; /*right: 0px;     top: 85px;*/
+    background-color: #EBEBEB;
+    font-family: Lato;
+    box-shadow: -4px 3px 6px #949494;
+    border: 1px solid lightgray;
+}
+
+.globalFilterPopUpParamScreen:after
+{
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: -15px;
+    border-style: solid;
+    border-width: 0 12px 15px;
+    border-color: #EBEBEB transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.globalFilterPopUpParamScreen:before
+{
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: -16px;
+    border-style: solid;
+    border-width: 0 12px 15px;
+    border-color: lightgray transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+}
+.filterisMultiSelectLabel
+{
+    /* display: inline-block; */
+    /* width: 45%; */
+    padding: 5px 0;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-left: 0px;
+}
+
+.filterDefaultValueLabel
+{
+    float: left;
+    width: 45%;
+    /* padding-left: 10px; */
+    /* position: relative; */
+    border-left: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    background-color: #F0F0F0;
+    PADDING-LEFT: 2PX;
+    color: #5b5b5b;
+}
+
+.filterSourceColumnLabel
+{
+    float: left;
+    width: 45%;
+    /* padding-left: 10px; */
+    position: relative;
+    border-left: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    background-color: #F0F0F0;
+    PADDING-LEFT: 2PX;
+    color: #5b5b5b;
+}
+
+.rowHeight
+{
+    height:30px;
+}
+
+.filterSourceTableLabel
+{
+    float: left;
+    width: 45%;
+    /* padding-left: 10px; */
+    position: relative;
+    border-left: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    background-color: #F0F0F0;
+    PADDING-LEFT: 2px;
+    color: #5b5b5b;
+}
+
+.filterNameLabel
+{
+    display: inline-block;
+    width: 45%;
+    padding-left: 10px;
+}
+
+.filterisMultiSelect
+{
+    display: inline-block;
+    width: 50%;
+    padding: 0px 0;
+    /* padding-left: 10px; */
+    text-align: left;
+}
+
+.globalFilterHeader
+{
+    background-color: #fbfbfb;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    /* font-weight: bold; */
+    position: relative;
+    /* left: -10px; */
+    /* width: 107%; */
+    font-size: 16px;
+    color: #a9a8a8;
+    text-transform: uppercase;
+}
+
+.btnAddGlobalFilter
+{
+    position: absolute;
+    right: 0px; /* right: 0px; */
+    height: 30px;
+    width: 30px;
+    display: block;
+    top: 0px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    color: #41D8C7;
+    cursor: pointer;
+}
+
+.btnAddGlobalFilterHidden
+{
+    display: none;
+}
+
+.editGlobalFilter
+{
+    float: right;
+    cursor: pointer;
+    vertical-align: bottom;
+    position: relative;
+    top: 5px;
+}
+
+.functionRow
+{
+    height: 25px;
+    line-height: 23px;
+    padding-right: 10px;
+    position: absolute;
+    top: 8px;
+    right: 14px;
+}
+
+.deleteGlobalFilter
+{
+    float: right;
+    padding-right: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+}
+
+.addGlobalFilterHidden
+{
+    display: none;
+    padding: 12px;
+    position: relative;
+}
+
+.addGlobalFilter
+{
+    padding: 5px 20px;
+    position: relative;
+}
+
+.tablecollection
+{
+    position: absolute;
+    height: 200px;
+    overflow-y: auto;
+    width: 162px;
+    background-color: White;
+    position: absolute;
+    background-color: #FFFFFF;
+    font-family: 'Lato';
+    font-size: 13px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 10px #C5C5C5;
+    padding: 10px 0;
+    z-index:99;
+}
+
+.tableCollectionChild
+{
+    height: 22px;
+    line-height: 22px;
+    padding-left: 5px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    height: 23px;
+    line-height: 23px;
+    vertical-align: middle;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: hidden;
+}
+
+.tableCollectionChild:hover
+{
+     border-left: 4px solid #00BCEF;   
+     padding-left:16px;
+}   
+
+
+
+
+.columncollection
+{
+    position: absolute;
+    height: 200px;
+    overflow-y: auto;
+    width: 162px;
+    background-color: White;
+    position: absolute;
+    background-color: #FFFFFF;
+    font-family: 'Lato';
+    font-size: 13px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 10px #C5C5C5;
+    padding: 10px 0;
+    z-index: 99;
+}
+
+.columnCollectionChild
+{
+    height: 22px;
+    line-height: 22px;
+    padding-left: 5px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    height: 23px;
+    line-height: 23px;
+    vertical-align: middle;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.columnCollectionChild:hover
+{
+     border-left: 4px solid #00BCEF;   
+     padding-left:16px;
+}
+
+
+.addFilterTable
+{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    table-layout: fixed;
+}
+
+.addFilterLable
+{
+    width: 50%;
+    border-left: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    background-color: #F0F0F0;
+    padding-left: 8px;
+    padding-right: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: #6f6f6f;
+}
+.addFilterValue
+{
+    width: 50%;
+    border-right: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.addDefaultValueLable   
+{
+    width: 50%;
+    border-left: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    background-color: #F0F0F0;
+    padding-left: 8px;
+    padding-right: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: #6f6f6f;
+}
+.addDefaultValue,.addRangeDefaultValue
+{
+    width: 50%;
+    border-right: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    position:relative;
+}
+
+.addFilterLableTest
+{
+    width: 50%;
+    padding-left: 8px;
+    padding-right: 10px;
+    color: #6f6f6f;
+}
+.addFilterValueTest
+{
+    width: 50%;
+    height:20px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.toolKitTextBox
+{
+    border: none;
+    width: 75%;
+    padding-left: 8px;
+    outline: none;
+    font-family: Lato;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #414141;
+    background-color: #fbfbfb;
+}
+
+.toolKitDefaultTextBox,.toolKitRangeDefaultTextBox
+{
+    border: none;
+    width: 70%;
+    padding-left: 8px;
+    outline: none;
+    font-family: Lato;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #414141;
+    background-color: #fbfbfb;    
+}
+
+
+.addGlobalParameters
+{
+    position: absolute;
+    top: 9px;
+    right: 20px;
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 22px;
+    font-family: Lato;
+    font-size: 12px;
+    padding: 2px 10px;
+    cursor: pointer; /* padding-top: 2px; */
+}
+
+.btnConfigure
+{
+    top: 8px;
+    right: 8px;
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 20px;
+    font-family: Lato;
+    font-size: 12px;
+    padding: 2px 10px;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+    line-height: 16px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.btnEditParent
+{
+    height:34px;
+    padding: 8px 4px 8px 4px;
+    float:left;
+}
+
+.btnEdit
+{
+    border: none;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: #4cf2dd;
+    height: 20px;
+    font-family: Lato;
+    font-size: 14px;
+    padding: 2px 0;
+    cursor: pointer;
+    line-height: 18px;
+    border-radius: 2px;
+}
+
+.btnAddTabRelationParent
+{
+    height:34px;
+    padding: 8px 4px 8px 4px;
+    float:left;
+}
+
+.btnAddTabRelation
+{
+    /*background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);*/
+    border: none;
+    /*background-color: #43D9C6;*/
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: #4cf2dd;
+    height: 20px;
+    font-family: Lato;
+    font-size: 14px;
+    padding: 2px 2px;
+    cursor: pointer;
+    line-height: 16px;
+    border-radius: 2px;
+}
+
+.btnGlobalParameterParent
+{
+    height:34px;
+    padding: 8px 4px 8px 4px;
+    float:left;
+}
+
+.btnGlobalParameter
+{
+    /*background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);*/
+    border: none;
+    /*background-color: #43D9C6;*/
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: #4cf2dd;
+    height: 20px;
+    font-family: Lato;
+    font-size: 14px;
+    padding: 2px 2px;
+    cursor: pointer;
+    line-height: 16px;
+    border-radius: 2px;
+    /* font-weight: bold; */
+}
+
+.btnPreviewParent
+{
+    height:34px;
+    padding: 8px 4px 8px 4px;
+    float:left;
+}
+
+.btnPreview
+{
+    /* background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%); */
+    border: none;
+    /* background-color: #43D9C6; */
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: #4cf2dd;
+    height: 20px;
+    font-family: Lato;
+    font-size: 14px;
+    padding: 2px;
+    cursor: pointer;
+    line-height: 16px;
+    border-radius: 2px;
+}
+/* GlobalFilter Css End */
+
+/* Procedure Section Start */
+.ProcedureText
+{
+    display: inline-block;
+    font-size: 23px;
+    color: #21ACE5;
+    margin-right: 60px;
+    cursor: pointer;
+    font-family: Oswald;
+    /* margin-top: -5px; */
+    height: 34px;
+    line-height: 34px;
+}
+
+.ProcText
+{
+    display: inline-block;
+    font-size: 14px;
+    color: #AEAEAE;
+    /* margin-right: 60px; */
+    cursor: pointer;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+}
+
+.ProcName
+{
+    display: inline-block;
+    padding-left: 8px;
+    height: 45px;
+    line-height: 45px;
+    cursor: pointer;
+    color: #CCCFD1;
+    font-size: 16px;
+}
+
+.OrText
+{
+    display: inline-block;
+    font-size: 13px;
+    color: #cbcbcb;
+    margin-right: 60px;
+    font-family: Lato;
+    position: relative;
+    top: -4px;
+    height: 34px;
+    line-height: 34px;
+}
+.QueryText
+{
+    display: inline-block;
+    font-size: 23px;
+    color: #919DA5;
+    font-family: Oswald;
+    cursor: pointer;
+    height: 34px;
+    line-height: 34px;
+}
+
+.TextParentDisplay
+{
+    display:inline-block;
+    width:48%;
+    text-align:left! important;   
+}
+
+.TextParent
+{
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+    padding-left: -17px;
+    position: relative;
+}
+/*  Select DataSource Css End */
+/*table drop down css start*/
+.addTableSourcePopup
+{
+}
+.TableSourceHeading
+{
+    color: #C4C2C3;
+    width: 350px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 35px;
+    font-size: 16px;
+}
+.tableSearch
+{
+    margin-left: 21%;
+    width: 935px;
+    margin-top: 18px;
+    height: 50px;
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.TableSearchIcon
+{
+    /* transform: rotate(90deg); */
+    font-size: 23px;
+    /* margin-top: 8px; */
+    color: lightgray;
+    /* font-weight: normal; */
+    /* margin-right: 0px; */
+    position: relative;
+    top: 10px;
+    width: 25px;
+    display: inline-block;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-image: url(../Images/search_small_icon.png);
+}
+.TableSearchTextBox
+{
+    width: 700px;
+    font-size: 20px;
+    border: 0 none;
+    height: 30px;
+    outline: none;
+    box-sizing: border-box;
+    /* color: blue; */
+    display: inline-block;
+    /* margin-top: 4px; */
+    /* background-color: #F6F6F6; */
+    position: relative;
+    font-style: italic;
+    top: 7px;
+    background: transparent;
+}
+.TableSourceBody
+{
+    /* margin-left: 37%; */
+    /* margin-left: 21%; */
+    width: 100%;
+    margin-top: 30px;
+    color: #7B7B7B;
+    font-size: 14px;
+    height: 26px;
+    height: 410px;
+    overflow: auto;
+    padding: 0 20%;
+}
+
+.tableSourceItemSelected
+{
+    background-color:#00BFF0 !important;
+    color:white!important;
+}
+
+.tableSourceItem:hover
+{
+    background-color:#00BFF0;
+    color:white;
+}
+
+
+.tableSourceItem
+{
+    height: 40px;
+    line-height: 40px;
+    /* border-bottom: 1px solid #EDEDED; */
+    padding-left: 15px;
+    cursor: pointer;
+    width: 500px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 27%;
+    float: left;
+    background-color: white;
+    border: 1px solid #d0f0f8;
+    color: #4D737D;
+    margin-right: 60px;
+    margin-top: 15px;
+    font-size: 13px;
+}
+.TableScrollDown
+{
+    color: #DEDBDE;
+    font-size: 34px;
+    cursor: pointer; /* margin-left: 20px; */
+    height: 40px;
+    width: 21px;
+    margin-left: 45%;
+}
+.TableScrollUp
+{
+    color: #DEDBDE;
+    font-size: 34px;
+    cursor: pointer; /* margin-left: 20px; */
+    height: 40px;
+    width: 21px;
+}
+
+
+/*table dropdown css end*/
+
+/*ProcedureDrop Down css start*/
+.addProcSourcePopup
+{
+}
+.ProceSourceHeading
+{
+    color: #C4C2C3;
+    width: 350px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 35px;
+    font-size: 16px;
+}
+.ProcSourceBody
+{
+    margin-left: 37%;
+    margin-left: 36%;
+    width: 330px;
+    margin-top: 10px;
+    color: #7B7B7B;
+    font-size: 14px;
+    height: 26px; /* border-bottom: 1px solid #EEEEEE; */
+    height: 410px;
+    overflow: hidden; /* overflow-x: hidden; */
+}
+.procSourceItem
+{
+}
+/* Procedure Section End */
+
+/* Add Columns Start */
+
+.dataSourceHeader
+{
+      background-color: white;
+}
+
+.columnDataSourceTab
+{
+    background-color: #FFFFFF;
+    height: 45px;   
+    color: #AEAEAE;
+    position: relative;
+}
+
+.columnDataSource
+{
+    background-color: white;
+    height: 45px;
+    color: #AEAEAE;
+    position: relative;
+    text-align: center;
+}
+
+.columnDataSourceRpt
+{
+    background-color: white;
+    height: 45px;   
+    color: #AEAEAE;
+    position: relative;
+}
+
+.columnDBName
+{
+    display : inline-block;
+    text-align: right;
+    /* width: 49%; */
+    height: 45px;
+    line-height: 45px;
+    padding-right: 15px;
+    position:relative;
+}
+
+.columnTableName
+{
+    display : inline-block;
+    text-align: left;
+    /* width: 49%; */
+    height: 45px;
+    line-height: 45px;
+    padding-left: 15px;
+    cursor:pointer;
+}
+
+.addBorder
+{
+    /* border-bottom: 1px solid lightblue !important; */
+}
+
+.saveTabInfoParent,.btnReportConfigParent,.btnReportExportParent
+{
+    height:34px;
+    padding:8px 4px 8px 4px;
+    float:left;
+    position: relative;
+    display: inline-block;
+}
+
+.saveTabInfo,.btnReportConfig,.btnReportExport
+{
+    /* background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%); */
+    border: none;
+    /* background-color: #43D9C6; */
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: #4cf2dd;
+    height: 22px;
+    font-family: Lato;
+    font-size: 14px;
+    /* width: 100px; */
+    height: 21px;
+    line-height: 20px;
+    text-align: center;
+    top: 7px;
+    cursor: pointer;
+}
+
+
+
+.saveTabInfoHidden
+{
+    display: none;
+}
+
+.addColumnsBody
+{
+    height: 100%;
+    width: 100%;
+    /* background-color: white; */
+    position: relative;
+    font-family: Lato;
+}
+
+.drpAdvDwnUnit
+{
+    position: absolute;
+    background-color: #FFFFFF;
+    font-family: 'Lato';
+    font-size: 13px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 10px #C5C5C5;
+    padding: 10px 0;
+    z-index: 99;
+    overflow-y: auto;
+    top: 24px;
+    left: 20px;
+}
+
+.drpAdvDwnChild
+{
+    height: 23px;
+    line-height: 23px;
+    vertical-align: middle;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    text-transform: capitalize;
+}
+
+.drpAdvDwnChild:hover
+{
+    border-left: 4px solid #00BCEF;
+    padding-left: 16px;
+    background-color: #f8f8f8;
+}
+
+
+.drpDwnUnit
+{
+    position: absolute;
+    background-color: #fcfcfc;
+    font-family: 'Lato';
+    font-size: 13px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 10px #C5C5C5;
+    padding: 10px 0;
+    z-index: 99;
+    height: 155px;
+    overflow-y: auto;
+    top: 24px;
+    left: 40px;
+}
+
+.drpDwnUnit:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 5px 7px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 20;
+    top: -7px;
+    left: 69px;
+}
+
+.drpDwnChild
+{
+    height: 23px;
+    line-height: 23px;
+    vertical-align: middle;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow:hidden;
+    text-transform: capitalize;
+}
+
+.globalFilterParent
+{
+    height: 30px;
+    line-height: 30px;
+    padding-top: 5px;
+        padding-left: 50%;
+}
+
+.drpDwnGlobalUnit
+{
+    position: absolute;
+    background-color: #FFFFFF;
+    font-family: 'Lato';
+    font-size: 13px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 10px #C5C5C5;
+    padding: 10px 0;
+    width: 270px;
+    /* position: relative; */
+    /* top: 5px; */
+    z-index: 99;
+}
+
+.drpDwnGlobalUnitChild
+{
+   height: 23px;
+   line-height: 23px;
+   vertical-align: middle;
+   cursor: pointer;
+   padding-right: 10px;
+   padding-left: 10px;
+   cursor: pointer;
+   overflow: hidden;
+   text-overflow:hidden;
+   padding-left: 9px;
+   text-align: left;
+}
+
+.drpDwnChild:hover
+{
+    border-left: 4px solid #00BCEF;
+    padding-left: 16px;
+    background-color: #f8f8f8;
+}
+
+.drpDwnGlobalUnitChild:first-child
+{
+    color: #909090;
+    padding-left: 0px !important;
+    border-left: 0px!important;
+    border-bottom: 1px solid lightgray;
+}
+
+.drpDwnGlobalUnitChild:hover
+{
+    border-left: 4px solid #00BCEF;
+    padding-left: 5px;
+    background-color: #f8f8f8;
+}
+
+
+.addColumnsHeading
+{
+    width: 100%;
+    height: 100%;
+    background: url(../Images/header_texture.png);
+    padding-left: 10px;
+}
+
+.btnCancelPopUp
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 36px;
+    line-height: 36px;
+    width: 21px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.addColumnsHeader
+{
+    position: relative;
+    height: 36px;
+    line-height: 36px;
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    color: #d7d7d7;
+    margin-left: 0px;
+    font-family: oswald;
+}
+
+.addColumnsSelectedRegion
+{
+    /* max-height: 40%; */
+    overflow-y: auto;
+    /* margin: 5px 0; */
+    padding: 0 30px;
+    padding: 5px 0;
+    /* padding-left: 80px; */
+    height: -55%;
+    height: 495px;
+    /* text-align: center; */
+    margin-left: 2%;
+    /* width: 650px; */
+    margin-right: 5%;
+    /* border: 1px solid; */
+}
+
+.addColumnFooter
+{
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    position: relative;
+}
+
+.btnAddFxColumn 
+{
+    border: none;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: #43D9C6;
+    height: 22px;
+    font-family: Lato;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 22px;
+    width: 107px;
+    text-align: center;
+    position: absolute;
+    right: 120px;
+    top: 4px;
+}
+
+.btnAddLnkColumn
+{
+    /* background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%); */
+    border: none;
+    /* background-color: #43D9C6; */
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: #43D9C6;
+    height: 22px;
+    font-family: Lato;
+    font-size: 14px;
+    /* padding: 2px 10px; */
+    cursor: pointer;
+    line-height: 22px;
+    width: 107px;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+}
+
+.btnAddColumnAgain
+{
+    /* background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%); */
+    /* border: none; */
+    /* background-color: #43D9C6; */
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: #43D9C6;
+    height: 22px;
+    font-family: Lato;
+    font-size: 14px;
+    /* padding: 2px 10px; */
+    cursor: pointer;
+    line-height: 22px;
+    width: 80px;
+    text-align: center;
+    position: absolute;
+    right: 230px;
+    top: 4px;
+}
+
+.btnAddColumn
+{
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 24px;
+    line-height: 24px;
+    font-family: Lato;
+    font-size: 14px;
+    padding: 2px 10px;
+    cursor: pointer;
+    line-height: 22px;
+    /* width: 80px; */
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+
+.btnSelectAllColumn
+{
+    /* background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%); */
+    border: none;
+    /* background-color: #43D9C6; */
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: #70f2e1;
+    height: 22px;
+    font-family: Lato;
+    font-size: 14px;
+    /* padding: 2px 10px; */
+    cursor: pointer;
+    line-height: 22px;
+    width: 80px;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    font-weight: bold;
+}
+
+
+.addColumnsSelectedRegionHidden
+{
+    display: none;
+}
+
+.addColumnsUnselectedRegion
+{
+    /*max-height: 40%;*/
+    overflow-y: auto;
+    min-height: 30%;
+    padding: 25px 0;
+    padding-bottom: 4px;
+}
+
+.selectedRegionBody
+{
+    padding: 0 50px;
+    position: relative;
+}
+    
+
+.selectedRegionBody > table
+{
+    border-collapse: separate;
+    border-spacing: 0px 10px;
+}
+
+
+
+.unSelectedRegionBody
+{
+    /* height: 24%; */
+    line-height: 30px;
+    /*border-bottom: 1px solid #EDEDED;*/
+    padding: 0 35px;
+    cursor: pointer;
+    height: 450px;
+    overflow: auto;
+}
+
+.columnsToSelectParent
+{
+    /* line-height: 40px; */
+    width: 160px;
+    /*display: inline-block;*/
+    float: left;
+    padding: 5px 7px;
+    background-color: transparent;
+    cursor: pointer;
+    float: left;
+    border-radius: 2px;
+    position: relative;
+}
+
+.selectedRegionParentHidden
+{
+    display: none;
+}
+
+.unSelectedRegionParentHidden
+{
+    display: none;
+}
+
+.circleDiv
+{
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    right: -1px;
+    bottom: -3px;
+    border-radius: 0px;
+    background-color: lightgray;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #65C6E3;
+    text-align: center;
+    color: white;
+    /* background-image: url(../Images/tick_selected.png); */
+}
+
+.circleDivColor
+{
+    background-color: #65C6E3;
+    background-image: background: url(../Images/tick_selected.png);
+}
+
+.columnsToSelectChild
+{
+    font-family: Lato;
+    padding: 0px;
+    color: #4d737d;
+    height: inherit;
+    text-align: center;
+    line-height: 15px;
+    /* font-weight: bold; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 40px;
+    line-height: 40px;
+    white-space: nowrap;
+    font-size: 14px;
+    border-radius: 1px;
+    border: 1px solid #d0f0f8;
+    background-color:white;
+}
+
+.columnsToSelectChildSelected
+{
+     /* background-color: #65C6E3; */
+    border: 0px;
+    color: white;
+    color: #4d737d;
+    border: 1px solid #a2ddec;
+}
+
+.unSelectedRegionHeader
+{
+    padding-left: 5px;
+    height: 35px;
+    line-height: 35px;
+    /* border-bottom: 1px solid lightgray; */
+}
+
+.addcolumnHeader
+{
+    display: inline-block;
+    color: #7f7e7e;
+}
+
+.availColumns
+{
+  float:left;
+  width : 19%;
+  padding-left: 15px;
+  height: 35px;
+  line-height: 42px;
+}
+
+.opacityClass
+{
+    opacity:0.2;   
+}
+
+.addColumnHeaderAbs 
+{
+    position: absolute;
+    top: 0px;
+    background-color: #fefdfd;
+    box-shadow: 2px 2px 7px lightgray;
+}
+
+.addColumnArrow
+{
+    display: inline-block;
+}
+
+.selectedRegionHeader
+{
+    height: 35px;
+    line-height: 35px;
+}
+
+.addedcolumnHeader
+{
+    color: #ABABAB;
+    padding-left: 45px;
+    float: left;
+    width: 20%;
+    min-width: 200px;
+    height: 35px;
+    line-height: 36px;
+    text-align: right;
+    padding-right: 46px;
+    font-size: 16px;
+    color: #5F6C6E;
+    text-align: left;
+}
+
+.headerSection
+{
+    height: 25px;
+    line-height: 25px;
+}
+
+.headerSectionColumn
+{
+    width: 20%;
+    border: 1px solid white;
+    border-right: 0px;
+    border-left: 0px;
+    background-color: #F7F7F7;
+    position: relative;
+}
+
+.headerSectionDisplayColumn
+{
+    width: 15%;
+    padding-left: 20px;
+    /* padding-bottom: 1em; */
+    color: #6b6b6b;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.headerSectionLnkColumn
+{
+    width:10%;   
+    border-top: 1px solid #F7F7F7;
+    border-bottom: 1px solid #F7F7F7;
+    cursor:pointer;
+    text-align: center;
+}
+
+.headerSectionUnit
+{
+    width: 7%;
+    padding-left: 5px;
+    cursor: pointer;
+    color: #6b6b6b;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid #F7F7F7;
+    border-bottom: 1px solid #F7F7F7;
+}
+
+.headerSectionRtFltr
+{
+    width: 9%;
+    cursor: pointer;
+    color: #6b6b6b;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+.headerSectionGroupFltr
+{
+    width: 10%;
+    cursor: pointer;
+    color: #6b6b6b;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid #F7F7F7;
+    border-bottom: 1px solid #F7F7F7;
+    text-align: center;
+}
+.headerSectionAggregation
+{
+    width: 10%;
+    cursor: pointer;
+    color: #6b6b6b;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid #F7F7F7;
+    border-bottom: 1px solid #F7F7F7;
+    text-align: center;
+}
+
+.headerSectionFormatter
+{
+    width: 9%;
+    cursor: pointer;
+    color: #6b6b6b;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.headerSectionNgValue
+{
+    width: 7%;
+    padding-left: 5px;
+    cursor: pointer;
+    color: #6b6b6b;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid #F7F7F7;
+    border-bottom: 1px solid #F7F7F7;
+}
+.headerSectionPrefix
+{
+    width: 8%;
+    padding-left: 5px;
+    color: #6b6b6b;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid #F7F7F7;
+    border-bottom: 1px solid #F7F7F7;
+}
+
+.formatterClass 
+{
+    font-size: 11px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 20px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    font-family: Lato;
+    margin-left: 50%;
+}
+
+.hiddenColumn 
+{
+    font-size: 11px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 20px;
+    border: 1px solid #9cb6c6;
+    border-radius: 2px;
+    margin-left: 50%;
+    font-family: Lato;
+}
+
+.hiddenColumnSelected
+{
+    /* border:1px solid gray; */
+    background-color: #9cb6c6;
+    line-height: 20px;
+    color: white;
+    border: 0px !important;
+}
+
+.headerSectionDcml
+{
+    width: 7%;
+    padding-left: 5px;
+    color: #6b6b6b;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid #F7F7F7;
+    border-bottom: 1px solid #F7F7F7;
+}
+
+.headerSectionGblFltr
+{
+    width: 10%;
+    cursor: pointer;
+    color: #6b6b6b;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    /* border-right: 1px solid #F7F7F7; */
+    text-align: center;
+    position: relative;
+}
+
+.addedColumnName
+{
+    padding-left: 10px;
+    text-align: left;
+}
+
+.rightColumnName
+{
+    /* padding-left: 10px; */
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    /* text-align: center; */
+    border: 1px solid #b7aac0;
+    border-radius: 2px;
+    margin-left: 50%;
+    font-family: Lato;
+    font-size: 11px;
+}
+
+.rightColumnNameback
+{
+    background-color: #b7aac0;
+    line-height: 20px;
+    color: white;
+    border: 0px !important;
+}
+
+.globalColumnName
+{
+    /* padding-left: 10px; */
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    /* text-align: center; */
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    float: left;
+    font-family: Lato;
+    font-size: 11px;
+}
+
+.globalColumnNameHover
+{
+    background-color: lightgray;
+    color:white;
+}
+
+.globalFilterText
+{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    overflow: hidden;
+    width: 110px;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    text-align: right;
+    font-size: 12px;
+}
+
+.globalFilterArrow
+{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    color: lightgray;
+}
+
+.dataTypeColumn
+{
+    position: absolute;
+    top: 7px;
+    width: 60px;
+    right: 0px;
+    color: #a8a5a5;
+    height: 16px;
+    line-height: 16px;
+    /* text-align: right; */
+    /*padding: 0 10px;*/
+    font-size: 10px;
+    background-color: #ececec;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.fxDataColumn
+{
+    position: absolute;
+    top: 7px;
+    /* width: 70px; */
+    right: 70px;
+    color: #a8a5a5;
+    height: 16px;
+    line-height: 16px;
+    /* text-align: right; */
+    padding: 0 5px;
+    font-size: 10px;
+    background-color: #ececec;
+    text-transform: uppercase;
+}
+
+.lnkColumn
+{
+    position: absolute;
+    top: 7px;
+    /* width: 70px; */
+    right: 70px;
+    color: #a8a5a5;
+    height: 16px;
+    line-height: 16px;
+    /* text-align: right; */
+    /* padding: 0 5px; */
+    font-size: 18px;
+    /* background-color: #ececec; */
+    /* text-transform: uppercase; */
+    transform: rotate(-43deg);
+}
+
+.dvColumnName
+{
+    position: relative;
+    background-color: #F7F7F7;
+}
+
+tr.columnBodySection
+{
+    height: 30px;
+    line-height: 30px;
+    /* border: 1px solid #F7F7F7; */
+    cursor: pointer;
+   
+    /* margin-top: 15px; */
+}
+tr.columnBodySectionReport
+{
+    height: 50px;
+    line-height: 50px;
+    /* border: 1px solid #F7F7F7; */
+    cursor: pointer;
+    background-color: #FAFAFA;
+    /* margin-top: 15px; */
+    /* border-bottom: 35px solid; */
+}
+
+.headerSectionDelete
+{
+    width: 5%;
+    min-width: 22px;
+    max-width: 22px;
+    font-size: 10px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+    /* border-top: 1px solid #F7F7F7; */
+    /* border-bottom: 1px solid #F7F7F7; */
+    /* border-right: 1px solid #F7F7F7; */
+}
+
+.searchNewColumnsDiv
+{
+}
+
+.seacrhNewColIcon
+{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    width: 25px;
+    color: lightgray;
+    background-position-y: 80%;
+    font-weight: normal;
+    background-repeat: no-repeat;
+    background-image: url(../images/search_small_icon.png);
+}
+
+.seacrhNewColInputParent
+{
+    float: left;
+    width: 75%;
+    height: 35px;
+    line-height: 35px;
+    /* border-bottom: 1px solid #ebeaea; */
+}
+
+.searchNewColumnsInmput
+{
+    border: none;
+    width: 75%;
+    padding-left: 8px;
+    outline: none;
+    font-family: Lato;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #414141;
+    height: 25px;
+    background-color: #F6F6F6;
+    position: relative;
+    /* top: -5px; */
+}
+
+.searchAddedColumnsDiv
+{
+    display: inline-block;
+    /* padding-left: 20px; */
+    width: 58%;
+    /* border-bottom: 1px solid lightgray; */
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.searchAddedColumnsDivHidden
+{
+    display: none;
+}
+
+.seacrhAddedColIcon
+{
+    float: left;
+    height: 35px;
+    width: 25px;
+    line-height: 35px;
+    color: lightgray;
+    background-repeat: no-repeat;
+    background-image: url(../images/search_small_icon.png);
+    background-position-y: 80%;
+}
+
+.seacrhAddedColInputParent
+{
+    float: left;
+    width: 90%;
+    height: 35px;
+    line-height: 35px;
+    /* border-bottom: 1px solid #ebeaea; */ */
+}
+
+.searchAddedColumnsInmput
+{
+    border: none;
+    width: 75%;
+    padding-left: 8px;
+    outline: none;
+    font-family: Lato;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #414141;
+    height: 25px;
+    /* position: relative; */
+    /* top: -5px; */
+    background-color: #F6F6F6;
+}
+
+.txtPrefix
+{
+    border: none;
+    width: 75%;
+    padding-left: 8px;
+    outline: none;
+    font-family: Lato;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #414141;
+    background-color: #F6F6F6;
+}
+
+input.txtDisplayName
+{
+    border: none;
+    width: 98%;
+    padding-left: 8px;
+    outline: none;
+    font-family: Lato;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #414141;
+    background-color: #F2F5F8;
+    text-transform: capitalize;
+}
+
+.btnSaveLink
+{
+    position: absolute;
+    top: 7px;
+    right: 15px;
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 22px;
+    font-family: Lato;
+    font-size: 14px;
+    /* padding: 2px 10px; */
+    cursor: pointer;
+    line-height: 22px;
+    width: 80px;
+    text-align: center;
+}
+
+.lnkColumnRow
+{
+    height: 35px;
+    line-height: 35px;
+    position:relative;
+    /* padding: 5px 0; */
+}
+
+.lnkColumnPopUp
+{
+    position:absolute;
+    width: 300px;
+    right: 10px;
+    top: 46px;
+    background-color: #FDFDFD;
+    box-shadow: 0px 2px 10px #C5C5C5;
+    padding: 20px 10px 10px 15px;
+    border-radius: 2px;
+    /* border: 1px solid lightgray; */
+    box-shadow: 2px 0px 8px rgba(45, 45, 45, 0.4);
+    box-shadow: 0px 1px 8px #949494;
+}
+
+.editlnkColumnPopUp 
+{
+    position: absolute;
+    width: 300px;
+    top: -45px;
+    background-color: #FDFDFD;
+    box-shadow: 0px 2px 10px #C5C5C5;
+    padding: 20px 10px 10px 15px;
+    border-radius: 2px;
+    /* border: 1px solid lightgray; */
+    box-shadow: 2px 0px 8px rgba(45, 45, 45, 0.4);
+    box-shadow: 5px 1px 8px #949494;
+}
+
+
+.editlnkColumnPopUp:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #FFFFFF;
+    display: block;
+    width: 0;
+    z-index: 1;
+    left: -15px;
+    top: 45px;
+}
+
+
+.lnkColumnPopUp:after 
+{
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 233px;
+    border-style: solid;
+    border-width: 0 15px 15px;
+    border-color: #fbfbfb transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.lnkColumnPopUp:before 
+{
+    content: "";
+    position: absolute;
+    top: -16px;
+    left: 233px;
+    border-style: solid;
+    border-width: 0 15px 15px;
+    border-color: lightgray transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+}
+
+.lblColumnText
+{
+    float: left;
+    height: 25px;
+    line-height: 23px;
+    width: 45%;
+    border-left: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    background-color: #F0F0F0;
+    PADDING-LEFT: 10PX;
+    color: #5b5b5b;
+}
+
+.inputColumnText
+{
+    display: inline-block;
+    width: 55%;
+}
+
+.lblUrlText
+{
+    float: left;
+    width: 45%;
+    /* float: left; */
+    height: 25px;
+    line-height: 23px;
+    width: 45%;
+    border-left: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    background-color: #F0F0F0;
+    PADDING-LEFT: 10PX;
+    color: #5b5b5b;
+}
+
+.inputUrlText
+{
+    float: left;
+    width: 50%;
+    height: 25px;
+    line-height: 25px;
+    border-right: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+}
+
+.txtColumnDisplayText
+{
+    border: none;
+    width: 100%;
+    padding-left: 8px;
+    outline: none;
+    height: 100%;
+    font-family: Lato;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #414141;
+    height: 20px;
+    position: relative;
+    top: -3px;
+}
+
+.txtDisplayText
+{
+    border: none;
+    width: 100%;
+    padding-left: 8px;
+    outline: none;
+    height: 100%;
+    font-family: Lato;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #414141;
+    height: 20px;
+    position: relative;
+    top: -3px;
+}
+
+.txtUrlText
+{
+    border: none;
+    width: 100%;
+    padding-left: 8px;
+    outline: none;
+    height: 100%;
+    font-family: Lato;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #414141;
+    height: 20px;
+    position: relative;
+    top: -3px;
+}
+
+.txtDecimalPlace
+{
+    border: none;
+    width: 75%;
+    padding-left: 8px;
+    outline: none;
+    font-family: Lato;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #414141;
+    background-color: #F6F6F6;
+}
+
+div#searchNewColumnsDiv
+{
+    display: inline-block;
+    /* padding-left: 20px; */
+    width: 62%;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+
+.toolKithamBurger
+{
+    margin-right: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    background: url(../Images/icon.png) no-repeat;
+    max-width: 20px;
+    height: 30px;
+    z-index: 999;
+    margin-right: 5px;
+    background-position-y: 7%;
+}
+
+.toolKithamBurger:hover 
+{
+    background: url(../Images/icon_hover.png) no-repeat;
+    /* width: 0px; */
+    max-width: 20px;
+    height: 25px;
+    z-index: 999;
+    cursor:move;
+    margin-right: 5px;
+}
+
+.headerSectionhamBurger
+{
+    max-width :15px;
+    width:2%;
+    border: 1px solid white;
+    border-right: 0px;
+}
+
+/* Add Columns End */
+
+.ProcedureSearch
+{
+    margin-left: 40%;
+    width: 350px;
+}
+.ProcedureSearchIcon
+{
+    /* top: 50px; */ /* left: 10px; */
+    transform: rotate(90deg);
+    font-size: 12px; /* display: inline-block; */ /* float: left; */
+    margin-top: 8px; /* margin-right: 39px; */ /* border: black; */ /* margin-left: 10px; */
+    color: gray;
+}
+.ProcedureSearchTextBox
+{
+    width: 251px; /* padding: 15px 0 15px 20px; */
+    font-size: 11px; /* font-family: Montserrat, sans-serif; */
+    border: 0 none;
+    height: 16px; /* margin-right: -38px; */ /* color: #808080; */
+    outline: none; /* background: #808080; */ /* float: left; */
+    box-sizing: border-box; /* position: absolute; */ /* top: 48px; */
+    color: #808082; /* left: 36px; */ /* border: black; */ /* margin-left: -32px; */
+    display: inline-block; /* float: left; */
+    margin-top: 4px;
+    background-color: #F6F6F6;
+}
+.procScrollDown
+{
+    color: #DEDBDE;
+    font-size: 34px;
+    cursor: pointer; /* margin-left: 20px; */
+    height: 40px;
+    width: 21px;
+    margin-left: 45%;
+}
+.procScrollUp
+{
+    color: #DEDBDE;
+    font-size: 34px;
+    cursor: pointer; /* margin-left: 20px; */
+    height: 40px;
+    width: 21px;
+}
+/*Proc DropDown css end*/
+/*parameter screen strat*/
+.addParamProcSourcePopup
+{
+}
+.ProcParamSourceHeading
+{
+    height: 40px;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    margin-left: 40%;
+    width: 100%;
+}
+.ProcParamSourceBody
+{
+    /* text-align: center; */
+    height: 450px;
+    overflow: scroll;
+}
+.procParamSourceItem
+{
+    width: 26%;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 7px;
+    background-color: #EAEAEA;
+    font-weight: bold;
+    color: gray;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.procParametersNameText
+{
+    width: 41%;
+    display: inline-block;
+    height: 30px;
+    line-height: 28px;
+    color: gray;
+    outline: none;
+    padding-left: 5px;
+}
+.SlectParameterForProc
+{
+    width: 20%;
+    display: inline-block;
+    height: 30px;
+    line-height: 31px;
+    font-size: 11px;
+    padding-left: 10px;
+    border-left: 1px solid #EAEAE9;
+    margin-top: 0px;
+    color: gray;
+}
+.procParametersParent
+{
+    width: 550px;
+    margin-left: 35%;
+    display: inline-block;
+    height: 30px;
+    border: 1px solid #EAEAEA;
+    border-radius: 2px;
+    margin-top: 25px;
+}
+.ParameterText
+{
+    text-align: center;
+    color: #B9B9B9;
+    font-size: 15px; /* display: inline-block; */
+    width: 100px; /* margin-left: 45%; */ /* float: left; */
+}
+.parametersMainDiv
+{
+    height: 25px;
+    text-align: left;
+    display: inline-block;
+    overflow: hidden; /* margin-left: 51%; */
+    color: #21ACE5;
+    width: 200px; /* float: left; */ /* padding-left: 113px; */
+    position: absolute;
+    left: 48%;
+    background-color: white;
+    z-index: 99; /* padding-left: 10px; */
+    border-radius: 2px;
+    box-shadow: 0px 2px 10px #C5C5C5;
+    overflow: scroll; /* line-height: 25px; */ /* margin-left: 41%; */ /* margin-right: 70%; */
+    top: 150px;
+}
+.parameterEachDiv
+{
+    height: 25px;
+    line-height: 25px;
+    width: 100%;
+    padding-left: 5px;
+    border-left: 5px solid white; /* position: absolute; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #808086;
+    font-size: 13px;
+}
+.parameterEachDiv:hover
+{
+    background-color: #EEEEEE;
+    border-left: 5px solid #21ACE5;
+}
+.procParamSourceItemType
+{
+    float: left;
+    height: 30px; /* line-height: 30px; */
+    background-color: #EAEAEA;
+    width: 12%;
+    margin-left: -1%;
+    font-size: 11px; /* margin-right: 1px; */ /* margin-top: 0px; */
+}
+.procParamSourceItemTypeText
+{
+    padding-left: -5px;
+    height: 15px; /* vertical-align: bottom; */ /* margin-top: 0px; */
+    font-size: 9px;
+    color: gray;
+    position: relative;
+    top: 8px; /* text-align: center; */
+    padding-left: 2px;
+    background-color: #E1E0DC;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 17px;
+    margin-right: 2px;
+}
+.parameterFirstDiv
+{
+    height: 25px;
+    line-height: 25px;
+    width: 100%;
+    padding-left: 10px; /* position: absolute; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+
+.addColumnsSelectedRegionReport::-webkit-scrollbar
+{
+    display: none;
+}
+
+.addColumnsSelectedRegion::-webkit-scrollbar
+{
+    display: none;
+}
+
+
+
+.drpDwnUnit ::-webkit-scrollbar
+{
+    display: none;
+}
+
+#TabLinkingMainParent ::-webkit-scrollbar
+{
+    display: none;
+}
+
+#TabLinkingMainParent ::-webkit-scrollbar
+{
+    display: none;
+}
+#toolkitExistingRelationsNewPopUp ::-webkit-scrollbar
+{
+    display: none;
+}
+
+.headerSectionOperationDropDown ::-webkit-scrollbar
+{
+    display: none;
+}
+
+.buttonOfProcParameter
+{
+    width: 100px;
+    float: right;
+    background-color: #64DFD0;
+    color: white;
+    margin-right: 15%;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 3px;
+}
+
+.rightFilterDiv
+{
+    width: 20px;
+    float: right;
+    padding-top: 5px;
+}
+.GridGlobalFilterDiv
+{
+    height: 10px;
+    float:left;    
+}
+.GloablFilterLabel
+{
+    width: 100px; /* display: inline-block; */
+    float: left;
+    text-align: center;
+    height: 23px; /* line-height: 2; */
+    padding-top: 3px;
+}
+/*parameter screen end*/
+
+
+.ToolKitInlineFilter
+{
+    float: left;
+}
+
+.toolKitRightfilterParent
+{
+    height:34px;
+    float:left;
+    padding: 0 8px 0 0;
+    /* line-height: 5px; */
+}
+
+.toolKitDateControlParent
+{
+    height:34px;
+    float:left;
+    padding: 0 8px 0 0;
+    /* line-height: 5px; */
+}
+
+.toolKitRightfilter
+{
+    float: right;
+    position: relative;
+    top: -3px;
+}
+.toolKitDateControl
+{
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+.toolKitAddTab
+{
+    font-size: 18px !important;
+    color: #64DFD0;
+    position: relative;
+    height: 35px;
+    line-height: 38px !important;
+    cursor:pointer;
+}
+
+.toolkitAddTabRelationParent
+{
+    height : 34px;
+    float:left;
+    padding:8px;
+}  
+
+.btnConfigureScreenParent
+{
+    height:34px;
+    float:left;
+    padding:8px;
+}
+
+.btnConfigureScreen
+{
+      color: white;
+      width: 80px;
+      height: 20px;
+      text-align: center;
+      background-color: #64DFD0;
+      /* margin-top: 10px; */
+      line-height: 20px;
+      /* margin-right: 15px; */
+      border-radius: 2px;
+      font-size: 12px;
+      font-family: Lato;
+      background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+      border: none;
+      background-color: #43D9C6;
+      outline-color: #43D9C6;
+      cursor:pointer;
+} 
+
+.btnConfigureParent
+{
+    height:34px;
+    float:left;
+    padding:8px;
+}
+
+.btnConfigureRpt
+{
+      color: white;
+      width: 80px;
+      height: 20px;
+      text-align: center;
+      background-color: #64DFD0;
+      /* margin-top: 10px; */
+      line-height: 20px;
+      /* margin-right: 15px; */
+      border-radius: 2px;
+      font-size: 12px;
+      font-family: Lato;
+      background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+      border: none;
+      background-color: #43D9C6;
+      outline-color: #43D9C6;
+      cursor:pointer;
+}
+
+.toolkitAddTabRelation
+{
+      color: white;
+      width: 80px;
+      height: 20px;
+      text-align: center;
+      background-color: #64DFD0;
+      /* margin-top: 10px; */
+      line-height: 20px;
+      /* margin-right: 15px; */
+      border-radius: 2px;
+      font-size: 12px;
+      font-family: Lato;
+      background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+      border: none;
+      background-color: #43D9C6;
+      outline-color: #43D9C6;
+      cursor:pointer;
+  /*float: right;
+  color: white;
+  width: 80px;
+  height: 20px;
+  text-align: center;
+  background-color: #64DFD0;
+  margin-top: 10px;
+  line-height: 20px;
+  margin-right: 0px;
+  border-radius: 2px;
+  font-size: 12px;
+  font-family: Lato;
+  background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+  border: none;
+  background-color: #43D9C6;
+  outline-color: #43D9C6;*/
+}
+
+/*tab relation css start*/
+.toolKitSelectedTab
+{
+    width: 35%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 0px;
+    text-align: center;
+    text-align: left;
+    background-color: #f7f7f7;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 12px;
+    color: #323232;
+    font-family: Lato;
+    float: left;
+    font-weight: bold;
+}
+.toolKitListOfAllTabs,.toolKitListOfAllColumnsSelectedTab,.toolKitListOfAllColumnsMappedTab
+{
+    display: inline-block;
+    color: #969696;
+    border: 1px none;
+    width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* background-color: white; */
+    width: 145px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 20px;
+    display: inline-block;
+    color: #323232;
+    text-align: center;
+    overflow: scroll;
+    overflow-x: hidden;
+    /* background-color: white; */
+    z-index: 9999999;
+    /* box-shadow: 0px 2px 4px #C5C5C5; */
+    text-align: left;
+    left: 17px;
+    /* background-color: #F7FFFF; */
+    margin-right: 15px;
+}
+.toolKitFirstTab,.toolKitFirstColumn,.toolKitFirstMappedColumn
+{
+    width: 97%;
+    text-overflow: ellipsis;
+    height: 30px;
+    margin-top: 1px;
+    overflow: auto;
+    padding-left: 10px;
+    line-height: 30px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.toolKitOtherTabs,toolKitOtherColumns,.toolKitOtherMappedColumns
+{
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    max-height: 100px;
+    overflow: auto;
+    z-index: 99;
+    border-radius: 4px;
+    box-shadow: 0px 5px 6px -1px #6D6D6D;
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    /* height: 200px; */
+    overflow: auto;
+}
+.toolKitEachTab,.toolKitEachColumn,.toolKitEachMappedColumn
+{
+    height: 30px;
+    overflow: auto;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    white-space: nowrap;
+    line-height: 15px;
+    padding-left: 5px;
+    padding-top: 10px;
+    font-size: 12px;
+    font-family: Lato;
+    background-color: white;
+    position: relative;
+    width: 200px;
+    /* z-index: 9999; */
+    border-left: 5px solid #F7FFFF;
+    
+}
+.toolKitEachTab:hover,.toolKitEachColumn:hover,.toolKitEachMappedColumn:hover
+{
+    background-color:#EEEEEE;
+    border-left:5px solid #00BFF0;    
+}
+
+.toolKitOtherColumns,.toolKitOtherMappedColumns
+{
+       height: 100px;
+    width: 200px;
+    overflow: auto;
+    position: absolute;
+    z-index: 900999;
+}
+.addNewColumnMapping
+{
+    margin-left: 20px;
+    font-size: 15px;
+    height: 20px;
+    color: #64DFD0;
+    position: absolute;
+    top: 5px;
+    left: 365px;
+}
+.deleteNewColumnMapping
+{
+    margin-left: 20px;
+    color: #64DFD0;
+    top: -2px;
+    position: absolute;
+    top: -3px;
+    left: 405px;
+    height: 35px;
+    padding-top: 8px;
+}
+
+.toolKitMainParentTab
+{
+    height: 125px;
+}
+
+.mainParentColumnsTab
+{
+    /* width: 500px; */
+    /* height: 25px; */
+    /* margin-top: 30px; */
+    /*height: 40px;
+position: relative;
+margin-top: 0px;*/
+}
+
+.toolKitEachColumn
+{
+    
+}
+
+.toolKitListOfAllColumnsMappedTab
+{
+    
+}
+
+.toolKitFirstMappedColumn
+{
+    
+}
+
+.toolKitOtherMappedColumns
+{
+    
+}
+
+.toolKitEachMappedColumn
+{
+     
+}
+
+.positionTabDropDown
+{
+     position:relative;
+}
+
+.positionlistofTabs
+{
+    height: 20px;
+}
+
+
+
+.positionlistofTabs
+{
+   height: 30px;
+   /* position: relative; */
+   /* top: 10px; */
+   /* left: 5px; */
+   line-height: 15px;
+   display: inline-block;
+   border-bottom: 1px solid lightgray;
+   line-height: 30px;
+   margin-left: 10px;
+}
+
+.positionColumnSelectedTab
+{
+       top: 10px;
+    left: 20%;
+    width: 150px;
+    height: 30px;
+    /* border: 1px solid #EEEEEE; */
+    float: left;
+}
+
+.positionColumnSelectedColumnsTab
+{
+    left: 60%;
+    width: 150px;
+    height: 30px;
+    top: 8px;
+    line-height: 30px;
+    float: left;
+    margin-left: 19%;
+ }
+ .toolKitSaveColumnMappings
+ {
+    width: 100px;
+    height: 20px;
+    background-color: #64DFD0;
+    color: white;
+    /* position: absolute; */
+    text-align: center;
+    border-radius: 2px;
+    bottom: 15px;
+    right: 15px;
+    float: right;
+ }
+ .toolKitContextMenuOption
+ {
+    position: relative;
+ }
+ .toolkitPrimaryTabContextMenu
+ {
+    width: 55%;
+    float: left;
+    font-family: Lato;
+    font-style: italic;
+    color: #BDBBBC;
+    position: relative;
+    top: 18px;
+    outline: none;
+    left: 10px;
+    border-bottom: 1px solid #BDBBBC;
+ }
+ 
+
+.toolKitSaveColumnMappings
+{
+    width: 72px;
+    height: 20px;
+    background-color: #64DFD0;
+    color: white;
+    /* position: relative; */
+    left: 425px;
+    top: 300px;
+    float: right;
+    /* padding-right: 9px; */
+    text-align: center;
+    border-radius: 2px;
+    margin-right: 100px;
+    font-family: Lato;
+    margin-top: 13px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.toolKitContextMenuOption
+{
+    position: relative;
+}
+
+.toolkitPrimaryTabContextMenu
+{
+    display: inline-block;
+    /* margin-left: 55px; */
+    /* margin-top: 30px; */
+    /* width: 150px; */
+    height: 25px;
+    color: gray;
+    border: 1px solid #EEEEEE;
+    border-radius: 2px;
+    padding-left: 5px;
+    outline: none;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.toolkitSecondaryContextMenu
+{
+     position: absolute;
+     left: 195px;
+     height: 25px;
+     color: gray;
+     border: 1px solid #EEEEEE;
+     border-radius: 2px;
+     outline: none;
+     font-size: 10px;
+     width: 125px;
+     line-height: 20px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     font-family: Lato;
+     top: 18px;
+     font-style:italic;
+     padding-left:5px;
+     display:none;
+}
+
+.toolKitCheckBox
+{
+    position: absolute;
+    left: 170px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #B7B7B7;
+    border-radius: 2px;
+    top: 18px;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #a3a3a3;
+    display:none;
+}
+/*tab relation css end*/
+
+/*report name screen*/
+.toolKitMainReport
+{
+    height: 300px;
+    width: 90%;
+}
+.ReportNameParent
+{
+    padding-left: 20%;
+    /* margin-top: 10%; */
+}
+.toolkitReportName
+{
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    display: inline-block;
+    position: relative;
+    top: 6px;
+}
+
+.toolKitReportNameText
+{
+    float: left;
+    width: 60%;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #EEEEEE;
+    outline: none;
+    padding-left: 5px;
+    border-left: none;
+}
+
+.ReportDescParent
+{
+    /* padding-left: 20%; */
+    /* margin-top: 5%; */
+}
+.toolkitReportDesc
+{
+    width: 140px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    display: inline-block;
+    position: relative;
+    top: 6px;
+}
+
+.drpDwnGblFilter 
+{
+    position: absolute;
+    width: 150px;
+    background-color: white;
+    top: 30px;
+    left: 150px;
+    max-height: 200px;
+    border-radius: 2px;
+    overflow-y: auto;
+    box-shadow: 0px 2px 10px #C5C5C5;
+}
+
+.drpDwnGblFilterChild
+{
+    height: 23px;
+    line-height: 23px;
+    vertical-align: middle;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow:hidden;
+}
+
+.tempParent
+{
+    height:30px;
+    line-height:30px;
+}   
+
+.toolKitReportDescText
+{
+     width: 400px;
+     height: 35px;
+     border: 1px solid #EEEEEE;
+     /* padding-left: 7px; */
+     float: left;
+     width: 100%;
+     height: 105px;
+     line-height: 35px;
+     top: 10px;
+     border: 1px solid #e0dcdc;
+     outline: none;
+}
+.toolKitSaveReport
+{
+    width: 80px;
+    height: 30px;
+    /* float: right; */
+    margin-top: 60px;
+    margin-left: 70%;
+    background-color: #64DFD0;
+    color: white;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 30px;
+}
+
+::-webkit-input-placeholder
+{
+    color:#e7e7e7;    
+}
+
+/* Tab Info Start */
+
+.rptTablabel
+{
+    border-left: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    background-color: #F0F0F0;
+    padding-left: 8px;
+    padding-right: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    height: 25px;
+    line-height: 25px;
+    color: #939191;
+    width: 48%;
+}
+
+.rptTabTDVal
+{
+    text-align:center;    
+}   
+
+.rptTabTD
+{
+    border-right: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 48%;
+    min-height: 24px;
+    height: 25px;
+    line-height: 25px;
+    position: relative;
+}
+
+.rptTabValue
+{
+    border: none;
+    width: 90%;
+    padding-left: 8px;
+    outline: none;
+    font-family: Lato;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #414141;
+    background-color: transparent;
+}
+
+.btnAddTabInfo
+{
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 22px;
+    font-family: Lato;
+    font-size: 12px;
+    /* padding: 2px 10px; */
+    cursor: pointer;
+    line-height: 22px;
+    width: 80px;
+    text-align: center;
+    position:absolute;
+    right: 28px;
+    top: 26px;
+}
+
+.tableTabInfo 
+{
+    width: 500px;
+}
+
+.divTabInfo
+{
+    padding-left: 29px;
+    font-family:Lato;
+}
+
+.btnAddTabInfoParent
+{
+    height: 50px;
+    position: relative;
+}
+
+.rptCatValue 
+{
+    padding-left: 10px;
+    cursor:pointer;
+    margin-top: 5px;
+    float: left;
+}
+
+.rptDropDown 
+{
+    position: absolute;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    left: 1px;
+    z-index: 99;
+}
+
+.rptDropwDownChild 
+{
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.rptDropwDownChild:hover
+{
+    padding-left : 4px;
+    border-left: 4px solid #5F9043;
+}
+
+
+/* Tab Info End */
+
+/* Category Info CSS Start */
+.attributeTypeParent
+{
+    display:inline-block;   
+}
+
+.attributeType
+{
+    
+}
+
+.attributeNameParent   
+{
+    display:inline-block;
+    position: relative;
+    padding: 3px 10px;
+    cursor:pointer;
+}
+
+.columnDBNameReport
+{
+    text-align: right;
+    width: 50%;
+    height: 45px;
+    line-height: 45px;
+    text-transform: uppercase;
+    float: left;
+    display: none;
+}
+
+.fullWidth
+{
+    width:100% !important;
+    text-align: center !important;
+}
+
+.dataSetParentClass 
+{
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+    height: 45px;
+    padding-top: 7px;
+}
+
+.dataSetParentClass {
+    float: left;
+    width: 100%;
+    padding-left: 20px;
+    height: 45px;
+    padding-top: 7px;
+}
+
+.dataSetTypeLabel 
+{
+    width: 130px;
+    /* float: left; */
+    display: inline-block;
+    height: 26px;
+    line-height: 24px;
+    font-family: Lato;
+    /* font-weight: bold; */
+    /* background-color: rgb(150,155,161); */
+    padding-left: 10px;
+    color: #AEAEAE;
+    font-size: 16px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.dataSetDropDown 
+{
+    display: inline-block;
+    width: 140px;
+    float: left;
+    /* border-bottom: 1px solid #00BBF0; */
+    /* margin-left: -5px; */
+    padding-left: 10px;
+    border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-radius: 4px;
+    float: left;
+}
+
+.CategoryNamesHeader
+{
+    height: 60px;
+    width:100%;
+    text-align:center;
+    line-height: 80px;
+    background-color: #FCFDF8;
+    background-image: url(../images/tool_kit_tex.png);
+}
+
+.attributeTypeParent
+{
+      padding: 0px 2px;
+    display:inline-block;
+}
+
+.attributeTypeSelected 
+{
+    background-color: #00bbf0;
+    color: white ! important;
+    border: #00aeef ! important;
+}
+
+.speechBubbleClass 
+{
+    border-bottom-color: #F2F5F8;
+    border-bottom-style: solid;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-left-style: solid;
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-style: inset;
+    border-top-color: rgba(0, 0, 0, 0);
+    border-right-style: solid;
+    border-width: 10px;
+    color: #333;
+    display: block;
+    font-size: 16px;
+    height: 0px;
+    left: 43%;
+    position: absolute;
+    top: 27px;
+    width: 0px;
+}
+
+.speechBubbleClassTable
+{
+    border-bottom-color: #F2F5F8;
+    border-bottom-style: solid;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-left-style: solid;
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-style: inset;
+    border-top-color: rgba(0, 0, 0, 0);
+    border-right-style: solid;
+    border-width: 10px;
+    color: #333;
+    display: block;
+    font-size: 16px;
+    height: 0px;
+    left: 42%;
+    position: absolute;
+    top: 22px;
+    width: 0px;
+}
+
+.sppechBubbleHidden
+{
+    display:none;    
+}
+
+.attributeType
+{
+    border-radius: 25px;
+    height: 30px;
+    font-family: Lato;
+    line-height: 29px;
+    font-size: 13px;
+    padding: 0 5px;
+    color: #191919;
+    border: 1px solid #d5d7d7;
+    cursor:pointer;
+    position:relative;
+}
+
+.categaoryName 
+{
+    float: left;
+    padding-right: 5px;
+}
+
+.columnCount 
+{
+    float: left;
+    text-align: right;
+    color: white;
+    font-size: 10px;
+}
+
+.searchDivParent 
+{
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.searchDiv 
+{
+    outline:none;
+    float: left;
+      width: 85%;
+}
+
+.toggleToolKitDiv 
+{
+    float: left;
+    width: 180px;
+    padding-left: 20px;
+}
+
+.showAllColumn 
+{
+    height: 25px;
+    float: left;
+    width: 80px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid lightgray;
+    padding: 0 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    cursor:pointer;
+}
+
+.showSelectedColumn 
+{
+    height: 25px;
+    float: left;
+    width: 80px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid lightgray;
+    border-left: 0px;
+    padding: 0 10px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    cursor:pointer;
+}
+
+.searchDivImg 
+{
+    height: 23px;
+    line-height: 23px;
+    float: left;
+    width: 20px;
+    position: relative;
+    transform: rotate;
+    background-repeat: no-repeat;
+    transform: rotate(279deg);
+    background-image: url(../Images/search_small_icon.png);
+    top: 3px;
+}
+
+.searchDivInput 
+{
+    outline:none;
+    float: left;
+     width: 97%;
+    height: 25px;
+    line-height: 25px;
+    position: relative;
+}
+
+.categoryBodyParent 
+{
+    padding: 0px 50px;
+    font-family: Lato;
+    overflow: auto;
+    width: 100%;
+}
+
+.categoryHeader 
+{
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #afb6b8;
+}
+
+.selectorClass 
+{
+    padding-bottom: 10px;
+}
+
+.attributeName 
+{
+    height: 40px;
+    /* line-height: 27px; */
+    /* padding-top: 5px; */
+    border: 1px solid #d0f0f8;
+    padding: 0 15px;
+    border-radius: 2px;
+    position: relative;
+    cursor:pointer;
+    width: 250px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    background-color: white;
+    color: #4d737d;
+    padding-top: 2px;
+}
+
+
+.checkedColumnHidden
+{
+    display:none;   
+}
+
+.checkedColumnDiv 
+{
+    position: absolute;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    background-color: #00BEF0;
+    border-radius: 50%;
+    right: 3px;
+    bottom: -1px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.dataTypeClass
+{
+    position: absolute;
+    bottom: 5px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #b7b8b8;
+}
+
+.selectedColumn
+{
+    background-color :#00BEF0;
+    color:#FFFFFF;
+    border: 0px;
+}
+
+.attributeNameHidden
+{
+    display:none;
+}
+
+.attributeNameParentHidden
+{
+    display:none;   
+}
+
+.searchDivBorder
+{
+    border-bottom:1px solid lightblue;   
+}
+
+.btnColumnFormatting
+{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 25px;
+    font-family: Lato;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.attributeNameSelected
+{
+    border: 1px solid #a2ddec;    
+    
+}
+.addColumnsSelectedRegionReports
+{
+   overflow: auto;
+    padding: 0 30px;
+    padding: 0px 5px;
+    /* padding-left: 500px; */
+    /* width: 800px; */
+    height: -55%;
+    /* height: 495px; */
+    margin-left: 26%;
+    width: 800px;
+    /* margin-right: 5%; */
+}
+
+
+.addColumnsSelectedRegionReport
+{
+    overflow-y: auto;
+    padding: 0 30px;
+    padding: 15px 0;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 0px;
+}
+
+.btnConfigColumn
+{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 25px;
+    font-family: Lato;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.btnSaveConfigColumnParent
+{
+    height:34px;
+    padding: 8px 4px 8px 4px;
+    float:left;   
+}
+
+.btnSaveConfigColumn
+{
+    /* background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%); */
+    /* background-color: #43D9C6; */
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: #4cf2dd;
+    height: 20px;
+    font-family: Lato;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 20px;
+    text-align: center;
+    padding: 0 x;
+}
+
+.selectedRegionHeaderReport
+{
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+}
+
+.selectedRegionParentReport
+{
+    position:relative;
+}
+
+.tabNamePopUp 
+{
+    position: absolute;
+    top: 30px;
+    left:0px;
+    width: 280px;
+    /* border: 1px solid lightgray; */
+    background-color: white;
+    border-radius: 2px;
+    font-family: Lato;
+    padding: 10px 10px;
+    box-shadow: 0px 1px 8px #949494;
+}
+
+.tabDeletePopUp 
+{
+    position: absolute;
+    top: 44px;
+    left: -40px;
+    width: 280px;
+    /* border: 1px solid lightgray; */
+    background-color: white;
+    border-radius: 2px;
+    font-family: Lato;
+    padding: 10px 10px;
+    box-shadow: 0px 1px 8px #949494;
+    z-index: 99;
+}
+
+.tabDeletePopUp:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 16px 15px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -14px;
+    left: 15px;
+}
+
+.tabDeletePopUp:before 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 16px 15px;
+    border-color: #7F7F7F transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    top: -14px;
+    left: 15px;
+}
+
+.tabEditPopUp 
+{
+    position: absolute;
+    top: 44px;
+    left: -40px;
+    width: 280px;
+    /* border: 1px solid lightgray; */
+    background-color: white;
+    border-radius: 2px;
+    font-family: Lato;
+    padding: 10px 10px;
+    box-shadow: 0px 1px 8px #949494;
+    z-index: 99;
+}
+
+.tabEditPopUp:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 16px 15px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -14px;
+    left: 15px;
+}
+
+.tabEditPopUp:before 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 16px 15px;
+    border-color: #7F7F7F transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    top: -14px;
+    left: 15px;
+}
+
+.tabDeletetext 
+{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color:#636363;
+}
+
+
+.tabNameLabelParent 
+{
+    height: 35px;
+    line-height: 35px;
+}
+
+.toggleParentDiv 
+{
+    float: left;
+    height: 25px;
+    /* padding-left: 66px; */
+    padding-top: 5px;
+}
+
+
+.isAdvancedOn 
+{
+    float: left;
+    width: 34px;
+    font-size: 11px;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-left: 0px;
+    height: 18px;
+    line-height: 18px;
+    cursor:pointer;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.isAdvancedOff 
+{
+    float: left;
+    width: 30px;
+    text-align: center;
+    font-size: 11px;
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid lightgray;
+    border-right: 0px;
+    cursor:pointer;
+    border-radius-left-top: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.advanceSelected 
+{
+    background-color: #00BEF0;
+    color: #FFFFFF !important;
+    border: 0px;
+}
+
+.tabNameLabelParent 
+{
+    height: 35px;
+    line-height: 35px;
+    position:relative;
+}
+
+.tabNamePopUp:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 16px 15px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -14px;
+    left: 15px;
+}
+
+.tabNamePopUp:before 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 16px 15px;
+    border-color: #7F7F7F transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    top: -14px;
+    left: 15px;
+}
+
+.tabNameLabel 
+{
+    float: left;
+    width: 45%;
+    padding-left: 10px;
+    height: 25px;
+    line-height: 24px;
+    color: #5b5b5b;
+}
+
+.tabNameInput 
+{
+    float: left;
+    width: 50%;
+    height: 24px;
+    line-height: 24px;
+    border-right: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+}
+
+.inputTabName 
+{
+    border: none;
+    width: 75%;
+    padding-left: 8px;
+    outline: none;
+    font-family: Lato;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #414141;
+    height: 22px;
+    position: relative;
+    top: 0px;
+    /* border-bottom: 1px #F2F2F2 solid; */
+}
+
+.btnDeleteTab,.btnAddTab 
+{
+    color: white;
+    /* width: 55px; */
+    height: 24px;
+    text-align: center;
+    background-color: #64DFD0;
+    line-height: 24px;
+    border-radius: 2px;
+    font-size: 13px;
+    font-family: Lato;
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    cursor: pointer;
+    position: absolute;
+    right: 58px;
+    top: 10px;
+    padding: 0 10px;
+}
+
+.parentbtnDeleteTab,.parentbtnAddTab 
+{
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+
+/* Category Info CSS END*/
+.TabLinkingMainParent
+{
+   width: 800px;
+   /*height: 500px;*/
+   margin-left: 25%;
+   border-radius: 2px;
+   background-color: #F7FCFF;
+   position: absolute;
+   z-index: 99;
+   box-shadow: -1px 1px 14px #C5C5C5; */
+}
+
+.TabLinkingMainHeading
+{
+   color: #696866;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: Lato;
+    height: 30%;
+}
+
+.ToolKitTabLinkingUpperDiv
+{
+    background-color: #ffffff;
+    height: 33%;
+}
+.toolKitNewRelationChildFooter
+{
+    height:50px;
+    position: relative;
+}
+.ToolKitTabLinkingLowerDiv
+{
+    height:67%;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.toolKitLeftPortionUpperDiv
+{
+    float: left;
+    width: 40%;
+    margin-left: 9%;
+    /* display: inline-block; */
+    height: 95px;
+}
+
+.toolKitRightPortionUpperDiv
+{
+    float: left;
+    width: 41%;
+    height: 95px;
+    margin-left: 25px;
+}
+
+.toolKitLeftPortionUpperDivHeading
+{
+    font-size: 17px;
+    font-family: Oswald;
+    color: #6C6C6C;
+    height: 25px;
+}
+
+.toolKitLeftPortionLowerDivHeading
+{
+    
+}
+
+.TabToBeMappedHeading
+{
+    font-size: 17px;
+    font-family: Oswald;
+    color: #6C6C6C;
+    height: 25px;
+}
+
+.LeftPortionBodyWrapper
+{
+    background-color: #f7f7f7;
+    height: 60%;
+}
+
+.toolKitSeperator
+{
+    float: left;
+    width: 1px;
+    height: 36px;
+    /* display: inline-block; */
+    margin-top: 10px;
+    background-color: #DAE0E0;
+}
+
+.RightPortinBodyWrapper
+{
+   background-color: #f7f7f7;
+    height: 60%;
+    position: relative;
+    padding-top: 12px;
+}
+
+.downArrowTabMapped
+{
+    /* float: right; */
+    /* display: inline-block; */
+    position: absolute;
+    top: 7px;
+    color: #D5D6D8;
+    line-height: 20px;
+    right: 5px;
+}
+
+.toolKitRightSeperator
+{
+    width: 1px;
+    height: 36px;
+    /* display: inline-block; */
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #DAE0E0;
+    position: absolute;
+    top: 0px;
+    left: 160px;
+    display:none;
+}
+
+.ColumnMappingHeader
+{
+    text-align: center;
+    padding-top: 10px;
+    color: #ABACAE;
+    font-family: Lato;
+}
+
+.toolkitPrimarysecondaryTabRelation
+{
+    margin-left: 12%;
+    margin-top: 15px;
+    color: #838383;
+    font-family: Lato;
+    /* line-height: 30px; */
+    height: 45px;
+}
+
+.toolKitPrimaryTabColumnHeading
+{
+    float: left;
+    height: 30px;
+    width: 230px;
+    /* margin-left: 25%; */
+    text-align: center;
+    border-bottom: 1px dashed;
+    line-height: 35px;
+}
+
+.toolKitSecondaryTabColumnHeading
+{
+    float: left;
+    height: 30px;
+    width: 230px;
+    /* margin-left: 25%; */
+    text-align: center;
+    border-bottom: 1px dashed;
+    margin-left: 100px;
+    line-height: 35px;
+}
+
+.toolKitPrimarySecondaryColumnLowerDiv
+{
+     margin-left: 15%;
+    /* margin-top: 15px; */
+    color: #838383;
+    font-family: Lato;
+    /* line-height: 30px; */
+    height: 50px;
+}
+
+.EachMappedColumnParent
+{
+    margin-left: 10%;
+    /* margin-top: 15px; */
+    color: #838383;
+    font-family: Lato;
+    /* line-height: 30px; */
+    height: 35px;
+    width: 550px;
+    background-color: #f8f8f8;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: 15%;
+    font-family: Oswald;
+    border-radius: 2px;
+}
+
+.toolKitEachColumnPrimary
+{
+    float: left;
+    height: 30px;
+    width: 180px;
+    /* margin-left: 25%; */
+    text-align: center;
+    /* border-bottom: 1px dashed; */
+    line-height: 30px;
+    margin-right: 5%;
+}
+
+.toolKitEachColumnSecondary,toolKitColumnsSecondaryMapped
+{
+    float: left;
+    height: 30px;
+    width: 190px;
+    margin-left: 8%;
+    text-align: center;
+    /* border-bottom: 1px dashed; */
+    line-height: 30px;
+}
+
+.toolKitRelationImage
+{
+  background-image: url(../images/mapping_icon.png);
+    height: 20px;
+    background-repeat: no-repeat;
+    width: 20px;
+    position: absolute;
+    margin-left: 25px;
+    display: inline-block;
+    top: 5px;
+    left: 164px;
+}
+
+.toolKiteditIcon,.toolKitdeleteIcon
+{
+     position: relative;
+     top: 5px;
+     margin-left: 15px;
+     color: lightgrey;
+}
+
+.toolKitColumnsPrimaryMapped
+{
+     float: left;
+    height: 30px;
+    width: 230px;
+    /* margin-left: 25%; */
+    text-align: center;
+    /* border-bottom: 1px dashed; */
+    line-height: 30px;
+    margin-right: 10%;
+}
+
+.TabLinkingMainHeadingExisting
+{
+      color: #696866;
+      padding-top: 10px;
+      padding-left: 10px;
+      font-size: 16px;
+      font-family: Lato;
+      height: 10%;
+}
+
+::-webkit-input-placeholder
+{
+    color:#e7e7e7;    
+}
+
+.TabLinkingMainParentExisting
+{
+   width: 800px;
+   /* height: 300px; */
+   box-shadow: 0px 2px 10px #E2E2E2;
+   margin-left: 25%;
+   /* border: 1px solid #EEEEEE; */
+   border-radius: 2px;
+   background-color: #F7FCFF;
+   /* z-index: 999999999999999999; */
+   /* background: whitesmoke; */
+   padding-bottom: 20px;
+   background-image: url(../images/tex.jpg);
+}
+
+.toolkitAddTabRelationExisting
+{
+  float: right;
+  color: white;
+  width: 80px;
+  height: 20px;
+  text-align: center;
+  background-color: #64DFD0;
+  line-height: 20px;
+  margin-right: 0px;
+  border-radius: 2px;
+  font-size: 12px;
+  font-family: Lato;
+  background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+  border: none;
+  background-color: #43D9C6;
+  outline-color: #43D9C6;
+  margin-top: 0px;
+  margin-right: 10px;
+  position: relative;
+  top: -18px;
+}
+
+.toolKitCancelColumnMappings
+{
+    width: 100px;
+    height: 20px;
+    /* background-color: #64DFD0; */
+    /* color: white; */
+    position: absolute;
+    text-align: center;
+    border-radius: 2px;
+    bottom: 15px;
+    right: 15px;
+    display: inline-block;
+    font-family: Lato;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.toolKitTabToBeMappedDropDown
+{
+    line-height: 30px;
+}
+
+.headerSectionGroupSpinner
+{
+    width: 5%;
+    cursor: pointer;
+    font-size: 10px !important;
+    height: 30px !important;
+    color: #6b6b6b !important;
+    font-weight: normal;
+    text-transform: uppercase;
+        border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.headerSectionOperationDropDown
+{
+    width: 5%;
+    cursor: pointer;
+    color: #6b6b6b;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    /* border-right: 1px solid white; */
+    position: relative;
+}
+
+.headerSectionAdvOperationDropDown
+{
+    width: 10%;
+    cursor: pointer;
+    color: #6b6b6b;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    position: relative;
+    /* font-size: 12px; */
+}
+
+.headerSectionHiddenClm
+{
+    width: 7%;
+    cursor: pointer;
+    color: #6b6b6b;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid #F7F7F7;
+    text-align: center;
+}
+
+.inputSectionSpinner
+{
+    border: 1px solid #EEEEEE;
+    width: 15%;
+    height: 20px;
+    position: relative;
+    top: 2px;
+    padding-left:5px;
+    background-color: #F6F6F6;
+}
+
+.OperationDropdownRpt
+{
+    text-align:center;
+    font-size: 12px;
+}
+
+.AdvOperationDropdownRpt
+{
+    text-align:center;
+    font-size: 12px;
+}
+
+.OperationDropDown
+{
+    border: none;
+    font-size: 11px;
+    outline: none;
+    width: 100%;
+    padding-left: 5px;
+    line-height: 20px;
+    -moz-appearance: none;
+    appearance: none;
+}
+.DropDownOptions
+{
+    border: none;
+}
+.bootstrapToogleToolkit
+{
+    
+}
+.OperationDropdown
+{
+    color: #969696;
+    border: 1px none;
+    width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    color: #969696;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    text-align: left;
+    top: 5px;
+}
+.toolkitFirstOperationDiv
+{
+    margin-top: 1px;
+    display: inline-block;
+    width: 100%;
+    padding-left: 10px;
+}
+.downarrowdropdown
+{
+    position: absolute;
+    right: 12px;
+    top: 5px;
+}
+.toolKitEachOperation
+{
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    width: 90px;
+    padding-left: 5px;
+    white-space: nowrap;
+    border-left:5px solid white;
+}
+
+.toolKitEachOperation:hover
+{
+    background-color:#EEEEEE;
+    border-left:5px solid #00BCEF;
+}
+.toolkitOperationsMainDiv
+{
+    position: absolute;
+    background-color: #FFFFFF;
+    font-family: 'Lato';
+    font-size: 13px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 10px #C5C5C5;
+    padding: 5px 0;
+    top: 25px;
+    left: 10px;
+    z-index:99;
+}
+.toolkitGroupAlertIcon
+{
+   color:Maroon;
+}
+.toolKitColumnsSecondaryMapped
+{
+    float: left;
+    height: 30px;
+    width: 230px;
+    /* margin-left: 25%; */
+    text-align: center;
+    /* border-bottom: 1px dashed; */
+    line-height: 30px;
+    margin-right: 10%;  
+}
+/*Reports Screen start*/
+.toolKitAddReports
+{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+
+    font-family: Lato;
+
+}
+.btnAddReportAgain
+{
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    /* height: 22px; */
+    font-family: Lato;
+    font-size: 12px;
+    /* padding: 2px 10px; */
+    cursor: pointer;
+    line-height: 22px;
+    /* width: 80px; */
+    text-align: center;
+    position: absolute;
+    right: 15px;
+    top: 4px;
+    padding: 2px 10px;
+}
+.headerSectionReportName
+{
+    width: 20%;
+    padding-left: 10px;
+    /* padding-bottom: 1em; */
+    color: #6b6b6b;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid #F7F7F7;
+    border-bottom: 1px solid #F7F7F7;
+}
+.headerSectionReportDesc
+{
+    width: 20%;
+    padding-left: 5px;
+    cursor: pointer;
+    color: #6b6b6b;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid #F7F7F7;
+    border-bottom: 1px solid #F7F7F7;
+}
+.headerSectionCreatedBy
+{
+    width: 20%;
+    padding-left: 5px;
+    cursor: pointer;
+    color: #6b6b6b;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid #F7F7F7;
+    border-bottom: 1px solid #F7F7F7;
+}
+.headerSectionMappedUser
+{
+    width: 20%;
+    padding-left: 5px;
+    color: #6b6b6b;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid #F7F7F7;
+    border-right: 1px solid #F7F7F7;
+    border-bottom: 1px solid #F7F7F7;
+    /* padding-left: 24px; */
+}
+.headerSectionReportDelete
+{
+     width: 10%; 
+     min-width: 22px;
+    max-width: 22px;
+    font-size: 10px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+    /* border-top: 1px solid #F7F7F7; */
+    /* border-bottom: 1px solid #F7F7F7; */
+    /* border-right: 1px solid #F7F7F7; */
+}
+.headerSectionConfigure
+{
+    
+     width: 10%; 
+     min-width: 22px;
+    max-width: 22px;
+    font-size: 10px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+    /* border-top: 1px solid #F7F7F7; */
+    /* border-bottom: 1px solid #F7F7F7; */
+    /* border-right: 1px solid #F7F7F7; */
+}
+
+.addedReportName
+{
+    position: relative;
+    font-size: 16px;
+    padding-top: 2px;
+    height: 40px;
+    line-height: 40px;
+    color: #1b819b;
+    border-right: 2px solid #f1f1f1;
+}
+
+.headerReportName
+{
+    width: 35%;
+    /* border: 1px solid #F7F7F7; */
+    border-right: 0px;
+    /* background-color: #F7F7F7; */
+    padding-left: 10px;
+     border-bottom: 8px solid #FAFAFA;
+    font-family: Oswald;
+    color: #348BA2;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    /* border-right: 2px solid lightblue; */
+}
+
+.headerReportDesc
+{
+    width: 50%;
+    padding-left: 10px;
+    color: #6b6b6b;
+    font-weight: normal;
+    /* border-top: 1px solid #F7F7F7; */
+    border-bottom: 1px solid #edf4f5;
+    position:relative;
+}
+
+.PublishReprtIcon
+{
+    width: 5px;
+    border-bottom: 1px solid #edf4f5;
+}
+.addedReportDesc
+{
+    height: 25px;
+    line-height: 25px;
+    /* width: 40%; */
+    padding-left: 5px;
+    font-size: 12px;
+    font-family: Lato;
+    /* text-transform: uppercase; */
+    color: #355057;
+}
+
+.headerSectionCreatedBy
+{
+    
+}
+
+.addedReportUser
+{
+    
+}
+
+.headerSectionMappedUser
+{
+    
+}
+
+.lstMappedUsers
+{
+    float:left;   
+    width:80%;
+}
+
+.addedReportMappedUser
+{
+    color: gray;
+    height: 20px;
+    line-height: 20px ! important;
+     width: 30%; 
+    /* border: 1px solid #F7F7F7; */
+    text-align: center;
+    line-height: 25px;
+    color: gray;
+    font-size: 12px;
+    float:left;
+    /* padding-top: 4px; */
+    position:relative;
+}
+
+.AddedReportDelete
+{
+    /* width: 10%; */
+    /* margin-left: 44px; */
+    color: lightgray;
+    margin-left: 15px;
+    font-size: 19px;
+}
+
+.AddedReportConfigure
+{
+    width: 10%;
+    background-color: #43D9C6;
+    color: white;
+    font-size: 13px;
+    padding-left: 7px;
+    border-radius: 3px;
+}
+
+.AddedReportConfigureBtn
+{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+}
+
+.toolKitNewReportPopUp
+{
+    position: absolute;
+    z-index: 99;
+    /* height: 200px; */
+    width: 400px;
+    right: 15px;
+    top: 73px;
+    padding: 5px 5px 10px 5px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: -2px 4px 10px #C5C5C5;
+}
+
+.toolKitNewReportPopUp:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 5px 7px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -7px;
+    left: 340px;
+}
+
+.toolKitNewReportPopUp:before 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 5px 7px;
+    border-color: #f3eeee transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    top: -8px;
+    left: 341px;
+}
+
+.toolKitReportNameText
+{
+    
+}
+
+.toolKitReportNameLabel
+{
+    float: left;
+    vertical-align: middle;
+    color: gray;
+    font-family: Lato;
+    height: 30px;
+    line-height: 30px;
+    width: 40%;
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    border-right: none;
+    padding-left: 7px;
+}
+
+.toolKitReportDescLabel
+{
+    /* width: 40%; */
+    /* float:left; */
+    height: 25%;
+    /* line-height: 35px; */
+    /* vertical-align: bottom; */
+    color: gray;
+    font-family: Lato;
+    position: relative;
+    top: -7px;
+    left: -5px;
+    font-size: 11px;
+    padding-left: 4px;
+}
+
+.toolKitReportDescText
+{
+    
+}
+
+.toolKitReportPopUpSeperator
+{
+    /* margin-top: -40px; */
+    height: 145px;
+    width: 1px;
+    border: 1px solid gray;
+    float: left;
+}
+
+.toolKitExistingReportParent
+{
+    width: 100%;
+    /* margin-top: 10px; */
+    /* margin-top: 3%; */
+    padding-left: 11px;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+}
+
+.toolKitExistingReportLabel
+{
+    width: 110px;
+    float: left;
+    vertical-align: middle;
+    color: gray;
+    font-family: Lato;
+}
+
+.toolKitExistingReportDropDownFirstDiv
+{
+    margin-top: 1px;
+    display: inline-block;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.toolKitExistingReportDropDownParent
+{
+    display: inline-block;
+    color: #969696;
+    border: 1px none;
+    width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: white;
+    width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    color: #969696;
+    overflow: scroll;
+    overflow-x: hidden;
+    /* position: absolute; */
+    text-align: left;
+}
+
+.toolKitExistingReportEachDropDownOptions
+{
+     height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    width: 90px;
+    padding-left: 5px;
+    white-space: nowrap;
+    border-left:5px solid white;
+}
+
+.toolKitExistingReportEachDropDownOptions:hover
+{
+    background-color:#EEEEEE;
+    border-left:5px solid #00BCEF;
+}
+
+.toolKitExistingReportDropDownOptions
+{
+    position: absolute;
+    background-color: #FFFFFF;
+    font-family: 'Lato';
+    font-size: 13px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 10px #C5C5C5;
+    padding: 5px 0;
+    top: 25px;
+    left: 10px;
+}
+
+.toolKitExistingReportTabLabel
+{
+    width: 110px;
+    float: left;
+    vertical-align: middle;
+    color: gray;
+    font-family: Lato;
+}
+
+.toolKitExistingReportTabsDropDownParent
+{
+    display: inline-block;
+    color: #969696;
+    border: 1px none;
+    width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: white;
+    width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 35px;
+    padding-left: 10px;
+    line-height: 35px;
+    float: left;
+    color: #969696;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    text-align: left;
+}
+
+.toolKitExistingReportTabDropDownFirstDiv
+{
+    margin-top: 1px;
+    display: inline-block;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.toolKitExistingReportTabDropDownOptions
+{
+    position: absolute;
+    background-color: #FFFFFF;
+    font-family: 'Lato';
+    font-size: 13px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 10px #C5C5C5;
+    padding: 5px 0;
+    top: 25px;
+    left: 10px;
+}
+
+.headerReportNameBg
+{
+
+    width: 20%;
+    padding-left: 5px;
+    color: #6b6b6b;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top: 1px solid #F7F7F7;
+    border-bottom: 1px solid #F7F7F7;
+
+}
+
+.ReportNameParent
+{
+    padding: 5px 5px;
+    width: 100%;
+    display: inline-block;
+    position:relative;
+}
+
+.ReportDescParent
+{
+    padding: 0 5px;
+    width: 100%;
+}
+
+.CreatReportLeftPortion
+{
+    width: 100%;
+    /* float: left; */
+    /* padding: 5px 0 25px 0; */
+    /* padding-left: 4px; */
+    /* padding-right: 0px; */
+}
+
+.CreatReportRightPortion
+{
+    width: 35%;
+    /* display: inline-block; */
+    float: left;
+    /* margin-top: 20px; */
+}
+
+
+.toolKitExistingTabReportParent
+{
+    /* margin-top: 7%; */
+    padding-left: 11px;
+    width: 100%;
+    position: relative;
+    height: 35px;
+    line-height: 35px;
+}
+
+.toolKitAddReportFooter
+{
+    width: 100%;
+    height: 20%;
+    /* position: absolute; */
+    /* bottom: -59px; */
+    /* position: relative; */
+    bottom: -25px;
+}
+
+.toolKitAddReportsaveBtn
+{
+    width: 60px;
+    height: 24px;
+    text-align: center;
+    color: white;
+    background-color: #43D9C6;
+    float: right;
+    line-height: 24px;
+    border-radius: 2px;
+    margin-right: 89px;
+    font-size: 14px;
+    cursor:pointer;
+    position: relative;
+    top: 4px;
+    right: -28px;
+}
+
+.toolKitAddReportCancelBtn
+{
+  float: right;
+  font-size: 14px;
+  margin-right: -147px;
+  height: 24px;
+  line-height: 24px;
+  width: 55px;
+  color: gray;
+  text-align: center;
+  cursor:pointer;
+  position: relative;
+  top: 4px;
+  /* background-color: #43D9C6; */
+}
+
+.toolKitReportHeading
+{
+   padding-left: 5px;
+    /* padding-top: 10px; */
+    color: gray;
+    font-family: Lato;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    /* float: right; */
+    /* float: left; */
+    /* margin-left: 11%; */
+}
+
+.ToolKitAlertPopUpParent
+{
+    box-shadow: 5px 7px 22px -7px #6D6D6D;
+    background-image: url('images/popup_texture.png');
+    min-height: 168px;
+    font-family: Lato;
+    border: 1px solid #D4D4D4;
+    border-top: 0px;
+    position: absolute;
+    background-color: white;
+    left: 40%;
+    width: 400px;
+    z-index: 100000316;
+}
+
+.ToolKitPopupAlertUpperSuccessDiv
+{
+     height: 4px;
+     width: 100%;
+     background-color: #ACD373;    
+}
+
+.ToolKitPopUpError
+{
+      min-width: 200px;    
+}
+
+
+.ToolKitErrorDivLeft
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 12%;
+    margin-top: 27px;
+    margin-left: 20px;    
+}
+
+.ToolKitUserSuccess
+{
+   background-image: url("../Images/icons/rad_alert_success.png"); 
+   height: 50px;
+   width: 50px;
+}
+
+.ToolKitErrorDivRight
+{
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 30px;
+      width: 70%;
+      margin-left: 15px;
+}
+
+.ToolKitErrorDivText
+{
+      font-size: 14px;
+      font-weight: normal;
+      margin-top: 15px;
+}
+
+.ToolKitPopupAlertUpperDiv
+{
+    height: 4px;
+    width: 100%;
+    background-color : red; 
+}
+
+.ToolKitUserFailure
+{
+   background-image: url("../Images/icons/rad_fail.png"); 
+   height: 50px;
+   width: 50px;
+}
+
+/*.toolKitUserMappingParent:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 15px 15px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -15px;
+    left: 85px;
+}
+
+.toolKitUserMappingParent:before 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 15px 15px;
+    border-color: #e2e2e2 transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    top: -16px;
+    left: 85px;
+}*/
+
+.toolKitUserMappingParent
+{
+    position: absolute;
+    z-index: 99;
+    font-family: Oswald;
+    width: 200px;
+    background-color: #EEEEEE;
+    border-radius: 3px;
+    height: 330px;
+    background-color: white;
+    box-shadow: 0px 1px 8px #949494;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.toolKitExistingUsersParent
+{
+    display: inline-block;
+    width: 100%;
+    height:250px;
+    overflow-y: auto;
+}
+
+.userParentHeader
+{
+    height:30px;
+    line-height: 35px;
+    /* padding-left: 10px; */
+    color: #a5a5a5;
+    text-transform: uppercase;
+    border-bottom: 1px solid #efefef;
+}
+
+.selected
+{
+    color: #00BEF7;
+    /* position: inherit; */
+    background-color: "";
+}
+/*.toolKitExistinUsersLabel
+{
+    float: left;
+    width: 25%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 13px;
+    font-family: Oswald;
+    vertical-align: middle;
+    color: gray;
+    background-color: aliceblue;
+    padding-left: 5px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}*/
+
+.toolKitExistinUsersLabel
+{
+    float: left;
+    width: 25%;
+    height: 20px;
+    line-height: 17px;
+    font-size: 12px;
+    font-family: Lato;
+    vertical-align: middle;
+    color: white;
+    padding-left: 5px;
+    border-radius: 3px;
+}
+
+.UserLabelSelected
+{
+        color: #a9a8a8 !important;
+        border: 0px !important;
+        border-radius: 3px;
+        background-color: white ! important;
+}
+
+.UserLabelSelectedhover
+{
+    color: #6ECD9D;
+    border: 1px solid #6ECD9D;
+    border-radius: 3px;
+}
+
+.toolKitExistingUser :hover
+{
+    cursor:pointer;
+}
+
+.toolKitExistingUser 
+{
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 0;
+}
+
+.toolKitExistingUsersDropDown
+{
+    width: 150px; 
+    float: left;
+    width: 70%;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    text-overflow: ellipsis;
+    border: gray;
+    border-radius: 2px !important;
+    padding-left: 12px;
+    font-family: Lato;
+    font-size: 15px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.toolKitExistingUserSaveBtn
+{
+    cursor:pointer;
+    float: right;
+    font-size: 13px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #43D9C6;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    padding: 0 10px;
+    font-family: Lato;
+}
+
+.toolKitExistingUserCancelBtn
+{
+    cursor:pointer;
+    float: right;
+    font-size: 11px;
+    font-family: Lato;
+    /* padding-right: 5px; */
+    /* padding-bottom: 10px; */
+    height: 20px;
+    line-height: 20px;
+    padding: 0 5px;
+}
+
+.toolKitExistingUserSaveBtnParent 
+{
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    padding: 5px 0;
+}
+
+.toolKitExistingUserCancelBtnParent 
+{
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    padding: 5px 0;
+}
+
+.toolKitExistingUsersFooter
+{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.toolKitCloneExistingReport
+{
+    color: #43D9C6;
+    font-size: 13px;
+    font-family: Lato;
+    padding-right: 5px;
+    height: 30px;
+    /* width: 125px; */
+    cursor:pointer;
+    display: inline-block;
+    float: right;
+    line-height: 30px;
+}
+
+.adminUserPopUp 
+{
+    position: absolute;
+    height: 100px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    top: 50px;
+    right: 5px;
+    padding: 10px;
+}
+
+.adminUserPopUp:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 15px 15px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -13px;
+    left: 159px;
+}
+
+.adminUserPopUp:before 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 15px 15px;
+    border-color: lightgray transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    top: -14px;
+    left: 159px;
+}
+
+
+.adminUserFooter 
+{
+    height: 40px;
+}
+
+.adminUserMsg 
+{
+    height: 35px;
+    line-height: 35px;
+}
+
+.btnAdmitParent 
+{
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+    padding: 5px;
+}
+
+.btnNgParent 
+{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+
+.btnAdmit 
+{
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 20px;
+    font-family: Lato;
+    font-size: 12px;
+    padding: 2px 10px;
+    cursor: pointer;
+    line-height: 16px;
+    border-radius: 2px;
+    width: 40px;
+}
+
+.btnNg 
+{
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 20px;
+    font-family: Lato;
+    font-size: 12px;
+    padding: 2px 10px;
+    cursor: pointer;
+    line-height: 16px;
+    border-radius: 2px;
+    width: 40px;
+}
+
+.toolKitexistingRelationsNewPopUp
+{
+    width: 800px;
+    margin-left: 25%;
+    border-radius: 2px;
+    background-color: #f9f9f9;
+    position: absolute;
+    z-index: 99;
+    /* height: 500px; */
+    z-index: 99;
+    box-shadow: -1px 1px 14px #C5C5C5;
+    /* margin-bottom: 15px; */
+}
+
+.toolKitExistingRelationLowerDiv
+{
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.toolkitExistingTabsNewAddRelationBtn
+{
+    width: 123px;
+    float: right;
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 20px;
+    font-family: Lato;
+    font-size: 12px;
+    padding: 2px 10px;
+    cursor: pointer;
+    line-height: 16px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.toolKitExistingTabsHeading
+{
+    width: 100px;
+    display: inline-block;
+    font-family: Lato;
+    cursor: pointer;
+}
+
+.toolkitexistingPopUpHeadingParent
+{
+    color: #696866;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: Lato;
+    height: 30%;
+}
+
+.toolKitExistingRelationUpperDiv
+{
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.toolKitExistingRelationLowerHeading
+{
+    text-align: center;
+    padding-top: 10px;
+    color: #ABACAE;
+    font-family: Lato;
+}
+
+.toolKitExistingRelationLowerColumnNameHeading
+{
+    margin-left: 12%;
+    margin-top: 15px;
+    color: #838383;
+    font-family: Lato;
+    height: 45px;
+}
+
+.toolKitExistingRelationsIntileFormEach
+{
+    width: 150px;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid #EEEEED;
+    border-radius: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.PrimaryTabNameDiv
+{
+    font-family: Lato;
+    /*margin-bottom: 3px;*/
+}
+
+.SecondaryTabNameDiv
+{
+    font-family: Lato;
+    margin-top: 0px;
+    /* width: 90px; */
+    overflow: hidden;
+    width: 130px;
+}
+   
+.MiddleImageDiv
+{
+    background-image: url(../images/mapping_icon.png);
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: 33%;
+    /* width: 20px; */
+    margin-left: 26px;
+}
+
+.toolKitExistingRelationsIntileFormParent
+{
+    /*margin-left: 5%;
+    margin-top: 10px;*/
+    text-align: center;
+}
+
+.SecondarytabcolumnNameExisting
+{
+    float: left;
+    height: 30px;
+    width: 230px;
+    text-align: center;
+    border-bottom: 1px dashed;
+    margin-left: 92px;
+    line-height: 35px;
+}
+
+.primarytabcolumnNameExisting
+{
+    float: left;
+    height: 30px;
+    width: 230px;
+    text-align: center;
+    border-bottom: 1px dashed;
+    line-height: 35px;
+}
+   
+.toolKitExistingRelationsColumnName
+{
+    height: 35px;
+    margin-left: 22%;
+}
+
+.PrimaryColumnNameDiv
+{
+    left: 55px;
+    display: inline-block;
+    top: 10px;
+    left: 14%;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: Lato;
+}
+
+.MiddleImageColumnDiv
+{
+    background-image: url(../images/mapping_icon.png);
+    height: 20px;
+    background-repeat: no-repeat;
+    width: 20px;
+    position: absolute;
+    margin-left: 2px;
+    display: inline-block;
+}
+
+.SecondaryColumnNameDiv
+{
+    display: inline-block;
+    top: 10px;
+    left: 14%;
+    width: 200px;
+    margin-left: 19%;
+    height: 30px;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Lato;
+    /* font-weight: bold; */
+}
+  
+.toolKitAddMoreColumnMappings
+{
+       top: 60px;
+       height: 40px;
+       width: 400px;
+       background-color: #EDF1F2;
+       color: #43D9C6;
+       text-align: center;
+       vertical-align: middle;
+       line-height: 40px;
+       margin-left: 25%;
+}
+
+.tileSelected
+{
+    box-shadow: 0px 2px 4px #C5C5C5;     
+}
+   
+.toolKitExistingRelationsColumnNameNew
+{
+    height: 35px;
+    margin-left:5%;
+    position: relative; 
+}
+
+.toolKitExistingSaveButton,.toolKitExistingDeleteButton
+{
+    background-color: #43D9C6;
+    text-align: center;
+    /* vertical-align: middle; */
+    line-height: 20px;
+    /* margin-left: 25%; */
+    float: right;
+    margin-right: 30px;
+    width: 85px;
+    border-radius: 2px;
+    font-size: 12px;
+    color: white;
+    display: inline-block;
+    /* vertical-align: middle; */
+    font-family: Lato;
+    cursor: pointer;
+}
+
+.toolKitRelationImageNew
+{
+    height: 30px;
+    width: 30px;
+    background-image: url(../images/mapping_icon.png);
+    background-repeat: no-repeat;
+    margin-left: 43%;
+    position: absolute;
+    top: 20px;
+}
+
+.toolkitFooter
+{
+    padding-top: 20px;
+}
+
+.toolKitNewRelationParentFooter
+{
+    position: relative;
+    background-color: #F9F9F9;
+}
+/*Reports screen end*/
+
+
+/* Formatter Pop- Up Start */
+.formatHidden
+{
+    display:none;   
+}
+
+.divFormatterUI 
+{
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    width: 300px;
+    font-family: Lato;
+    padding: 0 15px;
+    box-shadow: 0px 1px 8px #949494;
+    z-index: 99;
+}
+
+.divNormalFormatterUI
+{
+    background-color: white;
+    padding-top: 10px;
+    border-radius: 3px;
+    font-family: Lato;
+}
+
+.divAdvancedFormatterUI 
+{
+    background-color: white;
+    padding-top: 10px;
+    border-radius: 3px;
+    font-family: Lato;
+}
+
+td.lbldataType 
+{
+    width: 45%;
+    text-align: left;
+    padding-left: 10px;
+    border-left: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    background-color: #F0F0F0;
+    padding-left: 8px;
+    padding-right: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: #6f6f6f;
+    height: 25px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+td.inputdataType 
+{
+    width: 45%;
+    border-right: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    height: 25px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+
+td.lblAssemblyName 
+{
+    width: 45%;
+    text-align: left;
+    padding-left: 10px;
+    border-left: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    background-color: #F0F0F0;
+    padding-left: 8px;
+    padding-right: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: #6f6f6f;
+    height: 25px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+td.inputAssemblyName 
+{
+    width: 45%;
+    border-right: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    height: 25px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+tr.classNameParent 
+{
+    /* width: 45%; */
+}
+
+.drpDownData
+{
+    position: absolute;
+    background-color: #FFFFFF;
+    font-family: 'Lato';
+    font-size: 13px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 10px #C5C5C5;
+    padding: 10px 0;
+    z-index: 99;
+    height: 130px;
+    overflow-y: auto;
+    top: 86px;
+    left: 151px;
+    text-align: center;
+}
+
+.drpDownUnit
+{
+    position: absolute;
+    background-color: #FFFFFF;
+    font-family: 'Lato';
+    font-size: 13px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 10px #C5C5C5;
+    padding: 10px 0;
+    z-index: 99;
+    height: 115px;
+    overflow-y: auto;
+    top: 120px;
+    left: 151px;
+}
+
+.drpDownUnitNgValue
+{
+    position: absolute;
+    background-color: #FFFFFF;
+    font-family: 'Lato';
+    font-size: 13px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 10px #C5C5C5;
+    padding: 10px 0;
+    z-index: 99;
+    height: 115px;
+    overflow-y: auto;
+    top: 157px;
+    left: 151px;
+}
+
+.drpDownChild
+{
+    height: 23px;
+    line-height: 23px;
+    vertical-align: middle;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow:hidden;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.drpDownChild:hover
+{
+    padding-left:16px;
+    border-left:4px solid #00bcef;
+}
+
+td.lblclassName 
+{
+    width: 45%;
+    text-align: left;
+    padding-left: 10px;
+    border-left: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    background-color: #F0F0F0;
+    padding-left: 8px;
+    padding-right: 10px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: #6f6f6f;
+    height: 15px;
+    line-height: 15px;
+    text-transform: none;
+}
+
+td.inputclassName 
+{
+    width: 45%;
+    border-right: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    height: 15px;
+    line-height: 15px;
+}
+
+td.lblformatString 
+{
+    width: 45%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+td.inputformatString 
+{
+    width: 45%;
+}
+
+input.txtAssemblyName 
+{
+    border: none;
+    width: 100%;
+    padding-left: 8px;
+    outline: none;
+    font-family: Lato;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #414141;
+    background-color: #fbfbfb;
+}
+
+.txtdataType
+{
+    border: none;
+    width: 100%;
+    padding-left: 8px;
+    outline: none;
+    font-family: Lato;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.txtUnit
+{
+    border: none;
+    width: 100%;
+    padding-left: 8px;
+    outline: none;
+    font-family: Lato;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.txtNgValue
+{
+    border: none;
+    width: 100%;
+    padding-left: 8px;
+    outline: none;
+    font-family: Lato;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.txtDecimal
+{
+    border: none;
+    width: 100%;
+    padding-left: 8px;
+    outline: none;
+    font-family: Lato;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #414141;
+    background-color: #fbfbfb;
+}
+
+input.txtPrefix 
+{
+    border: none;
+    width: 100%;
+    padding-left: 8px;
+    outline: none;
+    font-family: Lato;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #414141;
+    background-color: #fbfbfb;
+}
+
+input.txtClassName 
+{
+    border: none;
+    width: 100%;
+    padding-left: 8px;
+    outline: none;
+    font-family: Lato;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #414141;
+    background-color: #fbfbfb;
+}
+
+tr.dataTypeParent 
+{
+    height: 20px;
+    font-size: 12px;
+}
+
+tr.assemblyNameParent 
+{
+    height: 20px;
+    font-size: 12px;
+}
+
+table.formatterTable 
+{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    table-layout: fixed;
+    font-size: 12px;
+}
+
+tr.formatterFooter 
+{
+    height: 30px;
+    line-height: 30px;
+}
+
+.btnSaveFormatterParent 
+{
+    height: 34px;
+    padding: 8px 4px 8px 4px;
+    float: right;
+}
+
+.btnCancelFormatterParent 
+{
+    height: 34px;
+    padding: 8px 4px 8px 4px;
+    float: right;
+}
+
+.btnSaveFormatter 
+{
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 20px;
+    font-family: Lato;
+    font-size: 12px;
+    padding: 2px 10px;
+    cursor: pointer;
+    line-height: 16px;
+    border-radius: 2px;
+}
+
+.btnCancelFormatter 
+{
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 20px;
+    font-family: Lato;
+    font-size: 12px;
+    padding: 2px 10px;
+    cursor: pointer;
+    line-height: 16px;
+    border-radius: 2px;
+}
+
+
+.togglebtnHeader 
+{
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.btnNormalParent 
+{
+    height: 35px;
+    line-height: 35px;
+    padding: 7px 0;
+    display: inline-block;
+}
+
+.btnAdvancedParent 
+{
+    height: 35px;
+    line-height: 35px;
+    padding: 7px 0;
+    display: inline-block;
+    /* float: left; */
+}
+
+.btnNormal 
+{
+    border: none;
+    outline-color: #43D9C6;
+    color: black;
+    height: 20px;
+    font-family: Lato;
+    font-size: 12px;
+    padding: 2px 10px;
+    cursor: pointer;
+    line-height: 16px;
+    width: 80px;
+}
+
+.btnAdvanced 
+{
+    border: none;
+    outline-color: #43D9C6;
+    color: black;
+    height: 20px;
+    font-family: Lato;
+    font-size: 12px;
+    padding: 2px 10px;
+    cursor: pointer;
+    line-height: 16px;
+    width: 80px;
+}
+
+.btnColor
+{
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    color:White ! important
+}
+/* Formatter Pop- Up End */
+.rptCatValue .toggle-off
+{
+	padding-left:	10px
+}
+.reportConfigDeleteIcon
+{
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 10%;
+    border-bottom: 1px solid #edf4f5;
+}
+.reportConfigicon
+{
+    color:lightgray;
+    font-size:19px;
+}
+.toolkitaddusermappingNew
+{
+    text-align: left;
+     padding-left: 3px; 
+    width: 80%;
+    display: inline-block;
+    font-size: 12px;
+    color: #43D9C6;
+    float: left;
+}
+.addUserMappingReport
+{
+    width: 20%;
+    max-width: 20px;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    /* border: 1px solid gray; */
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    /* padding-top: 3px; */
+    color: #ccc6c6;
+    font-size: 12px;
+    /* padding: 0 5px; */
+}
+tr.columnBodySectionReport:hover
+{
+    border-bottom:9px solid #4CD2F5;
+    background-color:#FFFFFF;
+    box-shadow: 0px 1px 12px 1px #C5C5C5;
+}
+.headerReportName:hover
+{
+     border-bottom: 5px solid #4CD2F5;
+     background-color:#FFFFFF;
+     box-shadow: -2px 3px 4px #C5C5C5;
+}
+.addedcolumnHeaderReport 
+{
+    color: #ABABAB;
+    padding-left: 10px;
+    float: left;
+    /* width: 20%; */
+    /* min-width: 200px; */
+    height: 35px;
+    line-height: 35px;
+    text-align: right;
+    padding-left: 7px;
+    padding-top: 7px;
+    font-size: 18px;
+    color: #5F6C6E;
+    font-weight: bold;
+    margin-left: 26%;
+}
+.searchAddedColumnsDivReport 
+{
+    display: inline-block;
+    width: 44%;
+    position: relative;
+    top: 2px;
+}
+.seacrhAddedColIconReport 
+{
+    float: right;
+    height: 35px;
+    width: 25px;
+    line-height: 35px;
+    color: lightgray;
+    background-repeat: no-repeat;
+    background-image: url(../images/search_small_icon.png);
+    background-position-y: 80%;
+    -webkit-transform: rotate(280deg);
+}
+.seacrhAddedColInputParentReport 
+{
+    float: left;
+    width: 94%;
+    height: 35px;
+    line-height: 35px;
+    /* border-bottom: 1px solid #ebeaea; */
+}
+.searchAddedColumnsInmputReport 
+{
+    border: none;
+    width: 100%;
+    padding-left: 8px;
+    outline: none;
+    font-family: Lato;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #414141;
+    height: 25px;
+    /* position: relative; */
+    /* top: -5px; */
+}
+.toolKitReportDescTextEditable
+{
+    outline: none;
+    height: 100%;
+    width: 100%;
+    border: none;
+    /* padding-top: 0px; */
+}
+.tabNameLabelName 
+{
+    float: left;
+    width: 45%;
+    padding-left: 10px;
+    color: #5b5b5b;
+    height: 25px;
+    line-height: 24px;
+    border-left: 1px #F2F2F2 solid;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    background-color: #F0F0F0;
+}
+.btnCancelDelete,.btnCancelTab
+{
+    color: gray;
+    /* width: 55px; */
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 2px;
+    font-size: 13px;
+    font-family: Lato;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.positionColumnSelectedTabExisting 
+{
+    position: absolute;
+    left: 55px;
+    /* left: -10px; */
+    top: 10px;
+    left: 16%;
+    width: 150px;
+    height: 30px;
+    /* border: 1px solid #EEEEEE; */
+}
+.positionColumnSelectedColumnsTabExisting 
+{
+    position: absolute;
+    left: 58%;
+    width: 150px;
+    height: 30px;
+    top: 8px;
+    line-height: 30px;
+}
+.toolKitNewRelationFooter
+{
+        padding-top: 0px;
+}
+.inputSectionSpinner .a
+{
+    color:gray;
+}
+
+
+.unTitledTab
+{
+    margin-top: 0;
+    font-size: 14px;
+    padding: 0 10px;
+    cursor: pointer;
+    height: 27px;
+    line-height: 27px;
+    font-family: Lato;
+    position: relative;
+    border-bottom: 4px solid #00bcef;
+    background-color:transparent !important;
+    background: url(../../SuperAwesome/icons/selected_tab_texture.png);
+}
+
+.unSelectedRegionParent 
+{
+    background-color: #F2F5F8;
+}
+
+.parameterLabelText 
+{
+    width: 150px;
+    float :left;
+}
+
+.parameterLabelDrpDwn 
+{
+    display: inline-block;
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.parameterLabelDrpDwnParent
+{
+    float :left;
+    width: 100px;
+}
+
+.rangeSelect 
+{
+    height: 43px;
+    line-height: 43px;
+    padding: 10px 0px;
+    width: 150px;
+    position: relative;
+    left: -5px;
+    padding-left: 10px;
+    background-color: whitesmoke;
+    /* position: absolute; */
+    bottom: 0px;
+}
+
+.rangeSelectLabel 
+{
+    float: left;
+    width: 42%;
+    /* padding-top: 10px; */
+    height: 22px;
+    text-align: left;
+    line-height: 22px;
+    /* border-left: 1px #F2F2F2 solid; */
+}
+
+.rangeSelectDiv 
+{
+    /* display: inline-block; */
+    height: 25px;
+    line-height: 25px;
+    padding-left: 4px;
+    padding-top: 3px;
+    text-align: left;
+}
+
+.drpDownGlobalUnit 
+{
+    box-shadow: 0px 2px 10px #C5C5C5;
+    width: 100px;
+    position: absolute;
+    position: absolute;
+    background-color: #fcfcfc;
+    font-family: 'Lato';
+    font-size: 13px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 10px #C5C5C5;
+    padding: 10px 0;
+    z-index: 99;
+    /* max-height: 192px; */
+    overflow-y: auto;
+    top: 24px;
+    left: 40px;
+    width: 150px;
+    text-transform: capitalize;
+    padding: 10px 5px;
+    padding-bottom: 0px;
+}
+.toolKitFooterforSaveAndDel
+{
+    padding-top: 10px;
+    height: 37px;
+    line-height: 37px;
+}
+
+/* Publish Screen Css Start */
+.toolkitLeftMenu
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /* text-align: center; */
+    /* padding: 0 300px; */
+}
+
+#toolkitLeftMenuBar
+{
+    position: relative;
+    /* top: 50px; */
+    /* left: 280px; */
+    width: 200px;
+    /* height: 100% !important; */
+    background-color: White;
+    box-shadow: 0px 0 6px 0px rgba(0, 0, 0, 0.1);
+}
+.LeftMenuBarParent
+{
+    position: relative;
+    width: 200px;
+}
+.LeftMenuBar
+{
+    padding-left: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 200px;
+    background-color: White;
+    /* overflow-y: auto; */
+    /* bottom: 0; */
+    /* flex: 1; */
+    border-left: 1px solid;
+    border-left-color: #efefef;
+    box-shadow: 0px 0 6px 0px rgba(0, 0, 0, 0.1);/* change 11 to 1 or 0 for ajay */
+}
+
+.Data_left_menu
+{
+    max-height: 52px !important;
+    color: #4C4848;
+    border: 0px;
+    border-bottom: 1px solid #F0F0F0;
+    padding-left: 19px;
+    cursor: pointer;
+    min-height: 34px;
+    padding-top: 8px;
+    font-size: 14px;
+    /*position: relative;*/
+    background-color : White;
+}
+
+.TollKit_Report
+{
+    max-height: 52px !important;
+    color: #4C4848;
+    border: 0px;
+    border-bottom: 1px solid #F0F0F0;
+    padding-left: 19px;
+    cursor: pointer;
+    min-height: 34px;
+    padding-top: 8px;
+    font-size: 14px;
+    /*position: relative;*/
+    background-color : White;
+    box-shadow: -2px 0px 8px #949494;
+    color: #00BEF7;
+    cursor: move;
+}
+
+.Data_left_menu:hover,.TollKit_Report:hover
+{
+   border-left:4px solid #01BDEF;
+   padding-left: 15px;
+}
+
+.leFtToggleArrow
+{
+    padding-top: 0px;
+    /* padding-right: 10px; */
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    text-shadow: none;
+    color: #8F9B9F;
+    /* width: 11%; */
+    text-align: center;
+}
+
+.child
+{
+    padding-left: 0px;
+    padding-bottom: 0px;
+    position: absolute;
+    left: 98%;
+    /* border-left: 1px solid; */
+    border-left-color: #efefef;
+    box-shadow: 1px 0 6px 2px rgba(0, 0, 0, 0.1);
+}
+
+.child:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 9px 9px 9px 0px;
+    border-color: transparent #FFFFFF;
+    display: block;
+    width: 0;
+    z-index: 1;
+    left: -8px;
+    top: 8px;
+}
+
+.child:before 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 10px 10px 10px 0px;
+    border-color: transparent #bdbdbd;
+    display: block;
+    width: 0px;
+    z-index: 0;
+    left: -9px;
+    top: 7px;
+}
+
+.addReportName 
+{
+    padding-left: 5px;
+    position: relative;
+    top: 1px;
+    padding-bottom: 5px;
+}
+
+.addReportName 
+{
+    padding-left: 5px;
+    position: relative;
+    top: 1px;
+    padding-bottom: 5px;
+    background-color: White;
+}
+
+.texthere,.TileNameInput
+{
+    /* padding-top: 0px; */
+    padding-left: 5px;
+    font-size: 15px;
+    font-family: Lato;
+    background: 0px;
+    width: 170px;
+    border-bottom: 1px solid #00BEF7;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-color:  rgb(65, 65, 65);
+    border-bottom-style:  none;
+    border-bottom-width:  0px;
+    border-collapse:  separate;
+    border-image-outset:  0px;
+    border-image-repeat:  stretch;
+    border-image-slice:  100%;
+    border-image-source:  none;
+    border-image-width:  1;
+    border-left-color:  rgb(65, 65, 65);
+    border-left-style:  none;
+    border-left-width:  0px;
+    border-right-color:  rgb(65, 65, 65);
+    border-right-style:  none;
+    border-right-width:  0px;
+    border-top-color:  rgb(65, 65, 65);
+    border-top-style:  none;
+    border-top-width:  0px;
+    box-sizing:  border-box;
+    color:  rgb(65, 65, 65);
+    cursor:  auto;
+    display:  inline-block;
+    font-family:  Lato;
+    font-size:  14px;
+    font-stretch:  normal;
+    font-style:  normal;
+    font-variant-caps:  normal;
+    font-variant-ligatures:  normal;
+    font-variant-numeric:  normal;
+    font-weight:  normal;
+    height:  22px;
+    letter-spacing:  normal;
+    line-height:  20px;
+    margin-bottom:  0px;
+    margin-left:  0px;
+    margin-right:  0px;
+    margin-top:  0px;
+    outline-color:  rgb(65, 65, 65);
+    outline-style:  none;
+    outline-width:  0px;
+    padding-bottom:  1px;
+    padding-left:  8px;
+    padding-right:  0px;
+    padding-top:  1px;
+    text-align:  start;
+    text-indent:  0px;
+    text-rendering:  auto;
+    text-shadow:  none;
+    text-size-adjust:  100%;
+    text-transform:  none;
+    user-select:  text;
+    vertical-align:  middle;
+    white-space:  nowrap;
+    width:  171.234px;
+    word-spacing:  0px;
+    writing-mode:  horizontal-tb;
+    -webkit-appearance:  none;
+    -webkit-border-horizontal-spacing:  0px;
+    -webkit-border-vertical-spacing:  10px;
+    -webkit-rtl-ordering:  logical;
+    -webkit-tap-highlight-color:  rgba(0, 0, 0, 0);
+    -webkit-border-image:  none;
+    /* border-bottom: 1px solid #00BEF7; */
+}
+
+.Publish_Save, .Cancel_Publish
+{
+    background-color: #43D9C6;
+    text-align: center;
+    /* vertical-align: middle; */
+    line-height: 20px;
+    /* margin-left: 25%; */
+    float: right;
+    margin-right: 10px;
+    width: 85px;
+    /* top: 15px; */
+    font-size: 14px;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Lato;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.delete_div
+{
+    /* float: right; */
+    color: #8F9B9F;
+    position: relative;
+    display: inline-block;
+    /* bottom: 3px; */
+    right: 9px;
+    font-size: 17px;
+    font-weight: 300;
+    text-shadow: none;
+    color: #8F9B9F;
+    /* width: 11%; */
+    cursor: pointer;
+}
+
+.Publish_Footer
+{
+    padding-top: 10px;
+    height: 37px;
+    line-height: 37px;
+}
+
+.Add_New_Folder
+{
+    padding: 0 30px;
+    /* padding-bottom: 2px; */
+    padding-top: 2px;
+}
+
+.Create_New_Folder
+{
+    text-align: center;
+    border: 1px dotted;
+    font-size: 13px;
+    border-color: #c4c1c1;
+    font-family: Lato;
+    color: #a1a0a0;
+    cursor: pointer;
+    height: 20px;
+}
+
+.AddNewReport
+{
+    height: 55px;
+    line-height: 55px;
+    /* text-align: left; */
+    padding: 0 10px;
+    padding-top: 10px;
+    border-bottom: 0px solid;
+    font-size: 16px;
+    font-family: Lato;
+    text-align: center;
+    color: #43D9C6;
+    cursor: pointer;
+    background-color: white;
+}
+.ExistingReports
+{
+    font-size: 12px;
+    text-align: left;
+    padding-left: 5px;
+    vertical-align: top;
+    line-height: 18px;
+    color: #a5a5a5;
+    cursor: pointer;
+    border-bottom: 1px solid;
+    border-bottom-color: #e8e8e8;
+    height: 30px;
+} 
+.NewReport
+{
+    height: 30px;
+    line-height: 25px;
+    font-size: 12px;
+    border: 1px dashed lightgray;
+}
+.uploadimg
+{
+    float: right;
+    cursor: pointer;
+    padding-right: 5px;
+    color: #00BEF7;
+}
+
+.Data_Show 
+{
+    display: inline-block;
+    width: 87%;
+    font-family: Lato;
+}
+/*
+::-webkit-scrollbar 
+{
+    width: 8px;
+}
+ 
+
+::-webkit-scrollbar-track 
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(224,224,224,0.4); 
+}*/
+/*.LeftMenuBar ui-sortable child
+{
+   box-shadow:  10px 10px 10px rgba(68,68,68,0.6), 
+    inset 0 0 10px rgba(68,68,68,0.6);
+ 
+   height: 200px;
+}*/
+/* Publish Screen Css End */
+
+.reportCollection 
+{
+    height: 200px;
+    line-height: 200px;
+    background-color: white;
+    z-index: 999;
+    position: absolute;
+    border: 1px solid lightgray;
+}
+
+.reportCollectionItem 
+{
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tabCollection 
+{
+    height: 200px;
+    line-height: 200px;
+    background-color: white;
+    z-index: 999;
+    position: absolute;
+    border: 1px solid lightgray;
+    left: 132px;
+    top: 30px;
+}
+
+.tabCollectionItem 
+{
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.toolKitFooterforSaveAndDel
+{
+    padding-top: 10px;
+    height: 37px;
+    line-height: 37px;
+    padding-left: 10px;
+}
+.queryFilterCheckBox,.TwoWayCheckBox
+{
+    height: 20px;
+    width: 20px;
+    border: 1px solid #B7B7B7;
+    border-radius: 2px;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #a3a3a3;
+}
+
+.queryFilterParent,.TwoWayParent
+{
+    position: absolute;
+    left: 30px;
+    bottom: 13px;
+    font-family: Oswald;
+    font-size: 12px;
+}
+
+.queryFilterLabel,.TwoWayLabel
+{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
+.queryFilterCheckBoxParent,.TwoWayCheckBoxParent 
+{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.toolKitRelationColumnNameBody 
+{
+    position: relative;
+}
+
+.del_div 
+{
+    display: inline-block;
+}
+
+.ui-helper
+{
+    width:100%;   
+}
+
+
+.defaultValueParent,.defaultRangeValueParent 
+{
+    /* border-bottom: 1px solid #f2f2f2; */
+    height: 30px;
+    /* line-height: 25px; */
+}
+
+.rightValueParent 
+{
+    float: left;
+    width: 50%;
+}
+
+.multiSelectParent 
+{
+    float: left;
+    width: 50%;
+}
+
+.filterRow 
+{
+    height: 55px;
+    /* line-height: 55px; */
+}
+
+.colonClass
+{
+    position:absolute;
+    right:0px;
+       
+}
+
+.filterNameParent
+{
+        height: 22px;
+    line-height: 22px;
+}
+
+.IsqueryFilterParent
+{
+        display: inline-block;
+    padding-left: 15px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    font-size: 14px;
+    font-family: Lato;
+    bottom: 6px;
+    position: relative;
+}
+
+.IsqueryFilterLabel
+{
+   display: inline-block;
+   height: 30px;
+   line-height: 30px;
+   font-weight: normal;
+   font-family: Oswald;
+   font-size: 12px;
+}
+
+.IsqueryFilterCheckBoxParent
+{
+   display: inline-block;
+    padding-left: 5px;
+}
+
+.IsTwoWayParent
+{
+    float: left;
+    padding: 0 15px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    font-size: 14px;
+    font-family: lato;
+    position: relative;
+    bottom: 4px;
+    display:none;
+}
+
+.IsTwoWayLabel
+{
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  font-family: Oswald;
+  font-size: 12px;
+}
+
+.IsTwoWayCheckBoxParent
+{
+   display: inline-block;
+    padding-left: 5px;
+}
+
+
+.PublishReport
+{
+    height: 25px;
+    line-height: 23px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    text-decoration-color: green;
+    color: #43D9C6;
+    border-radius: 8px;
+    border: 1px solid #43D9C6;
+    padding: 0 15px;
+}
+
+.PublishTheReport
+{
+    height: 30px;   
+}
+
+.PublishedReport
+{
+    height: 25px;
+    line-height: 23px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    text-decoration-color: green;
+    color: #43D9C6;
+   background-image: url("../Images/publish tick icon.png");
+   background-repeat: no-repeat;
+    /* border-radius: 8px; */
+    /* border: 1px solid #43D9C6; */
+    padding: 0 15px;
+    padding-left: 25px;
+}
+
+
+.PublishReport:hover
+{
+    height: 25px;
+    line-height: 23px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    text-decoration-color: green;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid #43D9C6;
+    padding: 0 15px;   
+    background-color: #43D9C6;
+}
+
+.rightSideTip{
+    /* display: none; */
+    position: absolute;
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-bottom-style: inset;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-left-style: inset;
+    border-right-color: #949494;
+    border-right-style: solid;
+    border-top-color: rgba(0, 0, 0, 0);
+    border-top-style: inset;
+    border-width: 10px;
+    color: #333;
+    font-size: 16px;
+    height: 0px;
+    left: 100%;
+    width: 0px;
+    /* top:-21px; */
+    z-index: 200;
+}
+
+
+.rightSideTipInside{
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-bottom-style: inset;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-left-style: inset;
+    border-right-color: #FFF;
+    border-right-style: solid;
+    border-top-color: rgba(0, 0, 0, 0);
+    border-top-style: inset;
+    border-width: 10px;
+    color: #333;
+    display: block;
+    font-size: 16px;
+    height: 0px;
+    left: -9px;
+    position: absolute;
+    top: -10px;
+    width: 0px;
+}
+
+.Export
+{
+    color: white;
+    /* width: 55px; */
+    height: 24px;
+    text-align: center;
+    background-color: #64DFD0;
+    line-height: 24px;
+    border-radius: 2px;
+    font-size: 13px;
+    font-family: Lato;
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    cursor: pointer;
+    position: absolute;
+    right: 67px;
+    /* top: 10px; */
+    padding: 0 10px;
+    float: left;
+}
+
+.TileGroupColumn,.TileLayoutColumn,.TileSortColumn,.TileNameWrapp
+{
+    height: 26px;
+    line-height: 26px;
+    /* border: inherit; */
+    /* margin: 5px 0px; */
+    padding: 3px 50px;
+}
+
+.TileGroup,.TileLayout,.TileSort
+{
+    float: left;
+    padding-right: 0 10px;
+    padding: 0 10px;
+    font-family: Lato;
+    font-size: 16px;
+    text-align: left;
+    width: 75px;
+    /* border-left: 1px #F2F2F2 solid; */
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+    background-color: #F0F0F0;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: #6f6f6f;
+}
+
+.GroupDropdown,.LayoutDropdown,.SortDropdown,.TileNameInputWrapper
+{
+    height: 20px;
+    line-height: 14px;
+    text-align: left;
+    font-family: Lato;
+    vertical-align: top;
+    padding-left: 4px;
+    font-size: 12px;
+    /* color: #43D9C6; */
+    float: left;
+    /* border-radius: 8px; */
+    /* border: 1px solid #43D9C6; */
+    /* padding: 0px 8px; */
+    /* padding-left: 25px; */
+    /* width: 130px; */
+    cursor: pointer;
+    /* border-top: 2px #F2F2F2 solid; */
+    /* border-bottom: 2px #F2F2F2 solid; */
+    /* border-right: 2px #F2F2F2 solid; */
+    /* margin: 1px 0; */
+}
+
+.GroupedParent,.SortParent,.LayoutParent
+{
+    position: absolute;
+    z-index: 99;
+    font-family: Oswald;
+    width: 100%;
+    background-color: #EEEEEE;
+    border-radius: 3px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0px 4px 5px rgba(148, 148, 148, 0.33);
+    padding: 10px;
+    padding-bottom: 0px;
+    overflow-x: auto;
+    /* left: 63px; */
+    top: 20px;
+}
+
+.GroupedChild,.SortChild,.LayoutChild
+{
+    width: 88%;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    text-overflow: ellipsis;
+    border: gray;
+    border-radius: 2px !important;
+    /* padding-left: 12px; */
+    font-family: Lato;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.TileNameColumn
+{
+    /* background-color: #FAFAFA; */
+    width: 210px;
+    /* background-color: #fbfbfb; */
+    /* padding: 10px 10px; */
+    /* height: 100px; */
+    float: left;
+    padding: 5px 10px;
+    /* border: 1px solid #EEEEED; */
+    border-radius: 2px;
+    text-align: center;
+    display: inline-block;
+    text-overflow: ellipsis;
+}
+.GroupDropdown,.LayoutDropdown,.SortDropdown
+{
+        cursor: pointer;
+}
+
+.SelectTabs
+{
+    color: #ABABAB;
+    padding-left: 10px;
+    float: left;
+    /* width: 20%; */
+    /* min-width: 200px; */
+    height: 35px;
+    line-height: 35px;
+    text-align: right;
+    padding-left: 7px;
+    padding-top: 7px;
+    font-size: 18px;
+    color: #5F6C6E;
+    font-weight: bold;
+    margin-left: 19%;
+}
+.TileEnclosed
+{
+    /* width: 800px; */
+    /* height: 170px; */
+}
+
+.ExportAdvanced
+{
+    background-color: white;
+    padding: 0 35px;
+    /* padding: 0px 250px; */
+    /* width: 800px; */
+    /* margin: 0px 300px; */
+    padding: 0 70px;
+    padding-top: 0px;
+    height: 300px;
+    overflow-y:auto;
+    overflow: auto;
+}
+
+.TileName
+{
+    float: left;
+    padding-right: 0 10px;
+    padding: 0 10px;
+    font-family: Lato;
+    font-size: 14px;
+    text-align: center;
+    height: 45px;
+    width: 150px;
+    line-height: 42px;
+    text-overflow: hidden;
+    text-align: center;
+    border-color: #EEEEED;
+    border: 1px solid;
+    /* border-left: 1px #F2F2F2 solid; */
+    /* border-top: 1px #F2F2F2 solid; */
+    /* border-bottom: 1px #F2F2F2 solid; */
+    /* background-color: #F0F0F0; */
+    /* border-top-left-radius: 2px; */
+    /* border-bottom-left-radius: 2px; */
+    color: #797e94;
+    border-radius: 2px;
+    border-color: #e6e6e6;
+    text-overflow: ellipsis;
+    overflow-y: hidden;
+}
+
+.WrapTheTile
+{
+    /* width: 200px; */
+    float: left;
+    height: 65px;
+    /* border: 1px solid; */
+    /* border-left: 2px; */
+    /* border-color: #EEEEEE; */
+    /* margin: 0 25px; */
+    padding-right: 50px;
+    padding-bottom: 20px;
+    /* padding: 18px 25px; */
+    padding: 10px 10px;
+}
+
+
+.NormalTile
+{
+        /* width: 800px; */
+        /* height: 170px; */
+        height: 165px;
+        /* overflow: auto; */
+}
+
+
+.ExportNormal
+{
+    background-color: white;
+    /* padding: 0px 250px; */
+    /* width: 1000px; */
+    /* margin: 0px 300px; */
+    padding: 0 50px;
+    /* padding-top: 25px; */
+    /* height: 177px; */
+    overflow: auto;
+}
+
+.TextWritten
+{
+    /* float: left; */ */
+    /* width: 20%; */
+    /* min-width: 200px; */
+    height: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 60px;
+    /* padding-top: 105px; */
+    /* padding-right: 0px; */
+    font-size: 14px;
+    color: #9f9f9f;
+    /* position: static; */
+    /* font-weight: bold; */
+    font-family: Lato;
+}
+
+.WrapDiv
+{
+        height: 45px;
+        padding-left: 250px;
+        padding-top: 10px;
+}
+
+.ExportTo
+{
+        /* float: left; */
+        /* width: 20%; */
+        /* min-width: 200px; */
+        height: 35px;
+        line-height: 35px;
+        text-align: left;
+        padding-left: 15px;
+        /* padding-top: 7px; */
+        font-size: 15px;
+        color: #787878;
+        /* font-weight: bold; */
+        /* margin-left: 26%; */
+        text-transform: uppercase;
+        font-family: Lato;
+}
+
+.ExportReport
+{
+        width: 780px;
+        /* height: 600px; */
+        background-color: white;
+        margin: 0 400px;
+        position: absolute;
+        top: 60px;
+        box-shadow: 0px 0px 21px #a9a9a9;
+        border-radius: 2px;
+}
+
+.ExportReport::-webkit-scrollbar
+{
+    display: none;
+}
+
+.NormalWrapper
+{
+    float: left;
+    width: 150px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #00BEF0;
+    height: 26px;
+    line-height: 25px;
+    color: #888888;
+    cursor: pointer;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.AdvancedWrapper
+{
+    float: left;
+    width: 150px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #00BEF0;
+    border-left: 0px;
+    height: 26px;
+    line-height: 25px;
+    color: #888888;
+    cursor: pointer;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.CircleIcon 
+{
+    width: 12px;
+    height: 12px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    float: left;
+}
+
+.ActualTileNameColumn 
+{
+    height: 113px;
+    border: 1px solid #EEEEED;
+}
+
+.CircleClicked {
+    height: 12px;
+    width: 12px;
+    line-height: 14px;
+    float: left;
+    border-radius: 50%;
+    /* background-color: #CEC2D6; */
+    font-size: 15px;
+    color: #CEC2D6;
+}
+
+.RadioButtons
+{
+     /* padding-top: 225px; */
+     height: 55px;
+     float: left;
+     width: 225px;
+}
+
+.RadioButton1
+{
+    float: left;
+    /* padding-right: 200px; */
+    /* padding-left: 100px; */
+}
+
+.RawData
+{
+    /* width: 100px; */
+    height: 20px;
+    font-family: Lato;
+    padding-left: 2px;
+    font-size: 13px;
+    line-height: 20px;
+    cursor: pointer;
+    float: left;
+    color: #606060;
+}
+
+.RadioButton2
+{
+    float: left;
+    padding-left: 15px;
+}
+
+.addBottomBorder
+{
+    border-bottom: 1px solid lightgray;
+}
+
+
+.ArrowforDropdown
+{
+    float: right;
+    display: inline;
+    position: absolute;
+    /* top: -19px; */
+    right: 0px;
+    top: 0px;
+}
+
+.GroupDropdown
+{
+    /* display: inline; */
+    float: left;
+    /* position: relative; */
+    /* width: 88%; */
+    color: #798dae;
+}
+
+.LayoutDropdown
+{
+    /* display: inline; */
+    float: left;
+    /* position: relative; */
+    /* width: 88%; */
+    color: #9d8ead;
+}
+
+.SortDropdown
+{
+    /* display: inline; */
+    float: left;
+    /* position: relative; */
+    /* width: 88%; */
+    color: #a6957b;
+}
+.Cancel
+{
+    color: gray;
+    width: 55px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 2px;
+    font-size: 13px;
+    font-family: Lato;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    /* top: 10px; */
+    float: left;
+}
+
+.ExportFooter
+{
+    height: 65px;
+    line-height: 65px;
+    /* position: relative; */
+    /* bottom: 20px; */
+    /* right: 20px; */
+    padding-top: 25px;
+    background-color: #f8f8f8;
+    text-align: center;
+    padding-left: 350px;
+}
+
+
+.Select
+{
+       border: 1px solid #b0deea;
+       box-shadow: 0px 0px 8px rgba(169, 169, 169, 0.38);
+}
+
+
+.PdfForematOrient-content
+{
+    z-index: 99;
+    font-family: Oswald;
+    border-radius: 3px;
+    padding-bottom: 0px;
+    margin: 0 0 0px;
+    height: 25px;
+}
+
+.PdfForemat-content
+{
+    z-index: 118;
+    font-family: Oswald;
+    width: 60px;
+    background-color: #EEEEEE;
+    border-radius: 3px;
+    height: 111px;
+    background-color: white;
+    box-shadow: 0px 1px 8px #949494;
+    padding: 5px;
+    /* padding-bottom: 0px; */
+    left: 70px;
+    position: absolute;
+    margin: 0 0 0px;
+    font-size: 12px;
+}
+
+.PdfForemat-orient-type
+{
+    width: 50%;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    text-overflow: ellipsis;
+    border: gray;
+    border-radius: 2px !important;
+    padding-left: 2px;
+    font-family: Lato;
+    font-size: 13px;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 0 0px;
+}
+
+.PdfForemat-content-type
+{
+    width: 90%;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    text-overflow: ellipsis;
+    border: gray;
+    border-radius: 2px !important;
+    padding-left: 12px;
+    font-family: Lato;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 0 0px;
+    cursor: pointer;
+}
+
+.SortInBetween 
+{
+    height: 20px;
+    line-height: 20px;
+}
+
+.PdfForemat {
+    /* display: inline; */
+    /* float: left; */
+    /* position: absolute; */
+    /* top: 425px; */
+    /* right: 300px; */
+    /* left: 100px; */
+    position: relative;
+}
+
+.PdfOrientation
+{
+    /* display: inline; */
+    /* float: left; */
+    /* position: absolute; */
+    /* top: 425px; */
+    /* left: 300px; */
+}
+
+
+
+.xlNeoDownloadIcon
+{
+   display:block;
+       height: 28px;
+   width: 34px;
+   background-image: url(images/icons/download_HOVER.png);
+   background-repeat : no-repeat;
+}
+
+.xlNeoDownloadIcon:hover
+{
+   display:block;
+   height: 28px;
+   width: 34px;
+   background-image: url(images/icons/download_HOVER.png);
+   background-repeat : no-repeat;
+}
+
+.xlNeoDownLoadPopUp {
+   position: absolute;
+   width: 162px;
+   border: 1px solid rgb(216, 216, 216);
+   background-color: white;
+   border-radius: 2px;
+   box-shadow: 0px 1px 12px rgba(0,0,0,0.175);
+}
+
+.xlNeoExcelDownLoadPopUp 
+{
+   height: 50px;
+}
+
+.xlNeoPDFDownLoadPopUp 
+{
+   height: 50px;
+}
+
+.xlNeoExcelDownLoadPopUp {
+   height: 50px;
+   line-height: 50px;
+   background-image: url(images/icons/excel_01.png);
+   background-repeat : no-repeat;
+   padding-left: 50px;
+   background-position-y: 50%;
+   cursor: pointer;
+   cursor: pointer;
+   
+}
+
+.xlNeoPDFDownLoadPopUp {
+   height: 50px;
+   line-height: 50px;
+   background-image: url(images/icons/download_01.png);
+   background-repeat : no-repeat;
+   background-position-y: 50%;
+   padding-left: 50px;
+   cursor: pointer;
+}
+
+.xlNeoOTDImage
+{
+    background-image: url(images/icons/over_then_down.png); 
+    background-repeat: no-repeat;
+    background-position-x: 100%; 
+    background-position-y: 50%; 
+}
+
+.xlNeoDTOImage
+{
+    background-image: url(images/icons/down_to_over.png); 
+    background-repeat: no-repeat;
+    background-position-x: 100%; 
+    background-position-y: 50%; 
+}
+
+.TextShow 
+{
+    position: relative;
+}
+
+.Groupdropdownopen 
+{
+    position: relative;
+}
+
+.TabName 
+{
+    font-size: 16px;
+    color: #444549;
+    font-family: Lato;
+    padding: 2px 0 6px 0;
+    text-overflow: ellipsis;
+    /* word-wrap: break-word; */
+    overflow: hidden;
+    /* word-break: break-all; */
+    height: 30px;
+}
+
+.LayoutDropdownopen 
+{
+    position: relative;
+}
+
+.SortDropdownopen 
+{
+    position: relative;
+}
+
+.GroupDropdownAdded 
+{
+    width: 88%;
+    color: #798dae;
+    height: 16px;
+    border-bottom: 1px solid #e0e9f8;
+}
+
+.SortDropdownAdded
+{
+    width: 88%;
+    color: #a6957b;
+    height: 15px;
+    border-bottom: 1px solid #f4ede3;
+}
+
+.LayoutDropdownAdded
+{
+     width: 88%;
+     color: #9d8ead;
+     height: 15px;
+     border-bottom: 1px solid #ebe1f6;
+}
+
+.TileGroupColumnAdded 
+{
+    padding: 3px 20px;
+}
+
+.TileLayoutColumnAdded
+{
+    padding: 3px 20px;
+}
+
+.TileSortColumnAdded
+{
+    padding: 3px 20px;
+}
+
+.TextWrittenAdvanced
+{
+    /* padding-left: 85px !important; */
+}
+
+.UpperFooterClass 
+{
+    height: 65px;
+    line-height: 65px;
+    font-family: Lato;
+    padding: 0 50px;
+    background: #f8f8f8;
+    padding-top: 10px;
+}
+
+.StateHeader 
+{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #969696;
+}
+
+.stateBody 
+{
+    height: 20px;
+    line-height: 20px;
+}
+
+.circleClickParent 
+{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    padding-top: 4px;
+}
+
+.PdfFooter 
+{
+    float: left;
+    height: 55px;
+    padding: 0 10px;
+    width: 450px;
+}
+
+.class1 
+{
+    float: left;
+    padding: 0 10px;
+    width: 50%;
+}
+
+.class2
+{
+    float: left;
+    padding: 0 10px;
+    width: 50%;
+}
+
+.haederOrient 
+{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #969696;
+}
+
+.formatHeader 
+{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-size: 11px;
+    color: #969696;
+}
+
+.formatcontent 
+{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 13px;
+    /* padding: 0 65px; */
+    /* padding-left: 71px; */
+    /* border-bottom: 1px solid; */
+}
+
+.portrait
+{
+    cursor: pointer;
+    background-image: url(../images/icons/Portrait.png);
+    background-repeat: no-repeat;
+    background-position-x: 67%;
+    background-position-y: 50%;
+    background-size: contain;
+    padding-left: 10px;
+}
+
+.landscape
+{
+    cursor: pointer;
+    background-image: url(../images/icons/landscape.png);
+    background-repeat: no-repeat;
+    background-position-x: 101%;
+    background-position-y: 50%;
+    background-size: contain;
+}
+
+.dsc
+{
+    height: 20px;
+    line-height: 23px;
+    color: #00BEF0;
+}
+.asc
+{
+    height: 20px;
+    line-height: 23px;
+    color: #00BEF0;
+}
+
+
+.formatHeaderChild
+{
+    padding: 0 21px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+    color: #00BEF0;
+}
+.addbackgroundcolor
+{
+    color:#00BEF0;
+}
+.AddPadding
+{
+    padding-left: 168px;
+}
+.AddPadding2
+{
+    padding: 0 275px;
+}
+
+div#downLoadPopUp 
+{
+    z-index: 99;
+    top: 40px;
+    left: -100px;
+    /* z-index: 99; */
+}
+
+.hiddenClass
+{
+    display:none;   
+}
+
+.rptNameValidation 
+{
+    position: absolute;
+    height: 30px;
+    line-height: 30px;
+    right: 5px;
+    width: 20px;
+    text-align: center;
+    background-color: red;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+#filterName
+{
+    position:relative;
+}
+
+.paramNameValidation
+{
+    position: absolute;
+    height: 24px;
+    line-height: 24px;
+    right: -1px;
+    top: -1px;
+    width: 20px;
+    text-align: center;
+    background-color: red;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+
+}
+
+.tabNameValidation 
+{
+    position: absolute;
+    height: 24px;
+    line-height: 24px;
+    right: 0px;
+    background-color: red;
+    width: 15px;
+    text-align: center;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.labelParent 
+{
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+.messageTypeParent 
+{
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+}
+
+.dataSetLabel
+{
+    height:28px;
+    line-height:28px;
+    color: #00bcef;
+}
+
+.noGroupClass 
+{
+    border: 1px solid lightgray;
+    font-size: 11px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 20px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    font-family: Lato;
+    margin-left: 50%;
+}
+
+.applyGroupClass 
+{
+    font-size: 11px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    width: 20px;
+    background-color: lightgray;
+    border-radius: 2px;
+    font-family: Lato;
+    margin-left: 50%;
+}
+
+.inlineFilterCSS span 
+{
+    color: #00bbf0;
+}
+
+.defaultValueOption ,.defaultValueRangeOption
+{
+    height: 22px;
+    width: 15px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    line-height: 22px;
+    color: lightgray;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+
+
+.defaultValueCollection
+{
+    position: absolute;
+    height: 200px;
+    overflow-y: auto;
+    width: 224px;
+    background-color: White;
+    position: absolute;
+    background-color: #FFFFFF;
+    font-family: 'Lato';
+    font-size: 13px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 10px #C5C5C5;
+    padding: 10px 0;
+    z-index: 99;
+}
+
+.defaultValueChild
+{
+    height: 22px;
+    line-height: 22px;
+    padding-left: 5px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    height: 23px;
+    line-height: 23px;
+    vertical-align: middle;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.defaultValueChild:hover
+{
+     border-left: 4px solid #00BCEF;   
+     padding-left:16px;
+}
+
+.nonEditableTextBox 
+{
+    pointer-events:none;
+}
+
+.ngeneralText,.ngeneralRangeText
+{
+    height: 22px;
+    width: 20px;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    line-height: 22px;
+    color: lightgray;
+    cursor: pointer;
+    text-align: center;
+    overflow:hidden;
+    outline:none;
+}
+
+
+.defaultValueRangeButton 
+{
+    position: absolute;
+    top: 0px;
+    height: 24px;
+    width: 13px;
+    position: absolute;
+    right: -13px;
+    top: -1px;
+    line-height: 24px;
+    color: lightgray;
+    cursor: pointer;
+    text-align: center;
+    border: 1px #F2F2F2 solid;
+    border-left: 0px solid;
+    background-color: #fbfbfb;
+}
+
+.filterDefaultRangeValue 
+{
+    float: right;
+    width: 55%;
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+    text-overflow: ellipsis;
+    border: 1px #F2F2F2 solid;
+    position:relative;
+}
+
+.defaultTextClass 
+{
+    height: 22px;
+    line-height: 20px;
+    width: 85%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.defaultNGenClass 
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 22px;
+    line-height: 20px;
+}
+
+#toolKitTabContainer .xlSettingsChild:nth-child(2)
+{
+    display:none;
+}
+
+.TileEnclosed > .Tile 
+{
+    height: 24%;
+    line-height: 30px;
+    /* border-bottom: 1px solid #EDEDED; */
+    padding: 0 35px;
+    cursor: pointer;
+    height: 100%;
+    overflow: auto;
+}
+
+
+/* Tab Widget Css Starts*/
+.toolKitTabs,.tabbable-custom
+{
+    float: left;
+    font-family: 'Lato', sans-serif;
+}
+
+.toolKitTabs .tab-content
+{
+    width: 100%;
+    float: left;
+}
+
+
+.toolKitTabs > .tab-level > .nav-tabs > li.active , .selected_div .nav-tabs > li.active
+{
+    margin-top: 0;
+    position: relative;
+    border-bottom: 3px solid #00bcef;
+    background-color:transparent !important;
+    background: url(../../SuperAwesome/icons/selected_tab_texture.png);
+
+}
+
+.toolKitTabs > .tab-level > .nav-tabs > li.active a ,.selected_div  .nav-tabs > li.active a
+{
+    border-radius: 0 !important;
+    margin-right: 0px;
+    color: #ffffff;
+    font-size:14px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color:transparent !important;
+    font-family: lato;
+    padding-left: 4px;
+    padding-right: 8px;
+}
+
+.toolKitTabs > .tab-level > .nav-tabs > li.active a:hover , .selected_div  .nav-tabs > li.active a:hover
+{
+    padding: 5px 10px 1px 10px;
+    color:white !important;/* #00bcef !important;*/
+    background-color:transparent !important;
+    font-size:14px !important;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    font-family: lato;
+    padding-left: 4px;
+    padding-right: 8px;
+}
+
+.toolKitTabs > .tab-level > .nav-tabs > li,.selected_div  .nav-tabs > li
+{
+    margin-right: 5px; /* border-top: 2px solid transparent; */
+    cursor: pointer;
+    min-width: 50px;
+    text-align: center;
+}
+
+
+.toolKitTabs > .tab-level > .nav-tabs > li:hover , .selected_div  .nav-tabs > li:hover
+{
+    /*
+     background-color:#f6f6f6 !important;
+     border:none !important;
+     margin-right: 5px !important; 
+     text-align: center !important;
+    */
+    color:white !important;/* #00bcef !important;*/
+}
+
+
+.tab-level ul , .tab-level ul
+{
+    /*margin-top: 5px;*/
+}
+
+.toolKitTabs > .tab-level > .nav-tabs , .selected_div  .nav-tabs
+{
+    height: 30px;
+    border-bottom: 1px solid #ececec;
+}
+
+.toolKitTabs > .tab-level > .nav-tabs > li a , .selected_div  .nav-tabs > li a
+{
+    padding: 5px 10px 1px 10px;
+    color: #4b4949;
+    font-size:14px;
+    padding-left: 4px;
+    padding-right: 8px;
+    display:inline-block;
+    vertical-align: top;
+}
+
+
+.toolKitTabs > .tab-level > .nav-tabs > li a:hover , .selected_div  .nav-tabs > li a:hover
+{
+    padding: 5px 10px 1px 10px;
+    color:white !important;/* #00bcef !important;*/
+    background-color:transparent !important;
+    font-size:14px !important;
+    border:1px solid transparent;
+      padding-left: 4px;
+    padding-right: 8px;
+}
+
+
+.subactive
+{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: #47a3da !important;
+    border-bottom: 3px solid #47a3da !important;
+}
+
+.subactive a
+{
+    color: #47a3da !important;
+}
+
+.customTabShadow
+{
+ /*box-shadow: 5px 4px 8px rgba(221, 221, 221, 1); */
+}
+
+.vanilla .iago-page-title .toolKitTabs > .tab-level > .nav-tabs > li.active a, .selected_div .nav-tabs > li.active a {
+    color: WHITE;
+}
+
+.vanilla .iago-page-title .toolKitTabs > .tab-level > .nav-tabs > li {
+    color: #dddfe0;
+}
+
+.vanilla .toolKitTabs > .tab-level > .nav-tabs > li a {
+    color: #dddfe0;
+}
+
+.vanilla .iago-page-title .tab-level ul {
+    margin-top: -2px;
+    border-bottom: none;
+}
+
+.toolKitTabs .deleteTabs
+{
+    display:inline-block;
+    position: absolute;
+    bottom: 2px;
+    right: 0px;
+    width: 15px;
+}
+
+.toolKitTabs .editTabs
+{
+    display:inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 11px;
+    width: 15px;
+}
+
+.toolKitTabs .hideTabs
+{
+     display:none;
+}
+
+.toolKitTabs .deleteTabsParent
+{
+    height :14px;
+    width:12px;   
+}
+
+
+
+.tabbable-custom .tabActionsParent {
+    display: inline-block;
+    height: 27px;
+    width: 15px;
+    vertical-align: top;
+    position: relative;
+}
+/*Tab Widget Css Ends*/
+
+
+.dbIdentifierParent::-webkit-scrollbar {
+    width: 4px;
+}
+
+.dbIdentifierParent 
+{
+    position: absolute;
+    padding: 5px;
+    background-color: white;
+    box-shadow: -2px 1px 8px rgba(97, 97, 97, 0.16);
+    border-radius: 2px;
+    max-height: 300px;
+    font-family: lato;
+    font-size: 13px;
+    max-width: 300px;
+    left: 50%;
+    z-index: 9;
+    top: 33px;
+    overflow: auto;
+    /* max-height: 250px; */
+}
+
+
+
+.dbIdentifierParent:after 
+{
+   content: '';
+   position: absolute;
+   border-style: solid;
+   border-width: 0 8px 8px;
+   border-color: white transparent;
+   display: block;
+   width: 0;
+   z-index: 1;
+   top: -8px;
+   left: 12px;
+}
+
+.dbIdentifierParent:before 
+{
+   content: '';
+   position: absolute;
+   border-style: solid;
+   border-width: 0 8px 8px;
+   border-color: #CCCCCC transparent;
+   display: block;
+   width: 0;
+   z-index: 0;
+   top: -8px;
+   left: 12px;
+}
+
+
+
+
+.dataSourceParent 
+{
+    position: relative;
+}
+
+.dbIdentifierChild 
+{
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    cursor:pointer;
+    padding-left:5px;
+}
+
+.dbIdentifierChild :hover 
+{
+    border-left: 2px solid #00BCEF;
+    padding-left:3px;
+}
+
+
+
+.CalendarNameParent 
+{
+    padding: 0 5px;
+    width: 100%;
+    position: relative;
+    padding-bottom: 5px;
+    /* display: inline-block; */
+}
+
+.toolKitCalendarNameLabel 
+{
+    display: inline-block;
+    vertical-align: middle;
+    color: gray;
+    font-family: Lato;
+    height: 30px;
+    line-height: 30px;
+    width: 40%;
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    border-right: none;
+    padding-left: 7px;
+    vertical-align: top;
+}
+
+.toolKitCalendarNameText 
+{
+    display: inline-block;
+    width: 60%;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #EEEEEE;
+    outline: none;
+    padding-left: 5px;
+    border-left: none;
+}
+
+.CalendarListParent 
+{
+    position: absolute;
+    width: 59%;
+    left: 40%;
+    padding: 5px 0;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: -2px 4px 10px #C5C5C5;
+    top: 40px;
+    z-index: 9;
+    max-height: 200px;
+    overflow: auto;
+}
+
+.CalendarListChild 
+{
+    width: 100%;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    padding-left: 5px;
+    height: 22px;
+    line-height: 22px;
+    cursor:pointer;
+}
+
+.CalendarListChild:hover
+{
+    padding-left: 3px;
+    border-left: 2px solid #5F9043;
+}
+
+.CalendarListParent:after 
+{
+   content: '';
+   position: absolute;
+   border-style: solid;
+   border-width: 0 8px 8px;
+   border-color: #FFFFFF transparent;
+   display: block;
+   width: 0;
+   z-index: 1;
+   top: -8px;
+   left: 43px;
+}
+
+.CalendarListParent:before 
+{
+   content: '';
+   position: absolute;
+   border-style: solid;
+   border-width: 0 8px 8px;
+   border-color: #C5C5C5 transparent;
+   display: block;
+   width: 0;
+   z-index: 0;
+   top: -8px;
+   left: 43px;
+}
+
+.displaycalendarName 
+{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}

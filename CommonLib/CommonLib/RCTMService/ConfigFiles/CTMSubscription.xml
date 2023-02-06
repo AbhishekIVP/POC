@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <taskmanagernotification>
+    <setting name="NoOfRetry" value="5"/>
+    <setting name="TransportName" value="SMTPNOTIFY"/>
+    <setting name="NotificationFrequency" value="2"/>
+  </taskmanagernotification>
+  <TaskTimeOutMailTemplate>
+    <Subject>Task Time Out - Request for action</Subject>
+    <Salutation>
+      Hi,
+    </Salutation>
+    <BodyHeader>
+      Following Tasks are running for more than the expected time.
+    </BodyHeader>
+    <BodyFooter>
+      It is recommended to let the tasks complete their execution. Killing a task may result in inconsistent data.
+    </BodyFooter>
+    <Footnote>
+      This is an automated mail. Please do not reply.
+    </Footnote>
+  </TaskTimeOutMailTemplate>
+  <InstanceTimeOutMailTemplate>
+    <Subject>Instance Wait Time Out</Subject>
+    <Salutation>
+      Hi,
+    </Salutation>
+    <BodyHeader>
+      System was not able to trigger the following task as the previous instance is still running.
+    </BodyHeader>
+    <BodyFooter>
+      It is recommended to let the tasks complete their execution. Killing a task may result in inconsistent data.
+    </BodyFooter>
+    <Footnote>
+      This is an automated mail. Please do not reply.
+    </Footnote>
+  </InstanceTimeOutMailTemplate>
+  <ProcessKilledMailTemplate>
+    <Subject>Task Executable has been killed</Subject>
+    <Salutation>
+      Hi,
+    </Salutation>
+    <BodyHeader>
+      The process for the following tasks have been killed.
+    </BodyHeader>
+    <BodyFooter>
+      Please check logs for further details.
+    </BodyFooter>
+    <Footnote>
+      This is an automated mail. Please do not reply.
+    </Footnote>
+  </ProcessKilledMailTemplate>
+</root>

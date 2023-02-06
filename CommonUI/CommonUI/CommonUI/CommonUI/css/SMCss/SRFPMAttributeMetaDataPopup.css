@@ -1,0 +1,86 @@
+﻿#AttributeMetaDataPopup {
+    /*min-width: 140px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 300px;
+    z-index: 10000;
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 1px 1px #aaaaaa;*/
+    min-width: 250px;
+    max-width: 500px;
+    min-height: 100px;
+    max-height: 500px;
+    z-index: 10000;
+    background-color: white;
+    padding: 4px 8px 4px 4px;
+    box-shadow: 0px 0px 9px -2px #aaaaaa;
+    border: 1px solid #d6caca;
+}
+
+.metaDataInfoDiv {
+    width: 100%;
+    padding-left: 5px;
+}
+
+.labelClass {
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    color: grey;
+}
+
+.valueClass {
+    font-size: 12px;
+    color: black;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-bottom: 11px;
+    max-width: 95%;
+}
+
+.metaDataInfoDiv .positionAlign:nth-child(2n+1) {
+    width: 50%;
+    float: left;
+    vertical-align: top;
+}
+
+.metaDataInfoDiv .positionAlign:nth-child(2n) {
+    float: right;
+    width: 50%;
+    vertical-align: top;
+}
+
+.iClickClass {
+    font-size: 24px;
+    float: right;
+    cursor: pointer;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    color: #48a3dd;
+}
+
+.viewAuditTSStyle {
+    font-size: 12px;
+    float: right;
+    cursor: pointer;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #48a3dd;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+}
+
+.vendorInfoDiv {
+    width: 100%;
+    padding-left: 5px;
+    float: left;
+}
+.divAttrDescription{
+    width: 100%;
+    padding-left: 5px;
+    float: left;
+}

@@ -1,0 +1,191 @@
+﻿{{#each css}}
+<link rel="stylesheet" type="text/css" href="{{css}}" />
+{{/each}}
+
+<div class="workflow-top-container" data-action="{{action}}" data-instanceId="{{workflow.instanceId}}" data-name="{{workflow.name}}" data-moduleName="{{workflow.moduleName}}" data-moduleId="{{workflow.moduleId}}" data-workflowActionTypeName="{{workflow.workflowActionTypeName}}"
+     data-workflowActionTypeId="{{workflow.workflowActionTypeId}}" data-workflowIsCreate="{{workflow.workflowIsCreate}}" data-workflowIsUpdate="{{workflow.workflowIsUpdate}}" data-workflowIsTimeSeries="{{workflow.workflowIsTimeSeries}}"
+     data-raiseForNonEmptyValue="{{workflow.raiseForNonEmptyValue}}" data-workflowIsDelete="{{workflow.workflowIsDelete}}" data-typeids="{{workflow.TypeIds}}" data-primaryattributeids="{{workflow.PrimaryAttributeIds}}"
+     data-otherattributeids="{{workflow.OtherAttributeIds}}">
+    <div class="workflow-top-header-container">
+        <!--col-sm-12-->
+        <!-- <div class="col-sm-2">-->
+        <div class="workflow-top-component workflowTypeNameContainer">
+            <div class="workflow-top-component-name workflowTypeHeader">
+                Workflow Type
+            </div>
+            <div class="workflow-top-component-value workflowActionTypeName">
+                {{workflow.workflowActionTypeName}}
+            </div>
+        </div>
+        <div class="workflow-top-component workflowNameContainer">
+            <div class="workflow-top-component-name">
+                Name
+            </div>
+            <div class="workflow-top-component-value">
+                {{workflow.name}}
+            </div>
+        </div>
+        <!--</div>-->
+        <!--<div class="col-sm-2">-->
+        <div class="workflow-top-component primaryAttr">
+            <div class="workflow-top-component-name">
+                Primary Display Attribute
+            </div>
+            <div class="workflow-top-component-value">
+                <div id="primaryAttributeDropdown" class="primary-attribute-dropdown"></div>
+            </div>
+        </div>
+        <!--</div>-->
+        <!--<div class="col-sm-2">-->
+        <div class="workflow-top-component otherAttr">
+            <div class="workflow-top-component-name">
+                Other Display Attributes
+            </div>
+            <div class="workflow-top-component-value">
+                <div id="otherAttributeDropdown" class="primary-attribute-dropdown"></div>
+            </div>
+        </div>
+        <!--</div>-->
+        <!--<div class="col-sm-2">-->
+        <div class="workflow-top-component applyOnCreate">
+            <div class="workflow-top-component-name">
+                Apply On Create
+            </div>
+            <div class="workflow-top-component-value">
+                <input id="workflowSetupApplyOnCreate" type="checkbox">
+            </div>
+        </div>
+        <!--</div>-->
+        <!--<div class="col-sm-2">-->
+        <div class="workflow-top-component applyOnTS">
+            <div class="workflow-top-component-name">
+                Apply on Time Series Update
+            </div>
+            <div class="workflow-top-component-value">
+                <input id="workflowSetupApplyOnTSUpdate" type="checkbox">
+            </div>
+        </div>
+        <!--</div>-->
+        <!--<div class="col-sm-3">-->
+        <div class="workflow-top-component applyOnEnrich">
+            <div class="workflow-top-component-name">
+                Apply on Blank Attriubte Enrichment
+            </div>
+            <div class="workflow-top-component-value">
+                <input id="workflowSetupApplyOnAttrEnrichment" type="checkbox">
+            </div>
+        </div>
+        <!--</div>-->
+        <!--<div class="col-sm-2">-->
+        <div class="workflow-top-component applyOnDelete">
+            <div class="workflow-top-component-name">
+                Apply on Delete
+            </div>
+            <div class="workflow-top-component-value">
+                <input id="workflowSetupApplyOnDelete" type="checkbox">
+            </div>
+        </div>
+        <!--</div>-->
+        <!--<div class="col-sm-1 pull-right">-->
+        <div class="workflow-top-component workflowSaveUpdateButton">
+            <div class="workflow-top-component-name">
+                {{#setupButton action}} {{/setupButton}}
+            </div>
+        </div>
+        <!--</div>-->
+
+    </div>
+
+</div>
+
+<div class="SRMWorkFlowLowerDiv">
+    <div class="setup-left-container">
+    </div>
+
+    <div class="WorkFlowRightDiv">
+        <div class="WorkFlowRuleSetup_AddNewRule workflow-setup-add-rule-box " id="WorkFlowRuleSetup_AddNewRule">
+            <div class="add_New_Default_Rule_Container">
+                <i id="SMWorkFlowSetup_arrowAdd_Default_rule" class="fa fa-plus-circle SMWorkFlowSetup_arrowAdd_Default"></i>
+                <input id="SMWorkFlowSetup_btnAddDefaultRule" value="Add Default Rule" type="button" class="SMTextNew SMWorkFlowSetup_btnAddDefaultRule"
+                       title="Click to Add Default Rule ">
+            </div>
+            <div class="add_New_Rule_Container">
+                <i id="SMWorkFlowSetup_arrowAddRules" class="fa fa-plus-circle SMWorkFlowSetup_arrowAddRules"></i>
+                <input id="SMWorkFlowSetup_btnAddRule" value="Add Rule" type="button" class="SMTextNew SMRuleSetup_btnAddRule"
+                       title="Click to Add Rule ">
+            </div>
+            <div class="new-workflow-template-link" title="add new workflow template">
+                <div id="addNewWorkflowTemplateButton" class="" data-container="body" data-toggle="popover" title="New Workflow Template">
+                    <i class="fa fa-plus-circle SMWorkFlowSetup_arrowAddTemplate"> </i>
+                    <input id="SMWorkFlowSetup_addNewTemplate" value="Add New Template" type="button" class="SMTextNew SMWorkFlowSetup_addNewTemplate"
+                           title="Click to Add Template ">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="workflow-setup-box" style="display:none;">
+            <div class="defaultworkflowheading">
+                Available Templates
+            </div>
+            <div id="workflowTemplates" class="">
+            </div>
+        </div>
+
+        <div class="workflowRulesViewTemplate" style="display:none;">
+            <div id="workflowRulesViewTemplate">
+            </div>
+        </div>
+
+        <div id="newWorkflowTemplateModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <div class="modal-content col-sm-11">
+                    <!--<div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Modal Header</h4>
+                    </div>-->
+                    <div class="modal-body">
+                        <input id="newWorkflowTemplateName" class="new-workflow-template-text-box" placeholder="Enter Template Name">
+                        <div>
+                            <div id="creatNewWorkflowTemplate" class="creatNewWorkflowTemplate btn btn-sm btn-primary">Add</div>
+                        </div>
+                    </div>
+                    <!--<div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>-->
+                </div>
+
+            </div>
+        </div>
+
+        <div id="newWorkflowTemplateRADModal" class="modal fade" style="height:99% !important; z-index:1000000" role="dialog">
+            <div class="modal-dialog" style="height:100%;width:99%">
+
+                <!-- Modal content-->
+                <div class="modal-content" style="height:99% !important;">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div id="newWorkflowTemplateRADModalContent" class="modal-body" style="height:90% !important;">
+                    </div>
+                    <!--<div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>-->
+                </div>
+
+            </div>
+        </div>
+
+        <div id="workflowRulesTemplate" class="workflowRulesTemplateClass" style="display:none">
+            <div id="workflowRuleEditorTemplates" class="workflowRuleEditorTemplates">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{{#each scripts}}
+<script src="{{script}}"></script>
+{{/each}}

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18C1A7B7-B3D9-440B-A704-442A49FE679C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>com.ivp.SRMCommonModules</RootNamespace>
+    <AssemblyName>SRMCommonModules</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommonDAL">
+      <HintPath>..\..\..\..\..\RefDlls\CommonDlls\CommonDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\referencedDLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ObjectTable">
+      <HintPath>..\..\..\..\..\RefDlls\referencedDLL\ObjectTable.dll</HintPath>
+    </Reference>
+    <Reference Include="RAbstractLicenseManager">
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RAbstractLicenseManager.dll</HintPath>
+    </Reference>
+    <Reference Include="RBaseLicenseManager">
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RBaseLicenseManager.dll</HintPath>
+    </Reference>
+    <Reference Include="RConfigManager">
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RConfigManager.dll</HintPath>
+    </Reference>
+    <Reference Include="RConfigurationManagement, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RConfigurationManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="RCryptography">
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RCryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="RDAL">
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="RLoggerException">
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RLoggerException.dll</HintPath>
+    </Reference>
+    <Reference Include="RTransport, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RTransport.dll</HintPath>
+    </Reference>
+    <Reference Include="RUserManagement, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RUserManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="RUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SMCoreExceptionInfo.cs" />
+    <Compile Include="SRMCacheBuster.cs" />
+    <Compile Include="SRMCommonLicenseHandler.cs" />
+    <Compile Include="SRMEventController.cs" />
+    <Compile Include="VendorSystemSettingsController.cs" />
+    <Compile Include="VendorSystemSettingsInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SRMCommon\SRMCommon.csproj">
+      <Project>{017904ED-B0CA-4DE6-AC85-68883EC37778}</Project>
+      <Name>SRMCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WorkflowController\WorkflowController.csproj">
+      <Project>{FB6E5F22-A004-496C-8BF3-5DA88D74D6D7}</Project>
+      <Name>WorkflowController</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(TargetPath)" "$(ProjectDir)..\..\..\..\..\RefDLLs\CommonDlls\"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

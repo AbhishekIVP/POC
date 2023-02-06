@@ -1,0 +1,97 @@
+﻿          ::-webkit-scrollbar {
+            width: 0px;
+        }
+
+        /* Track */
+     ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 0px red;
+            border-radius: 0px;
+        }
+
+        /* Handle */
+      ::-webkit-scrollbar-thumb {
+            background: white;
+            border-radius: 0px;
+        }
+
+            /* Handle on hover */
+       ::-webkit-scrollbar-thumb:hover {
+                background: #b30000;
+            }
+        .font {
+            border-top:5px solid #808080;
+            border-left:2px solid #EBEBEB;
+            border-bottom:2px solid #EBEBEB;
+            border-right:2px solid #EBEBEB;
+            color: #808080;
+            font-size: 15px;
+            /*padding-left: -105px;*/
+            text-align:center;
+            font-family:oswald;
+        }
+
+        .font2 {
+           height:40px;
+           font-family:oswald;
+            //color: #636F7B;
+            color:#87858F;
+            font-weight:bold;
+            font-size: 15px;
+            
+            padding-top:7px;
+            font-family:oswald;
+            /*padding-left: 15px;*/
+            text-align:center;
+     //       border-bottom:1px solid #EBEBEB;
+          //  border-right:2px solid #EBEBEB;
+           // border-left:2px solid #EBEBEB;
+        }
+
+        .font1 {
+        
+        //    border-right:2px solid #EBEBEB;
+          //  border-left:2px solid #EBEBEB;
+   //                 border-bottom:1px solid #EBEBEB;
+          //  border-bottom:1px solid #EBEBEB;
+            //color: #6D6D6D;
+           color: #777D84;
+            font-size: 14px;
+            height: 50px;
+            padding-left:40px;
+            padding-top: 0px;
+            text-align:left;
+        }
+       
+        /*div {
+        width:150px;
+      //  background-color:red;
+        }*/
+ 
+            .scroll{
+               //  box-shadow: inset 0 0 5px red;
+    overflow: auto;
+    overflow-x:hidden;
+    /*max-height: 440px;*/
+    max-height: 440px;
+    min-height:200px;
+   
+
+
+   // width:200px;
+       
+}
+        div.container4 {
+            height: 100%;
+            position: relative;
+            width: 100%;
+        }
+
+            div.container4 > div:nth-child(n) {
+                /*margin: 0;
+           
+                position: absolute;
+                top: 50%;
+                left: 15%;
+                margin-right: -10%;
+                transform: translate(-50%, -50%);*/
+            }

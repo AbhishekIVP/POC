@@ -1,0 +1,22 @@
+﻿.CASPM_TableHeaderColumns{
+    display:inline-block;
+    vertical-align:top;
+    height:15px;
+    line-height:15px;
+}
+
+.CASPM_Col1_Width{
+    width:35%;
+}
+
+.CASPM_Col2_Width{
+    width:20%;
+}
+
+.CASPM_Col3_Width{
+    width:20%;
+}
+
+.CASPM_Col4_Width{
+    width:20%;
+}

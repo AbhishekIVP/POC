@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://markit.com/Markit/LoanReferenceData/2013/11" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:i0="http://markit.com/Markit/LoanReferenceData/2012/04" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WidgetService" targetNamespace="http://markit.com/Markit/LoanReferenceData/2013/11" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://markit.com/Markit/LoanReferenceData/2012/04" location="http://datadownload.wsostage.com/LoanReferenceData/2013/11/FacilitySearch.svc?wsdl=wsdl0" />
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://markit.com/Markit/LoanReferenceData/2013/11/Imports">
+      <xsd:import schemaLocation="http://datadownload.wsostage.com/LoanReferenceData/2013/11/FacilitySearch.svc?xsd=xsd0" namespace="http://markit.com/Markit/LoanReferenceData/2013/11" />
+      <xsd:import schemaLocation="http://datadownload.wsostage.com/LoanReferenceData/2013/11/FacilitySearch.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://datadownload.wsostage.com/LoanReferenceData/2013/11/FacilitySearch.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://datadownload.wsostage.com/LoanReferenceData/2013/11/FacilitySearch.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/WSO.WSOData.WebServices.LoanRefData.Contracts.DataContracts" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="GetFacilityBySecurityIdRequest">
+    <wsdl:part name="parameters" element="tns:GetFacilityBySecurityIdRequest" />
+  </wsdl:message>
+  <wsdl:message name="GetFacilityResponse">
+    <wsdl:part name="parameters" element="tns:GetFacilityResponse" />
+  </wsdl:message>
+  <wsdl:message name="FacilitySearchService_GetFacilityBySecurityId_GeneralServiceFaultFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:GeneralServiceFault" />
+  </wsdl:message>
+  <wsdl:message name="FacilitySearchService_GetAvailableFacilities_InputMessage" />
+  <wsdl:message name="GetAvailableFacilitiesResponse">
+    <wsdl:part name="parameters" element="tns:GetAvailableFacilitiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="FacilitySearchService_GetAvailableFacilities_GeneralServiceFaultFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:GeneralServiceFault" />
+  </wsdl:message>
+  <wsdl:message name="GetContractsByFacilityIdRequest">
+    <wsdl:part name="parameters" element="tns:GetContractsByFacilityIdRequest" />
+  </wsdl:message>
+  <wsdl:message name="GetContractsByFacilityIdResponse">
+    <wsdl:part name="parameters" element="tns:GetContractsByFacilityIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="FacilitySearchService_GetContractsByFacilityId_GeneralServiceFaultFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:GeneralServiceFault" />
+  </wsdl:message>
+  <wsdl:message name="GetAmortByFacilityIdRequest">
+    <wsdl:part name="parameters" element="tns:GetAmortByFacilityIdRequest" />
+  </wsdl:message>
+  <wsdl:message name="GetAmortByFacilityIdResponse">
+    <wsdl:part name="parameters" element="tns:GetAmortByFacilityIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="FacilitySearchService_GetAmortizationByFacilityId_GeneralServiceFaultFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:GeneralServiceFault" />
+  </wsdl:message>
+  <wsdl:message name="GetCreditDocumentBySecurityIdRequest">
+    <wsdl:part name="parameters" element="tns:GetCreditDocumentBySecurityIdRequest" />
+  </wsdl:message>
+  <wsdl:message name="GetCreditDocumentBySecurityIdResponse">
+    <wsdl:part name="parameters" element="tns:GetCreditDocumentBySecurityIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="FacilitySearchService_GetCreditDocumentBySecurityId_GeneralServiceFaultFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:GeneralServiceFault" />
+  </wsdl:message>
+  <wsdl:message name="GetCreditDocumentByIdRequest">
+    <wsdl:part name="parameters" element="tns:GetCreditDocumentByIdRequest" />
+  </wsdl:message>
+  <wsdl:message name="GetCreditDocumentByIdResponse">
+    <wsdl:part name="parameters" element="tns:GetCreditDocumentByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="FacilitySearchService_GetCreditDocumentById_GeneralServiceFaultFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:GeneralServiceFault" />
+  </wsdl:message>
+  <wsdl:message name="GetFacilityCreditDocumentBySecurityIdRequest">
+    <wsdl:part name="parameters" element="tns:GetFacilityCreditDocumentBySecurityIdRequest" />
+  </wsdl:message>
+  <wsdl:message name="GetFacilityCreditDocumentResponse">
+    <wsdl:part name="parameters" element="tns:GetFacilityCreditDocumentResponse" />
+  </wsdl:message>
+  <wsdl:message name="FacilitySearchService_GetFacilityCreditDocuments_GeneralServiceFaultFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:GeneralServiceFault" />
+  </wsdl:message>
+  <wsdl:message name="FacilitySearchService_GetAvailableCreditDocumentFacilities_InputMessage" />
+  <wsdl:message name="GetAvailableCreditDocumentFacilitiesResponse">
+    <wsdl:part name="parameters" element="tns:GetAvailableCreditDocumentFacilitiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="FacilitySearchService_GetAvailableCreditDocumentFacilities_GeneralServiceFaultFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:GeneralServiceFault" />
+  </wsdl:message>
+  <wsdl:message name="GetCovenantLiteBySecurityIdRequest">
+    <wsdl:part name="parameters" element="tns:GetCovenantLiteBySecurityIdRequest" />
+  </wsdl:message>
+  <wsdl:message name="GetCovenantLiteResponse">
+    <wsdl:part name="parameters" element="tns:GetCovenantLiteResponse" />
+  </wsdl:message>
+  <wsdl:message name="FacilitySearchService_GetCovenantLiteBySecurityId_GeneralServiceFaultFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:GeneralServiceFault" />
+  </wsdl:message>
+  <wsdl:portType msc:usingSession="false" name="FacilitySearchService">
+    <wsdl:operation name="GetFacilityBySecurityId">
+      <wsdl:input wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/GetFacilityBySecurityId" name="GetFacilityBySecurityIdRequest" message="tns:GetFacilityBySecurityIdRequest" />
+      <wsdl:output wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/FacilitySearchService/GetFacilityBySecurityIdResponse" name="GetFacilityResponse" message="tns:GetFacilityResponse" />
+      <wsdl:fault wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/FacilitySearchService/GetFacilityBySecurityIdGeneralServiceFaultFault" name="GeneralServiceFaultFault" message="tns:FacilitySearchService_GetFacilityBySecurityId_GeneralServiceFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableFacilities">
+      <wsdl:input wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/GetAvailableFacilities" message="tns:FacilitySearchService_GetAvailableFacilities_InputMessage" />
+      <wsdl:output wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/FacilitySearchService/GetAvailableFacilitiesResponse" name="GetAvailableFacilitiesResponse" message="tns:GetAvailableFacilitiesResponse" />
+      <wsdl:fault wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/FacilitySearchService/GetAvailableFacilitiesGeneralServiceFaultFault" name="GeneralServiceFaultFault" message="tns:FacilitySearchService_GetAvailableFacilities_GeneralServiceFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetContractsByFacilityId">
+      <wsdl:input wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/GetContractsByFacilityId" name="GetContractsByFacilityIdRequest" message="tns:GetContractsByFacilityIdRequest" />
+      <wsdl:output wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/FacilitySearchService/GetContractsByFacilityIdResponse" name="GetContractsByFacilityIdResponse" message="tns:GetContractsByFacilityIdResponse" />
+      <wsdl:fault wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/FacilitySearchService/GetContractsByFacilityIdGeneralServiceFaultFault" name="GeneralServiceFaultFault" message="tns:FacilitySearchService_GetContractsByFacilityId_GeneralServiceFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAmortizationByFacilityId">
+      <wsdl:input wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/GetAmortizationByFacilityId" name="GetAmortByFacilityIdRequest" message="tns:GetAmortByFacilityIdRequest" />
+      <wsdl:output wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/FacilitySearchService/GetAmortizationByFacilityIdResponse" name="GetAmortByFacilityIdResponse" message="tns:GetAmortByFacilityIdResponse" />
+      <wsdl:fault wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/FacilitySearchService/GetAmortizationByFacilityIdGeneralServiceFaultFault" name="GeneralServiceFaultFault" message="tns:FacilitySearchService_GetAmortizationByFacilityId_GeneralServiceFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCreditDocumentBySecurityId">
+      <wsdl:input wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/GetCreditDocumentBySecurityId" name="GetCreditDocumentBySecurityIdRequest" message="tns:GetCreditDocumentBySecurityIdRequest" />
+      <wsdl:output wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/FacilitySearchService/GetCreditDocumentBySecurityIdResponse" name="GetCreditDocumentBySecurityIdResponse" message="tns:GetCreditDocumentBySecurityIdResponse" />
+      <wsdl:fault wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/FacilitySearchService/GetCreditDocumentBySecurityIdGeneralServiceFaultFault" name="GeneralServiceFaultFault" message="tns:FacilitySearchService_GetCreditDocumentBySecurityId_GeneralServiceFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCreditDocumentById">
+      <wsdl:input wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/GetCreditDocumentById" name="GetCreditDocumentByIdRequest" message="tns:GetCreditDocumentByIdRequest" />
+      <wsdl:output wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/FacilitySearchService/GetCreditDocumentByIdResponse" name="GetCreditDocumentByIdResponse" message="tns:GetCreditDocumentByIdResponse" />
+      <wsdl:fault wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/FacilitySearchService/GetCreditDocumentByIdGeneralServiceFaultFault" name="GeneralServiceFaultFault" message="tns:FacilitySearchService_GetCreditDocumentById_GeneralServiceFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFacilityCreditDocuments">
+      <wsdl:input wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/GetFacilityCreditDocuments" name="GetFacilityCreditDocumentBySecurityIdRequest" message="tns:GetFacilityCreditDocumentBySecurityIdRequest" />
+      <wsdl:output wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/FacilitySearchService/GetFacilityCreditDocumentsResponse" name="GetFacilityCreditDocumentResponse" message="tns:GetFacilityCreditDocumentResponse" />
+      <wsdl:fault wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/FacilitySearchService/GetFacilityCreditDocumentsGeneralServiceFaultFault" name="GeneralServiceFaultFault" message="tns:FacilitySearchService_GetFacilityCreditDocuments_GeneralServiceFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableCreditDocumentFacilities">
+      <wsdl:input wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/GetAvailableCreditDocumentFacilities" message="tns:FacilitySearchService_GetAvailableCreditDocumentFacilities_InputMessage" />
+      <wsdl:output wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/FacilitySearchService/GetAvailableCreditDocumentFacilitiesResponse" name="GetAvailableCreditDocumentFacilitiesResponse" message="tns:GetAvailableCreditDocumentFacilitiesResponse" />
+      <wsdl:fault wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/FacilitySearchService/GetAvailableCreditDocumentFacilitiesGeneralServiceFaultFault" name="GeneralServiceFaultFault" message="tns:FacilitySearchService_GetAvailableCreditDocumentFacilities_GeneralServiceFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCovenantLiteBySecurityId">
+      <wsdl:input wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/GetCovenantLiteBySecurityId" name="GetCovenantLiteBySecurityIdRequest" message="tns:GetCovenantLiteBySecurityIdRequest" />
+      <wsdl:output wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/FacilitySearchService/GetCovenantLiteBySecurityIdResponse" name="GetCovenantLiteResponse" message="tns:GetCovenantLiteResponse" />
+      <wsdl:fault wsaw:Action="http://markit.com/Markit/LoanReferenceData/2013/11/FacilitySearchService/GetCovenantLiteBySecurityIdGeneralServiceFaultFault" name="GeneralServiceFaultFault" message="tns:FacilitySearchService_GetCovenantLiteBySecurityId_GeneralServiceFaultFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:service name="WidgetService">
+    <wsdl:port name="FacilitySearchServicePort" binding="i0:FacilitySearchServicePort">
+      <soap:address location="http://datadownload.wsostage.com/LoanReferenceData/2013/11/FacilitySearch.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

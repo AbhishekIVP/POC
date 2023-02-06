@@ -1,0 +1,705 @@
+﻿html, body
+{
+    font-family: 'Lato' , sans-serif;
+}
+
+.reconUpperDiv
+{
+    height: 70px;
+}
+
+
+.reconGrid
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 23%;
+}
+
+.reconBody
+{
+    padding-top: 5px;
+}
+
+
+.reconHeader
+{
+    border-bottom: solid 4px #cecece;
+}
+
+.reconPieSliderDiv
+{
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+span.reconHeaderCount
+{
+    float: right;
+    font-size: 21px;
+    margin-top: -9px;
+    cursor: pointer;
+    font-family: oswald;
+}
+
+div.reconLeftBody
+{
+    /*width:50%;         display:inline;*/
+    width: 50%;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+    border-right: 1px solid #cecece;
+}
+
+div.reconBodyRow
+{
+    margin-bottom: 10px;
+}
+
+div.reconRightBodyParent
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+div.reconRightBody
+{
+    width: 100%;
+    height: 18px;
+}
+
+div.reconLeftText
+{
+    display: block;
+    padding-top: 3px;
+    font-size: 12px;
+}
+
+div.reconLeftCount
+{
+    font-size: 16px;
+    cursor: pointer;
+    font-family: oswald;
+    display: block; /*float: right;*/
+}
+span.reconLeftCountText
+{
+    padding-left: 3px;
+    font-size: 10px;
+    font-family: lato;
+    font-weight: normal;
+}
+
+div.reconRightText
+{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 11px;
+}
+
+div.reconRightCount
+{
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    cursor: pointer;
+}
+
+.reconPieSection
+{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.reconSliderArrow
+{
+    font-size: 5em;
+    width: 3%;
+    height: 150px;
+    vertical-align: top;
+    margin-top: 2%;
+    background: #fff;
+    padding: 0px 15px;
+    cursor: pointer;
+    color: #B5B5B5;
+}
+
+.smpiechartDiv
+{
+    cursor: pointer;
+    box-shadow: 0px 0px 08px 0px #E4E4E4;
+    padding-left: 15px;
+}
+
+.reconHeaderText
+{
+    font-size: 14px;
+}
+
+.reconCaret
+{
+    position: relative;
+    top: 20px;
+    left: -260px;
+    display: inline;
+    visibility: hidden;
+}
+
+.smpiechartDiv:not(:first-child)
+{
+    /*margin-left:10px;         padding-left: 20px;     border-left: solid 1px #ddd;*/
+    margin-left: 30px;
+}
+
+.reconPieGrid
+{
+    border-top: solid 1px #EFEFEF;
+    padding-top: 10px;
+    width: 97%;
+    margin: 0px auto;
+}
+
+.reconDownArrow
+{
+    font-size: 25px !important;
+    position: relative;
+    top: -4px; /*color: #00bcef;*/
+    color: #5FB1CC;
+    height: 17px;
+}
+
+.reconOverlayDiv
+{
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    display: none;
+}
+
+span.reconTop3
+{
+    font-size: 11px;
+    float: right;
+    padding-right: 5px;
+}
+
+.closeReconOverlayDiv
+{
+    padding: 5px;
+    float: right;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    cursor: pointer;
+    background-image: url("images/popupClose2.png");
+    background-repeat: no-repeat;
+    height: 14px;
+    width: 12px;
+}
+
+.reconPnlRemark
+{
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 30%;
+    width: 20%;
+}
+
+.reconTabsPanel
+{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 40px;
+    color: #666;
+    font-size: 14px;
+    font-family: Lato;
+    cursor: pointer;    
+    background: none;
+    border:none;
+    height:48px;
+    outline:none;
+    color:#00BFF2;
+}
+
+.mmSelectedTab
+{
+    border-bottom: 2px solid #00BFF2;
+    color:#00BFF2 !important;
+    cursor: default;
+}
+
+.mmDisableTab
+{
+    border-bottom: 0px;
+    color: #ccc;
+    cursor: default;
+}
+
+.mmHorizontalAlign
+{
+    display: inline-block;
+	vertical-align: top;
+}
+
+.reconTextBox
+{
+    width: 98%;
+    height: 60px;
+    margin: 10px 0px;    
+}
+
+.dateInputBoxBorder
+{
+    border: 1px solid #CDCDCD;    
+}
+
+.reconFilterDiv
+{
+    position:absolute;
+	width:300px !important;
+	background-color: #f6f6f6;
+    color: #777;
+    box-shadow: 2px 32px 9px 3px #B3A8A8;
+    border:1px solid #efefef;
+    z-index: 100000;
+    right: -300px;
+    overflow: auto;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.reconRightSideIcons
+{
+    height: 20px;
+    color: #6A7487;
+    z-index: 100000;
+    position: fixed;
+    right: 10px;
+    cursor: pointer;
+    font-size: 1.2em;    
+}
+
+.reconGroupSecurityDiv
+{
+    position: absolute;
+    border-right: 1px solid #E4E1E1;
+    width: 200px;
+    background-color: #F6F6F6;
+    margin-top: 2px;
+    left: 0.6%;
+}
+
+.reconGroupSecurityDiv span
+{
+    margin-left: 3px;
+    top: -3px;
+    position: relative;    
+}
+
+.mmGridHeaderSection
+{
+    font-family: Lato;    
+}
+
+.mmGridHeaderBreakReasonText
+{
+    font-weight: bold;
+    float: right;
+    margin-right: 25px;	
+}
+
+.mmGridHeaderSecId
+{
+    text-decoration:underline;
+    cursor:pointer;
+    color: #4C4C4C;
+    font-weight: bold;
+    margin-right:6px;    
+}
+
+.mmGridHeaderStatus
+{
+    margin-left:23%;
+}
+
+.mmGridHeaderMessageTooltip
+{
+    position: fixed;
+    width: 30% !important;
+    background: #fff;
+    padding: 5px;
+    color: #777;
+    z-index: 1000;
+    height: 120px;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    border-radius: 2px;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.mmGridHeaderMessageTooltip textarea
+{
+    width: 100% !important;
+    border: none;
+    background: none;    
+    color:#5A5959;
+    outline:none;
+    height:95px;
+    overflow:none;
+    white-space: pre-wrap;
+}
+
+.mmGridTooltipClose
+{
+    position:absolute;
+	top:2px;
+	right:3px;
+	color:#ccc;
+	cursor: pointer;
+}
+
+.mmGridTooltipClose:hover
+{
+    color:#777;
+}
+
+.mmGridHeaderFail
+{
+    color:Red;    
+}
+
+.mmGridHeaderSuccess
+{
+    color:Green;    
+}
+
+.mmGridHeaderHideBraces
+{
+    position:relative;
+	z-index: 999;
+	background-color: #000;
+	width:20px;
+	height: 22px;
+	top: -24px;
+    left: 55%;
+}
+
+.mmDateFilterDiv
+{
+    min-width: 9%;
+    background-color: #FFF;
+    color: #383839;
+    padding:5px;    
+    position: fixed;
+    z-index: 1000;
+    cursor: pointer;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .15);
+    border-radius: 0 0 4px 4px;
+    border: 1px solid #CDCDCD;
+    font-family: Lato, sans-serif;
+    font-size: 11px;    
+}
+
+.mmDateFilterItem
+{
+    padding: 7px 0px 7px 10px;
+    border-left: 4px solid #fff;    
+}
+
+.mmDateFilterItem:hover
+{
+    color: #A8A6A6;
+    border-left: 4px solid #00bcef;
+}
+
+.mmDateFilterCustomDateDiv
+{
+    padding: 10px;
+    border-top: 1px solid #efefef;    
+}
+
+.mmDateFilterCustomDateDiv span
+{
+    margin-right:5px;    
+}
+
+.mmCustomDateFilterRdbLabel
+{
+    position: relative;
+    top:-3px;
+    font-weight: normal;
+}
+
+.mmCustomDateDiv label
+{
+    font-weight:normal;
+    margin-right:10px;
+    width:60px;    
+}
+
+.mmCustomDateDiv
+{
+    margin:5px 0px;   
+}
+
+.mmCustomDateFilterDateRdbDiv
+{
+    text-align:center;    
+}
+
+.mmDateAttribute
+{
+    border:none;
+    border-bottom:1px solid #c3c3c3;
+    padding-left:5px; 
+}
+
+.mmCustomDateErrorDiv
+{
+    color:#C7898C;    
+}
+
+
+/*--------------------------TOP BAR CSS------------------------------------*/
+.BreakItem td[marked="0"]:hover
+{
+    color: Black;
+}
+.BreakItem td[marked="1"]:hover
+{
+    color: rgb(0, 191, 242);
+}
+#divBreakDate tr:hover
+{
+    background: #f9f9f9; /*  color: rgb(178, 178, 178);*/
+}
+#trBreakDateCustom:hover
+{
+    background-color: #FFF !important;
+}
+#trBreakCustom td table tbody tr:hover
+{
+    background-color: #FFF !important;
+}
+.xdsoft_scrollbar > .xdsoft_scroller:hover
+{
+    width: 4px;
+}
+.nav > li > buton:hover, .nav > li > button:focus
+{
+    color: rgb(0, 191, 242) !important;
+    background-color: White;
+    border-color: White;
+}
+
+.runningTextSmSelect
+{
+    font-size:14px !important;
+    margin-right:0px !important;
+    text-decoration: none;
+    color: #00bff2;
+    border-bottom: 1px dashed #00bff2;
+    cursor: pointer;
+    line-height: 1.3;
+}
+
+.runningTextSmSelect:hover
+{
+    color:#23527c;    
+}
+
+.DateAttributeText
+{    
+    width: 105px !important;
+    border: 1px solid #777;
+    padding-left: 5px
+}
+
+.customDate label
+{
+    position: relative;
+    top: -3px;
+    left: 2px;        
+}
+
+/*Temporary Change*/
+.runningTextClass a:hover
+{
+    text-decoration: none;
+}
+
+.runningTextClass
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 18px;
+    border: 1px solid #ddd;
+    margin-left: 0px;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 4px;           
+}
+
+/*-------------------------TEMP CSS-------------------------*/
+div#filterMainDiv
+{
+    height:400px;
+    width:300px;
+    position:absolute;
+    z-index:1000;
+    left:609px;
+    top:150px;            
+    border-top: solid 4px #43D9C6;
+    box-shadow: 0 14px 45px rgba(0, 0, 0, 0.25), 0 10px 18px rgba(0, 0, 0, 0.22);
+    border-radius: 2px;
+    padding: 5px;
+    background-color: #EFEFEF;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family:lato;
+    color:#444;
+}   
+.filterItemCheckbox,.filterItemText
+{
+    display: inline-block;
+    vertical-align: top;
+}     
+.filterItemCheckbox
+{
+    font-size:20px;    
+    margin-top:4px;
+    color: #D2D2D2;
+}
+.filterItemText
+{                         
+    margin-left: 10px;
+    width: 200px;
+    padding-top: 6px;
+    font-size: 11px;
+    color: #777;
+    font-weight: lighter;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: "Istok Web", sans-serif;
+}
+.filterItemCheckbox.selectedItem {
+    color: #43D9C6;
+}
+.filterHeader
+{
+   font-size: 12px;
+    padding-left: 5px;
+    border-bottom: 1px solid #afafaf;
+    margin: 2px 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    padding-bottom: 5px;
+}
+div#filterBottom {
+    margin-top: 15px;
+}
+.filterItem
+{
+    cursor: pointer;            
+}
+.backgroundDiv
+{
+    background-color: rgba(0, 0, 0, 0.541176);
+    z-index: 999;
+    height: 799px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;  
+}
+
+.itemListDiv
+{
+    padding: 2px 5px 5px 5px;
+    margin: 2px 10px 10px 10px;
+}
+.itemListArrowIcon
+{
+    float: right;
+    padding-top: 2px;    
+}
+
+.toggleSuppress
+{    
+    background: white;
+    padding: 3px;    
+    color: #585858;
+    font-size: 12px;
+    border: solid 1px #43D9C6;        
+    cursor:pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.toggleSuppressActive
+{
+    background: #43D9C6;
+    padding: 3px;   
+    color: #585858;
+    font-size: 12px;
+    border: solid 1px #43D9C6;
+    cursor:pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white !important;
+}
+
+.reconBreakGridHorizontal
+{
+    display:inline-block;
+    vertical-align: top;
+}
+
+.reconBreakGridCell
+{
+    width:100px;
+    color: #A9A9A9;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.reconBreakGridContinueBtn
+{
+    position: absolute;
+    float: right;
+    right: 10px;
+    bottom: 10px;
+    font-size: 22px !important;
+    color: #43D9C6;
+    cursor:pointer;
+}
+
+.reconBreakGridPostStatusContainer
+{
+    position: absolute;
+    left: 20px;
+    top:60px;
+}
+
+.reconBreakGrdiSuccess
+{
+    color:#ACD373;    
+}
+
+.reconBreakGrdiFailure
+{
+    color:#C7898C;    
+}
+

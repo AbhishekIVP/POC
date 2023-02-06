@@ -1,0 +1,617 @@
+﻿.srmVMHeaderFilters {
+
+height: 20%;
+
+width: 100%;
+
+font-size: 0;
+}
+
+.srmVMdataSource
+{
+    display:inline-block;
+    border-bottom: aliceblue;
+    box-shadow: 2px 0px 10px #DADADA;
+    /*border-radius: 3px;*/ /*removed*/
+    background-color: #5a7592;
+    color: #fff;
+    /*border-top-right-radius: 5px;*/ /*//removed*/
+    width:20%;
+    vertical-align: top;
+    height: 38px;
+}
+ .srmVMDataRequestMethod
+{
+    width: 79%;
+    display:inline-block;
+    height: 35px;
+    vertical-align: top;
+    /* width: 78%; */
+    /* padding-right: 15px; */
+    /* padding-left: 10px; */
+    /* border-top: 1px solid #e8e8e8; */
+    margin-top: 1px;
+    font-size: 100px; text-align:center;
+    /*margin-bottom: 4px;*/
+}
+ .srmVMDataRequestMethod2{
+      /*width: fit-content;*/
+     vertical-align:top;
+         margin: 0 auto;
+          text-align:center;
+ }
+.srmVMdataSource div{
+    display:inline-block;
+    width: 28%;
+    background-color: transparent;
+    text-align: center;
+    line-height: 12px;
+    color: #ffffff;
+    font-size: 11px;
+    font-family: Lato;
+    text-transform: uppercase;
+    padding: 4px; /*7px 5px 0px 5px;*/
+    cursor: pointer;
+}
+
+.srmVMDataRequestMethod div{
+    display:inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    padding-top: 6px;
+    /* padding-left: 20px; */
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 14px;
+    height: 22px;
+    font-family: Lato !important;
+}
+.NonSlectedDataSource{
+
+}
+.SelectedDataSourceClass{
+    background-color: #edf0ef !important;
+    color: #75a9c8 !important;
+    font-weight: bold;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.SelectedTabClass {
+    color: #48a3dd;
+    /*border-bottom: 3px solid;*/
+}
+
+#PreferenceSelector{
+    /* margin-left: 15%; */
+    /* align-items: center; */
+    margin-left: 1%;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+}
+
+
+/*.PreferenceSelectorClass{
+    display:inline-block;
+    padding: 3px 6px 3px 6px;
+    font-family: Lato;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 22px;
+    border: 0 #ea9747;*/
+    /* height: 22px; */
+    /*background: #ea9747;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    outline: none;
+    font-size: 14px;
+    text-align: center;*/
+    /* width: 70px; */
+    /*color: #fff;*/
+    /* position: relative; */
+    /*line-height: 21px;*/
+    /* right: 35px; */
+    /*top: 0px;
+}*/
+
+
+#PreferencesList {
+    height: 560px;
+    overflow-y: auto;
+}
+
+
+
+#LeftBodyMenu  {
+    display:inline-block;
+    float:left;
+    font-family: Lato !important;
+    box-sizing: border-box;
+    width: 20%;
+    height: 100%;
+    /*background-color: rgb(239, 239, 239);*/
+    background-color:#f5f7f9;
+    font-size:13px;
+    /* padding-left:25px; */
+    padding-top:20px;
+}
+
+#PreferenceHeaderText{
+    font-size:15px;
+    color: #3e4d5e;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-weight:bold;
+}
+
+#RightBodyMenu   {
+    display:inline-block;
+    width: 80%;
+    height: 100%;
+    font-size: 13px;
+}
+
+#srmSaveChanges {
+    height:5%;
+    margin-top:2%;
+    margin-left:70%;
+}
+
+.srmVMFixedConfigurations{
+    /*height:40%;
+    margin-left:38%;
+    margin-top:2%;*/
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width:100%;
+}
+
+#srmVMFixedConfigTable {
+    display: block;
+    width: 70%;
+    box-shadow: 0px 0px 9px -3px #aaaaaa;
+    margin: 0 auto;
+}
+
+.TableHeader    {
+        /*display:block;
+        font-weight: bold;
+        width : 20%*/
+        background: white;
+        /* box-shadow: 0px 3px 6px 0px rgba(218, 218, 218, 0.75); */
+        height: 30px;
+        border-bottom: 1px solid rgb(208, 206, 206);
+        font-weight: bold;
+        width: 100%;
+}
+
+.TableRow{
+    background: #fdfdfd;
+    width: 100%;
+    border-top: 1px solid #f4f1f1;
+}
+
+.TableRow div:first-child{
+    font-weight:bold;
+   
+    border-top: 1px solid #f4f1f1;
+}
+
+.TableRow:hover{
+    background: #f2f2f2;
+} 
+
+.TableRow:nth-child(odd)
+    {
+       /*display:block;
+       width : 20%;*/
+  background:white;
+ 
+    }
+
+.TableRow:nth-child(even)
+    {
+       /*display:block;
+       width : 20%;*/
+    background: #fdfdfd;
+    }
+
+.TableCell
+    {
+    
+        display: inline-block;
+        width: 47%;
+        height: 27px;
+        line-height: 27px;
+        padding-left: 5px;
+        font-family: 'Istok Web' , sans-serif !important;
+        font-size: 12px;
+        color: rgb(102, 102, 102);
+        vertical-align: top;
+        text-align: left;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+.TableHeaderColor{
+        color: #b9b9b9;
+}
+
+
+#srmVMHeaderInput   {
+    margin-top:5%;
+    margin-left:30%;
+}
+
+#srmVMHeaderInput div  {
+    display:inline-block;
+}
+
+
+
+
+.SMNewGridTable
+{
+    border: 0px;
+    margin: 5px;
+    margin-left: 22%;
+    background-color: white;
+    border-bottom: 1px solid #E3E0E0;
+    padding-bottom: 1px;
+}
+
+.SMNewGridHeaderRow
+{
+    background: white;
+    /*box-shadow: 0px 3px 6px 0px rgba(218, 218, 218, 0.75);*/
+    height: 30px;
+    border-bottom: 1px solid rgb(208, 206, 206);
+    font-weight: bold;
+}
+
+.SMNewGridHeaderElement
+{
+    display: inline-block;
+    width: 23%;
+    border-right: 1px dashed #E7E7E7;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 5px;
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 11px;
+    color: rgb(138, 135, 135);
+}
+
+.SMNewGridBodyElement
+{
+    display: inline-block;
+    width: 23%;
+    height: 27px;
+    line-height: 27px;
+    padding-left: 5px;
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+    vertical-align: top;
+}
+
+.CustomBbgHeaderGrid
+{
+    /* margin-top: 2%; */
+    padding-top: 15px;
+}
+
+.CustomBbgHeaderGrid .SMNewGridHeaderElement
+{
+    display: inline-block;
+    width: 47%;
+    border-right: 1px dashed #E7E7E7;
+    height: 20px;
+    line-height: 20px;
+    /* padding-left: 5px; */
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 11px;
+    color: rgb(138, 135, 135);
+}
+
+.CustomBbgHeaderGrid .SMNewGridBodyElement
+{
+    display: inline-block;
+    width: 47%;
+    height: 27px;
+    line-height: 27px;
+    padding-left: 5px;
+    font-family: 'Istok Web' , sans-serif !important;
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+    vertical-align: top;
+    text-align: left;
+}
+
+.SMNewGridNormalRow
+{
+    background: white;
+    border-top: 1px solid #f4f1f1;
+}
+
+.SMNewGridAlternatingRow
+{
+    background: #fdfdfd;
+    border-top: 1px solid #f4f1f1;
+}
+
+.SMNewGridNormalRow:hover
+{
+    background: #f2f2f2;
+}
+
+.SMNewGridAlternatingRow:hover
+{
+    background: #f2f2f2;
+}
+
+.PreferenceParent   {
+    /*padding: 5px 5px 5px 20px;*/
+        margin-left: 12px;
+    margin-right: 12px;
+    font-size:0;
+     padding-bottom: 6px;
+    margin-bottom: 6px;
+    border-radius: 2px;
+    padding-left:12px;
+    padding-top : 5px;
+    padding-bottom: 5px;
+    
+    font-family: oswald !important;
+    background-color: rgb(217, 229, 244);
+}
+
+.PreferenceParent div{
+    display:inline-block;
+    /* padding-top:10px; */
+    font-size:12px;
+
+    /*margin-left: 12px;
+    margin-right: 12px;*/
+   
+    
+        font-size: 14px;
+    letter-spacing: 0.2px;
+    font-family: "Oswald";
+}
+.NonSelectedPreferenceColor{
+    background-color: #d9e5f4;
+    color: rgb(62, 77, 94);
+}
+.PreferenceParent div:first-child   {
+    width: 90%;
+    cursor:pointer;
+}
+.PreferenceParent div:last-child   {
+    width: 10%;
+    /* float: right; */
+    cursor:pointer;
+}
+
+#AddNewPreference{
+    /*padding-left:50px;
+    padding-right:50px;
+    margin-left:16px;
+    margin-bottom:10px;*/
+    color: #43d9c6;
+    display:inline-block;
+    float: right;
+    margin-right:10px;
+    font-size:20px;
+}
+
+#PreferenceHeaderText{
+    display:inline-block;
+}
+
+.MarginSet{
+    border-bottom: 2px solid #708a99;
+    /* width: 1240px; */
+    display: inline-block;
+    width: 80%;
+    font-size: 0;
+}
+
+.srmVMBody {
+    height:75%;
+    font-size:0px;
+}
+
+#srmVMDropDownMenu{
+    margin-left:25%;
+    margin-top:2%;
+}
+
+
+
+.HeadingStyle
+{
+    width: fit-content;
+    color: #5a7592;
+    border-bottom: 2px solid;
+    font-family: "Lato";
+    font-size: 14px;
+    height: 28px;
+    padding-left: 5px;
+    text-align: left;
+    line-height: 27px;
+    padding-right: 5px;
+    margin-left: 10px;
+}
+
+.VMSelectedPreferencesTab{
+    
+}
+
+#srmVMRequestTypeDD {
+    text-align: center;
+    display:inline-block;
+    /* padding-top: 1.5%; */
+    /* padding-bottom: 0.5%; */
+    font-family: Lato;
+    /* margin-left: 0; */
+}
+
+#NamePreferenceInput::-webkit-input-placeholder{
+    font-style:italic;
+     font-size: 16px;
+      font-family: oswald !important;
+      text-transform:none;
+}
+#NamePreferenceInput{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    color: #5a7592 !important;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /*border-bottom: solid #b3b3b3 1px;*/
+    padding: 3px 10px;
+    font-family: oswald !important;
+    font-size: 16px;
+    background: transparent;
+    font-weight : bold;
+    text-transform: uppercase;
+    /* border-bottom: 1px solid black; */
+}
+
+
+
+#UpdatePrefParent{
+    width: 20%;
+    display:inline-block;
+    height: 35px;
+}
+
+#SavePreferenceOLD{   /*Changed*/
+     display:inline-block;
+     padding: 3px 6px 3px 6px;
+     font-family: Lato;
+     padding-left: 25px;
+     padding-right: 25px;
+     height: 22px;
+     border: 0 #ea9747;
+     /* height: 22px; */
+     background: #ea9747;
+     border-radius: 2px;
+     cursor: pointer;
+     display: inline-block;
+     white-space: nowrap;
+     outline: none;
+     font-size: 14px;
+     /* text-align: center; */
+     /* width: 70px; */
+     color: #fff;
+     /* position: relative; */
+     /* line-height: 21px; */
+     /* right: 35px; */
+     margin-left: 50%;
+     margin-top: 5;
+     /* top: 0px; */
+     /* margin-top: 5px; */
+     float: right;
+     margin-top: 4px;
+}
+#SavePreference{
+        font-family: Lato;
+        border: 0 #ea9747;
+    background: #ea9747;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    outline: none;
+    font-size: 14px;
+    text-align: center;
+    height: 24px;
+    width: 26%;
+    color: #fff;
+    float: right;
+    padding-top: 2px;
+    margin-top:3px;
+}
+
+.scroll::-webkit-scrollbar {
+ width: 6px;
+ height: 6px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+ background: #666;
+ border-radius: 20px;
+}
+
+.scroll::-webkit-scrollbar-track {
+ background: #ddd;
+ border-radius: 20px;
+}
+
+#PreferencesList
+{
+   height:700px;
+}
+
+.VMSelectedPreferencesTab{
+    /*background:#827f83;*/
+    background: #566b86;
+    color:white;
+}
+
+#srmVMRequestType {
+    text-align:center;
+    font-size: 0px;
+}
+
+
+
+#srmVMRequestTypeText
+{
+    display:inline-block;
+    margin-right: 0px;
+    overflow: hidden;
+    vertical-align:top;
+    /* margin-top: 20px; */
+    width: auto;
+    padding-right: 6px;
+}
+
+/*#FixedDivForSlimScrollVMHeaders{
+    max-height:400px;
+}*/
+#GridRowParent {
+}
+
+#SlimScrollFixedTableParent {
+    overflow: auto;
+    max-height: 180px;
+}
+
+#FixedDivForSlimScrollVMHeaders {
+    overflow: auto;
+    max-height: 150px;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+ 
+.scroll::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 20px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 20px;
+}

@@ -1,0 +1,283 @@
+﻿.smdd_container
+{
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    z-index: 9999;
+   /* height: 295px;*/
+    height: 310px;
+    position: absolute;
+    background-color: #fff;
+}
+
+.smdddt_container
+{
+    width: 450px;
+    height: 240px;
+}
+.validationSummary
+{
+    margin-top: -40px;
+    text-align: center;
+}
+.smdd_date_option
+{
+    margin: 0px;
+    border: 1px solid #48a3dd;
+    border-image: none;
+    color: #48a3dd;
+    background-color: white;
+    height: 25px;
+    display: block;
+    font-size: 12px;
+    outline: none;
+    text-align: left;
+    padding-left: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    margin: 5px;
+}
+.smdd_top_section
+{
+    padding-top: 10px;
+    text-align: CENTER;
+}
+.smdd_custom_section
+{
+    margin: 0px auto;
+	height:34px;
+}
+.smdd_left_section
+{
+    vertical-align: top;
+    background-color: #f2f2f2;
+}
+.smdd_nextNtime_section
+{
+    top: -50px;
+    position: relative;
+}
+.smdd_lastNtime_section
+{
+    top: -25px;
+    position: relative;
+}
+.smdd_section_overlay
+{
+    z-index: 100000;
+    position: absolute; /*height: 212px; */
+    height: 200px;
+    width: 320px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #fff;
+    opacity: 0.5; /*  top: 65px;*/
+}
+/*
+.smdd_middle_section_overlay
+{
+    margin-left: -300px;
+}*/
+.smdd_right_section_overlay
+{
+    margin-left: -260px;
+}
+
+.smdddt_section_overlay
+{
+    height: 210px;
+    width: 300px;
+    margin-left: -300px;
+}
+
+.smdd_green_btn
+{
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: #FFF;
+    height: 22px;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 12px;
+    padding: 2px 10px;
+    margin-left: 5px;
+    font-weight: 400;
+    width: auto;
+    cursor: pointer;
+}
+
+.smdd_apply_btn
+{
+    float: right;
+    position: relative;
+    right: 10px;
+}
+
+.smdd_container .xdsoft_datetimepicker.xdsoft_inline
+{
+    border: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    top: -50px;
+    vertical-align: top;
+    padding:0px;
+}
+
+.smdddt_container .xdsoft_datetimepicker.xdsoft_inline
+{
+    border: 0px;
+    margin-top: 20px;
+}
+
+.radioClass input[type="radio"]:checked:before
+{
+    content: "";
+    display: block;
+    position: relative;
+    top: 3px;
+    left: 3px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #48a3dd;
+}
+
+.editableDiv
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    font-size: 14px;
+    color: #48a3dd;
+    outline: none;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.lastNtimeDiv
+{
+    margin: 0px auto;
+    width: 25%;
+}
+
+.smdd_lastNtime_section, .smdd_nextNtime_section
+{
+    margin: 5px auto;
+    width: 200PX;
+    font-family: lato;
+    font-size: 14px;
+    text-align: CENTER;
+    height: 19px;
+}
+
+.radioClass
+{
+    display: inline-block;
+    margin-right: 20px;
+    font-family: Lato;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+body
+{
+}
+
+.hideDates
+{
+    display: none;
+}
+
+.selectddl
+{
+    display: inline-block;
+    padding-right: 8px;
+}
+
+.smselectcon
+{
+    position: absolute !important;
+}
+
+.radioClass input[type='radio']
+{
+    margin-right: 5px !important;
+}
+
+.xdsoft_current
+{
+    background: #48a3dd !important;
+}
+
+.xdsoft_datetimepicker .xdsoft_label
+{
+    color: #48a3dd !important;
+}
+
+/*.disabledCalender
+{
+    background: white !important;
+   color:grey;
+}
+
+.xdsoft_current
+{
+background:none;
+}*/
+
+.xdsoft_current_Custom
+{
+    background: white !important;
+    box-shadow: none !important;
+    color: #666666 !important;
+    font-weight: normal !important;
+}
+
+/*
+.ui-widget-content
+{
+    border: 1px solid #aaa !important;
+    color: #222;
+}
+
+.spinnerInput
+{
+    height: 11px;
+    width: 30px;
+}
+
+.divSpinner
+{
+    margin-right: 5px;
+    display: inline-block;
+}
+*/
+.divSpinner
+{
+    display: inline-block;
+    width: 60px;
+    height: 10px;
+    padding: 0 10px;
+}
+
+.divSpinner .ui-spinner
+{
+    width: 100%; /* height: 100%;*/
+    border: 1px solid #7d7d7d;
+}
+
+.divSpinner .ui-spinner .ui-spinner-input
+{
+    width: 50%;
+    height: 80%;
+}
+
+div.divSpinner > span > a.ui-spinner-button.ui-spinner-down, .divSpinner .ui-spinner .ui-spinner-button .ui-spinner-down
+{
+}
+
+div.divSpinner > span > a.ui-spinner-button.ui-spinner-up
+{
+}

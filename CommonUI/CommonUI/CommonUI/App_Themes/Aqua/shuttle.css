@@ -1,0 +1,170 @@
+/* CSS Document */
+
+/* Complete file modified by pp 24 feb */
+.shuttleListBoxContainer
+{
+    border: none;
+    padding-right: 2px;
+}
+
+.shuttleListBoxContainerWithoutMeta
+{
+    border: none;
+    padding-right: 2px;
+}
+
+.shuttleHead
+{
+    font-weight: bold;
+    color: #848484; /* Modified by Neetika       font-family: tahoma;  font-size: 10px;*/
+    text-align: left;
+    height: 20px;
+    background: none;
+}
+
+
+.shuttleMiddleButtonContainer
+{
+    width: 28px;
+    padding: 21px 2px 0 0;
+    border: none;
+}
+
+.moveBtn
+{
+    background-position: 50% top;
+    background-image: url(images/shuttle/moveBtn.gif);
+    width: 25px;
+    background-repeat: no-repeat;
+    height: 20px;
+    background-color: transparent;
+    margin-bottom: 3px;
+    margin-top: 0;
+    border: none;
+}
+
+.shuttleListBox
+{
+    width: 190px;
+    font-family: tahoma;
+    font-size: 11px;
+    color: #0D64A2;
+}
+.moveAllBtn
+{
+    background-position: 50% top;
+    background-image: url(images/shuttle/moveAllBtn.gif);
+    width: 25px;
+    background-repeat: no-repeat;
+    height: 20px;
+    background-color: transparent;
+    margin-bottom: 3px;
+    margin-top: 0;
+    border: none;
+}
+
+.removeBtn
+{
+    background-position: 50% top;
+    background-image: url(images/shuttle/removeBtn.gif);
+    width: 25px;
+    background-repeat: no-repeat;
+    height: 20px;
+    background-color: transparent;
+    margin-bottom: 3px;
+    margin-top: 0;
+    border: none;
+}
+
+
+.removeAllBtn
+{
+    background-position: 50% top;
+    background-image: url(images/shuttle/removeAllBtn.gif);
+    width: 25px;
+    background-repeat: no-repeat;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.moveBottomBtn
+{
+    background-position: 50% top;
+    background-image: url(images/shuttle/moveBottomBtn.gif);
+    width: 25px;
+    background-repeat: no-repeat;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    margin-left: 2px;
+}
+
+.moveDownBtn
+{
+    background-position: 50% bottom;
+    background-image: url(images/shuttle/moveDownBtn.gif);
+    width: 25px;
+    background-repeat: no-repeat;
+    height: 20px;
+    margin-bottom: 3px;
+    margin-top: 0;
+    background-color: transparent;
+    border: none;
+    margin-left: 2px;
+}
+
+.moveUpBtn
+{
+    background-position: 50% top;
+    background-image: url(images/shuttle/moveUpBtn.gif);
+    width: 25px;
+    background-repeat: no-repeat;
+    height: 20px;
+    background-color: transparent;
+    margin-bottom: 3px;
+    margin-top: 0;
+    margin-left: 2px;
+    border: none;
+}
+
+.moveTopBtn
+{
+    background-position: 50% bottom;
+    background-image: url(images/shuttle/moveTopBtn.gif);
+    width: 25px;
+    background-repeat: no-repeat;
+    height: 20px;
+    background-color: transparent;
+    margin-bottom: 3px;
+    margin-top: 1px;
+    margin-left: 2px;
+    border: none;
+}
+
+
+.shuttleListBoxContainer select, .shuttleListBoxContainer input, .viewOptions select
+{
+    font-family: "lato" , Sans-Serif;
+    font-size: 11px;
+    color: #555555; /* Modified by Neetika       border: none;*/
+    border: 1px solid #E7E7E7;
+    outline : none;
+}
+
+.shuttleListBoxContainerWithoutMeta select, .shuttleListBoxContainerWithoutMeta input, .viewOptionsWithoutMeta select
+{
+    font-family: "lato" , Sans-Serif;
+    font-size: 10px;
+    color: #555555;
+    outline : none;
+}
+
+.viewOptions th
+{
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 10px;
+    color: #848484;
+    padding: 0 4px 0 0;
+}

@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FECE7635-718A-4628-B69C-55DEBB043135}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>com.ivp.srm.vendorapi</RootNamespace>
+    <AssemblyName>SRMVendorAPI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bloomberglp.Blpapi">
+      <HintPath>..\..\..\..\..\RefDlls\referencedDLL\Bloomberglp.Blpapi.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonDAL">
+      <HintPath>..\..\..\..\..\RefDlls\CommonDlls\CommonDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="RBusinessCalendar, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RBusinessCalendar.dll</HintPath>
+    </Reference>
+    <Reference Include="RConfigurationManagement, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RConfigurationManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="RCryptography, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RCryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="RCustomClass">
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RCustomClass.dll</HintPath>
+    </Reference>
+    <Reference Include="RDAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="RLoggerException, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RLoggerException.dll</HintPath>
+    </Reference>
+    <Reference Include="RTransport, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RTransport.dll</HintPath>
+    </Reference>
+    <Reference Include="RUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="SevenZipSharp">
+      <HintPath>..\..\..\..\..\RefDlls\referencedDLL\SevenZipSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SRMCommon">
+      <HintPath>..\..\..\..\..\RefDlls\CommonDlls\SRMCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bloomberg\Corp Action\RCorpActHeavyHandler.cs" />
+    <Compile Include="Bloomberg\Corp Action\RCorpActController.cs" />
+    <Compile Include="Bloomberg\Corp Action\RCorpActFtpHandler.cs" />
+    <Compile Include="Bloomberg\Corp Action\RCorpActInfo.cs" />
+    <Compile Include="Bloomberg\Corp Action\RCorpActUtils.cs" />
+    <Compile Include="Bloomberg\Fundamentals\RBbgFundamentalController.cs" />
+    <Compile Include="Bloomberg\Fundamentals\RBbgFundamentalFTPHandler.cs" />
+    <Compile Include="Bloomberg\Fundamentals\RBbgFundamentalInfo.cs" />
+    <Compile Include="Bloomberg\Fundamentals\RBbgFundamentalUtils.cs" />
+    <Compile Include="Bloomberg\Get History\RBbgHistoryController.cs" />
+    <Compile Include="Bloomberg\Get History\RbbgHistoryFtpHandler.cs" />
+    <Compile Include="Bloomberg\Get History\RBbgHistoryInfo.cs" />
+    <Compile Include="Bloomberg\Get History\RBbgHistorySAPIHandler.cs" />
+    <Compile Include="Bloomberg\Get History\RBbgHistoryUtils.cs" />
+    <Compile Include="Bloomberg\RBbgBulkListInfo.cs" />
+    <Compile Include="Bloomberg\RBbgDesktopRequest.cs" />
+    <Compile Include="Bloomberg\RBbgField.cs" />
+    <Compile Include="Bloomberg\RBbgFieldOptions.cs" />
+    <Compile Include="Bloomberg\RBbgFTPRequest.cs" />
+    <Compile Include="Bloomberg\RBbgGlobalAPI.cs" />
+    <Compile Include="Bloomberg\RBbgHeavyReference.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Bloomberg\RBbgHeavyRequest.cs" />
+    <Compile Include="Bloomberg\RBbgInstrument.cs" />
+    <Compile Include="Bloomberg\RBbgLiteRequest.cs" />
+    <Compile Include="Bloomberg\RBbgMacroInfo.cs" />
+    <Compile Include="Bloomberg\RBbgManagedBPipe.cs" />
+    <Compile Include="Bloomberg\RBbgRequestProcess.cs" />
+    <Compile Include="Bloomberg\RBbgRequestType.cs" />
+    <Compile Include="Bloomberg\RBbgSecurityInfo.cs" />
+    <Compile Include="Bloomberg\RBbgServerRequest.cs" />
+    <Compile Include="Bloomberg\RBbgUtils.cs" />
+    <Compile Include="Bloomberg\RBbgLiteRefrences.cs" />
+    <Compile Include="IVendor.cs" />
+    <Compile Include="Bloomberg\RBbgMarketSector.cs" />
+    <Compile Include="Bloomberg\RBloomberg.cs" />
+    <Compile Include="IVendorForCorpAction.cs" />
+    <Compile Include="IVendorForFundamentals.cs" />
+    <Compile Include="IVendorForGetHistory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Bloomberg\RBbgInstrumentIdType.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Reuters\RReuter.cs" />
+    <Compile Include="Reuters\RReuterAPIRequest.cs" />
+    <Compile Include="Reuters\RReuterAssetTypes.cs" />
+    <Compile Include="Reuters\RReuterFTPRequest.cs" />
+    <Compile Include="Reuters\RReuterInstrumentIdType.cs" />
+    <Compile Include="Reuters\RReuterInstrumentInfo.cs" />
+    <Compile Include="Reuters\RReuterReference.cs" />
+    <Compile Include="Reuters\RReuterRequestType.cs" />
+    <Compile Include="Reuters\RReuterSecurityInfo.cs" />
+    <Compile Include="Reuters\RReuterUitls.cs" />
+    <Compile Include="RMacroConfigInfo.cs" />
+    <Compile Include="Bloomberg\RBbgOperatorType.cs" />
+    <Compile Include="RSecurityReturnType.cs" />
+    <Compile Include="RVendorConfigLoader.cs" />
+    <Compile Include="RVendorConstant.cs" />
+    <Compile Include="RVendorException.cs" />
+    <Compile Include="RVendorFieldInfo.cs" />
+    <Compile Include="RVendorHistoryInfo.cs" />
+    <Compile Include="RVendorManager.cs" />
+    <Compile Include="RVendorResponse.cs" />
+    <Compile Include="RVendorResponseStatus.cs" />
+    <Compile Include="RVendorType.cs" />
+    <Compile Include="RVendorUtils.cs" />
+    <Compile Include="Service References\AlterLoggerService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BBFTPServiceLayer\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SRMBBGFTPServiceLayer.cs" />
+    <Compile Include="VendorControlAPI\IVendorInterfaceAPI.cs" />
+    <Compile Include="VendorControlAPI\VendorInterfaceAPI.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\AlterLoggerService\Service1.wsdl" />
+    <None Include="Service References\AlterLoggerService\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AlterLoggerService\Service11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AlterLoggerService\Service12.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AlterLoggerService\Service13.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BBFTPServiceLayer\BBGFTPService.wsdl" />
+    <None Include="Service References\BBFTPServiceLayer\BBGFTPService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BBFTPServiceLayer\BBGFTPService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BBFTPServiceLayer\BBGFTPService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BBFTPServiceLayer\SRMBbgFtpApi.wsdl" />
+    <None Include="Service References\ServiceReference1\com.ivp.srm.vendorapi.ServiceReference1.ClearPostingLocksOutputInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\com.ivp.srm.vendorapi.ServiceReference1.PostingLocksOutputInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\SMDataUploadManager.wsdl" />
+    <None Include="Service References\ServiceReference1\SMDataUploadManagerService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\SMDataUploadManagerService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\SMDataUploadManagerService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\SMDataUploadManagerService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bloomberg\Corp Action\Resources\CorpActionDetails.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Bloomberg\Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\AlterLoggerService\" />
+    <WCFMetadataStorage Include="Service References\BBFTPServiceLayer\" />
+    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AlterLoggerService\Service1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AlterLoggerService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AlterLoggerService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AlterLoggerService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\SMDataUploadManagerService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BBFTPServiceLayer\BBGFTPService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BBFTPServiceLayer\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BBFTPServiceLayer\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BBFTPServiceLayer\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(TargetPath)" "$(ProjectDir)..\..\..\..\..\RefDLLs\CommonDlls\"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

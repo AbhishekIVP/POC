@@ -1,0 +1,26 @@
+.smAutoCompleteContainerDiv{
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #cecece;
+    width: 210px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    z-index: 100000;
+}
+
+.smAutoCompleteItem{
+    color:#000;
+    border-left: 4px solid #fff;
+    color: #000;
+    border-left: 4px solid #fff;
+    padding: 2px 5px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.smAutoCompleteItem:hover{
+    border-left: 4px solid #00bff0;
+}

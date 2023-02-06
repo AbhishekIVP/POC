@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://markit.com/Markit/Transaction/2012/06" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WidgetService" targetNamespace="http://markit.com/Markit/Transaction/2012/06" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="TransactionServicePort_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <sp:SignedSupportingTokens xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:UsernameToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+              <wsp:Policy>
+                <sp:WssUsernameToken10 />
+              </wsp:Policy>
+            </sp:UsernameToken>
+          </wsp:Policy>
+        </sp:SignedSupportingTokens>
+        <sp:Wss11 xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy />
+        </sp:Wss11>
+        <sp:Trust10 xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:MustSupportIssuedTokens />
+            <sp:RequireClientEntropy />
+            <sp:RequireServerEntropy />
+          </wsp:Policy>
+        </sp:Trust10>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://markit.com/Markit/Transaction/2012/06/Imports">
+      <xsd:import schemaLocation="http://datadownload.wsostage.com/GlobalTransaction/2012/06/Transaction.svc?xsd=xsd0" namespace="http://markit.com/Markit/Transaction/2012/06" />
+      <xsd:import schemaLocation="http://datadownload.wsostage.com/GlobalTransaction/2012/06/Transaction.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="GetTransactionsByFacilityRequest">
+    <wsdl:part name="parameters" element="tns:GetTransactionsByFacilityRequest" />
+  </wsdl:message>
+  <wsdl:message name="GetTransactionsByFacilityResponse">
+    <wsdl:part name="parameters" element="tns:GetTransactionsByFacilityResponse" />
+  </wsdl:message>
+  <wsdl:message name="TransactionService_GetTransactionsByFacility_GeneralServiceFaultFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:GeneralServiceFault" />
+  </wsdl:message>
+  <wsdl:message name="ConfirmTransactionsRequest">
+    <wsdl:part name="parameters" element="tns:ConfirmTransactionsRequest" />
+  </wsdl:message>
+  <wsdl:message name="ConfirmTransactionsResponse">
+    <wsdl:part name="parameters" element="tns:ConfirmTransactionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="TransactionService_ConfirmTransactions_GeneralServiceFaultFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:GeneralServiceFault" />
+  </wsdl:message>
+  <wsdl:message name="RejectTransactionsRequest">
+    <wsdl:part name="parameters" element="tns:RejectTransactionsRequest" />
+  </wsdl:message>
+  <wsdl:message name="RejectTransactionsResponse">
+    <wsdl:part name="parameters" element="tns:RejectTransactionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="TransactionService_RejectTransactions_GeneralServiceFaultFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:GeneralServiceFault" />
+  </wsdl:message>
+  <wsdl:message name="SetDownloadStartDateRequest">
+    <wsdl:part name="parameters" element="tns:SetDownloadStartDateRequest" />
+  </wsdl:message>
+  <wsdl:message name="SetDownloadStartDateResponse">
+    <wsdl:part name="parameters" element="tns:SetDownloadStartDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="TransactionService_SetDownloadStartDate_GeneralServiceFaultFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:GeneralServiceFault" />
+  </wsdl:message>
+  <wsdl:portType msc:usingSession="false" name="TransactionService">
+    <wsdl:operation name="GetTransactionsByFacility">
+      <wsdl:input wsaw:Action="http://markit.com/Markit/Transaction/2012/06/GetTransactionsByFacility" name="GetTransactionsByFacilityRequest" message="tns:GetTransactionsByFacilityRequest" />
+      <wsdl:output wsaw:Action="http://markit.com/Markit/Transaction/2012/06/TransactionService/GetTransactionsByFacilityResponse" name="GetTransactionsByFacilityResponse" message="tns:GetTransactionsByFacilityResponse" />
+      <wsdl:fault wsaw:Action="http://markit.com/Markit/Transaction/2012/06/TransactionService/GetTransactionsByFacilityGeneralServiceFaultFault" name="GeneralServiceFaultFault" message="tns:TransactionService_GetTransactionsByFacility_GeneralServiceFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmTransactions">
+      <wsdl:input wsaw:Action="http://markit.com/Markit/Transaction/2012/06/ConfirmTransactions" name="ConfirmTransactionsRequest" message="tns:ConfirmTransactionsRequest" />
+      <wsdl:output wsaw:Action="http://markit.com/Markit/Transaction/2012/06/TransactionService/ConfirmTransactionsResponse" name="ConfirmTransactionsResponse" message="tns:ConfirmTransactionsResponse" />
+      <wsdl:fault wsaw:Action="http://markit.com/Markit/Transaction/2012/06/TransactionService/ConfirmTransactionsGeneralServiceFaultFault" name="GeneralServiceFaultFault" message="tns:TransactionService_ConfirmTransactions_GeneralServiceFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RejectTransactions">
+      <wsdl:input wsaw:Action="http://markit.com/Markit/Transaction/2012/06/RejectTransactions" name="RejectTransactionsRequest" message="tns:RejectTransactionsRequest" />
+      <wsdl:output wsaw:Action="http://markit.com/Markit/Transaction/2012/06/TransactionService/RejectTransactionsResponse" name="RejectTransactionsResponse" message="tns:RejectTransactionsResponse" />
+      <wsdl:fault wsaw:Action="http://markit.com/Markit/Transaction/2012/06/TransactionService/RejectTransactionsGeneralServiceFaultFault" name="GeneralServiceFaultFault" message="tns:TransactionService_RejectTransactions_GeneralServiceFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetDownloadStartDate">
+      <wsdl:input wsaw:Action="http://markit.com/Markit/Transaction/2012/06/SetDownloadStartDate" name="SetDownloadStartDateRequest" message="tns:SetDownloadStartDateRequest" />
+      <wsdl:output wsaw:Action="http://markit.com/Markit/Transaction/2012/06/TransactionService/SetDownloadStartDateResponse" name="SetDownloadStartDateResponse" message="tns:SetDownloadStartDateResponse" />
+      <wsdl:fault wsaw:Action="http://markit.com/Markit/Transaction/2012/06/TransactionService/SetDownloadStartDateGeneralServiceFaultFault" name="GeneralServiceFaultFault" message="tns:TransactionService_SetDownloadStartDate_GeneralServiceFaultFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="TransactionServicePort" type="tns:TransactionService">
+    <wsp:PolicyReference URI="#TransactionServicePort_policy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetTransactionsByFacility">
+      <soap:operation soapAction="http://markit.com/Markit/Transaction/2012/06/GetTransactionsByFacility" style="document" />
+      <wsdl:input name="GetTransactionsByFacilityRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetTransactionsByFacilityResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="GeneralServiceFaultFault">
+        <soap:fault use="literal" name="GeneralServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmTransactions">
+      <soap:operation soapAction="http://markit.com/Markit/Transaction/2012/06/ConfirmTransactions" style="document" />
+      <wsdl:input name="ConfirmTransactionsRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ConfirmTransactionsResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="GeneralServiceFaultFault">
+        <soap:fault use="literal" name="GeneralServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RejectTransactions">
+      <soap:operation soapAction="http://markit.com/Markit/Transaction/2012/06/RejectTransactions" style="document" />
+      <wsdl:input name="RejectTransactionsRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="RejectTransactionsResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="GeneralServiceFaultFault">
+        <soap:fault use="literal" name="GeneralServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SetDownloadStartDate">
+      <soap:operation soapAction="http://markit.com/Markit/Transaction/2012/06/SetDownloadStartDate" style="document" />
+      <wsdl:input name="SetDownloadStartDateRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetDownloadStartDateResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="GeneralServiceFaultFault">
+        <soap:fault use="literal" name="GeneralServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WidgetService">
+    <wsdl:port name="TransactionServicePort" binding="tns:TransactionServicePort">
+      <soap:address location="http://datadownload.wsostage.com/GlobalTransaction/2012/06/Transaction.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

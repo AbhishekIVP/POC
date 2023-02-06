@@ -1,0 +1,1371 @@
+﻿/*-------------------------------------New Search Security UI------------------------------------------*/
+
+.searchCreatedBtn
+{
+    font-weight:bold;
+    width:120px;
+    margin-right:10px;         
+}
+
+.searchModifiedBtn
+{
+    font-weight:bold;
+    width:120px;
+    margin-right:10px;    
+}
+
+.searchPushToDownstreamBtn
+{
+    font-weight:bold;
+    width:204px;    
+}
+
+.mainSearchPanelWrapper
+{
+    width:100%;
+    /*min-height:350px;*/
+    font-family:Lato;  
+}
+
+.mainSearchPanelWrapper input[type='submit'], .mainSearchPanelWrapper button
+{
+    cursor:pointer;    
+    font-family:Lato;
+}
+
+.searchPanelTop
+{
+    width:100%;
+    min-height:30px;    
+}
+
+.settingsDiv
+{
+    position:absolute;
+    z-index:99999;
+    background-color:#fff;
+    width:150px;
+    border:1px solid #CDCDCD;
+    box-shadow: #CDCDCD 2px 4px 5px;
+}
+
+.settingsDiv input[type='submit']
+{
+    text-align:left;
+    border-left:4px solid #FFF;
+    padding-left:10px;
+    background-color:#fff;
+}
+
+.settingsDiv input[type='submit']:hover
+{
+    border-left:4px solid #00BFF0;
+    background-color:#fff;
+    /*color:#A8A6A6;*/
+}
+
+.searchPanelBottom
+{
+    width:100%;
+    min-height:270px;
+}
+
+.searchPanelBottomLeft
+{
+    width:40%;
+    min-height:270px;    
+    display:inline-block;
+    vertical-align: top;
+    margin-left:30%;
+}
+
+.searchPanelBottomRight
+{
+    border-left:1px solid #CDCDCD;
+    width:54%;
+    min-height:270px;    
+    display:inline-block;   
+    vertical-align: top;
+    float:right;
+    margin-right:10px;
+}
+
+.searchBarDiv
+{
+    border:2px solid #A0A0A0;
+    height:34px;
+    width:92%;
+    border-radius:3px;
+    margin:2px 20px 20px 20px;
+}
+
+.searchBarSecurityTypeDropDown
+{
+    float:left;
+    height:40px;    
+    width:30%;
+}
+
+.searchBarSecurityTypeDropDown select
+{
+    height:34px;
+    width:100%;      
+    border:none;
+    outline:none;
+}
+
+.searchBarTexBox
+{
+    float:left;
+    height:40px;    
+    width:64%;
+}
+
+.searchBarTexBox input[type="text"]
+{
+    height:24px;    
+    width:320px;
+    border: none;
+    border-left:1px solid #CDCDCD;
+    outline: none;
+    padding:5px;
+    font-size:12px;
+    
+}
+
+.searchBarSearchIcon
+{
+    float:left;
+    height:34px;    
+    width:6%; 
+    background-color:#A0A0A0;  
+}
+
+.searchBarSearchIcon button
+{
+    background-color:transparent;  
+    border:none;
+    outline:none;
+    width: 30px;
+    height: 28px;
+    font-size: 10px;
+    padding-right: 2px;
+}
+
+.searchBarSearchIcon i:hover
+{
+    color:#fff;
+}
+
+.searchBarSearchIcon i
+{
+    font-size:2em;
+    color:#C9C9C9;
+}
+
+.searchFiltersDiv
+{
+    margin-left:3%;       
+}
+
+.searchFiltersExpandedDiv
+{
+    background-color:#fff;
+    z-index:10005;
+    position:absolute;
+}
+
+.dateBarDiv
+{
+    min-width:675px;
+}
+
+.selectedDateDiv
+{
+        
+}
+
+.divInput
+{
+    display:inline-block;
+    vertical-align:top;
+    border: 1px solid #F2F2F2;
+    border-radius: 2px;
+    width: 60%;
+    margin: 10px 0px 0px 146px;
+    padding: 2px 0px;
+    box-shadow: 0px 1px 6px 0px #D2D2D2; 
+}
+
+.divLabel
+{
+    background-color: #F2F2F2;
+    color: #818181;
+    font-size:12px;
+    padding:3px 10px;    
+    display:inline;
+}
+
+.divInputBox
+{
+    font-size:12px;
+    padding:0px 5px; 
+    display:inline;            
+}
+
+.divInputBox p
+{
+    display: inline;
+    color: #818181;    
+}
+
+.searchFilterDeleteBtn
+{
+    display:inline-block;
+    vertical-align:top;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-left: 10px;
+    cursor:pointer;
+    color:#CACACA;    
+}
+
+.searchFilterDeleteBtn:hover
+{
+    color:#575757;
+}
+
+.searchFilterEditBtn
+{
+    display:inline-block;
+    vertical-align:top;
+    font-size: 12px;
+    margin-top: 2px;
+    cursor:pointer;
+    color:#CACACA;
+    float:right;
+    margin-right:5px;    
+}
+
+.expanededDiv
+{
+    z-index:999;
+    border:1px solid #CDCDCD;
+    height:260px;
+    width:620px;  
+}
+
+.expandedDivLeft
+{
+    vertical-align:top;
+    display:inline-block;    
+    width:100px;
+}
+
+.expandedDivLeft ul
+{
+    padding:0px;    
+    width:100px;
+}
+
+.expandedDivLeft ul li input[type="submit"]
+{
+    text-align:left;
+    padding-left:20px;    
+    width:100px;
+    font-family:Lato;
+}
+
+.expandedDivLeft ul li input[type="submit"]:hover
+{
+    background-color:#EAEAEA;
+}
+
+.createdDivDateSelected
+{
+    background-color:#DDDDDD;        
+}
+
+.expandedDivCenter
+{
+    vertical-align:top;
+    /*margin-left:10px;*/
+    display:inline-block;    
+}
+
+.expandedDivRight
+{
+    vertical-align:top;
+    margin-left:120px;
+    display:inline-block;    
+}
+
+.disableFirstCalender
+{
+    z-index: 100001;
+    position: absolute;
+    height: 224px;
+    width: 240px;
+}
+
+.disableSecondCalender
+{
+    z-index: 100001;
+    position: absolute;
+    background-color: #fff;
+    height: 224px;
+    width: 256px;
+    opacity: 0.6;
+}
+
+.dateApplyBtnDiv
+{
+    position: relative;
+    top: 235px;
+    float: right;
+    right: 10px;
+}
+
+.hideDateInputBox
+{
+    background:none !important;
+    border:none !important;
+    color:#fff !important;
+    background-color: #FFF !important;
+    outline: none !important;
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;   
+}
+
+.searchButton
+{
+    float:right;
+    margin-right:25px;
+    margin-top:30px;
+}
+
+.SMSearchBtn
+{
+    height:30px !important;
+    width:90px !important;
+    font-size:14px !important;    
+}
+
+.searchPanelTopBtns
+{
+    float:right;
+    margin-top:2px;
+    width:55%;    
+}
+
+.searchPanelTopBtns button
+{
+    background-color:transparent;
+    border:none;
+    color: #A0A0A0;
+    outline:none;
+    margin-top:3px;
+}
+
+.searchSpecificDropDownDivStyle
+{
+    width:100%;
+}
+
+.searchSpecificSMSelectRunStyle
+{
+    width:100%;
+    border:none;
+    top:5px;    
+}
+
+.searchSpecificSMSelectConStyle
+{
+    width: 175px;
+    top: 34px;
+}
+
+.searchSpecificDropDownAnchorStyle
+{
+    color:#818181;
+    border:none;
+    font-family:Lato; 
+    display:inline-block;
+    min-width:111px;
+    width: 80%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;  
+}
+
+.searchSpecificDropDownIconStyle
+{
+    color:#818181;
+}
+
+.searchSpecificInputDivStyle
+{
+    margin-top:10px;    
+}
+
+.searchSpecificInputBoxStyle
+{
+    box-shadow:none; 
+    border-bottom:1px solid #CDCDCD;
+    margin: 0px 5px 10px 5px;
+    width: 90%;
+}
+
+.advSearchRightArrowSign
+{
+    display:none;
+    font-size:14px;
+    position: relative;
+    cursor:pointer;    
+}
+
+.advancedSearchAttributeSearchPanel
+{
+    height:40px;
+    width: 99%;
+    margin-left: 10px;
+    margin-top: 10px; 
+}
+
+.advancedSearchAttributeDropDown
+{
+    float:left;
+    width:25%;
+    margin-top:5px;
+    border:1px solid #E2E2E2;
+    margin-right:5px;
+    padding:4px 0px;
+}
+
+.advancedSearchAttributeDropDown a
+{
+    color: #818181;
+    width: 135px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;    
+}
+
+.advancedSearchAttributeDropDown select
+{
+    width:95%;
+    height:30px;    
+}
+
+.advancedSearchConditionDropDown
+{
+    float:left;
+    width:15%;
+    margin-top:5px;
+    border:1px solid #E2E2E2;
+    padding:4px 0px;    
+}
+
+.advancedSearchConditionDropDown a
+{
+    color:#818181;
+}
+
+.advancedSearchConditionDropDown select
+{
+    height:30px;
+    width:95%;
+}
+
+.advancedSearchConditionTextBox
+{
+    float: left;
+    width: 43%;
+    margin-top: 5px;
+    border: 1px solid #E2E2E2;
+    height: 23px;
+    padding:4px 0px;
+}
+
+.advancedSearchConditionTextBox input[type='text']
+{
+    height:18px;
+    border: none;
+    /*border-bottom: 1px solid #CDCDCD;*/
+    outline: none;
+    font-size:12px;
+    font-family:Lato;
+    margin:0px 5px;
+    width:112px;
+}
+
+.advancedSearchConditionTextBox input[type='radio']
+{
+    margin-top:9px;    
+}
+
+.advancedSearchAddIcon
+{
+    float: right;
+    margin: 1px 0px 0px 5px;
+    padding: 4px 0px;
+    padding-top: 2px;
+}
+
+.advancedSearchDelIcon
+{
+    float: left;
+	font-size: 12px;
+    padding: 7px 10px;
+    min-width: 3%;
+    /* border: 1px solid #E2E2E2; */
+    margin: 0px;
+}
+
+.advancedSearchAddIcon span
+{
+    top: -2px;
+    position: relative;
+    left: -7px;
+    font-size: 12px;
+    color:#38E4BC;    
+}
+
+.advancedSearchRemoveIcon
+{
+    float:right;    
+    margin:7px 5px 0px 5px;
+}
+
+.advancedSearchAndOrRadioBtns
+{
+    float: right;
+    width: 9%;
+    height: 21px;
+    margin-top: 1px;
+    padding: 4px 0px;
+    padding-top: 10px;
+}
+
+.advValueSeperator
+{
+    font-size: 12px;
+    font-family: Lato;
+    padding-top: 2px;
+    color: #A9A9A9;        
+}
+
+.advancedSearchAndOrRadioBtns input[type='radio']
+{
+    display:none;    
+}
+
+.advancedSearchAndOrRadioBtns table
+{
+    border:0px;    
+}
+
+.advancedSearchAndOrRadioBtns tr td:nth-child(1)
+{
+    background-color: #FFF;
+    color: #818181;   
+    padding: 1px 10px;
+    border-top-left-radius:2px;
+    border-bottom-left-radius:2px;
+    cursor:pointer;
+}
+
+/*.advancedSearchAndOrRadioBtns tr td:nth-child(1):hover
+{
+    background-color:#6384B0;    
+}*/
+
+.advancedSearchAndOrRadioBtns tr td:nth-child(2)
+{
+    background-color: #00BFF0;
+    color: #FFF;   
+    padding: 1px 10px;
+    border-top-right-radius:2px;
+    border-bottom-right-radius:2px;
+    cursor:pointer;
+}
+
+/*
+.advancedSearchAndOrRadioBtns tr td:nth-child(2):hover
+{
+    background-color:#C5C5C5;    
+}*/
+
+.advancedSearchAndOrRadioBtns label
+{
+    cursor:pointer;    
+}
+
+.advencedSearchAttributeConditionDiv
+{
+    min-height:30px;
+    /*border: 1px solid #E2E2E2;*/
+    margin-left: 10px;
+}
+
+.advancedSearchAttributeName
+{
+    float: left;
+    font-size: 12px;
+    padding: 7px 10px;
+    width: 18%;
+    /*border: 1px solid #E2E2E2;*/
+    font-weight: bold;
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.advancedSearchCondition
+{
+    float: left;
+    font-size: 12px;
+    padding: 7px 10px;
+    min-width: 17%;
+    /*border: 1px solid #E2E2E2;*/
+    margin: 0px;
+}
+
+.advancedSearchValue
+{
+    float: left;
+    font-size: 12px;
+    padding: 7px 10px;
+    min-width: 34%;
+    /*border: 1px solid #E2E2E2;*/
+    margin: 0px;
+}
+
+.advancedSearchDeleteConditionImage
+{
+    font-size:18px;
+    margin-top:4px;
+    color:#CACACA;    
+}
+
+.advancedSearchDeleteConditionImage:hover
+{
+    color:#575757;
+}
+
+.advancedSearchAndOr
+{
+    color: #FFF;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: #00BFF0;
+    width: 22px;
+    padding: 0px 5px;
+    border-radius: 2px;
+    text-align:center;
+    font-size:10px;
+}
+
+.advSearchScrollDownDiv
+{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.advSearchScrollDownDiv span
+{
+    cursor: pointer;        
+}
+
+.searchPopupCancelBtn
+{
+    background-color:transparent;
+    border:none;
+    color:#CDCDCD;
+    font-weight:bold;
+    font-family:Lato;
+    outline:none;    
+}
+
+.searchPopupCancelBtn:hover
+{
+    color:#868686;
+}
+
+.searchConfigRow table
+{
+    margin:5px 0px;    
+}
+
+.searchConfigRow td
+{
+    /*padding:0px 0px 0px 5px;*/
+}
+
+.searchConfigHeaders
+{
+    font-weight:bold;
+    color:#454545!important;
+    padding:10px 0px 0px 16px !important;    
+}
+
+.searchConfigCell
+{
+    padding-top: 5px;    
+}
+
+/*------------------------------Drop Down Styling-----------------------------------*/
+.advSearchConditionDropDownSelectRunDiv
+{
+    width: 130px;
+    border:none;
+    font-family: Lato;   
+}
+
+.advSearchConditionDropDownArrowIcon
+{
+     color: #818181;    
+}
+
+.advSearchConditionDropDownSMSelectConDiv
+{
+    width: 128px;
+    border-top: 1px solid #F0F0F0;    
+    font-family: Lato;    
+}
+
+.DropDownSelectRunDiv
+{
+    width: 210px;
+    border:none;
+    font-family: Lato;
+}
+
+.DropDownArrowIcon
+{
+    color: #818181;
+}
+
+.DropDownSMSelectConDiv
+{
+    width: 213px;
+    border-top: 1px solid #F0F0F0;    
+    font-family: Lato;
+}
+
+.searchSpecificDropDownPosition
+{
+    margin-top:5px;    
+}
+
+
+.advancedSearchConditionTextBox #ui-id-1
+{
+    max-height: 200px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    /* add padding to account for vertical scrollbar */
+    padding-right: 20px;
+    width:280px !important;
+}
+
+.advancedSearchConditionTextBox #ui-id-1 .ui-menu-item a
+{   
+    border:0px;
+    border-left:4px solid #fff;
+    color: #000;
+    background:none;
+    background-color:#fff;
+    font-family:Lato;
+    border-radius:0px;  
+}
+
+.advancedSearchConditionTextBox #ui-id-1 .ui-menu-item a:hover
+{
+    border:0px;
+    border-left:4px solid #00BFF0;
+    color:#BBC6C6;
+    background:none;
+    background-color:#fff;    
+}
+
+#smselect_lstUsers
+{
+    width:173px;    
+}
+
+.savedSearchDropDownDiv
+{
+    position: absolute;
+    width: 230px;
+    z-index:10001;
+    background-color:#fff;    
+    border:1px solid #CACACA;
+    font-family:Lato;
+    font-size:13px;
+    box-shadow: #CDCDCD 2px 4px 5px;
+}
+
+.savedSearchDropDownDiv ul
+{
+    padding:0px;
+    margin:0px;    
+}
+
+.savedSearchDropDownDiv ul li
+{
+    padding:10px 0px;
+    border-left:5px solid #FFF;    
+    padding-left:5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 220px;
+    display: inline-block;   
+}
+
+.savedSearchDropDownDiv ul li span
+{
+    display: inline-block;        
+    vertical-align: top;
+}
+
+.savedSearchDropDownDiv ul li i:hover {
+    color:#575757;
+}
+
+.savedSearchDropDownDiv ul li:hover
+{
+    border-left:5px solid #00BFF0;
+    /*color:#CACACA;*/
+}
+
+.savedSearchDropDownDiv ul li i
+{
+    float:right;
+    font-size:16px;
+    cursor:pointer;
+    color:#CACACA;
+    padding:0px 5px;
+}
+
+.savedSearchList
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 170px;
+    margin-right:20px;
+}
+
+.savedSearchDiv
+{
+    height:20px;
+}
+
+.savedSearchArrow
+{
+    float: right;
+    margin-right: 30px;
+    margin-top: 6px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.savedSearchDiv input
+{
+    float:right;
+    font-size:14px;       
+}
+
+.searchRunningText
+{
+    margin: 0px 10px;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 75%;        
+}
+
+.runningMore
+{
+    color:#00BFF0;    
+}
+
+.saveSearchPopupLabel
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 110px;
+    padding-top: 5px; 
+}
+
+.savesearchPopupText
+{
+    display: inline-block;
+    vertical-align: top;
+    height: 22px !important;
+    padding-left:10px !important;
+    outline:none;
+}
+
+.savePopupBtn
+{
+    height:30px !important;
+    width:50px !important; 
+    font-size:14px !important;   
+}
+
+.cloneSecurityPopup
+{
+    background-color:#fff;
+    color:#000;        
+    height:300px;
+    font-size:12px;
+    font-family:Lato;
+    padding:10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border: 1px solid #CDCDCD;
+}
+
+.cloneSecurityPopup table th
+{
+    text-align:center;    
+}
+
+.cloneSecurityIdAndKey
+{
+    height:30px;
+}
+
+/*.cloneExistingSecName
+{
+    height:30px;    
+}*/
+
+.cloneSecurityChangeSectypeOption
+{
+    height:20px;    
+}
+
+.cloneSecuritySelectSectypeDropdown
+{
+    height:36px;    
+}
+
+.cloneSecurityBtns
+{
+    height:20px;    
+}
+
+.cloneSecurityOptions
+{
+    height:30px;
+    padding-left: 9px;    
+}
+
+.inlineLayout
+{
+    display:inline-block !important;
+	vertical-align: top;
+}
+
+.cloneMultiDiv
+{
+    height: 180px;
+    padding:0px 10px 10px 0px;   
+}
+
+.cloneSingleDiv {
+    height: 48px;
+    padding: 0px 10px 10px 0px;
+}
+
+.cloneMultipleTableHead
+{
+    background-color:#F3F3F3;
+}
+
+.popUpHeader
+{
+    font-family: Lato;
+    font-size: 16px;
+    color: #B3B3B3;
+    /*border-bottom: 1px solid #999;*/
+    padding-bottom: 7px;
+}
+
+.popUpCancel
+{
+    float:right;
+    margin-right:10px;    
+}
+
+.cloneGridHeader
+{
+    font-size:12px !important;
+    font-family: Lato !important;
+    font-weight: bold !important;
+    color:#525252 !important;    
+}
+
+.xlheader > .horizontalAlign
+{
+    padding-left:6px;
+}
+
+.Row > .horizontalAlign
+{
+    padding-left:10px;    
+}
+
+.labelAlign
+{
+    position: relative;
+    top: -3px;    
+}
+
+.horizontalAlign
+{
+    display: inline-block;
+    vertical-align: top; 
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;   
+}
+
+.gridCol1
+{
+    /*width:130px;    */
+    width:13%;
+}
+
+.gridCol2
+{
+    /*width:230px;*/
+    width:19%;
+}
+
+.gridCol3
+{
+    width:175px;
+	position:relative;
+	top:-8px;
+    /*width:14%;    */
+}
+
+.gridCol4 
+{
+    /*width:120px;*/
+    width:10%;
+}
+
+.gridCol5 
+{
+    /*width:130px;*/
+    width:12%;
+}
+
+.gridCol6 {
+    /*width:330px;*/
+    width:26%;
+}
+
+.statusLink
+{
+    color:#00BFF0;
+    text-decoration: underline;    
+}
+
+.cloneStatusMsg
+{
+    width: 300px;
+    min-height:30px;
+    background-color: #FFF;
+    color: #5E5E70;
+    z-index: 1000000000;
+    position: absolute;
+    font-size: 10px;
+    font-family: Lato;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    padding:5px;
+}
+
+.cloneGridHeader
+{
+   color: #8A8787;
+    border-left: 1px solid #FFF;
+    border-right: 1px dashed #E7E7E7;
+    border-top: 0px;
+    border-bottom: 1px solid #E0E0E0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+    font-size: 11px;
+    font-family: 'Istok Web', sans-serif;
+    font-weight:bold;
+}
+
+.moreSectypeCss
+{
+    position: absolute;
+    z-index: 1000000;
+    box-shadow: #CDCDCD 2px 4px 5px;
+    border: 1px solid #CDCDCD;
+    text-align: :left;
+    width:130px;
+    background-color:#fff;
+}
+
+.moreSectypeCss div
+{
+    width:120px;
+    overflow: hidden;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    color: grey;
+    text-align: left;
+    height: 20px;
+    padding: 3px 0px;
+    padding-left: 5px;
+}
+
+.runningTextDivStyle
+{
+    width:100%;
+    position:relative;
+	top:0px;
+	height:27px;
+	background-color:#fff;
+	color:#575757;
+	box-shadow: #CACACA 0px 10px 6px -6px;
+	z-index: 10000;
+	font-family:Lato;
+	font-weight:normal;
+	font-size:13px;    
+	cursor:pointer;
+}
+
+.runningTextDivStyle p
+{
+    padding-top: 4px;
+    padding-left: 20px;
+    margin:0px;    
+}
+
+/*------------------------------End Drop Down Styling--------------------------------*/
+@media screen and (max-width: 1440px) {
+    .DropDownSelectRunDiv
+    {
+        width:150px;    
+    }
+    
+    .divInput
+    {
+        margin-left:108px;    
+    }
+    
+    .searchPushToDownstreamBtn
+    {
+        width:171px;    
+    }
+    
+    .searchModifiedBtn
+    {
+        width:110px;
+        margin-right:5px;    
+    }
+    
+    .searchCreatedBtn
+    {
+        width:110px;
+        margin-right:5px;    
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    
+    .searchButton
+    {
+        margin-right:18px;
+    }
+
+    .searchPanelBottomLeft
+    {
+        width:40%;
+    }
+
+    .searchPanelBottomRight
+    {
+        width:55%;
+    }
+    
+    .searchBarSearchIcon button
+    {
+        padding-right:0px;
+        margin-left:0px;    
+    }
+    
+    .divInput
+    {
+        margin-left:80px;    
+    }
+    
+    .DropDownArrowIcon
+    {
+        margin-left:0px;    
+    }
+    
+    .DropDownSMSelectConDiv
+    {
+        max-width:181px;    
+    }
+    
+    .advancedSearchAddIcon
+    {
+        marign-left:10px;    
+    }
+    
+    .searchPanelTopBtns
+    {
+        width:56%;
+    }
+    
+    .searchCreatedBtn
+    {
+        width:80px;
+        margin-right:10px;         
+    }
+
+    .searchModifiedBtn
+    {     
+        width:80px;
+        margin-right:10px;    
+    }
+
+    .searchPushToDownstreamBtn
+    {
+        font-weight:bold;
+        width:195px;    
+    }
+    
+    .DropDownSelectRunDiv
+    {
+        width:182px;    
+    }
+    
+    .advSearchConditionDropDownSelectRunDiv
+	{
+        width:110px;    
+    }
+    
+    .advSearchConditionDropDownSelectRunDiv .smselectanchorcontainer2
+    {
+        width:86%;    
+    }
+    
+    .gridCol6 {
+        width:24%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .searchPanelBottomLeft
+    {
+        width:40%;
+    }
+
+    .searchPanelBottomRight
+    {
+        width:55%;
+    }
+    
+    .searchBarSearchIcon i
+    {
+        margin-left:25%;    
+    }
+    
+    .divInput
+    {
+        margin-left:92px;    
+    }
+    
+    .DropDownArrowIcon
+    {
+        margin-left:0px;    
+    }
+    
+    .DropDownSMSelectConDiv
+    {
+        width:170px;    
+    }
+    
+    .advancedSearchAddIcon
+    {
+        marign-left:10px;    
+    }
+    
+    .searchPanelTopBtns
+    {
+        width:56%;
+    }
+    
+    .searchCreatedBtn
+    {
+        width:80px;
+        margin-right:2px;         
+    }
+
+    .searchModifiedBtn
+    {     
+        width:80px;
+        margin-right:2px;    
+    }
+
+    .searchPushToDownstreamBtn
+    {
+        font-weight:bold;
+        width:193px;    
+    }
+    
+    .divInput
+    {
+        margin-left:50px;    
+    }
+    
+    .searchBarSearchIcon button
+    {
+        width:10px;    
+    }
+    
+    .DropDownSelectRunDiv
+    {
+        width:172px;    
+    }
+    
+     .advSearchConditionDropDownSelectRunDiv
+    {
+        width:104px;    
+    }
+    
+    .advSearchConditionDropDownSMSelectConDiv
+    {
+        width:102px;    
+    }
+    
+    .gridCol6
+    {
+        width:22%;    
+    }
+}
+
+/*------------------------------------------------End Search Security UI---------------------------------------*/

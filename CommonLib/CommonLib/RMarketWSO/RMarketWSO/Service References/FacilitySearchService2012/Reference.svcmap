@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="740a9379-c0e8-46db-b4ab-a912fe977ae3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://datadownload.wsostage.com/LoanReferenceData/2012/07/FacilitySearch.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FacilitySearch1.wsdl" MetadataType="Wsdl" ID="190cf2ac-d88b-4c01-b78a-450ebfcd51a8" SourceId="1" SourceUrl="https://datadownload.wsostage.com/LoanReferenceData/2012/07/FacilitySearch.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="FacilitySearch3.xsd" MetadataType="Schema" ID="bc6dde64-f7c0-4aff-9745-d86716d1227a" SourceId="1" SourceUrl="https://datadownload.wsostage.com/LoanReferenceData/2012/07/FacilitySearch.svc?xsd=xsd1" />
+    <MetadataFile FileName="FacilitySearch31.xsd" MetadataType="Schema" ID="efeb7b00-4208-449d-bb50-ca2a052fcb28" SourceId="1" SourceUrl="https://datadownload.wsostage.com/LoanReferenceData/2012/07/FacilitySearch.svc?xsd=xsd2" />
+    <MetadataFile FileName="WidgetService2.wsdl" MetadataType="Wsdl" ID="92f1e574-65c9-42c5-8800-582794a65589" SourceId="1" SourceUrl="https://datadownload.wsostage.com/LoanReferenceData/2012/07/FacilitySearch.svc?wsdl" />
+    <MetadataFile FileName="WidgetService21.wsdl" MetadataType="Wsdl" ID="0a680f24-a81a-4174-8fc4-4d0d24c6a10d" SourceId="1" SourceUrl="https://datadownload.wsostage.com/LoanReferenceData/2012/07/FacilitySearch.svc" />
+    <MetadataFile FileName="FacilitySearch32.xsd" MetadataType="Schema" ID="30337df4-a689-4d5b-b68c-cf2a9e6fbb08" SourceId="1" SourceUrl="https://datadownload.wsostage.com/LoanReferenceData/2012/07/FacilitySearch.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

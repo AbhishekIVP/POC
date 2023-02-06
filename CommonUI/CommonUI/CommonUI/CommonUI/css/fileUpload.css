@@ -1,0 +1,80 @@
+﻿.fucontainerDiv
+{
+	background-color:#fcfcfc;
+	border-color:Gray;
+	border:1px dashed;
+	display:none;
+	/*max-height:50px;*/
+	overflow:auto;
+}
+.fuattachmentDiv div
+{
+	overflow:hidden;
+	max-width:150px;
+	white-space:nowrap;
+    text-overflow:ellipsis;
+    display:block;
+    float:left;
+    font: bold 13px arial;
+	color:#15c;
+    color: #333;
+    padding:3px 0 0 5px;
+}
+
+.fuattachmentDiv
+{
+	background-color:#f3f3f3;
+	/*height:25px;*/
+	display : inline-block;
+	margin:5px 0
+}
+.furemoveAttachment
+{
+	float:right;
+	height:20px;
+	width:20px;
+	background:url(images/cross.png) no-repeat;
+	background-position:center;
+}
+.ui-progressbar
+{
+    width: 150px;
+    padding: 0px !important;
+    height: 1em;
+    margin:5px 0 0 15px;
+}
+.ui-progressbar .ui-progressbar-value
+{
+    background-image: url(images/image.gif);
+    margin: 0 !important;
+    background-color: transparent;
+    height:80%;
+}
+
+.ui-widget-content
+{
+	border:0px !important;
+}
+
+.fudropWindowDiv
+{
+	/*position:absolute;*/
+	height:50px;
+	background-color:White;
+	z-index:20;
+	border:1px solid #ccc;
+	vertical-align:middle;
+	text-align:center;
+	padding:15px 0 0 0;
+}
+
+.attachmentButton
+{
+	background:url(images/browse.png) no-repeat;
+	height:21px;
+}
+
+.fuerrorMessage
+{
+	color:#aa3388;
+}

@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{26796EEA-22E2-442E-A373-CFE9F0C457EC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CommonService</RootNamespace>
+    <AssemblyName>CommonService</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommonDAL">
+      <HintPath>..\..\..\..\..\RefDlls\CommonDlls\CommonDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Administration, Version=7.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.Web.Administration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Management, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.Web.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ObjectTable, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="OverridesController">
+      <HintPath>..\..\..\..\..\RefDlls\CommonDlls\OverridesController.dll</HintPath>
+    </Reference>
+    <Reference Include="RAbstractLicenseManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RAbstractLicenseManager.dll</HintPath>
+    </Reference>
+    <Reference Include="RADNeoGrid">
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RADNeoGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="RADXRuleEditor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RADXRuleEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="RBusinessCalendar, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RBusinessCalendar.dll</HintPath>
+    </Reference>
+    <Reference Include="RConfigManager">
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RConfigManager.dll</HintPath>
+    </Reference>
+    <Reference Include="RConfigurationManagement, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RConfigurationManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="RCryptography, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RCryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="RCultureManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\refdlls\RAD Assemblies\RCultureManager.dll</HintPath>
+    </Reference>
+    <Reference Include="RDAL">
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="RefMCommon">
+      <HintPath>..\..\..\..\..\RefDlls\RefMaster\RefMCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="RGridWriterToolKit">
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RGridWriterToolKit.dll</HintPath>
+    </Reference>
+    <Reference Include="RLoggerException, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RLoggerException.dll</HintPath>
+    </Reference>
+    <Reference Include="RMController, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\CommonDlls\RMController.dll</HintPath>
+    </Reference>
+    <Reference Include="RUserManagement, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RUserManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="RUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\RUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="RViewManagement, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\refdlls\RAD Assemblies\RViewManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="SMController, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\CommonDlls\SMController.dll</HintPath>
+    </Reference>
+    <Reference Include="SRMCommonModules">
+      <HintPath>..\..\..\..\..\RefDlls\CommonDlls\SRMCommonModules.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activation" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UserAnalytics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RefDlls\RAD Assemblies\UserAnalytics.dll</HintPath>
+    </Reference>
+    <Reference Include="WorkflowController">
+      <HintPath>..\..\..\..\..\RefDlls\CommonDlls\WorkflowController.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonService.cs" />
+    <Compile Include="DBUtilityService.cs" />
+    <Compile Include="ICommonService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestUtlity.cs" />
+    <Compile Include="RuleCatalogController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuantController\SRMQuantController.csproj">
+      <Project>{F98D9233-45AB-42F9-8600-5530BB2F4179}</Project>
+      <Name>SRMQuantController</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SRMCommon\SRMCommon.csproj">
+      <Project>{017904ED-B0CA-4DE6-AC85-68883EC37778}</Project>
+      <Name>SRMCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SRMDownstreamController\SRMDownstreamController.csproj">
+      <Project>{6D76C9FE-037F-4C2C-88B1-D4307ECE8317}</Project>
+      <Name>SRMDownstreamController</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SRMMigration\SRMMigration.csproj">
+      <Project>{4fc07add-efb6-4828-89fe-a3aa3bec3867}</Project>
+      <Name>SRMMigration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SRMModeler\SRMModelerController.csproj">
+      <Project>{7615468B-2B61-420F-888B-34B19E40CF5E}</Project>
+      <Name>SRMModelerController</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(TargetPath)" "$(ProjectDir)..\..\..\..\..\RefDLLs\CommonDlls\"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

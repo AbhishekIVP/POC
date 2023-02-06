@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Services>
+  <Service Name="RCTMService.exe" ServiceName="IVPSRMTaskManagerServiceDemo8.0" DisplayName="IVPSRMTaskManagerServiceDemo8.0" />
+  <Service Name="SecMasterDataUploadManager.exe" ServiceName="IVPSRMDataUploadManagerServiceDemo8.0" DisplayName="IVPSRMDataUploadManagerServiceDemo8.0" />
+  <Service Name="SecMasterNodeService.exe" ServiceName="IVPSRMNodeServiceDemo8.0" DisplayName="IVPSRMNodeServiceDemo8.0" />
+  <Service Name="SecMasterPollingService.exe" ServiceName="IVPSRMPollingServiceDemo8.0" DisplayName="IVPSRMPollingServiceDemo8.0" />
+  <Service Name="SecMasterService.exe" ServiceName="IVPSRMSecMasterServiceDemo8.0" DisplayName="IVPSRMSecMasterServiceDemo8.0" CommandLineArguments="ctmservicename|@|IVPSRMTaskManagerServiceDemo8.0" />
+  <Service Name="SRMBBGFTPService.exe" ServiceName="IVPSRMBBGFTPServiceDemo8.0" DisplayName="IVPSRMBBGFTPServiceDemo8.0" />
+</Services>

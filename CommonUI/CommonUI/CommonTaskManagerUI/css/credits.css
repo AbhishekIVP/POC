@@ -1,0 +1,89 @@
+﻿.wrap {
+	-webkit-perspective: 800px;
+	-webkit-perspective-origin: 50% 100px;
+	perspective: 800px;
+	perspective-origin: 50% 100px;
+}
+.cube {
+	position: relative;
+	width: 200px;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+.cube div {
+	border: 1px solid rgb(153, 153, 153);
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	display:none;
+	
+color: white;
+text-shadow: 1px 0px 1px black;
+text-align: center;
+box-shadow: 0px 0px 35px rgb(255, 255, 255) inset, 0px 0px 40px rgb(255, 255, 255);
+-webkit-animation:glow 3s infinite linear;
+animation:glow 3s infinite linear;
+	
+}
+.back {
+	-webkit-transform: translateZ(-100px) rotateY(180deg);
+	transform: translateZ(-100px) rotateY(180deg);
+	background-image: url(../images/ut.jpg);
+background-repeat: no-repeat;
+background-position: 40%;background-color: rgba(70, 152, 216, 0.71);
+}
+.right {
+	-webkit-transform: rotateY(-270deg) translateX(100px);
+	-webkit-transform-origin: top right;
+	transform: rotateY(-270deg) translateX(100px);
+	transform-origin: top right;
+	background-image: url(../images/ra.jpg);
+background-repeat: no-repeat;
+background-position: 40%;background-color: rgba(152, 75, 236, 0.7);
+}
+.left {
+	-webkit-transform: rotateY(270deg) translateX(-100px);
+	-webkit-transform-origin: center left;
+	transform: rotateY(270deg) translateX(-100px);
+	transform-origin: center left;
+	background-image: url(../images/raut.jpg);
+background-repeat: no-repeat;
+background-position: 40%;background-color: rgba(68, 216, 163, 0.82);
+}
+.top {
+	-webkit-transform: rotateX(-90deg) translateY(-100px);
+	-webkit-transform-origin: top center;
+	transform: rotateX(-90deg) translateY(-100px);
+	transform-origin: top center;
+	background-image:url(http://www.indusvalleypartners.com/images/client-r.png);
+}
+.bottom {
+	-webkit-transform: rotateX(90deg) translateY(100px);
+	-webkit-transform-origin: bottom center;
+	transform: rotateX(90deg) translateY(100px);
+	transform-origin: bottom center;
+	background-image:url(http://www.indusvalleypartners.com/images/client-r.png);
+}
+.front {
+	-webkit-transform: translateZ(100px);
+	transform: translateZ(100px);
+	background-image: url(http://media.glassdoor.com/sqls/225068/indus-valley-partners-squarelogo.png);
+background-repeat: no-repeat;
+background-size: 100%;
+opacity: .8;
+}
+@-webkit-keyframes spin {
+	from { -webkit-transform: rotateY(0);transform: rotateY(0); }
+	to { -webkit-transform: rotateY(-360deg);transform: rotateY(-360deg); }
+}
+
+.cube {
+	-webkit-animation: spin 5s infinite linear;animation: spin 5s infinite linear;
+}
+
+@-webkit-keyframes glow
+{
+0% {box-shadow:0px 0px 0px white;}
+50% {box-shadow:0px 0px 80px rgb(255, 255, 255)}
+100% {box-shadow:0px 0px 0px white;}
+}

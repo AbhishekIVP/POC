@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <!-- <authentication>com.ivp.rad.RUserManagement.RDefaultAuthentication</authentication> -->
+  <authentication>com.ivp.rad.RUserManagement.RLDAPAuthentication</authentication>
+  <authorization>com.ivp.rad.RUserManagement.RDefaultAuthorization</authorization>
+  <userdetails>com.ivp.rad.RUserManagement.RDefaultUserDetails</userdetails>
+  <domainname>ivp.co.in</domainname>
+  <ldapusername>fdg</ldapusername>
+  <ldapuserpassword>568@partners</ldapuserpassword>
+</settings>

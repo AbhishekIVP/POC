@@ -1,0 +1,397 @@
+﻿.dataTable {
+    border: none;
+}
+
+table.dataTable thead th:first-child {
+    padding: 0px;
+}
+
+#wrapperDiv {
+    padding: 15px 0px 0px 15px;
+}
+
+#tasks td {
+    padding: 0px;
+}
+
+table.dataTable thead th {
+}
+
+#child td div {
+    padding: 0px 0px 0px 22px;
+    margin: 2px 0px;
+}
+
+#child td:nth-child(2) div {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-left: 0px !important;
+}
+
+#child td:last-child div {
+    text-align: center;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+#child td {
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+#child tr:first-child td {
+}
+
+#child tr:last-child td {
+    border-bottom: none;
+}
+
+#child {
+    background: white;
+    box-shadow: rgba(101, 101, 101, 0.18) 0px 4px 4px 0px;
+    border-bottom: 1px solid rgb(209, 209, 209) !important;
+}
+
+#tasks > tbody > tr > td:nth-child(2) > div {
+    padding-left: 12px;
+}
+
+#tasks > tbody > tr > td > div {
+    padding: 6px 6px 6px 22px;
+    margin: 1px 0px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    border-top: 1px solid rgb(235, 235, 235);
+    background: white;
+    cursor: pointer;
+    min-height: 15px;
+}
+
+#tasks > tbody > tr > td:nth-child(5) > div {
+}
+
+#tasks > tbody > tr > td:nth-child(6) > div {
+    padding: 0px;
+    text-align: center;
+}
+
+#tasks > tbody > tr > td:first-child > div {
+    padding: 5px 0px 4px;
+    margin: 0px;
+    border-radius: 2px 0px 0px 2px;
+}
+
+#child td:first-child div {
+    padding: 4px 0px 5px;
+    display: none;
+}
+
+#child td:first-child {
+    border-left: 1px solid rgb(209, 209, 209) !important;
+}
+
+#tasks > tbody > tr > td:nth-child(1) > div, #tasks > tbody > tr > td:nth-child(2) > div {
+    background: rgb(248, 248, 248);
+}
+
+#child td:nth-child(1) {
+    border-bottom: none;
+}
+
+#child td:nth-child(1), #child td:nth-child(2), #child th:nth-child(1), #child th:nth-child(2) {
+    background: rgb(248, 248, 248);
+    overflow: hidden;
+}
+
+#child th:nth-child(2) {
+    padding: 3px 0px;
+    display: none;
+}
+
+.shown .inProgressContainer {
+    margin: 0;
+}
+
+.shown td > div {
+    margin-bottom: 0px !important;
+    box-shadow: rgba(101, 101, 101, 0.18) 6px 2px 6px 1px !important;
+    margin-top: 5px !important;
+    border-top: 1px solid rgb(209, 209, 209) !important;
+}
+
+.shown td:first-child div {
+}
+
+.shown + tr {
+    background: white !important;
+}
+
+table.dataTable.display tbody tr {
+    background: transparent !important;
+}
+
+table.dataTable.no-footer {
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.dataTables_filter {
+    padding-right: 24px;
+    display: none;
+}
+
+#tasks {
+    display: none;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td {
+    border-top: 0px solid rgb(221, 221, 221);
+    text-align: left;
+}
+
+.sorting_1 {
+    background-color: transparent !important;
+}
+
+.dataTables_wrapper {
+    width: 100%;
+    display: inline-block;
+}
+
+#wrapperDiv {
+    text-align: left;
+}
+
+table.dataTable thead th, table.dataTable thead th:nth-child(2) {
+    padding-left: 12px;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    padding: 0px 0px 7px 22px;
+}
+
+.details-control.sorting_disabled {
+    padding: 10px 18px;
+}
+
+td.status-control {
+    margin: 0px;
+    padding: 0px !important;
+    text-align: center !important;
+}
+
+    td.status-control i {
+        padding: 3px;
+        color: white;
+        width: 12px;
+    }
+
+tr.shown + tr > td {
+    padding: 0px !important;
+}
+
+.dataTables_scrollHead th {
+    border-width: 0px !important;
+}
+
+.dataTables_scrollBody {
+    border-bottom: 1px solid rgb(235, 235, 235) !important;
+}
+
+.info_icon {
+    margin: 3px 3px 3px 20px;
+    background: rgba(205, 220, 255, 0.65);
+    border-radius: 16px;
+    cursor: pointer;
+    width: 3px !important;
+    height: 2px !important;
+    padding: 6px 10px 14px !important;
+    text-align: center !important;
+}
+
+.dataTables_empty {
+    font-size: 16px;
+    text-align: center !important;
+    padding: 25px !important;
+}
+
+.dataTables_scrollHead th {
+    font-size: 13px;
+    color: rgb(114, 115, 123);
+    font-weight: 500 !important;
+}
+
+#search_filter {
+    text-align: right;
+}
+
+#tasks th, #tasks td {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(114, 115, 123);
+}
+
+.shown td:first-child > div {
+    border-left: 1px solid rgb(209, 209, 209) !important;
+}
+
+#child, #child thead, #child thead th {
+    border: none;
+}
+
+    #child td {
+    }
+
+.report_message div {
+    padding: 5px;
+}
+
+.dataTables_scrollBody {
+    border: none !important;
+}
+
+.dataTables_info {
+    display: none;
+}
+
+#tasks td .info_icon {
+    margin: 3px 0px 2px;
+    padding: 6px 10px 14px 9px !important;
+}
+
+#tasks tr.shown + tr > td {
+    padding: 0px 0px 10px !important;
+}
+
+#dialogContainer {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 5000;
+    display: none;
+    background: rgba(86, 86, 86, 0.28);
+}
+
+#dialog {
+    position: absolute;
+    /* height: 55%; */
+    min-height: 40%;
+    max-height: 80%;
+    bottom: 0px;
+    z-index: 5000;
+    background-color: rgb(96, 109, 125);
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: rgba(77, 77, 77, 0.34) 0px -3px 3px 1px;
+}
+
+.dialog-top {
+    text-align: right;
+    float: right;
+}
+
+#closeMessage, #exportMessage {
+    text-align: right;
+    display: inline-block;
+}
+
+    #exportTasks i, #closeMessage i, #exportMessage i {
+        padding: 10px;
+        cursor: pointer;
+    }
+
+#report_message {
+    padding: 20px;
+    font-size: 13px;
+    white-space: pre-wrap;
+    overflow-y: auto;
+    max-height: 70vh;
+}
+
+.msg_span {
+    color: rgb(205, 205, 205);
+}
+
+.message-title {
+    float: left;
+    padding: 10px 20px;
+    font-size: 17px;
+}
+
+div {
+    font-family: lato;
+}
+
+#SetupStatusSearch {
+    position: absolute;
+    padding: 3px 5px;
+    width: 45%;
+    margin: 1px 45px;
+    border-bottom: 1px solid rgb(162, 162, 162);
+}
+
+    #SetupStatusSearch input {
+        border: none;
+        background: none;
+        height: 24px;
+        padding-left: 10px;
+        width: 90%;
+    }
+
+table.dataTable thead .sorting_asc {
+    background-image: url("images/icons/sort_asc.png");
+}
+
+table.dataTable thead .sorting_desc {
+    background-image: url("images/icons/sort_desc.png");
+}
+
+.passedText {
+    color: rgb(83, 158, 123);
+}
+
+.failedText {
+    color: rgb(174, 112, 109);
+}
+.inProgressContainer {
+    background: #4682da;
+    height: 14px;
+    width: 14px;
+    padding: 2px;
+}
+
+    .inProgressContainer > div {
+        background: url('../images/icons/inprogress.png');
+        height: 14px;
+        width: 14px;
+        background-size: 14px 14px;
+        background-repeat: no-repeat;
+    }
+
+.inProgressText {
+    color: rgb(20, 98, 213);
+}
+
+.queuedText {
+    color: rgb(87,99,248);
+}
+.notProcessedText {
+    color: rgb(114, 115, 123);
+}
+.loaderText {
+    color: rgb(213 158 36);
+}
+.queuedContainer {
+    background: rgb(87,99,248);
+}
+.setup-caret {
+    padding-left: 8px;
+}
+
+.noReportsDrillDown {
+    text-align: center;
+    font-size: 13px;
+}
+.dts_label {
+    display: none !important;
+}

@@ -1,0 +1,2620 @@
+/*Start Modified*/
+/* sddm.css */
+/* Changes(Modified) Start By Atul */
+.accordionHead
+{
+    font-family: Lato;
+    font-size: 12px;
+    padding: 3px 0px 3px 10px;
+    color: #8f8b8b;
+    height: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #f0f0f0;
+    border-top: 1px solid #f0f0f0;
+}
+.modalBackground {
+	background-color:#fff;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+	top:0px;
+	left:0px;
+	position:absolute;
+	vertical-align:top;
+}
+/* Changes(Modified) End By Atul */
+/* sddm.css */
+
+/* Changes(Modified) Start By Atul */
+/* SMAdditionalGrid.css */
+.upperHeader
+{
+    border-top-width:0px;
+    border-left-width:0px;
+    border-right-width:0px;
+}
+/* Changes(Modified) End By Atul */
+/* SMAdditionalGrid.css */
+
+/* Changes(Modified) Start By Atul */
+/* SMSelect.css */
+.headPanel .smselect
+{
+    top:3px;
+}
+.headPanel .smselectanchorrun
+{
+    font-size: 14px !important;    
+    font-family: lato !important;
+}
+.headPanel .smselectimage
+{
+    font-size: 14px !important;
+}
+.headPanel .smselectanchorrun
+{
+    margin-right:5px;
+}
+
+.RMpanelCells .smselect
+{
+    width:100%;
+}
+
+.RMNewFormCell .smselectanchorrun
+{
+    font-size: 14px !important;
+    margin-right: 5px;
+}
+/* SMSelect.css */
+/* Changes(Modified) End By Atul */
+
+/*tabs.css */
+/* Changes(Modified) Start By Atul */
+
+.ajax__tab_header .ajax__tab_active .ajax__tab_outer .ajax__tab_inner .ajax__tab_tab{
+	border-bottom: 2px solid #00bcef !important;
+}
+
+.ajax__tab_xp .ajax__tab_header {
+  vertical-align: bottom;
+  padding-bottom: 0px !important;
+}
+
+/*.tabWithoutDiv .ajax__tab_active .ajax__tab_outer .ajax__tab_inner .ajax__tab_tab
+{
+    border-bottom: 2px solid #00bcef !important;
+}*/
+
+.ajax__tab_tab {
+  height: 24px !important;
+  line-height: 31px;
+  margin: 0px;
+  font-size: 13px;
+  padding: 0px 0px 0px 0px !important;
+  margin-right: 20px !important;
+}
+
+.ajax__tab_tab {
+  height: 31px;
+  line-height: 31px;
+  margin: 0px;
+  font-size: 14px !important;
+  padding: 0px 12px 0px 12px;
+}
+
+/* Changes(Modified) End By Atul */
+/*tabs.css */
+
+
+/* Changes(Modified) Start By Atul */
+/* calendar_new.css */
+div.divCalendar td.selected {
+  background-color: #00BCEF;
+  color: white;
+}
+
+div.divCalendar td.today {
+  border: 1px solid white;
+}
+
+div.divCalendar th {
+  border-collapse: collapse;
+  text-align: center;
+  font-family: lato;
+  font-size: 10px;
+  color: rgb(71, 71, 71);
+  padding: 6px;
+}
+
+div.divCalendar td {
+  border: 0;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: lato;
+  font-size: 11px;
+  width: 22px;
+  cursor: pointer;
+  padding: 5px;
+  color: rgb(71, 71, 71);
+}
+
+div.divCalendar {
+  position: absolute;
+  visibility: hidden;
+  z-index: 100001;
+  width: 190px;
+  padding: 2px 0 0 0;
+}
+
+
+div.divCalendar table {
+  width: 100%;
+  border-left: 1px solid rgb(201, 201, 201);
+  border-right: 1px solid rgb(201, 201, 201);
+  border-bottom: 2px solid rgb(213, 213, 213);
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.calendarTitle {
+  font-family: Lato !important;
+  font-size: 11px !important;
+  font-weight: normal;
+  color: rgb(51, 51, 51);
+  width: 60% !important;
+  white-space: nowrap !important;
+  font-weight:600;
+}
+
+/* Changes(Modified) End By Atul */
+/* calendar_new.css */
+
+
+/*AquaStyles.css*/
+/* Changes(Modified) Start By Atul */
+
+.list
+{
+    font-size:11px;    
+}
+
+.RMpanelHead2 {
+  /*font-size: 14px;  
+  color: #676767;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 5px 5px 5px 10px;*/
+  background: white;
+  font-size: 16px;
+  color: #B3B3B3;
+  padding: 5px 5px 13px 10px;
+  border: 0px;
+}
+
+.panelHead {
+  /*font-size: 14px;  
+  color: #676767;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 5px 5px 5px 10px;*/
+  
+  background: white;
+  font-size: 16px;
+  color: #B3B3B3;
+  padding: 5px 5px 13px 10px;
+  border: 0px;
+}
+
+.panelContent
+{
+    background: #fff;
+    padding: 4px;
+}
+
+.panelFoot {
+  padding: 0px 10px 8px 10px;
+}
+
+/* ------- For popups ----------- */
+.RMalertUnSuccess
+{
+    background-color: white;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .5);
+    padding: 15px 0px 15px 0px;
+    border-top: 3px solid #C7898C;
+}
+
+.RMalertUnSuccess .RMalertLabel
+{
+    /*background: url(images/icons/fail_icon.png) 14px center no-repeat;
+    min-height: 50px;*/
+}
+
+.RMunSuccessHead
+{
+    font-family: 'Lato' , sans-serif;
+    font-size: 20px;
+    padding: 7px 5px 5px 65px;
+    background: url(images/icons/fail_icon.png) 10px center no-repeat;
+    color: #C7898C;
+    line-height: 34px;
+}
+
+.RMalertMessage
+{
+    font-family: 'Lato' , sans-serif;
+    font-size: 14px;
+    /*font-weight: bold;*/
+    background: #fff;
+    color: #666;
+}
+
+.RMalertLabel
+{
+    font-family: 'Lato' , sans-serif;
+    font-size: 14px;
+    padding-left: 65px;
+    padding-top: 4px;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: #666;
+    max-height: 125px;
+    overflow: auto;
+    display: block;
+    padding-right: 15px;
+}
+.RMalertBox
+{
+    background-color: #ffffff;
+}
+
+.RMalertSuccess
+{
+    background-color: white;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .5);
+    padding: 15px 0px 15px 0px;
+    border-top: 3px solid #ACD373;
+}
+
+.RMalertSuccess .RMalertLabel
+{
+    /*background: url(images/icons/pass_icon.png) 14px center no-repeat;
+    min-height: 50px;*/
+}
+.RMsuccessHead
+{
+    font-family: 'Lato' , sans-serif;
+    font-size: 20px;
+    padding: 7px 5px 5px 65px;
+    background: url(images/icons/pass_icon.png) 10px center no-repeat;
+    color: #ACD373;
+    line-height: 34px;
+}
+
+.RMalertBoxDiv
+{
+    background-color: white;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .5);
+    padding: 15px 0px 15px 0px;
+    border-top: 3px solid #F4AD02;
+}
+
+.RMalertBoxDiv .RMalertLabel
+{
+    /*background: url(images/icons/pass_icon.png) 14px center no-repeat;
+    min-height: 50px;*/
+}
+.RMalertBoxHead
+{
+    font-family: 'Lato' , sans-serif;
+    font-size: 20px;
+    padding: 7px 5px 5px 65px;
+    background: url(images/icons/alert_icon.png) 10px center no-repeat;
+    color: #F4AD02;
+    line-height: 34px;
+}
+
+.RMalertClose
+{
+    text-align: right;
+    padding-right: 7px;
+    height: 30px;
+    vertical-align: bottom;
+}
+
+.RMalertClose input {
+    background: white;
+    color: #D23333;
+    cursor: pointer;
+}
+
+/* added by pp 25 feb */
+.alertConfirm
+{
+    background-color: #E6FBFF;
+    border: 1px solid #BEF3FF;
+    padding: 5px;
+}
+.confirmHead
+{
+    font-family: 'Lato' , sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: #125F73;
+    padding: 5px 5px 5px 40px;
+    background: url(images/icons/confirm.gif) 5px 10px no-repeat;
+}
+/* ---------- */
+
+.updateSearchBtn
+{
+    background-color: white;
+    background-image: url(images/updateIcon.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+.updateClientBtn
+{
+    cursor: pointer;
+    display: block;
+    width: 18px;
+    background: none;
+    border: none;
+    background-image: url(images/edit_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top:3px;
+    height:20px;
+}
+.deleteClientBtn
+{
+    cursor: pointer;
+    width: 18px;
+    display: block;
+    background: none;
+    border: none;
+    background-image: url(images/Trash.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height:20px;
+}
+
+.header_top
+{
+    height: 55px;
+}
+
+.headPanel
+{
+    font-family: lato;
+    font-size: 14px;    
+    /*font-size: 12px;
+    font-weight: bold;*/
+    height: 24px;
+    padding: 0 0 0 10px;
+    color: #2D2D2D;
+    padding-left:0px;
+    
+}
+
+.tableBrdr
+{
+    vertical-align: middle;
+    border-top: none;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.input[disabled]
+{
+    background-color: rgb(249, 249, 249);
+}
+
+.selectSecLabel
+{
+    font-family: Lato;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #8f8b8b; /*color: #7c7c8b;;*/
+}
+
+tr td.dataRow
+{
+    border: none;
+    border-right: none;
+    background: #fff;
+}
+
+
+.showErrorPanelSec
+{
+    display: block;
+    background-image: url(images/hidePaneIcon.gif);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 30px;
+    line-height: 21px;
+    font-weight: normal;
+    display: none;
+}
+
+.sec-sub-head
+{
+    background-position: top;
+    background-repeat: repeat-x;
+    height: 25px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #555555;
+    padding-left: 10px;
+    font-family: 'Istok Web' , sans-serif;
+    cursor: pointer;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+tr.ssf_panel td.dataRow
+{
+    border: none;
+    font-family: lato;
+    font-size: 12px;
+    padding: 2px 0 2px 6px;
+    color: #333;
+    white-space: nowrap;
+}
+
+tr.ssf_panel td.dataRow select.input, tr.ssf_panel td.dataRow DropDownList.input, .upperHeader input.input, tr.ssf_panel td.dataRow input.input, tr.ssf_panel td.dataRow textarea.input
+{
+    font-size: 12px;
+    color: #666;
+}
+
+.headPanel2
+{
+    background-color: #fff;
+    padding: 2px 0 2px 10px;
+    font-family: "Lato" , sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #848484;
+    line-height: 18px;
+}
+
+.headPanel3
+{
+    /*background-image: url(images/headPanel3BG.jpg);
+    background-position: bottom;
+    background-repeat: repeat-x;*/
+    background-color: #fff;
+    height: 26px;
+    padding-left: 15px;
+    font-family: "Lato" , sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: #848484;
+}
+
+.sec
+{
+    height: 28px;
+    background-color: #ffffff;
+}
+
+.RMheadPanel-new
+{
+    padding: 5px 5px 10px 10px;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Istok Web' , sans-serif;
+    color: #43D9C6;
+    color: #43D9D0;
+    display: none;
+}
+
+.RMdivNewContainer
+{
+    background-color: White; /*#E3E2D9*/
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 650px;
+}
+
+.dragpanelContainer
+{
+    margin: 5px;
+    width: 100%;
+    border: 1px solid #AEAEAE;
+    padding: 0px;
+    background-color: #fff;
+    background:none !important;
+}
+.dragpanelHeader
+{
+    cursor: move;
+    background: none;
+    height: 0px !important;
+    background:none !important;
+}
+.dragpanelBody
+{
+    background:none !important;
+    border: 1px solid #fff;
+    font-family: Lato !important;
+    font-size: 12px !important;
+    font-weight: normal;
+    color: #000;
+    padding:2px;
+}
+
+
+/* Changes Start for RGrid */
+tr.dataRow td.dataRow{
+	font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Istok Web' , sans-serif;
+    overflow: hidden;
+    word-wrap: break-word;
+    padding: 0 7px;
+    border: none;
+    border-bottom: 1px solid #f4f1f1;
+    color: #333;
+    height:25px;
+}
+
+.gridHeader TH {
+    background-color: white;
+    border: none;
+    color: #8a8787;
+    padding-left: 7px;
+    border-right: 1px dashed #E7E7E7;
+    border-top: none;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.gridHeader{
+    height: 25px;
+    padding: 2px;
+    background-color: White;
+    color: #8a8787;
+    border: 0px;
+    cursor: default;
+    border-right: 0px;
+    font-size: 11px;
+    vertical-align: middle;
+    border-left: 0px;
+    cursor: pointer;
+    border-bottom: none;
+    text-align: left;
+    font-family: 'Istok Web' , sans-serif;
+
+	padding-left: 0px;
+    font-weight: bold;
+    font-size: 11px;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #798085;
+    font-family: 'lato' , sans-serif;
+    text-align: left;
+    height: 25px;
+}
+/* Changes End for RGrid */
+
+/* Changes(Modified) End By Atul */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Changes(Modified) Start by Bambam */
+.extractToBtn, .detailsIconBtn, .deleteIconBtn, .extractToSystemBtn
+{
+    background-image: none;
+    padding-left: 10px;
+    color: #2D2C2C;
+}
+.extractToBtn
+{
+    background-image: url(images/icons/NextArrow.gif);    
+    background-position: 146px;
+    color: #474747;
+}
+.mycontextMenu tr td
+{
+    border-bottom: 1px solid #F6F6F6;
+}
+.header_bot {
+  height: 26px;
+  background: url(images/selected_tab_texture.png) top left repeat; 
+}
+.lnkHome,.logoutMessage,.lnkThemes {
+  background:none !important;
+}
+.loginTime{
+    color: Black;	
+}
+
+.globalLinks,.globalLinks a {
+  font-family: Lato;  
+  font-size: 12px;
+}
+.footerCopy table {
+  background-color: transparent; 
+  border-top: 3px solid #aaa; 
+  font-family: tahoma;
+  font-size: 10px;
+  color: #333;
+}
+.RMPopup_bg {
+    font-size: 12px;
+    background: #fff;
+    font-family: 'Istok Web' , sans-serif;
+    color: #525252;
+    padding: 5px;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    border-radius: 2px;
+}
+
+/*font-awsome*/
+/*.fa-angle-down:before {
+  content: "" !important;
+}*/
+/* Changes(Modified) End by Bambam */
+/*AquaStyles.css*/
+/*End of RAD Grid view*/
+/* To Changed view of old grid By Bambam*/
+/*.btnAddNew
+{
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    background-color: #43D9C6;
+    outline-color: #43D9C6;    
+    color: white;
+    height: 22px;
+    border: none;
+    border-radius: 2px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;    
+    padding: 2px 10px;
+    margin-left: 5px;
+    text-align: left;
+    min-width: 80px;    
+}*/
+/*tr.alternatingRow, tr.alternatingRow td, tr.normalRow
+{
+    border-color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Lota', 'Istok Web';
+}
+tr.alternatingRow:hover, tr.normalRow:hover
+{
+    background-color: #eee;
+}
+tr.header, .container table thead, .container table thead tr.header, .container table tr td, .RMReconGridEntityWizardChild th, .RMReconGridEntityWizard th
+{
+    border-color: #fff;
+    padding: 2px;    
+    font-size: 12px;
+}
+.header, .upperHeader, .RMReconGridEntityWizardChild th, .RMReconGridEntityWizard th
+{    
+    height: 29px;
+    padding: 2px;
+    background-color: #FCFCFC;
+    background-image: none;
+    box-shadow: 0px 3px 6px 0px rgba(218, 218, 218, 0.75);        
+    cursor: default;
+    border-right: 0px;    
+    border-left: 0px;
+    border-bottom: 1px solid #E0E0E0;
+    border-top: 1px solid #e1e4e6;
+    vertical-align: middle;
+    cursor: pointer;
+    color: MenuText;
+    color: #8a8787;    
+    text-align: left;
+    font-family: 'Lato', 'Istok Web'; /**/   
+    /*font-weight: bold;    
+    font-size: 12px;
+}
+.RMReconGridUpperHeader
+{
+    padding: 2px 10px 1px 10px;
+    height: 28px;
+    border: 1px solid #E0E4E7;
+    z-index: 10;
+    background-color: #F6F6F6;
+}
+.container table tr td > div
+{
+    -webkit-box-shadow: inset 0px 0px 10px 3px rgba(211,224,240,1);
+    -moz-box-shadow: inset 0px 0px 10px 3px rgba(211,224,240,1);
+    box-shadow: inset 0px 0px 10px 3px rgba(211,224,240,1);
+}
+.RMReconGridEntityWizardChild tr, .RMReconGridEntityWizard tr, .RMReconGridEntityWizard td, .RMReconGridEntityWizardChild td
+{
+    border: 0px;
+    border-color: White;
+}
+.RMReconGridEntityWizardChild .header, .RMReconGridEntityWizard .header
+{
+    border-bottom: 1px solid #E0E0E0;
+    border-top: 1px solid #e1e4e6;
+}
+/*Button inside RADGrid, class=button*/
+.search-button, .button
+{
+    font-family:'Lota', 'Istok Web' ;
+    height: 20px;
+    border: 0px;    
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+    text-align: center;
+    padding: 2px 10px;
+    min-width: 70px;
+    white-space: nowrap;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-top: 1px solid #c7c7c7;
+    border-right: 1px solid #a2a2a2;
+    border-bottom: 1px solid #a2a2a2;
+    border-left: 1px solid #c7c7c7;    
+    background: none;/*#EAECEB url(images/vendorcontrol/btn_bg.gif) top left repeat-x;*/
+}
+/*End of RAD Grid view*/
+/* RADvendorAPIControl.css */
+/* Changes(Modified) Start by Bambam */
+input, select
+{
+    font-family: Lato !important;
+    font-size: 12px;
+    color: #333;
+}
+/* Changes(Modified) End by Bambam */
+/* End RADvendorAPIControl */
+/*Modified END*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*new START*/
+
+/* Changes(New) Start By Atul */
+body
+{
+    margin: 0px !important;
+    font-family: Lato !important;
+    font-size: 12px !important;
+    background-color: transparent !important;
+}
+
+select[disabled]
+{
+    color: #8F8F8F;
+    /*border:solid 1px #666;*/
+}
+
+#txtDefaultValue[disabled]
+{
+    border:solid 1px #666;    
+}
+
+/*select
+{
+    font-family: Lato !important;
+    font-size: 12px !important;
+}*/
+
+.RMdivWrapperContainer
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+}
+
+.RMerrorDiv{
+    color:red;
+    min-height:30px;
+}
+
+.RMerrorDiv ul{
+    padding:0px
+}
+
+.RM_AddBoxShadow
+{
+    box-shadow: 0px 1px 6px 0px gray;    
+    background-color:White;
+}
+
+.RM_AddDetails
+{    
+    /*color: #43d9c6;    
+    cursor: pointer;
+    font-size:13px;*/
+    background-color: #43d9c6;
+    cursor: pointer;
+    font-size: 13px;
+    color: white;
+    padding: 0px 4px;
+    border-radius: 10px;
+    padding-right: 5px;
+}
+
+.RM_TabIcon
+{
+    background: #FFFFFF url(images/icons/subItem_Arrdown.gif) no-repeat left 50%;
+    padding-left: 18px;
+}
+
+.RM_CUAccordionDownArrow
+{
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid rgb(190, 190, 190);
+    position: relative;
+    top: 5px;
+    float: left;
+    margin-right: 7px;
+}
+
+.RMheadPanel2
+{
+    font-size: 13px;
+    padding-top: 15px;
+    font-weight: normal;
+    padding-left: 6px;
+    border-bottom: solid 1px #ececec;
+}
+
+.RM-lnk-button
+{
+    font-size: 12px;
+    text-decoration: none;
+    color: gray;
+    margin-left: 8px;
+    line-height: 26px;
+}
+
+.RM-lnk-button:hover
+{
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 8px;
+    line-height: 26px;
+    font-weight: bold; /*color: #064774;*/
+    color: gray;
+}
+
+.RM-sec-details-control1
+{
+    color: Gray;
+    background-color: #F0F0F0;
+    border: 1px solid #CECECE;
+    border-right: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: nowrap;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.RM-sec-details-control1[disabled]
+{
+    color: Gray;
+    background-color: #F0F0F0;
+    border: 1px solid #CECECE;
+    border-right: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: nowrap;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.RM-sec-details-control
+{
+}
+
+.RM-sec-details
+{
+    background-color: #fff;
+}
+
+.RMpanel_bg
+{
+    background: #fff;
+    font-family: lato;
+    color: #525252;
+    padding: 5px;
+    /*border-right: 3px solid #D4D5D0;
+    border-bottom: 3px solid #D4D5D0;*/
+    border-radius: 5px;
+}
+
+.RMpanelCells {
+  /*font-weight: bold;*/
+  font-size: 12px;
+  color: #848484;
+  padding: 5px;
+}
+
+.RMpanelCells select.input, .RMpanelCells input.input, .RMpanelCells textarea.input
+{
+    font-family: lato;
+    font-size: 12px;
+    padding: 0px;
+    color: #666;
+    width:90%;
+    padding:1px 0px 1px 0px;
+}
+
+.RMlookupDetailsTable
+{
+    border: 1px solid #CECECE;;
+    background-color: #F7F7F7;;
+    /*width: 220px;*/
+    font: 10px lato;  
+    box-shadow: 1px 1px 0px 0px gray;
+}    
+
+.RMlookupDetailsTable tr:first-child
+{
+    border-bottom: 1px solid #E8EEF0;
+    font: bold 10px lato;
+    white-space: nowrap;
+    padding-left: 10px;
+    color: #135266;
+}
+
+.RMlookupDetailsTable tr td:first-child
+{
+    border-bottom: 1px solid #E8EEF0;
+    font: bold 10px lato;
+    white-space: nowrap;
+    padding-left: 10px;
+}
+
+.RMlookupDetailsTable tr td
+{
+    border-bottom: 1px solid #DCE9EB;
+    color:gray;
+}
+
+.enMandatory
+{
+    color: Red;
+    font-size: 12px;
+    font-family: verdana;
+    font-weight: bold;
+    float: right;
+    width: 8px;
+    height: 26px;
+    text-align: center;
+    line-height: 22px;
+}
+
+/*.CommonBlueBtnStyle
+{
+    cursor: pointer;
+    height: 35px;
+    width: 26px;
+    font-size: 11px;
+    margin: 0px 5px 0px 0px;
+    padding: 0px;
+    border: none;
+    color: #00bcef;
+    background-color: White;
+    min-width: 50px;
+}*/
+
+.RM_textbox
+{
+    color: #414141;
+    padding: 0px !important;
+    padding-left: 2% !important;
+    font-family: 'Istok Web' , sans-serif !important;
+    font-size: 13px !important;
+    border: 1px solid #cecece;
+    display: inline-block;
+    height: 26px;
+    width: 98% !important;
+    border-left: 0px !important;
+    /*border-right: 1px solid #CECECE;
+    border-top: 1px solid #CECECE;
+    border-bottom: 1px solid #CECECE;*/
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    line-height:26px;
+}
+
+.RM_dropdown
+{
+    font-family: 'Istok Web' , sans-serif !important;
+    font-size: 12px;
+    border: 1px solid #cecece;
+    background: white;
+    display: inline-block;
+    height: 28px;
+    cursor: pointer; /*width: 209px; */
+    width: 91.90%;
+    border-left: 0px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    clear: right;
+}
+
+.RM_radioContainer
+{
+    height: 26px;
+    border: 1px solid #cecece;
+    font-family: 'Istok Web' , sans-serif;
+    border-left: 0px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.RM_radioLabel
+{
+    /*vertical-align: super; */
+    margin-right: 10px;
+    color: #414141;
+}
+
+.selectLabel
+{
+    margin-top: 7px;
+}
+
+.RM_fileContainer
+{
+    height: 24px;
+    width: 209px;
+    border: 1px solid #cecece;
+    font-family: 'Istok Web' , sans-serif !important;
+    border-left: 0px;
+    padding-left: 5px;
+    background-color: #f9f9f9;
+}
+
+.RM_CURefIcon
+{
+    color: rgb(171, 171, 171);
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 22px;
+    margin: 0px;
+    width: 5.8%;
+    height: 26px;
+    padding-left: 5px;
+    border-left: none;
+    border-top: 1px solid #CECECE;
+    border-bottom: 1px solid #CECECE;
+    border-right: none;
+    display: inline-block;
+    cursor: pointer;
+    float: left;
+}
+
+.RM_AddLookup
+{
+    height: 26px;
+    width: 8%;
+    border: solid 1px #cecece;
+    border-left: 0px;
+    border-right: 0px;
+    float: left;
+}
+
+.RM_HeaderCenterAlign
+{
+    text-align:center;
+}
+
+.RMcutIcon
+{        
+    background: none;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 2px;
+    border: 0px;
+    margin: 0px;
+    text-align: left;
+    font-family: lato;
+    border-collapse: separate;
+    font-size: 11px;
+    font-weight: normal;
+    color: #2D2C2C;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.RMpasteIcon
+{
+    background: none;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 2px;
+    border: 0px;
+    margin: 0px;
+    text-align: left;
+    font-family: lato;
+    border-collapse: separate;
+    font-size: 11px;
+    font-weight: normal;
+    color: #2D2C2C;
+    vertical-align: middle;
+    width: 100%;
+}
+.RMrenameIcon
+{
+    background: none;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 2px;
+    border: 0px;
+    margin: 0px;
+    text-align: left;
+    font-family: lato;
+    border-collapse: separate;
+    font-size: 11px;
+    font-weight: normal;
+    color: #2D2C2C;
+    vertical-align: middle;
+    width: 100%;
+}
+.RMshowIcon
+{
+    background: none;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 2px;
+    border: 0px;
+    margin: 0px;
+    text-align: left;
+    font-family: lato;
+    border-collapse: separate;
+    font-size: 11px;
+    font-weight: normal;
+    color: #2D2C2C;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/*Custom Date time control css start*/
+.DateAttributeText
+{
+    background: #FFFFFF url(images/calendarIcon.png) no-repeat right 50%;
+    font-size: 12px;    
+    /*color: #666;*/
+    padding-right: 30px;
+    width: 90px;
+}
+
+.TimeAttributeText
+{
+    background: #FFFFFF url(images/time.jpg) no-repeat right 50%;
+    font-size: 13px;
+    color: #666;
+    font-family: Tahoma;
+    padding-right: 30px;
+}
+
+.DateTimeAttributeText
+{
+    background: #FFFFFF url(images/datetime.png) no-repeat right 50%;
+    font-size: 13px;
+    color: #666;
+    font-family: Tahoma;
+}
+/*Custom Date time control css end*/
+
+/* Changes for New Wizard Start(Atul)*/
+
+.SelectedTab
+{
+    color: #00bcef;
+    padding-left:10px !important;
+    border-left:6px solid #00bcef;
+    font-size:14px;
+}
+
+.UnSelectedTab
+{
+    color: rgb(51,51,51);
+    font-size:14px;
+}
+
+.SelectedSubTab
+{
+    color: #00bcef;
+    font-size:11px;
+}
+
+.UnSelectedSubTab
+{
+    color: rgb(51,51,51);
+    font-size:11px;
+}
+
+.SelectedTabGroup
+{
+    background-color: #e6e6e6;
+}
+
+.SelectedTabGroup div[IBBTH="1"], .SelectedTabGroup div[IBBSTH="1"]
+{
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.SelectedTabGroup div[IBBSTHF="1"]
+{
+    padding-top: 1px !important;
+}
+
+.SelectedTabGroup div[IBBToggle="1"]
+{
+    padding-bottom: 5px;
+}
+
+.UnSelectedTabGroup
+{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.bottomBarTabs
+{
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 20px;
+    line-height:20px;
+}
+
+.bottomBarSubTabs
+{
+    cursor: pointer;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.navBtnBack
+{
+    height: 20px;
+    border-top: 1px solid #A6A5A3;
+    border-right: 1px solid #A6A5A3;
+    border-bottom: 1px solid #7E7E7C;
+    border-left: 1px solid #7E7E7C;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #343235;
+    text-align: left;
+    padding: 2px 0px 2px 16px;
+    background: #D5D5D3 url(images/btn_back.gif) left top no-repeat;
+}
+.navBtnNext
+{
+    height: 20px;
+    border-top: 1px solid #A6A5A3;
+    border-right: 1px solid #A6A5A3;
+    border-bottom: 1px solid #7E7E7C;
+    border-left: 1px solid #7E7E7C;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #343235;
+    text-align: left;
+    padding: 2px 10px 2px 6px;
+    background: #D5D5D3 url(images/btn_next.gif) right top no-repeat;
+}
+
+.navBtnBackNew
+{
+    border: none;
+    border-radius: 2px;
+    height: 42px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    padding-right: 52px;
+    margin-right: 0px;
+    color: white;
+    width: auto;
+    outline: none;
+    background: url('images/wiz/navBackNormal.png') 93% center no-repeat;
+}
+
+.navBtnNextNew
+{
+    border: none;
+    border-radius: 2px;
+    height: 42px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    padding-left: 50px;
+    margin-right: 20px;
+    color: white;
+    width: auto;
+    outline: none;
+    background: url('images/wiz/navNextNormal.png') 7% center no-repeat;
+}
+
+.navBtnBackNew:hover
+{
+    background: url('images/wiz/navBackHover.png') 93% center no-repeat;
+}
+
+.navBtnNextNew:hover
+{
+    background: url('images/wiz/navNextHover.png') 7% center no-repeat;
+}
+
+.navBtnSpan
+{
+    background: rgb(108, 129, 139);
+}
+
+.navBtnSpan:hover
+{
+    background: rgb(90, 111, 121);
+}
+
+.navBtnSpanHover
+{
+    background: rgb(90, 111, 121);
+}
+
+#divLeftPanel
+{
+    width: 13%;
+    padding-top: 30px;
+}
+
+#divMainBody
+{
+    /*margin-bottom: 42px;*/
+    overflow: auto;
+    padding-top: 5px;
+    padding-right: 7px;
+    padding-left: 5px;
+}
+
+.RMPanelExpandRow
+{
+    background: none;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 2px;
+    border: 0px;
+    margin: 0px;
+    text-align: left;
+    font-family: Lato;
+    border-collapse: separate;
+    font-size: 12px;
+    font-weight: normal;
+    vertical-align: middle;
+    display: block;
+    height: 28px;
+    color: inherit;
+    width: 100%;
+}
+
+.RMPanelExpand
+{
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 12px;
+    background: white;
+    z-index: 10000;
+    box-shadow: 0px -1px 9px 0px #aaaaaa;
+    padding: 0px;
+    border: 1px solid #CDCDCD;
+    position: absolute;
+}
+
+.RMPanelExpand div
+{
+    color: #2D2C2C;
+    border-left: 5px solid white;
+}
+
+.RMPanelExpand div:hover
+{
+    color: #A8A6A6;
+    border-left: 5px solid #00bcef;
+}
+
+/* Changes for New Wizard End(Atul)*/
+
+#tblNewAttribute
+{
+    font-size:12px;    
+}
+/* Changes(New) End By Atul */
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Changes(New) Start By BamBam */
+.RMNewDdl, .RMNewTextBox
+{
+    display: inline-block;
+    border: 1px solid #aaa;
+    -webkit-border-radius: 2px;
+    -moz--border-radius: 2px;
+    -o--border-radius: 2px;
+    height: 26px;
+    width: auto;
+    padding: 3px;
+    outline: none;
+    color: #666666;
+    font-weight: normal;
+}
+.RMNewTextBox
+{
+    display: inline-block;
+    border: 2px solid #aaa;
+    height: 22px;
+    width: 550px;
+    background-image: none; /*url('images/search.png');*/
+    background-position: 230px;
+    -webkit-background-size: 24px 24px;
+    -moz--background-size: 24px 24px;
+    -o--background-size: 24px 24px;
+    background-repeat: no-repeat;
+}
+
+.RMNewFormContainer
+{
+    display: block;
+    position: relative;
+    min-width: 900px;
+    min-height: 60px;
+}
+tr< td.dataRow div.RMNewFormContainer
+{
+    height: 60px;
+    position: relative;
+}
+.RMNewFormRow
+{
+    display: block;
+    position: relative;
+    padding: 5px;
+    border-color: #eee;
+    height: 30px;
+    text-align: center; /* width: 1105px;*/
+}
+.RMNewFormCell
+{
+    display: inline-block;
+    position: relative;
+    text-align: left;
+}
+.RMNewFormCell input[type="submit"]
+{
+    height: 26px;
+    padding: 2px 2px;
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.RMNewFormCell tbody
+{
+    margin: 0 auto;
+}
+
+#RMAuditSelectAttr > div:first-of-type
+{
+    position: absolute;
+    left: 94px;
+    right: auto;
+    top: 44px;
+    overflow: visible;
+    border: 0px;
+    padding: 10px;
+    max-height: 600px;
+    background-color: White;
+    z-index: 1999;
+}
+/*
+.RMNewDdlParent > div:first-of-type > table
+{
+    margin-left: 24px;
+    font-size: 13px;
+    display: none;
+}
+.RMNewDdlParent > div:first-of-type > table a
+{
+    color: Black;
+}
+.RMNewDdlParent > div:first-of-type > div:first-of-type > table > tbody > tr > td:first-of-type
+{
+    display: none;
+}
+
+.RMNewDdlParent table tr:hover
+{
+    background: #ddd;
+}
+#RMAuditSelectAttr table:first-of-type
+{
+    display: none;
+}
+*/
+.RMNewFormCell input[type="submit"][disabled]
+{
+    border: 1px solid #DDDDDD;
+    background: rgb(246, 245, 240);
+    background-image: none;
+    font-size: 12px;
+    color: #969696;
+    /*font-weight: bold;*/
+    outline: none;
+    cursor: initial;
+}
+tr.ssf_panel td.dataRow .RMNewLabel, .RMNewLabel
+{
+    font-size: 14px;
+    font-family: Lato;        
+    display: inline-block;
+    cursor: initial;
+    font-weight: normal;
+    color: #aaa;
+}
+
+.RMSuggestBtn
+{
+    color: White !important;
+    font-weight: 400;
+    font-size: 13px;
+    width: 75px;
+    text-align: center;
+    vertical-align: middle;
+    border: 0px #eb9945;
+    height: 26px;
+    background: #eb9945 !important;
+    border-radius: 2px !important;
+    cursor: pointer;
+    min-width: 60px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    -webkit-user-select: none;
+}
+.RMCommonBtn
+{
+    color: White !important;
+    font-weight: 400;
+    font-size: 13px;
+    width: 75px;
+    text-align: center;
+    vertical-align: middle;
+    border: 0px #eb9945;
+    height: 26px;
+    background: #eb9945 !important;
+    border-radius: 2px !important;
+    cursor: pointer;
+    min-width: 60px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    -webkit-user-select: none;
+}
+.RMDisabledBtn
+{
+    background: #8F8F8F;
+}
+
+.RMOpenDdl, .RMNewDropdown
+{
+    color: #00bcef;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0px;
+    border: 0px;
+    border-bottom: 1px dashed #00BFF0;
+    font-family: Lato;
+    outline: none;
+    display: inline-block;
+    padding-right: 0px;
+    cursor: pointer;
+    _appearance: none;
+    -o-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.RMNewDropdown
+{
+    /* padding-left: 30px;*/
+}
+
+.RMOpenDdl option
+{
+    color: #555;
+}
+
+.RMOpenText
+{
+    padding: 0px;
+    border: 0px;
+    font-size: 14px;
+    color: #323232;
+    text-decoration: none;
+    font-family: Lato;
+    display: inline-block;
+	font-weight: normal;
+}
+
+#RMContentBody
+{
+    min-height: 650px;
+}
+
+.RMDateInputStyle
+{
+    color: #00bcef;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    border: 0px;
+    border-bottom: 1px dashed #00BFF0;
+    font-family: Lato;
+    outline: none;
+    display: inline-block;   
+    background: #FFFFFF url(images/calendarIcon.PNG) no-repeat content-box 110%;
+	width: 96px;
+	cursor: pointer;
+	
+}
+
+input[type="text"].RMOpenDateInput
+{    
+    width: 100px;    
+    border: 0px;
+    border-bottom: 1px dashed #00bcef;
+    color: #00bcef;
+    cursor: pointer;
+    font-size: 14px ;
+    padding-left: 5px;
+}
+.RMBoxDateInput
+{
+    background: none;
+    width: 75px;
+    text-align: center;
+    border: 0px;   
+    color: #00bcef !important;
+    font-size: 14px !important;  
+}
+.RMRadXLGrid .extractToBtn
+{
+    background-image: url(images/icons/NextArrow.gif);     
+    background: none;   
+    background-repeat: no-repeat;
+    background-position: 5px;    
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 2px;
+    border: 0px;
+    margin: 0px;
+    text-align: left;
+    font-family: Lato;
+    border-collapse: separate;
+    font-size: 12px;
+    font-weight: normal;
+    color: #474747;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.RMNewDdlParent, .RMDdlContainer
+{
+    width: 290px;
+    max-height: 600px;
+    cursor: pointer;
+    border: 1px solid #CDCDCD;
+    font-family: Lato, sans-serif;
+    font-size: 13px;
+    position: absolute;
+    margin-left : 0px;
+    margin-top: 0px;
+    text-align: left;	
+    z-index: 1000;
+    background-color: WHITE;
+}
+.RMNewDdlParent input[type=checkbox]
+{
+    display: none;
+}
+
+.RMNewDdlParent label, .RMNewDdlParent tr td label
+{
+    display: inline;
+    float: left;
+    color: #000;
+    cursor: pointer;
+    text-indent: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    font-weight: 100;
+    white-space: nowrap;
+}
+
+.RMNewDdlParent input[type=checkbox] + label
+{
+    display: block;
+    width: 100%;
+    height: 1em;
+    border: 0.0625em solid rgb(192,192,192);
+    border-radius: 0.25em;
+    background: none;
+    vertical-align: middle;
+    line-height: 1em;
+    font-size: 14px;
+}
+
+.RMNewDdlParent input[type=checkbox]:checked + label::after
+{
+    /*content: "\2714";*/
+    content: "";
+    color: #676F6F;
+    background: url("images/dropDownCheckImageSmall.png") no-repeat;
+    height: 1em;
+    line-height: 1em;
+    width: 1em;
+    font-weight: 900;
+    position: absolute;
+    right: 20px;
+}
+
+.RMNewDdlParent tr:hover, .RMNewDdlParent td:hover, .RMNewDdlParent label:hover
+{
+    color: #A8A6A6;
+    border-left: 5px solid #00bcef;
+}
+.RMNewDdlParent tr, .RMNewDdlParent td, .RMNewDdlParent tbody, .RMNewDdlParent table
+{
+    width: 100%;
+    border-left: 5px solid #fff;
+    border-collapse: collapse;
+}
+
+.RMNewDdlParent tr
+{
+    height: 24px;
+}
+.RMNewDropdownParent label
+{
+    margin-left: -12px;
+    font-weight: bolder;
+    color: #222;
+    font-weight: bold;
+	padding-left: 0px;
+}
+.RMButtonAsText
+{
+    background: white;
+    border: none;
+    border-bottom: 1px dashed #00abef;
+    outline:none;    
+    height: 22px;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 14px;
+    color: #00abef;
+    font-weight: normal;
+    margin: 0px;
+    cursor: pointer;
+    padding: 0px 5px;
+}
+
+
+/*style for DateDropDown By Bambam*/
+
+.RMDateDropDowns
+{    
+    border: 1px #A9A9A9 solid;
+    width:120px;   
+    font-family: Lato;
+    font-size: 11px;
+    font-weight: normal;	
+    background-color: white;
+    color: #000;
+    position: absolute;
+    border-radius: 5px;
+    z-index: 1000;
+    padding-right:10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    text-align: left;    
+    margin-top: 0px;
+    margin-left: 0px;        
+    display: table;    
+}
+.RMDateSelection > tbody > tr > td > label,.RMDateSelection2 > tbody > tr > td > label
+{
+    width: 90%;
+    display: inline-block;
+}
+
+.RMDateSelection input,.RMDateSelection2 input
+{
+    visibility: hidden;
+    display: none;
+	
+}
+.RMDateSelection, .RMDateSelection2
+{
+    padding-left: 5px;
+    border: 0px;    
+    outline: none;
+    width: 100%;
+    margin-left: -2px;
+    padding-left: 0px;
+    background: transparent;
+}
+
+.RMDateSelection input[type="radio"]+label 
+{    
+   /* left: -20px;*/
+    position: relative;    
+}
+RMDateSelection2  input[type="radio"]+label 
+{
+    left: 0px;
+    position: relative;
+}
+.RMDateSelection  > tbody > tr.RMChecked >td,
+.RMDateSelection2  > tbody > tr.RMChecked >td
+{
+    color: #00bcef;
+    /*border-left: 5px solid #00bcef;*/
+}
+
+.RMDateSelection  > tbody > tr >td:hover,.RMDateSelection2  > tbody > tr >td:hover
+{
+    color: #00bcef;
+    border-left: 5px solid #00bcef;
+}
+.RMDateSelection  > tbody > tr >td,.RMDateSelection2  > tbody > tr >td
+{
+    color: #000000;
+    border-left: 5px solid white;
+    
+    height:26px;
+    line-height: 25px;
+}
+.RMDateDropDownCustomDiv
+{
+    margin-top: -7px;
+    margin-left: 7px;
+    display: block;
+}
+
+/*End of style for DateDropDown By Bambam*/
+.RMBottomNavBar
+{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    top: auto;
+    text-align: center;
+}
+
+.RMFloatingDivContainer
+{
+    position: fixed;
+    z-index: 1001;
+    height: 85%;
+    width: 99%;
+    left: 0.5%;
+    display: inline-block;
+    text-align: center;
+    padding: 0px;    
+    bottom:15px;
+    border-radius:5px;         
+    -webkit-box-shadow: 2px 3px 30px 25px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 30px 25px rgba(0,0,0,0.75);
+    -o-box-shadow: 2px 3px 30px 25px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 30px 25px rgba(0,0,0,0.75);
+}
+div[id$="ExceptionTypeDDL"], div[id$="RMExceptionFilter"]
+{
+    left: 4px;
+    top: 3px;
+}
+
+div[id$="ExceptionTypeDDL"] smselectanchorrun, div[id$="RMExceptionFilter"] smselectanchorrun
+{
+    font-size: 14px;
+}
+
+.RMMultiSelect {
+  display: inline-block;
+  position: relative;
+  height: 25px;
+  width: auto;
+  top: 10px;
+  
+  color: #00cdef;
+  padding-bottom: 1px;
+  text-align: left;	
+}
+.RMMultiSelect .smselectanchorrun2
+{
+    color:#00bcef;
+    font-family: lato;
+	font-size: 14px;
+	line-height: 33px;
+}
+.RMMultiSelect .smselectanchorrun2:hover
+{
+	font-size: 14px;
+	line-height: 33px;
+}
+ #divExceptionMgrFilter .smselectanchorrun
+{
+    color:#00bcef;
+    font-family: lato;
+	font-size: 14px;
+}
+
+.RMMultiSelect  .smselectimage2
+{
+    display: none;
+}
+.RMMultiSelect .smselectanchorcontainer2 
+{
+    width: 110%;
+}
+.RMMultiSelect  div.smselectrun.smselectrun2 > div.smselectanchorcontainer.smselectanchorcontainer2 > a {    
+    margin-left: 0;
+    margin-right: 1px;
+    border-bottom: 1px dashed #00bcef;
+}
+
+#tblAttributeDetails {
+  border: 1px solid #ddd;
+}
+.RMNewFormCell .smselectanchorcontainer
+{
+    width:107%;
+}
+.RMNewFormCell  .smselect
+{
+    top:2px;
+}
+select:-internal-list-box:focus option:checked
+{
+    background-color: white !important;
+ }
+ .RMLogText{
+    border: 0px;
+    background: transparent;
+    color: blue;
+    text-decoration: underline;
+    text-align: left;
+    outline: none;
+    cursor: pointer;	
+}
+.RMLogText: visited
+{
+    color: Purple;
+}
+.modalPopupButton{
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 22px;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 12px;
+    margin-left: 5px;
+    white-space: nowrap;
+    width: auto;
+    padding: 0px 5px;
+}
+.RMpanelHead {
+    /*background: white;
+    font-size: 14px;
+    color: #717171;
+    padding: 2px 0px 0px 6px;
+    border: 0px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #E7E7E7;*/
+    
+    background: white;
+  font-size: 16px;
+  color: #B3B3B3;
+  padding: 5px 5px 13px 10px;
+  border: 0px;
+}
+.RMPopuWindow
+{
+    position: fixed;
+    z-index: 10001;
+    vertical-align: middle;
+    top: 184px;
+    margin: auto;	
+	border: 0px;
+}
+.RMpanelCells2 textarea
+{
+    border: 0px;
+    outline: 0px;    
+    width: 500px;
+    padding:14px; 
+    font-size:12px;
+    color: #666;
+}
+/*.RMpanelFoot
+{
+    right: -10px;
+    padding-top: 7px;
+    position: relative;        
+}*/
+#RMEntityTypeDDLContainer .smselectcon
+{
+    height: 22px;    
+    top: 4px;
+    border-bottom: 1px dashed #00BFF0;
+    text-align: left;
+    padding-left: 0px;
+}
+#RMEntityTypeDDLContainer > div.smselectrun.smselectrun2 > div.smselectanchorcontainer.smselectanchorcontainer2 > a
+{
+    border-bottom: 1px dashed #00BFF0;
+    top:22px;
+}
+#EntityTypeDdlContainer .smselectrun2
+{
+    height: 19px;
+}
+#EntityTypeDdlContainer .smselectimage2
+{
+    display: none;
+}
+.RMMultiSelect .smselectsectionbar
+{
+    top: -10px;
+    font-size: 14px;
+    width: 150px;
+}
+.RMMultiSelect .smselectcon{
+    top: 25px;
+}
+table[id$="ReportSystemTaskStatusData_bodyDiv_Table"]  td > input.retryBtn, table[id$="ReportSystemTaskStatusData_bodyDiv_Table"]  td > input.deleteClientBtn {
+	margin-left: 30%
+}
+table[id$="ReportSystemTaskStatusData_bodyDiv_Table"]  td > input.deleteClientDisabledBtn
+{
+    visibility: hidden;	
+}
+
+table[id$="grdInternalRealTimeBackground"]  tr>  td:nth-child(8)
+{
+    width: 250px;
+}
+
+.RMLabeledInput, div.dataRow.topPanelColumn.RMLabeledInput
+{
+    color: Gray;
+    background-color: #FFFFFF;
+    border: 1px solid #CECECE;
+    border-left: 0px;
+    overflow: visible;
+    white-space: nowrap;    
+    outline: none;
+    display: inline-block;
+    line-height: 24px;
+	height: 24px;
+	vertical-align: top;
+	text-align: left;
+	padding-left: 5px;
+}
+.RMLabeledText
+{
+    color: Gray;
+    background-color: #F0F0F0;
+    border: 1px solid #CECECE;
+    border-right: 0px;
+    overflow: visible;
+    white-space: nowrap;
+    outline: none;
+    display: inline-block;	    
+	padding-left: 5px;
+	font-weight: normal;
+	line-height: 24px;
+	height: 24px;
+    width: 115px;   
+    vertical-align: top; 
+    right: -5px;
+    text-align: left;
+}
+.RMLabeledDateInput {
+    background: #FFFFFF url(images/calendarIcon.png) no-repeat right 50%;
+    font-size: 12px;
+    color: #00bcef;
+    padding-right: 0px;    
+    vertical-align: middle;
+    height: 20px;
+    padding-left: 30px;
+    background-color: white;
+    width: 84%;
+    border: 1px solid #CECECE;
+    border-left: 0px;
+    text-align: left;
+}
+.RMNewFormContainerRow {
+    display: block;
+    position: relative;   
+}
+/*.RMNewFormContainer  div.smselectrun > div.smselectanchorcontainer > a
+{
+    border: 0px;
+    color: #00bcef;
+}*/
+.RMOuterTable
+{
+    margin: 0px 30px;
+    font-family: lato;
+    width: 95%;
+}
+.RMBorderLessDdl,.RMLabeledInput select
+{
+    display: inline-block;
+    border: 0px;
+    outline: none;
+    color: #333333;
+}
+.RMLabeledInput  div.smselectrun > div.smselectanchorcontainer > a
+{
+    font-size: 12px;
+    color: #00bcef;
+}
+.RMLabeledInput   div.smselect
+{
+    width: 100%;
+}
+
+.RMLabeledInput div.smselectrun.smselectrun2 > div.fa.fa-sort-desc.smselectimage.smselectimage2
+{
+    margin-top: 0px;
+    margin-right: 5px;
+}
+.RMLabeledInput input[type="text"]
+{
+    outline: none;
+    border: 0px;
+    width: 100%;
+    vertical-align: middle;
+	font-family: Lato;
+	font-size: 12px;
+	line-height: 20px;
+	padding-left: 10px;
+	text-align: left;
+}
+.RMRadGrid tbody tr td
+{
+    border-color: White;
+	
+}
+.RMRadGrid
+{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+tr:not()
+input[type="submit"].CommonGreenBtnStyle
+{
+    padding: 2px 10px;
+    font-size: 12px;
+} 
+.RMGridAddButton
+{
+    background: url('images/addIcon.png') 50% center no-repeat;
+    cursor: pointer;
+    border: 0px;
+    outline: none;
+}
+#RMFileUploadWidget .fucontainerDiv
+{
+    width: 643px;   
+}
+#RMFileUpload
+{
+    display: inline-block;
+}
+.NoResultDiv
+{
+    border: none;
+    text-align: left;
+    font-size: 14px;
+    background-color: white;
+    width: 98%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: 5px;
+    color: #666;
+}
+/*
+#dropWindowDivRMFileUploadWidget
+{
+    padding-top: 0px;
+    display: inline-block;
+	height:24px;
+}
+#uploadedFilesRMFileUploadWidget
+{
+    position: relative;
+    height: 24px;
+    max-width: 195px;
+}
+#RMFileUploadWidget .fucontainerDiv
+{
+    display: inline-block;
+	border: 0px;
+	overflow: hidden;	
+}
+.fuattachmentDiv
+{
+    font-size: 12px;
+    margin: 0px;
+    padding: 2px;
+}*/
+/*
+.fudropWindowDiv
+{
+    width: 100%;
+    height: 24px;
+    display: inline-block;
+	
+}
+#frmUploadfile
+{
+     height: 40px;
+    float: right;
+}*/
+.onBtn
+{
+    cursor: pointer;
+    background: none;
+    border: none;
+    background-image: url(images/switch-on-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 28px;
+    width: 28px;
+}
+.offBtn
+{
+    cursor: pointer;
+    background: none;
+    border: none;
+    background-image: url(images/switch-off-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 28px;
+    width: 28px;
+}
+.RMNewFormRow .errorDiv,.RMNewFormRow .PanelErrorMessage /* Added by pp 9th feb*/
+{
+	font-family:arial;
+	font-size:12px;
+	color:#cf2330;
+	border:0px;
+	width:100%;
+	background:none;  /*#ecd5d5 url(images/ico_error.png) 7px 7px no-repeat; */
+	text-align:center;
+	height:30px;
+	padding-top:10px;
+}
+.RMBottomNavBar{
+    width: 100%;
+    height: 42px;
+    position: fixed;
+    bottom: 19px;
+    color: white;
+    z-index: 100;
+    font-size: 10px;
+    background-color: rgb(252, 252, 252);
+    box-shadow:4px 0px 10px #cacaca;
+}
+.CUSecurityDetailsDiv {
+    float: left;
+    position: relative;
+    left: 50%;
+    margin-left: -37px;
+}
+.RMBottomBarDivs {
+    cursor: pointer;
+    float: right;
+}
+.RMNavigationDown, .RMNavigationUp {
+    height: 27px;
+    width: 26px;
+    float: left;
+    margin: 0px;
+    padding: 0px 0px 0px 9px;
+    border: none;
+    height: 42px;
+}
+.RMNavigationUp {
+    background: url(images/icons/singleArrowUp.png) no-repeat 40% 40%;
+}
+.RMNavigationDown {
+    background: url(images/icons/singleArrowDown.png) no-repeat 40% 40%;
+}
+.RMcloseInfoDiv {
+    background-image: url(images/icons/CloseAddColumnPopUp.png);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+.RMDetailsSpan {
+    font-size: 11px;
+    float: left;
+    line-height: 42px;
+    color: #2D2D2D;
+    margin-right: 5px;
+    padding-left: 10px;
+}
+.RMbottomBarClass {
+    font-size: small;
+    background-color: white;
+    position: absolute;
+    overflow: hidden;
+    z-index: 101;
+    height: 632px;
+    bottom: 61px;
+    border: 1px solid rgba(0,0,0,0.2);
+    width: 100%;
+    border-left: 0px;
+    border-right: 0px;
+}
+.RMmodalBackground {
+	background-color:#fff;
+	filter:alpha(opacity=70);
+	opacity:0;
+	top:0px;
+	left:0px;
+	position:absolute;
+	vertical-align:top;
+}
+.RMPopupRecords
+{
+    background: #fff;    
+    right: 0px;
+}
+.RMHiddenItem
+{
+    display: none;
+	
+}
+.RMpanelCells input.calender, input.calendar {
+    font-size: 10px;
+    cursor: pointer;
+    color: #666;    
+    font-size: 10px;
+    background: #FFFFFF url(images/calendarIcon.PNG) no-repeat content-box 103%;
+    padding: 2px 0px 2px 2px;
+    z-index: 10;
+}
+.retryBtn {
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border: none;
+    cursor: pointer;
+    background: url(images/retry.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 18px;
+    height: 20px;
+    margin-left: 50%;
+}
+/* Changes(New) End By BamBam */
+
+/* Changes(New) Start By Akshi */
+.RMCancelBtn
+{
+   background: url("images/deleteIcon_old.png") no-repeat 0 0;
+   border: 0;
+   float:right;  
+   height:10px;
+   outline: none;
+   cursor: pointer;	
+}
+
+.panelPopup
+{
+   padding:0;
+   top:0px !important;
+   height:500px;
+   width:70%;
+}
+
+/* for attribute deletion start */ 
+
+/*.SelectedTab
+{
+    color: #00bcef;
+    padding-left:10px !important;
+    border-left:6px solid #00bcef;
+    font-size:14px;
+}
+
+.UnSelectedTab
+{
+    color: rgb(51,51,51);
+    font-size:14px;
+}
+
+.SelectedSubTab
+{
+    color: #00bcef;
+    font-size:11px;
+}
+
+.UnSelectedSubTab
+{
+    color: rgb(51,51,51);
+    font-size:11px;
+}
+
+.SelectedTabGroup
+{
+    background-color: #e6e6e6;
+}
+
+.SelectedTabGroup div[IBBTH="1"], .SelectedTabGroup div[IBBSTH="1"]
+{
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.SelectedTabGroup div[IBBSTHF="1"]
+{
+    padding-top: 1px !important;
+}
+
+.SelectedTabGroup div[IBBToggle="1"]
+{
+    padding-bottom: 5px;
+}
+
+.UnSelectedTabGroup
+{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+.bottomBarTabGroup
+{
+    
+}
+
+.bottomBarTabs
+{
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 20px;
+    line-height:20px;
+}
+
+.bottomBarSubTabs
+{
+    cursor: pointer;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}*/
+
+.bottomBarDropdownLists
+{
+    float: right;
+    width: 200px;
+}
+/* for attribute deletion end */
+
+.iframePopup
+{
+   min-height:120px;
+   max-height:500px;
+   width:100%;
+}
+
+/* Changes(New) End By Akshi */
+
+/* Changes(New) Start By Rajat */
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.topPanelRow 
+{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+}
+
+.topPanelColumn
+{
+    height:26px;
+    float:left;
+    display:inline;
+}
+/* Changes(New) End By Rajat */
+
+/*new*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*deleted*/
+/*
+Aquastyles.css
+    body
+    a.lnk-button
+    a.lnk-button:hover
+
+grid.css
+    body
+    upperHeader
+
+Refm_migrationutility.css
+    body
+    #tdMain
+
+DataReconciliation.css
+    body
+    header
+
+RADVendorAPIControl
+    input[disabled]
+    select[disabled]
+
+calendar_new.css
+    div.divCalendar td.weekend
+*/
+/*deleted*/

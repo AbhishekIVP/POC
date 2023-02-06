@@ -1,0 +1,250 @@
+﻿#ModuleContainer {
+    width: 1250px;
+    padding-top: 50px;
+    margin: auto;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.instrumentTypeListContainer {
+    display: block;
+    color: black;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    width: 270px;
+    overflow-y: auto;
+    background: white;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    text-align: left;
+    flex-shrink: 1;
+    height: 100%;
+}
+
+    .instrumentTypeListContainer > ul {
+        padding: 0;
+        margin: 10px;
+    }
+
+        .instrumentTypeListContainer > ul > li {
+            padding: 5px 10px;
+            font-family: lato;
+            border-top: 1px solid #f1f1f1;
+            color: #565656;
+        }
+
+            .instrumentTypeListContainer > ul > li:first-child {
+                border-width: 0px;
+            }
+
+.instrumentTypeList > li {
+    padding: 3px;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.instrumentTypeList .configuredInstrument {
+    color: #2894e2;
+}
+
+.instrumentTypeList > li:hover {
+    cursor: pointer;
+    background: #e0e0e0;
+}
+
+    .instrumentTypeList > li:hover > div {
+        color: black;
+    }
+
+.instrumentTypeList .configuredInstrument:hover > div {
+    color: #2a5878;
+}
+
+.instrumentTypeList .configuredInstrument:hover i {
+    display: block;
+}
+
+.instrumentTypeList > li > i {
+    display: none;
+    float: right;
+    padding: 2px 2px 0 2px;
+    color: #7a7a7a;
+}
+
+.instrumentTypeList > li > div {
+    float: left;
+    width: 200px;
+}
+
+#EventScreen {
+    background: #F9FDFF;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+
+.instumentTypeContainer {
+    text-align: center;
+    width: 272px;
+    margin: 0px 18px;
+    display: inline-block;
+    box-shadow: 0 0 2px 1px #dadadaa6;
+    display: flex;
+    flex-direction: column;
+    /* min-height: 500px; */
+    max-height: 78vh;
+}
+
+    .instumentTypeContainer > div:first-child {
+        padding: 10px;
+        width: 252px;
+        font-size: 16px;
+        font-family: lato;
+        text-align: center;
+        flex-grow: 0;
+    }
+
+#SecurityTypeContainer > div:first-child {
+    background: #E6EAF3;
+    color: #484F5E;
+}
+
+#EntityTypeContainer > div:first-child {
+    background: #E7EBEC;
+    color: #555E5D;
+}
+
+#FundTypeContainer > div:first-child {
+    background: #E8E7E5;
+    color: #787166;
+}
+
+#PartyTypeContainer > div:first-child {
+    background: #E7EFF2;
+    color: #778284;
+}
+
+#instrumentSearch {
+    font-size: 13px;
+    width: 98%;
+    background: white;
+    border-bottom: 2px solid #b5b5b5;
+    padding: 5px;
+}
+
+    #instrumentSearch input {
+        margin-left: 5px;
+        font-size: 16px;
+        width: 97%;
+        border-width: 0px;
+    }
+
+.searchContainer {
+    box-shadow: 0px 1px 8px 1px #d1d1d1b3;
+    padding: 15px 20px 0px;
+    margin-bottom: 8px;
+    background: white;
+}
+
+
+.eventConfigError_popupContainer {
+    box-shadow: 5px 7px 22px -7px #6D6D6D;
+    /* background-image: url(images/popup_texture.png); */
+    background-color: #fff;
+    background-repeat: repeat;
+    min-height: 140px;
+    font-family: Lato;
+    border: 1px solid #D4D4D4;
+    border-top: 0px;
+    position: absolute;
+    top: 0px;
+    padding-top: 5px;
+    width: 400px;
+    margin-left: 40%;
+    z-index: 100000;
+}
+
+#eventConfigError_popupCloseBtn {
+    float: right;
+    position: relative;
+    right: 2%;
+    cursor: pointer;
+}
+
+.eventConfigError_popupHeader {
+    margin-left: 19px;
+    margin-top: 5px;
+}
+
+.eventConfigError_popupMessageContainer {
+    margin-left: 25px;
+    margin-top: 10px;
+    /*width: 340px;*/
+    min-height: 50px;
+    font-size: 14px;
+    /*overflow-x: scroll;
+    overflow-y: scroll;*/
+}
+
+#eventConfigError_popupCloseBtn {
+    float: right;
+    position: relative;
+    right: 2%;
+    cursor: pointer;
+}
+
+.eventConfigError_imageContainer {
+    display: inline-block;
+}
+
+.eventConfigError_messageContainer {
+    display: inline-block;
+}
+
+.eventConfigError_popupTitle {
+    font-family: Lato;
+    font-size: 23px;
+}
+
+.eventConfigError_messageContainer {
+    position: relative;
+    top: -15px;
+}
+
+.eventConfigError_popupMessage {
+    font-family: Lato;
+    padding-bottom: 24px;
+    padding-right: 20px;
+}
+
+#eventConfig_disableDiv {
+    display: none;
+    z-index: 99998;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: #ffffff63;
+}
+
+#eventConfigErrorDiv_messagePopUp {
+    display: none;
+}
+
+.eventConfig_popupOkBtn {
+    height: 25px;
+    width: 40px;
+    background-color: #f4ad02;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 2px;
+    color: #fff;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+

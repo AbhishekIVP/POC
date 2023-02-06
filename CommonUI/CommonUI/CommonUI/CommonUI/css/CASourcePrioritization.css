@@ -1,0 +1,228 @@
+﻿#CASourcePrioritizationBody{
+    font-family: lato;
+}
+
+#CASP_TopDiv1{
+    height:20px;
+    padding: 10px 5px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+#CASP_CorpActionTypeNameParentDiv{
+    width:60%;
+    display:inline-block;
+    vertical-align:top;
+}
+
+#CASP_CorpActionTypeName{
+    height:20px;
+    line-height:20px;
+    padding-left:5px;
+    font-weight: 700;
+}
+
+#CASP_TopButtonsParentDiv{
+    width:39%;
+    display:inline-block;
+    vertical-align:top;
+}
+
+.CASP_TopButtonCSSClass{
+    float:right;
+}
+
+.CASP_SecurityTypeNameParentDiv {
+    width:70%;
+    height:25px;
+    line-height:25px;
+}
+
+#CASP_OptionsDiv{
+    padding-left:12px;
+    height: 20px;
+    padding-top: 10px;
+}
+
+.CASP_Options_CSSCLass{
+    display:inline-block;
+    margin-right: 30px;
+    vertical-align:top;
+}
+
+#CASP_TabsSuperParentDiv{
+    margin-top:20px;
+    margin-left: 12px;
+}
+
+#CASP_TabsParentDiv{
+    width:fit-content;
+}
+
+.TabNameDiv{
+    display:inline-block;
+    height: 20px;
+    line-height:20px;
+    width:auto;
+    padding: 2px 5px;
+    cursor: pointer;
+    font-size:14px;
+    vertical-align:top;
+    border-bottom: 1px solid #f0f0f0;
+    color: #7d7d7d;
+}
+
+.SelectedTabNameCSSClass{
+    color: #48a3dd !important;    
+    /*text-decoration: underline;*/
+    border-bottom: 2px solid #48a3dd !important;
+}
+
+#CASP_TabsGridsSuperParentDiv{
+    margin-top:5px;
+    margin-left:12px;
+}
+
+.CASP_TabGridParentDiv{
+    overflow-x:auto;
+    overflow-y:auto;
+}
+
+.CASP_TableRow {
+    width:fit-content;
+}
+
+.CASP_TableRow1:nth-child(odd){
+    background-color: #fdfdfd;
+}
+
+.CASP_TableRow1:nth-child(even){
+    background-color: #fff;
+}
+
+.CASP_TableRow1:hover{
+    background-color: #f2f2f2;
+}
+
+.CASP_TablePartialRow{
+    display:inline-block;
+    width:fit-content;
+    /*max-width: 79%;
+    max-width: 79%;
+    min-width: 39%;*/
+    vertical-align:top;
+}
+
+.CASP_HeaderColumn{
+    display:inline-block;        
+    height:20px;
+    line-height:20px;
+    vertical-align:top;
+        
+    color: #8a8787;
+    padding-left: 7px;
+    border-right: 1px dashed #E7E7E7;
+    border-bottom: 1px solid #E0E0E0;
+    /*text-align:center;*/
+}
+
+/*.CASP_HeaderColumnWidth{
+    
+    width:99%;
+    max-width:99%;
+
+}
+
+.CASP_HeaderColumnWidthFirst{
+    
+    width:60%;
+    max-width:60%;
+}*/
+
+#CASP_SelectAll{
+    font-weight: 700;
+    font-family:"Istok Web", sans-serif;
+}
+
+.CASP_TableCell{
+    display:inline-block;    
+    height:20px;
+    line-height:20px;
+    vertical-align:top;
+    padding-left: 7px;
+}
+
+.CASP_TableCellWidth {
+    /*width:30%;*/
+    width:200px;
+    /*min-width:30%;
+    max-width:99%;*/
+}
+
+.CASP_TableCellWidthFirst {
+    /*width:20%;*/
+    width:250px;
+    /*min-width:20%;
+    max-width:60%;*/
+}
+
+.CASP_EditableSMSelect{
+    text-align:center;
+}
+
+.CASP_CommonGreenBtnStyle{
+    /*background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);*/
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 18px;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 12px;
+    padding: 2px 7px;
+    margin-left: 5px;
+    font-weight: 400;
+    width: 50px;
+    cursor: pointer;
+    line-height: 20px;
+    text-align: center;
+}
+
+.CASP_CommonTransparentBtnStyle{
+    border: none;
+    background-color: transparent;
+    /*outline-color: #43D9C6;*/
+    border-radius: 2px;
+    color: #43D9C6;
+    height: 18px;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 12px;
+    padding: 2px 7px;
+    margin-left: 5px;
+    font-weight: 400;
+    width: 50px;
+    cursor: pointer;
+    line-height: 20px;
+    text-align: center;
+}
+
+.CASP_Ellipses {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+ 
+.scroll::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 20px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 20px;
+}

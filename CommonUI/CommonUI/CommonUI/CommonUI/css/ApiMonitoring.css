@@ -1,0 +1,578 @@
+﻿#ApiMonitoringTop{
+    background-color: #ffffff;
+    box-shadow: -1px 0px 14px 2px rgba(0, 0, 0, 0.34);
+    z-index:10;
+    position:relative;
+}
+
+#ApiMonitoringFilteringSuperContainer{
+    padding-top:6px;
+    /*padding-bottom:6px;*/
+    background-color: inherit;
+}
+
+
+.ApiMonitoringFiltersContainer {
+    
+    /*/display:inline-block;*/
+    
+    background-color: white;
+    margin: auto;
+    width: auto;
+    max-width:80%;
+    display:inline-block;
+    background-color: inherit;
+}
+
+.ApiMonitoringFiltersContainer .ApiMonoitoringFilter {
+    display: inline-block;
+    padding: 1px 2px 0px 2px;
+    margin: 2px 5px 0px 10px;
+}
+
+.ApiMonitoringFiltersContainer .ApiMonoitoringFilter .ApiMonoitoringFilterText {
+    font-weight:bold;
+    color: black;    
+    display: inline-block;
+    height: 23px;
+}
+
+.ApiMonitoringFiltersContainer .ApiMonoitoringFilter .ApiMonoitoringFilterMultiSelect{
+    border:1px solid #cfcfcf;
+    border-radius: 3px;
+    height:23px;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #ffffff;
+}
+
+.ApiMonitoringFiltersContainer #ApiMonitoringDatesFilter{
+    color: black;    
+    cursor: pointer;
+    border:1px solid #cfcfcf;
+    border-radius: 3px;
+    padding: 4px 10px 4px 10px;
+    /*margin-left:35px;*/
+}
+
+#ApiMonitoringFilteringContainer{
+    padding-top:2px;
+}
+
+#ApiMonitoringFilteringContainer #ApiMonitoringFiltersButtonDiv{
+    display:inline-block;
+    /*float:right;*/
+    padding-right:12px;
+    padding-top:2px;
+}
+
+#ApiMonitoringFilteringContainer #ApiMonitoringFiltersButtonDiv #ApiMonitoringFiltersButtonContainer{
+    display:inline-block;
+}
+
+#ApiMonitoringFilteringContainer #ApiMonitoringFiltersButtonDiv #ApiMonitoringFiltersButton{
+    /*margin-right:10px;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 25px;
+}
+
+#ApiMonitoringFilteringContainer #ApiMonitoringFiltersButtonDiv #ApiMonitoringResetButton{
+    height: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display:inline-block;
+    cursor:pointer;
+}
+
+#ApiMonitoringTop #ApiMonitoringFilteringErrorDiv{
+    color:red;
+    font-size:10px;
+    font-style:italic;
+    font-weight:bold;  
+    padding-left:25px;
+}
+
+
+/*#panelMiddle{
+    height:inherit;
+}*/
+
+.ApiMonitoringMain {
+    display:none;
+}
+
+#ApiMonitoringMainErrorDiv{
+    display:none;     
+}
+
+#ApiMonitoringMainErrorDiv #ApiMonitoringMainErrorImageDiv{
+    font-size:70px;
+    text-align:center;
+    position:relative;
+    top:30%;
+
+}
+
+#ApiMonitoringMainErrorDiv #ApiMonitoringMainErrorMessageDiv{
+    font-size:25px;
+    text-align:center;
+    position:relative;
+    top:30%;
+}
+
+#ApiMonitoringMainLeftColumnTopDiv{
+    padding-top:10px;
+    padding-bottom:20px;
+    display:none;
+}
+
+#ApiMonitoringMainLeftColumnTopDivText{
+    display:inline-block;
+    padding-left:20px;
+    font-size:15px;
+}
+
+#ApiMonitoringLiveCapturingContainer{
+    /*background-color: white;*/
+    /*margin: auto;*/
+    /*width: 100%;*/
+    display: inline-block;
+    padding-right:2%;
+    float: right;
+    padding-top:2px;
+    
+}
+
+#ApiMonitoringLiveCapturingContainer .ApiMonitoringLiveCapturingButtonDivs{
+    display:inline-block;
+    /*margin: 2px 2% 2px 2%;*/
+}
+
+/*#ApiMonitoringLiveCapturingContainer #ApiMonitoringStartCapturingButtonDiv #ApiMonitoringStartCapturingButtonDiv{
+   padding: 10px 0px 10px 20px;
+}
+
+#ApiMonitoringLiveCapturingContainer #ApiMonitoringStartCapturingButtonDiv #ApiMonitoringStartCapturingButton{
+    height:25px;
+    padding-left:10px;
+    padding-right:10px;
+}*/
+
+
+#ApiMonitoringLiveCapturingContainer #ApiMonitoringCapturingButtonDiv{
+   /*padding: 10px 0px 10px 20px;*/
+   width:102px;
+}
+
+#ApiMonitoringLiveCapturingContainer #ApiMonitoringCapturingButtonDiv #ApiMonitoringCapturingButton{
+    height:25px;
+    padding-left:10px;
+    padding-right:10px;
+    width:inherit;
+}
+
+/*#ApiMonitoringLiveCapturingContainer #ApiMonitoringStopCapturingButtonDiv {
+   padding: 10px 0px 10px 20px;
+}
+
+#ApiMonitoringLiveCapturingContainer #ApiMonitoringStopCapturingButtonDiv #ApiMonitoringStopCapturingButton{
+    height:25px;
+    padding-left:10px;
+    padding-right:10px;
+}*/
+
+
+.ApiMonitoringBody
+{   
+    font-family:lato !important;
+}
+
+
+.ApiMonitoringMain {
+    width:100%;
+    /*min-height: 500px;*/
+    /*min-height: 416px;*/
+}
+
+.ApiMonitoringMain .ApiMonitoringMainColumns {
+    /*border-top: 2px solid #a4a5a5;*/
+    /*min-height: 500px;*/
+    color: black;
+    /*min-height: 100%;*/
+}
+.ApiMonitoringMain #ApiMonitoringMainLeftColumn {
+     width: 40%;
+     float:left;
+     border-right: 2px solid #a4a5a5;
+     /*background-color: #111;*/     
+     
+     /*overflow:auto;*/
+}
+.ApiMonitoringMain #ApiMonitoringMainRightColumn {
+     margin-left: 40%;
+     /*background-color: #777;*/
+
+     /*Debugging*/
+     overflow-y:auto;
+     overflow-x:hidden;
+
+}
+
+#ApiMonitoringChainHeaderDiv{
+     /*background-color: #ffffff;*/
+     height: 25px;
+     padding-top:5px;
+}
+
+.ChainHeaderText{
+    vertical-align:middle;
+    display:inline-block;
+    font-weight:bold;
+}
+
+.ApiMonitoringChainHeaderColumn1{
+    width:42.75%;
+    padding-left:12px;
+}
+
+.ApiMonitoringChainHeaderColumn2{
+    width:50%;
+}
+
+.ApiMonitoringChainColumn1{
+    width:44%;
+    height: inherit;
+    display:inline-block;
+    padding-left:12px;
+    /*overflow:hidden;*/
+}
+
+.ApiMonitoringChainColumn2{
+    width:25%;
+    height: inherit;
+    display:inline-block;
+    /*white-space:pre;*/
+}
+
+.ApiMonitoringChainColumn2a{
+    width:27%;
+    height: inherit;
+    display:inline-block;
+}
+
+.ApiMonitoringChainColumn2b{
+    width:26%;
+    height: inherit;
+    display:inline-block;
+    float:right;
+}
+
+.ApiMonitoringChainColumn2c{
+    width:26%;
+    display:inline-block;
+    float:right;
+    height: 11px;
+    padding-top: 2px;
+    font-size: 9px;
+    font-style: italic;
+}
+
+.ApiMonitoringChainColumn3{
+    width:5%;
+    height: inherit;
+    display:inline-block;
+}
+
+#ApiMonitoringChainSuperParentDiv{
+    overflow: auto;
+    /*height: 90%;*/
+}
+
+.ApiMonitoringChainParentDiv
+{
+    display: inline-block;
+    /*margin-top: 2px;*/
+    width:100%;
+}
+
+.ApiMonitoringChain {
+    width: 100%;
+    /*border-top: solid 1px #ffac7c;*/
+    /*border-bottom: solid 2px #f6f6f6;*/
+    padding-bottom: 5px;
+    cursor: pointer;
+    /*height: 34px;*/
+    display:none;
+    /*padding-left:5px;*/
+}
+
+.ApiMonitoringChainName 
+{
+    width: 50%;
+    padding: 2px;
+    color: #eab671;
+    display: inline-block;
+    height: 30px;
+    vertical-align: top;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ApiMonitoringChainInfo 
+{
+    display: inline-block; 
+    width: 96%;
+    border-radius: 2px;
+    /*padding: 2px;*/
+    /*background-color: #f1ebeb;*/
+    /*transform: skewX(-30deg);*/
+    height: 45px;
+    /*padding-left: 1%;*/
+    /*padding-right: 1%;*/
+    /*padding-bottom: 4px;*/
+    margin-left:1%;
+    
+}
+
+.ApiMonitoringChainSubInfo1 {    
+    padding-top:5px;
+    height: 15px;  
+    padding-bottom:4px;   
+}
+
+.ApiMonitoringChainSubInfo2 {
+    height: 11px;
+    padding-top:2px;
+    margin-bottom:1px;
+    font-size:9px;   
+    font-style: italic;
+}
+
+
+.ApiMonitoringChainSubInfo 
+{
+    display: inline-block;
+    /*transform: skewX(30deg);*/
+    margin-right: 1px;
+    /*width: 50%;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+    white-space: nowrap;
+    
+    vertical-align: top;
+    
+    margin-right:1%;
+    margin-left:1%;
+}
+
+.chainRightArrow{
+    font-size:15px;
+    display:inline-block;
+    width: 1%;
+    vertical-align:super;
+    margin-left: 0.5%;
+}
+
+/*
+.ApiMonitoringIcon
+{
+    vertical-align: top;
+    margin-right: 9px;
+    display: inline-block;
+    background: #ce9196;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    width: 16px;
+    text-align: center;
+}
+    */
+
+/*.ApiMonitoringRowIcon
+{
+    vertical-align:auto;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    
+    font-size: 12px;
+    color: gray;
+    padding-right: 5px;
+    width: 10px;
+}*/
+
+#ApiMonitoringSelectedApiDetails{
+    display:none;
+}
+
+/*#ApiMonitoringSelectedApiDetails #ApiMonitoringSelectedApiDetailsContainer1{
+    height:50%;
+}*/
+
+#ApiMonitoringSelectedApiDetails .ApiMonitoringSelectedApiDetailsTabsContainer{
+    background-color:#d5d5d5;
+    
+}
+
+#ApiMonitoringSelectedApiDetails .SubTabsContainer{
+    height: 20px;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 5px 12px 0px 12px;
+}
+
+#ApiMonitoringSelectedApiDetails .SubTabsContainer .SubTabItemContainer{
+    display:inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #7d7d7d;
+    cursor:pointer;
+    pointer-events:auto;
+    letter-spacing: 0.2px;
+}
+/*#ApiMonitoringSelectedApiDetails .SubTabsContainer #ApiMonitoringSelectedApiDetailsResponseSubTabViewLogsContainer{
+    float:right;
+    padding-right:12px;
+}*/
+
+
+#ApiMonitoringSelectedApiDetails .SubTabsContainer .SelectedSubTabItem{
+    color: #48a3dd !important;
+    text-decoration:underline;
+    cursor:auto !important;
+    pointer-events:none !important;
+}
+
+#ApiMonitoringSelectedApiDetails .ApiMonitoringSelectedApiDetailsTabsContainer .ApiMonitoringSelectedApiDetailsTabs{
+    padding: 10px 17px 4px 17px;
+    color: #000000;
+    
+}
+#ApiMonitoringSelectedApiDetails .ApiMonitoringSelectedApiDetailsContainerHeaderTextDivs{
+    padding-left: 17px;
+    padding-top:5px;
+    overflow:auto;
+    white-space: pre-line;
+    /*overflow-wrap: break-word;*/
+}
+
+#ApiMonitoringSelectedApiDetails .ApiMonitoringSelectedApiDetailsContainerTextDivs{
+    margin:0px 15px 0px 15px;
+    padding: 5px 2px 2px 2px;
+    overflow:auto;
+    height:90%;
+    /*overflow-wrap: break-word !important;
+    width:90%;*/
+}
+
+#ApiMonitoringSelectedApiDetails .ApiMonitoringSelectedApiDetailsContainerViewLogsTextDivs{
+    padding-left: 17px;
+    padding-top:5px;
+    overflow:auto;
+    white-space: pre-line;
+    height:90%;
+    /*overflow-wrap: break-word;*/
+}
+
+#ApiMonitoringSelectedApiDetails .ApiMonitoringSelectedApiDetailsContainerTextDivs .renderjson:first-child{
+    
+    overflow:auto;
+    height: inherit;
+    margin: 0px;
+}
+/*
+#ApiMonitoringSelectedApiDetails .ApiMonitoringSelectedApiDetailsContainerTextDivs:nth-child(2){
+    
+    overflow:auto;
+    height: 290px;
+    width : 90%;
+}
+
+*/
+
+
+.ApiMonitoringGreyBtnStyle{
+    background-image: linear-gradient(to right, #aca6a6 0, #aca6a6 100%);
+    border: none;
+    background-color: #aca6a6;
+    outline-color: #aca6a6;
+    border-radius: 2px;
+    color: white;
+    height: 22px;
+    /*font-family: 'lato' , Sans-Serif;*/
+    font-size: 12px;
+    padding: 2px 10px;
+    margin-left: 5px;
+    font-weight: 400;
+    width: auto;
+    cursor: pointer;
+}
+
+.ApiMonitoringRedBtnStyle{
+    background-image: linear-gradient(to right, #dd5353 0, #dd5353 100%);
+    border: none;
+    background-color: #dd5353;
+    outline-color: #dd5353;
+    border-radius: 2px;
+    color: white;
+    height: 23px;
+    /*font-family: 'lato' , Sans-Serif;*/
+    font-size: 12px;
+    padding: 1px 10px;
+    /*margin-left: 5px;*/
+    font-weight: 400;
+    /*width: auto;*/
+    cursor: pointer;
+}
+
+/*#ApiMonitoringSelectedApiDetails #ApiMonitoringSelectedApiDetailsContainer1Icons{
+    padding-right:10px;
+}
+
+#ApiMonitoringSelectedApiDetails #ApiMonitoringSelectedApiDetailsContainer2Icons{
+    padding-right:10px;
+}*/
+
+#ApiMonitoringSelectedApiDetails .ApiMonitoringSelectedApiDetailsContainerIconsDiv{
+    /*display : inline-block;*/
+    float : right;
+    padding-bottom : 1px;
+    padding-right : 12px;
+    /*margin-right: 15px;*/
+}
+
+#ApiMonitoringSelectedApiDetails .ApiMonitoringSelectedApiDetailsContainerIconsDiv .ApiMonitoringSelectedApiDetailsContainerIcons{
+    display : inline-block;
+    margin-left : 15px;
+    cursor : pointer;
+}
+
+.ApiMonitoringEllipses {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+ 
+.scroll::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 20px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 20px;
+}
+
+/*.scroll:hover::-webkit-scrollbar {
+  
+  width: 8px;
+}*/

@@ -1,0 +1,1468 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RDAL</name>
+    </assembly>
+    <members>
+        <member name="T:com.ivp.rad.dal.RSQLOLEDBProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:com.ivp.rad.dal.IRDBProvider">
+            <summary>
+            Provides methods for Connections, Adapters related with specific Database providers
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.IRDBProvider.GetConnection(System.String)">
+            <summary>
+            Gets the connection.
+            </summary>
+            <param name="connstring">The connstring.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.IRDBProvider.GetDataAdapter">
+            <summary>
+            Gets the data adapter.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.IRDBProvider.GetCommand">
+            <summary>
+            Gets the command.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.IRDBProvider.GetDataParameter">
+            <summary>
+            Gets the Parameter.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.IRDBProvider.GetDBType(System.String)">
+            <summary>
+            Gets the DBType
+            </summary>
+            <param name="type">type</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.IRDBProvider.GetDBFormattedDate(System.String)">
+            <summary>
+            Gets the formatted date.
+            </summary>
+            <param name="date">The date.</param>
+            <returns></returns>
+        </member>
+        <member name="P:com.ivp.rad.dal.IRDBProvider.DateFormat">
+            <summary>
+            Gets or sets the date format.
+            </summary>
+            <value>The date format.</value>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLOLEDBProvider.GetConnection(System.String)">
+            <summary>
+            Gets the connection.
+            </summary>
+            <param name="connectionString">The connection string.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLOLEDBProvider.GetDataAdapter">
+            <summary>
+            Gets the data adapter.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLOLEDBProvider.GetCommand">
+            <summary>
+            Gets the command.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLOLEDBProvider.GetDataParameter">
+            <summary>
+            Gets the Parameter.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLOLEDBProvider.GetDBType(System.String)">
+            <summary>
+            Converts the type.
+            </summary>
+            <param name="type">The type.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLOLEDBProvider.GetDBFormattedDate(System.String)">
+            <summary>
+            Gets the formatted date.
+            </summary>
+            <param name="date">The date.</param>
+            <returns></returns>
+        </member>
+        <member name="P:com.ivp.rad.dal.RSQLOLEDBProvider.DateFormat">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:com.ivp.rad.dal.ADOOperations.RADOSessionHandler">
+            <summary>
+            Class to handle ADO Session which includes Transaction
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.ADOOperations.RADOSessionHandler.StartADOSession(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Method to be used to start the ado session.
+            </summary>
+            <param name="dbManager">The database manager.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.ADOOperations.RADOSessionHandler.EndADOSession(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Method to end the ADO session.
+            </summary>
+            <param name="dbManager">The database manager.</param>
+        </member>
+        <member name="T:com.ivp.rad.dal.RQueryExecutor">
+            <summary>
+            To execute various queries
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RQueryExecutor.Dispose(System.Boolean)">
+            <summary>
+            Method used to dispose the instance.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RQueryExecutor.ExecuteQuery(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Executes the query.
+            </summary>
+            <param name="dbConnectionManager">The database connection manager.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RQueryExecutor.Init">
+            <summary>
+            Inits this instance.
+            </summary>
+        </member>
+        <member name="T:com.ivp.rad.dal.nhibernate.RNHibernateImpl">
+            <summary>
+            Class for executing database operations using NHibernate
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.IRInserter.DoInsert(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Does the insert.
+            </summary>
+            <param name="dbManager">The db manager.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.IRUpdater.DoUpdate(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Does the update.
+            </summary>
+            <param name="dbManager">The db manager.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.IRDeleter.DoDelete(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Does the delete.
+            </summary>
+            <param name="dbManager">The db manager.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.nhibernate.RNHibernateImpl.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.nhibernate.RNHibernateImpl.DoInsert(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Method to insert the values using NHibernate implementation.
+            </summary>
+            <param name="dbManager"></param>
+        </member>
+        <member name="M:com.ivp.rad.dal.nhibernate.RNHibernateImpl.DoUpdate(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Method to update the values using NHibernate implementation.
+            </summary>
+            <param name="dbManager"></param>
+        </member>
+        <member name="M:com.ivp.rad.dal.nhibernate.RNHibernateImpl.DoDelete(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Method to delete the values using NHibernate Implementation.
+            </summary>
+            <param name="dbManager"></param>
+        </member>
+        <member name="M:com.ivp.rad.dal.nhibernate.RNHibernateImpl.LoadNhibernateEntityClass(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Loads the nhibernate entity class with parameter values.
+            </summary>
+            <param name="dbManager">The dbmanager.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.nhibernate.RNHibernateConfigLoader.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.nhibernate.RNHibernateConfigLoader.BuildSessionFactory(System.String)">
+            <summary>
+            Builds the session factory.
+            </summary>
+            <param name="databaseType">Type of the database.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.nhibernate.RNHibernateSessionHandler.StartHibernateSession(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Method to be used to get the hibernate session.
+            Transaction handling supported.
+            </summary>
+            <param name="dbManager"></param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.nhibernate.RNHibernateSessionHandler.EndHibernateSession(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Method to end the hibernate session.
+            Transaction Handling supported.
+            </summary>
+            <param name="dbConnectionManager">The database connection manager.</param>
+        </member>
+        <member name="T:com.ivp.rad.dal.ROracleDBProvider">
+            <summary>
+            Provides Oracle related Connections and Adapters
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.ROracleDBProvider.GetConnection(System.String)">
+            <summary>
+            Gets the connection.
+            </summary>
+            <param name="connectionString">The connection string.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.ROracleDBProvider.GetDataAdapter">
+            <summary>
+            Gets the data adapter.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.ROracleDBProvider.GetCommand">
+            <summary>
+            Gets the command.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.ROracleDBProvider.GetDataParameter">
+            <summary>
+            Gets the Parameter.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.ROracleDBProvider.GetDBType(System.String)">
+            <summary>
+            Converts the type.
+            </summary>
+            <param name="type">The type.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.ROracleDBProvider.GetDBFormattedDate(System.String)">
+            <summary>
+            Gets the formatted date.
+            </summary>
+            <param name="date">The date.</param>
+            <returns></returns>
+        </member>
+        <member name="P:com.ivp.rad.dal.ROracleDBProvider.DateFormat">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.IRFactory.LoadFactory">
+            <summary>
+            Loads the factory.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.IRFactory.DestroyFactory">
+            <summary>
+            Destroys the factory.
+            </summary>
+        </member>
+        <member name="T:com.ivp.rad.dal.caching.RCacheConstants">
+            <summary>
+            Class containing Cache constants
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.dal.caching.RCacheConstants.CACHESIZE">
+            <summary>
+            Size of Cache
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.dal.caching.RCacheConstants.TIMEOUT">
+            <summary>
+            Timeout for the cache
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.dal.caching.RCacheConstants.MULTIPLICITY">
+            <summary>
+            multiplicity required or not
+            </summary>
+        </member>
+        <member name="T:com.ivp.rad.dal.RSQLODBCDBProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLODBCDBProvider.GetConnection(System.String)">
+            <summary>
+            Gets the connection.
+            </summary>
+            <param name="connectionString">The connection string.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLODBCDBProvider.GetDataAdapter">
+            <summary>
+            Gets the data adapter.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLODBCDBProvider.GetCommand">
+            <summary>
+            Gets the command.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLODBCDBProvider.GetDataParameter">
+            <summary>
+            Gets the Parameter.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLODBCDBProvider.GetDBType(System.String)">
+            <summary>
+            Converts the type.
+            </summary>
+            <param name="type">The type.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLODBCDBProvider.GetDBFormattedDate(System.String)">
+            <summary>
+            Gets the formatted date.
+            </summary>
+            <param name="date">The date.</param>
+            <returns></returns>
+        </member>
+        <member name="P:com.ivp.rad.dal.RSQLODBCDBProvider.DateFormat">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:com.ivp.rad.dal.RQueryType">
+            <summary>
+            Enumeration for Database related operations like Select,Insert,Upate,Delete
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.dal.RQueryType.Select">
+            <summary>
+            Select
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.dal.RQueryType.Insert">
+            <summary>
+            Insert
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.dal.RQueryType.Update">
+            <summary>
+            Update
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.dal.RQueryType.Delete">
+            <summary>
+            Delete
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.dal.RQueryType.SelectSchema">
+            <summary>
+            To select schema only from the query specified
+            </summary>
+        </member>
+        <member name="T:com.ivp.rad.dal.RQueryMaster">
+            <summary>
+            Query Master to be set for execution of SQL Queries
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RQueryMaster.Dispose(System.Boolean)">
+            <summary>
+            Disposes the specified disposing.
+            </summary>
+            <param name="disposing">if set to <c>true</c> [disposing].</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RQueryMaster.GetFinalQuery">
+            <summary>
+            Gets the final query.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RQueryMaster.SetInputParameters(com.ivp.rad.dal.IRDBProvider,com.ivp.rad.utils.RHashlist)">
+            <summary>
+            Validates the input parameter of the query
+            </summary>
+            <param name="dbProvider">The db provider.</param>
+            <param name="queryParameter">The query parameter.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RQueryMaster.ValidateParameterDataType(com.ivp.rad.dal.IRDBProvider,com.ivp.rad.utils.RHashlist)">
+            <summary>
+            Validates the datatype of the parameters.
+            </summary>
+            <param name="dbProvider">The db provider.</param>
+            <param name="queryParameter">The query parameter.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RQueryMaster.ValidateSPParameterName(com.ivp.rad.utils.RHashlist)">
+            <summary>
+            Validates the whether the parameter names defined in database 
+            and QueryParameter hashlist appears at the same sequence and have the same name
+            </summary>
+            <param name="queryParameter">The query parameter.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RQueryMaster.ValidateParameterCount(com.ivp.rad.utils.RHashlist)">
+            <summary>
+            Validates the parameters count for the following
+            1. Count of Parameters passed by user = no of parameters defined in QueryParameter table
+            2. Count of Parameters passed by user = no of parameters defined in QueryMaster table
+            3. no of parameters defined in QueryParameter table
+                    = no of parameters defined in QueryMaster table
+            </summary>
+            <param name="queryParameter">The query parameter.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RQueryMaster.ValidateParameter(System.Data.DbType,System.Object,com.ivp.rad.dal.IRDBProvider)">
+            <summary>
+            Validates the parameter.
+            This method will throw an error if the type cast fails.
+            </summary>
+            <param name="dbType">Type of the database.</param>
+            <param name="value">The value to be validated.</param>
+            <param name="dbProvider">The database provider.</param>
+            <returns>object</returns>
+        </member>
+        <member name="P:com.ivp.rad.dal.RQueryMaster.FinalQuery">
+            <summary>
+            Gets or sets the final query.
+            </summary>
+            <value>The final query.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RQueryMaster.QueryParameter">
+            <summary>
+            Gets or sets the query parameter as specified in QueryParameter table in database
+            </summary>
+            <value>The query parameter.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RQueryMaster.DBName">
+            <summary>
+            Gets or sets the name of the Database.
+            </summary>
+            <value>The name of the Database.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RQueryMaster.HClassName">
+            <summary>
+            Gets or sets the name of the Hibernate class name
+            </summary>
+            <value>The name of the Hibernate class.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RQueryMaster.QueryId">
+            <summary>
+            Gets or sets the query id.
+            </summary>
+            <value>The query id.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RQueryMaster.SQLQueryString">
+            <summary>
+            Sets the sql query
+            </summary>
+            <value>The sql query</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RQueryMaster.NoOfParameters">
+            <summary>
+            Sets the no of parameters.
+            </summary>
+            <value>The no of parameters.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RQueryMaster.QueryType">
+            <summary>
+            Sets the type of the query.
+            </summary>
+            <value>The type of the query.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RQueryMaster.ColumnsNValues">
+            <summary>
+            Sets the query parameters.
+            </summary>
+            <value>The query parameters.</value>
+        </member>
+        <member name="T:com.ivp.rad.dal.RFileFactory">
+            <summary>
+            File factory class for handling DAL operations
+            This class is not in use
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RFileFactory.LoadFactory">
+            <summary>
+            Loads the factory.
+            The method or operation is not implemented.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RFileFactory.DestroyFactory">
+            <summary>
+            Destroys the factory.
+            The method or operation is not implemented.
+            </summary>
+        </member>
+        <member name="T:com.ivp.rad.dal.RSQLDBProvider">
+            <summary>
+            Provides SQLClient related Connections and Adapters
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLDBProvider.GetConnection(System.String)">
+            <summary>
+            Gets the connection.
+            </summary>
+            <param name="connectionString">The connection string.</param>
+            <returns>Connection of Type SqlConnection</returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLDBProvider.GetDataAdapter">
+            <summary>
+            Gets the data adapter.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLDBProvider.GetCommand">
+            <summary>
+            Gets the command.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLDBProvider.GetDataParameter">
+            <summary>
+            Gets the Parameter.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLDBProvider.GetDBType(System.String)">
+            <summary>
+            Converts the type.
+            </summary>
+            <param name="type">The type.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLDBProvider.GetSqlDBType(System.String)">
+            <summary>
+            get sql datatype
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RSQLDBProvider.GetDBFormattedDate(System.String)">
+            <summary>
+            Gets the formatted date.
+            </summary>
+            <param name="date">The date.</param>
+            <returns></returns>
+        </member>
+        <member name="P:com.ivp.rad.dal.RSQLDBProvider.DateFormat">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:com.ivp.rad.dal.RDBManagerConstants">
+            <summary>
+            DBManagerConstants
+            </summary>
+        </member>
+        <member name="T:com.ivp.rad.dal.RBulkCopyExecutor">
+            <summary>
+            Class for performing bulk copy operation on tables in database
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RBulkCopyExecutor.ExecuteBulkCopy(com.ivp.rad.dal.RDBConnectionManager,System.String,System.Data.DataTable,System.Data.SqlClient.SqlBulkCopyOptions,System.Int32)">
+            <summary>
+            Executes the bulk copy operation in database
+            </summary>
+            <param name="dbConnectionManager">The connection manager.</param>
+            <param name="tableName">Name of the table present in the database</param>
+            <param name="dtTableData">The Datatable object containing table data to be inserted in the database</param>
+            <param name="option">SqlBulkCopyOptions</param>
+        </member>
+        <member name="T:com.ivp.rad.dal.ADOOperations.RADOSelector">
+            <summary>
+            To perform select operations on database
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.IRSelector.DoSelect(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Does the select operation
+            </summary>
+            <param name="dbManager">The DBManager object</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.ADOOperations.RADOSelector.DoSelect(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Does the select operation
+            </summary>
+            <param name="dbConnectionManager">The database connection manager.</param>
+            <returns></returns>
+        </member>
+        <member name="T:com.ivp.rad.dal.nhibernate.RNHibernateTransaction">
+            <summary>
+            Transaction handler class for NHibernate
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.IRTransaction.GetTransaction">
+            <summary>
+            This method needs to be used to get the transaction out for performing multiple queries
+            in the same context. The implementation of this method would ensure how the transaction 
+            is created and handled in the same.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.IRTransaction.SetTransaction(System.Object,System.Object[])">
+            <summary>
+            Use this method to set transaction related values that might be needed for transaction
+            processing.
+            </summary>
+            <param name="transaction"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:com.ivp.rad.dal.IRTransaction.CommitTransaction">
+            <summary>
+            Call this method to commit all the changes done in the transaction.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.IRTransaction.RollbackTransaction">
+            <summary>
+            Call this method to rollback all the changes done in the transaction.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.nhibernate.RNHibernateTransaction.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:com.ivp.rad.dal.nhibernate.RNHibernateTransaction"/> class.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.nhibernate.RNHibernateTransaction.GetTransaction">
+            <summary>
+            This method needs to be used to get the transaction out for performing multiple queries
+            in the same context. The implementation of this method would ensure how the transaction 
+            is created and handled in the same.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.nhibernate.RNHibernateTransaction.CommitTransaction">
+            <summary>
+            Call this method to commit all the changes done in the transaction.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.nhibernate.RNHibernateTransaction.RollbackTransaction">
+            <summary>
+            Call this method to rollback all the changes done in the transaction.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.nhibernate.RNHibernateTransaction.SetTransaction(System.Object,System.Object[])">
+            <summary>
+            Use this method to set transaction related values that might be needed for transaction
+            processing.
+            </summary>
+            <param name="tran">The transaction object.</param>
+            <param name="args">The array of arguments.</param>
+        </member>
+        <member name="T:com.ivp.rad.dal.nhibernate.IRNHibernate">
+            <summary>
+            Interface for NHibernate custom implementation
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.nhibernate.IRNHibernate.setClassValues(com.ivp.rad.utils.RHashlist)">
+            <summary>
+            Each hibernate object class is expected to implement this method to set the values 
+            required for processing.
+            </summary>
+            <param name="valueTable"></param>
+        </member>
+        <member name="T:com.ivp.rad.dal.caching.RCacheFactory">
+            <summary>
+            Cache Factory class for Caching the objects
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.caching.RCacheFactory.LoadFactory">
+            <summary>
+            Method used to load the factory. This will ensure that the instance
+            created is a singleton.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.caching.RCacheFactory.Init">
+            <summary>
+            Initialize all instance variables in this method.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.caching.RCacheFactory.DestroyFactory">
+            <summary>
+            Method used to dispose the factory instance.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.caching.RCacheFactory.GetCache(System.Boolean,System.Collections.Hashtable)">
+            <summary>
+            Method to be used to get the cache. 
+            </summary>
+            <param name="newCache">Indicates whether a new cache is required.</param>
+            <param name="cacheParameters">Parameter list for the cache.</param>
+            <returns>Cache Object of type RObjectCache</returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.caching.RCacheFactory.GetCache">
+            <summary>
+            Method will return the default instance of the cache that is stored with this factory.
+            </summary>
+            <returns>Cache Object of type RObjectCache</returns>
+        </member>
+        <member name="T:com.ivp.rad.dal.RDALException">
+            <summary>
+            Provide methods related to DAL Exception
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDALException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:com.ivp.rad.dal.RDALException"/> class.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDALException.#ctor(System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:com.ivp.rad.dal.RDALException"/> class.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDALException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:com.ivp.rad.dal.RDALException"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDALException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:com.ivp.rad.dal.RDALException"/> class.
+            </summary>
+            <param name="message">The message.</param>
+            <param name="ex">The ex.</param>
+        </member>
+        <member name="P:com.ivp.rad.dal.RDALException.HResultDAL">
+            <summary>
+            Gets or sets HRESULT, a coded numerical value that is assigned to a specific exception.
+            </summary>
+            <value></value>
+            <returns>The HRESULT value.</returns>
+        </member>
+        <member name="T:com.ivp.rad.dal.RQueryParameter">
+            <summary>
+            Query Parameters to be set for execution of SQL Queries
+            </summary>
+        </member>
+        <member name="P:com.ivp.rad.dal.RQueryParameter.ParamLength">
+            <summary>
+            Gets or sets the length of the parameter.
+            </summary>
+            <value>The length of the parameter.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RQueryParameter.ParamType">
+            <summary>
+            Gets or sets the type of the parameter.
+            </summary>
+            <value>The type of the parameter.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RQueryParameter.ParamSequence">
+            <summary>
+            Gets or sets the parameter sequence.
+            </summary>
+            <value>The parameter sequence.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RQueryParameter.ParamDataType">
+            <summary>
+            Gets or sets the type of the parameter data.
+            </summary>
+            <value>The type of the parameter data.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RQueryParameter.ParamName">
+            <summary>
+            Gets or sets the name of the parameter.
+            </summary>
+            <value>The name of the parameter.</value>
+        </member>
+        <member name="T:com.ivp.rad.dal.RQueryManager">
+            <summary>
+            To extract queries from the database
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RQueryManager.Dispose(System.Boolean)">
+            <summary>
+            Disposes the instance of this class
+            </summary>
+            <param name="disposing">if set to <c>true</c> [disposing].</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RQueryManager.Init">
+            <summary>
+            Inits this instance.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RQueryManager.GetQuery(System.String,com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Gets the query.
+            </summary>
+            <param name="queryID">The query ID.</param>
+            <param name="dbManager">The db connection manager.</param>
+            <returns>object of type RQueryParameter</returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RQueryManager.GetQueryMaster(System.Data.DataSet)">
+            <summary>
+            Gets the query master.
+            </summary>
+            <param name="dsQueryInfo">The ds query info.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RQueryManager.GetQueryMaster(System.String)">
+            <summary>
+            Gets the query parameter.
+            </summary>
+            <param name="queryID">The query ID.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RQueryManager.PutQuery(System.String,com.ivp.rad.dal.RQueryMaster)">
+            <summary>
+            Puts the query.
+            </summary>
+            <param name="queryID">The query ID.</param>
+            <param name="queryMaster">The query master.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RQueryManager.Destroy">
+            <summary>
+            Destroys this instance.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RQueryManager.GetSelectQuery(System.String)">
+            <summary>
+            Gets the select query.
+            </summary>
+            <param name="queryId">The query id.</param>
+            <returns></returns>
+        </member>
+        <member name="T:com.ivp.rad.dal.RDBConnectionManager">
+            <summary>
+            Provide methods to work around database
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBConnectionManager.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:com.ivp.rad.dal.RDBConnectionManager"/> class.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBConnectionManager.InitManager">
+            <summary>
+            Inits the manager.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBConnectionManager.Dispose(System.Boolean)">
+            <summary>
+            Disposes the instance of this class
+            </summary>
+            <param name="disposing">if set to <c>true</c> [disposing].</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBConnectionManager.ExecuteQuery(System.String,com.ivp.rad.utils.RHashlist)">
+            <summary>
+            Executes the query.
+            </summary>
+            <param name="queryId">The query id.</param>
+            <param name="queryParameters">The query parameters.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBConnectionManager.ExecuteQuery(System.String,com.ivp.rad.utils.RHashlist,System.Boolean)">
+            <summary>
+            Executes the query.
+            </summary>
+            <param name="queryId">The query id.</param>
+            <param name="queryParameters">The query parameters.</param>
+            <param name="skipORM">if set to <c>true</c> [skip ORM].</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBConnectionManager.ExecuteQuery(System.String,com.ivp.rad.dal.RQueryType)">
+            <summary>
+            Executes the query.
+            </summary>
+            <param name="queryText">The query text.</param>
+            <param name="queryType">Type of the query.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBConnectionManager.ExecuteQueryToGetSchema(System.String)">
+            <summary>
+            Executes the query.
+            </summary>
+            <param name="tableName">Name of the table.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBConnectionManager.ExecuteProcedure(System.String,com.ivp.rad.utils.RHashlist)">
+            <summary>
+            Executes the procedure.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBConnectionManager.ExecuteQuery">
+            <summary>
+            Executes the query for the query master.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBConnectionManager.ExecuteBulkCopy(System.String,System.Data.DataTable,System.Boolean)">
+            <summary>
+            Executes the bulk copy in the database
+            </summary>
+            <param name="tableName">Name of the table in which data has to be copied</param>
+            <param name="dtTableData">The dt table data.</param>
+            <param name="keepIdentity">KeepIdentity</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBConnectionManager.ExecuteBulkCopy(System.String,System.Data.DataTable)">
+            <summary>
+            Executes the bulk copy in the database
+            </summary>
+            <param name="tableName">Name of the table in which data has to be copied</param>
+            <param name="dtTableData">The dt table data.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBConnectionManager.ExecuteBulkCopy(System.String,System.Data.DataTable,System.Int32)">
+            <summary>
+            Executes the bulk copy.
+            </summary>
+            <param name="tableName">Name of the table.</param>
+            <param name="dtTableData">The dt table data.</param>
+            <param name="batchSize">Size of the batch.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBConnectionManager.ExecuteBulkCopy(System.String,System.Data.DataTable,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            Executes the bulk copy.
+            </summary>
+            <param name="tableName">Name of the table.</param>
+            <param name="dtTableData">The dt table data.</param>
+            <param name="batchSize">Size of the batch.</param>
+            <param name="hasTableLock">if set to <c>true</c> [has table lock].</param>
+            <param name="keepIdentity">if set to <c>true</c> [keep identity].</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBConnectionManager.CommitTransaction">
+            <summary>
+            Commits the transaction.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBConnectionManager.RollbackTransaction">
+            <summary>
+            Rollbacks the transaction.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBConnectionManager.SetQueryMaster(System.String,com.ivp.rad.utils.RHashlist)">
+            <summary>
+            Sets the query master.
+            </summary>
+            <param name="queryId">The query id.</param>
+            <param name="queryParameters">The query parameters.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBConnectionManager.CheckIfConnectionManagerIsValid">
+            <summary>
+            Checks if connection manager is valid.
+            </summary>
+        </member>
+        <member name="P:com.ivp.rad.dal.RDBConnectionManager.ConnectionString">
+            <summary>
+            Gets the connection string.
+            </summary>
+            <value>The connection string.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RDBConnectionManager.InUse">
+            <summary>
+            Gets or sets a value indicating whether [in use].
+            </summary>
+            <value><c>true</c> if [in use]; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RDBConnectionManager.LastUsed">
+            <summary>
+            Gets or sets the last used timestamp of DBConnectionManager
+            </summary>
+            <value>The last used datetime</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RDBConnectionManager.DBProvider">
+            <summary>
+            Gets or sets the database provider.
+            </summary>
+            <value>The database provider.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RDBConnectionManager.ConnectionID">
+            <summary>
+            Gets or sets the connection ID.
+            </summary>
+            <value>The connection ID.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RDBConnectionManager.DatabaseType">
+            <summary>
+            Gets or sets the Database Type.
+            </summary>
+            <value>The Database.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RDBConnectionManager.UseTransaction">
+            <summary>
+            Indicates whether the user wants to use transaction scope or not.
+            </summary>
+            <value>Boolean value indicating the status.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RDBConnectionManager.QueryMaster">
+            <summary>
+            Gets or sets the query master.
+            </summary>
+            <value>The query master.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RDBConnectionManager.DBConnection">
+            <summary>
+            Gets or sets the Database connection.
+            </summary>
+            <value>The object of type IDbConnection.</value>
+        </member>
+        <member name="P:com.ivp.rad.dal.RDBConnectionManager.Transaction">
+            <summary>
+            Gets or sets the Transaction
+            </summary>
+            <value>The transaction</value>
+        </member>
+        <member name="T:com.ivp.rad.dal.RXmlParser">
+            <summary>
+            Default XML Parser
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RXmlParser.#ctor">
+            <summary>
+            Default Constructor.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RXmlParser.Parse(System.Object)">
+            <summary>
+            Parses the specified object to parse.
+            </summary>
+            <param name="objectToParse">The object to parse.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RXmlParser.ParseXML(System.String)">
+            <summary>
+            This is the specific method if this parser that takes input as xml and parses it. This 
+            method should be used only if the xml is present in String form to the system. 
+            </summary>
+            <param name="xml"></param>
+            <returns>IRParserResult</returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RXmlParser.GetRootElement">
+            <summary>
+            Returns the root element the document.
+            </summary>
+            <returns>XmlElement</returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RXmlParser.GetDocument">
+            <summary>
+            This method will return the complete document which contains the parsed xml.
+            </summary>
+            <returns>XmlDocument</returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RXmlParser.ResetParser">
+            <summary>
+            This method can be used to reset the parser in running mode.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RXmlParser.GetNodeByName(System.String,System.Int32)">
+            <summary>
+            Gets the name of the node by.
+            </summary>
+            <param name="nodeName">Name of the node.</param>
+            <param name="position">The position.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RXmlParser.GetNodeList(System.String)">
+            <summary>
+            Method returns the node list for a given node name. This will be useful iterating 
+            over several nodes for processing.
+            </summary>
+            <param name="nodeName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RXmlParser.GetElement(System.String,System.Int32)">
+            <summary>
+            This method gives the element for a given name and position. The
+            return value will be an element only if the positional element is 
+            present.
+            </summary>        
+            <param name="elementName"></param>
+            <param name="position"></param>
+            <returns>XmlElement</returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RXmlParser.GetElement(System.Xml.XmlElement,System.String,System.Int32)">
+            <summary>
+            This method is used to get element if parent element is known and
+            the name of the current element is known for which further processing
+            is desired.
+            </summary>
+            <param name="parentElement">XmlElement parentElement.</param>
+            <param name="childElement">String childElement.</param>
+            <param name="position">int position.</param>
+            <returns>XmlElement</returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RXmlParser.GetElementText(System.Xml.XmlElement)">
+            <summary>
+            Method returns text for a given element.
+            </summary>
+            <param name="element">XmlElement element.</param>
+            <returns>String</returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RXmlParser.GetAttributeValue(System.Xml.XmlElement,System.String)">
+            <summary>
+            Method returns value for a particular attribute.
+            </summary>
+            <param name="element">XmlElement element</param>
+            <param name="attribName">String attribName</param>
+            <returns>String</returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RXmlParser.GetAttributeList(System.Xml.XmlElement)">
+            <summary>
+            Method returns the attribute list for a given element. This method
+            will be useful when all attributes will be required for a particular
+            element.
+            </summary>
+            <param name="element">XmlElement element</param>
+            <returns>Hashtable</returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RXmlParser.GetChildNodeCollection(System.Xml.XmlElement)">
+            <summary>
+            Gets the child node collection for a given XMLElement.
+            The collection will include only those nodes which do not have further children.
+            IDictionary returned will have node name as key and Inner Text as the Value
+            </summary>
+            <param name="xmlElement">XmlElement xmlElement.</param>
+            <returns>IDictionary</returns>
+        </member>
+        <member name="T:com.ivp.rad.dal.RProcExecutor">
+            <summary>
+            Executes the stored procedure
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RProcExecutor.ExecuteProcedure(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Executes the procedure.
+            </summary>
+            <param name="dbConnectionManager">The database connection manager.</param>
+            <returns>Hash list</returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RProcExecutor.PutOuputParameters(com.ivp.rad.dal.RDBConnectionManager,com.ivp.rad.utils.RHashlist@,System.Data.IDbCommand)">
+            <summary>
+            Puts the ouput parameters to the hashlist to be returned to the user.
+            </summary>
+            <param name="dbConnectionManager">database connection manager.</param>
+            <param name="htParams">hashlist containing ouput params.</param>
+            <param name="cmd">Command Object</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RProcExecutor.PutDataSet(com.ivp.rad.utils.RHashlist@,System.Data.DataSet)">
+            <summary>
+            Puts the data set in the hashlist to be returned to the user.
+            </summary>
+            <param name="htParams">The ht params.</param>
+            <param name="ds">The ds.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RProcExecutor.SetDBParameter(com.ivp.rad.dal.RDBConnectionManager,System.Data.IDbCommand@)">
+            <summary>
+            Sets the DB parameter against the command object.
+            </summary>
+            <param name="dbConnectionManager">database connection manager.</param>
+            <param name="cmd">Command object.</param>
+            <returns></returns>
+        </member>
+        <member name="T:com.ivp.rad.dal.RDalConfigLoader">
+            <summary>
+            Loads Connnection and Provider related settings
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.dal.RDalConfigLoader.mProviders">
+            <summary>
+            Contains a list of all providers available in configuration file
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.dal.RDalConfigLoader.mConnectionStrings">
+            <summary>
+            Contains a list of all connection string available in configuration file
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.dal.RDalConfigLoader.mNHibernateSettings">
+            <summary>
+            Contains all Nhibernate settings available in configuration file
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.dal.RDalConfigLoader.mQueryOperatorSettings">
+            <summary>
+            Contains a list of all QueryOperator Classes available in configuration file
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.dal.RDalConfigLoader.mConfigSettings">
+            <summary>
+            Contains a list of all data access layer related configuration settings available in configuration file
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.dal.RDalConfigLoader.mDBNamesToReplace">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDalConfigLoader.Dispose(System.Boolean)">
+            <summary>
+            Disposes
+            </summary>
+            <param name="disposing">if set to <c>true</c> [disposing].</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDalConfigLoader.LoadDalConfigSettings">
+            <summary>
+            Loads the dal config settings.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDalConfigLoader.SetQueryOperatorSettings(com.ivp.rad.dal.RXmlParser)">
+            <summary>
+            Sets the query operator settings.
+            </summary>
+            <param name="parser">The parser.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDalConfigLoader.SetNHibernateSettings(com.ivp.rad.dal.RXmlParser)">
+            <summary>
+            Sets the NHibernate settings.
+            </summary>
+            <param name="parser">The parser.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDalConfigLoader.SetConnectionSettings(com.ivp.rad.dal.RXmlParser)">
+            <summary>
+            Sets the connection settings.
+            </summary>
+            <param name="parser">The parser.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDalConfigLoader.SetProviderSettings(com.ivp.rad.dal.RXmlParser)">
+            <summary>
+            Sets the provider settings.
+            </summary>
+            <param name="parser">The parser.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.ADOOperations.RADOTransaction.GetTransaction">
+            <summary>
+            This method needs to be used to get the transaction out for performing multiple queries
+            in the same context. The implementation of this method would ensure how the transaction
+            is created and handled in the same.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.ADOOperations.RADOTransaction.SetTransaction(System.Object,System.Object[])">
+            <summary>
+            Sets the transaction.
+            </summary>
+            <param name="transaction">transaction object</param>
+            <param name="args">The array of arguments</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.ADOOperations.RADOTransaction.CommitTransaction">
+            <summary>
+            Call this method to commit all the changes done in the transaction.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.ADOOperations.RADOTransaction.RollbackTransaction">
+            <summary>
+            Call this method to rollback all the changes done in the transaction.
+            </summary>
+        </member>
+        <member name="T:com.ivp.rad.dal.RDBFactory">
+            <summary>
+            Provides Methods to get ConnectionManager in the application
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBFactory.LoadFactory">
+            <summary>
+            Loads the factory.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBFactory.DestroyFactory">
+            <summary>
+            Destroys the factory.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBFactory.GetConnectionManager(System.String)">
+            <summary>
+            Gets the connection.
+            </summary>
+            <param name="connectionId">The connection id.</param>
+            <returns>Object of RDBManager Type</returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBFactory.GetConnectionString(System.String)">
+            <summary>
+            Gets the connection string.
+            </summary>
+            <param name="connectionID">The connection ID.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBFactory.GetNewConnectionManager(System.String)">
+            <summary>
+            Gets the new connection manager.
+            </summary>
+            <param name="connectionId">The connection id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDBFactory.PutConnectionManager(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Puts the connection manager.
+            </summary>
+            <param name="dbConnectionManager">The database connection manager</param>
+        </member>
+        <member name="T:com.ivp.rad.dal.RDALAbstractFactory">
+            <summary>
+            Abstarct factory class for DAL
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDALAbstractFactory.DestroyFactory(System.Boolean)">
+            <summary>
+            Method used to dispose the factory instance.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDALAbstractFactory.#ctor">
+            <summary>
+            Never initialize the instance
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDALAbstractFactory.LoadFactory">
+            <summary>
+            Loads the factory.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.RDALAbstractFactory.DestroyFactory">
+            <summary>
+            Destroys the factory.
+            </summary>
+        </member>
+        <member name="P:com.ivp.rad.dal.RDALAbstractFactory.DBFactory">
+            <summary>
+            Gets the intance of DB factory.
+            This property implements singleton pattern
+            </summary>
+        </member>
+        <member name="P:com.ivp.rad.dal.RDALAbstractFactory.CacheFactory">
+            <summary>
+            Gets the cache factory.
+            This property implements singleton pattern
+            </summary>
+            <value>The cache factory.</value>
+        </member>
+        <member name="T:com.ivp.rad.dal.ADOOperations.RADOImpl">
+            <summary>
+            Class to execute non queries on database
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.ADOOperations.RADOImpl.DoInsert(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Does the insert.
+            </summary>
+            <param name="dbConnectionManager">The database connection manager.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.ADOOperations.RADOImpl.DoDelete(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Does the delete.
+            </summary>
+            <param name="dbConnectionManager">The database connection manager.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.ADOOperations.RADOImpl.DoUpdate(com.ivp.rad.dal.RDBConnectionManager)">
+            <summary>
+            Does the update.
+            </summary>
+            <param name="dbConnectionManager">The database connection manager.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.ADOOperations.RADOImpl.ExecuteNonQuery">
+            <summary>
+            Executes the non query.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.ADOOperations.RADOImpl.Execute(System.Data.IDbCommand)">
+            <summary>
+            Executes the specified command.
+            </summary>
+            <param name="cmd">Object of IDbCommand</param>
+        </member>
+        <member name="T:com.ivp.rad.dal.caching.RObjectCache">
+            <summary>
+            This class implements a simple object cache. Every effort has been made 
+            to make this class thread safe. However, any discrepancy found in the same
+            should be immediately reported...Sumit
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.caching.RObjectCache.Dispose(System.Boolean)">
+            <summary>
+            Disposes the instance of this class
+            </summary>
+            <param name="disposing">if set to <c>true</c> [disposing].</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.caching.RObjectCache.#ctor">
+            <summary>
+            This constructor will be used to create the cache and should be accessed
+            by the RCacheFactory only.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.caching.RObjectCache.init">
+            <summary>
+            Initialize all instance variables here.        
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.caching.RObjectCache.GetObjectFromCache(System.String)">
+            <summary>
+            Method to be used to get the Object from cache.
+            </summary>
+            <param name="objectKey"></param>
+            <returns>Object stored in the cache</returns>
+        </member>
+        <member name="M:com.ivp.rad.dal.caching.RObjectCache.AddObjectToCache(System.String,System.Object,System.Boolean)">
+            <summary>
+            Method to be used to add object to the cache.
+            </summary>
+            <param name="key">Key of the object to be stored.</param>
+            <param name="cacheObject">The object to be stored.</param>
+            <param name="replaceIfExists">if set to <c>true</c> [replace if exists].</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.caching.RObjectCache.RemoveObjectFromCache(System.String)">
+            <summary>
+            Method to be used to explicitly delete an object from cache. However,
+            developers are suggested to not use this method as far as possible.
+            </summary>
+            <param name="objectKey">Key of the object to be used.</param>
+        </member>
+        <member name="M:com.ivp.rad.dal.caching.RObjectCache.ResetCache">
+            <summary>
+            Method would reset the entire cache and delete all the stored objects.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.caching.RObjectCache.StartCacheMonitor">
+            <summary>
+            Method to start the cache monitor thread that will keep the cache
+            refreshed based on the parameters supplied.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.caching.RObjectCache.StartPersistThread">
+            <summary>
+            This method needs to be explained and implemented once the file 
+            access is finalized.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.dal.caching.RObjectCache.TimeoutCache(System.Object)">
+            <summary>
+            Method will reset the cache when it reaches the specified size.
+            </summary>
+        </member>
+        <member name="P:com.ivp.rad.dal.caching.RObjectCache.TimeOut">
+            <summary>
+            This property is to be used to set the time out value for the cache 
+            objects stored.
+            </summary>
+        </member>
+        <member name="P:com.ivp.rad.dal.caching.RObjectCache.CacheSize">
+            <summary>
+            This property is to be used to set the cache size value. After the 
+            cache size is achieved and a new request is received, then ideally 
+            the system should refresh the cache.
+            </summary>
+        </member>
+        <member name="P:com.ivp.rad.dal.caching.RObjectCache.Multiplicity">
+            <summary>
+            This property is to be used to set the cache multiplicity. This would
+            mean that if the value is set, then multiple objects are stored of 
+            the same type in a stack. However, no versioning control will be 
+            established. So the developer need to be careful while implementing
+            this feature.
+            </summary>
+        </member>
+    </members>
+</doc>

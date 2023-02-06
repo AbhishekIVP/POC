@@ -1,0 +1,427 @@
+﻿body {
+}
+
+.MainDivContainingChoices
+{
+    float: left;
+    /* margin-right: 10px; */
+    /* box-shadow: 5px 5px 10px rgb(231, 231, 231); */
+    /* background-color: white; */
+}
+
+.InnerChoices
+{
+    width: 200px;
+    /* background-color: white; */
+    padding: 2px 5px;
+    PADDING-TOP: 4px;
+    cursor:pointer;
+    box-sizing:border-box;
+    font-size: 12px;
+    font-family: lato;
+    height: 20px;
+    /* margin-bottom: 5px; */
+    padding-bottom: 22px;
+    border-bottom: 1px solid #F6F6F6;
+    color: #4a4949;
+}
+
+.SelectedInnerChoices
+{
+        width: 200px;
+    /* background-color: white; */
+    padding: 2px 5px;
+    cursor:pointer;
+    box-sizing:border-box;
+    font-size: 12px;
+    font-family: lato;
+    height: 20px;
+    /* margin-bottom: 5px; */
+    padding-bottom: 22px;
+    border-bottom: 1px solid #F6F6F6;
+    color: #4a4949;
+    background-color:#F1F2F3;    
+}
+
+.InnerChoices:hover
+{
+    width: 200px;
+    /* background-color: white; */
+    padding: 2px 5px;
+    padding-top:4px;
+    cursor:pointer;
+    box-sizing:border-box;
+    font-size: 12px;
+    font-family: lato;
+    height: 20px;
+    /* margin-bottom: 5px; */
+    padding-bottom: 22px;
+    border-bottom: 1px solid #F6F6F6;
+    color: #4a4949;
+   background-color: #F1F2F3;
+}
+
+.LeftCalendarClass
+{
+    float:left;
+    /* margin-top: 20px; */
+}
+
+.RightCalendarClass
+{
+    float:left;
+}
+ .TextBoxesDiv
+ {
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    /* border-top: 1px solid #DDD; */
+    padding-top: 10px;
+}
+ .LeftFromDiv {
+    width: 50%;  float: left;
+}
+ .LeftFromLabel{
+    margin: 2px 2px;
+    /* margin-top: 5px; */
+}  
+ .LeftFromTextBox{
+    width: 65%;
+    /* border-radius: 5px; */
+    border-radius: 5px;  border: 1px solid #DDD;
+    margin: 2px 0px;
+}   
+ .RightToDiv{
+    width: 50%;  float: left;
+}  
+ .RightToLabel{
+    width: 100%;
+    float: left;
+}  
+ .RightToTextBox{
+    width: 65%;
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    margin: 3px 0px;
+}
+
+.BottomButtonsDiv
+{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+}
+
+.ApplyCustomRange
+{
+    width: 50%;
+    float: left;
+    height: 25px;
+    margin: 3px 0px;
+    background: url(RADDateTimePickerRADDateTimePickerImages/Check.png) no-repeat center;    
+    cursor:pointer;
+}
+
+.CancelCustomRange
+{
+    width: 50%;  
+    float: left;  
+    height: 25px;  
+    cursor:pointer;
+    margin: 3px 0px;
+    background: url(RADDateTimePickerRADDateTimePickerImages/Close.png) no-repeat left;
+}
+
+.T_PLUS_N_DivClass
+{
+    /* background-color: aliceblue; */
+    
+    width: 100%;
+    height: 45px;
+    width: 100%;  height: 45px;  
+    /* background-color: aliceblue; */  /* border-top: 1px solid #DDD; */  
+    padding-top: 5px;
+}
+
+.TDivClass
+{
+    width: 50%;
+    float: left;
+}
+
+
+.TLabelClass
+{
+    width: 100%;
+    float: left;
+    font-family: lato;
+    font-size: 12px;
+}
+
+.TInputClass
+{
+    width: 60%;
+    border-radius: 3px;
+    border: 1px solid #DDD;
+    height: 15px;
+}
+
+
+.NDivClass
+{
+    width: 50%;
+    float: left;
+}
+
+.NLabelClass
+{
+    width: 100%;
+    font-family: lato;
+    float: left;
+    font-size: 12px;
+}
+
+.NInputClass
+{
+    width: 60%;  border-radius: 3px;  border: 1px solid #DDD;  height: 15px;
+}
+
+.SubInnerChoices
+{
+    width: 33%;
+    
+    float: left;
+}
+
+.LastSubInnerChoices
+{
+    padding-right: 10px;
+    float: left;
+}
+
+.LastSubOptionsDivClass
+{
+    position: absolute;
+    width: 173px;
+    background-color: white;
+    z-index: 9999;
+    font-size: 12px;
+    padding: 0px 5px;
+    font-family: lato;
+    box-shadow: 5px 5px 10px rgb(226, 226, 226);
+    border: 1px solid rgb(226, 226, 226);
+}
+.FirstSubOptionsDivClass
+{
+    position: absolute;
+    width: 173px;
+    background-color: white;
+    z-index: 9999;
+    font-size: 12px;
+    padding: 0px 5px;
+    font-family: lato;
+    box-shadow: 5px 5px 10px rgb(226, 226, 226);
+    border: 1px solid rgb(226, 226, 226);
+}
+
+
+.LastSubOptionsOfSubDropDown
+{
+cursor:pointer;    
+padding: 3px;
+width: 100%;
+}
+.LastSubOptionsOfSubDropDown:hover
+{
+cursor:pointer;    
+padding: 3px;
+width: 100%;
+background-color: #F1F2F3;
+}
+
+.FirstSubOptionsOfSubDropDown
+{
+    width:100%;
+    cursor:pointer;    
+    padding: 3px;
+}
+
+.FirstSubOptionsOfSubDropDown:hover
+{
+    width:100%;
+    cursor:pointer;    
+    padding: 3px;
+    background-color: #F1F2F3;
+}
+.LastOptionsSubInnerChoices
+{
+    background: url('RADDateTimePickerRADDateTimePickerImages/arrow_ivp.png') no-repeat right center;
+    width: 90%;
+    
+    /* border-bottom: 1px solid; */
+    float: left;
+    height: 22px;
+}
+
+.FirstOptionsSubInnerChoices
+{
+    background: url('RADDateTimePickerRADDateTimePickerImages/arrow_ivp.png') no-repeat right center;
+    width: 90%;
+    
+    /* border-bottom: 1px solid; */
+    float: left;
+    height: 22px;
+}
+
+
+.RightHeader
+{
+    font-family: lato;
+    font-size: 12px;
+    /* height: 6px; */
+    /*width: 60%;*/
+    /* float: left; */
+    float: right;
+    /* background-color: rgb(239, 239, 239); */
+}
+
+.FirstSubInnerChoices
+{
+    padding-right: 10px;
+    float: left;
+}
+
+.CustomDateLabel
+{
+    float: left;
+    font-size: 10px;
+    color: grey;
+    padding-top: 2px;
+    vertical-align: bottom;
+    line-height: 13px;
+}
+
+.ApplyButtonDiv
+{
+    float: left;
+    width: 2%;
+    cursor: pointer;
+    padding-right: 5px;
+    /* background-color: rgb(234, 232, 232); */
+    text-align: center;
+    padding-left: 4px;
+    color: white;
+    font-family: lato;
+    height: 20px;
+    margin-bottom: 2px;
+    vertical-align: middle;
+    line-height: 18px;
+   /* margin-top: -21px;*/
+    border: 1px solid rgb(215,215,215);
+    border-left: 0px;
+    height: 19px;
+   /* margin-left: -19px;*/
+    background-color: #44D9C6;
+    font-size: 11px;
+}
+.LeftCalendarActualClass {
+    border: 0px;
+}
+
+.ContainerDivDateTimePicker {
+    /* border: 1px solid rgb(234, 234, 234); */
+    box-shadow: 1px 1px 5px rgb(226, 226, 226);
+    background-color: white;
+}
+
+.CurrentDateTimeSelection
+{
+    background-color:#44D9C6;
+}
+
+
+.TPlusNDivHeaderClass {
+    font-size: 10px;
+    font-family: lato;
+}
+
+input.TTextBoxClass {
+    width: 49%;
+    height: 12px;
+    margin-left: 20px;
+    border-radius: 1px;
+    text-indent: 4px;
+    border: 1px solid rgb(183, 181, 181);
+    font-family: lato;
+    font-size: 11px;
+}
+
+input.NTextBoxClass {
+    height: 12px;
+    width: 15%;
+    margin-left: 20px;
+    border-radius: 1px;
+    border: 1px solid rgb(185, 179, 179);
+    font-family: lato;
+    font-size: 11px;
+    text-indent: 4px;
+}
+
+.InputInTMinusN
+{
+width: 28%;
+float:left;    
+height: 10px;
+font-family: Lato;
+font-size: 10px;
+
+}
+
+.LabelInTMinusN
+{
+float:left;    
+margin-right: 8px;
+}
+
+
+.EndingLabelInTMinusN {
+    float: left;
+    margin-left: 10px;
+    /* font-family: lato; */
+}
+
+.TMinusNInnerChoice
+{
+      width: 200px;
+    /* background-color: white; */
+    padding: 2px 5px;
+    cursor:pointer;
+    box-sizing:border-box;
+    font-size: 12px;
+    font-family: lato;
+    height: 20px;
+    /* margin-bottom: 5px; */
+    padding-bottom: 22px;
+    border-bottom: 1px solid #F6F6F6;
+    color: #4a4949;
+}
+
+
+.RightCalendarActualClass {
+    border: 0px;
+}
+
+.xdsoft_customTimeBox {
+    width: 87px;
+    margin-left: -3px;
+}
+
+.xdsoft_custom_next {
+    margin-left: 25px !important;
+}
+
+
+.xdsoft_custom_prev {
+    margin-left: 25px !important;
+}

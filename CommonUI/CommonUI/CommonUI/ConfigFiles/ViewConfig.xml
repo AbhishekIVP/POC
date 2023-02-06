@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ViewManagement>
+  <StaticUserControls>
+    <view identifier="TopPanel"><![CDATA[BaseUserControls/UIControls/SMTopPanel.ascx]]></view>
+    <view identifier="BottomPanel"><![CDATA[BaseUserControls/UIControls/SMBottomPanel.ascx]]></view>
+    <!--<view identifier="MainPanel"><![CDATA[CoreControls/SMSearchNew1.ascx]]></view>-->
+  </StaticUserControls>
+
+  <LitePages>
+    <view identifier="RefMasterLite"><![CDATA[RefMasterLite.aspx]]></view>
+    <view identifier="CorpActionLite"><![CDATA[CorpActionLite.aspx]]></view>
+    <view identifier="RADLite"><![CDATA[RADLite.aspx]]></view>
+  </LitePages>
+
+  <Home>
+    <view identifier="Home"><![CDATA[SMHome.aspx]]></view>
+  </Home>
+
+  <VendorManagementWizardControls>
+    <view identifier="VendorInterfaceManagement"><![CDATA[UpstreamControls/SMVendorInterfaceMgt.ascx]]></view>
+    <view identifier="TransportTaskSummary"><![CDATA[UpstreamControls/SMTransportSummary.ascx]]></view>    
+    <view identifier="FeedSetup"><![CDATA[UpstreamControls/SMFeedSetup.ascx]]></view>
+    <view identifier="FeedSummary"><![CDATA[UpstreamControls/SMFeedSummary.ascx]]></view>
+    <view identifier="FeedMerging"><![CDATA[UpstreamControls/SMFeedMerging.ascx]]></view>
+    <view identifier="FeedMapping"><![CDATA[UpstreamControls/SMFeedMapping.ascx]]></view>
+    <view identifier="RuleValidation"><![CDATA[CoreControls/SMRuleUINew.ascx]]></view>
+    <view identifier="LoadingTaskSetup"><![CDATA[UpstreamControls/SMLoadingTaskSetup.ascx]]></view>
+    <view identifier="SelectSecurityType"><![CDATA[UpstreamControls/SMSelectSecurityType.ascx]]></view>
+    <view identifier="FieldMapping"><![CDATA[UpstreamControls/SMFieldMapping.ascx]]></view>
+    <view identifier="RuleFilter"><![CDATA[CoreControls/SMRuleUINew.ascx]]></view>
+    <view identifier="ActionIdentifier"><![CDATA[UpstreamControls/SMActionIdentifier.ascx]]></view>
+    <view identifier="RuleTransformation"><![CDATA[CoreControls/SMRuleUINew.ascx]]></view>
+    <view identifier="APIFTPRuleFilter"><![CDATA[CoreControls/SMRuleUINew.ascx]]></view>
+    <view identifier="LicenseSetup"><![CDATA[UpstreamControls/SMLicenseSetup.ascx]]></view>    
+    <view identifier="SubscriptionSetup"><![CDATA[UpstreamControls/SMSubscriptionSetup.ascx]]></view>
+    <view identifier="MergingTaskSetup"><![CDATA[UpstreamControls/SMMergingTaskSetup.ascx]]></view>
+    <view identifier="ImportAPITaskSetup"><![CDATA[UpstreamControls/SMAPIImportSetup.ascx]]></view>
+    <view identifier="FTPTaskSetup"><![CDATA[UpstreamControls/SMFTPRequestResponse.ascx]]></view>    
+    <view identifier="IdentifierSetup"><![CDATA[UpstreamControls/SMIdentifierSetup.ascx]]></view>
+    <view identifier="IdentifierLoadingSetup"><![CDATA[UpstreamControls/SMIdentifierLoadingSetup.ascx]]></view>
+    <view identifier="IdentifierFeedSummary"><![CDATA[UpstreamControls/SMIdentifierFeedSummary.ascx]]></view>
+    <view identifier="RelatedAttributes"><![CDATA[UpstreamControls/SMSectypeRelatedIssueAtributes.ascx]]></view>
+  </VendorManagementWizardControls>
+
+  <VendorPriorityWizardControls>
+    <view identifier="DummyGrid"><![CDATA[DummyGrid.aspx]]></view>
+    <view identifier="CreateSecurityNew"><![CDATA[SMCreateUpdateSecurityNew.aspx]]></view>
+    <view identifier="UpdateSecurityNew"><![CDATA[SMCreateUpdateSecurityNew.aspx]]></view>
+    <view identifier="CreateEditMultiple"><![CDATA[SMCreateEditMultipleSecurities.aspx]]></view>
+    <view identifier="RequestSecurity"><![CDATA[SMRequestSecurity.aspx]]></view>
+    <view identifier="WorkflowInbox"><![CDATA[SMWorkflowInbox.aspx]]></view>
+    <view identifier="Search"><![CDATA[SMSearch.aspx]]></view>
+    <view identifier="SearchVendor"><![CDATA[SMSearchVendor.aspx]]></view>
+    <view identifier="UnderlyingSecurity"><![CDATA[SMUnderlierDetails.aspx]]></view>
+    <view identifier="SecurityDrafts"><![CDATA[SMSecurityDrafts.aspx]]></view>
+    <view identifier="BackgroundSecurityStatus"><![CDATA[SMRealTimeSecurityStatus.aspx]]></view>
+    <view identifier="ExternalSystemStatus"><![CDATA[SMDownstreamSystemStatus.aspx]]></view>
+    <view identifier="CorporateActionStatus"><![CDATA[SMCorporateActionStatus.aspx]]></view>
+    <view identifier="EditBulkSecurities"><![CDATA[SMEditMulitpleSecurities.aspx]]></view>
+    <view identifier="CreateBulkSecurity"><![CDATA[SMCreateBulkSecurity.aspx]]></view>
+    <view identifier="UpdateBulkSecurity"><![CDATA[SMUpdateBulkSecurity.aspx]]></view>
+    <view identifier="CreateMultipleSecuritiesAndDerivatives"><![CDATA[SMCreateMultipleSecuritiesAndDerivatives.aspx]]></view>
+    <view identifier="WorkflowStatus"><![CDATA[WorkflowStatus.aspx]]></view>
+    
+    <!--<view identifier="CreateEditMultiple"><![CDATA[CoreControls/SMCreateEditMultipleSecurities.ascx]]></view>
+    <view identifier="RequestSecurity"><![CDATA[CoreControls/SMRequestSecurity.ascx]]></view>
+    <view identifier="WorkflowInbox"><![CDATA[CoreControls/SMWorkflowInbox.ascx]]></view>
+    <view identifier="Search"><![CDATA[CoreControls/SMSearchNew1.ascx]]></view>
+    <view identifier="SearchVendor"><![CDATA[CoreControls/SMSearchVendor.ascx]]></view>
+    <view identifier="UnderlyingSecurity"><![CDATA[CoreControls/SMUnderlyingDetails.ascx]]></view>
+    <view identifier="SecurityDrafts"><![CDATA[CoreControls/SMSecurityDrafts.ascx]]></view>
+    <view identifier="BackgroundSecurityStatus"><![CDATA[CoreControls/SMRealTimeSecurityStatus.ascx]]></view>
+		<view identifier="ExternalSystemStatus"><![CDATA[DownstreamControls/SMDownstreamSystemStatusNew.ascx]]></view>
+		<view identifier="CorporateActionStatus"><![CDATA[DownstreamControls/SMCorporateActionStatus.ascx]]></view>
+    <view identifier="EditBulkSecurities"><![CDATA[UpstreamControls/SMBulkEdit.ascx]]></view>
+    <view identifier="CreateBulkSecurity"><![CDATA[CoreControls/SMCreateBulkSecurity.ascx]]></view>
+		<view identifier="UpdateBulkSecurity"><![CDATA[CoreControls/SMUpdateBulkSecurity.ascx]]></view>
+		<view identifier="CreateMultipleSecuritiesAndDerivatives"><![CDATA[CoreControls/SMCreateMultipleSecuritiesAndDerivatives.ascx]]></view>-->    
+    <view identifier="AttributeException"><![CDATA[CoreControls/SMAttributeException.ascx]]></view>
+    <view identifier="SecTypeVendorPriority"><![CDATA[UpstreamControls/SMSecTypeVendorPriority.ascx]]></view>
+    <view identifier="AttributeLevelPriority"><![CDATA[UpstreamControls/SMAttributeLevelPriority.ascx]]></view>
+    <view identifier="SecurityLevelPriority"><![CDATA[UpstreamControls/SMSecurityLevelPriority.ascx]]></view>
+    <view identifier="SubscriptionSetUpPriority"><![CDATA[UpstreamControls/SubscriptionSetUpPriority.ascx]]></view>
+    <view identifier="Undo"><![CDATA[UpstreamControls/SMUndo.ascx]]></view>
+    <view identifier="PrioritizationFlowSetup"><![CDATA[CoreControls/SMTaskMaster.ascx]]></view>
+    <view identifier="DefaultManager"><![CDATA[CoreControls/SMDefaultManager.ascx]]></view>    
+    <view identifier="CreateHierarchyExisting"><![CDATA[SMCreateHierarchyExisting.aspx]]></view>
+    <view identifier="CreateHierarchyCustom"><![CDATA[CoreControls/SMCreateHierarchyCustom.ascx]]></view>
+    <view identifier="DisplayHierarchyExisting"><![CDATA[SMDisplayHierarchyExisting.aspx]]></view>               
+    <view identifier="CreateWorkFlow"><![CDATA[CoreControls/SMCreateWorkFlow.ascx]]></view>    
+    <view identifier="TimeSeriesBulkUpdate"><![CDATA[SMTimeSeriesBulkUpdate.aspx]]></view>
+    <view identifier="Bsym"><![CDATA[SMBsym.aspx]]></view>
+  </VendorPriorityWizardControls>
+
+  <SectypeManagementWizardControls>
+    <view identifier="SectypeModeller"><![CDATA[SectypeModeller.aspx]]></view>
+    <view identifier="RuleSummaryCommonPush"><![CDATA[SMRuleSummaryDetails.aspx]]></view>
+    <view identifier="ImpactedSecurities"><![CDATA[SMImpactSecurities.aspx]]></view>
+    <!--<view identifier="RuleSummaryCommonPush"><![CDATA[CoreControls/SMRuleSummaryCommonPush.ascx]]></view>
+    <view identifier="ImpactedSecurities"><![CDATA[CoreControls/SMImpactedSecurities.ascx]]></view>-->
+    <view identifier="SectypeInterfaceManagement"><![CDATA[CoreControls/SectypeManagement/SMSectypeInterfaceManagement.ascx]]></view>
+    <view identifier="ManageCommonAttributes"><![CDATA[CoreControls/SectypeManagement/SMManageCommonAttributes.ascx]]></view>
+    <view identifier="AttributeManagement"><![CDATA[CoreControls/SectypeManagement/SMAttributeManagement.ascx]]></view>
+    <view identifier="DefaultManagement"><![CDATA[CoreControls/SMDefaultManager.ascx]]></view>
+    <view identifier="LayoutManagement"><![CDATA[CoreControls/SectypeManagement/SMLayoutSetup.ascx]]></view>
+    <view identifier="MasterDetails"><![CDATA[CoreControls/SectypeManagement/SMSectypeMasterDetails.ascx]]></view>
+    <view identifier="LegDetails"><![CDATA[CoreControls/SectypeManagement/SMSectypeLegDetails.ascx]]></view>
+    <view identifier="SectypeSetup"><![CDATA[CoreControls/SectypeManagement/SMSectypeSetup.ascx]]></view>
+    <view identifier="TabManagement"><![CDATA[CoreControls/SectypeManagement/SMTabManagement.ascx]]></view>
+    <view identifier="Mnemonics"><![CDATA[CoreControls/SectypeManagement/SMAddMnemonics.ascx]]></view>
+    <view identifier="ManagePageConfiguration"><![CDATA[CoreControls/SectypeManagement/SMManagePageConfiguration.ascx]]></view>
+    <view identifier="SectypeRuleValidation"><![CDATA[CoreControls/SMRuleXUI.ascx]]></view>
+    <view identifier="SectypeAttributeRuleSetup"><![CDATA[CoreControls/SMRuleCreation.ascx]]></view>
+    <view identifier="MnemonicsRuleSetup"><![CDATA[CoreControls/SMRuleCreation.ascx]]></view>
+    <view identifier="TransformationRuleSetup"><![CDATA[CoreControls/SMRuleCreation.ascx]]></view>
+    <view identifier="ValidationRuleSetup"><![CDATA[CoreControls/SMRuleCreation.ascx]]></view>
+    <view identifier="AlertSetup"><![CDATA[CoreControls/SMRuleCreation.ascx]]></view>
+    <view identifier="CommonPush"><![CDATA[CoreControls/SMCommonPushNew.ascx]]></view>
+    <view identifier="BasketRuleSetup"><![CDATA[CoreControls/SMBasketValidationRuleCreation.ascx]]></view>
+    <view identifier="ConditionalFilter"><![CDATA[CoreControls/SMConditionalFilter.ascx]]></view>
+    <view identifier="FTPPullTask"><![CDATA[UpstreamControls/SMFTPPullTask.ascx]]></view>
+  </SectypeManagementWizardControls>
+
+  <ReportManagementWizardControls>
+    <view identifier="ReportInterfaceManagement"><![CDATA[DownstreamControls/SMReportInterfaceMgt.ascx]]></view>
+    <view identifier="SelectReportType"><![CDATA[DownstreamControls/SMReportTypeSelector.ascx]]></view>
+    <view identifier="ReportSetup"><![CDATA[DownstreamControls/SMReportSetup.ascx]]></view>
+    <view identifier="SelectReportAttributes"><![CDATA[DownstreamControls/SMReportSelectAttributes.ascx]]></view>
+    <view identifier="ReportSummary"><![CDATA[DownstreamControls/SMReportSummary.ascx]]></view>
+    <view identifier="ReportMapping"><![CDATA[DownstreamControls/SMReportMapping.ascx]]></view>
+    <view identifier="ReportConfigurationSetup"><![CDATA[DownstreamControls/SMReportConfiguration.ascx]]></view>
+    <view identifier="ExtractionTaskSetup"><![CDATA[DownstreamControls/SMExtractionTaskSetup.ascx]]></view>
+    <view identifier="ReportSubscriptionSetup"><![CDATA[DownstreamControls/SMReportSubscriptionSetup.ascx]]></view>
+    <view identifier="ReportSystemCreation"><![CDATA[DownstreamControls/SMCreateReportSystem.ascx]]></view>
+    <view identifier="ReportSystemMapping"><![CDATA[DownstreamControls/SMReportSystemMapping.ascx]]></view>
+    <view identifier="ReportingTask"><![CDATA[DownstreamControls/SMReportingTaskSetup.ascx]]></view>
+    <view identifier="ValidationTask"><![CDATA[DownstreamControls/SMEodValidationTask.ascx]]></view>
+    <view identifier="ReportRuleFilter"><![CDATA[CoreControls/SMRuleUINew.ascx]]></view>
+    <view identifier="ReportRuleTransformation"><![CDATA[CoreControls/SMRuleUINew.ascx]]></view>
+    <!--<view identifier="ViewReport"><![CDATA[ReportingControls/SMViewReport.ascx]]></view>
+		<view identifier="VendorSetupReport"><![CDATA[ReportingControls/SMVendorSummaryReport.ascx]]></view>
+		<view identifier="RepositorySetupReport"><![CDATA[ReportingControls/SMRepositorySummaryReport.ascx]]></view>
+		<view identifier="WorkflowSetupReport"><![CDATA[ReportingControls/SMWorkflowSummaryReport.ascx]]></view>
+		<view identifier="RequestStatusReport"><![CDATA[ReportingControls/SMRequestSummaryReport.ascx]]></view>
+		<view identifier="VendorPrioritizationSetupReport"><![CDATA[ReportingControls/SMVendorPrioritizationReport.ascx]]></view>
+		<view identifier="MissingMandatoryAttributeReport"><![CDATA[ReportingControls/SMMandatoryAttributeReport.ascx]]></view>
+		<view identifier="VendorFailedResponseReport"><![CDATA[ReportingControls/SMLicenseSetupReport.ascx]]></view>
+		<view identifier="SectypeMappingSummaryReport"><![CDATA[ReportingControls/SMSectypeMappingSummaryReport.ascx]]></view>
+		<view identifier="DeletedSecurityReport"><![CDATA[ReportingControls/SMDeletedSecurityReport.ascx]]></view>
+		<view identifier="AttributeLevelAuditHistoryReport"><![CDATA[ReportingControls/SMAttributeLevelAuditHistoryReport.ascx]]></view>
+		<view identifier="PrivilegeMappingReport"><![CDATA[ReportingControls/SMPrivilegeMappingReport.ascx]]></view>
+		<view identifier="RuleSetupSummaryReport"><![CDATA[CoreControls/SMRuleSummary.ascx]]></view>
+    <view identifier="RealTimeSecurityRequestStatusReport"><![CDATA[UpstreamControls/RealTimePreference/SMRealTimeRequestStatus.ascx]]></view>-->
+    <view identifier="ViewReport"><![CDATA[SMViewReport.aspx]]></view>
+    <view identifier="VendorSetupReport"><![CDATA[SMVendorSummaryReport.aspx]]></view>
+    <view identifier="RepositorySetupReport"><![CDATA[SMRepositorySummaryReport.aspx]]></view>
+    <view identifier="WorkflowSetupReport"><![CDATA[SMWorkflowSummaryReport.aspx]]></view>
+    <view identifier="RequestStatusReport"><![CDATA[SMRequestSummaryReport.aspx]]></view>
+    <view identifier="VendorPrioritizationSetupReport"><![CDATA[SMVendorPrioritizationReport.aspx]]></view>
+    <view identifier="MissingMandatoryAttributeReport"><![CDATA[SMMandatoryAttributeReport.aspx]]></view>
+    <view identifier="VendorFailedResponseReport"><![CDATA[SMLicenseSetupReport.aspx]]></view>
+    <view identifier="SectypeMappingSummaryReport"><![CDATA[SMSectypeMappingSummaryReport.aspx]]></view>
+
+    <view identifier="SecuritiesActionReport"><![CDATA[SMSecuritiesActionReport.aspx]]></view>
+    <view identifier="AttributeLevelAuditHistoryReport"><![CDATA[SMAttributeLevelAuditHistoryReport.aspx]]></view>
+    <view identifier="PrivilegeMappingReport"><![CDATA[SMPrivilegeMappingReport.aspx]]></view>
+    <view identifier="RuleSetupSummaryReport"><![CDATA[SMRuleSummary.aspx]]></view>
+    <view identifier="RealTimeSecurityRequestStatusReport"><![CDATA[SMRealTimeRequestStatus.aspx]]></view>
+  </ReportManagementWizardControls>
+
+  <RealTimePreferenceWizard>
+    <view identifier="RealTimePreferenceManagement"><![CDATA[UpstreamControls/RealTimePreference/SMRealTimePreferenceManagement.ascx]]></view>
+    <view identifier="BulkPreferenceSetup"><![CDATA[UpstreamControls/RealTimePreference/SMBulkPreferneceSetup.ascx]]></view>
+    <view identifier="MasterPreferenceSetup"><![CDATA[UpstreamControls/RealTimePreference/SMMasterPreferenceSetup.ascx]]></view>
+    <view identifier="LegPreferenceSetup"><![CDATA[UpstreamControls/RealTimePreference/SMLegPreferenceSetup.ascx]]></view>
+    <view identifier="ConstituentPreferenceSetup"><![CDATA[UpstreamControls/RealTimePreference/SMConstituentPreferenceSetup.ascx]]></view>
+    <view identifier="RTPRuleFilter"><![CDATA[CoreControls/SMRuleUI.ascx]]></view>
+    <!--<view identifier="RTPRuleFilter"><![CDATA[CoreControls/SMRuleUINew.ascx]]></view>-->
+    <view identifier="RTPMapping"><![CDATA[UpstreamControls/RealTimePreference/SMRTPMapping.ascx]]></view>
+    <view identifier="BloombergPreferenceSetup"><![CDATA[UpstreamControls/RealTimePreference/SMPreferenceSetup.ascx]]></view>
+    <view identifier="RealTimePrefSetup"><![CDATA[UpstreamControls/RealTimePreference/SMRealTimePrefSetup.ascx]]></view>
+    <view identifier="WSOPrefSetup"><![CDATA[UpstreamControls/RealTimePreference/SMWSOPreferenceSetup.ascx]]></view>
+    <view identifier="WSORealTimePrefSetup"><![CDATA[UpstreamControls/RealTimePreference/SMWSORealTimePreferenceSetup.ascx]]></view>
+  </RealTimePreferenceWizard>
+
+  <ExceptionControls>
+    <view identifier="ExceptionManager"><![CDATA[SMExceptionManager.aspx]]></view>
+    <view identifier="VendorExceptionTypes"><![CDATA[SMVendorException.aspx]]></view>
+    <view identifier="NoVendorRecordAvailable"><![CDATA[SMVendorException.aspx]]></view>
+    <view identifier="UnmatchedSecurity"><![CDATA[SMVendorException.aspx]]></view>
+  </ExceptionControls>
+
+  <Others>
+    <view identifier="GetUndoTaskStatus"><![CDATA[UpstreamControls/SMUndoTaskStatus.ascx]]></view>
+    <view identifier="SecurityActivation"><![CDATA[SMSecurityActivationStatus.aspx]]></view>
+    <!--<view identifier="GetTaskStatus"><![CDATA[SMTaskStatus.aspx]]></view>-->
+    <view identifier="CustomReportViewer"><![CDATA[SMCustomReportViewer.aspx]]></view>
+    <view identifier="AttributeSetupSingleScreen"><![CDATA[SMAttributeSetup.aspx]]></view>
+    <view identifier="MigrationUtility"><![CDATA[MigrationUtility.aspx]]></view>
+    <!--<view identifier="Reconciliation"><![CDATA[SMReconciliation.aspx]]></view>-->
+    <view identifier="CUSingleScreen"><![CDATA[SMCreateUpdateSingleScreen.aspx]]></view>
+    <view identifier="Dashboard"><![CDATA[SMDashboard.aspx]]></view>
+    <!--<view identifier="SecurityActivation"><![CDATA[CoreControls/SMSecurityActivationStatus.ascx]]></view>
+		<view identifier="GetTaskStatus"><![CDATA[UpstreamControls/SMTaskStatusNew.ascx]]></view>
+		<view identifier="CustomReportViewer"><![CDATA[ReportingControls/SMCustomReportViewer.ascx]]></view>-->
+    <view identifier="CommonStatusScreen"><![CDATA[SMCommonStatusScreen.aspx]]></view>
+    <view identifier="CommonRealTimeStatusScreen"><![CDATA[SMCommonRealTimeStatusScreen.aspx]]></view>
+    <view identifier="CorporateActionDetails"><![CDATA[SMCorporateActionDetails.aspx]]></view>
+  </Others>
+
+</ViewManagement>

@@ -1,0 +1,55 @@
+﻿body{
+    height:100%;
+}
+#SRCContainerNew{
+   width:900px;
+   margin-left:auto;
+   margin-right:auto;
+   margin-top:50px;
+   align-content:center;
+   position:relative;
+   font-size:small;
+}
+
+.secTypeRow{
+    display:block;
+    position:relative;
+    margin-top:10px;
+    width:900px;
+}
+
+.secTypeColumn{
+    display:inline-block;
+    /*margin-left:50px;*/
+    position:relative;
+}
+#dateinput{
+    height:20px; 
+}
+#ConfigureSave{
+     /*float:right;*/
+     background-color:darkcyan;
+     border:none;
+     color:white;
+     text-align:center;
+     font-size:medium;
+     border-radius:4px;
+     /*margin-top:0px;
+     margin-right:10px;*/
+}
+#savebut{
+    display:inline-block;
+    margin-top:10px;
+    /*margin-right:5px;*/
+    margin-left:96%;
+}
+
+#ToAttributePage{
+    float:right;
+    background-color:darkcyan;
+     border:none;
+     color:white;
+     text-align:center;
+     font-size:medium;
+     border-radius:4px;
+}

@@ -1,0 +1,44 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.Utility {
+		/*color: black;*/
+        color:#1919ff;
+}	
+.NodeName {
+	/*font-weight:bold;*/
+	/*color: #800080;*/
+    color: #af3434;	
+}
+.AttributeName 
+{
+	/*font-weight:bold;*/
+	/*color: black;*/
+    color: #fe0303;
+}
+.AttributeValue
+{
+	/*color:blue;*/
+	color:#1919ff;
+}
+.NodeValue
+{
+	color: #000000;
+}
+.Element {
+	/*border-left-color:#00FF66;
+	border-left-width:thin;
+	border-left-style:solid;*/
+	padding-top:0px;
+	margin-top:1px;
+    width:fit-content;
+}
+.Clickable {	
+	font-weight:900;
+	/*
+	font-size:large;
+	*/
+	color: #800080;	
+	cursor:pointer;
+
+	vertical-align:middle;
+}

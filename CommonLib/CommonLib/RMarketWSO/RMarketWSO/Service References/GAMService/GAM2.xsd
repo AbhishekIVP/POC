@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" elementFormDefault="qualified" targetNamespace="http://markit.com/Markit/GAM/2012/05" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://datadownload.wsostage.com/GlobalAssetManagement/2012/05/GAM.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://datadownload.wsostage.com/GlobalAssetManagement/2012/05/GAM.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="FacilitySubscribeRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://markit.com/Markit/GAM/2012/05" minOccurs="0" name="SecurityIds" nillable="true" type="q1:ArrayOfSecurityId" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ArrayOfSecurityId">
+    <xs:sequence>
+      <xs:element xmlns:q2="http://markit.com/Markit/GAM/2012/05" minOccurs="0" maxOccurs="unbounded" name="SecurityId" nillable="true" type="q2:SecurityId" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q3="http://markit.com/Markit/GAM/2012/05" name="ArrayOfSecurityId" nillable="true" type="q3:ArrayOfSecurityId" />
+  <xs:complexType name="SecurityId">
+    <xs:sequence>
+      <xs:element name="RequestId" type="xs:int" />
+      <xs:element xmlns:q4="http://markit.com/Markit/GAM/2012/05" name="SecurityTypeValuePairs" nillable="true" type="q4:ArrayOfSecurityTypeValuePair" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q5="http://markit.com/Markit/GAM/2012/05" name="SecurityId" nillable="true" type="q5:SecurityId" />
+  <xs:complexType name="ArrayOfSecurityTypeValuePair">
+    <xs:sequence>
+      <xs:element xmlns:q6="http://markit.com/Markit/GAM/2012/05" minOccurs="0" maxOccurs="unbounded" name="SecurityTypeValuePair" nillable="true" type="q6:SecurityTypeValuePair" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q7="http://markit.com/Markit/GAM/2012/05" name="ArrayOfSecurityTypeValuePair" nillable="true" type="q7:ArrayOfSecurityTypeValuePair" />
+  <xs:complexType name="SecurityTypeValuePair">
+    <xs:sequence>
+      <xs:element name="SecurityIdType" nillable="true" type="xs:string" />
+      <xs:element name="SecurityIdValue" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q8="http://markit.com/Markit/GAM/2012/05" name="SecurityTypeValuePair" nillable="true" type="q8:SecurityTypeValuePair" />
+  <xs:element name="FacilitySubscribeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ResponseId" type="xs:int" />
+        <xs:element xmlns:q9="http://markit.com/Markit/GAM/2012/05" minOccurs="0" name="SubscribedFacilities" nillable="true" type="q9:ArrayOfSubscribedFacility" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ArrayOfSubscribedFacility">
+    <xs:sequence>
+      <xs:element xmlns:q10="http://markit.com/Markit/GAM/2012/05" minOccurs="0" maxOccurs="unbounded" name="SubscribedFacility" nillable="true" type="q10:SubscribedFacility" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q11="http://markit.com/Markit/GAM/2012/05" name="ArrayOfSubscribedFacility" nillable="true" type="q11:ArrayOfSubscribedFacility" />
+  <xs:complexType name="SubscribedFacility">
+    <xs:sequence>
+      <xs:element name="RequestId" type="xs:int" />
+      <xs:element minOccurs="0" name="WsoDataFacilityId" nillable="true" type="xs:int" />
+      <xs:element name="Subscribed" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q12="http://markit.com/Markit/GAM/2012/05" name="SubscribedFacility" nillable="true" type="q12:SubscribedFacility" />
+  <xs:complexType name="GeneralServiceFault">
+    <xs:sequence>
+      <xs:element name="id" type="ser:guid" />
+      <xs:element name="message" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q13="http://markit.com/Markit/GAM/2012/05" name="GeneralServiceFault" nillable="true" type="q13:GeneralServiceFault" />
+  <xs:element name="FacilityUnsubscribeRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://markit.com/Markit/GAM/2012/05" minOccurs="0" name="SecurityIds" nillable="true" type="q14:ArrayOfSecurityId" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FacilityUnsubscribeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ResponseId" type="xs:int" />
+        <xs:element xmlns:q15="http://markit.com/Markit/GAM/2012/05" minOccurs="0" name="UnsubscribedFacilities" nillable="true" type="q15:ArrayOfUnsubscribedFacility" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ArrayOfUnsubscribedFacility">
+    <xs:sequence>
+      <xs:element xmlns:q16="http://markit.com/Markit/GAM/2012/05" minOccurs="0" maxOccurs="unbounded" name="UnsubscribedFacility" nillable="true" type="q16:UnsubscribedFacility" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q17="http://markit.com/Markit/GAM/2012/05" name="ArrayOfUnsubscribedFacility" nillable="true" type="q17:ArrayOfUnsubscribedFacility" />
+  <xs:complexType name="UnsubscribedFacility">
+    <xs:sequence>
+      <xs:element name="RequestId" type="xs:int" />
+      <xs:element minOccurs="0" name="WsoDataFacilityId" nillable="true" type="xs:int" />
+      <xs:element name="Unubscribed" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element xmlns:q18="http://markit.com/Markit/GAM/2012/05" name="UnsubscribedFacility" nillable="true" type="q18:UnsubscribedFacility" />
+  <xs:element name="FacilitiesGetAllSubscribedResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="SubscribedFacilities" nillable="true" type="q19:ArrayOfint" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

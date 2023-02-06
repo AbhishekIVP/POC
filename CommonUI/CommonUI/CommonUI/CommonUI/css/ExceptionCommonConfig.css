@@ -1,0 +1,146 @@
+﻿.exceptionConfigDisableDiv {
+    background-color: #fff;
+    filter: alpha(opacity=50);
+    opacity: 0.6;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+
+.filterItemCheckbox {
+    font-size: 18px;
+    border-radius: 2px;
+    border: 1px solid #999eb5ab;
+    margin-top: 4px;
+    color: white;
+    line-height: 12px;
+    box-shadow: 0 0 3px 1px rgba(230,230,230,0.8);
+}
+
+.filterItem {
+    cursor: pointer;
+}
+
+.filterItemCheckbox, .filterItemText {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.filterItemText {
+    margin-left: 10px;
+    width: 220px;
+    padding-top: 6px;
+    font-size: 12px;
+    color: #777;
+    font-weight: lighter;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: "Open Sans", sans-serif;
+}
+
+.filterItemCheckbox > i {
+    padding: 2px;
+    color: white;
+    font-size: 0.6em;
+}
+
+.filterItemCheckbox.selectedItem > i {
+    color: #344076;
+}
+
+.filtersection {
+    display: inline-block;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.button {
+    padding: 1px;
+    background: none;
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 21px;
+    font-family: 'lato', Sans-Serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+
+.exceptionConfigError_popupContainer {
+    box-shadow: 5px 7px 22px -7px #6D6D6D;
+    /* background-image: url(images/popup_texture.png); */
+    background-color: #fff;
+    background-repeat: repeat;
+    min-height: 140px;
+    font-family: Lato;
+    border: 1px solid #D4D4D4;
+    border-top: 0px;
+    position: absolute;
+    top: 0px;
+    padding-top: 5px;
+    width: 400px;
+    margin-left: 30%;
+    z-index: 100000;
+}
+
+#exceptionConfigError_popupCloseBtn {
+    float: right;
+    position: relative;
+    right: 2%;
+    cursor: pointer;
+}
+
+.exceptionConfigError_popupHeader {
+    margin-left: 19px;
+    margin-top: 5px;
+}
+
+.exceptionConfigError_popupMessageContainer {
+    margin-left: 25px;
+    margin-top: 10px;
+    /*width: 340px;*/
+    min-height: 50px;
+    font-size: 14px;
+    /*overflow-x: scroll;
+    overflow-y: scroll;*/
+}
+
+#exceptionConfigError_popupCloseBtn {
+    float: right;
+    position: relative;
+    right: 2%;
+    cursor: pointer;
+}
+
+.exceptionConfigError_imageContainer {
+    display: inline-block;
+}
+
+.exceptionConfigError_messageContainer {
+    display: inline-block;
+}
+
+.exceptionConfigError_popupTitle {
+    font-family: Lato;
+    font-size: 23px;
+}
+
+.exceptionConfigError_messageContainer {
+    position: relative;
+    top: -15px;
+}
+
+.exceptionConfigError_popupMessage {
+    font-family: Lato;
+    padding-bottom:24px;
+}

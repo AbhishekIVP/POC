@@ -1,0 +1,1249 @@
+﻿.xlgridBtn
+{
+	font-size: 10px;
+	margin-left: 7px;
+	cursor: default;
+	color: #323232;
+	font-family: tahoma;
+	background-color: #f5f5f5;
+	z-index:10;
+}
+
+input.xlgridBtn
+{
+    border: 1px solid #ccc;
+    background-color: white ! important;
+    border:0px;
+    width:83px;
+    height:16px;
+	font-size: 10px;
+	margin-right:25px;
+	margin-left:5px;
+	cursor: default;
+	color: #666;
+	font-family: tahoma;
+	padding-left:10px;
+	z-index:10;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 18px;
+    -moz-border-radius-bottomleft: 18px;
+	background-repeat: no-repeat;
+    border-radius: 4px;
+    font-size: 13px;
+    border:1px solid #ccc;
+    margin-left: 25px;
+    border-left: 0px;
+    outline: none;
+}
+
+.searchimage
+{
+    position:absolute;
+    left: 5px;
+    background : url(images/icons/Search.png);
+    background-repeat:no-repeat;
+    width:20px;
+    height:18px;
+    top:4px;
+    background-color : #FFFFFF;
+    background-position-y:3px;
+    background-position-x:5px;
+    /* -webkit-border-top-right-radius: 18px; */
+    /* -webkit-border-bottom-right-radius: 18px; */
+    -moz-border-radius-topright: 18px;
+    -moz-border-radius-bottomright: 18px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid #ccc;
+    border-right: 0px;
+}
+
+.searchimagefilter
+{
+    position:absolute;
+    right:-10px;
+    background : url(images/icons/Search.png);
+    background-repeat:no-repeat;
+    width:20px;
+    height:18px;
+    top:1px;
+    background-color : #D6D6D6;
+    background-position-y:3px;
+    background-position-x:5px;
+    -webkit-border-top-right-radius: 18px;
+    -webkit-border-bottom-right-radius: 18px;
+    -moz-border-radius-topright: 18px;
+    -moz-border-radius-bottomright: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.xlclearFilter
+{
+	background: none;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 32px;
+	cursor: pointer;
+	background-image: url(images/icons/ico-1.png);
+	height: 22px;
+	margin-right:5px;
+}
+.xlclearSort
+{
+	background: none;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 32px;
+	cursor: pointer;
+	background-image: url(images/icons/ico-2.png);
+	height: 22px;
+	margin-right:5px;
+}
+
+.xlclearGrouping
+{
+	background: none;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 32px;
+	cursor: pointer;
+	background-image:url(images/icons/ico-3.png);
+	margin-right:5px;
+	height: 22px;
+}
+
+a.xlexportToExcelVisibleRows
+{
+	background-image:url(images/icons/ex_excel_vis.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	font-size:18px;
+	cursor:pointer;
+	display:block;
+	width:32px;
+	height:22px;
+	margin-right:5px;
+}
+
+a.xlexportToExcel
+{
+	background-image: url(images/icons/Microsoft-Excel-2013-01.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	cursor:pointer;
+	display:block;
+	width:22px;
+	height:28px;
+	margin-right:5px;
+}
+/*.xlfilterIcon
+{
+	cursor:pointer;
+	padding:0px 8px;
+	background:none;
+	background:url(images/icons/shorting-arrow.jpg) center center no-repeat;
+	height:25px;	
+	float:right;
+}*/
+
+.xlfilterIcon
+{
+    cursor: pointer; 
+    /* padding-bottom:2px; */
+    padding-top: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background: none;
+    background: url(images/icons/filter.png) center center no-repeat;
+    height: 10px;
+}
+
+/*.xlfilterDropIcon
+{
+	cursor:pointer;
+	padding:0px 8px;
+	background:none;
+	background:url(images/icons/gridFilterIcon.gif) center center no-repeat;
+	height:25px;
+	float:right;
+}*/
+
+.xlfilterDropIcon
+{
+    cursor: pointer; /*padding-bottom:2px;*/
+    padding-top: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background: none;
+    background: url(images/icons/Filter_hover.png) center center no-repeat;
+    height: 10px;
+}
+
+.xlrecordSummary
+{
+	font-family:tahoma;
+	font-size: 11px;
+	/* color:#333; */
+	/* font-weight:bold; */
+	white-space:nowrap;
+	padding:0 15px 0 5px;
+	/* border-right:1px solid #d3d3d3; */
+	width : 5%;
+	
+	color: rgb(71, 71, 71);
+}
+
+.xlgroupDropPanel
+{
+	font-family:tahoma;
+	font-size: 11px;
+	font-weight:normal;
+	/* color:#fff; */
+	background:#cacacb;
+	padding-left:10px;
+	border-right: 1px solid #DBDBDB;
+	/* border-left: 1px solid #E0E4E7; */
+	height:26px !important;
+	background-color: #F6F6F6;
+}
+
+.xlgroupDropPanel.focus
+{
+    border:1px solid #442916;
+}
+
+.xlupperHeader
+{
+	font-family:tahoma;
+	padding:2px 10px 1px 10px;
+	height:28px;
+	z-index:10;
+	/*background:url(images/upperHeader_bg.gif) top left repeat-x;
+	background: #b2b2b2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ababa9));
+	background: -moz-linear-gradient(top,  #cccccc,  #ababa9);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#ababa9');*/
+	/* background:url(images/icons/grey-bgpatt.jpg) top left repeat-x; */
+	background-color: #F6F6F6;
+	/* border: 1px solid #CCD8E2; */
+}
+
+.xlheader
+{
+	background-color: #ffffff;
+	color: MenuText;
+	border: 0px;
+	cursor: default;
+	border-right: 0px;
+	border-top: 0px;
+	padding-left: 0px;
+	font-weight: bold;
+	font-size: 10px;
+	vertical-align: middle;
+	border-left: 0px;
+	cursor: pointer;
+	color: #8a8787;
+	border-bottom: 0px;
+	font-family: Tahoma;
+	text-align: left;
+	height:26px;
+}
+
+.xlheader th
+{
+	color: #8a8787;
+	padding-left: 7px;
+	border-left:1px solid #fff;
+	border-right: 1px dashed #E7E7E7;
+	border-top:0px;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.xlheader th input[type=checkbox]
+{
+    margin-right:8px;
+}
+
+.xlheader th table
+{
+	background-color:#FAF7F0;
+}
+.xlheader th td
+{
+	white-space:nowrap;	
+}
+
+.xlgroupDiv
+{
+	float:left;
+	height:25px;
+	line-height:25px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-align:left;
+	/*max-width:65%;
+	min-width:5%;*/
+	font-size: 11px;
+	font-family: 'Istok Web', sans-serif;
+	/* font-family: 'Lato', sans-serif; */
+}
+.xlprevPage
+{
+	width: 15px;
+	cursor: pointer;
+	background-image: url(images/footer-arrowback.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-right:5px;
+	padding-left:5px;
+	
+}
+.xlnextPage
+{
+	width: 15px;
+	cursor: pointer;
+	background-image: url(images/footer-arrownext.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-right:5px;
+	padding-left:5px;	
+}
+.xlpagerRow .xlgridTxtBox
+{
+	width:20px;
+}
+
+.xlgridTxtBox
+{
+	font-size: 10px;
+	margin-left: 7px;
+	width:30px;
+	cursor: default;
+	color: #323232;
+	font-family: tahoma;
+	background-color: #f5f5f5;
+}
+.xlstatusBar
+{
+	font-family: tahoma;
+	white-space: nowrap;
+	/*background:url(images/status_bg.gif) left top repeat-x;
+	border-bottom:1px solid #515151;*/
+	font-size:11px;
+	color:#333;
+	height:29px;
+	background-color: #e7e7e8;
+}
+.xlstatusBar table td
+{
+	white-space:nowrap;
+	padding-left:8px;
+	widows:50px;
+}
+
+.filterSortDiv
+{
+	width:15px;
+	float:right;
+}
+/*.xlascending
+{
+	cursor:pointer;
+	padding:0px 4px;
+	background:url(images/icons/gridSortUpIcon.gif) center center no-repeat;
+	height:25px;
+	float:left;
+}
+
+.xldescending
+{
+	cursor:pointer;
+	padding:0px 4px;
+	background:none;
+	background:url(images/icons/gridSortDownIcon.gif) center center no-repeat;
+	height:25px;
+	float:left;
+}*/
+
+.xlascending
+{
+    cursor: pointer;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-left: 9px;
+    padding-right: 4px;
+    background: url(images/icons/Arrowhead-Down.png) center center no-repeat;
+    height: 10px;
+}
+
+.xldescending
+{
+    cursor: pointer;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-left: 9px;
+    padding-right: 4px;
+    background: none;
+    background: url(images/icons/Arrowhead-Up.png) center center no-repeat;
+    height: 10px;
+}
+
+.loading
+{
+	background:url(images/Grid/loading.gif);
+	height:24px;
+	width:24px;
+}
+
+.expiry
+{
+	background:url(images/Grid/expiredIcon.gif) center center no-repeat;
+	width:66px;
+	height:17px;
+}
+
+.selectLabel
+{
+    font-size: 10px;
+    padding: 5px;
+    white-space: nowrap;
+    font-family: 'Istok Web', sans-serif;
+    color: #1a1919;
+}
+.xlnormalRow
+{
+	background-color: #fdfdfd;
+	padding-left: 19px;
+	white-space: nowrap;
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 10px;
+	padding-bottom: 0px;
+	vertical-align: middle;
+	cursor: default;
+	color: #5e5e70;
+	padding-top: 0px;
+	font-family: tahoma;
+	height: 22px;
+}
+/* updated by pp 20 feb */
+.xlnormalRow td
+{
+	/* border-right: 1px solid #FFFFFF; */
+	border-bottom: 1px solid #f4f1f1;
+	border-left: 0px solid #eee;
+	white-space:nowrap;
+	overflow:hidden;
+	color: #333;
+	text-overflow:ellipsis;
+	/*word-wrap: break-word;*/
+	padding:0 7px;
+	font-size: 12px;
+	font-family: 'Istok Web', sans-serif;
+}
+
+div[value="frozen"] table
+{
+    /* border-left: 1px solid #ccc; */
+}
+
+/*div[value="frozen"] .xlnormalRow td:first-child
+{
+    border-left: 2px solid #ccc;
+}*/
+
+/* updated by pp 20 feb */
+.xlnormalRow:hover
+{
+	background-color: #f2f2f2;
+}
+
+.xlcheckedRow
+{
+	border: 1px solid #fbb785;
+	background-color: #C7C7C7;
+	padding-left: 19px;
+	white-space: nowrap;
+	border-right: 0px solid #999999;
+	padding-right: 0px;
+	border-top: #f7f7f7 1px solid;
+	border-left: 1px solid #f7f7f7;
+	padding-left: 0px;
+	font-size: 10px;
+	padding-bottom: 0px;
+	vertical-align: middle;
+	cursor: default;
+	color: #333;
+	padding-top: 0px;
+	font-family: tahoma;
+	height: 22px;
+}
+
+.xlcheckedRow td{
+	padding:0 7px;
+	border-left:1px solid #eee;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: none;
+	font-family: 'Istok Web', sans-serif;
+    font-size: 12px;
+}
+
+.xlalternatingRow
+{
+	background-color: #ffffff;
+	padding-left: 19px;
+	white-space: nowrap;
+	border-right: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 10px;
+	padding-bottom: 0px;
+	vertical-align: middle;
+	cursor: default;
+	color: #5e5e70;
+	padding-top: 0px;
+	font-family: tahoma;
+	height: 22px;
+}
+.xlalternatingRow td
+{
+    /* border-right: 1px solid #F9F9F9; */
+    border-bottom: 1px solid #f4f1f1;
+    border-left: none;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #1a1919;
+    text-overflow: ellipsis; /*word-wrap: break-word;*/
+    padding: 0 7px;
+    font-size: 12px;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.xlHorizontalScrollRow
+{
+    background-color: #f4f5f5;
+    padding-left: 19px;
+    white-space: nowrap;
+    border-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 10px;
+    padding-bottom: 0px;
+    vertical-align: middle;
+    cursor: default;
+    color: #5e5e70;
+    padding-top: 0px;
+    font-family: tahoma;
+    height: 12px;
+    opacity:0.9;
+}
+.xlHorizontalScrollRow td
+{
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #333;
+    text-overflow: ellipsis; /*word-wrap: break-word;*/
+    padding: 0 7px;
+}
+
+.xldummyRow
+{
+    background-color: #f4f5f5;
+    padding-left: 19px;
+    white-space: nowrap;
+    border-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 10px;
+    padding-bottom: 0px;
+    vertical-align: middle;
+    cursor: default;
+    color: #5e5e70;
+    padding-top: 0px;
+    font-family: tahoma;
+    height: 20px;
+}
+.xldummyRow td
+{
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #333;
+    text-overflow: ellipsis; /*word-wrap: break-word;*/
+    padding: 0 7px;
+}
+/*div[value="frozen"]
+{
+}
+
+div[value="frozen"] table tbody tr:last-child
+{
+   border-bottom: 2px solid #ccc;
+}*/
+
+.xlalternatingRow:hover
+{
+	background-color: #F2F2F2;
+}
+
+.xlselectedRow
+{
+	
+	background-color: #e6e7e8;
+	padding-left: 19px;
+	white-space: nowrap;
+	border-right: 0px solid #999999;
+	padding-right: 0px;
+	border-top: #f7f7f7 1px solid;
+	border-left: 1px solid #f7f7f7;
+	padding-left: 0px;
+	font-size: 10px;
+	padding-bottom: 0px;
+	vertical-align: middle;
+	cursor: default;
+	color: #333;
+	padding-top: 0px;
+	font-family: tahoma;
+	height: 22px;
+}
+
+
+
+.xlselectedRow td{
+	padding:0 7px;
+	border-left:1px solid #eee;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	border-left:1px solid #eee;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: none;
+}
+
+
+.xlruleEditorPopup
+{
+  background-image:url(images/icons/ico-7.png); 
+  background-repeat:no-repeat;
+  background-position:left;
+  font-size:18px;
+  cursor:pointer;
+  display:block;
+  width:32px;
+  height:22px;
+  margin-right:5px;
+}
+
+.xlREUICanvas
+{z-index:10001; width:500px; position:absolute; top:35%; left:37%}
+.xlREUIHeader
+{width:100%; height:22px; background-image:url(images/Grid/REUIHeader.gif);}
+.xlREUIHeaderText
+{float:left; font-family:arial; line-height:22px; padding-left:5px; font-size:11px; color:#fff;}
+.xlREUICloseButton
+{float:right; margin:3px 2px 0 0; cursor:pointer; height:17px; width:17px; background-image:url(images/Grid/REUICloseButton.png); background-repeat:no-repeat;}
+.xlREUIBody
+{clear:left; float:left; width:100%;}
+.xlREUIGradientTop
+{height:22px; background-image:url(images/Grid/REUIGradientBg.gif); background-repeat:repeat-x; background-color:#fff; background-position:top; border-top:1px solid #fff; font-family:tahoma; font-size:11px; color:#000;}
+.xlREUIHorizontalBar
+{background-image:url(images/Grid/REUIHorizontalBar.gif); background-repeat:repeat-x; font-size:1px; height:4px;}
+.xlREUIFunctionArea
+{width:100%; position:relative;}
+.xlREUIRightPanel
+{float:right; width:70%;  background-color:#fff; border-top:1px solid #d1d1d1; border-bottom:1px solid #d1d1d1;}
+.xlREUIFunctionButtons
+{background-color:#f8f8f8; height:32px; border-left:1px solid #d1d1d1; border-bottom:1px solid #d1d1d1; text-align:center;}
+.xlREUIButtonSmall
+{background:none; border:none; height:19px; width:19px; background-image:url(images/Grid/REUIFunctionButtonSmallBg.gif); margin-top:6px; background-repeat:no-repeat; font-family:arial; font-size:11px; color:#5A5444;}
+.xlREUIButtonBig
+{background:none; border:none; height:19px; width:46px; margin-left:3px; background-image:url(images/Grid/REUIFunctionButtonBigBg.gif); margin-top:6px; background-repeat:no-repeat; font-family:arial; font-size:11px; color:#5A5444;}
+.xlREUIRuleEditorTextbox
+{background-color:#fff; border-left:1px solid #d1d1d1; height:70%;}
+.xlREUINumericButtonPanel
+{background-color:#f8f8f8; height:32px;  border-left:1px solid #d1d1d1; border-top:1px solid #d1d1d1; text-align:center;}
+.xlREUINumericButton
+{background:none; border:none; height:19px;margin-left:5px; width:19px; background-image:url(images/Grid/REUINumericButtonBg.gif); margin-top:6px; background-repeat:no-repeat; font-family:arial; font-size:11px; color:#fff;}
+.xlREUILeftPanel
+{float:left; height:106px; width:30%; background-color:#e9e9e9; border-top:1px solid #d1d1d1; border-bottom:1px solid #d1d1d1;}
+.xlREUILeftPanelItems
+{display:block; height:15px; line-height:15px; width:auto; margin:2px; padding-left:4px; background-image:url(images/Grid/REUILeftPanelItemsBg.gif); background-repeat:repeat-x; border:1px solid #fff; font-family:arial; font-size:11px; color:#fff; text-decoration:none;}
+.xlREUIFooter
+{width:100%;}
+.xlREUIButtonPanel
+{background-image:url(images/Grid/REUIGradientBg.gif); background-repeat:repeat-x; background-color:#fff; background-position:top; border-top:1px solid #fff; text-align:right; padding:6px;}
+.xlREUIHorizontalBar
+{background-image:url(images/Grid/REUIHorizontalBar.gif); background-repeat:repeat-x; font-size:1px; height:4px;}
+
+
+.xlfullScreen
+{
+	background: none;
+	border: none;
+	width: 16px;
+	cursor: pointer;
+	background-image: url(images/fullScreen.JPG);
+	height: 16px;
+}
+.blah
+{
+	cursor:pointer;
+	padding:0px 4px;
+	background:url(images/icons/gridSortUpIcon.gif) center center no-repeat;
+	height:25px;
+	float:right;
+}
+.scrollerTopCurve
+{
+	background-image:url(images/xlgrid/gridScrollerTopCrvVertical.png) ;
+	background-repeat:no-repeat;
+	height:9px;
+	width:20px;
+}
+.verticalscroller
+{
+	background-image:url(images/xlgrid/gridScrollerVertical.png) ;
+	background-repeat:repeat-y;
+}
+.scrollerBottomCurve
+{
+	background-image:url(images/xlgrid/gridScrollerBottomCrvVertical.png) ;
+	background-repeat:no-repeat;
+	height:9px;
+	width:20px;
+}
+.scrollerLeftCurve
+{
+	background-image:url(images/xlgrid/gridScrollerLeftCrvHorizontal.png);
+	background-repeat:no-repeat;
+	height:20px;
+	width:9px;
+	float:left;
+}
+.scrollerRightCurve
+{
+	background-image:url(images/xlgrid/gridScrollerRightCrvHorizontal.png);
+	background-repeat:no-repeat;
+	height:20px;
+	width:9px;
+	float:right;
+	background-position:right;
+}
+.scollerTrackHorizontal
+{
+	background-image:url(images/xlgrid/gridScrollTrackHorizontal.png);
+	background-repeat:repeat-x;
+	height:20px;
+}
+.scollerTrackVertical
+{
+	background-image:url(images/xlgrid/gridScrollTrackVertical.png);
+	background-repeat:repeat-y;
+	position:relative;
+	display:inline;
+	float:right;
+	top:0px;
+	width:20px;
+}
+.scrollerVertical
+{
+	background-image:url(images/xlgrid/gridScrollerVertical.png);
+	background-repeat:repeat-y;
+	width:20px;
+	position:relative;
+}
+.scrollerHorizontal
+{
+	background-image:url(images/xlgrid/gridScrollerHorizontal.png);
+	background-repeat:repeat-x;
+	height:20px;
+	position:relative;
+	display:inline-block;
+	float:left;
+}
+.scrollerLeftBtn
+{
+	background-image:url(images/xlgrid/gridScrollLeftBtn.png);
+	background-repeat:no-repeat;
+	height:20px;
+	width:20px;
+	position:relative;
+	display:inline-block;
+	float:left;
+}
+.scrollerRightBtn
+{
+	background-image:url(images/xlgrid/gridScrollRightBtn.png);
+	background-repeat:no-repeat;
+	height:20px;
+	width:20px;
+	display:inline-block;
+	float:right;
+	position:relative;
+}
+.scollerTopBtn
+{
+	background-image:url(images/xlgrid/gridScrollTopBtn.png);
+	background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+}
+.scollerBottomBtn
+{
+	background-image:url(images/xlgrid/gridScrollBottomBtn.png);
+	background-repeat:no-repeat;
+	width:20px;
+	height:22px;
+	position:relative;
+	z-index:1;
+}
+
+.groupDropSeperator
+{
+	background-image:url(images/xlgrid/panelDropBg.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	height:16px;
+	width:14px;
+	float:left;
+	
+}
+
+
+
+.clearSelectionBtn
+{
+    background: none;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 32px;
+	cursor: pointer;
+	background-image: url(images/xlgrid/btnClearSelection.gif);
+	height: 22px;
+	margin-right:5px;
+}
+
+.xlLeftNavigation
+{
+	height:83px;
+	width:7px;
+	display:inline;
+	float:left;
+	background-image: url(images/xlgrid/scrollArrowLeft.jpg);
+}
+
+.xlRightNavigation
+{
+	height:83px;
+	width:7px;
+	float:right;
+	display:inline;
+	background-image: url(images/xlgrid/scrollArrowRight.jpg);
+}
+.xlPopupBody
+{
+	overflow:hidden;
+	height:83px;
+	display:inline-block;
+}
+
+a.exporttopdf
+{
+	background-image:url(images/xlgrid/mime-pdf.jpg);
+	background-repeat:no-repeat;
+	background-position:left;
+	font-size:18px;
+	cursor:pointer;
+	display:block;
+	width:32px;
+	height:22px;
+	margin-right:5px;
+}
+
+.resizingDiv
+{
+	width:4px;
+	height:25px;
+	/*background-color:#f00;	*/
+	cursor:e-resize;
+	float:right;
+}
+
+.resizingMovingDiv
+{
+	width:2px;
+	background-color:#dadada;
+	position:absolute;
+	top:0px;
+}
+
+.resizeFilterList
+{
+	width:5px;
+	cursor:nw-resize;
+	display:inline-block;
+	float:right;
+	margin-top:15px;
+}
+
+.footerMathOp
+{
+    height:28px;
+    overflow:hidden;
+    background-color:#545454;
+    position:relative;
+}
+
+.footerMathOp table
+{
+}
+
+.footerMathOp td
+{
+    white-space:nowrap;
+	overflow:hidden;
+	color: #333;
+	text-overflow:ellipsis;
+	/*word-wrap: break-word;*/
+	padding:5px;
+	width:100px;
+	color:#fff200;
+}
+
+
+.footerMathOp ul {
+
+    display:none;
+
+}
+
+.footerMathOp ul li a {
+
+	font-size: 14px;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	color: #000000;
+
+	text-decoration: none;
+
+	font-weight: normal;
+
+}
+
+.footerMathOp ul li:hover {
+
+	font-size: 14px;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	color: #000000;
+
+	background-color: #CCCCCC;
+
+}
+
+.footerMathOp:hover ul {
+
+	display:block;
+
+	position:absolute;
+
+	width:100%;
+
+	bottom:100%; /* change to TOP and it will drop down */
+
+	border:1px solid #CCCCCC;
+
+	background: #fff;
+
+}
+
+.footerMathOp li {
+
+    padding:5px;   
+
+}
+
+.footerMathOp * {
+
+    display:block;
+
+    padding:0; margin:0;
+
+}
+
+.xlMathematialFooter
+{
+    position:absolute;
+    /*bottom:40px;*/
+    height:20px;
+    background-color:#505050;
+	font-family:Tahoma;
+	font-weight:bold;
+	color:#FFCB00;
+	font-size:12px;
+}
+
+.xlMathematialFooterBody
+{
+    position:absolute;
+    /*bottom:7px;*/
+    height:20px;
+    background-color:#505050;
+	font-family:Tahoma;
+	font-weight:bold;
+	color:#FFCB00;
+	font-size:12px;
+}
+
+.mathOpFooterMenu {
+	position:relative;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF200;
+	background-color: #545454;
+	font-weight: bold;
+}
+
+.mathOpFooterMenu * {
+    display:block;
+    padding:0; 
+    margin:0;
+}
+
+.mathOpFooterMenu em {
+    padding:2px 0 0 0;
+    white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	/*word-wrap: break-word;*/
+    cursor:default;
+}
+
+.mathOpFooterMenu ul {
+    display:none;
+    width:120px !important;
+    cursor:pointer;
+}
+
+.mathOpFooterMenu ul li span {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #58595b;
+	padding-top: 3px;
+	padding-right: 8px;
+	padding-bottom: 3px;
+	padding-left: 8px;
+	font-weight:normal;
+}
+
+.mathOpFooterMenu ul li:hover {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #CCCCCC;
+}
+
+.mathOpFooterMenu ul li:hover span 
+{
+	font-weight:bold;
+}
+
+.mathOpFooterMenu:hover ul {
+	display:block;
+	position:absolute;
+	width:100%;
+	bottom:100%; /* change to TOP and it will drop down */
+	border:2px solid #CCCCCC;
+	background: #fff;
+	z-index:100;
+	right:0%;
+}
+
+.mathOpFooterMenu li {
+    padding:5px;   
+}
+.mathOpFooterMenu .selectedMathOp
+{
+    color: #000000;
+	background-color: #CCCCCC !important;
+}
+
+.mathOpFooterMenu .selectedMathOp span
+{
+    font-weight:bold;
+}
+
+.mathOpFooterMenu .roundsub {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #f2f1ec;
+}
+
+.mathOpFooterMenu .roundsub li {
+	background-color: #f2f1ec;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #cccdcc;
+}
+
+.mathOpFooterMenu .roundsub li:first-child {
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.mathOpFooterMenu .roundsub li:last-child {
+	-webkit-border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	border-radius: 0px 0px 5px 5px;
+}
+.pagerClass{
+   background: #fff url(images/dropdown-arrow.jpg) no-repeat right;
+height: 18px;
+width: 50px;
+overflow: hidden;
+}
+
+.pagerClass select
+{
+   background: transparent;
+width: 50px;
+border: 0;
+height: 18px;
+-webkit-appearance: none;
+}
+
+
+.xlradextrapopup
+{
+	background: none;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 32px;
+	cursor: pointer;  
+	background-image:url(images/icons/ico-6.png);
+	margin-right:5px;
+	height: 22px;
+}
+
+
+
+.xlradbalancepopup
+{
+	background: none;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 32px;
+	cursor: pointer;  
+	background-image:url(images/icons/ico-5.png);
+	margin-right:5px;
+	height: 22px;
+}
+
+.cancelExportExcel > input
+{
+  BORDER-RIGHT: #a2a2a2 1px solid;
+  PADDING-RIGHT: 0px;
+  BORDER-TOP: #c7c7c7 1px solid;
+  PADDING-LEFT: 0px;
+  FONT-WEIGHT: normal;
+  FONT-SIZE: 11px;
+  BACKGROUND-image: url() ! important;
+  PADDING-BOTTOM: 2px;
+  BORDER-LEFT: #c7c7c7 1px solid;
+  WIDTH: auto;
+  COLOR: #666666;
+  PADDING-TOP: 2px;
+  BORDER-BOTTOM: #a2a2a2 1px solid;
+  FONT-FAMILY: tahoma;
+  WHITE-SPACE: nowrap;
+  HEIGHT: 20px;
+  TEXT-ALIGN: center;
+  height: 23px;
+  padding: 0 5px;
+  border-radius: 2px;
+  background-color: #43D9C6;
+  border: 0px;
+  color: white;
+  cursor: pointer;
+}
+
+.xlprevPage
+{
+	width: 15px;
+	cursor: pointer;
+	/*background-image: url(images/footer-arrowback.jpg);*/
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-right:5px;
+	padding-left:5px;
+	padding-top:3px;
+	color: #818285;
+	
+}
+.xlnextPage
+{
+	width: 15px;
+	cursor: pointer;
+	/*background-image: url(images/footer-arrownext.jpg);*/
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-right:5px;
+	padding-left:5px;	
+	padding-top:3px;
+    color: #818285;
+}
+
+.xlgridBtnFilter
+{
+	font-size: 10px;
+	margin-left: 7px;
+	cursor: default;
+	color: #323232;
+	font-family: tahoma;
+	background-color: #f5f5f5;
+	z-index:10;
+	
+	border: 1px solid #ccc;
+    background-color: white ! important;
+    border:0px;
+    width:83px;
+    height:16px;
+	font-size: 10px;
+	margin-right:25px;
+	margin-left:5px;
+	cursor: default;
+	color: #666;
+	font-family: tahoma;
+	padding-left:10px;
+	z-index:10;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 18px;
+    -moz-border-radius-bottomleft: 18px;
+	background-repeat: no-repeat;
+    border-radius: 4px;
+    font-size: 13px;
+    border:1px solid #ccc;
+}

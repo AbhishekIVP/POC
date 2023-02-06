@@ -1,0 +1,48 @@
+﻿body
+{
+}
+
+.itemContainerDiv
+{
+    width:200px;
+    background-color:#FBFDFF;
+    border:3px solid #E5F3FF;
+    font-family:Tahoma;
+    font-size:11px;
+    font-weight:normal;
+    color:#0486D8;
+    height:300px;
+    overflow-x:auto;
+    overflow-y:auto;
+    position:absolute;
+}
+.tdhover
+{
+    background-color::#ffa;
+}
+.tdnormal
+{
+    background:none;
+}
+.btnUp
+{
+    display:inline;
+    background:none;
+    border:none;
+    background-image:url(images/iconUpArrow.gif);
+    background-repeat:no-repeat;
+    background-position:left top;
+    width:18px;
+    height:13px;
+}
+.btnDown
+{
+    display:inline;
+    background:none;
+    border:none;
+    background-image:url(images/iconDownArrow.gif);
+    background-repeat:no-repeat;
+    background-position:left top;
+    width:18px;
+    height:13px;
+}

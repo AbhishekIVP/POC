@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="com.ivp.srm.bbgftpservice" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="com.ivp.srm.bbgftpservice" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="com.ivp.srm.bbgftpservice/Imports">
+      <xsd:import schemaLocation="http://192.168.0.103/SRMBBGFTPService6.6/BBGFTPService?xsd=xsd0" namespace="com.ivp.srm.bbgftpservice" />
+      <xsd:import schemaLocation="http://192.168.0.103/SRMBBGFTPService6.6/BBGFTPService?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://192.168.0.103/SRMBBGFTPService6.6/BBGFTPService?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/com.ivp.srm.bbgftpservice" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISRMBbgFtpApi_RegisterUploadFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterUploadFile" />
+  </wsdl:message>
+  <wsdl:message name="ISRMBbgFtpApi_RegisterUploadFile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterUploadFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISRMBbgFtpApi_RegisterDownloadFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterDownloadFile" />
+  </wsdl:message>
+  <wsdl:message name="ISRMBbgFtpApi_RegisterDownloadFile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterDownloadFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISRMBbgFtpApi_GetUploadFileResponse_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUploadFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISRMBbgFtpApi_GetUploadFileResponse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUploadFileResponseResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISRMBbgFtpApi_GetDownloadFileResponse_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDownloadFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISRMBbgFtpApi_GetDownloadFileResponse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDownloadFileResponseResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ISRMBbgFtpApi">
+    <wsdl:operation name="RegisterUploadFile">
+      <wsdl:input wsaw:Action="com.ivp.srm.bbgftpservice/ISRMBbgFtpApi/RegisterUploadFile" message="tns:ISRMBbgFtpApi_RegisterUploadFile_InputMessage" />
+      <wsdl:output wsaw:Action="com.ivp.srm.bbgftpservice/ISRMBbgFtpApi/RegisterUploadFileResponse" message="tns:ISRMBbgFtpApi_RegisterUploadFile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterDownloadFile">
+      <wsdl:input wsaw:Action="com.ivp.srm.bbgftpservice/ISRMBbgFtpApi/RegisterDownloadFile" message="tns:ISRMBbgFtpApi_RegisterDownloadFile_InputMessage" />
+      <wsdl:output wsaw:Action="com.ivp.srm.bbgftpservice/ISRMBbgFtpApi/RegisterDownloadFileResponse" message="tns:ISRMBbgFtpApi_RegisterDownloadFile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUploadFileResponse">
+      <wsdl:input wsaw:Action="com.ivp.srm.bbgftpservice/ISRMBbgFtpApi/GetUploadFileResponse" message="tns:ISRMBbgFtpApi_GetUploadFileResponse_InputMessage" />
+      <wsdl:output wsaw:Action="com.ivp.srm.bbgftpservice/ISRMBbgFtpApi/GetUploadFileResponseResponse" message="tns:ISRMBbgFtpApi_GetUploadFileResponse_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDownloadFileResponse">
+      <wsdl:input wsaw:Action="com.ivp.srm.bbgftpservice/ISRMBbgFtpApi/GetDownloadFileResponse" message="tns:ISRMBbgFtpApi_GetDownloadFileResponse_InputMessage" />
+      <wsdl:output wsaw:Action="com.ivp.srm.bbgftpservice/ISRMBbgFtpApi/GetDownloadFileResponseResponse" message="tns:ISRMBbgFtpApi_GetDownloadFileResponse_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

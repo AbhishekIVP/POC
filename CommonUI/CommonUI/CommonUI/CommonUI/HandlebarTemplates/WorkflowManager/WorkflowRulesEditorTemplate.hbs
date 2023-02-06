@@ -1,0 +1,29 @@
+﻿{{#each css}}
+<link rel="stylesheet" type="text/css" href="{{css}}" />
+{{/each}}
+
+{{#each workflowTemplates}}
+<div id="{{WorkflowID}}" class="col-sm-3" data-index="{{@index}}" data-radworkflowinstanceid="{{WorkflowID}}" data-tags="{{Tags}}" data-workflowmetadata="{{WorkflowMetaData}}" data-workflowstates="{{WorkflowStates}}" data-candelete="{{canDelete}}"
+     data-moduleid="{{moduleId}}" data-moduleName="{{moduleName}}" data-position="{{position}}" data-workflowattributes="{{workflowAttributes}}" data-workflowconfig="{{workflowConfig}}" data-radtemplatename="{{WorkflowName}}">
+    <div class="workflow-setup-card">
+        <div class="workflow-template-workflowCheck-container">
+            <i class="workflowCheck fa fa-circle-o" style=""></i>
+        </div>
+        <div class="workflow-template-header-body-container">
+            <div class="workflow-template-header">
+                <div class="workflow-template-title" title="{{WorkflowName}}">{{WorkflowName}}</div>
+            </div>
+            <div class="workflow-template-body">
+                States {{#workflowStateCount WorkflowStates }} {{/workflowStateCount}}
+                <i class="workflow-rule-editor-template-eye fa fa-eye pull-right" data-index="{{@index}}" data-name="{{Name}}"></i>
+            </div>
+        </div>
+    </div>
+</div>
+{{#insertIframePanelInRuleEditor @index}}{{/insertIframePanelInRuleEditor}}
+{{/each}}
+
+
+{{#each scripts}}
+<script src="{{script}}"></script>
+{{/each}}

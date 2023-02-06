@@ -1,0 +1,312 @@
+﻿.mainDqmBody
+{
+    width: 100%;
+    height: 90%;
+
+}
+
+.srmDQMBody
+{
+    padding-left: 30px;
+    padding-top: 10px;
+    
+    font-family:lato;
+    width: 40%;
+    display: inline-block;
+}
+
+.srmDQMChain {
+    width: 100%;
+    border-top: solid 1px #ffac7c;
+    border-bottom: solid 1px #ffac7c;
+    margin-bottom: 15px;
+    cursor: pointer;
+    /*height: 34px;*/
+}
+
+.srmDQMChainName 
+{
+    background-color: white;
+    width: 40%;
+    padding: 2px;
+    color: #eab671;
+    display: inline-block;
+    height: 30px;
+    vertical-align: top;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.srmDQMChainInfo 
+{
+    display: inline-block;
+    width: 45%;
+    padding: 2px;
+    background-color: #f1ebeb;
+    transform: skewX(-30deg);
+    padding-left: 20px;
+    padding-right: 15px;
+    height: 30px;
+    padding-bottom: 4px;
+}
+
+.srmDQMChainSubInfo 
+{
+    display: inline-block;
+    transform: skewX(30deg);
+    margin-right: 5px;
+    width: 45%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    color: #757575;
+    vertical-align: top;
+    font-family: oswald;
+}
+
+.srmDQMChainSubInfo2 {
+    padding-left: 20px;
+    height: 15px;
+}
+
+.srmDQMTaskInfoHead {
+    display: inline-block;
+    margin-right: 10px;
+    /* padding-right: 10px; */
+    width: 30%;
+    font-size: 13px;
+    /* font-weight: 600; */
+    color: #eab671;
+    padding-bottom: 2px;
+    padding-top: 5px;
+}
+
+.srmDQMTaskInfo {
+    display: inline-block;
+    margin-right: 10px;
+    /* padding-right: 10px; */
+    width: 30%;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #888888;
+}
+
+.srmDQMChart
+{
+    
+  
+}
+
+#srmDQMChartContainer
+{
+    height: 75%;
+    top: 10px;
+    width: 50%;
+    padding: 10px;
+    box-shadow: 0px 0px 5px -1px;
+    background: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(214, 220, 221);
+    border-image: initial;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.srmDQMTaskHeadInfoKey {
+    display: inline-block;
+}
+
+.srmDQMTaskHeadInfoValue {
+    display: inline-block;
+}
+
+.srmDQMChartDiv
+{
+    margin-bottom:25px;
+    
+}
+
+.srmDQMIcon
+{
+    vertical-align: top;
+    margin-right: 9px;
+    display: inline-block;
+    background: #ce9196;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    width: 16px;
+    text-align: center;
+}
+
+.srmDQMWarningIcon {
+    background: #eee6db;
+    color: #785b49;
+    text-align: center;
+    height: 36px;
+    font-size: 20px;
+    position: relative;
+    padding-right: 1.8px;
+    padding-bottom: 17px;
+    font-family: oswald;
+}
+
+.srmDQMWarningIcon:last-child
+{
+    /* padding-bottom: 0px; */
+    /* height: 22px !important; */
+}
+
+.srmDQMWarningHeader 
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 14px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.srmDQMChainSubInfo1 {    
+    height: 15px;
+}
+
+.srmDQMRowIcon
+{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-left: -20px;
+    font-size: 12px;
+    color: gray;
+    padding-right: 5px;
+    width: 10px;
+}
+
+.srmDQMchainParentDiv
+{
+    width: 80%;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.srmDQMWarningParentDiv
+{
+    width: 10%;
+    display: inline-block;
+    vertical-align: top;
+    /* margin-top: -39px; */
+    margin-left: -25px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+.srmDQMWarningThumbIcon
+{
+    line-height: 34px !important;
+    color:#d4c3a6;
+}
+
+.srmDQMChartArrow
+{
+    color: rgb(0, 188, 239);
+    position:absolute;
+    margin-left: 7px;
+    width: 5%;
+}
+
+.tabLinks
+{  
+    display: inline-block;
+    color: black;
+    margin-top:15px;
+    margin-right:10px;
+    cursor:pointer;
+    margin-left:30px;
+    margin-bottom:10px;
+    padding : 4px;
+    font-size:12px;
+    
+    
+}
+
+.tabLinks.tabSelected
+{
+     color:#00bcef;
+     border-bottom:2px solid #00bcef; 
+     
+    
+}    
+
+.smslimScrollDiv
+{
+    
+    margin-top:5px;
+    display:inline-block;
+}
+
+.fileFormat,.recordProcessed,.parentDivPrioriandFM
+{
+    margin-left:20px;
+    font-size:12px;
+    margin-top:30px;
+}
+
+.timeTaken
+{
+    margin-left:20px;
+    font-size:12px;
+    margin-top:3px;
+    margin-bottom:4px;
+}
+
+.downUpInFields
+{
+    font-size:12px;
+    color:indianred;
+}
+
+.fileSize
+{
+    font-size:12px;
+    margin-left:25px;
+    margin-top:10px;
+}
+
+.parentDivPrioriandFM .left{
+    text-align: left;
+}
+.parentDivPrioriandFM .right
+{
+    text-align: right;
+    margin-top: 5px;
+}
+
+.parentDivPrioriandFM .left, .right{
+    display: inline-block;
+    width: 47%;
+}
+
+
+.HeaderFilter   {
+    margin-top:5px;
+    height: 20px;
+    width: 100%;
+}
+
+.DqmDatesFilter {
+    margin-left: 80%;
+    color:#00bcef;
+}
+

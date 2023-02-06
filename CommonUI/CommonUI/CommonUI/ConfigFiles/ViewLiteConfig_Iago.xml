@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+ 0 - all 
+-1 - none (No scripts)
+-2 - none(only default)
+specific - specific + default
+-->
+<ViewManagement>
+  <SecMasterLite>
+  </SecMasterLite>
+
+  <RADLite>
+  </RADLite>
+
+  <RefMasterLite>
+  </RefMasterLite>
+
+  <CorpActionLite>
+  </CorpActionLite>
+</ViewManagement>

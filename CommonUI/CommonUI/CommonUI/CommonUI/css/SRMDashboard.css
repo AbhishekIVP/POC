@@ -1,0 +1,58 @@
+﻿
+.DashboardFilterSection {
+    padding-top: 4px;
+    float: right;
+    display: none;
+}
+
+.DashboardDivContainer {
+    overflow: auto;
+    display: none;
+}
+
+.SRMDashboardFilterContainer {
+    font-size: 17px;
+    color: #04a4cf;
+    font-family: 'lato', Sans-Serif;
+}
+
+.cssDivSpecific {
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+}
+
+    .cssDivSpecific div {
+        -webkit-box-sizing: border-box !important;
+        -moz-box-sizing: border-box !important;
+        box-sizing: border-box !important;
+    }
+
+
+/*.........All filters.....Start....*/
+.dashboardFilterUI {
+    font-size: 11px;
+    color: #48a3dd !important;
+    padding: 6px 10px 0px 0px;
+    font-family: Lato;
+    font-weight: bold;
+    text-align: right;
+    overflow: hidden;
+}
+
+    .dashboardFilterUI:hover {
+        cursor: pointer;
+    }
+/*.........All filters.....End....*/
+
+#divDashboardMain {
+    background: linear-gradient(#fff, #e2e9f3) !important;
+}
+
+.btnClassHeader:hover {
+    cursor: pointer;
+}
+
+#SMDashboardRefreshButton:hover, #DashboardRightFilter:hover, #RefDashboardRefreshButton:hover {
+    color: #9C9A9A !important;
+}

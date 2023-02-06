@@ -1,0 +1,15 @@
+.disabledSubmitButton
+{
+    background: #46a9c0 url(images/btn_bg.gif) top left repeat-x;
+	height: 20px;
+	border-top: 1px solid #C7C7C7;
+	border-right: 1px solid #A2A2A4;
+	border-bottom: 1px solid #A2A2A4;
+	border-left: 1px solid #C7C7C7;
+	font-family: tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #ccc;
+	text-align: center;
+	padding: 2px 0;
+}

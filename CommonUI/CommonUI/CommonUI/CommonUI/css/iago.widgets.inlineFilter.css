@@ -1,0 +1,106 @@
+.inlineFilter .select2-container .select2-choice {
+    border:0;
+    background-image:none;
+}
+
+.inlineFilter .select2-container .select2-choice .select2-arrow {
+    display:none;
+}
+
+.inlineFilter .select2-container {
+     border: none;
+     outline: none;
+
+    -webkit-box-shadow: none;
+            box-shadow: none;
+     padding: 0px;
+     min-width:75px;
+}
+
+.inlineFilter .select2-container-active .select2-choice,
+.select2-container-active .select2-choices {
+    border: none;
+     outline: none;
+
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.inlineFilter .select2-container .select2-choice {
+    display: inline;
+    padding:0;
+
+}
+
+.inlineFilter .select2-container .select2-choice > .select2-chosen {
+margin-right: 0px;
+    color: #87d7eb;
+}
+
+.inlineFilter select2-results-dept-0 select2-result select2-result-unselectable select2-disabled
+{
+    height:5px;
+}
+
+.multiInlineFilter-select-std
+{
+    font-size: 14px;
+    color: #00bcef;
+    font-family: 'Lato', sans-serif;
+    background: transparent;
+    border-width: 0px !important;
+    background-image: initial !important;
+    background-color: transparent !important;
+}
+.inlineFilter li.select2-search-choice.multiInlineFilter-select-std{
+padding: 3px 5px 3px 0px;
+
+}
+.inlineFilter-arrow
+{
+    margin-left: 5px;
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #00bcef;
+}
+span.inlineFilter.multiInlineFilter .select2-choices{
+    border:0px;
+    background: transparent;
+}
+span.inlineFilter.multiInlineFilter .select2-choices input[type=text]{
+    width: 100% !important;
+    padding: 0% !important;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+	margin-left: 10%;
+   /* padding-left: 100% !important;*/
+}
+/*.inlineFilterClass{
+    width: auto !important;
+}*/
+li.select2-result.select2-result-selectable.test_hover:hover
+{
+ background: #f9f9f9;
+  color: #555555;
+  border-left: 4px solid black;
+}
+
+li.select2-result.select2-highlighted.test_hover
+{
+  
+  color: #555555;
+  border-left: 4px solid white;
+}
+.custom-angle-down {
+  margin-right: 4px;
+  height: 10px;
+  width: 12px;
+ 
+  background-color: #6d6d6d;
+  background: url('.\App_Themes\SuperAwesome\Icons\down-arrow.png')0 0 no-repeat;
+}
+
+.select2-chosen a, .select2-chosen b {
+    color: #48adc6;
+}

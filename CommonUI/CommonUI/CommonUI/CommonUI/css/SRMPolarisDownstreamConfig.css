@@ -1,0 +1,1935 @@
+﻿body {
+    font-family: lato;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.srm_panelTopSections {
+    height: 0px;
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+.ui-datepicker {
+    font-size: 8pt !important;
+    width: 19.1em;
+}
+
+#PolarisDownstreamTop {
+    background-color: #ffffff;
+    box-shadow: -1px 0px 14px 2px rgba(0, 0, 0, 0.34);
+    z-index: 10;
+    position: relative;
+}
+
+#PolarisDownstreamFilteringSuperContainer {
+    padding-top: 6px;
+    /*padding-bottom:6px;*/
+    background-color: inherit;
+}
+
+
+.PolarisDownstreamFiltersContainer {
+    /*/display:inline-block;*/
+    background-color: white;
+    margin: auto;
+    width: auto;
+    max-width: 80%;
+    display: inline-block;
+    background-color: inherit;
+}
+
+    .PolarisDownstreamFiltersContainer .PolarisDownstream {
+        display: inline-block;
+        padding: 1px 2px 0px 2px;
+        margin: 2px 5px 0px 10px;
+    }
+
+        .PolarisDownstreamFiltersContainer .PolarisDownstream .PolarisDownstreamText {
+            font-weight: bold;
+            color: black;
+            display: inline-block;
+            height: 23px;
+        }
+
+        .PolarisDownstreamFiltersContainer .PolarisDownstream .PolarisDownstreamMultiSelect {
+            border: 1px solid #cfcfcf;
+            border-radius: 3px;
+            height: 23px;
+            display: inline-block;
+            margin-left: 10px;
+            background-color: #ffffff;
+        }
+
+    .PolarisDownstreamFiltersContainer #PolarisDownstreamDatesFilter {
+        color: black;
+        cursor: pointer;
+        border: 1px solid #cfcfcf;
+        border-radius: 3px;
+        padding: 4px 10px 4px 10px;
+        /*margin-left:35px;*/
+    }
+
+#PolarisDownstreamSelectedReportDetailsContainer4Parent {
+    margin-top: 50px;
+    /* margin-left: 40px; */
+}
+
+#PolarisDownstreamSelectedReportDetailsContainer5Parent {
+    margin-top: 50px;
+    /* margin-left: 40px; */
+}
+
+#PolarisDownstreamSelectedReportRefKnowledgeDateParent {
+    width: 29.5%;
+    /* display: inline-block; */
+    margin-left: 29px;
+}
+
+#PolarisDownstreamFilteringContainer {
+    padding-top: 2px;
+}
+
+    #PolarisDownstreamFilteringContainer #PolarisDownstreamFiltersButtonDiv {
+        display: inline-block;
+        /*float:right;*/
+        padding-right: 12px;
+        padding-top: 2px;
+    }
+
+        #PolarisDownstreamFilteringContainer #PolarisDownstreamFiltersButtonDiv #PolarisDownstreamFiltersButtonContainer {
+            display: inline-block;
+        }
+
+        #PolarisDownstreamFilteringContainer #PolarisDownstreamFiltersButtonDiv #PolarisDownstreamFiltersButton {
+            /*margin-right:10px;*/
+            padding-left: 15px;
+            padding-right: 15px;
+            height: 25px;
+        }
+
+        #PolarisDownstreamFilteringContainer #PolarisDownstreamFiltersButtonDiv #PolarisDownstreamResetButton {
+            height: 25px;
+            padding-left: 15px;
+            padding-right: 15px;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+#PolarisDownstreamTop #PolarisDownstreamFilteringErrorDiv {
+    color: red;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+
+/*#panelMiddle{
+    height:inherit;
+}*/
+
+.PolarisDownstreamMain {
+    /*display:none;*/
+}
+
+#PolarisDownstreamMainErrorDiv {
+    display: none;
+}
+
+    #PolarisDownstreamMainErrorDiv #PolarisDownstreamMainErrorImageDiv {
+        font-size: 70px;
+        text-align: center;
+        position: relative;
+        top: 30%;
+    }
+
+    #PolarisDownstreamMainErrorDiv #PolarisDownstreamMainErrorMessageDiv {
+        font-size: 25px;
+        text-align: center;
+        position: relative;
+        top: 30%;
+    }
+
+#PolarisDownstreamMainLeftColumnTopDiv {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: none;
+}
+
+#PolarisDownstreamMainLeftColumnTopDivText {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+#PolarisDownstreamLiveCapturingContainer {
+    /*background-color: white;*/
+    /*margin: auto;*/
+    /*width: 100%;*/
+    display: inline-block;
+    padding-right: 2%;
+    float: right;
+    padding-top: 2px;
+}
+
+    #PolarisDownstreamLiveCapturingContainer .PolarisDownstreamLiveCapturingButtonDivs {
+        display: inline-block;
+        /*margin: 2px 2% 2px 2%;*/
+    }
+
+    /*#PolarisDownstreamLiveCapturingContainer #PolarisDownstreamStartCapturingButtonDiv #PolarisDownstreamStartCapturingButtonDiv{
+   padding: 10px 0px 10px 20px;
+}
+
+#PolarisDownstreamLiveCapturingContainer #PolarisDownstreamStartCapturingButtonDiv #PolarisDownstreamStartCapturingButton{
+    height:25px;
+    padding-left:10px;
+    padding-right:10px;
+}*/
+
+
+    #PolarisDownstreamLiveCapturingContainer #PolarisDownstreamCapturingButtonDiv {
+        /*padding: 10px 0px 10px 20px;*/
+        width: 102px;
+    }
+
+        #PolarisDownstreamLiveCapturingContainer #PolarisDownstreamCapturingButtonDiv #PolarisDownstreamCapturingButton {
+            height: 25px;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: inherit;
+        }
+
+/*#PolarisDownstreamLiveCapturingContainer #PolarisDownstreamStopCapturingButtonDiv {
+   padding: 10px 0px 10px 20px;
+}
+
+#PolarisDownstreamLiveCapturingContainer #PolarisDownstreamStopCapturingButtonDiv #PolarisDownstreamStopCapturingButton{
+    height:25px;
+    padding-left:10px;
+    padding-right:10px;
+}*/
+
+
+.PolarisDownstreamBody {
+    font-family: lato !important;
+}
+
+
+.PolarisDownstreamMain {
+    width: 100%;
+    /*min-height: 500px;*/
+    /*min-height: 416px;*/
+}
+
+    .PolarisDownstreamMain .PolarisDownstreamMainColumns {
+        /*border-top: 2px solid #a4a5a5;*/
+        /*min-height: 500px;*/
+        color: black;
+        /*min-height: 100%;*/
+    }
+
+    .PolarisDownstreamMain #PolarisDownstreamMainLeftColumn {
+        width: 15%;
+        float: left;
+        /* border-right: 2px solid #a4a5a5; */
+        background-color: #f0f6fb87;
+        /*overflow:auto;*/
+    }
+
+    .PolarisDownstreamMain #PolarisDownstreamMainRightColumn {
+        margin-left: 15%;
+        /*background-color: #777;*/
+        /*Debugging*/
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+#PolarisDownstreamChainHeaderDiv {
+    /*background-color: #ffffff;*/
+    height: 36px;
+    padding-top: 5px;
+}
+
+.ChainHeaderText {
+    vertical-align: middle;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.PolarisDownstreamChainHeaderColumn1 {
+    width: 42.75%;
+    padding-left: 12px;
+}
+
+.PolarisDownstreamChainHeaderColumn2 {
+    width: 50%;
+}
+
+.PolarisDownstreamChainColumn1 {
+    width: 44%;
+    height: inherit;
+    display: inline-block;
+    padding-left: 12px;
+    /*overflow:hidden;*/
+}
+
+.PolarisDownstreamChainColumn2 {
+    width: 52%;
+    height: inherit;
+    display: inline-block;
+    /*white-space:pre;*/
+}
+
+.PolarisDownstreamChainColumn2a {
+    width: 27%;
+    height: inherit;
+    display: inline-block;
+}
+
+.PolarisDownstreamChainColumn2b {
+    width: 26%;
+    height: inherit;
+    display: inline-block;
+    float: right;
+}
+
+.PolarisDownstreamChainColumn3 {
+    width: 5%;
+    height: inherit;
+    display: inline-block;
+}
+
+#PolarisDownstreamChainSuperParentDiv {
+    /*overflow: auto;*/
+    /* height: 90%; */
+}
+
+.PolarisDownstreamChainParentDiv {
+    display: inline-block;
+    /*margin-top: 2px;*/
+    width: 100%;
+}
+
+.PolarisDownstreamChain {
+    width: 100%;
+    /*border-top: solid 1px #ffac7c;*/
+    /*border-bottom: solid 2px #f6f6f6;*/
+    padding-bottom: 5px;
+    cursor: pointer;
+    /*height: 34px;*/
+    display: none;
+    /*padding-left:5px;*/
+}
+
+.PolarisDownstreamChainName {
+    width: 50%;
+    padding: 2px;
+    color: #eab671;
+    display: inline-block;
+    height: 30px;
+    vertical-align: top;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.PolarisDownstreamChainInfo {
+    display: inline-block;
+    width: 96%;
+    /* border-radius: 2px; */
+    /*padding: 2px;*/
+    /*background-color: #f1ebeb;*/
+    /*transform: skewX(-30deg);*/
+    height: 40px;
+    /*padding-left: 1%;*/
+    /*padding-right: 1%;*/
+    /*padding-bottom: 4px;*/
+    margin-left: 1%;
+    /* border-bottom: 0.5px solid #908a8a57; */
+}
+
+.PolarisDownstreamChainSubInfo1 {
+    padding-top: 9px;
+    /* height: 22px; */
+    padding-bottom: 4px;
+}
+
+.PolarisDownstreamChainSubInfo2 {
+    height: 11px;
+    padding-top: 2px;
+    margin-bottom: 1px;
+    font-size: 9px;
+    font-style: italic;
+}
+
+
+.PolarisDownstreamChainSubInfo {
+    display: inline-block;
+    /*transform: skewX(30deg);*/
+    margin-right: 1px;
+    /*width: 50%;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+    white-space: nowrap;
+    vertical-align: top;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.chainRightArrow {
+    font-size: 15px;
+    display: inline-block;
+    width: 1%;
+    /* vertical-align: super; */
+    margin-left: 0.5%;
+}
+
+/*
+.PolarisDownstreamIcon
+{
+    vertical-align: top;
+    margin-right: 9px;
+    display: inline-block;
+    background: #ce9196;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    width: 16px;
+    text-align: center;
+}
+    */
+
+/*.PolarisDownstreamRowIcon
+{
+    vertical-align:auto;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    
+    font-size: 12px;
+    color: gray;
+    padding-right: 5px;
+    width: 10px;
+}*/
+
+#PolarisDownstreamSelectedApiDetails {
+    display: none;
+}
+
+    /*#PolarisDownstreamSelectedApiDetails #PolarisDownstreamSelectedApiDetailsContainer1{
+    height:50%;
+}*/
+
+    #PolarisDownstreamSelectedApiDetails .PolarisDownstreamSelectedApiDetailsTabsContainer {
+        background-color: #d5d5d5;
+    }
+
+    #PolarisDownstreamSelectedApiDetails .SubTabsContainer {
+        height: 20px;
+        border-bottom: 1px solid #f0f0f0;
+        padding: 5px 12px 0px 12px;
+    }
+
+        #PolarisDownstreamSelectedApiDetails .SubTabsContainer .SubTabItemContainer {
+            display: inline-block;
+            padding-right: 5px;
+            padding-left: 5px;
+            color: #7d7d7d;
+            cursor: pointer;
+            pointer-events: auto;
+            letter-spacing: 0.2px;
+        }
+        /*#PolarisDownstreamSelectedApiDetails .SubTabsContainer #PolarisDownstreamSelectedApiDetailsResponseSubTabViewLogsContainer{
+    float:right;
+    padding-right:12px;
+}*/
+
+
+        #PolarisDownstreamSelectedApiDetails .SubTabsContainer .SelectedSubTabItem {
+            color: #48a3dd !important;
+            text-decoration: underline;
+            cursor: auto !important;
+            pointer-events: none !important;
+        }
+
+    #PolarisDownstreamSelectedApiDetails .PolarisDownstreamSelectedApiDetailsTabsContainer .PolarisDownstreamSelectedApiDetailsTabs {
+        padding: 10px 17px 4px 17px;
+        color: #000000;
+    }
+
+    #PolarisDownstreamSelectedApiDetails .PolarisDownstreamSelectedApiDetailsContainerHeaderTextDivs {
+        padding-left: 17px;
+        padding-top: 5px;
+        overflow: auto;
+        white-space: pre-line;
+        /*overflow-wrap: break-word;*/
+    }
+
+    #PolarisDownstreamSelectedApiDetails .PolarisDownstreamSelectedApiDetailsContainerTextDivs {
+        margin: 0px 15px 0px 15px;
+        padding: 5px 2px 2px 2px;
+        overflow: auto;
+        height: 90%;
+        /*overflow-wrap: break-word !important;
+    width:90%;*/
+    }
+
+    #PolarisDownstreamSelectedApiDetails .PolarisDownstreamSelectedApiDetailsContainerViewLogsTextDivs {
+        padding-left: 17px;
+        padding-top: 5px;
+        overflow: auto;
+        white-space: pre-line;
+        height: 90%;
+        /*overflow-wrap: break-word;*/
+    }
+
+    #PolarisDownstreamSelectedApiDetails .PolarisDownstreamSelectedApiDetailsContainerTextDivs .renderjson:first-child {
+        overflow: auto;
+        height: inherit;
+        margin: 0px;
+    }
+/*
+#PolarisDownstreamSelectedApiDetails .PolarisDownstreamSelectedApiDetailsContainerTextDivs:nth-child(2){
+    
+    overflow:auto;
+    height: 290px;
+    width : 90%;
+}
+
+*/
+
+
+.PolarisDownstreamGreyBtnStyle {
+    background-image: linear-gradient(to right, #aca6a6 0, #aca6a6 100%);
+    border: none;
+    background-color: #aca6a6;
+    outline-color: #aca6a6;
+    border-radius: 2px;
+    color: white;
+    height: 22px;
+    /*font-family: 'lato' , Sans-Serif;*/
+    font-size: 12px;
+    padding: 2px 10px;
+    margin-left: 5px;
+    font-weight: 400;
+    width: auto;
+    cursor: pointer;
+}
+
+.PolarisDownstreamRedBtnStyle {
+    background-image: linear-gradient(to right, #dd5353 0, #dd5353 100%);
+    border: none;
+    background-color: #dd5353;
+    outline-color: #dd5353;
+    border-radius: 2px;
+    color: white;
+    height: 23px;
+    /*font-family: 'lato' , Sans-Serif;*/
+    font-size: 12px;
+    padding: 1px 10px;
+    /*margin-left: 5px;*/
+    font-weight: 400;
+    /*width: auto;*/
+    cursor: pointer;
+}
+
+/*#PolarisDownstreamSelectedApiDetails #PolarisDownstreamSelectedApiDetailsContainer1Icons{
+    padding-right:10px;
+}
+
+#PolarisDownstreamSelectedApiDetails #PolarisDownstreamSelectedApiDetailsContainer2Icons{
+    padding-right:10px;
+}*/
+
+#PolarisDownstreamSelectedApiDetails .PolarisDownstreamSelectedApiDetailsContainerIconsDiv {
+    /*display : inline-block;*/
+    float: right;
+    padding-bottom: 1px;
+    padding-right: 12px;
+    /*margin-right: 15px;*/
+}
+
+    #PolarisDownstreamSelectedApiDetails .PolarisDownstreamSelectedApiDetailsContainerIconsDiv .PolarisDownstreamSelectedApiDetailsContainerIcons {
+        display: inline-block;
+        margin-left: 15px;
+        cursor: pointer;
+    }
+
+.PolarisDownstreamEllipses {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 20px;
+}
+
+.scroll::-webkit-scrollbar-track {
+    background: #ddd;
+    border-radius: 20px;
+}
+
+/*.scroll:hover::-webkit-scrollbar {
+  
+  width: 8px;
+}*/ #PolarisDownstreamTop {
+    background-color: #ffffff;
+    box-shadow: -1px 0px 14px 2px rgba(0, 0, 0, 0.34);
+    z-index: 10;
+    position: relative;
+}
+
+#PolarisDownstreamFilteringSuperContainer {
+    padding-top: 6px;
+    /*padding-bottom:6px;*/
+    background-color: inherit;
+}
+
+
+.PolarisDownstreamFiltersContainer {
+    /*/display:inline-block;*/
+    background-color: white;
+    margin: auto;
+    width: auto;
+    max-width: 80%;
+    display: inline-block;
+    background-color: inherit;
+}
+
+    .PolarisDownstreamFiltersContainer .PolarisDownstream {
+        display: inline-block;
+        padding: 1px 2px 0px 2px;
+        margin: 2px 5px 0px 10px;
+    }
+
+        .PolarisDownstreamFiltersContainer .PolarisDownstream .PolarisDownstreamText {
+            font-weight: bold;
+            color: black;
+            display: inline-block;
+            height: 23px;
+        }
+
+        .PolarisDownstreamFiltersContainer .PolarisDownstream .PolarisDownstreamMultiSelect {
+            border: 1px solid #cfcfcf;
+            border-radius: 3px;
+            height: 23px;
+            display: inline-block;
+            margin-left: 10px;
+            background-color: #ffffff;
+        }
+
+    .PolarisDownstreamFiltersContainer #PolarisDownstreamDatesFilter {
+        color: black;
+        cursor: pointer;
+        border: 1px solid #cfcfcf;
+        border-radius: 3px;
+        padding: 4px 10px 4px 10px;
+        /*margin-left:35px;*/
+    }
+
+#PolarisDownstreamFilteringContainer {
+    padding-top: 2px;
+}
+
+    #PolarisDownstreamFilteringContainer #PolarisDownstreamFiltersButtonDiv {
+        display: inline-block;
+        /*float:right;*/
+        padding-right: 12px;
+        padding-top: 2px;
+    }
+
+        #PolarisDownstreamFilteringContainer #PolarisDownstreamFiltersButtonDiv #PolarisDownstreamFiltersButtonContainer {
+            display: inline-block;
+        }
+
+        #PolarisDownstreamFilteringContainer #PolarisDownstreamFiltersButtonDiv #PolarisDownstreamFiltersButton {
+            /*margin-right:10px;*/
+            padding-left: 15px;
+            padding-right: 15px;
+            height: 25px;
+        }
+
+        #PolarisDownstreamFilteringContainer #PolarisDownstreamFiltersButtonDiv #PolarisDownstreamResetButton {
+            height: 25px;
+            padding-left: 15px;
+            padding-right: 15px;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+#PolarisDownstreamTop #PolarisDownstreamFilteringErrorDiv {
+    color: red;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+
+/*#panelMiddle{
+    height:inherit;
+}*/
+
+.PolarisDownstreamMain {
+    /*display:none;*/
+}
+
+#PolarisDownstreamMainErrorDiv {
+    display: none;
+}
+
+    #PolarisDownstreamMainErrorDiv #PolarisDownstreamMainErrorImageDiv {
+        font-size: 70px;
+        text-align: center;
+        position: relative;
+        top: 30%;
+    }
+
+    #PolarisDownstreamMainErrorDiv #PolarisDownstreamMainErrorMessageDiv {
+        font-size: 25px;
+        text-align: center;
+        position: relative;
+        top: 30%;
+    }
+
+#PolarisDownstreamMainLeftColumnTopDiv {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: none;
+}
+
+#PolarisDownstreamMainLeftColumnTopDivText {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+#PolarisDownstreamLiveCapturingContainer {
+    /*background-color: white;*/
+    /*margin: auto;*/
+    /*width: 100%;*/
+    display: inline-block;
+    padding-right: 2%;
+    float: right;
+    padding-top: 2px;
+}
+
+    #PolarisDownstreamLiveCapturingContainer .PolarisDownstreamLiveCapturingButtonDivs {
+        display: inline-block;
+        /*margin: 2px 2% 2px 2%;*/
+    }
+
+    /*#PolarisDownstreamLiveCapturingContainer #PolarisDownstreamStartCapturingButtonDiv #PolarisDownstreamStartCapturingButtonDiv{
+   padding: 10px 0px 10px 20px;
+}
+
+#PolarisDownstreamLiveCapturingContainer #PolarisDownstreamStartCapturingButtonDiv #PolarisDownstreamStartCapturingButton{
+    height:25px;
+    padding-left:10px;
+    padding-right:10px;
+}*/
+
+
+    #PolarisDownstreamLiveCapturingContainer #PolarisDownstreamCapturingButtonDiv {
+        /*padding: 10px 0px 10px 20px;*/
+        width: 102px;
+    }
+
+        #PolarisDownstreamLiveCapturingContainer #PolarisDownstreamCapturingButtonDiv #PolarisDownstreamCapturingButton {
+            height: 25px;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: inherit;
+        }
+
+/*#PolarisDownstreamLiveCapturingContainer #PolarisDownstreamStopCapturingButtonDiv {
+   padding: 10px 0px 10px 20px;
+}
+
+#PolarisDownstreamLiveCapturingContainer #PolarisDownstreamStopCapturingButtonDiv #PolarisDownstreamStopCapturingButton{
+    height:25px;
+    padding-left:10px;
+    padding-right:10px;
+}*/
+
+
+.PolarisDownstreamBody {
+    font-family: lato !important;
+}
+
+
+.PolarisDownstreamMain {
+    width: 100%;
+    /*min-height: 500px;*/
+    /*min-height: 416px;*/
+    height: calc(100vh - 98px);
+}
+
+.smselectimage .smselectimage2 {
+    color: gray !impotant;
+}
+
+.PolarisDownstreamMain .PolarisDownstreamMainColumns {
+    /*border-top: 2px solid #a4a5a5;*/
+    /*min-height: 500px;*/
+    color: black;
+    /*min-height: 100%;*/
+}
+
+.PolarisDownstreamMain #PolarisDownstreamMainLeftColumn {
+    width: 18%;
+    float: left;
+    /* border-right: 2px solid #a4a5a5; */
+    background-color: #f7faff;
+    overflow: auto;
+    height: calc(100vh - 98px);
+}
+
+.PolarisDownstreamMain #PolarisDownstreamMainRightColumn {
+    margin-left: 15%;
+    /* background-color: #777; */
+    /*Debugging*/
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: 12px;
+    height: calc(100vh - 98px);
+}
+
+#PolarisDownstreamChainHeaderDiv {
+    /*background-color: #ffffff;*/
+    height: 36px;
+    padding-top: 5px;
+}
+
+.ChainHeaderText {
+    vertical-align: middle;
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #7a94af;
+}
+
+.PolarisDownstreamChainHeaderColumn1 {
+    width: 42.75%;
+    padding-left: 12px;
+    font-family: oswald;
+}
+
+.PolarisDownstreamChainHeaderColumn2 {
+    width: 50%;
+    float: right;
+}
+
+.PolarisDownstreamChainColumn1 {
+    width: 83%;
+    height: inherit;
+    display: inline-block;
+    padding-left: 12px;
+    /*overflow:hidden;*/
+    font-size: 13px;
+    color: #4d5969;
+}
+
+.PolarisDownstreamChainColumn2 {
+    width: 52%;
+    height: inherit;
+    display: inline-block;
+    /*white-space:pre;*/
+}
+
+.PolarisDownstreamChainColumn2a {
+    width: 27%;
+    height: inherit;
+    display: inline-block;
+}
+
+.PolarisDownstreamChainColumn2b {
+    width: 26%;
+    height: inherit;
+    display: inline-block;
+    float: right;
+}
+
+.PolarisDownstreamChainColumn3 {
+    width: 5%;
+    height: inherit;
+    display: inline-block;
+}
+
+#PolarisDownstreamChainSuperParentDiv {
+    /*overflow: auto;*/
+}
+
+.PolarisDownstreamChainParentDiv {
+    display: inline-block;
+    /*margin-top: 2px;*/
+    width: 100%;
+}
+
+.PolarisDownstreamChain {
+    width: 100%;
+    /*border-top: solid 1px #ffac7c;*/
+    /*border-bottom: solid 2px #f6f6f6;*/
+    padding-bottom: 5px;
+    cursor: pointer;
+    /*height: 34px;*/
+    display: none;
+    /*padding-left:5px;*/
+}
+
+.PolarisDownstreamChainName {
+    width: 50%;
+    padding: 2px;
+    color: #eab671;
+    display: inline-block;
+    height: 30px;
+    vertical-align: top;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.PolarisDownstreamChainInfo {
+    display: inline-block;
+    width: 96%;
+    /* border-radius: 2px; */
+    /*padding: 2px;*/
+    /*background-color: #f1ebeb;*/
+    /*transform: skewX(-30deg);*/
+    height: 40px;
+    /*padding-left: 1%;*/
+    /*padding-right: 1%;*/
+    /*padding-bottom: 4px;*/
+    margin-left: 1%;
+    border-bottom: 0.5px solid #d2deed;
+}
+
+.PolarisDownstreamChainSubInfo1 {
+    padding-top: 9px;
+    /* height: 22px; */
+    padding-bottom: 4px;
+}
+
+.PolarisDownstreamChainSubInfo2 {
+    height: 11px;
+    padding-top: 2px;
+    margin-bottom: 1px;
+    font-size: 9px;
+    font-style: italic;
+}
+
+
+.PolarisDownstreamChainSubInfo {
+    display: inline-block;
+    /*transform: skewX(30deg);*/
+    margin-right: 1px;
+    /*width: 50%;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+    white-space: nowrap;
+    vertical-align: top;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.chainRightArrow {
+    font-size: 20px;
+    display: inline-block;
+    width: 1%;
+    /* vertical-align: bottom; */
+    margin-right: 5.5%;
+    float: right;
+    color: white;
+    line-height: 23px;
+}
+
+/*
+.PolarisDownstreamIcon
+{
+    vertical-align: top;
+    margin-right: 9px;
+    display: inline-block;
+    background: #ce9196;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    width: 16px;
+    text-align: center;
+}
+    */
+
+/*.PolarisDownstreamRowIcon
+{
+    vertical-align:auto;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    
+    font-size: 12px;
+    color: gray;
+    padding-right: 5px;
+    width: 10px;
+}*/
+
+#PolarisDownstreamSelectedApiDetails {
+    display: none;
+}
+
+    /*#PolarisDownstreamSelectedApiDetails #PolarisDownstreamSelectedApiDetailsContainer1{
+    height:50%;
+}*/
+
+    #PolarisDownstreamSelectedApiDetails .PolarisDownstreamSelectedApiDetailsTabsContainer {
+        background-color: #d5d5d5;
+    }
+
+    #PolarisDownstreamSelectedApiDetails .SubTabsContainer {
+        height: 20px;
+        border-bottom: 1px solid #f0f0f0;
+        padding: 5px 12px 0px 12px;
+    }
+
+        #PolarisDownstreamSelectedApiDetails .SubTabsContainer .SubTabItemContainer {
+            display: inline-block;
+            padding-right: 5px;
+            padding-left: 5px;
+            color: #7d7d7d;
+            cursor: pointer;
+            pointer-events: auto;
+            letter-spacing: 0.2px;
+        }
+        /*#PolarisDownstreamSelectedApiDetails .SubTabsContainer #PolarisDownstreamSelectedApiDetailsResponseSubTabViewLogsContainer{
+    float:right;
+    padding-right:12px;
+}*/
+
+
+        #PolarisDownstreamSelectedApiDetails .SubTabsContainer .SelectedSubTabItem {
+            color: #48a3dd !important;
+            text-decoration: underline;
+            cursor: auto !important;
+            pointer-events: none !important;
+        }
+
+    #PolarisDownstreamSelectedApiDetails .PolarisDownstreamSelectedApiDetailsTabsContainer .PolarisDownstreamSelectedApiDetailsTabs {
+        padding: 10px 17px 4px 17px;
+        color: #000000;
+    }
+
+    #PolarisDownstreamSelectedApiDetails .PolarisDownstreamSelectedApiDetailsContainerHeaderTextDivs {
+        padding-left: 17px;
+        padding-top: 5px;
+        overflow: auto;
+        white-space: pre-line;
+        /*overflow-wrap: break-word;*/
+    }
+
+    #PolarisDownstreamSelectedApiDetails .PolarisDownstreamSelectedApiDetailsContainerTextDivs {
+        margin: 0px 15px 0px 15px;
+        padding: 5px 2px 2px 2px;
+        overflow: auto;
+        height: 90%;
+        /*overflow-wrap: break-word !important;
+    width:90%;*/
+    }
+
+    #PolarisDownstreamSelectedApiDetails .PolarisDownstreamSelectedApiDetailsContainerViewLogsTextDivs {
+        padding-left: 17px;
+        padding-top: 5px;
+        overflow: auto;
+        white-space: pre-line;
+        height: 90%;
+        /*overflow-wrap: break-word;*/
+    }
+
+    #PolarisDownstreamSelectedApiDetails .PolarisDownstreamSelectedApiDetailsContainerTextDivs .renderjson:first-child {
+        overflow: auto;
+        height: inherit;
+        margin: 0px;
+    }
+/*
+#PolarisDownstreamSelectedApiDetails .PolarisDownstreamSelectedApiDetailsContainerTextDivs:nth-child(2){
+    
+    overflow:auto;
+    height: 290px;
+    width : 90%;
+}
+
+*/
+
+
+.PolarisDownstreamGreyBtnStyle {
+    background-image: linear-gradient(to right, #aca6a6 0, #aca6a6 100%);
+    border: none;
+    background-color: #aca6a6;
+    outline-color: #aca6a6;
+    border-radius: 2px;
+    color: white;
+    height: 22px;
+    /*font-family: 'lato' , Sans-Serif;*/
+    font-size: 12px;
+    padding: 2px 10px;
+    margin-left: 5px;
+    font-weight: 400;
+    width: auto;
+    cursor: pointer;
+}
+
+.PolarisDownstreamRedBtnStyle {
+    background-image: linear-gradient(to right, #dd5353 0, #dd5353 100%);
+    border: none;
+    background-color: #dd5353;
+    outline-color: #dd5353;
+    border-radius: 2px;
+    color: white;
+    height: 23px;
+    /*font-family: 'lato' , Sans-Serif;*/
+    font-size: 12px;
+    padding: 1px 10px;
+    /*margin-left: 5px;*/
+    font-weight: 400;
+    /*width: auto;*/
+    cursor: pointer;
+}
+
+/*#PolarisDownstreamSelectedApiDetails #PolarisDownstreamSelectedApiDetailsContainer1Icons{
+    padding-right:10px;
+}
+
+#PolarisDownstreamSelectedApiDetails #PolarisDownstreamSelectedApiDetailsContainer2Icons{
+    padding-right:10px;
+}*/
+
+#PolarisDownstreamSelectedApiDetails .PolarisDownstreamSelectedApiDetailsContainerIconsDiv {
+    /*display : inline-block;*/
+    float: right;
+    padding-bottom: 1px;
+    padding-right: 12px;
+    /*margin-right: 15px;*/
+}
+
+    #PolarisDownstreamSelectedApiDetails .PolarisDownstreamSelectedApiDetailsContainerIconsDiv .PolarisDownstreamSelectedApiDetailsContainerIcons {
+        display: inline-block;
+        margin-left: 15px;
+        cursor: pointer;
+    }
+
+.PolarisDownstreamEllipses {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 20px;
+}
+
+.scroll::-webkit-scrollbar-track {
+    background: #ddd;
+    border-radius: 20px;
+}
+
+/*.scroll:hover::-webkit-scrollbar {
+  
+  width: 8px;
+}*/
+
+.PolarisDownstreamSelectedReportDetailsHeaderContainer {
+    height: 36px;
+    padding-top: 11px;
+    padding-left: 17px;
+    font-family: oswald;
+    color: #a5a5a5;
+    font-size: 16px;
+}
+
+.PolarisDownstreamSelectedReportDetailsContainer1Tab {
+    display: inline-block;
+}
+
+    .PolarisDownstreamSelectedReportDetailsContainer1Tab:nth-child(1) {
+        width: 33%;
+        position: relative;
+        top: -20px;
+    }
+
+    .PolarisDownstreamSelectedReportDetailsContainer1Tab:nth-child(2) {
+        width: 14%;
+        position: relative;
+        top: -20px;
+    }
+
+    .PolarisDownstreamSelectedReportDetailsContainer1Tab:nth-child(3) {
+        width: 17%;
+    }
+
+    .PolarisDownstreamSelectedReportDetailsContainer1Tab:nth-child(4) {
+    }
+
+    .PolarisDownstreamSelectedReportDetailsContainer1Tab span:first-child {
+        display: block;
+        font-size: 13px;
+    }
+
+    .PolarisDownstreamSelectedReportDetailsContainer1Tab input {
+        display: inline-block;
+        padding-top: 5px;
+        color: Gray;
+    }
+
+#PolarisDownstreamSelectedReportDetailsContainer1Parent {
+    padding-left: 51px;
+    padding-right: 30px;
+    /* height: 41px; */
+    padding-top: 15px;
+    padding-bottom: -1px;
+}
+
+#PolarisDownstreamSelectedReportDetailsContainer2Parent {
+    height: 73px;
+    /* margin-left: 40px; */
+}
+
+.grayBackground {
+    background: #f6f6f7;
+}
+
+.PolarisDownstreamSelectedReportDetailsContainer2Tabs {
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+#PolarisDownstreamSelectedReportDetailsContainer3Parent {
+    margin-top: 57px;
+    /* margin-left: 40px; */
+    /* height: 65px; */
+}
+
+#PolarisDownstreamSelectedReportQueueNotificationParent {
+    width: 30%;
+    /* display: inline-block; */
+    /* padding: 10px; */
+    /* height: inherit; */
+}
+
+#PolarisDownstreamSelectedReportKnowledgeDateParent {
+    width: 27.8%;
+    /* display: inline-block; */
+    margin-left: 68px;
+    /* padding: 10px; */
+    /* height: inherit; */
+}
+
+.PolarisDownstreamSelectedReportDetailsContainerTabs {
+    display: inline-block;
+    height: inherit;
+    padding: 13px;
+}
+
+#PolarisDownstreamSelectedReportDateParent {
+    width: 60.5%;
+    margin-left: 71px;
+}
+
+#PolarisDownstreamSelectedReportPostLoadingCustomClassParent {
+    width: 30%;
+}
+
+#PolarisDownstreamSelectedCalendarIdInputParent {
+    width: 29%;
+    margin-left: 29px;
+}
+
+.InputBox {
+    border: none;
+    border-bottom: 2px solid #9c9696;
+    background: none;
+    width: 88%;
+    margin: 0px 1px;
+}
+
+.normalInputBox {
+    border: none;
+    border-bottom: 2px solid #9c9696;
+    background: none;
+    margin: 0px 1px;
+}
+
+.PolarisDownstreamNewSystemNameInput {
+    width: 170px;
+}
+
+#PolarisDownstreamNewSystemPanelContainer {
+    display: block;
+    position: absolute;
+    background: white;
+    width: 100%;
+    z-index: 2000;
+}
+
+.DateInput {
+    background: url(images/calendarIcon.png) no-repeat right 50%;
+}
+
+#PolarisDownstreamSelectedReportBatchSizeInput {
+    width: 61%;
+}
+
+.postLoadingInputBox {
+    width: 55%;
+    float: right;
+    color: Gray;
+}
+
+.disabled {
+    color: #d4cdcd;
+    border-bottom-color: #d4cdcd;
+}
+
+#PolarisDownstreamNewSystemIconContainer {
+    position: absolute;
+    width: 70px;
+    display: inline-block;
+    color: #43D9C6;
+    font-size: 12px;
+    top: 5px;
+    right: 2px;
+}
+
+#PolarisDownstreamProductsContainer {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    /* margin-left: 70px; */
+}
+
+#PolarisDownstreamDetailsContainer {
+    width: 88.5%;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    color: #859db3;
+}
+
+#PolarisDownstreamButtonsContainerContainer {
+    width: 11%;
+    display: inline-block;
+    text-align: right;
+}
+
+#PolarisDownstreamTimeseriesContainer {
+    text-align: center;
+}
+
+.DetailsTabs {
+    margin: 0px 15px 0px 15px;
+    display: inline-block;
+}
+
+.ProductTabs {
+    background: none;
+    border: none;
+    color: #16171b;
+    font-weight: 500;
+}
+
+.TopPanelContainers {
+    padding: 5px;
+    background-color: #f6f6f6;
+}
+
+.TimeSeriesTab {
+    border: 1px solid #a0cfff;
+    border-radius: 28px;
+    padding: 1px 6px 4px 2px;
+    position: relative;
+    vertical-align: sub;
+    font-size: 13px;
+    color: #1594de;
+    width: auto;
+    margin: 0px 5px;
+}
+
+.notConfigured {
+    background: #f1f6f9;
+    color: #f1f6f9;
+    font-size: 11px !important;
+    padding: 2px;
+    border-radius: 10px;
+    border: 1px solid #4da7dc;
+    margin-left: 1px;
+}
+
+.ActiveSetup {
+    border-radius: 1px;
+    color: #4da7dc;
+    border: none;
+    outline: none;
+    border-bottom: 2.3px solid #4da7dc !important;
+}
+
+.CommonGreenBtnStyle {
+    background-image: linear-gradient(to right, #43D9C6 0, #43D9C6 100%);
+    border: none;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    height: 17px;
+    font-family: 'lato', Sans-Serif;
+    font-size: 12px;
+    padding: 2px 10px 10px 10px;
+    margin-left: 5px;
+    font-weight: 400;
+    width: 60px;
+    cursor: pointer;
+    top: 1px;
+    position: relative;
+    text-align: center;
+    line-height: 12px;
+}
+
+.CommonRedBtnStyle {
+    background-image: linear-gradient(to right, #e2717a94 0, #e2717a94 100%);
+    border: none;
+    background-color: #c56a71;
+    outline-color: #c56a71;
+    border-radius: 2px;
+    color: white;
+    height: 17px;
+    font-family: 'lato', Sans-Serif;
+    font-size: 12px;
+    padding: 2px 10px 10px 10px;
+    margin-left: 5px;
+    font-weight: 400;
+    width: 60px;
+    cursor: pointer;
+    top: 1px;
+    position: relative;
+    text-align: center;
+    line-height: 12px;
+}
+
+#PolarisDownstreamTopContainer1 {
+    border-bottom: 1px solid #bbd5de61;
+    padding-bottom: 0px;
+    background-color: #f1f6f9;
+}
+
+#PolarisDownstreamTopContainer3 {
+    box-shadow: inset 0px 6px 9px -9px #aaaaaa;
+    height: 27px;
+}
+
+.completeTimeSeriesTab {
+    color: white;
+    background: #4da7dc;
+    font-size: 11px !important;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.blueFont {
+    color: #4da7dc;
+    padding: 4px;
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: -2px;
+}
+
+.inactiveTimeSeriesTab {
+    color: #ffffff00;
+    border: 1px solid #a0cfff;
+    border-radius: 21px;
+    font-size: 9px !important;
+    padding: 3px;
+}
+
+.AddBtn {
+    margin-right: 5px;
+    color: #43d9c6;
+    cursor: pointer;
+    font-size: 18px !important;
+    text-align: center;
+    top: 2px;
+    position: relative;
+}
+
+#PolarisDownstreamAddNewReportBtn {
+    float: right;
+    margin-right: 10px;
+    display: none;
+}
+
+#PolarisDownstreamCloneBtn {
+    font-size: 14px;
+    background: no-repeat;
+    border: none;
+    color: #43D9C6;
+    padding: 0px;
+    position: relative;
+    top: 2px;
+}
+
+#PolarisDownstreamFilteringErrorDiv {
+    color: red;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 12px;
+}
+
+.NewSystemColumn {
+    display: inline-block;
+    width: 24%;
+    text-align: left;
+}
+
+.NewSystemInput {
+    width: 50%;
+}
+
+.SystemDetailsInput {
+    background: none;
+    border: none;
+    font-size: 12px;
+    color: #859db3;
+}
+
+#PolarisDownstreamNewSystemPanel {
+    padding: 8px;
+}
+
+.TextAlignRight {
+    text-align: right;
+}
+
+.TimeSeriesTabIsActive {
+    background: #4da7dc;
+}
+
+    .TimeSeriesTabIsActive > i {
+        /* background: white; */
+        /* color: #4da7dc; */
+        /* font-size: 11px !important; */
+        padding: 2px;
+        border-radius: 10px;
+        border: 1px solid white;
+        /* margin-top: 1px; */
+    }
+
+    .TimeSeriesTabIsActive > button {
+        color: white;
+    }
+
+.PolarisDownstreamSelectedReportDateInputConatiner {
+    display: inline-block;
+    width: 97%;
+}
+
+.PolarisDownstreamSelectedReportDateSpan {
+    display: inline-block;
+}
+
+.ui-widget-header {
+    border: 1px solid #3e4d5e !important;
+    background: #516c8a !important;
+}
+
+    .ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+        border: 1px solid #527eab;
+        background: #b9cedd;
+        color: #363636;
+    }
+
+    .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+        border: 1px solid #527eab;
+        background: #ffffff url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
+        font-weight: bold;
+        color: #1b3455;
+    }
+
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
+    background-color: #7999b5;
+}
+
+.ui-button:focus {
+    border: 1px solid #527eab !important;
+    background: #93bed8 url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x !important;
+    font-weight: bold !important;
+    color: #1b3455 !important;
+}
+/*.sm_toggleContainer {
+    width: 6%;
+    height: 18px;
+    border-radius: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    margin-left: 1%;
+    padding: 0px 5px;
+    margin-top: 10px;
+}
+
+.sm_toggleBtn {
+    width: 26px;
+    height: 22px;
+    border-radius: 1px;
+    background-color: #75e0cc;
+    cursor: pointer;
+    color: #fff;
+    padding-left: 6px;
+    position: relative;
+    font-size: 10px;
+    top: -22px;
+    line-height: 20px;
+}
+
+.sm_toggleText {
+    background-color: #f9f3f5;
+    font-size: 10px;
+    color: #888;
+    width: 26px;
+    padding-left: 6px;
+    display: inline-block;
+    height: 21px;
+    line-height: 19px;
+}*/
+
+
+
+#notificationsContainerDiv {
+    position: absolute;
+    /*top: 67px;*/
+    right: 5px;
+    border: 1px solid #ece1e1;
+}
+
+.redColor {
+    color: indianred;
+}
+
+.fontSize12 {
+    font-size: 12px;
+}
+
+
+body {
+    font-family: arial;
+    font-size: 14px;
+}
+
+.liveExample {
+    padding: 1em;
+    background-color: #EEEEDD;
+    border: 1px solid #CCC;
+    max-width: 655px;
+}
+
+    .liveExample input {
+        font-family: Arial;
+    }
+
+    .liveExample b {
+        font-weight: bold;
+    }
+
+    .liveExample p {
+        margin-top: 0.9em;
+        margin-bottom: 0.9em;
+    }
+
+    .liveExample select[multiple] {
+        width: 100%;
+        height: 8em;
+    }
+
+    .liveExample h2 {
+        margin-top: 0.4em;
+    }
+
+.ko-grid {
+    margin-bottom: 1em;
+    width: 25em;
+    border: 1px solid silver;
+    background-color: White;
+}
+
+    .ko-grid th {
+        text-align: left;
+        background-color: Black;
+        color: White;
+    }
+
+    .ko-grid td, th {
+        padding: 0.4em;
+    }
+
+    .ko-grid tr:nth-child(odd) {
+        background-color: #DDD;
+    }
+
+.ko-grid-pageLinks {
+    margin-bottom: 1em;
+}
+
+    .ko-grid-pageLinks a {
+        padding: 0.5em;
+    }
+
+        .ko-grid-pageLinks a.selected {
+            background-color: Black;
+            color: White;
+        }
+
+.liveExample {
+    height: 20em;
+    overflow: auto;
+}
+/* Mobile Safari reflows pages slowly, so fix the height to avoid the need for reflows */
+
+li {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#PolarisDownstreamContainersParent {
+    padding: 2px 30px;
+    height: calc(100vh - 415px);
+}
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.grid2x2 {
+    min-height: 89%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+    .grid2x2 > div {
+        display: flex;
+        flex-basis: calc(50% - 40px);
+        justify-content: center;
+        flex-direction: column;
+        background: #f7faff;
+    }
+
+        .grid2x2 > div > div {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+        }
+
+.categoryLabel {
+    /* position: inherit; */
+    /* top: 0; */
+    /* left : 0; */
+    /* right : 0; */
+    /* height: 20px; */
+    padding: 5px;
+    font-size: 14px;
+    color: gray;
+    /* font-weight: 600; */
+    /* margin-bottom: auto; */
+    padding-left: 20px;
+}
+
+.box {
+    margin: 10px 20px 10px;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: orange;
+}
+
+.box3 {
+    background-color: purple;
+}
+
+.box4 {
+    background-color: grey;
+}
+
+.categoryBody {
+    flex-direction: column !important;
+    height: 100%;
+    padding: 4px 20px;
+}
+
+    .categoryBody > div {
+        padding: 10px;
+        padding-right: 0px;
+    }
+
+#PolarisDownstreamSelectedReportFailureEmailInput {
+    float: right;
+    width: 33%;
+    color: Gray;
+}
+
+#smselect_polarisDownstreamAvailableReportsMultiSelectedItems .smselectrun2 {
+    width: 93%;
+    padding-left: 10px;
+}
+
+#smselect_polarisDownstreamAvailableReportsMultiSelectedItems {
+    width: 100%;
+}
+
+#sm_toggle_PolarisDownstreamSelectedReportRequireDeletedRowChk,
+#sm_toggle_PolarisDownstreamSelectedReportRemoveTimePartChk {
+    display: block !important;
+    float: none !important;
+    margin-left: 0% !important;
+    padding: 3px 5px 0px 2px !important;
+}
+
+.PolarisDownstreamNewSystemLabel {
+    color: black;
+}
+
+.downstreamSyncDisableDiv {
+    background-color: #fff;
+    filter: alpha(opacity=50);
+    opacity: 0.6;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+
+.downstreamSyncError_popupContainer {
+    box-shadow: 5px 7px 22px -7px #6D6D6D;
+    /* background-image: url(images/popup_texture.png); */
+    background-color: #fff;
+    background-repeat: repeat;
+    min-height: 140px;
+    font-family: Lato;
+    border: 1px solid #D4D4D4;
+    border-top: 0px;
+    position: absolute;
+    top: 0px;
+    padding-top: 5px;
+    width: 435px;
+    margin-left: 40%;
+    z-index: 100000;
+}
+
+/*.downstreamSyncError_popupHeader {
+    margin-left: 50px;
+    margin-top: 20px;
+}*/
+.downstreamSyncError_popupHeader {
+    margin-left: 19px;
+    margin-top: 5px;
+}
+
+.downstreamSyncError_popupMessageContainer {
+    margin-left: 25px;
+    margin-top: 0px;
+    /* width: 340px; */
+    height: 100px;
+    font-size: 14px;
+}
+
+#downstreamSyncError_popupCloseBtn {
+    float: right;
+    position: relative;
+    right: 2%;
+    cursor: pointer;
+}
+
+.downstreamSyncError_imageContainer {
+    display: inline-block;
+}
+
+.downstreamSyncError_messageContainer {
+    display: inline-block;
+}
+
+.downstreamSyncError_popupTitle {
+    font-family: Lato;
+    font-size: 24px;
+}
+
+.downstreamSyncError_messageContainer {
+    position: relative;
+    top: -15px;
+}
+
+.downstreamSyncError_popupMessage {
+    width: inherit;
+    font-family: Lato;
+    font-size: 12px;
+    height: inherit;
+    overflow: auto;
+}
+
+.mailtagTextElement {
+    height: 23px;
+    background-color: #f7faff;
+    position: relative;
+    top: -5px;
+}
+
+.mailtagTextContainer {
+    top: 0px !important;
+}
+
+.mailtagContent {
+    height: 2.2em !important;
+}
+
+div#PolarisDownstreamSelectedReportRequireKnowledgeDateReportingContainer {
+    position: relative;
+    top: -40px;
+    width: 20%;
+}
+
+.disableDiv {
+    background-color: #fff;
+    filter: alpha(opacity=50);
+    opacity: 0.6;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}

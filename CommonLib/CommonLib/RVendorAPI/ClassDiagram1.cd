@@ -1,0 +1,2025 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="com.ivp.srm.vendorapi.bloomberg.RBbgDesktopRequest" Collapsed="true">
+    <Position X="43" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgDesktopRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloomberg.RBbgFieldInfo" Collapsed="true">
+    <Position X="44.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloomberg.RBbgFieldOptionsInfo" Collapsed="true">
+    <Position X="46.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAABQAAAAEAAAAAgAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgFieldOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloomberg.RBbgFTPRequest" Collapsed="true">
+    <Position X="48.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAgABABAAAABADABAAAEAEAAEAAAAAAAAUAAAABA=</HashCode>
+      <FileName>Bloomberg\RBbgFTPRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloomberg.RBbgHeavyRequest" Collapsed="true">
+    <Position X="50" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABKgAAAIAAAAAACACAAAAAAAAAAEAAAEAQAAAEBAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloomberg.RBbgInstrumentInfo" Collapsed="true">
+    <Position X="51.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAAAAQAQAAAAAAQABAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgInstrument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloomberg.RBbgLiteRequest" Collapsed="true">
+    <Position X="53.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAQgAAAAAAACEEAAAAAAAAAAAAAAEQAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloomberg.RBbgMacroInfo" Collapsed="true">
+    <Position X="55.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgMacroInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloomberg.RBbgSecurityInfo" Collapsed="true">
+    <Position X="58.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEACkgACAAABAAAAAAgAQAAAAgAEABAAgAAgAgBAA=</HashCode>
+      <FileName>Bloomberg\RBbgSecurityInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloomberg.RBbgUtils" Collapsed="true">
+    <Position X="62.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wgAAhwCYAQAEEAAJDIwBIBAACQNAFIIIoiAICAAgAEA=</HashCode>
+      <FileName>Bloomberg\RBbgUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloomberg.RBloomberg" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAABAAEAAAAAICADIAAAIIEAEAAEACAAAAEAABQE=</HashCode>
+      <FileName>Bloomberg\RBloomberg.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.PerSecurityWS" Collapsed="true">
+    <Position X="58.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAcEQCACEAIgAEYIUAgNgIIAKiQAAASoAUggEQQAk=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.SubmitGetDataRequest" Collapsed="true">
+    <Position X="64" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAQAEAAEAAAAAAAIAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.GetDataHeaders" Collapsed="true">
+    <Position X="55.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AaEbISotIQDAJigAFOAQgEJQAAAwYAAiAQSpBkhQFKE=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.GetCorrectionsRequest" Collapsed="true">
+    <Position X="48.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAACBAAAAAAgAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.CancelHeaders" Collapsed="true">
+    <Position X="48.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.SubmitCancelRequest" Collapsed="true">
+    <Position X="60.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAIQAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.RetrieveScheduledRequest" Collapsed="true">
+    <Position X="57" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.SubmitScheduledRequest" Collapsed="true">
+    <Position X="48.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.RetrieveGetHistoryRequest" Collapsed="true">
+    <Position X="53.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAABAAAAAAAQAAAAAAAACBAAAAAAgAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.SubmitGetHistoryRequest" Collapsed="true">
+    <Position X="44.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAQAEAAEAAAAAAAIAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.GetHistoryHeaders" Collapsed="true">
+    <Position X="62.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKE7ASosQQBEIghAhoAQAEJAAgAAYAQyAQSQAMFwECQ=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.DateRange" Collapsed="true">
+    <Position X="48.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAIAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAgAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.Period" Collapsed="true">
+    <Position X="57" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.Duration" Collapsed="true">
+    <Position X="55.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.Instruments" Collapsed="true">
+    <Position X="46.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAgAAAAAQAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.Instrument" Collapsed="true">
+    <Position X="60.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAQBCAAEAAAAQAAAAACABICAAAAAAAAAAAgA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.Override" Collapsed="true">
+    <Position X="55.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAACACAACAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.Macro" Collapsed="true">
+    <Position X="53.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAIgAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.PrimaryQualifier" Collapsed="true">
+    <Position X="60.5" Y="5.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAEIAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.SecondaryQualifier" Collapsed="true">
+    <Position X="53.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAAEAQAAAAAAAAAAAAQBAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.RetrieveGetDataRequest" Collapsed="true">
+    <Position X="50" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAABAAAAAAAQAAAAAAAACBAAAAAAgAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.ScheduledHeaders" Collapsed="true">
+    <Position X="46.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.ScheduledResponse" Collapsed="true">
+    <Position X="48.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBABQIEAAEAAAAAIAIQAAAAAAAAAAAAAAAAAAEQAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.CorrectionRecord" Collapsed="true">
+    <Position X="51.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AALAEAAEAAAAMgAAAAAIAAAAQAAAQAgACAQAABAQAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.GetCorrectionsHeaders" Collapsed="true">
+    <Position X="46.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAgAAAAAAAAACAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.HistData" Collapsed="true">
+    <Position X="57" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.HistInstrumentData" Collapsed="true">
+    <Position X="58.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAACAIEggAIAAAQAIEAAAQAQAAMAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.BulkArrayEntry" Collapsed="true">
+    <Position X="46.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABCAAAAAAAQAAAAAAADACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.BulkArray" Collapsed="true">
+    <Position X="44.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAIAAAAAAAAAIACAAQAAAAIAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.Data" Collapsed="true">
+    <Position X="64" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAgAAAAABASAABIBACQCCAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.InstrumentData" Collapsed="true">
+    <Position X="43" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAgAIAAAQAIEAAAQAAAAIAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.ResponseStatus" Collapsed="true">
+    <Position X="46.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAIAAAAAAAIAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.PerSecurityResponse" Collapsed="true">
+    <Position X="9" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAEAAAAAAAAAAAAAAAAAAAAACIAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.RetrieveScheduledResponse" Collapsed="true">
+    <Position X="8" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIYAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.SubmitScheduledResponse" Collapsed="true">
+    <Position X="10.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.GetCorrectionsResponse" Collapsed="true">
+    <Position X="12.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAgAAQAAAAAAAIAIAgCAAAAIAAAAAQAAAABkAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.SubmitCancelResponse" Collapsed="true">
+    <Position X="14.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.RetrieveGetHistoryResponse" Collapsed="true">
+    <Position X="17" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAxIAQAAAAAgAIAIQgAAAAAIAAAAAQAAAABkAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.SubmitGetHistoryResponse" Collapsed="true">
+    <Position X="1.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.RetrieveGetDataResponse" Collapsed="true">
+    <Position X="3.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAxIAQAAAAAgAIAIQgAAAAAIAAAAAQAAAABkAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.SubmitGetDataResponse" Collapsed="true">
+    <Position X="5.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.submitGetDataRequestCompletedEventArgs" Collapsed="true">
+    <Position X="43" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.retrieveGetDataResponseCompletedEventArgs" Collapsed="true">
+    <Position X="51.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.submitGetHistoryRequestCompletedEventArgs" Collapsed="true">
+    <Position X="46.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.retrieveGetHistoryResponseCompletedEventArgs" Collapsed="true">
+    <Position X="55.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.submitScheduledRequestCompletedEventArgs">
+    <Position X="50" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.retrieveScheduledResponseCompletedEventArgs" Collapsed="true">
+    <Position X="58.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.submitCancelRequestCompletedEventArgs" Collapsed="true">
+    <Position X="62.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.heavy.getCorrectionsCompletedEventArgs" Collapsed="true">
+    <Position X="44.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.GetDataService" Collapsed="true">
+    <Position X="57" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EATQeDRIsLGACABBAgoQkBAA0AYSAIAECAAESpASEIE=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.getDataRequest" Collapsed="true">
+    <Position X="3.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAoAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.DataItem" Collapsed="true">
+    <Position X="46.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAACACAACAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.GetOverrideFieldsRequest" Collapsed="true">
+    <Position X="46.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAgA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.FieldSearchCriteria" Collapsed="true">
+    <Position X="51.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAIAgAAAAEAAAAAAAEABAAAAAIAgAAAgAAAAAgA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.GetFieldsRequest" Collapsed="true">
+    <Position X="60.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.DeleteViewDefinitionRequest" Collapsed="true">
+    <Position X="53.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.GetBloombergViewNamesRequest" Collapsed="true">
+    <Position X="60.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.GetViewNamesRequest" Collapsed="true">
+    <Position X="55.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.GetBloombergViewDefinitionRequest" Collapsed="true">
+    <Position X="57" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.GetViewDefinitionRequest" Collapsed="true">
+    <Position X="51.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.FieldOptionsResponse" Collapsed="true">
+    <Position X="48.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAgCAAAAGAAAAAAAAAAAIAAIAABAAQBAAACAI=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.FieldResponse" Collapsed="true">
+    <Position X="50" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAAAAABAAAAAhAABCIAAAAAAAAAAAgCAAABgA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.Status" Collapsed="true">
+    <Position X="58.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQAAACIAAIAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.Response" Collapsed="true">
+    <Position X="11" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAgAAAAAAAAAABBAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.ViewAdminHeader" Collapsed="true">
+    <Position X="19.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.DLWSHeader" Collapsed="true">
+    <Position X="19.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECAgAAAAAAAAAAAAAQAAAAAAgBBAAIAAAgAAAABAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.CreateOrUpdateViewDefinitionResponse" Collapsed="true">
+    <Position X="8.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAQAAAAAAAAIAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.ViewOptions" Collapsed="true">
+    <Position X="44.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAgAACAAAAEAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.GetViewNamesResponse" Collapsed="true">
+    <Position X="11" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.GetViewDefinitionResponse" Collapsed="true">
+    <Position X="13.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBCAAAQAEACAAAAIAEABAAAAAQACAQAAQAAAAAAIAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.FieldOptions" Collapsed="true">
+    <Position X="46.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAAAAGAAAAAAAAAAAAAAIAAAAAQBAAAAAI=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.Field" Collapsed="true">
+    <Position X="43" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAhAAACIAAAAAAAAAAAgAAAABgA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.CreateOrUpdateViewDefinitionRequest" Collapsed="true">
+    <Position X="58.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAAAQAAAAAAAAIAEAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.FieldInfo" Collapsed="true">
+    <Position X="44.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEICEQCJCCICEAARKIAEAQACAAAAAiEAQGAgCAACQgY=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.InstrumentStatus" Collapsed="true">
+    <Position X="50" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAACAAAIAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.InstrumentData" Collapsed="true">
+    <Position X="64" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAIAAAAAAAAQAAAAAAQACAAIAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.Instrument" Collapsed="true">
+    <Position X="62.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAQAAAAAAAAAAGEAIAoIAAAAAgA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.ResponseStatus" Collapsed="true">
+    <Position X="48.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQAAACIAAIAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.DLWSResponse" Collapsed="true">
+    <Position X="3" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAEAAAABAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.GetOverrideFieldsResponse" Collapsed="true">
+    <Position X="0.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAIAAAAAAAAAAAAIAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.GetFieldsResponse" Collapsed="true">
+    <Position X="3" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.getDataResponse" Collapsed="true">
+    <Position X="5.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.DLWSRequest" Collapsed="true">
+    <Position X="3.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.getDataCompletedEventArgs" Collapsed="true">
+    <Position X="53.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.getBloombergDataCompletedEventArgs" Collapsed="true">
+    <Position X="53.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.createViewDefinitionCompletedEventArgs" Collapsed="true">
+    <Position X="60.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.getViewDefinitionCompletedEventArgs" Collapsed="true">
+    <Position X="50" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.getBloombergViewDefinitionCompletedEventArgs" Collapsed="true">
+    <Position X="55.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.getViewNamesCompletedEventArgs" Collapsed="true">
+    <Position X="53.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.getBloombergViewNamesCompletedEventArgs" Collapsed="true">
+    <Position X="58.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.updateViewDefinitionCompletedEventArgs">
+    <Position X="53.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.deleteViewDefinitionCompletedEventArgs" Collapsed="true">
+    <Position X="51.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.getFieldsCompletedEventArgs" Collapsed="true">
+    <Position X="58.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloombergServices.lite.getOverrideFieldsCompletedEventArgs" Collapsed="true">
+    <Position X="44.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.Bloomberg.RBbgRequestProcess" Collapsed="true">
+    <Position X="57" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACFAAgQAAAgAAAAAACAQAAAAAgQA=</HashCode>
+      <FileName>Bloomberg\RBbgRequestProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.Bloomberg.RBbgServerRequest" Collapsed="true">
+    <Position X="60.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIAgAAAIAAAAAACAEAEcBAAhABAZFAQAAAAAgABAE=</HashCode>
+      <FileName>Bloomberg\RBbgServerRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.RMacroConfigInfo" Collapsed="true">
+    <Position X="60.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAUAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>RMacroConfigInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.RVendorConfigLoader" Collapsed="true">
+    <Position X="50" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAACABEAAAAgAAIAAAAAAACAACBAAA=</HashCode>
+      <FileName>RVendorConfigLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.RVendorConstant" Collapsed="true">
+    <Position X="51.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQhgAAAAECEYIIAGAHgQBAKICAQEIwAEDAhAiCBAIEQ=</HashCode>
+      <FileName>RVendorConstant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.RVendorErrorConstant" Collapsed="true">
+    <Position X="53.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RVendorConstant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.RVendorHeavyStatusConstant" Collapsed="true">
+    <Position X="58.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAA=</HashCode>
+      <FileName>RVendorConstant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.RVendorStatusConstant" Collapsed="true">
+    <Position X="43" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAACAAAAAAABAAAAQAAAAAAAAAQAAA=</HashCode>
+      <FileName>RVendorConstant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.RBbgBulkListConstant" Collapsed="true">
+    <Position X="62.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAACABAAE=</HashCode>
+      <FileName>RVendorConstant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.RBbgUUIDConstant" Collapsed="true">
+    <Position X="64" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAgAAAAAA=</HashCode>
+      <FileName>RVendorConstant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.RVendorException" Collapsed="true">
+    <Position X="55.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RVendorException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.RVendorFieldInfo" Collapsed="true">
+    <Position X="57" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAQIAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>RVendorFieldInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.RVendorHistoryInfo" Collapsed="true">
+    <Position X="60.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAEAAOAEAAAAAACAAAAAAQIAAAAAEwBCEAAggAABAA=</HashCode>
+      <FileName>RVendorHistoryInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.RVendorManager" Collapsed="true">
+    <Position X="62.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAQAgAAAA=</HashCode>
+      <FileName>RVendorManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.RVendorResponse" Collapsed="true">
+    <Position X="64" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAgAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RVendorResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.RVendorUtils" Collapsed="true">
+    <Position X="44.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAQJAAAAAAIAQACAAAEAAACACgCgABAAAIAgCAAAA=</HashCode>
+      <FileName>RVendorUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.VendorInterfaceAPI" BaseTypeListCollapsed="true">
+    <Position X="64" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACoAAAAAAAAAAAAAAAAAAAAAAEQwAAAAUAAAEAQ=</HashCode>
+      <FileName>VendorControlAPI\VendorInterfaceAPI.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.ApplicationSpecificData" Collapsed="true">
+    <Position X="43" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>VendorControlAPI\VendorInterfaceAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.TypeOfVendorControl">
+    <Position X="51.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAgEEIAAAAAAAAIAgAAAAAAAIAAAAABAAAAA=</HashCode>
+      <FileName>VendorControlAPI\VendorInterfaceAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.Properties.Settings" Collapsed="true">
+    <Position X="57" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.RReuter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="62.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAQACABAAAAAIAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.RReuterAPIRequest" Collapsed="true">
+    <Position X="64" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAggAAgAAAAAAACAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterAPIRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.RReuterFTPRequest" Collapsed="true">
+    <Position X="43" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAEEwAEABAAAAEACAAAAKAAQCAEgAABAAAAAAAAQAA=</HashCode>
+      <FileName>Reuters\RReuterFTPRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.RReuterInstrumentInfo" Collapsed="true">
+    <Position X="44.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterInstrumentInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.ExtractionService" Collapsed="true">
+    <Position X="64" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEYACcgASAIT8gRIRIEgECAROYrAhAHLeG4QsmQRAE=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.CredentialsHeader" Collapsed="true">
+    <Position X="62.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAQEAACAAAAAAACACAEAIAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.ServerError" Collapsed="true">
+    <Position X="55.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAQAAAAAAAAAABAAAAQACAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.ClientError" Collapsed="true">
+    <Position X="50" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.UsageColumn">
+    <Position X="55.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAIAAAAQAAAAAAAAAAAAgAQAACAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.UsageResponse">
+    <Position X="57" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAIAAAAAgAAgA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.RequestBaseOfUsageCriteria" Collapsed="true">
+    <Position X="16.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.UsageRequest" Collapsed="true">
+    <Position X="16.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.RentalUsageRequest" Collapsed="true">
+    <Position X="14.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.RentalUsageCounterpartyNewDuringPeriodSummaryRequest" Collapsed="true">
+    <Position X="11" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.RentalUsageInstrumentNewDuringPeriodSummaryRequest" Collapsed="true">
+    <Position X="13.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.RentalUsageCounterpartyAsOfDateSummaryRequest" Collapsed="true">
+    <Position X="15.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.RentalUsageInstrumentAsOfDateSummaryRequest" Collapsed="true">
+    <Position X="17.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.ExtractionUsageRequest" Collapsed="true">
+    <Position X="21" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.ExtractionUsageInstrumentSummaryRequest" Collapsed="true">
+    <Position X="20" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.ExtractionUsageCounterpartySummaryRequest" Collapsed="true">
+    <Position X="22.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.EmptyValue" Collapsed="true">
+    <Position X="57" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.ExtractionColumn" Collapsed="true">
+    <Position X="60.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAIAAAAQAAAAAAAAAAAAgAQAACAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.ExtractionResponse" Collapsed="true">
+    <Position X="62.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAIAAAAUgAAgA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.RequestBaseOfExtractionCriteria" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.ExtractionRequest" Collapsed="true">
+    <Position X="21.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionRequest" Collapsed="true">
+    <Position X="24.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.ValidatedInstrument" Collapsed="true">
+    <Position X="0.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBAAABQACgAAACAAgAEIAAAEAgBAAAQBAKAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.ValidatedSearchInstrument" Collapsed="true">
+    <Position X="0.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.ValidatedCounterparty">
+    <Position X="60.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAAAEgAKAAgAAAAAAEAAAAAAAAACBAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionRequestPremiumPricingEMEA6PM" Collapsed="true">
+    <Position X="9" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionRequestPremiumPricingASIA6PM" Collapsed="true">
+    <Position X="11.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionRequestPremiumPricingEMEA4PM" Collapsed="true">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionRequestCorax" Collapsed="true">
+    <Position X="21.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQCAAIAgAACAQAgIAAAQAAAAAAABAECAAAEAAAAEA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionRequestCoraxEarnings" Collapsed="true">
+    <Position X="19.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAIAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionRequestCoraxCurrentEvents" Collapsed="true">
+    <Position X="15.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionRequestCoraxLastUpdateEvents" Collapsed="true">
+    <Position X="18" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionRequestCoraxHistoricEvents" Collapsed="true">
+    <Position X="20.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionRequestCoraxHistoricByDateEvents" Collapsed="true">
+    <Position X="22.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionRequestCoraxFutureEvents" Collapsed="true">
+    <Position X="24.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionRequestCoraxFutureByDaysEvents" Collapsed="true">
+    <Position X="27" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionRequestTermsAndConditions" Collapsed="true">
+    <Position X="29.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionRequestEndOfDay" Collapsed="true">
+    <Position X="31.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionRequestBondSchedule" Collapsed="true">
+    <Position X="33.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionRequestPremiumPricingUS3PM" Collapsed="true">
+    <Position X="36" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionRequestPremiumPricingUS4PM" Collapsed="true">
+    <Position X="38.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionRequestPremiumPricingASIA4PM" Collapsed="true">
+    <Position X="40.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.CounterpartyExtractionRequest" Collapsed="true">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAABAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.CounterpartyExtractionRequestHolders" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.CounterpartyExtractionRequestAudit" Collapsed="true">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.CounterpartyExtractionRequestDetail" Collapsed="true">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.CounterpartySearchResponse" Collapsed="true">
+    <Position X="55.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAABAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.RequestBaseOfCounterpartySearchCriteria" Collapsed="true">
+    <Position X="16.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.CounterpartySearchRequest" Collapsed="true">
+    <Position X="16.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.CounterpartySearchRequestAll" Collapsed="true">
+    <Position X="16.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAgAIAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentSearchResponse" Collapsed="true">
+    <Position X="48.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.RequestBaseOfInstrumentSearchCriteria" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentSearchRequest" Collapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentSearchRequestAll" Collapsed="true">
+    <Position X="17.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAgAIAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.CounterpartyValidationResponse" Collapsed="true">
+    <Position X="57" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAABAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.CounterpartyIdentifier" Collapsed="true">
+    <Position X="53.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAgAAAAAAEAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.RequestBaseOfCounterpartyValidationCriteria" Collapsed="true">
+    <Position X="10.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.CounterpartyValidationRequest" Collapsed="true">
+    <Position X="10.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentValidationResponse" Collapsed="true">
+    <Position X="51.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBAAAAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentIdentifier" Collapsed="true">
+    <Position X="44.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAgAAACAAgAAAAAAEAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.RequestBaseOfInstrumentValidationCriteria" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentValidationRequest" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.DataDictionaryField" Collapsed="true">
+    <Position X="43" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAASIAAACQAAAAAAAgAAAAAAECAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.DataDictionaryResponse" Collapsed="true">
+    <Position X="44.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.RequestBaseOfDataDictionaryCriteria" Collapsed="true">
+    <Position X="4" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.DataDictionaryRequest" Collapsed="true">
+    <Position X="4" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.DataDictionaryRequestCounterparty" Collapsed="true">
+    <Position X="0.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.DataDictionaryRequestInstrument" Collapsed="true">
+    <Position X="3" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAQAAAACAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.DataDictionaryRequestCorax" Collapsed="true">
+    <Position X="5.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.DataDictionaryRequestBondSchedule" Collapsed="true">
+    <Position X="7.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAACAAAAAAAAAAAAAAAECAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.ValueInfo" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAAAAAAAACAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.CoraxActionOptionInfo" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.CoraxActionInfo" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.CoraxSubTypeInfo" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.InstrumentExtractionTypeInfo" Collapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.VersionInfo" Collapsed="true">
+    <Position X="43" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAgAAAgAAAAAAEAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.GetVersionCompletedEventArgs" Collapsed="true">
+    <Position X="48.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.GetInstrumentExtractionTypesCompletedEventArgs" Collapsed="true">
+    <Position X="64" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.GetCounterpartyExtractionTypesCompletedEventArgs" Collapsed="true">
+    <Position X="50" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.GetInstrumentIdentifierTypesCompletedEventArgs" Collapsed="true">
+    <Position X="43" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.GetCounterpartyIdentifierTypesCompletedEventArgs" Collapsed="true">
+    <Position X="51.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.GetBondScheduleTypesCompletedEventArgs" Collapsed="true">
+    <Position X="62.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.GetCoraxSubTypesCompletedEventArgs" Collapsed="true">
+    <Position X="43" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.GetCoraxShareAmountTypesCompletedEventArgs" Collapsed="true">
+    <Position X="64" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.DefineCompletedEventArgs" Collapsed="true">
+    <Position X="50" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.ValidateInstrumentsCompletedEventArgs">
+    <Position X="62.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.ValidateCounterpartiesCompletedEventArgs">
+    <Position X="58.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.SearchInstrumentsCompletedEventArgs" Collapsed="true">
+    <Position X="51.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.SearchCounterpartiesCompletedEventArgs" Collapsed="true">
+    <Position X="50" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.ExtractCompletedEventArgs" Collapsed="true">
+    <Position X="58.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.ReportUsageCompletedEventArgs" Collapsed="true">
+    <Position X="44.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.RReuterSecurityInfo" Collapsed="true">
+    <Position X="46.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAABAAAAAAACQAAAAgAEABAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterSecurityInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.reuters.RReuterUtils" Collapsed="true">
+    <Position X="48.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAwAAgAAEAAAACAwAAAAAAACAAAAAAiAAAACAAEA=</HashCode>
+      <FileName>Reuters\RReuterUitls.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.ivp.srm.vendorapi.bloomberg.RBbgBulkListInfo" Collapsed="true">
+    <Position X="66.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAE=</HashCode>
+      <FileName>Bloomberg\RBbgBulkListInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="com.ivp.srm.vendorapi.IVendor" Collapsed="true">
+    <Position X="43" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IVendor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.ivp.srm.vendorapi.IVendorInterfaceAPI" Collapsed="true">
+    <Position X="44.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACoAAAAAAAAAAAAAAAAAAAAAAEAwAAAAUAAAEAQ=</HashCode>
+      <FileName>VendorControlAPI\IVendorInterfaceAPI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="com.ivp.srm.vendorapi.bloomberg.RBbgInstrumentIdType" Collapsed="true">
+    <Position X="44.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACAAAEQEQAAAAAASQEACYCBAAgAAAiAAAAgFAGgAgg=</HashCode>
+      <FileName>Bloomberg\RBbgInstrumentIdType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloomberg.RBbgMarketSector" Collapsed="true">
+    <Position X="48.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAEBAAAAAAAAAAgIAAAAABAAAAAAAAAAGAAAEAAEA=</HashCode>
+      <FileName>Bloomberg\RBbgMarketSector.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloomberg.RBbgOperatorType" Collapsed="true">
+    <Position X="50" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAUAACA=</HashCode>
+      <FileName>Bloomberg\RBbgOperatorType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloomberg.RBbgRequestType" Collapsed="true">
+    <Position X="51.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Bloomberg\RBbgRequestType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloomberg.RBbgMacroType" Collapsed="true">
+    <Position X="46.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgSecurityInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloombergServices.heavy.DateFormat" Collapsed="true">
+    <Position X="46.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAgQAAAAACCAAAAIkAEAAAIIAAAAQAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloombergServices.heavy.DiffFlag" Collapsed="true">
+    <Position X="48.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAIIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloombergServices.heavy.ProgramFlag" Collapsed="true">
+    <Position X="43" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAAAAAAAAQBAAAAAAAEAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloombergServices.heavy.InstrumentType" Collapsed="true">
+    <Position X="58.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACAAAEAEQAAAAAASAEACYCBAAgAAAiAAAAgFAGgAgg=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloombergServices.heavy.SpecialChar" Collapsed="true">
+    <Position X="44.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloombergServices.heavy.Version" Collapsed="true">
+    <Position X="46.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloombergServices.heavy.MarketSector" Collapsed="true">
+    <Position X="64" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAEBAAAAAAAAAAgIAAAAABAAAAAAAAAAGAAAAAAEA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloombergServices.heavy.HistPeriod" Collapsed="true">
+    <Position X="55.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAAAAAABAAAAAAAAAAACAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloombergServices.heavy.HistOption" Collapsed="true">
+    <Position X="53.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloombergServices.heavy.MacroType" Collapsed="true">
+    <Position X="60.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAQAAAAAAAAAAIAAAIAAAQAAEAAAgAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloombergServices.heavy.SecondaryQualifierType" Collapsed="true">
+    <Position X="43" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAACAQAAAgAAgEAABIAAAAIEAAAAAAAAAAAJACA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloombergServices.heavy.SecondaryQualifierOperator" Collapsed="true">
+    <Position X="64" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAACA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloombergServices.heavy.FieldType" Collapsed="true">
+    <Position X="51.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAQAAAAAAEAACACCAAAAgQBAAAEAAAACQA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloombergServices.lite.DLCategory" Collapsed="true">
+    <Position X="50" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAoAAAAIAAEAAAAACAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloombergServices.lite.MarketSector" Collapsed="true">
+    <Position X="62.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAEBAAAAAAAAAAgIAAAAABAAAAAAAAAAGAAAAAAEA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloombergServices.lite.DateFormat" Collapsed="true">
+    <Position X="44.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAgQAAAAACAAAEAIkAEAAAIIAAAAQAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.bloombergServices.lite.InstrumentIdType" Collapsed="true">
+    <Position X="57" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACAAAEAEQAAAAAASAEACYCBAAgAAAiAAAAgFAGgAgg=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.RSecurityReturnType" Collapsed="true">
+    <Position X="58.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAgAAAAA=</HashCode>
+      <FileName>RSecurityReturnType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.RVendorResponseStatus" Collapsed="true">
+    <Position X="60.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>RVendorResponseStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.RVendorType" Collapsed="true">
+    <Position X="62.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RVendorType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.DataType" Collapsed="true">
+    <Position X="43" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>VendorControlAPI\VendorInterfaceAPI.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.reuters.RReuterAssetTypes" Collapsed="true">
+    <Position X="53.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEAACAAAAAgUARIAAAIAAAAAAAIAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterAssetTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.reuters.RReuterInstrumentIdType" Collapsed="true">
+    <Position X="55.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAkAABAABAAAAIAAIAgAAAAAAAAgAAAgEBw=</HashCode>
+      <FileName>Reuters\RReuterInstrumentIdType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="com.ivp.srm.vendorapi.reuters.RReuterRequestType" Collapsed="true">
+    <Position X="57" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterRequestType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.heavy.submitGetDataRequestCompletedEventHandler" Collapsed="true">
+    <Position X="46.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.heavy.retrieveGetDataResponseCompletedEventHandler" Collapsed="true">
+    <Position X="58.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.heavy.submitGetHistoryRequestCompletedEventHandler" Collapsed="true">
+    <Position X="48.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.heavy.retrieveGetHistoryResponseCompletedEventHandler" Collapsed="true">
+    <Position X="60.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.heavy.submitScheduledRequestCompletedEventHandler" Collapsed="true">
+    <Position X="50" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.heavy.retrieveScheduledResponseCompletedEventHandler" Collapsed="true">
+    <Position X="62.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.heavy.submitCancelRequestCompletedEventHandler" Collapsed="true">
+    <Position X="44.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.heavy.getCorrectionsCompletedEventHandler" Collapsed="true">
+    <Position X="60.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Bloomberg\RBbgHeavyReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.lite.getDataCompletedEventHandler" Collapsed="true">
+    <Position X="43" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.lite.getBloombergDataCompletedEventHandler" Collapsed="true">
+    <Position X="50" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.lite.createViewDefinitionCompletedEventHandler" Collapsed="true">
+    <Position X="43" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.lite.getViewDefinitionCompletedEventHandler" Collapsed="true">
+    <Position X="53.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.lite.getBloombergViewDefinitionCompletedEventHandler" Collapsed="true">
+    <Position X="51.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.lite.getViewNamesCompletedEventHandler" Collapsed="true">
+    <Position X="55.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.lite.getBloombergViewNamesCompletedEventHandler" Collapsed="true">
+    <Position X="53.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.lite.updateViewDefinitionCompletedEventHandler" Collapsed="true">
+    <Position X="51.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.lite.deleteViewDefinitionCompletedEventHandler" Collapsed="true">
+    <Position X="46.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQBAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.lite.getFieldsCompletedEventHandler" Collapsed="true">
+    <Position X="44.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.bloombergServices.lite.getOverrideFieldsCompletedEventHandler" Collapsed="true">
+    <Position X="50" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bloomberg\RBbgLiteRefrences.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.reuters.GetVersionCompletedEventHandler" Collapsed="true">
+    <Position X="51.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.reuters.GetInstrumentExtractionTypesCompletedEventHandler" Collapsed="true">
+    <Position X="46.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.reuters.GetCounterpartyExtractionTypesCompletedEventHandler" Collapsed="true">
+    <Position X="62.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.reuters.GetInstrumentIdentifierTypesCompletedEventHandler" Collapsed="true">
+    <Position X="48.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.reuters.GetCounterpartyIdentifierTypesCompletedEventHandler" Collapsed="true">
+    <Position X="64" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.reuters.GetBondScheduleTypesCompletedEventHandler" Collapsed="true">
+    <Position X="55.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.reuters.GetCoraxSubTypesCompletedEventHandler" Collapsed="true">
+    <Position X="58.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.reuters.GetCoraxShareAmountTypesCompletedEventHandler" Collapsed="true">
+    <Position X="57" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.reuters.DefineCompletedEventHandler" Collapsed="true">
+    <Position X="44.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.reuters.ValidateInstrumentsCompletedEventHandler" Collapsed="true">
+    <Position X="55.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.reuters.ValidateCounterpartiesCompletedEventHandler" Collapsed="true">
+    <Position X="53.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.reuters.SearchInstrumentsCompletedEventHandler" Collapsed="true">
+    <Position X="43" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.reuters.SearchCounterpartiesCompletedEventHandler" Collapsed="true">
+    <Position X="64" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.reuters.ExtractCompletedEventHandler" Collapsed="true">
+    <Position X="48.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="com.ivp.srm.vendorapi.reuters.ReportUsageCompletedEventHandler" Collapsed="true">
+    <Position X="57" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reuters\RReuterReference.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

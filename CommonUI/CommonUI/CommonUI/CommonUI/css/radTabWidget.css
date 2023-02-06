@@ -1,0 +1,229 @@
+﻿/* Tab Widget Css Starts*/
+.toolKitTabs,.tabbable-custom
+{
+    float: left;
+    font-family: 'Lato', sans-serif;
+}
+
+.toolKitTabs .tab-content
+{
+    width: 100%;
+    float: left;
+}
+
+
+.toolKitTabs > .tab-level > .nav-tabs > li.active , .selected_div .nav-tabs > li.active
+{
+    margin-top: 0;
+    position: relative;
+    border-bottom: 3px solid #00bcef;
+    background-color:transparent !important;
+    background: url(../../SuperAwesome/icons/selected_tab_texture.png);
+
+}
+
+.pageHeaderTabPanel  > .toolKitTabs > .tab-level > .nav-tabs > li.active a ,.selected_div  .nav-tabs > li.active a
+{
+    border-radius: 0 !important;
+    margin-right: 0px;
+    color: #48a3dd;
+    font-size:14px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color:transparent !important;
+    font-family: lato;
+    padding-left: 4px;
+    padding-right: 8px;
+}
+
+.toolKitTabs > .tab-level > .nav-tabs > li.active a ,.selected_div  .nav-tabs > li.active a
+{
+    border-radius: 0 !important;
+    margin-right: 0px;
+    color: #ffffff;
+    font-size:14px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color:transparent !important;
+    font-family: lato;
+    padding-left: 4px;
+    padding-right: 8px;
+}
+
+.pageHeaderTabPanel  > .toolKitTabs > .tab-level > .nav-tabs > li.active a:hover , .selected_div  .nav-tabs > li.active a:hover
+{
+    padding: 5px 10px 1px 10px;
+    color: #48a3dd !important;/* #00bcef !important;*/
+    background-color:transparent !important;
+    font-size:14px !important;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    font-family: lato;
+    padding-left: 4px;
+    padding-right: 8px;
+    font-weight: normal;
+}
+
+
+.toolKitTabs > .tab-level > .nav-tabs > li.active a:hover , .selected_div  .nav-tabs > li.active a:hover
+{
+    padding: 5px 10px 1px 10px;
+    color:white !important;/* #00bcef !important;*/
+    background-color:transparent !important;
+    font-size:14px !important;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    font-family: lato;
+    padding-left: 4px;
+    padding-right: 8px;
+}
+
+
+.toolKitTabs > .tab-level > .nav-tabs > li,.selected_div  .nav-tabs > li
+{
+    margin-right: 5px; /* border-top: 2px solid transparent; */
+    cursor: pointer;
+    min-width: 50px;
+    text-align: center;
+}
+
+
+.toolKitTabs > .tab-level > .nav-tabs > li:hover , .selected_div  .nav-tabs > li:hover
+{
+    /*
+     background-color:#f6f6f6 !important;
+     border:none !important;
+     margin-right: 5px !important; 
+     text-align: center !important;
+    */
+    color:white !important;/* #00bcef !important;*/
+}
+
+
+.tab-level ul , .tab-level ul
+{
+    /*margin-top: 5px;*/
+}
+
+.toolKitTabs > .tab-level > .nav-tabs , .selected_div  .nav-tabs
+{
+    height: 30px;
+    border-bottom: 0px solid #ececec !important;
+}
+
+.toolKitTabs > .tab-level > .nav-tabs > li a , .selected_div  .nav-tabs > li a
+{
+    padding: 5px 10px 1px 10px;
+    color: #4b4949;
+    font-size:14px;
+    padding-left: 4px;
+    padding-right: 8px;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.pageHeaderTabPanel > .toolKitTabs > .tab-level > .nav-tabs > li a:hover , .selected_div  .nav-tabs > li a:hover
+{
+    padding: 5px 10px 1px 10px;
+    color: #4b4949 !important;/* #00bcef !important;*/
+    background-color:transparent !important;
+    font-size:14px !important;
+    border:1px solid transparent;
+      padding-left: 4px;
+    padding-right: 8px;
+}
+
+.toolKitTabs > .tab-level > .nav-tabs > li a:hover , .selected_div  .nav-tabs > li a:hover
+{
+    padding: 5px 10px 1px 10px;
+    color:white !important;/* #00bcef !important;*/
+    background-color:transparent !important;
+    font-size:14px !important;
+    border:1px solid transparent;
+      padding-left: 4px;
+    padding-right: 8px;
+}
+
+
+
+
+.subactive
+{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: #47a3da !important;
+    border-bottom: 3px solid #47a3da !important;
+}
+
+.subactive a
+{
+    color: #47a3da !important;
+}
+
+.customTabShadow
+{
+ /*box-shadow: 5px 4px 8px rgba(221, 221, 221, 1); */
+}
+
+.vanilla .iago-page-title .toolKitTabs > .tab-level > .nav-tabs > li.active a, .selected_div .nav-tabs > li.active a {
+    color: WHITE;
+}
+
+.vanilla .iago-page-title .toolKitTabs > .tab-level > .nav-tabs > li {
+    color: #dddfe0;
+}
+
+.vanilla .toolKitTabs > .tab-level > .nav-tabs > li a {
+    color: #dddfe0;
+}
+
+.vanilla .iago-page-title .tab-level ul {
+    margin-top: -2px;
+    border-bottom: none;
+}
+
+.toolKitTabs .deleteTabs
+{
+    display:inline-block;
+    position: absolute;
+    bottom: 2px;
+    right: 0px;
+    width: 15px;
+}
+
+.toolKitTabs .editTabs
+{
+    display:inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 11px;
+    width: 15px;
+}
+
+.toolKitTabs .hideTabs
+{
+     display:none;
+}
+
+.toolKitTabs .deleteTabsParent
+{
+    height :14px;
+    width:12px;   
+}
+
+
+
+.tabbable-custom .tabActionsParent {
+    display: inline-block;
+    height: 27px;
+    width: 15px;
+    vertical-align: top;
+    position: relative;
+}
+/*Tab Widget Css Ends*/

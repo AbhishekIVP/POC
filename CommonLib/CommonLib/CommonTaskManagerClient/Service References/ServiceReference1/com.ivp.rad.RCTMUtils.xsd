@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/com.ivp.rad.RCTMUtils" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/com.ivp.rad.RCTMUtils" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="TaskInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AssemblyLocation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ChainId" type="xs:int" />
+      <xs:element minOccurs="0" name="ClassName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CustomClassAssembly" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CustomClassClassName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DependantOnId" nillable="true" type="xs:anyType" />
+      <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FlowID" type="xs:int" />
+      <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsMuted" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsReRunOnFail" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsUndoSupported" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="MailSubscribeId" nillable="true" type="q1:ArrayOfKeyValueOfTaskStatusMailDetailsVK7Flm0p" />
+      <xs:element minOccurs="0" name="ModuleId" type="xs:int" />
+      <xs:element minOccurs="0" name="ModuleName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OnFailRunTask" type="xs:int" />
+      <xs:element minOccurs="0" name="ProceedOnFail" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ProcessId" type="xs:int" />
+      <xs:element minOccurs="0" name="RetryCount" type="xs:int" />
+      <xs:element minOccurs="0" name="RetryInterval" type="xs:int" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="tns:TaskStatusInfo" />
+      <xs:element minOccurs="0" name="TaskMasterId" type="xs:int" />
+      <xs:element minOccurs="0" name="TaskName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TaskSummaryId" type="xs:int" />
+      <xs:element minOccurs="0" name="TaskTypeName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TimeOut" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TaskInfo" nillable="true" type="tns:TaskInfo" />
+  <xs:simpleType name="TaskStatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="PASSED" />
+      <xs:enumeration value="FAILED" />
+      <xs:enumeration value="INPROGRESS" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="TaskStatus" nillable="true" type="tns:TaskStatus" />
+  <xs:complexType name="MailDetails">
+    <xs:sequence>
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="MailIds" nillable="true" type="q2:ArrayOfstring" />
+      <xs:element minOccurs="0" name="MailSubject" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mailBody" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MailDetails" nillable="true" type="tns:MailDetails" />
+  <xs:complexType name="TaskStatusInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Status" type="tns:TaskStatus" />
+      <xs:element minOccurs="0" name="StatusId" type="xs:int" />
+      <xs:element minOccurs="0" name="TaskLog" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="chain_guid" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="environmentVariables" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TaskStatusInfo" nillable="true" type="tns:TaskStatusInfo" />
+</xs:schema>

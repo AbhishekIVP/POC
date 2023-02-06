@@ -1,0 +1,87 @@
+﻿
+.workflow-back-icon{
+    margin-top: 100px;
+    margin-left: 150px;
+    font-size: 30px;
+    color: #00BFF1;
+    cursor:pointer;
+}
+
+.add-new-workflow-form{
+    position:absolute;
+    padding-top:10%;
+    left:40%;    
+}
+
+.new-workflow-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight:200;
+    font-family: "Oswald" !important;
+    /*color: #8e8e8e;*/
+    color: #00BFF1;
+}
+
+.new-workflow-text-box{
+    height: 35px;
+    border-radius: 3px;
+    outline: none;
+    color: #5a5a5a;
+    font-size: 14px;
+    line-height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    border-bottom: 1px solid #ababab;
+    margin-top: 25px;
+    width: 310px;
+    margin-bottom: 10px;
+    display:block;
+}
+
+.new-workflow-button{
+    height: 25px;
+    width: 60px;
+    background-color: #43D9C6;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 2px;
+    line-height: 25px;
+    float: right;
+    margin-top: 16px;
+    margin-right: -10px;
+    cursor: pointer;
+}
+
+.new-workflow-group-control{
+    display:block;
+    margin-top:15px;
+}
+
+.new-workflow-label{
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;    
+    position: relative;  
+    bottom:5px;  
+    margin: 0px 5px;    
+}
+
+.new-workflow-dropdown{
+    display:inline-block;
+    margin-top:18px;
+    margin-left:10px;
+    border:1px solid #00BFF1;
+}
+
+#newWorkflowModuleDropdown{
+    margin-left:35px;
+}
+
+.newWorkflowErroMessage{
+    display:none;
+    color:indianred;
+    font-size:12px;
+}

@@ -1,0 +1,1171 @@
+﻿.ui-accordion .ui-accordion-content
+{
+    padding: 10px !important; /*margin: 0px !important;*/
+    background: none; /* margin-left: 250px;*/
+}
+
+#Configuration_Setup
+{
+    /*display: none;*/
+}
+
+#Configuration_Setup_Content, #Div_Recon_Landing_Content
+{
+    /*margin: 10px;     padding: 10px;     border: 1px solid gray;     border-radius: 7px;*/
+}
+.UnSelectedTabGroup
+{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.SelectedTabGroup
+{
+    background-color: #e6e6e6;
+}
+.SelectedTabGroup div[IBBTH="1"], .SelectedTabGroup div[IBBSTH="1"]
+{
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.SelectedTabGroup div[IBBSTHF="1"]
+{
+    padding-top: 1px !important;
+}
+
+#Row_1_Container
+{
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; /*margin-bottom: 20px;*/
+    margin: 20px;
+}
+
+.collapsibleRow
+{
+    position: relative;
+    height: 30px;
+}
+
+.collapsibleContainer
+{
+    /*height: 330px;*/
+}
+
+.ReconText
+{
+    position: relative;
+    display: inline-block;
+    width: 95px;
+    height: 20px;
+    font-family: Lato;
+    font-size: 12px;
+}
+
+.ReconTxt
+{
+    position: relative;
+    display: inline-block;
+    width: 340px;
+    height: 20px;
+}
+.PopupTxt
+{
+    position: relative;
+    display: inline-block; /*width: 340px;*/
+    height: 20px;
+}
+.ReconTxtBox
+{
+    width: 275px;
+}
+.PopupTxtBox
+{
+    width: 207px;
+    margin-left: 10px;
+}
+.PopupCreateTxtBox
+{
+    width: 147px;
+    margin-left: 25px;
+    margin-top: 13px;
+    margin-bottom: 7px;
+    border: 1px solid rgb(102, 102, 102);
+}
+.ReconDdlContainer
+{
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 220px;
+}
+.Recon_conf_setup
+{
+    margin: 0px auto !important;
+    width: 100% !important;
+    padding-top: 20px;
+}
+.ReconDdl
+{
+    width: 235px;
+    height: 20px;
+}
+.PopupDdl
+{
+    width: 210px;
+    height: 20px;
+    margin-left: -7px;
+}
+.PopupCreateDdl
+{
+    width: 150px;
+    height: 20px;
+    margin-left: 25px;
+    border: 1px solid rgb(102, 102, 102);
+}
+.ReconButtonContainer
+{
+    position: relative;
+    display: inline-block;
+}
+
+.ReconBtn
+{
+    height: 22px;
+    width: 70px;
+}
+
+.ReconBtnBigContainer
+{
+    /* width: 150px;*/
+    margin-right: -10px;
+}
+
+.ReconBtnBig
+{
+    width: 130px;
+}
+
+.ReconLeftPane
+{
+    float: left;
+}
+
+.ReconRightPane
+{
+    float: right;
+    margin-top: 20px;
+}
+
+.ReconChkContainer
+{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.rowHeading
+{
+    position: relative;
+    height: 14px; /* border-bottom: 2px dotted gray;*/
+    margin-bottom: 10px; /* font-weight: bold;*/
+}
+
+.collapsibleSubRow
+{
+    position: relative;
+    height: 30px;
+    font-family: Lato;
+    font-size: 12px;
+}
+
+#Collapsible_2_Row_2
+{
+    height: 40px;
+    margin-top: 10px;
+}
+
+#Collapsible_2_Row_3
+{
+    height: 50px;
+}
+
+#Collapsible_2_Row_4
+{
+    /*margin-bottom: 18px;*/ /*height: 70px;*/
+}
+
+#Collapsible_4
+{
+    /*  height: 90px;*/
+}
+
+#Div_Add_Task_Btn, #Div_Setup_New_Recon_Btn
+{
+    position: relative;
+    display: inline-block;
+}
+
+#Div_Error_Container
+{
+    display: none;
+}
+
+#Div_SecM_Report_Attribute_Text
+{
+    width: 106px;
+    font-size: 12px;
+}
+
+#Div_Feed_Attribute_Text
+{
+    width: 100px;
+    font-size: 12px;
+}
+
+#Div_Tolerance_Limit_Text, #Div_Tolerance_Limit_Txt, #Txt_Tolerance_Limit, #Div_Recon_Key_Chk
+{
+    width: 135px;
+    font-size: 12px;
+}
+.styletxt
+{
+    border: 1px solid rgb(214, 220, 221);
+    border-image: none;
+    color: rgb(102, 102, 102);
+    height: 16px;
+    border-top-color: currentColor;
+    border-right-color: currentColor;
+    border-left-color: currentColor;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+.groupContainer
+{
+    display: none;
+    background: white;
+    margin: 0px auto;
+    left: 37%;
+    top: 35%;
+    width: 34%;
+    height: 30%;
+    display: block;
+    position: absolute;
+    z-index: 100;
+}
+
+.groupContent
+{
+    position: relative;
+    display: inline-block; /*border: 2px solid rgb(116, 116, 116);     box-shadow: 0px 0px 11px 4px #797979;     background: rgb(243, 242, 242);     height: 35px;*/
+}
+
+.groupText
+{
+    margin-left: 10px;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+#Div_Left_Triangle
+{
+    position: relative;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    top: 6px;
+    margin-right: -6px;
+    background: url('../../App_Themes/Aqua/images/ultatriangle.png');
+}
+
+#Div_Right_Triangle
+{
+    position: relative;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    top: 4px;
+    margin-left: -6px;
+    background: url('../../App_Themes/Aqua/images/triangle.png');
+}
+
+#Div_Create_Group_Container
+{
+    right: 183px;
+}
+#Div_Update_Group_Container
+{
+    left: 480px;
+}
+
+#Div_Recon_Landing_Content
+{
+    position: relative;
+    height: 40px;
+}
+
+#DIv_Recon_Landing_Filters
+{
+    position: relative;
+}
+#Img_Filter
+{
+    position: relative;
+    display: inline-block;
+    top: -5px;
+}
+
+#Filter_Links
+{
+    position: relative;
+    display: inline-block;
+    top: -10px;
+    margin-left: -26px;
+}
+
+.links
+{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.anchors
+{
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    font-weight: bold;
+}
+
+a, a:visited, a:hover, a:active
+{
+    color: inherit;
+}
+
+#Div_Recon_Landing
+{
+    display: none;
+}
+
+.collapsibleRow2
+{
+    height: auto;
+}
+
+.gridMain_Recon_Setup_Grid
+{
+    position: relative; /*border: 1px solid #aaaaaa;     border-bottom: 3px solid #aaaaaa;*/ /*box-shadow: 2px 1px 10px #888888;*/
+}
+
+.gridHeading_Recon_Setup_Grid
+{
+    position: relative;
+    height: 25px;
+    text-align: center;
+    font-weight: 900;
+    font-size: medium;
+}
+
+.gridSubHeadings_Recon_Setup_Grid
+{
+    display: none;
+}
+
+.uiaccordiancss
+{
+    font-size: 11px !important;
+    font-weight: bold;
+    font-family: 'Istok Web' , sans-serif;
+    border: 0px;
+    background: none;
+    border-bottom: 1px solid #f0f0f0;
+}
+.dataRows_Recon_Setup_Grid, .dataRows_Recon_Setup_Child_Grid
+{
+    /*overflow: auto; font-family: arial;*/
+    min-height: 25px; /*max-height: 360px;*/
+    display: block; /*  background-color: whitesmoke;*/
+}
+
+#headerRow_Recon_Setup_Grid
+{
+    /*height: 25px;     position: relative;  background-color: rgb(105, 105, 105);     font-family: arial;  font-weight: 900;      color: white;     border: 1px solid #aaaaaa;     line-height: 22px;*/
+    border: none;
+    font-family: 'Istok Web' , sans-serif;
+    padding: 2px 10px 1px 10px;
+    height: 24px;
+    z-index: 10; /*background: #F6F6F6;*/
+    border-bottom: 1px solid #e7e7e7;
+    font-size: 11px;
+    color: #8a8787;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+#headerRow_Recon_Setup_Child_Grid
+{
+    /*border: 1px solid #E4E4E4; */
+    font-family: 'Istok Web' , sans-serif;
+    padding: 2px 10px 1px 10px;
+    height: 24px;
+    z-index: 10; /* background: #F6F6F6; */ /* border-bottom: 1px solid #e7e7e7; */
+    font-size: 13px;
+    color: #8a8787;
+    line-height: 27px;
+    font-weight: bold; /* background: #F6F6F6; */
+    margin-bottom: 10px; /* box-shadow: 0px 2px 0px 0px #E4E4E4; */
+}
+.headerColumn_Recon_Setup_Grid
+{
+    padding-left: 3px;
+    display: inline-block; /*padding: 0px 9px 3px 25px;     /*width: 150px;*/ /*width: 125px;*/
+    width: 23%;
+    height: 25px;
+    position: relative; /* border-left: 1px solid #aaaaaa;*/ /* border-right: 1px dashed #E7E7E7;*/
+    text-align: left !important;
+    background: white; /* border-left: 1px dashed #E7E7E7;*/
+}
+.headerColumn_Recon_Setup_Child_Grid
+{
+    padding-left: 4px;
+    display: inline-block; /*padding: 0px 9px 3px 25px;     /*width: 150px;*/ /*width: 125px;*/
+    width: 25%;
+    height: 25px;
+    position: relative; /* border-left: 1px solid #aaaaaa;*/ /* border-right: 1px dashed #E7E7E7;*/
+    text-align: left !important; /*background: #F6F6F6;  border-left: 1px dashed #E7E7E7;*/
+}
+.dataRow_Recon_Setup_Grid
+{
+    height: 22px;
+    position: relative;
+    background-color: white;
+    color: #333;
+    border: 1px solid #aaaaaa;
+}
+.dataRow_Recon_Setup_Child_Grid
+{
+    height: 22px;
+    position: relative;
+    background-color: white;
+    color: #333;
+    border: 1px solid #aaaaaa;
+}
+.alternateRow_Recon_Setup_Grid
+{
+    height: 34px;
+    position: relative;
+    background-color: #F1F1F1;
+    color: #333;
+    border: 1px solid #aaaaaa;
+}
+.alternateRow_Recon_Setup_Child_Grid
+{
+    height: 34px;
+    position: relative;
+    background-color: #F1F1F1;
+    color: #333;
+    border: 1px solid #aaaaaa;
+}
+.hiddenId_Recon_Setup_Grid
+{
+    display: none;
+}
+input[id^="More_"]
+{
+    margin-top: 6px;
+}
+.More
+{
+    width: 0% !important;
+}
+.Group
+{
+    text-align: left !important;
+    margin-left: 33px;
+}
+.Update
+{
+    /* padding-left: 46px;*/
+}
+.dataColumn_Recon_Setup_Grid
+{
+    text-align: left;
+    display: inline-block;
+    width: 23%;
+    height: 22px;
+    position: relative; /* border-left: 1px solid #aaaaaa;*/
+    float: left;
+    text-indent: 13px;
+    line-height: 23px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.dataColumn_Recon_Setup_Child_Grid
+{
+    text-align: left;
+    display: inline-block;
+    width: 26%;
+    height: 24px;
+    position: relative; /* border-left: 1px solid #aaaaaa;*/
+    float: left;
+    text-indent: 13px;
+    line-height: 31px;
+    margin-left: -6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: 1000;
+}
+#Recon_Setup_Grid
+{
+    /*width: 98%;*/
+    margin: auto;
+}
+.Delete
+{
+    padding-top: 2px;
+}
+.Update, .Delete
+{
+    width: 7%;
+    text-align: center;
+    top: 5px; /* float: right;*/
+}
+.UpdateMaster
+{
+    width: 25%;
+    text-align: center;
+}
+.Add_Recon
+{
+    text-align: center;
+}
+input[id^="Update_"]
+{
+    width: 19px;
+    height: 19px;
+}
+
+input[id^="Delete_"]
+{
+    width: 19px;
+    height: 19px;
+}
+
+#Heading_1
+{
+    width: 250px;
+}
+
+#Heading_2
+{
+    width: 250px;
+    font-family: Lato;
+    font-size: 12px;
+}
+
+#Heading_3
+{
+    width: 250px;
+    font-family: Lato;
+    font-size: 12px;
+}
+
+#Heading_4
+{
+    width: 250px;
+    font-family: Lato;
+    font-size: 12px;
+}
+
+.gridMain_Mapping_Setup_Grid
+{
+    position: relative; /*border: 1px solid #aaaaaa;     border-bottom: 3px solid #aaaaaa;*/ /* box-shadow: 2px 1px 10px #888888;*/
+}
+
+.gridHeading_Mapping_Setup_Grid
+{
+    position: relative;
+    height: 25px;
+    text-align: center;
+    font-weight: 900;
+    font-size: medium;
+}
+
+.gridSubHeadings_Mapping_Setup_Grid
+{
+    display: none;
+}
+
+.dataRows_Mapping_Setup_Grid
+{
+    width: 100%;
+    overflow: auto; /*font-family: arial;*/
+    min-height: 25px; /*max-height: 360px;*/
+    display: block; /*  background-color: whitesmoke;*/
+}
+
+#headerRow_Mapping_Setup_Grid
+{
+    border: none;
+    font-family: 'Istok Web' , sans-serif;
+    padding: 2px 10px 1px 10px;
+    height: 24px;
+    z-index: 10; /*background: #F6F6F6;*/
+    border-bottom: 1px solid #e7e7e7;
+    font-size: 12px;
+    color: #8a8787;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.headerColumn_Mapping_Setup_Grid
+{
+    display: inline-block; /*padding: 0px 9px 3px 25px;     /*width: 150px;*/ /*width: 125px;*/
+    width: 170px;
+    height: 25px;
+    position: relative;
+    border-left: 1px dashed #E7E7E7;
+    padding-left: 3px;
+}
+
+.dataRow_Mapping_Setup_Grid
+{
+    height: 22px;
+    position: relative;
+    background-color: white;
+    color: #333;
+    border: 1px solid #aaaaaa;
+}
+
+.alternateRow_Mapping_Setup_Grid
+{
+    height: 22px;
+    position: relative;
+    background-color: #F1F1F1;
+    color: #333;
+    border: 1px solid #aaaaaa;
+}
+
+.hiddenId_Mapping_Setup_Grid
+{
+    display: none;
+}
+
+.dataColumn_Mapping_Setup_Grid
+{
+    display: inline-block;
+    width: 170px;
+    height: 20px;
+    position: relative; /*border-left: 1px solid #aaaaaa;*/
+    float: none;
+    text-indent: 13px;
+    line-height: 23px;
+    overflow: hidden;
+    padding-left: 2px;
+    top: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.dataColumn_Rules_Grid
+{
+    display: inline-block;
+    width: 100px;
+    height: 22px; /*   position: relative; /*border-left: 1px solid #aaaaaa;     float: left; /*text-indent: 13px;*/
+    line-height: 23px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#Collapsible_2_Row_5
+{
+    height: 65px;
+}
+
+.Reconciliation_Key
+{
+    width: 12%;
+}
+
+#header_Mapping_Setup_Update, #header_Mapping_Setup_Delete
+{
+    width: 10%;
+}
+
+[id*="data_Mapping_Setup_Update_"]
+{
+    width: 50px;
+}
+
+[id*="data_Mapping_Setup_Delete_"]
+{
+    width: 50px;
+}
+
+.reconKey
+{
+    margin-left: 41%;
+}
+
+#Mapping_Setup_Grid
+{
+    height: auto;
+}
+
+.reconDeleteButton, .reconUpdateButton
+{
+    /*  margin-left: 41%;*/
+}
+
+.reconUpdateButton
+{
+    width: 24px;
+    height: 23px;
+}
+.alternatingRow
+{
+    border-bottom: 1px solid #f4f1f1;
+    background-color: white;
+    white-space: nowrap;
+    font-size: 13px !important;
+    vertical-align: middle;
+    cursor: default;
+    color: #5e5e70;
+    padding: 0px;
+    font-family: 'Istok Web' , sans-serif;
+    height: 24px;
+    border-right: 0px;
+    padding-top: 3px;
+}
+.childgrid
+{
+    /*background: #F6F6F6;*/
+    font-size: 15px; /*vertical-align: middle;*/
+    cursor: default;
+    color: #5e5e70;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Istok Web' , sans-serif;
+    height: 32px;
+    border-right: 0px;
+    margin-bottom: 8px; /* box-shadow: 2px 0px 10px #dadada; */
+    border: 1px solid #E4E4E4;
+}
+.normalRow
+{
+    border-bottom: 1px solid #f4f1f1;
+    background-color: #fdfdfd;
+    white-space: nowrap;
+    font-size: 13px !important;
+    vertical-align: middle;
+    cursor: default;
+    color: #5e5e70;
+    padding: 0px;
+    font-family: 'Istok Web' , sans-serif;
+    height: 24px;
+    padding-top: 3px;
+}
+.TabscssAfter
+{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    color: rgb(0, 191, 242) !important;
+    border-bottom: 3px solid !important;
+    border-bottom-color: rgb(0, 191, 242) !important;
+    font-size: 12px;
+    font-family: Lato;
+    cursor: pointer;
+}
+/*#pointer
+{
+    border-bottom: solid 10px #FFF;
+    border-left: solid 5px transparent;
+    border-right: solid 5px transparent;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -10px;
+    right: 20px;
+}*/
+
+#topHead
+{
+    width: auto;
+    height: 25px;
+    color: #555;
+    position: relative;
+    left: 1%;
+    top: 8px;
+    display: inline-block;
+}
+#topDesc
+{
+    left: 2%;
+    top: 8px;
+    display: inline-block;
+    position: relative;
+    font-style: italic;
+}
+.top-mainSearchDiv
+{
+    top: 6px;
+    margin-right: 10px;
+    float: right;
+    position: relative;
+    height: 34px;
+}
+#top-txtSearch
+{
+    display: none;
+    height: 21px; /* background-color: #F1F1F1; */
+    border: none;
+    margin-top: 11px;
+    text-indent: 7px;
+    font-family: lato;
+    width: 300px;
+    border-bottom: 1px solid #DCD9D9;
+}
+#txtSearch
+{
+    border: 1px solid white;
+}
+#Radio_Report
+{
+    /*  margin-left: 40px;*/
+}
+#Div_Report_Name_Text
+{
+    margin-left: 35px;
+    margin-right: 5px;
+}
+#Div_Ref_Type
+{
+    width: 106px;
+}
+#Btn_Add_New_Group
+{
+    margin-top: -20px;
+}
+#DDL_Tolerance_Type
+{
+    width: 144px;
+}
+.CommonDeleteButtonAsText
+{
+    background: white;
+    border: none;
+    outline: none;
+    height: 22px;
+    font-family: 'lato' , Sans-Serif;
+    font-size: 12px;
+    color: #7c7c7c;
+    font-weight: normal;
+    margin: 0px;
+    cursor: pointer;
+    width: auto;
+    padding: 0px 5px;
+}
+.CommonContinueButton
+{
+    color: white;
+    background-color: #43D9C6;
+    outline-color: #43D9C6;
+    padding-right: 7px;
+    padding-bottom: 2px;
+    border: none;
+    border-radius: 2px;
+}
+.fa-times:hover
+{
+    cursor: pointer;
+}
+
+.tileContainer
+{
+    box-shadow: 0px 4px 13px -5px rgba(0, 0, 0, 0.3);
+    margin-left: 50px;
+    border: 1px solid #d6dcdd;
+    border-radius: 2px;
+    background-color: white;
+    border-image: none;
+    width: 200px;
+    height: 80px; /* float: left;*/
+    display: inline-block;
+    position: relative;
+}
+.headtileContainer
+{
+    /*margin-left: 50px;     width: 200px;     height: 80px;*/
+    float: left;
+    display: inline-block;
+    position: relative;
+}
+.rightarr
+{
+    /* top: -33px;*/
+    margin-left: 50px;
+    display: none;
+    position: relative;
+}
+.leftarr
+{
+    /*top: -33px;*/
+    display: none;
+    position: relative;
+    cursor: pointer;
+}
+.imgBottom
+{
+    left: 120px;
+    width: 50px;
+    margin-top: 2px;
+    position: relative;
+    height: 0px;
+}
+.addtile
+{
+    /* border-radius: 2px;     border: 1px solid rgb(214, 220, 221);*/
+    border-image: none;
+    width: 200px;
+    height: 80px; /*float: left;*/
+    display: inline-block; /*   margin-left: 5%;  box-shadow: 0px 4px 13px -5px rgba(0,0,0,0.3);*/
+    background-color: white;
+}
+.addContainer
+{
+    position: relative;
+    display: block;
+    font-size: 20px;
+    color: #B0B0B0; /*#43d9c6*/
+    width: 156px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.addContainer:hover
+{
+    color: #43d9c6;
+    cursor: pointer;
+}
+
+.addText
+{
+    position: relative;
+    display: inline-block;
+    font-size: 13px !important;
+    top: -9px;
+    margin-left: 10px;
+}
+
+.addIcon
+{
+    position: relative;
+    display: inline-block;
+    font-size: 40px !important;
+}
+.updateTextGroup
+{
+    border: 1px solid rgb(214, 220, 221);
+    border-image: none;
+    width: 150px;
+    text-align: center;
+    color: rgb(0, 191, 242);
+    font-size: 19px !important;
+    margin-top: 8px !important;
+    font-family: oswald !important;
+    height: 26px;
+}
+.updateDiv
+{
+    width: 144px;
+    margin-left: 25px;
+    display: inline-block;
+}
+.errordiv
+{
+    color: red;
+    font-size: 20px;
+    display: inline-block; /*  background-color: white;*/
+    cursor: pointer;
+    font-weight: bold;
+}
+.addGroup
+{
+    text-align: center;
+    color: rgb(0, 191, 242);
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: oswald;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: hidden;
+}
+
+.addSystem
+{
+    text-align: center;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    margin-top: 14px;
+}
+.addgridMain
+{
+    box-shadow: 0px 4px 13px -5px rgba(0, 0, 0, 0.3);
+    margin-left: 5%;
+}
+.addgridMainAhead
+{
+    border: 1px solid #d6dcdd;
+    border-radius: 2px;
+    background-color: white;
+    border-image: none;
+    width: 200px;
+    height: 80px;
+    float: left;
+    display: inline;
+}
+.topcontainer
+{
+    margin: 0 auto;
+    background: white;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+.smselectddlclass
+{
+    width: 150px;
+    margin-left: 28px;
+    border-bottom: 1px solid rgb(214, 220, 221);
+}
+
+p.alertclass
+{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #fff;
+    border: 1px solid #d6dcdd;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 3px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 0px 4px 13px -5px rgba(0, 0, 0, 0.3);
+    left: 713px;
+    z-index: 100000;
+    background-color: white;
+}
+p.alertclass:before
+{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 124px;
+    top: 30px;
+    border: 11px solid;
+    border-color: #d6dcdd transparent transparent;
+}
+p.alertclass:after
+{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 122px;
+    top: 26px;
+    border: 13px solid;
+    border-color: #fff transparent transparent;
+}
+.edit
+{
+    padding-top: 7px;
+    padding-right: 7px;
+    position: absolute;
+    display: none;
+    z-index: 100;
+}
+
+.edit a
+{
+    color: #000;
+}
+.divUpdateGroup
+{
+    margin-top: 4px;
+}
+.TxtcreateGroup
+{
+    width: 162px;
+    display: inline-block;
+    margin-top: 2px;
+}
+.TxtcreateGroup input
+{
+    color: rgb(102, 102, 102);
+}
+.TxtcreateGroup input:-ms-input-placeholder
+{
+    /* Internet Explorer 10+ */
+    font-style: italic;
+    color: GrayText;
+}
+.TxtcreateGroup input::-webkit-input-placeholder
+{
+    /* WebKit browsers */
+    font-style: italic;
+    color: GrayText;
+}
+.smselectimage2
+{
+    display: none;
+}
+.smselectanchorrun2class
+{
+    color: GrayText !important;
+    font-style: italic !important;
+    margin-left: 0px !important;
+}
+.input, select
+{
+    font-family: Lato !important;
+    font-size: 12px !important;
+    color: #333 !important;
+}
+.bottomclass
+{
+    width: 60%;
+    left: 20%;
+    position: absolute;
+    margin-top: 50px;
+    display: block;
+    top: 165px;
+    border-top: 1px solid #E6E6E6;
+    padding-top: 10px;
+}
+.tabClass
+{
+    left: 40%;
+    top: 0px;
+    height: 32px;
+    margin-top: 8px;
+    border-radius: 3px;
+    display: inline-block;
+    position: absolute; /*box-shadow: 2px 0px 10px #dadada;*/
+    padding-left: 10px;
+    background-color: white;
+    z-index: 20000;
+}
+

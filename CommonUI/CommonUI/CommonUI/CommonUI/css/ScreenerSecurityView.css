@@ -1,0 +1,62 @@
+﻿.SMScreenerSecurityView_horizontalAlign
+{
+    display:inline-block;
+    vertical-align: top;
+}
+
+.smScreenerSecurityView_container
+{
+    margin: 5px auto;
+}
+
+.SMScreenerSecurityView_attributeSection
+{
+    width: 32%;
+}
+
+.SMScreenerSecurityView_Label
+{
+    width: 30%;
+    font-size: 13px;
+    font-family: Lato;
+    margin: 10px 2px;
+    color: #979797;
+    /* text-align: right; */
+}
+
+.SMScreenerSecurityView_Value
+{
+    width:48%;
+    font-size: 13px;
+    font-family: Lato;
+    margin: 10px 2px;
+    color: #33606c;
+}
+
+.smScreenerSecurityView_chartStyle
+{
+    margin: 0 auto;
+    height:550px;
+}
+
+.smScreenerSecurityView_secName
+{
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: bold;
+    margin-right:30px;
+    margin-left: 60px;
+}
+
+.smScreenerSecurityView_secValue
+{
+    font-size: 20px;
+    font-family: Oswald;
+    color: #1e8099;
+}
+
+#smScreenerSecurityView_barChartContainer
+{
+    top:200px;
+    position: relative;
+}

@@ -1,0 +1,98 @@
+﻿.vmHorizontalAlign
+{
+    display:inline-block;
+	vertical-align:top;
+}
+
+.vmSingleTabDiv
+{
+    height: 32px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    font-family: Lato;
+    color: #808080;
+    border: none;
+    padding: 0px 20px;
+}
+
+.vmSelectedTab
+{
+    border-bottom: 2px solid #48a3dd;
+    color: #48a3dd;
+}
+
+.vmVendorTabsContainerStyle
+{
+    margin-bottom: 20px;
+}
+
+.vmLicenseInfoContainer
+{
+    margin:15px 5px;
+}
+
+.vmHeader
+{
+    height: 30px;
+    font-size: 16px;
+    font-family: Lato;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.vmLicenseFieldsContainer
+{
+    padding: 0px 10px;
+}
+
+.vmLicenseFieldLabel
+{
+    width: 15%;
+    font-size: 14px;
+    font-family: Lato;
+    line-height: 30px;
+    width: 26%
+}
+
+.vmLicenseFieldInput
+{
+    border: 0px;
+    border-bottom: 1px solid #CCC;
+    font-family: Lato;
+    height: 30px;
+    padding-left: 10px;
+    width: 55%;
+    outline:none;
+}
+
+.vmItem
+{
+    width:48%;
+}
+
+.vmPopupDivStyle
+{
+    position:absolute;
+    z-index: 10000;
+    height:500px;
+    width:700px;
+    border:1px solid black;
+    top:50px;
+    background-color: #fff;
+}
+
+.vmBlurBackground
+{
+   height: 100%;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+    opacity: 0.6;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}

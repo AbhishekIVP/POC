@@ -1,0 +1,364 @@
+﻿#formWorkflowActionHistoryId{
+    min-width: 1000px;
+}
+#WFAH_MainBody{
+    /*min-height: 110px;
+    max-height: 400px;
+    min-width: 500px;
+    max-width: 900px;*/
+    /*box-shadow: rgba(0, 0, 0, 0.208) 0px 1px 6px;
+    border-radius: 2px;*/
+    
+}
+
+/*#WFAH_TopDiv{
+    color: #B3B3B3 !important;
+    padding-top:5px;
+    padding-bottom:5px;
+}*/
+
+/*.WFAH_Top_Divs{
+    display:inline-block;
+    vertical-align:top;
+}*/
+
+/*#WFAH_TopDivLabel{
+    padding-left:12px;
+    font-size:16px;
+}*/
+
+/*#WFAH_TopCloseButton{
+    margin-right: 10px;
+    float: right;
+    cursor: pointer;
+}*/
+
+#WFAH_MainDiv{
+    margin-left:2%;
+    width: 96%;
+    padding-bottom: 10px;
+}
+
+/*#WFAH_RightBorderDiv{
+    
+    border: none;
+    border-right: 1px rgb(243, 243, 243) solid;
+    display: inline-block;
+    vertical-align: top;
+    left: 2.6%;
+}
+*/
+
+.WFAH_InstanceTextParentDiv{
+    height: 40px;
+    line-height: 40px;
+}
+
+.WFAH_ArrowDiv{
+    display: inline-block;
+    vertical-align: top;
+    width: 7px;
+}
+
+.WFAH_InstanceText{
+    padding-left:12px;
+    display: inline-block;
+    vertical-align: top;
+
+    font-size: 18px;
+    font-family: Oswald;
+    font-weight: 400;
+}
+
+.WFAH_ActionsParentDivClass{
+    /*max-height: 300px;*/
+    /*margin-left: 50px;*/
+    padding-top: 5px;
+    overflow: auto;
+}
+
+.WFAH_Action_Divs{
+    display:inline-block;
+    vertical-align:top;
+}
+
+.WFAH_Action_InternalDivs{
+    display:inline-block;
+    vertical-align:top;
+    height: 60px;
+}
+
+.WFAH_Action_AttrDivs{
+    display:inline-block;
+    vertical-align:top;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.WFAH_ActionRowClassParent{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.WFAH_ActionRowClass{
+    min-height:60px;
+    /*max-height:150px;*/
+    /*overflow-y: auto;
+    overflow-x:visible;*/
+    padding-bottom: 10px;
+    width: 100%;
+
+    border: none;
+    border-left: 1px rgb(243, 243, 243) solid;
+}
+
+#WFAH_InstancesErrorDiv{
+    width: 100%;
+    height: 100%;
+}
+
+/*.WFAH_InstancesErrorMsgDiv{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}*/
+
+.WFAH_ActionRowTopClass{    
+
+}
+
+.WFAH_ActionRowBottomClass{
+    padding-top:10px;    
+    /*margin-left: 2.75%;*/
+    /*width: 87.5%;*/
+    padding-left: 2px;
+    /*max-height: 180px;*/
+    /*overflow-y: auto;*/
+    border-radius: 2px;
+    box-sizing: border-box;
+    /*box-shadow: 0px 1px 20px -5px #808080;*/
+    /*margin-top: 0px;*/
+    background-color: #f9f9f9;
+}
+
+.WFAH_ActionImageClass{
+    width:2.5%;
+    height: 63px;
+}
+
+.WFAH_ImageCSSClass{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    position: relative;
+    left: -7px;
+    top: 24px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(232, 232, 232);
+    border-radius: 7px;
+    /*margin: 31px 15px 0px 0px;*/
+    background: white;
+    text-align: center;
+}
+
+.WFAH_ImageBackgroundPending{
+    background-color: #48a3dd;
+}
+
+.WFAH_ImageBackgroundCanceled{
+    background-color: #696969;
+}
+
+.WFAH_ImageBackgroundInitiated{
+    background-color: #bdbaba;
+}
+
+.WFAH_ActionMainCSSClass{
+    width: 87.5%;
+    background-color: #f9f9f9;
+    box-shadow: 0px -1px 20px -5px #808080;
+}
+
+.WFAH_ActionMainDataClass{
+    
+}
+
+.WFAH_ActionMainDataPendingClass{
+    height: 60px;
+    line-height: 60px;
+    padding-left:12px;
+
+    font-size: 18px;
+    font-family: Oswald;
+    font-weight: 400;
+}
+
+.WFAH_ActionCol1{
+    width: 15%;
+    text-transform:uppercase;
+    
+    height: 60px;
+    line-height: 60px;    
+    
+    padding-left:12px;
+
+    font-size: 17px;
+    font-family: Oswald;
+    font-weight: 400;
+}
+
+.WFAH_ActionCol2{
+    width: 22%;
+}
+
+.WFAH_ActionCol3{
+    width: 27%;
+}
+
+.WFAH_ActionCol4{
+    width: 25%;
+    /*float:right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px !important;
+    background-color: #f0f0f0;*/
+}
+
+.WFAH_ActionColPending1{
+    width: 91%;
+}
+
+.WFAH_Action_InternalTitle{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #8f8e8e
+}
+
+.WFAH_Action_InternalInfo{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.WFAH_WorkflowLevelClass{
+    display:inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    
+    height: 40px;
+    line-height: 40px;
+}
+
+.WFAH_WorkflowLevelInfoClass{
+    display:inline-block;
+    vertical-align: top;
+    padding-left: 5px;
+    /*font-size: 16px;
+    font-family: Oswald;*/
+        
+    height: 40px;
+    line-height: 40px;
+}
+
+.WFAH_DetailsInfoClass{
+    margin-top: 21px;
+    border: 1px solid rgb(67, 217, 198);
+    padding-left: 5px;
+    color: rgb(120, 156, 152);
+    padding-right: 5px;
+    font-size: 12px;
+    border-radius: 2px;
+    height: 16px;
+    font-family: lato;
+    line-height: 16px !important;
+}
+
+.WFAH_ActionDateTimeClass{
+    padding-left: 10px;
+}
+
+
+
+.WFAH_AttrHeaderRow{
+    /*font-weight: bold;*/
+    border-top: 1px solid #d6e0e7 !important;
+    border-bottom: 1px solid #d6e0e7 !important;
+    background-color: #f8f8f8;
+    color: #696969 !important;
+}
+
+.WFAH_AttrRow{
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    border-bottom: 0.5px solid #ededed;
+    /*border-left: 1px solid #d6e0e7;*/
+    /*border-right: 1px solid #d6e0e7;*/
+    color: #4a5867;
+    /*font-weight: bold;*/
+}
+
+.WFAH_AuditData{
+    padding-bottom: 10px;
+    max-height: 125px;
+    overflow-y: auto;
+}
+
+.WFAH_Attr_TD{
+    /*padding-left: 7px !important;*/
+}
+
+.WFAH_AttrCol1{
+    width: 13%;
+}
+
+.WFAH_AttrCol2{
+    width: 12%;
+}
+
+.WFAH_AttrCol3{
+    width: 13%;
+}
+
+.WFAH_AttrCol4{
+    width: 13%;
+}
+
+.WFAH_AttrCol5{
+    width: 13%;
+}
+
+.WFAH_AttrCol6{
+    width: 16%;
+}
+
+.WFAH_AttrCol7{
+    width: 12%;
+}
+
+
+/*Utility CSS*/
+.WFAH_Ellipses {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+ 
+.scroll::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 20px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 20px;
+}
+
+.hideInitially {
+    display:none;
+}

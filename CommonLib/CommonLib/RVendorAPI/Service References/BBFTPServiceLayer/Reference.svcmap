@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cb8f2789-24c4-4ff2-9b0b-938ce2ebcb2d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://192.168.0.103/SRMBBGFTPService6.6/BBGFTPService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BBGFTPService.disco" MetadataType="Disco" ID="430d266c-e3b2-46dc-a3c7-1f5286f75812" SourceId="1" SourceUrl="http://192.168.0.103/SRMBBGFTPService6.6/BBGFTPService?disco" />
+    <MetadataFile FileName="BBGFTPService.wsdl" MetadataType="Wsdl" ID="3c1baaa2-1f9f-4ee3-af93-e8c27d7087d2" SourceId="1" SourceUrl="http://192.168.0.103/SRMBBGFTPService6.6/BBGFTPService?wsdl=wsdl0" />
+    <MetadataFile FileName="BBGFTPService.xsd" MetadataType="Schema" ID="f44d466d-8fe7-4162-a022-03423e0bf8b3" SourceId="1" SourceUrl="http://192.168.0.103/SRMBBGFTPService6.6/BBGFTPService?xsd=xsd2" />
+    <MetadataFile FileName="BBGFTPService1.xsd" MetadataType="Schema" ID="d4be289d-9dcf-4325-b8f6-198183c69584" SourceId="1" SourceUrl="http://192.168.0.103/SRMBBGFTPService6.6/BBGFTPService?xsd=xsd0" />
+    <MetadataFile FileName="BBGFTPService2.xsd" MetadataType="Schema" ID="7d59e5c1-75a8-429c-ba20-b1f0335609b9" SourceId="1" SourceUrl="http://192.168.0.103/SRMBBGFTPService6.6/BBGFTPService?xsd=xsd1" />
+    <MetadataFile FileName="SRMBbgFtpApi.wsdl" MetadataType="Wsdl" ID="dd4f4842-151a-4dae-9c2e-c7a6ee2eed50" SourceId="1" SourceUrl="http://192.168.0.103/SRMBBGFTPService6.6/BBGFTPService?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

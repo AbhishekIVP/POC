@@ -1,0 +1,138 @@
+﻿#PolarisDownstreamSchedulerBtn {
+    font-size: 14px;
+    background: no-repeat;
+    border: none;
+    color: #43D9C6;
+    padding: 0px;
+    position: relative;
+    top: 2px;
+    text-align: right;
+}
+
+#scheduler {
+    height: 74vh;
+    display: none;
+    position: relative;
+    top: -36px;
+}
+
+#schedulingInfo {
+    height: 300px;
+    width: 100%;
+    padding-top: 30px;
+    background-color: White;
+    top: 24px;
+    color: rgb(37, 37, 37);
+    z-index: 1002;
+}
+
+
+.rightColumn, .leftColumn {
+    /*padding: 44px;*/
+    padding: 0px 44px 0px 36px;
+    position: relative;
+    float: left;
+    width: 400px;
+}
+
+.DownstreamSetup_shadedLabelSpan {
+    color: #939191 !important;
+    background-color: #f0f0f0;
+    border: 1px solid #f2f2f2;
+    border-right: 0px;
+    border-radius: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    outline: none;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 10px;
+    font-weight: normal;
+    line-height: 24px;
+    height: 24px;
+    width: 200px;
+    vertical-align: top;
+    right: -5px;
+    text-align: left;
+}
+
+#schedulingInfo td {
+    /*font-weight: bold;*/
+    /*color: rgb(56, 56, 56);*/
+    color: #939191 !important;
+}
+
+#schedulingInfo input {
+    font-size: 12px;
+}
+
+.DownstreamSetup_tdStyle {
+    padding-top: 12px;
+}
+
+.SMTaskNameSetup_DateAttributeText {
+    background: #FFFFFF url(images/calendarIcon.png) no-repeat right 50%;
+    font-size: 11px !important;
+    color: #666;
+    font-family: 'lato', Sans-Serif !important;
+    border: 1px solid #cccccc;
+}
+
+.DownstreamSetup_tdInputStyle {
+    padding-left: 0px;
+    width: 70%;
+    border-top: 1px solid rgb(206, 206, 206);
+    border-right: 1px solid rgb(206, 206, 206);
+    border-bottom: 1px solid rgb(206, 206, 206);
+    border-left: none;
+    border-image: initial;
+    height: 20px;
+    text-indent: 2px;
+    /*margin-top: 12px;*/
+    margin-left: -2px;
+    font-size: 12px !important;
+}
+
+
+#schedulingInfo input[type='text'] {
+    font-size: 13px !important;
+    font-family: Lato !important;
+    font-weight: normal !important;
+}
+
+
+#endDateTxt[type="text"]:disabled {
+    background-color: #FAFAFA !important;
+}
+
+#startDateTxt[type="text"]:disabled {
+    background-color: #FAFAFA !important;
+}
+
+.errorMsg {
+    display: none;
+    color: red;
+    margin-top: 0px;
+    margin-bottom: -12px;
+}
+
+input.parsley-error, textarea.parsley-error {
+    color: rgb(185, 74, 72) !important;
+    background-color: rgb(242, 222, 222) !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(207, 110, 125) !important;
+    border-image: initial !important;
+}
+
+.removeSchedulingButton {
+    background: #43d9c6;
+    color: white;
+    padding: 5px 10px;
+    float: right;
+    width: 120px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}

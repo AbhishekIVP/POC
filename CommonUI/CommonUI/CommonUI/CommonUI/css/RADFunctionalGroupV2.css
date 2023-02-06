@@ -1,0 +1,2400 @@
+﻿
+
+
+/* Functional Group Screen css Starts */
+
+.RADZoneSelectText 
+{
+    height: 25px;
+    padding-left: 5px;
+    line-height: 24px;
+    font-size: 13px;
+    color: #666666;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.RADZoneSelectText:before 
+{
+    content: "\f0d7";
+    font-family: FontAwesome;
+    /* background-position: 90%; */
+    position: absolute;
+    right: 7px;
+    top: 1px;
+    color: #7C7C7C;
+    font-size: 16px;
+}
+
+.RADDimensionSelectText 
+{
+    height: 25px;
+    padding-left: 5px;
+    line-height: 24px;
+    font-size: 13px;
+    color: #666666;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.RADDimensionSelectText:before {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    /* background-position: 90%; */
+    position: absolute;
+    right: 7px;
+    top: 1px;
+    color: #7C7C7C;
+    font-size: 16px;
+}
+
+.RADExistingDataPrivileges 
+{
+    overflow: auto;
+}
+
+.RADFuncGroupCreateEntitySelectText:before {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    /* background-position: 90%; */
+    position: absolute;
+    right: 7px;
+    top: 0px;
+    color: #7C7C7C;
+    font-size: 16px;
+}
+
+
+.RADFuncGroupsCreateContentChild 
+{
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+
+.RADDataPvgRestrictParentParent 
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    /* width: 49%; */
+    height: 25px;
+    line-height: 25px;
+    float: right;
+}
+
+input.RADPermissiveClassRadio 
+{
+    /* color: blue; */
+    margin-top: 0px;
+}
+
+.RADFuncGroupHierarcyNameSelectionText 
+{
+    width: 100%;
+    font-size: 13px;
+    height: 23px;
+    line-height: 23px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.RADFuncGroupHierarcyNameSelectionText:before
+{
+    content: "\f0d7";
+    font-family: FontAwesome;    
+    position: absolute;
+    right: 7px;
+    top: 0px;
+    color: #7C7C7C;
+    font-size: 16px;
+}    
+
+.RADFuncGroupModuleNamesSelectionText 
+{
+    width: 100%;
+    font-size: 13px;
+    height: 23px;
+    line-height: 23px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.RADFuncGroupModuleNamesSelectionText:before
+{
+    content: "\f0d7";
+    font-family: FontAwesome;
+    /* background-position: 90%; */
+    position: absolute;
+    right: 7px;
+    top: 0px;
+    color: #7C7C7C;
+    font-size: 16px;
+}
+ 
+
+.RADDataPvgRestrictParent 
+{
+    display: inline-block;
+    vertical-align: top;
+    height: 25px;
+    line-height: 25px;
+    padding-right: 10px;
+}
+
+.RADDataPrivIsPermissiveParent 
+{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 5px;
+}
+
+.RADDataPrivIsRestrictiveParent 
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.RADDataPrivIsPermissiveRadio 
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.RADDataPrivIsPermissiveText 
+{
+    display: inline-block;
+    font-size: 14px;
+    color: #666666;
+}
+
+.RADDataPrivIsRestrictiveRadio 
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.RADDataPrivIsRestrictiveText 
+{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    color: #666666;
+}
+
+span.RadDataPrivilegeNameText 
+{
+    color: #2672AF;
+    font-size: 13px;
+    font-weight: bold;
+    color: #0266AA;
+}
+
+span.RadHierarchyNameText {
+    font-size: 13px;
+    font-weight: bold;
+    color: #0266AA;
+}
+
+.RADSavePrivlegeBtnParent 
+{
+    /* height: 36px; */
+    /* line-height: 36px; */
+    padding: 0 5px;
+    display: inline-block;
+}
+
+.RADSavePrivlegeBtn 
+{
+    height: 22px;
+    line-height: 22px;
+    width: 80px;
+    text-align: center;
+    background-color: #43D9C6;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.RADCancelPrivlegeBtnParent 
+{
+    /* height: 36px; */
+    /* line-height: 36px; */
+    /* padding: 7px 0; */
+    display: inline-block;
+}
+
+.RADCancelPrivlegeBtn 
+{
+    height: 22px;
+    line-height: 22px;
+    width: 70px;
+    text-align: center;
+    background-color: #AEAEAE;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.RADExistingDataPrivilegeFooter 
+{
+    /* background-color: #FFFFFF; */
+    height: 25px;
+    line-height: 25px;
+    padding: 0 5px;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.RADExistingDataPrivilegesTemplate
+{
+    display:none;
+}
+
+.RADExistingDataPrivilegebody 
+{
+    /*height: 60px;*/
+    width: 100%;
+    font-size: 13px;
+    background-color: #FFFFFF;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.RADExistingDataPrivilegeContent 
+{
+    width: 20%;
+    display: inline-block;
+    height: 50px;
+    padding-left: 10px;
+    vertical-align:top;
+}
+
+.RADExistingDataPrivilegeEntityName 
+{
+    height: 24px;
+    line-height: 24px;
+    overflow:hidden;
+    padding-left: 5px;
+    color: #999999;
+}
+
+.RADExistingDataPrivilegeParent[iseditable="true"] .RADExistingDataPrivilegeEntitySelect:before
+{
+     content: "\f0d7";
+    font-family: FontAwesome;
+    /* background-position: 90%; */
+    position: absolute;
+    right: 7px;
+    top: 0px;
+    color: #7C7C7C;
+    font-size: 16px;
+}
+
+
+.RADFuncGroupCreateEntitySelectText,.RADExistingDataPrivilegeEntitySelect 
+{
+    height: 20px;
+    line-height: 20px;
+    overflow:hidden;
+    padding-left: 5px;
+    padding-right: 20px;
+    font-size: 13px;
+    color: #212121;
+    text-overflow: ellipsis;
+}
+
+.RADExistingDataPrivilegeParent 
+{
+    padding: 5px;
+    position: relative;
+}
+
+.RADExistingDataPrivilegeChild 
+{
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    max-height: 145px;
+    padding-bottom: 0px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.RADExistingDataPrivilegeHeader 
+{
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    background-color: #F1F1F1;
+}
+
+.RADExistingDataPrivilegeName 
+{
+    height: 35px;
+}
+
+.RadDataPrivilegeText 
+{
+    width: 20%;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    color: #666666;
+}
+
+.RadDataPrivilegeHierarchyText 
+{
+    width: 20%;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    color: #666666;
+}
+
+.RadDataPrivilegeModule
+{
+    width: 30%;
+    height: 35px;
+    /* line-height: 35px; */
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    color: #666666;
+}
+
+.RadDataPrivilegeModuleText
+{
+    width: 15%;
+    display: inline-block;
+    /* float: left; */
+}
+
+.RadDataPrivilegeModuleValuesParent
+{
+    width: 85%;
+    /* display: inline-block; */
+    position: relative;
+    float: right;
+}
+
+.RadDataPrivilegeModuleValuesSelectText
+{
+    font-size: 13px;
+    font-weight: bold;
+    color: #0266AA;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    height: 35px;
+}
+
+
+
+.RadDataPrivilegeButtonBar 
+{
+    width: 25%;
+    height: 35px;
+    line-height: 35px;
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+    padding: 5px 0;
+    padding-right: 10px;
+    /* border-bottom: 1px solid black; */
+}
+
+.RADDataPvgEditBtnParent 
+{
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+    vertical-align: top;
+    /* width: 30px; */
+    padding: 0 4px;
+}
+
+.RADDataPvgDeleteBtnParent 
+{
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+    /* width: 30px; */
+    /* border-radius: 4px; */
+    padding: 0 4px;
+    vertical-align: top;
+    /* border: 1px solid lightgray; */
+}
+
+.RADDataPvgDeleteBtnParent {}
+
+.RADDataPvgEditBtn 
+{
+    height: 23px;
+    line-height: 23px;
+    width: 23px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+}
+
+.RADDataPvgDeleteBtn 
+{
+    height: 23px;
+    line-height: 23px;
+    width: 23px;
+    text-align: center;
+    color: #9E9E9E;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+.RADFuncGroupsMain
+{
+    width:100%;
+    font-family: Lato;
+    height:100%;
+    background-color: white;
+}
+
+.RADFuncGroupsHeader
+{
+    width:100%;
+    height:50px;
+
+}
+
+.RADFuncGroupsHeaderLeft
+{
+    width:70%;
+    height: 50px;
+    float:left;
+    padding: 5px 0;
+    padding-left: 6px;
+    color: #212121;
+}
+
+.RADFuncGroupsHeaderText
+{
+    width: 80%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: lato;
+    cursor: pointer;
+    /* padding: 5px; */
+    height: 40px;
+    line-height: 40px;
+}
+
+.RADFuncGroupsHeaderRight
+{
+    width:30%;
+    height: 50px;
+    float:right;
+    padding: 5px 8px 5px 0;
+}
+
+.RADAddFuncGroup
+{
+    padding: 5px;
+    float: right;
+    position: relative;
+    height: 40px;
+    line-height: 36px;
+}
+.RADAddFuncGroup:before 
+{
+    content: "\f055";
+    font-family: FontAwesome;
+    color:white;
+    position:absolute;
+    top: 5px;
+    left: 13px;
+    font-size: 16px;
+}
+
+.btnRADAddFuncGroup
+{
+    border-radius: 2px;
+    background-color: #39DAC6;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    height: 25px;
+    line-height: 24px;
+    padding-left: 28px;
+}
+
+.RADAddHierarchy
+{
+    padding: 5px;
+    height: 40px;
+    line-height: 36px;
+    float: right;
+    position: relative;
+}
+
+.RADAddHierarchy:before 
+{
+    content: "\f055";
+    font-family: FontAwesome;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 13px;
+    font-size: 16px;
+}
+
+.btnRADAddHierarchy
+{
+    border-radius: 2px;
+    background-color: #39DAC6;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    height: 25px;
+    line-height: 24px;
+    padding-left: 28px;
+}
+
+.RADFuncGroupsCreateContent
+{
+    width:100%;
+    /* height: 170px; */
+    padding: 5px;
+}
+
+.RADFuncGroupsCreateHeaderParent
+{
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    /* padding-top: 8px; */
+    BACKGROUND-COLOR: #F1F1F1;
+}
+
+.RADFuncGroupsCreateHeader
+{
+     width: 75%;
+     height: 25px;
+     line-height: 25px;
+     display:inline-block;
+     vertical-align:top;
+}
+
+
+.RADFuncGroupNameCreate
+{
+    width: 16%;
+    float:left;
+    /* padding:10px; */
+    height:100%;
+    font-size: 14px;
+    font-family: lato;
+    color: #666666;
+}
+
+.RADFuncGroupNameValueCreate
+{
+    width: 16%;
+    float:left;
+    /* padding:10px; */
+    /* height:100%; */
+    height: 25px;
+    line-height: 25px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    padding-left:10px;
+    font-size: 13px;
+}
+
+.RADFuncGroupHierarcyNameCreate
+{
+    width: 16%;
+    float:left;
+    /* padding:10px; */
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: lato;
+    text-align: center;
+    color: #666666;
+}
+
+.RADFuncGroupModuleNamesCreate
+{
+    width: 16%;
+    float:left;
+    /* padding:10px; */
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: lato;
+    text-align: center;
+    color: #666666;
+}
+
+
+.RADFuncGroupHierarcyNameSelection
+{
+    /*width:25%;
+    float:left;    
+    height: 25px;
+    line-height: 25px;
+    outline: none;
+    border: 1px solid lightgray;*/
+    float: left;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    /* padding: 0 10px 0 5px; */
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    position: relative;
+}
+
+.RADFuncGroupModuleNamesSelection
+{
+    /*width:25%;
+    float:left;    
+    height: 25px;
+    line-height: 25px;
+    outline: none;
+    border: 1px solid lightgray;*/
+    float: left;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    /* padding: 0 10px 0 5px; */
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    position: relative;
+}
+
+.RADFuncGroupHierarcyNameSelectionParent
+{
+    width: 100%;
+    font-family: Lato;
+    font-size: 12px;
+    /* position: relative; */
+    width: 16%;
+    float: left;
+    /* padding: 10px; */
+    height: 25px;
+    line-height: 25px;
+    font-size: 13px;
+    font-family: lato;
+    text-align: center;
+}
+
+.RADFuncGroupModuleNamesSelectionParent
+{
+    width: 100%;
+    font-family: Lato;
+    font-size: 12px;
+    /* position: relative; */
+    width: 16%;
+    float: left;
+    /* padding: 10px; */
+    height: 25px;
+    line-height: 25px;
+    font-size: 13px;
+    font-family: lato;
+    text-align: center;
+}
+
+.RADAllHierarchiesMainDiv
+{
+    width: 100%;
+    max-height : 200px;
+    overflow: auto;
+    position: absolute;
+    background-color: white;
+    z-index: 999;
+    padding: 5px;
+    box-shadow: -1px 1px 10px #a9a9a9;
+    border-radius: 4px;
+    top: 32px;
+}
+
+.RADHierarchyDropDownParent
+{
+    width: 100%;
+    overflow: auto;
+    background-color: white;
+    z-index: 999;
+}
+
+.RADHierarchyDropDownChild
+ {
+    width: 100%;
+    font-family: Lato;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    cursor: pointer;
+    text-align: left;
+}
+
+
+.RADHierarchyDropDownChild:hover
+{
+    border-left:2px solid #00BFF0;
+    padding-left:3px;
+}
+
+
+.RADFuncGroupsCreateBodyMainDiv {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+}
+
+.RADFuncGroupsCreateBodyMain {
+    width: 100%;
+    min-height: 50px;
+    background-color: white;
+}
+
+.RADFuncGroupCreateEntitiesContent {
+    width: 100%;
+    /* height: 66px; */
+    /* overflow: auto; */
+    /* padding: 10px; */
+}
+
+.RADFuncGroupCreateEntityContent {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    /* border: 1px solid lightgray; */
+    height: 100%;
+    padding-left: 25px;
+}
+
+.RADFuncGroupCreateRadio {
+    float: left;
+    font-size: 12px;
+    font-family: lato;
+}
+
+/*.RADFuncGroupCreateEntitySelect {
+    width: 100%;
+    height: 40px;
+    border: 1px solid lightgray;
+    overflow: hidden;
+}*/
+
+.RADFuncGroupCreateEntityName {
+    /* text-align: center; */
+    width: 100%;
+    text-align: left;
+    height: 24px;
+    line-height: 24px;
+    font-family: Lato;
+    font-size: 14px;
+    color: lightgray;
+    padding-left: 5px;
+}
+
+.RADFuncGroupCreateRadioParent {
+    vertical-align: center;
+    /* vertical-align: middle; */
+}
+
+.RADFuncGroupCreateFooter {
+    display: inline-block;
+    float: right;
+}
+
+.RADFuncCreateSaveParent {
+    padding: 0 5px;
+    /* float: right; */
+    display: inline-block;
+}
+
+.btnRADSaveFuncGroup {
+    border-radius: 4px;
+    background-color: #61E2CC;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    height: 23px;
+    line-height: 22px;
+    width: 70px;
+}
+
+.RADFuncCreateCancelParent {
+    padding: 0 5px;
+    display: inline-block;
+    width: 8;
+}
+
+.btnRADCancelFuncGroup {
+    border-radius: 4px;
+    background-color: #B9B9B9;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    height: 23px;
+    line-height: 22px;
+    width: 70px;
+}
+
+.RADSelectedEntityParent
+{
+    /* float:left; */
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    padding: 1px 0;
+    /* position: relative; */
+    /* overflow: hidden; */
+}
+
+.RADExistingDataPrivilegeParent .RADFuncGroupCreateEntitySelect
+{
+    width:100%;
+    font-family: Lato;
+    font-size: 12px;
+    position:relative;
+    /*height: 30px;
+    border: 1px solid lightgrey;*/
+    border-radius: 4px;
+    /*border: 1px solid lightgray;*/
+}
+
+.RADFuncGroupsCreateContent .RADFuncGroupCreateEntitySelect
+{
+    width:100%;
+    font-family: Lato !important;
+    font-size: 12px !important;
+    position:relative;
+    /*height: 30px;
+    border: 1px solid lightgrey;*/
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+
+.RADExistingDataPrivilegeParent[iseditable="true"] .RADFuncGroupCreateEntitySelect
+{
+    width:70%;
+    font-family: Lato;
+    font-size: 12px;
+    position:relative;
+    /*height: 30px;
+    border: 1px solid lightgrey;*/
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+
+.RADExistingDataPrivilegeParent[iseditable="true"] .RadDataPrivilegeModuleValuesSelectText
+{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-family: Lato;
+    font-size: 12px;
+    position:relative;
+    /*height: 30px;
+    border: 1px solid lightgrey;*/
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+
+.RADExistingDataPrivilegeParent[iseditable="true"] .RadDataPrivilegeModuleValuesSelectText:before
+{
+    content: "\f0d7";
+    font-family: FontAwesome;
+    /* background-position: 90%; */
+    position: absolute;
+    right: 7px;
+    top: 0px;
+    color: #7C7C7C;
+    font-size: 16px;
+}
+
+.RADFunGroupDimensionsMainDiv
+ {
+    width: 14%;
+    max-height: 200px;
+    overflow: auto;
+    position: absolute;
+    background-color: white;
+    z-index: 999;
+    padding: 5px;
+    box-shadow: -1px 1px 10px #a9a9a9;
+    border-radius: 4px;
+ }
+
+.RADDimensionDropDownParent
+ {
+      width:100%;
+      /* height: 190px; */
+      overflow:auto;
+      background-color:white;
+      z-index : 999;
+ }
+
+.RADDimensionDropDownChildTick
+{
+    width:10%;    
+    height: 25px;
+    line-height: 25px;
+    float:right;
+}
+
+.RADDimensionDropDownChildParent
+{
+    width:100%;    
+    height: 25px;
+    line-height: 25px;
+}
+
+.RADDimensionDropDownChild
+ {
+    width:90%;
+    font-family: Lato;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    cursor:pointer;
+    float:left;
+ }
+
+ .RADDimensionDropDownChild:hover
+ {
+    border-left:2px solid #00BFF0;
+    padding-left:3px;
+    background-color:lightblue;
+ }
+
+ .RADDimensionDropDownChildSelectAll
+ {
+    width:100%;
+    font-family: Lato;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    cursor:pointer;
+    color:lightblue;
+ }
+
+ .RADDimensionDropDownChildSelectAll:hover
+ {
+    border-left:2px solid #00BFF0;
+    padding-left:3px;
+     background-color:lightblue;
+    color:lightcoral;
+ }
+
+ .RADDimensionDropDownChildUnSelectAll
+ {
+    width:100%;
+    font-family: Lato;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    cursor:pointer;
+    color:orangered;
+ }
+
+ .RADDimensionDropDownChildUnSelectAll:hover
+ {
+    border-left:2px solid #00BFF0;
+    padding-left:3px;
+     background-color:lightblue;
+    color:lightcoral;
+ }
+
+ .RADSelectDownArrow
+ {
+     height:100%;
+
+ }
+
+ .RADSelectedDimensionValue
+ {
+     background-color:darkgray;
+
+ }
+
+ .RADFunGroupModulesMainDiv
+ {
+    width: 100%;
+    max-height : 200px;
+    overflow: auto;
+    position: absolute;
+    background-color: white;
+    z-index: 999;
+    padding: 5px;
+    box-shadow: -1px 1px 10px #a9a9a9;
+    border-radius: 4px;
+    top: 32px;
+ }
+
+ .RADModulesDropDownParent
+ {
+    width: 100%;
+    overflow: auto;
+    background-color: white;
+    z-index: 999;
+
+ }
+
+ .RADModulesDropDownChildSelectAll
+ {
+    width:100%;
+    font-family: Lato;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    cursor:pointer;
+    color:lightblue;
+
+ }
+
+ .RADModulesDropDownChildSelectAll:hover
+ {
+    border-left:2px solid #00BFF0;
+    padding-left:3px;
+     background-color:lightblue;
+    color:lightcoral;
+ }
+
+ .RADModulesDropDownChildUnSelectAll
+ {
+    width:100%;
+    font-family: Lato;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    cursor:pointer;
+    color:orangered;
+
+ }
+
+ .RADModulesDropDownChildUnSelectAll:hover
+ {
+    border-left:2px solid #00BFF0;
+    padding-left:3px;
+    background-color:lightblue;
+    color:lightcoral;
+
+ }
+
+ .RADModulesDropDownChildParent
+ {
+    width:100%;    
+    height: 25px;
+    line-height: 25px;
+
+ }
+
+ .RADModulesDropDownChild
+ {
+     width:90%;
+    font-family: Lato;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    cursor:pointer;
+    float:left;
+
+ }
+
+ .RADModulesDropDownChild:hover
+ {
+    border-left:2px solid #00BFF0;
+    padding-left:3px;
+    background-color:lightblue;
+ }
+
+.RADModulesDropDownChildTick
+{
+    width:10%;    
+    height: 25px;
+    line-height: 25px;
+    float:right;
+}
+
+.RadDataPrivilegeModuleValuesSelect 
+{
+    height: 35px;
+    width: 100%;
+}
+
+.RADDataprivilegeSearchParent {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+}
+
+.RADDataprivilegeSearch {
+    width: 98%;
+    font-family: Lato;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    cursor: pointer;
+    float: left;
+    border: 1px solid #aaa;
+}
+
+
+
+ /* Functional Group Screen css Ends */
+
+
+
+
+
+ /* Hierarchy Screen css  Starts*/
+
+ .RADCreateFunctionalGroupsMain
+{
+    width:100%;
+    height:100%;
+
+}
+
+.RADCreateHierachyParent
+{
+    padding: 0 5px;
+    float:right;
+}
+
+.btnCreateHierachy {
+    background-color: #53bfb1;    
+    border-radius: 2px;
+    background-color: #61E2CC;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    height: 20px;
+    line-height: 19px;
+}
+
+.btnCreateHierachy:hover
+{
+    background-color: #53bfb1;
+    outline: none;
+}
+
+.RADHierarchyMainNew
+{
+    box-shadow: 0px 0px 21px #a9a9a9;
+    background-image: url(images/popup_texture.png);
+    min-height: 168px;
+    font-family: Lato;
+    border: 1px solid #D4D4D4;
+    position: absolute;
+    background-color: #f4f4f4;
+    left: 70%;
+    float: right;
+    width: 30%;
+    z-index: 100000316;
+    top: 98px;
+    height: 80%;
+    padding: 0 10px;
+}
+
+RADHierarchyMainNew:after {
+   content: '';
+   position: absolute;
+   border-style: solid;
+   border-width: 0 15px 15px;
+   border-color: #ffffff transparent;
+   display: block;
+   width: 0;
+   z-index: 1;
+   top: -15px;
+   left: 435px;
+}
+
+.RADHierarchyMainNew:before {
+   content: '';
+   position: absolute;
+   border-style: solid;
+   border-width: 0 16px 16px;
+   border-color: #d4d4d4 transparent;
+   display: block;
+   width: 0;
+   z-index: 0;
+   top: -18px;
+   left: 434px;
+}
+
+.RADHierarchyMainNew:after {
+   content: '';
+   position: absolute;
+   border-style: solid;
+   border-width: 0 16px 16px;
+   border-color: #f4f4f4 transparent;
+   display: block;
+   width: 0;
+   z-index: 0;
+   top: -16px;
+   left: 434px;
+}
+
+
+.RADHierarchyHeaderMessage
+{
+    width: 50%;
+    float: left;
+    /*height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;*/
+    position:absolute;
+    top : 2px;
+    right :0px;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: bold;
+    color: red;
+}
+
+.RADCreateHierachyDisplayNone
+{
+    display:none;
+}
+
+.RADHierarchyHeaderParent
+{
+    width: 100%;
+    height: 40px;
+    /* border-bottom: 1px solid lightgray; */
+}
+
+.RADHierarchyHeaderLeftNew
+{
+    width: 50%;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+    font-family: Lato;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+}
+.RADHierarchyHeaderRightNew
+{
+    width: 50%;
+    float: right;
+    position: absolute;
+    right: 0px;
+    top: 71px;
+}
+
+.RADAddDimensionsParent
+{
+    float: right;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 9px;
+    padding-bottom: 5px;
+}
+
+.btnRADAddDimensions
+{
+    border-radius: 2px;
+    background-color: #AEAEAE;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    height: 20px;
+    line-height: 18px;
+}
+
+.btnRADAddDimensions :hover
+{   
+    background-color: #53bfb1;
+    outline: none;
+}
+
+
+.RADHierarchyCreationMain
+{
+    width: 100%;
+    padding: 5px;
+    min-height: 180px;
+    font-family: Lato;
+    background-color: #f4f4f4 !important;
+    width: 100%;
+    height: 42%;
+}
+
+
+.RADHierarchyNameParent
+{
+    width: 100%;
+    /* height: 40px; */
+    padding: 5px;
+}
+
+.RADHierarchyName
+{
+    width: 50%;
+    /* float: left; */
+    height: 30px;
+    line-height: 30px;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: bold;
+    color: #666666;
+}
+
+.RADHierarchyNameValue
+{
+    width: 59% !important;
+    display: block! important;
+    height: 25px !important;
+    border: 1px solid #bdbdbd !important;
+    outline: none;
+    line-height: 25px !important;
+}
+
+.RADDimensionsSelectionParent
+{
+    width:70%;
+    height: 35px;
+    padding-top: 5px;
+}
+
+.RADSelectDimension
+{
+    float:left;
+    width:50%;
+    height:30px;
+    line-height: 40px;
+    padding-left: 5px;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: bold;
+    color: #666666;
+}
+
+.RADSelectZone
+{
+    float:right;
+    width:50%;
+    height:30px;
+    line-height: 40px;
+    padding-left: 5px;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: bold;
+    color: #666666;
+}
+
+.RADDimensionsSelectedMain
+{
+    width:100%;      
+}
+
+.RADDimensionsSelectedParent
+{
+    width:100%;
+    height:40px;    
+}
+
+.RADSelectedDimension
+{
+    float:left;
+    width: 35%;
+    height: 27px;
+    line-height: 27px;
+    padding: 2px 10px 0 5px;
+}
+
+.RADSelectedZone
+{
+    float:left;
+    width: 30%;
+    height: 27px;
+    line-height: 27px;
+    padding: 2px 10px 0 5px;
+}
+
+.RADDimensionSelect
+{
+    width:100%;
+    font-family: Lato;
+    font-size: 12px;    
+    position:relative;
+    /*height: 30px;
+    border: 1px solid lightgrey;*/
+}
+
+.RADZoneSelect
+{
+    width:100%;
+    font-family: Lato;
+    font-size: 12px;
+    position:relative;
+}
+
+.RADSelectedDimensionKey
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: nowrap;
+    outline:none;
+    color: #212121;
+    height: 25px;
+    font-size: 13px;
+    padding-left: 5px;
+    line-height: 25px;
+    border: 1px dashed black;
+}
+
+.RADSelectedDimensionDelete
+{
+    float:left;    
+    padding-left: 3px;
+}
+
+.btnRADDeleteDimensions
+{
+    border-radius: 2px;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;    
+}
+
+.RADSelectedDimensionKeyParent
+{
+   float: left;
+   width: 30%;
+   height: 27px;
+   line-height: 27px;
+   padding: 2px 10px 0 5px;
+   font-family: Lato;
+   font-size: 12px;
+}
+
+.RADSaveHierarchy
+{
+    text-align: right;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btnRADSaveHierarchy
+{
+    border-radius: 2px;
+    background-color: #34D4BA;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    height: 22px;
+    line-height: 20px;
+    padding: 0 14px;
+}
+
+.RADHierarchyCreatedMain
+ {
+    min-height: 168px;
+    font-family: Lato;
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 48%;
+    max-height: 50%;
+    /* overflow: auto; */
+}
+
+.RADSavedHierarchyHeaderParent
+{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.RADSavedHierarchyHeader
+{
+    width: 100%;
+    float: left;
+    height: 40px;
+    line-height: 50px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.RADCreatedHierarchyHeaderParent
+{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.RADCreatedHierarchyExpandArrow
+{
+    width: 2%;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.RADCreatedHierarchyName
+{
+    width: 21%;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.RADCreatedHierarchyNameValue
+{
+    width: 21%;
+    float: left;
+    height: 30px;
+    line-height:30px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+    color: #457EB2;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 5px;
+}
+
+.RADCreatedHierarchyModuleNamesValue
+{
+    width: 32%;
+    float: left;
+    height: 30px;
+    line-height:30px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+    color: #457EB2;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 5px;
+}
+
+.RADCreatedHierarchiesMain {
+    min-height: 168px;
+    font-family: Lato;
+    background-color: #F4F4F4;
+    width: 100%;
+    height: 90%;
+    overflow: auto;
+}
+
+.RADCreatedHierarchyMain
+{
+    font-family: Lato;
+    background-color: #f4f4f4;
+    width: 100%;
+}
+
+.RADCreatedHierarchyDimensionsMain
+{
+    padding:5px;   
+    
+}
+
+.RADDimensionParent
+{
+    height: 34px;
+    line-height: 34px;
+    padding: 5px 5px;
+    /* display: inline-block; */
+    width: 220px;
+    vertical-align: top;
+}
+
+.RADDimension
+{
+    height: 24px;
+    cursor: pointer;
+    line-height: 24px;
+    padding: 0 5px;
+    border-radius: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: nowrap;
+    border: 1px solid #999999;
+    font-size: 12px;
+    color: #457EB2;
+    text-align: center;
+}
+
+.accordion-toggle
+ {
+    cursor: pointer;
+
+}
+ .accordion-content 
+  {
+      display: none;
+
+  }
+  .accordion-content.default
+   {
+      display: block;
+
+  }
+
+ .btnRADDeleteHierarchy
+{
+    border-radius: 2px;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;    
+}
+
+ .RADEntityDropDownChild
+ {
+    width:100%;
+    font-family: Lato;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    cursor:pointer;
+ }
+
+ .RADEntityDropDownChild:hover
+ {
+    border-left:2px solid #00BFF0;
+    padding-left:3px;
+ }
+
+ .RADEntityDropDownParent
+ {
+      width:100%;
+      height: 190px;
+      overflow:auto;     
+      background-color:white;
+      z-index : 999;
+ }
+
+ .RADEntitiesMainDiv
+ {
+     width: 100%;
+     height: 200px;
+     overflow: auto;
+     position: absolute;
+     background-color: white;
+     z-index: 999;
+     top: 27px;
+     padding: 5px;
+     box-shadow: -1px 1px 10px #a9a9a9;
+     border-radius: 4px;
+ }
+
+ .RADAttributesMainDiv
+ {
+     width: 100%;
+    /*height: 200px;*/
+    max-height:200px;
+    overflow: auto;
+    position: absolute;
+    background-color: white;
+    z-index: 999;
+    padding: 5px;
+    box-shadow: -1px 1px 10px #a9a9a9;
+    border-radius: 4px;
+ }
+
+ .RADAttributesDropDownParent
+ {
+      width:100%;
+      /*height: 190px;*/
+      max-height:190px;
+      overflow:auto;
+      background-color:white;
+      z-index : 999;
+
+ }
+
+ .RADAttributeDropDownChild
+ {
+      width:100%;
+    font-family: Lato;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    cursor:pointer;
+ }
+
+ .RADAttributeDropDownChild :hover
+ {
+    border-left:2px solid #00BFF0;
+    padding-left:3px;
+ }
+
+ 
+
+span.RADNMoreClass 
+{
+    color: #00bcef;
+    cursor: pointer;
+}
+
+.RADQtipParent
+{
+    
+}
+
+.RADqtipParent
+{
+    
+    height:20px;
+    line-height:20px;
+}
+
+
+.RADDeletePrivilege {
+    position: absolute;
+    top: 40px;
+    right: 7px;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.RADDeletePrivilege:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 5px 7px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -7px;
+    left: 255px;
+}
+
+.RADDeletePrivilege:before 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 5px 7px;
+    border-color: #f3eeee transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    top: -8px;
+    left: 255px;
+}
+
+.RADDeleteBtnPrivilegeParent 
+{
+    height: 30px;
+    padding: 4px 0;
+    /* text-align: right; */
+}
+
+.RADDeleteBtnPrivilege 
+{
+    height: 22px;
+    line-height: 22px;
+    width: 80px;
+    float: right;
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    background-color: #39DAC6;
+}
+ /* Hierarchy Screen css  Ends*/
+
+
+ /* Data Privilege Filter */
+
+ .RADDataPrivFilterMainParent
+ {
+     width: 100%;
+     font-family: Lato;
+     height: 100%;
+     background-color: white;
+     position: absolute;
+     top: 95px;
+     background-color: transparent;
+ }
+ .RADDataPrivFilterMain
+ {
+    width: 80%;
+    font-family: Lato;
+    height: 30%;
+    background-color: white;
+    /* position: absolute; */
+    /* top: 10px; */
+    display:  table;
+    margin: 0 auto;
+    border-radius: 2px;
+    box-shadow: 0px 7px 21px 1px #6D6D6D;
+ }
+
+ .RADDataPrivFilterHeaderParent 
+ {
+    width: 100%;
+    height: 40px;
+    /* padding: 0 5px; */
+    border-bottom: 1px solid #e8e8e8;
+ }
+
+ /*.RADFuncGroupsFilter
+ {
+    border-radius: 2px;
+    background-color: #39DAC6;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    height: 25px;
+    line-height: 24px;
+    width: 10%;
+ }*/
+
+
+ .RADDataPrivFilterHeaderTitle {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: lato;
+    cursor: pointer;
+    /* padding: 5px; */
+    height: 40px;
+    line-height: 40px;
+    text-align:  center;
+}
+
+.RADDataPrivFilterContentParent {
+    width: 100%;
+    height: 50px;
+}
+
+.RADDataPrivFilterContentUserParent {
+    width: 50%;
+    float: left;
+    /* height: 50px; */
+}
+
+.RADDataPrivFilterContentHierarchyParent {
+    width: 50%;
+    float:  right;
+}
+
+.RADDataPrivFilterUserTitle {
+    width: 50%;
+    /* display: inline-block; */
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.RADDataPrivFilteUserSelectParent {
+    width: 50%;
+    /* height: 50px; */
+    /* line-height: 50px; */
+    padding-top: 14px;
+    /* display:  inline-block; */
+    float: right;
+    /* position: relative; */
+}
+
+.RADDataPrivFilterUserSelect {
+    width: 60%;
+    min-width: 190px;
+    font-family: Lato !important;
+    font-size: 12px !important;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+
+.RADDataPrivFilterUserSelectText {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 20px;
+    font-size: 13px;
+    color: #212121;
+    text-overflow: ellipsis;
+}
+
+.RADDataPrivFilterUserSelectText:before {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    /* background-position: 90%; */
+    position: absolute;
+    right: 7px;
+    top: 0px;
+    color: #7C7C7C;
+    font-size: 16px;
+}
+
+.RADDataPrivFilterHierarchyTiltle {
+    /* width: 50%; */
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    padding: 0 20px 0 0;
+}
+
+.RADDataPrivFilterHierarchySelectParent {
+    width: 50%;
+    /* height: 24px; */
+    /* line-height: 24px; */
+    padding-top: 14px;
+    /* display:  inline-block; */
+    float: left;
+}
+
+.RADDataPrivFilterHierarchySelect {
+    width: 60%;
+    font-family: Lato !important;
+    font-size: 12px !important;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    min-width: 190px;
+}
+
+.RADDataPrivFilterHierarchySelectText {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 20px;
+    font-size: 13px;
+    color: #212121;
+    text-overflow: ellipsis;
+}
+
+.RADDataPrivFilterHierarchySelectText:before {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    /* background-position: 90%; */
+    position: absolute;
+    right: 7px;
+    top: 0px;
+    color: #7C7C7C;
+    font-size: 16px;
+}
+
+.RADDataPrivFilterHierarchyInfoParent {
+    width: 100%;
+    height: 100Px;
+}
+
+.RADDataPrivFooterParent {
+    width: 100%;
+    height: 50px;
+    /* float: right; */
+    padding-right: 50px;
+}
+
+.RADDataPrivFilterApplyParent {
+   /* padding : 5px; */
+   /* padding-right: 10px; */
+   display: inline-block;
+   float: right;
+}
+
+.RADDataPrivFilterApply
+{
+     float: right;
+    border-radius: 2px;
+    background-color: #39DAC6;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    height: 25px;
+    line-height: 24px;
+    /* padding-left: 28px; */
+    padding: 0 10px;
+
+}
+
+
+.RADDataPrivFilterCloseParent {
+    /* padding : 5px; */
+    /* padding-right: 0px; */
+    display: inline-block;
+    float: right;
+    padding-right: 5px;
+}
+
+.RADDataPrivFilterClose
+{
+    float: right;
+    border-radius: 2px;
+    background-color: #39DAC6;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    height: 25px;
+    line-height: 24px;
+    /* padding-left: 28px; */
+    padding: 0 10px;
+
+}
+
+
+.RADFuncGroupCreateEntitiesContentFilter
+{
+    max-width: 100%;
+    display: table;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.RADDataPrivMessage {
+    width: 100%;
+    /* float: right; */
+    padding-right: 50px;
+    
+   
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-family: lato;
+    cursor: pointer;
+    /* padding: 5px; */
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color:red;
+}
+
+.RADModulesNames {
+    width: 100%;
+    /* float: left; */
+    height: 30px;
+    line-height: 30px;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: bold;
+    color: #666666;
+}
+
+.RADHierarchyModuleParent {
+    width: 100%;
+    padding: 5px;
+}
+
+.RADHierarchyModuleNamesSelectionParent {
+    /* width: 100%; */
+    /* font-family: Lato; */
+    /* font-size: 12px; */
+    /* position: relative; */
+    width: 60%;
+    /* float: right; */
+    /* padding: 10px; */
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    font-family: lato;
+    text-align: center;
+}
+
+.RADHierarchyModuleNamesSelection {
+    float: left;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    /* padding: 0 10px 0 5px; */
+    border: 1px solid lightgray;
+    /* border-radius: 4px; */
+    position: relative;
+    /* border-width: 1px; */
+    /* border-color: rgb(240, 240, 240); */
+    /* border-left: 0px; */
+}
+
+.RADHierarchyModuleNamesSelectionText {
+    width: 100%;
+    font-size: 13px;
+    height: 23px;
+    line-height: 23px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.RADHierarchyModuleNamesSelectionText:before {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    /* background-position: 90%; */
+    position: absolute;
+    right: 7px;
+    top: 0px;
+    color: #7C7C7C;
+    font-size: 16px;
+}
+
+.RADCreatedHierarchyNameDelete
+{
+    float: left;
+    width: 3%;
+}
+
+.RADFuncGroupsCreateContentMessage
+{
+    width: 100%;
+    /*float: left;*/
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: bold;
+    color: red;
+    text-align:center;
+    height:30px;
+    line-height:30px;
+}
+
+.RADFuncGroupsFilter
+{
+    padding: 5px;
+    height: 40px;
+    line-height: 36px;
+    float: right;
+    position: relative;
+
+}
+
+.btnRADApplyFilter
+{
+    border-radius: 2px;
+    background-color: #39DAC6;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    height: 25px;
+    line-height: 24px;
+    padding-left: 28px;
+
+
+}
+
+/*@keyframes RADDLPHierSpinner {
+  to {transform: rotate(360deg);}
+}
+ 
+.RADDLPHierSpinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 37%;
+    left: 29%;
+    width: 35px;
+    height: 35px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #333;
+    animation: RADDLPHierSpinner .4s linear infinite;
+    z-index: 9999;
+}*/
+
+@keyframes RADDLPHierddSpinner {
+  to {transform: rotate(360deg);}
+}
+ 
+.RADDLPHierddSpinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: 29%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #333;
+    animation: RADDLPHierddSpinner .4s linear infinite;
+    z-index: 9999;
+}
+
+@keyframes RADDLPHierSaveSpinner {
+  to {transform: rotate(360deg);}
+}
+ 
+.RADDLPHierSaveSpinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: 29%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #333;
+    animation: RADDLPHierddSpinner .4s linear infinite;
+    z-index: 9999;
+}
+
+@keyframes RADDLPdimesionSpinner {
+  to {transform: rotate(360deg);}
+}
+ 
+.RADDLPdimesionSpinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: 29%;
+    width: 20px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #333;
+    animation: RADDLPdimesionSpinner .4s linear infinite;
+    z-index: 9999;
+}
+
+@keyframes RADDLPSaveSpinner {
+  to {transform: rotate(360deg);}
+}
+ 
+.RADDLPSaveSpinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: 29%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #333;
+    animation: RADDLPSaveSpinner .4s linear infinite;
+    z-index: 9999;
+}
+
+
+
+

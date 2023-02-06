@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+ 0 - all 
+-1 - none (No scripts)
+-2 - none(only default)
+specific - specific + default
+-->
+<ViewManagement>
+  <SecMasterLite>
+    <view identifier="ExceptionManager" mappingIdentifier="" ajaxscripts="1,2,3,5,6,7" scripts="40,41,44,49" services="15" jquery="11,15" stylesheet="6,7" ><![CDATA[ExceptionManager]]></view>
+    <view identifier="CreateSecurityNew" mappingIdentifier="" ajaxscripts="1,2,3" scripts="34,40,41,46" services="2,15" jquery="11,15" stylesheet="6,7,11"><![CDATA[CreateSecurityNew]]></view>
+    <view identifier="UpdateSecurityNew" mappingIdentifier="" ajaxscripts="1,2,3" scripts="34,40,41,46" services="2" jquery="11,15" stylesheet="6,7,11"><![CDATA[UpdateSecurityNew]]></view>
+    <view identifier="CloneSecurityNew" mappingIdentifier="" ajaxscripts="1,2,3" scripts="34,40,41,46" services="2" jquery="11,15" stylesheet="6,7,11"><![CDATA[CloneSecurityNew]]></view>
+    <view identifier="Bsym" mappingIdentifier="" ajaxscripts="1,2,3" scripts="-2" services="-1" jquery="11,15" stylesheet="-1"><![CDATA[Bsym]]></view>
+    <view identifier="CreateEditMultiple" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[CreateEditMultiple]]></view>
+    <view identifier="RequestSecurity" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5" stylesheet="11"><![CDATA[RequestSecurity]]></view>
+    <view identifier="WorkflowInbox" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[WorkflowInbox]]></view>
+    <view identifier="Search" mappingIdentifier="" ajaxscripts="0" scripts="3,4,5,6,7,8,9,10,11,13,14,15,16,17,18,19,21,22,23,34,35,36,37,40,41,42,49" services="0" mode="" jquery="11,15" stylesheet="5,6,7,11" ><![CDATA[Search]]></view>
+    <view identifier="SearchVendor" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[SearchVendor]]></view>
+    <view identifier="UnderlyingSecurity" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[UnderlyingSecurity]]></view>
+    <view identifier="SecurityDrafts" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[SecurityDrafts]]></view>
+    <view identifier="BackgroundSecurityStatus" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="11,13" stylesheet="6,7"><![CDATA[BackgroundSecurityStatus]]></view>
+    <view identifier="ExternalSystemStatus" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="11,13" stylesheet="6,7,11"><![CDATA[ExternalSystemStatus]]></view>
+    <view identifier="CorporateActionStatus" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="11,13" stylesheet="6,7,11"><![CDATA[CorporateActionStatus]]></view>
+    <view identifier="EditBulkSecurities" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="11,13" stylesheet="6,7"><![CDATA[EditBulkSecurities]]></view>
+    <view identifier="CreateBulkSecurity" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" stylesheet="6,7,11" jquery="11,13"><![CDATA[CreateBulkSecurity]]></view>
+    <view identifier="ActionIdentifier" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0"  stylesheet="6,11" jquery="4,5"><![CDATA[ActionIdentifier]]></view>
+    <view identifier="UpdateBulkSecurity" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" stylesheet="6,11" jquery="4,5">
+      <![CDATA[UpdateBulkSecurity]]><thirdparty id="2" stylesheet="1,2" />
+    </view>
+    <view identifier="CreateMultipleSecuritiesAndDerivatives" mappingIdentifier="" ajaxscripts="0" scripts="15,23,40,47,41" services="0" jquery="6,7" stylesheet="5,6,7,11"><![CDATA[CreateMultipleSecuritiesAndDerivatives]]></view>
+    <view identifier="RuleSummaryCommonPush" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[RuleSummaryCommonPush]]></view>
+    <view identifier="ImpactedSecurities" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[ImpactedSecurities]]></view>
+    <view identifier="ViewReport" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="11,13" stylesheet="6,7,11"><![CDATA[ViewReport]]></view>
+    <view identifier="VendorSetupReport" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[VendorSetupReport]]></view>
+    <view identifier="RepositorySetupReport" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[RepositorySetupReport]]></view>
+    <view identifier="WorkflowSetupReport" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[WorkflowSetupReport]]></view>
+    <view identifier="RequestStatusReport" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[RequestStatusReport]]></view>
+    <view identifier="VendorPrioritizationSetupReport" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[VendorPrioritizationSetupReport]]></view>
+    <view identifier="MissingMandatoryAttributeReport" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5" stylesheet="11"><![CDATA[MissingMandatoryAttributeReport]]></view>
+    <view identifier="VendorFailedResponseReport" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[VendorFailedResponseReport]]></view>
+    <view identifier="SectypeMappingSummaryReport" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5" stylesheet="11"><![CDATA[SectypeMappingSummaryReport]]></view>
+    <view identifier="SecuritiesActionReport" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[SecuritiesActionReport]]></view>
+    <view identifier="AttributeLevelAuditHistoryReport" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="11,13" stylesheet="6,7,11"><![CDATA[AttributeLevelAuditHistoryReport]]></view>
+    <view identifier="PrivilegeMappingReport" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[PrivilegeMappingReport]]></view>
+    <view identifier="RuleSetupSummaryReport" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[RuleSetupSummaryReport]]></view>
+    <view identifier="RealTimeSecurityRequestStatusReport" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="11,13" stylesheet="6,7"><![CDATA[RealTimeSecurityRequestStatusReport]]></view>
+    <view identifier="SecurityActivation" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[SecurityActivation]]></view>
+    <view identifier="GetTaskStatus" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[GetTaskStatus]]></view>
+    <view identifier="CustomReportViewer" mappingIdentifier="" ajaxscripts="0" scripts="35,36,37" services="0" jquery="4,5"><![CDATA[CustomReportViewer]]></view>
+    <view identifier="VendorExceptionTypes" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[VendorExceptionTypes]]></view>
+    <view identifier="NoVendorRecordAvailable" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[VendorExceptionTypes]]></view>
+    <view identifier="UnmatchedSecurity" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[VendorExceptionTypes]]></view>
+    <view identifier="CreateHierarchyExisting" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[CreateHierarchyExisting]]></view>
+    <view identifier="DisplayHierarchyExisting" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" jquery="4,5"> <![CDATA[DisplayHierarchyExisting]]></view>
+    <view identifier="AttributeSetupSingleScreen" mappingIdentifier="" ajaxscripts="1,2,3,5,6,7" scripts="40,41" services="0" jquery="11,15" stylesheet="6,7"><![CDATA[AttributeSetupSingleScreen]]></view>
+    <view identifier="TimeSeriesBulkUpdate" mappingIdentifier="" ajaxscripts="1,2,3,5,6,7" scripts="34,47" services="0" jquery="4,5" stylesheet="11"><![CDATA[TimeSeriesBulkUpdate]]></view>
+    <view identifier="MigrationUtility" mappingIdentifier="" ajaxscripts="1,2,3,5,6,7,8" scripts="34" services="0" jquery="4,5" stylesheet="-1">
+      <![CDATA[MigrationUtility]]><thirdparty id="3" scripts="-1" stylesheet="1,2" />
+    </view>
+    <!--<view identifier="Reconciliation" mappingIdentifier="" ajaxscripts="1,2,3,5,6,7,8" scripts="34" services="0" jquery="4,5" stylesheet="3,4"><![CDATA[Reconciliation]]></view>-->
+    <view identifier="CUSingleScreen" mappingIdentifier="" ajaxscripts="1,2,3,5,6,7" scripts="-2" services="0" jquery="4,5,6,7"><![CDATA[CUSingleScreen]]></view>
+    <view identifier="SectypeModeller" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" mode="" jquery="11,15" stylesheet="6,7"><![CDATA[SectypeModeller]]></view>
+    <view identifier="CommonStatusScreen" mappingIdentifier="" ajaxscripts="0" scripts="4,8,40,41,44,47" services="0" jquery="6,13" stylesheet="6,7,11"><![CDATA[CommonStatusScreen]]></view>
+    <view identifier="CorporateActionDetails" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" stylesheet="6,7,11" jquery="11,13"><![CDATA[CorporateActionDetails]]></view>
+    <view identifier="CommonRealTimeStatusScreen" mappingIdentifier="" ajaxscripts="0" scripts="4,8,40,41,44,47" services="0" jquery="6,13" stylesheet="6,7,11"><![CDATA[CommonRealTimeStatusScreen]]></view>
+    <view identifier="Dashboard" mappingIdentifier="" ajaxscripts="-2" scripts="40,41" services="1,17" stylesheet="5,6,7" jquery="11,13">
+      <![CDATA[Dashboard]]>
+      <thirdparty id="2" scripts="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21" stylesheet="-1" />
+    </view>
+    <view identifier="FTPPullTask" mappingIdentifier="" ajaxscripts="0" scripts="0" services="0" stylesheet="6,11" jquery="4,5"><![CDATA[SMFTPPullTask.ascx]]></view>
+    <view identifier="DummyGrid" mappingIdentifier="" ajaxscripts="1,2,3,5,6,7" scripts="0" services="15" jquery="11,15" stylesheet="6,7" ><![CDATA[DummyGrid.ascx]]></view>
+    <view identifier="WorkflowStatus" mappingIdentifier="" ajaxscripts="0" scripts="0" services="15" jquery="11,15" stylesheet="6,7" ><![CDATA[WorkflowStatus]]></view>
+  </SecMasterLite>
+
+  <RADLite>
+    <view identifier="RAD_Password" mappingIdentifier="RADLite" ajaxscripts="0" scripts="0" services="0" mode="IE=8" jquery="4,5"><![CDATA[RAD_Password]]></view>
+    <view identifier="RAD_RWUCCommonTaskManager" mappingIdentifier="RADLite" ajaxscripts="9" scripts="-2" services="-2" mode="" stylesheet="1,2" jquery="1,2"><![CDATA[RAD_RWUCCommonTaskManager]]></view>
+    <view identifier="RAD_RWUCCommonTaskStatus" mappingIdentifier="RADLite" ajaxscripts="2,3,6,7,10" scripts="-2" services="0" mode="" stylesheet="1,2" jquery="1,2"><![CDATA[RAD_RWUCCommonTaskStatus]]></view>
+  </RADLite>
+
+  <RefMasterLite>
+    <view identifier="RefM_SearchData" mappingIdentifier="RefMasterLite" ajaxscripts="0" scripts="0" services="0" jquery="4,5" stylesheet="5,8,11">
+      <![CDATA[RefM_SearchData]]>
+      <thirdparty id="3" scripts="2" stylesheet="3,8" />
+    </view>
+    <view identifier="RefM_EntityCreation" mappingIdentifier="RefMasterLite" ajaxscripts="0" scripts="0" services="0" jquery="4,5" stylesheet="11">
+      <![CDATA[RefM_EntityCreation]]>
+      <thirdparty id="3" scripts="2" stylesheet="8" />
+    </view>
+    <view identifier="RefM_EntityUpdation" mappingIdentifier="RefMasterLite" ajaxscripts="0" scripts="0" services="0" jquery="4,5" stylesheet="11">
+      <![CDATA[RefM_EntityUpdation]]>
+      <thirdparty id="3" scripts="2" stylesheet="8" />
+    </view>
+    <view identifier="RefM_BulkEntityCreationUpdation" mappingIdentifier="RefMasterLite" ajaxscripts="0" scripts="0" services="0" jquery="4,5" stylesheet="11">
+      <![CDATA[RefM_BulkEntityCreationUpdation]]>
+      <thirdparty id="3" scripts="1,2" stylesheet="8" />
+    </view>
+    <view identifier="RefM_BulkUpdateTimeSeries" mappingIdentifier="RefMasterLite" ajaxscripts="0" scripts="0" services="0" jquery="4,5" stylesheet="11">
+      <![CDATA[RefM_BulkUpdateTimeSeries]]>
+      <thirdparty id="3" scripts="2" stylesheet="8" />
+    </view>
+    <view identifier="RefM_RealTimebackGroundStatus" mappingIdentifier="RefMasterLite" ajaxscripts="0" scripts="0" services="0" jquery="4,5" stylesheet="11">
+      <![CDATA[RefM_RealTimebackGroundStatus]]>
+      <thirdparty id="3" scripts="2" stylesheet="8" />
+    </view>
+    <view identifier="RefM_SearchCurveData" mappingIdentifier="RefMasterLite" ajaxscripts="0" scripts="0" services="0" jquery="4,5" stylesheet="11">
+      <![CDATA[RefM_SearchCurveData]]>
+      <thirdparty id="3" scripts="2" stylesheet="8" />
+    </view>
+    <view identifier="RefM_TaskStatus" mappingIdentifier="RefMasterLite" ajaxscripts="0" scripts="0" services="0" jquery="4,5" stylesheet="11">
+      <![CDATA[RefM_TaskStatus]]>
+      <thirdparty id="3" scripts="2" stylesheet="8" />
+    </view>
+    <view identifier="RefM_ExceptionManager" mappingIdentifier="RefMasterLite" ajaxscripts="0" scripts="0" services="0" jquery="4,5" stylesheet="11">
+      <![CDATA[RefM_ExceptionManager]]>
+      <thirdparty id="3" scripts="2" stylesheet="8" />
+    </view>
+    <view identifier="RefM_ReportViewer" mappingIdentifier="RefMasterLite" ajaxscripts="0" scripts="0" services="0" jquery="4,5" stylesheet="11">
+      <![CDATA[RefM_ReportViewer]]>
+      <thirdparty id="3" scripts="2" stylesheet="8" />
+    </view>
+    <view identifier="RefM_ReportSystemTaskStatus" mappingIdentifier="RefMasterLite" ajaxscripts="0" scripts="0" services="0" jquery="4,5" stylesheet="11">
+      <![CDATA[RefM_ReportSystemTaskStatus]]>
+      <thirdparty id="3" scripts="2" stylesheet="8" />
+    </view>
+    <view identifier="RefM_EntityTypeHierarchy" mappingIdentifier="RefMasterLite" ajaxscripts="0" scripts="0" services="0" jquery="4,5" stylesheet="11">
+      <![CDATA[RefM_EntityTypeHierarchy]]>
+      <thirdparty id="3" scripts="2" stylesheet="8" />
+    </view>
+    <view identifier="RefM_DataReconciliation" mappingIdentifier="RefMasterLite" ajaxscripts="0" scripts="0" services="0" jquery="4,5" stylesheet="11">
+      <![CDATA[RefM_DataReconciliation]]><thirdparty id="3" scripts="2" stylesheet="4,5,6,7,8" />
+    </view>
+    <view identifier="RefM_ReconDashboard" mappingIdentifier="RefMasterLite" ajaxscripts="0" scripts="0" services="0" jquery="4,5,7" stylesheet="11">
+      <![CDATA[RefM_ReconDashboard]]>
+      <thirdparty id="3" scripts="2" stylesheet="4,5,6,7,8" />
+    </view>
+  </RefMasterLite>
+
+  <CorpActionLite>
+    <view identifier="CASearch" mappingIdentifier="CorpActionLite" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[CASearch]]></view>
+    <view identifier="CAViewReport" mappingIdentifier="CorpActionLite" ajaxscripts="0" scripts="0" services="0" jquery="4,5"><![CDATA[CAViewReport]]></view>
+  </CorpActionLite>
+</ViewManagement>

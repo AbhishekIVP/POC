@@ -1,0 +1,470 @@
+﻿.attrNameCss
+{
+    height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding-left: 5px;
+    line-height: 22px;
+    top: 0px;
+    border-top-left-radius:2px;
+     border-bottom-left-radius:2px;
+}
+
+.attrValueCssText
+{
+    height: 20px;
+    width: 200px;
+    padding-left: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.attrValueCssDropdown
+{
+    height: 22px;
+    width: 241px;
+    padding-left: 8px;
+    outline: none;
+}
+
+.SMPanelExpandRow
+{
+    background: none;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 2px;
+    border: 0px;
+    margin: 0px;
+    text-align: left;
+    font-family: Lato;
+    border-collapse: separate;
+    font-size: 12px;
+    font-weight: normal;
+    vertical-align: middle;
+    display: block;
+    height: 28px;
+    color: inherit;
+    width: 100%;
+}
+
+.SMPanelExpand
+{
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 12px;
+    background: white;
+    z-index: 10000;
+    box-shadow: 0px -1px 9px 0px #aaaaaa;
+    padding: 0px;
+    border: 1px solid #CDCDCD;
+    position: absolute;
+}
+
+.SMPanelExpand div
+{
+    color: #2D2C2C;
+    border-left: 5px solid white;
+}
+
+.SMPanelExpand div:hover
+{
+    color: #A8A6A6;
+    border-left: 5px solid #00bcef;
+}
+
+.SMPanelResultDiv
+{
+    box-shadow: 0px -6px 6px -6px rgba(0,0,0,0.8);
+    border: 1px solid #e7e7e7;
+    position: fixed;
+    z-index: 10000;
+    background-color: White;
+}
+
+.SMTextNew
+{
+    font-size: 12px;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+}
+
+.SMGreenButtonCss
+{
+    height: 22px;
+    padding: 2px 10px;
+    border-radius: 2px;
+}
+
+.SMNewGridTable
+{
+    border: 0px;
+    margin: 5px;
+    margin-left: 22%;
+    background-color: white;
+    border-bottom: 1px solid #E3E0E0;
+    padding-bottom: 1px;
+}
+
+.SMNewGridHeaderRow
+{
+    background: white;
+    /*box-shadow: 0px 3px 6px 0px rgba(218, 218, 218, 0.75);*/
+    height: 30px;
+    border-bottom: 1px solid rgb(208, 206, 206);
+    font-weight: bold;
+}
+
+.SMNewGridHeaderElement
+{
+    display: inline-block;
+    width: 23%;
+    border-right: 1px dashed #E7E7E7;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 5px;
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 11px;
+    color: rgb(138, 135, 135);
+}
+
+.SMNewGridBodyElement
+{
+    display: inline-block;
+    width: 23%;
+    height: 27px;
+    line-height: 27px;
+    padding-left: 5px;
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+    vertical-align: top;
+}
+
+.SMNewGridNormalRow
+{
+    background: white;
+    border-top: 1px solid #f4f1f1;
+}
+
+.SMNewGridAlternatingRow
+{
+    background: #fdfdfd;
+    border-top: 1px solid #f4f1f1;
+}
+
+.SMNewGridNormalRow:hover
+{
+    background: #f2f2f2;
+}
+
+.SMNewGridAlternatingRow:hover
+{
+    background: #f2f2f2;
+}
+
+.SMExpandedClass
+{
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid rgb(153, 153, 153);
+    float: left;
+    margin-right: 3px;
+    margin-top: 4px;
+}
+
+.SMExpandedClass:hover
+{
+    border-top: 4px solid rgb(115, 115, 115);
+}
+
+.SMCollapsedClass
+{
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid rgb(153, 153, 153);
+    border-top: 5px solid transparent;
+    border-bottom: 4px solid transparent;
+    float: left;
+    margin-right: 3px;
+    margin-top: 2px;
+}
+
+.SMCollapsedClass:hover
+{
+    border-left: 4px solid rgb(115, 115, 115);
+}
+
+.gridDropdownCss
+{
+    width: 100%;
+    height: 100%;
+    border: none !important;
+    color: rgb(102, 102, 102);
+    outline: none;
+}
+
+.SMAutocompleteSizeHandle textarea
+{
+    width: 174px !important;
+    text-indent: 8px;
+    height: 18px;
+    border: 1px solid #CECECE;
+    border-left: 0;
+    font-size : 12px;
+    color : rgb(102, 102, 102);
+    font-family : "lato" , Sans-Serif;
+    font-weight : normal;
+    padding: 2px;
+}
+
+.select2-results .select2-highlighted
+{
+    background-color: #fff !important;
+    border-left: 4px solid #00bcef;
+    color: #A8A6A6 !important;
+}
+
+.select2-results li
+{
+    border-left: 4px solid #FFF;
+}
+
+/*Changes for UpdateBulkSecurity Screen*/
+.alert_div_SM
+{
+    color: rgb(71, 71, 71);
+    font-family: 'Istok Web' , sans-serif;
+    font-size: 12px;
+    width: auto;
+    padding: 0px 8px 4px 8px;
+    background-color: White;
+    height: auto !important;
+}
+
+.alert_header_SM
+{
+    font-size: 12px;
+    padding: 3px 8px;
+    height: auto;
+    color: rgb(112, 112, 112);
+    font-family: 'Istok Web' , sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: White;
+}
+
+.topArrowPopUp
+{
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-left-style: inset;
+    border-right-color: rgba(0, 0, 0, 0);
+    border-right-style: inset;
+    border-top-color: rgba(0, 0, 0, 0);
+    border-top-style: inset;
+    border-width: 10px;
+    color: #333;
+    display: block;
+    font-size: 16px;
+    height: 0px;
+    left: -18px;
+    position: absolute;
+    top: 0px;
+    width: 0px;
+}
+
+/*.topArrowPopUp:before
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ccc;
+    border-left: 7px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    content: '';
+}
+
+.topArrowPopUp:after
+{
+    position: relative;
+    top: 1px;
+    left: 1px;
+    display: inline-block;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #fff;
+    border-left: 6px solid transparent;
+    content: '';
+}*/
+
+/*Changes made by Tanya Pathak*/
+
+[id$=UpdateBulkSecurity_ddlVendors] > .select2-choice, [id$=UpdateBulkSecurity_ddlMarketSectorMappedAttribute] > .select2-choice
+{
+  height: 22px;
+  border-left: 0;
+  margin-left: -3px;
+  font-family: 'Istok Web' , sans-serif;
+  font-size: 11px;
+}
+
+[id$=UpdateBulkSecurity_ddlSectypeList] > .select2-choice
+{
+  width: 165px;
+  height: 29px;
+  border-color: #aaa;
+  margin-right: -5px;
+  border-radius: 3px;
+  border-right: 0;
+  font-family: 'Istok Web' , sans-serif;
+  font-size: 11px;
+}
+
+/*Changes for ViewReport Screen*/
+[id$=ViewReport_ddlReportLevel] > .select2-choice, [id$=ddlReportType] > .select2-choice, [id$=ddlReports] > .select2-choice, [id$=ddlSecType] > .select2-choice, [id$=ddlVendor] > .select2-choice,
+[id$=ddlFeed] > .select2-choice, [id$=ddlInstancel] > .select2-choice
+{
+   margin-left: -6px;
+  height: 22px;
+  border-radius: 0;
+   border-left: 0;
+}
+
+.updateSingleScreenDropDown
+{
+ border: 1px solid #CECECE;
+ border-left : 0;
+}
+
+.updateBulkSecurityDropdown
+{
+  margin-right: -6px;
+  border: 1px solid #CECECE;
+  border-right : 0;
+  width : 200px;
+  height: 32px;
+}
+
+.updateSecurityddlVendorsAndAttributes
+{
+  height: 22px;
+  margin-right: -6px;
+  width: 147px;
+  border: 1px solid #CECECE;
+  border-left: 0;
+}
+
+/*Changes made by Tanya Pathak end*/
+
+/* Search Page Form */
+.RMReconDdl, .RMReconTextBox
+{
+    border: 1px solid #aaa;
+    font-size: 12px;
+    height: 26px;
+    min-width: 250px;
+    padding: 3px;
+    border-radious:2px;
+    margin-left: 10px;
+}
+.RMReconTextBox
+{
+    height: 18px;
+    border-radious:2px;
+}
+
+.RMReconFormContainer
+{
+    display: block;
+    position: relative;
+    min-width: 900px;
+    min-height: 60px;
+    font-size: 12px;
+    font-family: 'Istok Web' , sans-serif;
+}
+tr< td.dataRow div.RMReconFormContainer
+{
+    height: 60px;
+    position: relative;
+}
+.RMReconFormRow
+{
+    display: block;
+    position: relative;
+    padding: 5px;    
+    border-color: #eee;
+    height: 30px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 1105px;
+}
+.RMReconFormCell
+{
+    display: inline-block;
+    position: relative;
+    float: left;
+    min-width: 250px;     
+}
+.RMReconFormCell input[type="submit"]
+
+{    
+    height: 26px;          
+    padding: 2px 2px;
+      margin-left: 20px;
+}
+.RMReconFormCell tbody{
+    margin: 0 auto;
+    width: 300px;    
+
+}
+
+
+/* Added by Neetika 
+[id$=Select_FileType] > .select2-choice,[id$=Select_Sectype] > .select2-choice ,[id$=Select_PrimaryAttribute] > .select2-choice,[id$=Select_DateFormat] > .select2-choice ,[id$=Select_TimeFormat] > .select2-choice,[id$=Select_DateTimeFormat] > .select2-choice
+{
+ padding-top:11px;
+ width: 140px;
+ height: 20px;
+ border-color: #aaa;
+ margin-right: -5px;
+ margin-top: -2px;
+ border-right: 0;
+ font-family: 'Istok Web' , sans-serif;
+ font-size: 11px;
+}
+*/
+
+/* Added by Neetika */
+.AccordianDownArrow
+{
+ position:relative;
+width: 0; 
+height: 0; 
+border-left: 4px solid transparent;
+border-right: 4px solid transparent;
+border-top: 4px solid rgb(153, 153, 153);   
+top:5px;
+}
+   .buttonOn
+   { float:left;border: 2px solid 2px solid #43D9C6; width: 36px; height: 18px; color:White; display: block;background-color:#43D9C6;border:none;}
+   
+   .buttonOff
+   {float:left;border: 2px solid rgb(245,245,245); width: 36px; height: 18px; color: grey; display: block;background-color:rgb(245,245,245);border:none;}
+   
+   .SMSelectDropdownPopup
+   {
+       width:228px;
+       border:1px solid rgb(102,102,102);
+       background-color:#FFFFFF;
+       padding-left:5px;
+   }
+       
+       

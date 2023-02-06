@@ -1,0 +1,24 @@
+﻿.renderjson a { text-decoration: none; }
+
+.renderjson .disclosure { /*color: crimson;*/ /*font-size: 100%;*/  color: #606160; }
+
+.renderjson .syntax { /*color: grey;*/  color: #606160; }
+
+.renderjson .string { /*color: darkred;*/ color: #606160; }
+
+.renderjson .number { /*color: darkcyan;*/ color: #606160; }
+
+.renderjson .boolean { /*color: blueviolet;*/ color: #606160; }
+
+.renderjson .key    { /*color: darkblue;*/ color:#1919ff; }
+
+.renderjson .keyword { /*color: blue;*/ color: #606160; }
+
+.renderjson .object.syntax { /*color: lightseagreen;*/  color: #606160; }
+
+.renderjson .array.syntax  { /*color: orange;*/ color: #606160;}
+
+.renderjson{
+    font-family: lato !important;
+    line-height: inherit;
+}

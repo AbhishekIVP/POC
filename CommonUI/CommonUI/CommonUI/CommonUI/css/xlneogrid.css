@@ -1,0 +1,6122 @@
+﻿.xlneogridBtn
+{
+    font-size: 10px;
+    margin-left: 7px;
+    cursor: default;
+    color: #323232;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+    z-index: 10;
+}
+
+input.xlneogridBtn
+{
+    border: 0px;
+    width: 83px;
+    height: 16px;
+    font-size: 10px; /*margin:0 5px;*/
+    margin-right: 25px;
+    margin-left: 5px;
+    cursor: default;
+    color: #666;
+    font-family: 'Open Sans', sans-serif; /*background:  url(images/icons/search-close.jpg),url(images/icons/search-textbox-bg.jpg),url(images/icons/search-zoom.jpg);*/ /*background:  url(images/icons/search-textbox-bg.jpg);*/ /*background-position:  0px center,21px center,123px center;*/
+    padding-left: 10px;
+    z-index: 10; /*-moz-border-radius: 18px; 	-webkit-border-radius: 18px; 	-khtml-border-radius: 18px; 	border-radius: 18px;*/ /*-webkit-border-top-left-radius: 18px;     -webkit-border-bottom-left-radius: 18px;     -moz-border-radius-topleft: 18px;     -moz-border-radius-bottomleft: 18px;     border-top-left-radius: 18px;     border-bottom-left-radius: 18px; 	/*behavior: url(Pie/PIE.htc); 	-pie-background:  url(App_Themes/Aqua/images/icons/search-close.jpg) no-repeat 0px center,url(App_Themes/Aqua/images/icons/search-textbox-bg.jpg) no-repeat 21px center,url(App_Themes/Aqua/images/icons/search-zoom.jpg) no-repeat 123px center;*/
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    cursor: pointer;
+}
+
+#RADXLGridPosition_mergerParentDiv
+{
+	/*overflow:auto;*/
+}
+
+.searchimage
+{
+    border: 1px solid #ccc;
+    cursor: pointer;
+    position: absolute;
+    left: 98px;
+    background: url(images/icons/Search.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 18px;
+    bottom: 5px;
+    background-color: #FFFFFF;
+    background-position-y: 3px;
+    background-position-x: 5px; /* -webkit-border-top-right-radius: 18px;     -webkit-border-bottom-right-radius: 18px;     -moz-border-radius-topright: 18px;     -moz-border-radius-bottomright: 18px;     border-top-right-radius: 18px;     border-bottom-right-radius: 18px;*/
+    top: 4px;
+}
+
+.searchimagefilter
+{
+    position: absolute;
+    right: -10px;
+    background: url(images/icons/Search.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 18px;
+    top: 1px;
+    background-color: #D6D6D6;
+    background-position-y: 3px;
+    background-position-x: 5px;
+    -webkit-border-top-right-radius: 18px;
+    -webkit-border-bottom-right-radius: 18px;
+    -moz-border-radius-topright: 18px;
+    -moz-border-radius-bottomright: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.xlneoclearFilter
+{
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 32px;
+    cursor: pointer;
+    background-image: url(images/icons/ico-1.png);
+    height: 22px;
+    margin-right: 5px;
+}
+.xlneoclearSort
+{
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 32px;
+    cursor: pointer;
+    background-image: url(images/icons/ico-2.png);
+    height: 22px;
+    margin-right: 5px;
+}
+
+.xlClearGroup
+{
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 32px;
+    cursor: pointer;
+    background-image: url(images/icons/ico-2.png);
+    height: 22px;
+    margin-right: 5px;
+}
+
+.xlneoclearGrouping
+{
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 32px;
+    cursor: pointer;
+    background-image: url(images/icons/ico-3.png);
+    margin-right: 5px;
+    height: 22px;
+}
+
+a.xlneoexportToExcelVisibleRows
+{
+    background-image: url(images/icons/ex_excel_vis.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    width: 32px;
+    height: 22px;
+    margin-right: 5px;
+}
+
+a.xlneoexportToExcel
+{
+    background-image: url(images/icons/Microsoft-Excel-2013-01.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    cursor: pointer;
+    display: block;
+    width: 22px;
+    height: 28px;
+    margin-right: 5px;
+}
+/*.xlfilterIcon
+{
+	cursor:pointer;
+	padding:0px 8px;
+	background:none;
+	background:url(images/icons/shorting-arrow.jpg) center center no-repeat;
+	height:25px;	
+	float:right;
+}*/
+/*.xlfilterIcon
+{
+    cursor: pointer;
+    padding: 0px 8px;
+    background: none;
+    background: url(images/icons/Filter-Standard.png) no-repeat;
+    height: 26px;
+    background-position: center;
+    float: right;
+}
+
+.xlfilterIcon:hover
+{
+    cursor: pointer;
+    padding: 0px 8px;
+    background-color: Red;
+    background: url(images/icons/Filter-Standard_hover2.png) no-repeat;
+    height: 26px;
+    background-position: center;
+    float: right;
+}*/
+/*.xlfilterDropIcon
+{
+	cursor:pointer;
+	padding:0px 8px;
+	background:none;
+	background:url(images/icons/gridFilterIcon.gif) center center no-repeat;
+	height:25px;
+	float:right;
+}*/
+
+/*.xlfilterDropIcon
+{
+    cursor: pointer; 
+  */  /*padding-bottom:2px;*/
+   /* padding-top: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background: none;
+    background: url(images/icons/Filter-Standard_hover2.png) center center no-repeat;
+}*/
+
+/*.xlfilterIcon
+{
+    cursor: pointer; 
+    padding-top: 10px;
+    padding-right: 8px;
+    background: none;
+    font-size:10px;
+}
+
+.xlfilterDropIcon
+{
+    cursor: pointer;
+    padding-top: 8px;
+    padding-right: 8px;
+    background: none;
+    height: 10px;
+}*/
+
+.xlneorecordSummary
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    color: #333;
+    font-weight: bold;
+    white-space: nowrap;
+    padding: 0 15px 0 5px;
+    border-right: 1px solid #d3d3d3;
+    width: 5%;
+    display : none;
+}
+
+.xlneogroupDropPanel
+{
+    font-size: 11px;
+    font-weight: normal;
+    /*color: #fff;*/
+    background: #cacacb;
+    padding-left: 10px;
+    /*border-right: 1px solid #888;*/
+    /*border-left: 1px solid #888;*/
+    height: 26px !important;
+    /*background: url(images/icons/grey-bgpatt.jpg) top left repeat-x;*/
+    font-family:'Open Sans', sans-serif;
+    font-style:italic;
+    background-color:#F6F6F6;
+}
+
+.xlgroupDropPanel.focus
+{
+    border: 1px solid #442916;
+}
+
+
+.xlneoupperHeader
+{
+    font-family: 'Open Sans', sans-serif;
+    padding: 2px 10px 1px 10px;
+    height: 28px;
+    border:1px solid #E0E4E7;
+    z-index: 10; /*background:url(images/upperHeader_bg.gif) top left repeat-x; 	background: #b2b2b2; 	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ababa9)); 	background: -moz-linear-gradient(top,  #cccccc,  #ababa9); 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#ababa9');*/
+    /*background: url(images/icons/grey-bgpatt.jpg) top left repeat-x;*/
+    /*background-color:#FFFFFF;*/
+    background-color:#F6F6F6;
+}
+
+.xlupperHeader td > table
+{
+    height: 28px !important;
+}
+
+
+
+.xlheader
+{
+    /*background-color: #E6E6E6;*/
+    /*background-color:#E9E9E9;*/
+    color: MenuText;
+    border: 0px;
+    cursor: default;
+    border-right: 0px;
+    font-size : 12px;
+    
+    /*border-top: 1px #e1e4e6 solid;*/ /*padding-left: 0px;*/ /*font-weight: 600;*/ /*font-size: 12px;*/
+    vertical-align: middle;
+    border-left: 0px;
+    cursor: pointer;
+    color: #8a8787;
+    border-bottom: 1px solid #E0E0E0; /*font-family: 'Open Sans', sans-serif;*/
+    text-align: left;
+    height: 29px;
+   /* padding:0px 3px;*/
+     /*font-family:"Proxima Nova Regular", 'Helvetica Neue', Arial, Helvetica, sans-serif;*/
+     font-family:'Istok Web', sans-serif;
+    /*box-shadow:  0px 4px 5px 0px rgba(226, 224, 224, 0.75);*/
+    font-weight:bold;
+}
+
+.xlneoheader
+{
+    /*background-color: #E6E6E6;*/
+    /*background-color:#E9E9E9;*/
+    color: MenuText;
+    border: 0px;
+    cursor: default;
+    border-right: 0px;
+    font-size : 12px;
+    
+    /*border-top: 1px #e1e4e6 solid;*/ /*padding-left: 0px;*/ /*font-weight: 600;*/ /*font-size: 12px;*/
+    vertical-align: middle;
+    border-left: 0px;
+    cursor: pointer;
+    color: #8a8787;
+    border-bottom: 1px solid #E0E0E0; /*font-family: 'Open Sans', sans-serif;*/
+    text-align: left;
+    height: 29px;
+   /* padding:0px 3px;*/
+     /*font-family:"Proxima Nova Regular", 'Helvetica Neue', Arial, Helvetica, sans-serif;*/
+     font-family:'Istok Web', sans-serif;
+    /*box-shadow:  0px 4px 5px 0px rgba(226, 224, 224, 0.75);*/
+    font-weight:bold;
+}
+
+
+
+.xlheaderparent
+{
+    /*height:35px;*/
+    border:0px;   
+}
+
+.xlheader th
+{
+    color: #4C4C4C;
+    padding-left: 7px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #D3CCB0;
+    border-top: 0px;
+    border-bottom: 1px solid #D3CCB0;
+    font-weight :600;
+}
+
+.xlheader th input[type=checkbox]
+{
+    margin-right: 8px;
+}
+
+.xlheader th table
+{
+    background-color: #FAF7F0;
+}
+.xlheader th td
+{
+    white-space: nowrap;
+}
+
+.xlneogroupDiv
+{
+    float: left;
+    height: 29px;
+    vertical-align :middle;
+    line-height: 29px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left; /*max-width:65%; 	min-width:5%;*/
+    text-indent:7px;
+	font-size:11px;
+}
+.xlneoprevPage
+{
+    width: 30px;
+    cursor: pointer;
+    /*background-image: url(images/icons/sprite_pageArrows.png);*/
+    background-repeat: no-repeat;
+    background-position: 0 -203px;
+    padding-right: 5px;
+    padding-left: 5px;
+    height:29px;
+    vertical-align:middle;
+    text-align:center;
+    line-height:29px;
+    color:#818285; /*4A4D4A*/
+    font-size:13px;
+}
+
+.xlneoprevPage:hover
+{
+    /*background-position: 0 -403px;*/
+}
+
+.xlneonextPage
+{
+    width: 30px;
+    cursor: pointer;
+    /*background-image: url(images/icons/sprite_pageArrows.png);*/
+    background-repeat: no-repeat;
+    background-position: 0 -253px;
+    padding-right: 5px;
+    padding-left: 5px;
+    height:29px;
+    vertical-align:middle;
+    text-align:center;
+    line-height:29px;
+    color:#818285;
+    font-size:13px;
+}
+
+.xlnextPage:hover
+{
+    /*background-position: 0 -453px;*/
+}
+
+
+
+.xlpagerRow .xlneogridTxtBox
+{
+    width: 20px;
+}
+
+.xlneogridTxtBox
+{
+    font-size: 10px;
+    margin-left: 7px;
+    width: 30px;
+    cursor: default;
+    color: #323232;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.xlneostatusBar
+{
+    font-family: 'Open Sans', sans-serif;;
+    white-space: nowrap; /*background:url(images/status_bg.gif) left top repeat-x; 	border-bottom:1px solid #515151;*/
+    font-size: 11px;
+    color: #333;
+    height: 29px;
+    background-color: #e7e7e8;
+}
+.xlstatusBar table td
+{
+    white-space: nowrap;
+    padding-left: 8px;
+    widows: 50px;
+}
+
+.xlneofilterSortDiv
+{
+    width: 15px;
+    float: right;
+}
+/*.xlascending
+{
+	cursor:pointer;
+	padding:0px 4px;
+	background:url(images/icons/gridSortUpIcon.gif) center center no-repeat;
+	height:25px;
+	float:left;
+}
+
+.xldescending
+{
+	cursor:pointer;
+	padding:0px 4px;
+	background:none;
+	background:url(images/icons/gridSortDownIcon.gif) center center no-repeat;
+	height:25px;
+	float:left;
+}*/
+
+/*.xlascending
+{
+    cursor: pointer;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-left: 9px;
+    padding-right: 4px;
+    background: url(images/icons/Road-Backward.png) center center no-repeat;
+    height: 10px;
+    float:right;
+}
+*/
+
+/*.xlascending
+{
+    background-image: url(images/icons/Arrowhead-Down-05.png);
+    height: 36px;
+    width: 15px;
+    border: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 2px;
+}
+.xldescending
+{
+    background-image: url(images/icons/Arrowhead-Down-01.png);
+    height: 36px;
+    width: 15px;
+    border: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 2px;
+}*/
+
+/*.xlascending
+{
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 4px;
+    font-size:12px;
+    height: 10px;
+}
+
+
+
+.xldescending
+{
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 4px;
+    background: none;
+    font-size:12px;
+    height: 10px;
+}*/
+
+.xlExportToExcel
+{
+background:url(images/icons/Microsoft-Excel-2013-01.png);   
+}
+
+
+.loading
+{
+    background: url(images/Grid/loading.gif);
+    height: 24px;
+    width: 24px;
+}
+
+.expiry
+{
+    background: url(images/Grid/expiredIcon.gif) center center no-repeat;
+    width: 66px;
+    height: 17px;
+}
+
+/*.selectLabel
+{
+    font-family: tahoma;
+    font-size: 9px;
+    padding: 5px;
+    white-space: nowrap;
+}*/
+
+.selectLabel
+{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 10px;
+    /*padding: 5px;*/
+    /*padding-left:5px;*/
+    font-weight:normal;
+    padding-right:5px;
+    padding-top:5px;
+    white-space: nowrap;
+    color:Black;
+    vertical-align:middle;
+    margin-top:2px;
+    line-height:10px;
+}
+
+.xlneonormalRow
+{
+    background-color: #ffffff; /*padding-left: 19px; 	white-space: nowrap; 	padding-right: 0px; 	padding-left: 0px; 	font-size: 10px; 	padding-bottom: 0px;*/
+   /* padding: 3px; *//*font-size:12px; 	font-family:'Open Sans', sans-serif;*/
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: default;
+    color: #1a1919;
+    padding-top: 0px;
+    height: 22px;
+    /*border-bottom:1px dashed #f2f0f0;*/
+    /*font-family: 'Fira Sans', sans-serif
+    
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Arimo', sans-serif;*/
+    
+    /*font-family: 'Open Sans', sans-serif;*/
+    /*font-family: 'Droid Sans', sans-serif;*/
+    /*font-family: 'Istok Web', sans-serif;*/
+    line-height:22px;
+    vertical-align:middle;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-size:12px;
+    /*line-height: 22px;*/
+    font-weight:normal;
+    font-style:normal;
+    font-family:'Istok Web', sans-serif;
+    border-top:0px;
+   border-left:0px;
+   border-right:0px;
+   border-bottom:1px solid;
+   -moz-border-image: url(images/icons/borderline.png) 27 0 repeat;
+    -webkit-border-image: url(images/icons/borderline.png) 27 0 repeat;
+    -o-border-image: url(images/icons/borderline.png) 27 0 repeat;
+    border-image: url(images/icons/borderline.png) 27 0 fill repeat;
+    text-overflow: ellipsis;
+}
+/* updated by pp 20 feb */
+.xlneonormalRow td
+{
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    border-left: 0px solid #eee;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #333;
+    text-overflow: ellipsis; /*word-wrap: break-word;*/
+    padding: 0 7px;
+    font-family:'Lato', sans-serif;
+}
+
+div[value="frozen"] table
+{
+    border-left: 2px solid #ccc;
+}
+
+/*div[value="frozen"] .xlnormalRow td:first-child
+{
+    border-left: 2px solid #ccc;
+}*/
+
+/* updated by pp 20 feb */
+.xlneonormalRow:hover
+{
+    background-color: #F2F2F2;
+}
+
+.xlneocheckedRow
+{
+    /*border: 1px solid #fbb785;*/
+    background-color: #BEBEBE;
+    padding-left: 19px;
+    white-space: nowrap;
+    /*border-right: 1px solid #DDDDDD;*/
+    padding-right: 0px;
+    border-top: #f7f7f7 1px solid;
+    /*border-left: 1px solid #f7f7f7;*/
+    padding-left: 0px;
+    font-size: 10px;
+    padding-bottom: 0px;
+    vertical-align: middle;
+    cursor: default;
+    color: #333;
+    padding-top: 0px;
+    font-family:'Istok Web', sans-serif;
+    height: 23px;
+    line-height:23px;
+}
+
+.xlneocheckedRow td
+{
+    padding: 0 7px;
+    border-left: 1px solid #eee;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+}
+
+div#RADXLGridTest_repeatedBodyDiv > div:last-child
+{
+    border-image:url();
+    border-bottom:1px solid #EEEEEE;   
+}
+
+
+.xlneoalternatingrow
+{
+    /*background-color: #FFFFFF; 
+    vertical-align: middle;
+    cursor: default;
+    color: #5e5e70;
+    padding: 6px; 
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: default;
+    color: #5e5e70;
+    padding-top: 0px;
+    height: 22px;*/
+    
+    background-color: #fdfdfd;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: default;
+    color: #1a1919;
+    padding-top: 0px;
+    height: 22px;
+    /*border-bottom:1px solid #f2f0f0;*/
+    
+    /*font-family: 'Droid Sans', sans-serif;*/
+    /*font-family: 'Open Sans', sans-serif;*/
+    /*font-family: 'Istok Web', sans-serif;*/
+    line-height:22px;
+    vertical-align:middle;
+    font-size:12px;
+    font-weight:normal;
+    font-style:normal;
+    font-family:'Istok Web', sans-serif;
+    text-overflow: ellipsis;
+   
+   border-top:0px;
+   border-left:0px;
+   border-right:0px;
+   border-bottom:1px solid;
+   -moz-border-image: url(images/icons/borderline.png) 27 0 repeat;
+   -webkit-border-image: url(images/icons/borderline.png) 27 0 repeat; 
+   -o-border-image: url(images/icons/borderline.png) 27 0 repeat;
+   border-image: url(images/icons/borderline.png) 27 0 fill repeat;
+}
+.xlneoalternatingRow td
+{
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    border-left: none;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #333;
+    text-overflow: ellipsis; /*word-wrap: break-word;*/
+    padding: 0 7px;
+    font-family:'Open Sans', sans-serif;
+}
+
+.xlHorizontalScrollRow
+{
+    background-color: #FFFFFF;
+    padding-left: 19px;
+    white-space: nowrap;
+    border-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 10px;
+    padding-bottom: 0px;
+    vertical-align: middle;
+    cursor: default;
+    color: #5e5e70;
+    padding-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    height: 8px;
+    opacity: 0.9;
+}
+
+.xlHorizontalScrollRow div
+{
+    height : 8px;
+}
+
+.xlHorizontalScrollRow td
+{
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #333;
+    text-overflow: ellipsis; /*word-wrap: break-word;*/
+    padding: 0 7px;
+}
+
+.xldummyRow
+{
+    background-color: #f4f5f5;
+    padding-left: 19px;
+    white-space: nowrap;
+    border-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 10px;
+    padding-bottom: 0px;
+    vertical-align: middle;
+    cursor: default;
+    color: #5e5e70;
+    padding-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    height: 20px;
+}
+.xldummyRow td
+{
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #333;
+    text-overflow: ellipsis; /*word-wrap: break-word;*/
+    padding: 0 7px;
+}
+/*div[value="frozen"]
+{
+}
+
+div[value="frozen"] table tbody tr:last-child
+{
+   border-bottom: 2px solid #ccc;
+}*/
+
+.xlneoalternatingrow:hover
+{
+    background-color: #F2F2F2;
+}
+
+.xlneoselectedRow
+{
+    background-color: #e6e7e8;
+    padding-left: 19px;
+    white-space: nowrap;
+    border-right: 0px solid #999999;
+    padding-right: 0px;
+    border-top: #f7f7f7 1px solid;
+    border-left: 1px solid #f7f7f7;
+    padding-left: 0px;
+    font-size: 14px;
+    padding-bottom: 0px;
+    vertical-align: middle;
+    cursor: default;
+    color: #333;
+    padding-top: 0px;
+    font-family:'Open Sans', sans-serif;
+    height: 22px;
+}
+
+
+
+.xlneoselectedRow td
+{
+    padding: 0 7px;
+    border-left: 1px solid #eee;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+}
+
+
+.xlruleEditorPopup
+{
+    background-image: url(images/icons/ico-7.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    width: 32px;
+    height: 22px;
+    margin-right: 5px;
+}
+
+.xlREUICanvas
+{
+    z-index: 10001;
+    width: 500px;
+    position: absolute;
+    top: 35%;
+    left: 37%;
+}
+.xlREUIHeader
+{
+    width: 100%;
+    height: 22px;
+    background-image: url(images/Grid/REUIHeader.gif);
+}
+.xlREUIHeaderText
+{
+    float: left;
+    font-family: arial;
+    line-height: 22px;
+    padding-left: 5px;
+    font-size: 11px;
+    color: #fff;
+}
+.xlREUICloseButton
+{
+    float: right;
+    margin: 3px 2px 0 0;
+    cursor: pointer;
+    height: 17px;
+    width: 17px;
+    background-image: url(images/Grid/REUICloseButton.png);
+    background-repeat: no-repeat;
+}
+.xlREUIBody
+{
+    clear: left;
+    float: left;
+    width: 100%;
+}
+.xlREUIGradientTop
+{
+    height: 22px;
+    background-image: url(images/Grid/REUIGradientBg.gif);
+    background-repeat: repeat-x;
+    background-color: #fff;
+    background-position: top;
+    border-top: 1px solid #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    color: #000;
+}
+.xlREUIHorizontalBar
+{
+    background-image: url(images/Grid/REUIHorizontalBar.gif);
+    background-repeat: repeat-x;
+    font-size: 1px;
+    height: 4px;
+}
+.xlREUIFunctionArea
+{
+    width: 100%;
+    position: relative;
+}
+.xlREUIRightPanel
+{
+    float: right;
+    width: 70%;
+    background-color: #fff;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+}
+.xlREUIFunctionButtons
+{
+    background-color: #f8f8f8;
+    height: 32px;
+    border-left: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+    text-align: center;
+}
+.xlREUIButtonSmall
+{
+    background: none;
+    border: none;
+    height: 19px;
+    width: 19px;
+    background-image: url(images/Grid/REUIFunctionButtonSmallBg.gif);
+    margin-top: 6px;
+    background-repeat: no-repeat;
+    font-family: arial;
+    font-size: 11px;
+    color: #5A5444;
+}
+.xlREUIButtonBig
+{
+    background: none;
+    border: none;
+    height: 19px;
+    width: 46px;
+    margin-left: 3px;
+    background-image: url(images/Grid/REUIFunctionButtonBigBg.gif);
+    margin-top: 6px;
+    background-repeat: no-repeat;
+    font-family: arial;
+    font-size: 11px;
+    color: #5A5444;
+}
+.xlREUIRuleEditorTextbox
+{
+    background-color: #fff;
+    border-left: 1px solid #d1d1d1;
+    height: 70%;
+}
+.xlREUINumericButtonPanel
+{
+    background-color: #f8f8f8;
+    height: 32px;
+    border-left: 1px solid #d1d1d1;
+    border-top: 1px solid #d1d1d1;
+    text-align: center;
+}
+.xlREUINumericButton
+{
+    background: none;
+    border: none;
+    height: 19px;
+    margin-left: 5px;
+    width: 19px;
+    background-image: url(images/Grid/REUINumericButtonBg.gif);
+    margin-top: 6px;
+    background-repeat: no-repeat;
+    font-family: arial;
+    font-size: 11px;
+    color: #fff;
+}
+.xlREUILeftPanel
+{
+    float: left;
+    height: 106px;
+    width: 30%;
+    background-color: #e9e9e9;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+}
+.xlREUILeftPanelItems
+{
+    display: block;
+    height: 15px;
+    line-height: 15px;
+    width: auto;
+    margin: 2px;
+    padding-left: 4px;
+    background-image: url(images/Grid/REUILeftPanelItemsBg.gif);
+    background-repeat: repeat-x;
+    border: 1px solid #fff;
+    font-family: arial;
+    font-size: 11px;
+    color: #fff;
+    text-decoration: none;
+}
+.xlREUIFooter
+{
+    width: 100%;
+}
+.xlREUIButtonPanel
+{
+    background-image: url(images/Grid/REUIGradientBg.gif);
+    background-repeat: repeat-x;
+    background-color: #fff;
+    background-position: top;
+    border-top: 1px solid #fff;
+    text-align: right;
+    padding: 6px;
+}
+.xlREUIHorizontalBar
+{
+    background-image: url(images/Grid/REUIHorizontalBar.gif);
+    background-repeat: repeat-x;
+    font-size: 1px;
+    height: 4px;
+}
+
+
+.xlfullScreen
+{
+    background: none;
+    border: none;
+    width: 16px;
+    cursor: pointer;
+    background-image: url(images/fullScreen.JPG);
+    height: 16px;
+}
+.blah
+{
+    cursor: pointer;
+    padding: 0px 4px;
+    background: url(images/icons/gridSortUpIcon.gif) center center no-repeat;
+    height: 25px;
+    float: right;
+}
+.scrollerTopCurve
+{
+    background-image: url(images/xlgrid/gridScrollerTopCrvVertical.png);
+    background-repeat: no-repeat;
+    height: 9px;
+    width: 20px;
+}
+.verticalscroller
+{
+    background-image: url(images/xlgrid/gridScrollerVertical.png);
+    background-repeat: repeat-y;
+}
+.scrollerBottomCurve
+{
+    background-image: url(images/xlgrid/gridScrollerBottomCrvVertical.png);
+    background-repeat: no-repeat;
+    height: 9px;
+    width: 20px;
+}
+.scrollerLeftCurve
+{
+    background-image: url(images/xlgrid/gridScrollerLeftCrvHorizontal.png);
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 9px;
+    float: left;
+}
+.scrollerRightCurve
+{
+    background-image: url(images/xlgrid/gridScrollerRightCrvHorizontal.png);
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 9px;
+    float: right;
+    background-position: right;
+}
+.scollerTrackHorizontal
+{
+    background-image: url(images/xlgrid/gridScrollTrackHorizontal.png);
+    background-repeat: repeat-x;
+    height: 20px;
+}
+.scollerTrackVertical
+{
+    background-image: url(images/xlgrid/gridScrollTrackVertical.png);
+    background-repeat: repeat-y;
+    position: relative;
+    display: inline;
+    float: right;
+    top: 0px;
+    width: 20px;
+}
+.scrollerVertical
+{
+    background-image: url(images/xlgrid/gridScrollerVertical.png);
+    background-repeat: repeat-y;
+    width: 20px;
+    position: relative;
+}
+.scrollerHorizontal
+{
+    background-image: url(images/xlgrid/gridScrollerHorizontal.png);
+    background-repeat: repeat-x;
+    height: 20px;
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+.scrollerLeftBtn
+{
+    background-image: url(images/xlgrid/gridScrollLeftBtn.png);
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+.scrollerRightBtn
+{
+    background-image: url(images/xlgrid/gridScrollRightBtn.png);
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    float: right;
+    position: relative;
+}
+.scollerTopBtn
+{
+    background-image: url(images/xlgrid/gridScrollTopBtn.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+.scollerBottomBtn
+{
+    background-image: url(images/xlgrid/gridScrollBottomBtn.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 22px;
+    position: relative;
+    z-index: 1;
+}
+
+.groupDropSeperator
+{
+    background-image: url(images/xlgrid/panelDropBg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 16px;
+    width: 14px;
+    float: left;
+}
+
+
+
+.clearSelectionBtn
+{
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 32px;
+    cursor: pointer;
+    background-image: url(images/xlgrid/btnClearSelection.gif);
+    height: 22px;
+    margin-right: 5px;
+}
+
+.xlLeftNavigation
+{
+    height: 83px;
+    width: 7px;
+    display: inline;
+    float: left;
+    background-image: url(images/xlgrid/scrollArrowLeft.jpg);
+}
+
+.xlRightNavigation
+{
+    height: 83px;
+    width: 7px;
+    float: right;
+    display: inline;
+    background-image: url(images/xlgrid/scrollArrowRight.jpg);
+}
+.xlPopupBody
+{
+    overflow: hidden;
+    height: 83px;
+    display: inline-block;
+}
+
+a.exporttopdf
+{
+    background-image: url(images/xlgrid/mime-pdf.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    width: 32px;
+    height: 22px;
+    margin-right: 5px;
+}
+
+.xlneoresizingDiv
+{
+    width: 4px;
+    height: 25px; /*background-color:#f00;	*/
+    cursor: e-resize;
+    float: right;
+}
+
+.resizingMovingDiv
+{
+    width: 2px;
+    background-color: #dadada;
+    position: absolute;
+    top: 0px;
+}
+
+.resizeFilterList
+{
+    width: 5px;
+    cursor: nw-resize;
+    display: inline-block;
+    float: right;
+    margin-top: 9px;
+}
+
+.footerMathOp
+{
+    height: 28px;
+    overflow: hidden;
+    background-color: #545454;
+    position: relative;
+}
+
+.footerMathOp table
+{
+}
+
+.footerMathOp td
+{
+    white-space: nowrap;
+    overflow: hidden;
+    color: #333;
+    text-overflow: ellipsis; /*word-wrap: break-word;*/
+    padding: 5px;
+    width: 100px;
+    color: #fff200;
+}
+
+
+.footerMathOp ul
+{
+    display: none;
+}
+
+.footerMathOp ul li a
+{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.footerMathOp ul li:hover
+{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: #CCCCCC;
+}
+
+.footerMathOp:hover ul
+{
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 100%; /* change to TOP and it will drop down */
+    border: 1px solid #CCCCCC;
+    background: #fff;
+}
+
+.footerMathOp li
+{
+    padding: 5px;
+}
+
+.footerMathOp *
+{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+/*.xlMathematialFooter
+{
+    position: absolute; /*bottom:40px;
+    height: 20px;
+    background-color: #505050;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: #FFCB00;
+    font-size: 12px;
+}*/
+
+/*.xlMathematialFooterBody
+{
+    position: absolute; /*bottom:7px;
+    height: 20px;
+    background-color: #505050;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: #FFCB00;
+    font-size: 12px;
+}
+*/
+/*.mathOpFooterMenu
+{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF200;
+    background-color: #545454;
+    font-weight: bold;
+}
+*/
+.mathOpFooterMenu *
+{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.mathOpFooterMenu em
+{
+    padding: 2px 0 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /*word-wrap: break-word;*/
+    cursor: default;
+}
+
+.mathOpFooterMenu ul
+{
+    display: none;
+    width: 120px !important;
+    cursor: pointer;
+}
+
+.mathOpFooterMenu ul li span
+{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #58595b;
+    padding-top: 3px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    font-weight: normal;
+}
+
+.mathOpFooterMenu ul li:hover
+{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: #CCCCCC;
+}
+
+.mathOpFooterMenu ul li:hover span
+{
+    font-weight: bold;
+}
+
+.mathOpFooterMenu:hover ul
+{
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 100%; /* change to TOP and it will drop down */
+    border: 2px solid #CCCCCC;
+    background: #fff;
+    z-index: 100;
+    right: 0%;
+}
+
+.mathOpFooterMenu li
+{
+    padding: 5px;
+}
+.mathOpFooterMenu .selectedMathOp
+{
+    color: #000000;
+    background-color: #CCCCCC !important;
+}
+
+.mathOpFooterMenu .selectedMathOp span
+{
+    font-weight: bold;
+}
+
+.mathOpFooterMenu .roundsub
+{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #f2f1ec;
+}
+
+.mathOpFooterMenu .roundsub li
+{
+    background-color: #f2f1ec;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #cccdcc;
+}
+
+.mathOpFooterMenu .roundsub li:first-child
+{
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.mathOpFooterMenu .roundsub li:last-child
+{
+    -webkit-border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 5px 5px;
+}
+.pagerClass
+{
+    background: #fff url(images/dropdown-arrow.jpg) no-repeat right;
+    height: 18px;
+    width: 40px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pagerClass select
+{
+    background: transparent;
+    width: 50px;
+    border: 0;
+    height: 18px;
+    -webkit-appearance: none;
+}
+
+
+.xlradextrapopup
+{
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 32px;
+    cursor: pointer;
+    background-image: url(images/icons/ico-6.png);
+    margin-right: 5px;
+    height: 22px;
+}
+
+
+
+.xlradbalancepopup
+{
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 32px;
+    cursor: pointer;
+    background-image: url(images/icons/ico-5.png);
+    margin-right: 5px;
+    height: 22px;
+}
+
+
+.crossInGroupDragButton
+{
+    background-image: url(images/icons/Closesmall.png);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-position: center; /*float:right;*/
+    display: inline-block;
+    height: 20px;
+    width: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.sortInGroupDragButton
+{
+    background-image: url(images/icons/Arrowhead-Down-01_small.png);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-position: center; /* float:left;*/
+    float: none;
+    height: 20px;
+    width: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+.DescSortInGroupDragButton
+{
+    background-image: url(images/icons/Arrowhead-Down-01_descending.png);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-position: center; /* float:left;*/
+    float: none;
+    height: 20px;
+    width: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+.ofNumberDivInFooter
+{
+}
+
+.PageSizeLabel
+{
+    padding-left: 0px;
+}
+
+.SelectedRowsDiv
+{
+    text-align: right !important;
+    padding-right: 15px;
+}
+
+.xlneoFirstPage
+{
+    width: 30px;
+    cursor: pointer;
+    /*background-image: url(images/icons/sprite_pageArrows.png);*/
+    background-repeat: no-repeat;
+    background-position: 0 -153px;
+    padding-right: 5px;
+    padding-left: 5px;
+    height:29px;
+    vertical-align:middle;
+    text-align:center;
+    line-height:29px;
+    color:#818285;
+    font-size:13px;
+}
+.xlneoFirstPage:hover
+{
+     /*background-position: 0 -353px;*/
+}
+.xlneoLastPage
+{
+    width: 30px;
+    cursor: pointer;
+    /*background-image: url(images/icons/sprite_pageArrows.png);*/
+    background-repeat: no-repeat;
+    background-position: 0 -303px;
+    padding-right: 5px;
+    padding-left: 5px;
+    height:29px;
+    vertical-align:middle;
+    text-align:center;
+    line-height:29px;
+    color:#818285;
+    font-size:13px;
+}
+
+.xlneoLastPage:hover
+{
+    /*background-position: 0 -503px;*/
+}
+.xlComputedColumnHeader
+{
+    float:right;   
+}
+.xlManageLayout
+{
+    border: 1px solid #DDDDDD;
+    border-radius:4px;
+    box-shadow: 6px 6px 12px rgba(0,0,0,0.175);
+    background-color: #FFFFFF;
+}
+ .xlMathematialFooter
+{
+   position: absolute;
+   height: 20px;
+   background-color: #BEBEBE;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   color: #FFCB00;
+   font-size: 12px;
+   /*background:url(images/icons/grey-bgpatt.jpg) top left repeat-x;*/
+}
+
+.xlMathematialFooterBody
+{
+   position: absolute; 
+   height: 20px;
+   background-color : #BEBEBE;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   color: #FFCB00;
+   font-size: 12px;
+  /* background:url(images/icons/grey-bgpatt.jpg) top left repeat-x;*/
+}
+
+.mathOpFooterMenu
+{
+   position: relative;
+   font-family: 'Open Sans', sans-serif;
+   color: #000000;
+   background-color: #99999;
+   /font-weight: bold;/
+   background-repeat:no-repeat;
+   background-position:0% 50%;
+}
+
+.mathOpMenuSigma
+{
+   background-repeat:no-repeat;
+   background-position-y:50%;
+   /*background-image:url(images/icons/sigma.png);*/
+   color:Black;
+   line-height:20px;
+   vertical-align:middle;
+   font-weight:600;
+   font-size:15px;
+   height:20px;
+   width:10px;
+}
+
+.loadImage
+{
+    position:relative;   
+}
+
+.xlCustomMessageBox
+{
+  background-color : #FFFFFF;
+  border : 1px solid #DDDDDD;
+  border-radius : 4px;   
+}
+
+.xlMaterChildGridColumn
+{
+    height : 29px;
+    width : 20px;   
+    float : left;
+    padding-top:4px;
+    text-align :center;
+    cursor : pointer;
+    /*border-left : 1px solid #DDDDDD;*/
+}
+
+.xlupperHeader td:nth-child(2) > table > tbody > tr > td /* > table > tr > td*/ /*> table > tr > td*/
+{
+    border-right-width : 0px;
+}
+
+.xlupperHeader td:nth-child(1) /*> table > tbody > tr > td*/
+{
+    border-right-width : 0px;
+}
+
+.xlupperHeader td:nth-child(1) > table > tbody > tr > td
+{
+    border-right-width : 0px;
+}
+
+.xlneochildgridParent
+{
+    /*background-color : #F6F6F6 ! important;   */
+}
+
+.xlneofilterIcon
+{
+    cursor: pointer; /*padding-bottom:2px;*/
+    padding-top: 28px;
+   /* padding-left: 8px;*/
+    padding-right: 8px;
+    /*background: none;*/
+   /*background: url(images/icons/Filter-Standard.png) center center no-repeat;*/
+   background: url(images/icons/filter.png) center center no-repeat;
+    height: 10px;
+}
+
+.xlneofilterDropIcon
+{
+    cursor: pointer;
+    padding-top: 28px;
+   /* padding-left: 8px;*/
+    padding-right: 8px;
+    /*background: none;*/
+    background: url(images/icons/Filter_hover.png) center center no-repeat;
+    height: 10px;
+}
+
+.xlneofilterIcon:hover
+{
+    cursor: pointer; /*padding-bottom:2px;*/
+    padding-top: 28px;
+   /* padding-left: 8px;*/
+    padding-right: 8px;
+    /*background: none;*/
+   /*background: url(images/icons/Filter-Standard.png) center center no-repeat;*/
+   background: url(images/icons/Filter_hover.png) center center no-repeat;
+    height: 10px;
+}
+
+.xlneofilterDropIcon:hover
+{
+    cursor: pointer;
+    padding-top: 28px;
+   /* padding-left: 8px;*/
+    padding-right: 8px;
+    /*background: none;*/
+    background: url(images/icons/Filter_hover.png) center center no-repeat;
+    height: 10px;
+}
+
+.xlneoascending
+{
+    cursor: pointer;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 4px;
+    font-size:12px;
+    background: url(images/icons/Arrowhead-Down.png) center center no-repeat;
+    height: 5px;
+    margin-left:-2px;
+}
+.xlneoascending:hover
+{
+    cursor: pointer;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 4px;
+    font-size:12px;
+    background: url(images/icons/Arrowhead-Down_hover.png) center center no-repeat;
+    height: 5px;
+    margin-left:-2px;
+}
+.xlneodescending
+{
+    cursor: pointer;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 4px;
+    background: none;
+    font-size:12px;
+    background: url(images/icons/Arrowhead-Up.png) center center no-repeat;
+    height: 5px;
+    margin-left:-2px;
+}
+.xlneodescending:hover
+{
+    cursor: pointer;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    padding-right: 4px;
+    background: none;
+    font-size:12px;
+    background: url(images/icons/Arrowhead-Up_hover.png) center center no-repeat;
+    height: 5px;
+    margin-left:-2px;
+}
+div[id*='_repeatedBodyDiv'] > div:last-child
+{
+    border-image:url();
+    border-bottom:0px solid #EEEEEE;  
+    border-left:0px ! important;
+    border-right:0px ! important;
+    /*border-top:1px ! important;*/
+}
+
+.xlGridChildVerticalLine
+{
+    width:1px;
+    height:13px;
+    position:relative;
+    left:9px;
+    top:-5px;
+    background-color:#EBE7E7;
+}
+
+.xlGridChildHorizontalLine
+{
+    width:15px;
+    height:1px;
+    position:relative;
+    left:10px;
+    top:-5px;
+    background-color:#EBE7E7;    
+}
+.xlgroupDivChildGrid
+{
+    float: left;
+    height: 25px;
+    vertical-align :middle;
+    line-height: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left; /*max-width:65%; 	min-width:5%;*/
+    text-indent:7px;
+}
+
+.xlChildGridLevelIndicator
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:6px;
+    width:30px;
+    background-color:#E7E7E7;
+    
+    /*float:left;   */
+    
+}
+.xlChildGridLevelIndicatorChild
+{
+    float:left;
+    width:5px;
+    height:6px;
+    position:relative;
+    background-image: url(images/icons/Shape18.png);
+    background-repeat:repeat-x;
+}
+.SearchTextBoxx
+{
+  width:150px;
+  height:20px;    
+/*line-height:22px;*/
+  float:left;
+  vertical-align :middle;
+  margin-top :1px;
+  border:0px;
+  border-bottom:1px solid #DBDDE0;
+  background-color:#F6F6F6;
+  transition: width 400ms linear 0.1s , background 400ms linear;
+  transition-delay: 0.1s;
+  -webkit-transition: width 400ms linear 0.1s , background 400ms linear;
+  -webkit-transition-delay: 0.1s;
+  padding-top: 2px;
+}
+
+.SearchBoxHidden .SearchTextBoxx
+{
+    visibility:hidden;
+    width:1px;
+    }
+
+.SearchBoxVisible .SearchTextBoxx
+{
+     width:150px;
+   height:20px;    
+/*line-height:22px;*/
+float:left;
+vertical-align:middle;
+margin-top:1px;
+border:0px;
+ border-bottom:1px solid #DBDDE0;
+ background-color:#F6F6F6;
+ visibility:visible;
+}
+
+
+
+.MainSearchBox
+{
+   /*width:170px;    */
+   float:right;
+   background-color:#F6F6F6;
+}
+
+.SearchImage
+{
+    float:right;
+}
+
+.MainSearchBox .SearchIcon
+{
+margin-left: 2px;
+/* padding-left: 10px; */
+/* z-index: 100000; */
+position: absolute;
+
+color:#A3A3A3; 
+}
+.xlneofilterSortDivFloatLeft
+{
+  width:15px;
+  float:left;   
+}
+.xlmathematicalopsfooter
+{
+    height:29px;
+    line-height:29px;
+    vertical-align:middle;
+    float:left;   
+}
+.xlshowhidemathsopfooter
+{
+    height:29px;
+    line-height:29px;
+    vertical-align:middle;
+    float:right;   
+    padding-left:15px;
+}
+.xlmathopsfooterchild
+{
+    height:29px;
+    width:70px;
+    float:left;
+    -webkit-transition: width 800ms linear 0.1s , background 400ms linear 0.1s;
+    -webkit-transition-delay: 0.1s;   
+    border-bottom:2px solid;
+}
+
+.xlmathematicalopsfooterhidden .xlmathopsfooterchild
+{
+  visibility:hidden;
+  width:1px;   
+}
+
+.xlmathematicalopsfootervisible .xlmathopsfooterchild
+{
+  visibility:visible;
+}
+
+
+.wrapper {
+    background:#E7E7E8;
+    display:inline-block;
+    height: 29px;
+    width:auto;
+    line-height:29px;
+    vertical-align:middle;
+    position:relative;
+}
+
+.labelTest {
+    display: inline-block;
+    width: 1em;
+    height:29px;
+    float: left;
+}
+
+.contents, .contents .inner {
+    display:inline-block;
+}
+
+.contents {
+    white-space:nowrap;
+    margin-left: -0.8em;
+    padding-left: 1.2em;
+}
+
+.contents .inner {
+    background:#8F8B8A;
+    width:0%;
+    overflow:hidden;
+    -webkit-transition: width 0.5s ease-in-out;
+    -moz-transition: width 0.5s ease-in-out;
+    -o-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    float:left;
+}
+
+
+
+/*.wrapper:hover .contents .inner {
+    width:100%;
+}*/
+
+.wrapperwidth .contentswidth .innerwidth {
+    width:100%;
+}
+
+.xlshowhideColumnDropDown
+{
+    float:left;
+    margin-left:10px;
+    font-family:'Lato' sans-serif;
+    font-size:12px;
+}
+
+.xlarrowinShowHide
+{
+    margin-top:3px;
+    margin-left:10px   
+}
+
+.xlshowHideColumns:hover
+{
+    color:rgb(0, 188, 239);   
+}
+
+.arrow
+{
+    height:29px;
+    line-height : 29px;
+    vertical-align:middle;
+    font-size:12px;
+    background: #8F8B8A;
+    position:absolute;
+    top:0px;
+    left:-12px;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+}
+
+.arrowLeft
+{
+    left:0px;   
+}
+
+.arrowrotateClockwise
+{
+     transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);   
+}
+
+.arrowrotateantiClockwise
+{
+     transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);   
+}
+
+.xlFixedHeaderRow
+{
+    height:22px;
+    position:absolute;
+    top:0px;
+    border-bottom:0px solid #EEEEEE;  
+    border-left:0px ! important;
+    border-right:0px ! important;
+    border-top:0px ! important;
+}
+
+.xlGridChildVerticalLine
+{
+    width:1px;
+    height:13px;
+    position:relative;
+    left:9px;
+    top:-5px;
+    background-color:#EBE7E7;
+}
+
+.xlGridChildHorizontalLine
+{
+    width:15px;
+    height:1px;
+    position:relative;
+    left:10px;
+    top:-5px;
+    background-color:#EBE7E7;    
+}
+.xlgroupDivChildGrid
+{
+    float: left;
+    height: 25px;
+    vertical-align :middle;
+    line-height: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left; /*max-width:65%; 	min-width:5%;*/
+    text-indent:7px;
+}
+
+.xlChildGridLevelIndicator
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:6px;
+    width:30px;
+    background-color:#E7E7E7;
+    
+    /*float:left;   */
+    
+}
+.xlChildGridLevelIndicatorChild
+{
+    float:left;
+    width:5px;
+    height:6px;
+    position:relative;
+    background-image: url(images/icons/Shape18.png);
+    background-repeat:repeat-x;
+}
+.SearchTextBoxx
+{
+  width:150px;
+  height:20px;    
+/*line-height:22px;*/
+  float:left;
+  vertical-align :middle;
+  margin-top :1px;
+  border:0px;
+  border-bottom:1px solid #DBDDE0;
+  background-color:#F6F6F6;
+  transition: width 400ms linear 0.1s , background 400ms linear;
+  transition-delay: 0.1s;
+  -webkit-transition: width 400ms linear 0.1s , background 400ms linear;
+  -webkit-transition-delay: 0.1s;
+  padding-top: 2px;
+}
+
+.SearchBoxHidden .SearchTextBoxx
+{
+    visibility:hidden;
+    width:1px;
+    margin-top: -10px;
+    }
+
+.SearchBoxVisible .SearchTextBoxx
+{
+     width:150px;
+   height:20px;    
+/*line-height:22px;*/
+float:left;
+vertical-align:middle;
+
+     margin-top: 2px;
+border:0px;
+ border-bottom:1px solid #DBDDE0;
+ background-color:#F6F6F6;
+ visibility:visible;
+     font-size: 12px;
+     padding-top: 5px;
+}
+
+
+
+.MainSearchBox
+{
+   /*width:170px;    */
+   float:right;
+   background-color:#F6F6F6;
+}
+
+.SearchImage
+{
+    float:right;
+}
+
+.MainSearchBox .SearchIcon
+{
+margin-left: 2px;
+  /* padding-left: 10px; */
+  /* z-index: 100000; */
+  position: absolute;
+  
+  font-size: 10px;
+}
+.filterSortDivFloatLeft
+{
+  width:15px;
+  float:left;   
+}
+
+
+
+.xlClearSortFilter
+{
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 20px;
+    cursor: pointer;
+    background-image: url(images/icons/GarbageClosed.png);
+    height: 22px;
+    margin-right: 5px;   
+}
+
+.xlClearSortFilter:hover
+{
+    background-image: url(images/icons/GarbageClosed_hover.png);
+}
+
+.xlClearFunctionalityDiv
+{
+    position:absolute;
+    width:185px;
+    /*height:400px;*/
+    /*border:1px solid #DBDBDB;*/
+    background-color : #FFFFFF;
+    font-family: 'Istok Web' sans-serif;
+    font-size: 11px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px #EEEEEE;
+ 
+}
+
+.xlRemoveCurrentFilter
+{
+    float:left;
+    width:20%;
+    height:22px;
+    line-height:22px;
+    cursor:pointer;
+    color:#DD9696;
+    font-size: 13px;
+    padding-left: 11px;
+}
+
+.xlRemoveCurrentFilter:hover
+{
+    color:#D46464;   
+}
+
+.xlClearFilterItem
+{
+    width:100%;
+    height:22px;
+    line-height:22px;
+    vertical-align:middle;
+    font-size:11px;
+}
+
+.xlClearFilterText
+{
+    float:left;
+    width:80%;
+    padding-left:10px;
+    text-overflow:ellipsis;
+    color:#4A4949;
+    overflow:hidden;
+    height:22px;
+}
+
+.xlClearFilterHeader
+{
+    width:64%;
+    text-align:left;
+    /*padding-left:10px;   */
+    margin-left:10px;
+    float:left;
+    font-size:12px;
+    font-family: 'Lato', sans-serif;
+    color:#9B9B9B;
+    margin-top:4px;
+    font-weight:bold;
+    border-bottom:1px solid #EFEDED;
+}
+
+.xlRemoveCurrentFilterHeader
+{
+    width:25%;
+    text-align:right;
+    /*padding-right:10px;      */
+    float:left; 
+    color:#A5A5A5;
+    font-size:10px;
+    height:22px;
+    line-height:22px;
+    padding-top:4px;
+    cursor:pointer;
+    border-bottom:1px solid #EFEDED;
+    margin-right:10px;
+}
+
+.xlRemoveCurrentFilterHeader:hover
+{
+    color:#7B4E4E;
+}
+
+
+.xlRemoveCurrentSortHeader
+{
+    width:25%;
+    text-align:right;
+    /*padding-right:10px;      */
+    float:left; 
+    color:#A5A5A5;
+    font-size:10px;
+    height:22px;
+    line-height:22px;
+    padding-top:4px;
+    cursor:pointer;
+    border-bottom:1px solid #EFEDED;
+    margin-right:10px;
+}
+
+.xlRemoveCurrentSortHeader
+{
+    color:#7B4E4E;   
+}
+
+.xlRemoveCurrentGroupHeader
+{
+    width:25%;
+    text-align:right;
+    /*padding-right:10px;      */
+    float:left; 
+    color:Red;
+    font-size:10px;
+    height:22px;
+    line-height:22px;
+    padding-top:4px;
+    cursor:pointer;
+    border-bottom:1px solid #EFEDED;
+    margin-right:10px;
+}
+
+.xlClearFilterText:hover
+{
+    float:left;
+    width:80%;
+    padding-left:8px;
+    border-left: 2px solid #00BCEF;
+}
+.xlClearFilterItemHeader
+{
+    width:100%;
+    height:22px;
+}
+
+.xlResetToDefault
+{
+    height: 22px;
+    line-height: 22px;
+    vertical-align: middle;
+    text-align: right;
+    border-top: 1px solid #EFEDED;
+    padding-right: 10px;
+    color: #A5A5A5;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.xlResetToDefault:hover
+{
+   color : #7B4E4E;   
+}
+
+.xlRemovingDivText
+{
+     float:left;
+    width:80%;
+    text-overflow:ellipsis;
+    color:#B8B7B7;
+    font-size:9px;
+    font-style: italic;
+}
+
+.xlRemovingDivImage
+{
+    float:left;
+    width:10px;
+    height:10px;
+    min-width:10px;
+    background-position:center center;
+    color:#A3A3A3;
+    margin-top: 6px;
+}
+
+.xlConfiguration
+{
+  cursor : pointer;   
+  background-image:url(images/icons/Settings-01.png);
+  width:1%;
+  min-width:20px;
+  background-repeat:no-repeat;
+  background-position: center center;
+  border-right:1px solid #E4E1E1 ! important;
+  
+}
+
+.xlConfigurationSettings
+{
+    position:absolute;
+    /* width:155px; */
+    /*height:400px;*/
+    /* border: 1px solid rgb(219, 219, 219); */
+    background-color : #FFFFFF;
+    font-family: 'Istok Web' sans-serif;
+    font-size: 13px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 10px #C5C5C5;
+    /* padding-left: 10px; */
+    padding: 10px 0;
+}
+.xlSettingsChild
+{
+    height : 23px;
+    line-height:23px;
+    vertical-align:middle;
+    padding-left: 20px;
+    cursor:pointer;
+    padding-right: 20px;
+    /* padding-right: 10px; */
+    padding-left: 20px;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 15px;
+    cursor: pointer;
+    padding-right: 20px;
+    overflow: hidden;
+}
+.xlSettingsChild:hover
+{
+    border-left: 2px solid #00BCEF;
+    padding-left:8px;
+    padding-left: 13px;
+    cursor: pointer;
+    padding-right: 20px;
+    background-color:lightgray;
+}
+.xlHeaderItemsLeft
+{
+    float:left;   
+    height : 20px;
+    vertical-align:middle;
+    padding-left:10px;
+    width:40%;
+}
+.xlHeaderItemsRight
+{
+    float : left;
+    width : 50%;
+    height:20px;  
+    width:60% ;
+}
+.xlShowHideColumnItem
+{
+    height:20px;
+    line-height:20px;
+    vertical-align:middle;
+    padding-left:10px;
+    float:left;
+    width:80%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    color: #4a4949;
+}
+
+.xlShowHideColumnItem:hover
+{
+    /*border-left: 2px solid #00BCEF;*/
+    /*padding-left:8px;*/
+}
+
+.xlshowhideColumnsDiv
+{
+    position:absolute;
+    width:185px;
+    /*height:400px;*/
+    border: 1px solid rgb(219, 219, 219);
+    background-color : #FFFFFF;
+    font-family: 'Istok Web' sans-serif;
+    font-size: 11px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 4px;
+    box-shadow: 0px 5px 5px #EEEEEE;
+    max-height:400px;
+    max-width : 185px;
+    min-width: 185px;
+}
+.xlShowHideOptions
+{
+    height:20px;   
+    vertical-align: middle;
+    line-height: 20px;
+    display:none;
+}
+.xlshowHideHeader
+{
+    height:20px;
+    vertical-align:middle;
+    line-height:20px;   
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #ABA6A6;
+}
+.xlShowHideColumn
+{
+    height:20px;
+    line-height:20px;
+    vertical-align:middle;
+    cursor:all-scroll;
+    margin-left:3px;
+    margin-right:3px;
+}
+.xlShowHideColumn:hover
+{
+    border-left: 2px solid #00BCEF;
+    margin-left:1px;   
+    background-color:#EDEDED;
+}
+.xlShowHideColumnHiddenColumnParent
+{
+    height:20px;
+    line-height:20px;
+    vertical-align:middle;
+    cursor:pointer;
+    margin-left:3px;
+    margin-right:3px;
+}
+.xlShowHideColumnHiddenColumnParent:hover
+{
+    border-left: 2px solid #00BCEF;
+    margin-left:1px; 
+    background-color:#EDEDED;
+}
+.xlshowHideCheckBox
+{
+    height:20px;
+    line-height:20px;
+    vertical-align:middle;
+    padding-left:10px;
+    width:20%;
+    float:left;
+    cursor:default;
+}
+.xlshowHideCheckBox > input
+{
+    height : 14px;
+    width : 14px;   
+    margin-top:3px;
+    cursor:default;
+}
+.xlSelectElement
+{
+    width:100%;   
+    border:0px;
+    border-bottom:2px solid #B0A6A6;
+    height: 18px;
+}
+
+.xlShowHideApply
+{
+    width: 165px;
+    text-align: right;
+    color: #217866;
+    cursor: pointer;
+    border-top: 1px solid rgb(245, 244, 244);
+    font-size: 12px;
+    font-family: 'Lato' sans-serif;
+    /* float: left; */
+    font-weight: 800;
+    height: 20px;
+    background-color: #FFFFFF;   
+    padding-right:10px;
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    float:left;
+}
+.xlShowHideApply:hover
+{
+    background-color : #E9E7E7
+}
+.xlResizeShowHideDiv
+{
+    float:left;
+    height:20px;
+    width:18px;   
+    cursor: nw-resize;
+    background: url(images/icons/Action_arrow-polaris_group_normal.png);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-Y: 50%;
+}
+.xlVisibleColumnHeader
+{
+    height:20px;
+    line-height:20px;
+    vertical-align:middle;
+    cursor:pointer;
+    padding-left: 6px;
+    background-color: #FCFCFC;
+    color: rgb(171, 166, 166);
+    margin-top: 6px;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-family: 'Lato', sans-serif;
+}
+.xlHiddenColumnHeader
+{
+    height:20px;
+    line-height:20px;
+    vertical-align:middle;
+    cursor:pointer;
+    padding-left: 6px;
+    background-color: #FCFCFC;
+    color: rgb(171, 166, 166);
+    margin-top: 6px;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-family: 'Lato', sans-serif;
+}
+
+.xlHiddenColumnBody
+{
+    max-height:140px;   
+}
+.xlShowHideColumnBody
+{
+    max-height:140px;   
+}
+.xlOpacityForGrid
+{
+    opacity: 1;
+}
+
+.xlFormatMenuDiv
+{
+    position : absolute;
+    border: 1px solid #DBDBDB;
+    background-color: #FFFFFF;
+    font-family: 'Istok Web' sans-serif;
+    font-size: 11px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px #EEEEEE;
+    width:420px;
+    height:331px;
+    /* background: url(Images\layout_background_texture.jpg); */
+}
+.xlformatLeftDiv
+{
+    float: left;
+    border-right: 1px solid #F9F9F9;
+    height: 270px;
+    width: 165px;
+    background-color: #FDFDFD;
+/* margin-top: 5px; */
+}
+.xlformatRightDiv
+{
+    float: left;
+    height: 230px;
+    width: 253px;
+    padding-top: 6px;
+    font-size: 12px;
+}
+
+.xlUnformattedHeader
+{
+    /*float:left;   
+    height:25px;
+    line-height:30px;
+    vertical-align:middle;
+    cursor:pointer;
+    text-align: center;
+    width:70px;*/
+    float: left;
+    height: 25px;
+    line-height: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+    text-align: left;
+    width: 140px;
+}
+
+.xlformattedHeader
+{
+    float:left;
+    height:25px;
+    line-height:30px;
+    vertical-align:middle;
+    cursor:pointer;
+    text-align: center;
+    width:61px;
+    display:none;
+}
+
+.xlColumnListHeader
+{
+    height : 33px; 
+    margin: 0 12px;  
+}
+
+.xlRemoveFormatting
+{
+    width: 20px;
+    margin-top: 20px;
+    /* border-bottom: 1px solid #00bcef; */
+    height: 20px;
+    color: #A5A5A5;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    text-align: right;
+    line-height: 20px;
+}
+
+.xlDataTypeGroup
+{
+    height : 30px;   
+}
+.xlDataTypeText
+{
+    width: 50%;
+    float: left;
+    height:30px;
+    padding-left:10px;
+    vertical-align:middle;
+    line-height:30px;
+}
+
+.xlDataTypeOptionsParent
+{
+    width: 50%;
+    float: left;
+    height: 30px;
+    padding-top: 4px;
+}
+
+.xlDataTypeOptions
+{
+    width: 85px;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-bottom: 1px solid #E2E2E2;
+    background: white;
+    border-radius: 2px;
+    color: #666;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-out;
+    background: url(images/icons/arrow_ivp.png) no-repeat right white;
+    -webkit-appearance: none;
+    /*font-size: 14px;*/
+}
+
+.xlUnitTypeGroup
+{
+    height : 30px;   
+}
+
+.xlUnitTypeText
+{
+    width: 50%;
+    float: left;
+    height:30px;
+    padding-left:10px;
+    vertical-align:middle;
+    line-height:30px;
+}
+
+.xlUnitTypeOptionsParent
+{
+    width: 50%;
+    float: left;
+    height: 30px;
+    padding-top: 4px;
+}
+
+.xlUnitTypeOptions
+{
+    width: 85px;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-bottom: 1px solid #E2E2E2;
+    background: white;
+    border-radius: 2px;
+    color: #666;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-out;
+    background: url(images/icons/arrow_ivp.png) no-repeat right white;
+    -webkit-appearance: none;
+}
+
+.xlNegativeValueGroup
+{
+    height:30px;   
+}
+.xlNegativeValue
+{
+    width: 50%;
+    float: left;
+    height:30px;
+    padding-left:10px;
+    vertical-align:middle;
+    line-height:30px;
+}
+
+.xlNegativeOptionsParent
+{
+    width: 50%;
+    float: left;
+    height: 30px;
+    padding-top: 4px;
+}
+
+.xlNegativeValueOptions
+{
+    width: 85px;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-bottom: 1px solid #E2E2E2;
+    background: white;
+    border-radius: 2px;
+    color: #666;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-out;
+    /*background: url(images/icons/unnamed.png) no-repeat right white;*/
+    background: url(images/icons/arrow_ivp.png) no-repeat right white;
+    -webkit-appearance: none;
+}
+
+.xlPrefixGroup
+{
+    height:30px;   
+}
+.xlPrefixText
+{
+    width: 50%;
+    float: left;
+    height:30px;
+    padding-left:10px;
+    vertical-align:middle;
+    line-height:30px;
+}
+
+.xlPrefixOptionsParent
+{
+    width: 50%;
+    float: left;
+    height: 30px;
+    padding-top: 4px;
+}
+
+.xlPrefixValue
+{
+    width: 85px;
+    height: 20px;
+    border:1px solid #E2E2E2;
+    border-radius:2px;
+}
+
+.xlDecimalGroup
+{
+    height:30px;
+}
+
+.xlDecimalText
+{
+    width: 50%;
+    float: left;
+    height:30px;
+    padding-left:10px;
+    vertical-align:middle;
+    line-height:30px;
+}
+
+.xlDecimalOptionsParent
+{
+    width: 50%;
+    float: left;
+    height: 30px;
+    padding-top: 4px;
+}
+
+.xlDecimalValue
+{
+    width: 60px;
+}
+
+.xlSaveFormatButton
+{
+    width: 20px;
+    margin-left: 90px;
+    margin-top: 5px;
+    text-align: center;
+    height: 18px;
+    line-height: 18px;
+    cursor: pointer;
+    background: url(images/icons/Check.png) left top no-repeat;
+    float: left;
+}
+
+.xlSaveFormatButton:hover
+{
+    background:url(images/icons/CheckHover.png) left top no-repeat;
+}
+
+.xlClearFormatButton
+{
+    width: 20px;
+    margin-left: 13px;
+    margin-top: 5px;
+    text-align: center;
+    height: 18px;
+    line-height: 18px;
+    cursor: pointer;
+    background: url(images/icons/Close.png) left top no-repeat;
+    float: left;
+}
+
+.xlClearFormatButton:hover
+{
+    background: url(images/icons/Closehover.png) left top no-repeat;
+}
+
+
+.xlApplyFormatButton
+{
+    width: 400px;
+    text-align: right;
+    background-color: #EDEDED;
+    height: 24px;
+    line-height: 24px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    cursor:pointer;
+    float:left;
+}
+.xlApplyFormat
+{
+    position: absolute;
+    bottom: 0px;
+    height: 25px;
+    width: 420px;   
+    border-top:1px solid #F5F4F4;
+}
+
+.xlFormatColumnDiv
+{
+    height:20px;
+    line-height:20px;
+    vertical-align:middle;
+    cursor:pointer;
+    margin-left:3px;
+    /*margin-right:3px;*/
+}
+
+.xlFormatColumnCheckBox
+{
+    height:20px;
+    line-height:20px;
+    vertical-align:middle;
+    padding-left:10px;
+    width:20%;
+    float:left;
+    cursor:default;
+}
+
+.xlFormatColumnItem
+{
+    height:20px;
+    line-height:20px;
+    vertical-align:middle;
+    padding-left:10px;
+    float:left;
+    width:80%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    color: #4a4949;
+}
+
+.xlFormatColumnDiv:hover
+{
+    background-color:#ECECEC;   
+}
+
+.xlFormatSearch
+{
+    height: 25px;
+    width: 410px;
+    border-bottom: 1px solid #DBDBDB;
+    margin-left: 5px;
+}
+
+/*.xlUnitTypeOptions > option    
+{
+       background-color:Red;
+       border-left:0px;
+}*/
+/*
+.xlUnitTypeOption:hover
+{
+     background-color:green;
+     color:Red;
+}*/
+
+.xlColumnGroup
+{
+    height : 25px;
+    /* text-align: center; */
+    padding-left: 0px;
+    margin-left: -55px;
+    font-weight: bold;
+    color: #D1D1D1;
+}
+
+.xlFormatColumnName
+{
+    height: 20px;
+    line-height: 20px;
+    width: 138px;
+    padding-left: 10px;
+    font-weight: 600;
+    color: #A8A8A8;
+    float: left;
+}
+
+.xlSearcParent
+{
+    
+}
+
+.xlFilterText
+{
+     float: left;
+    height: 25px;
+    line-height: 25px;
+    width: 50px;
+    margin-left: 107px;
+    font-size: 10px;
+}
+
+.xlFilterByDataType
+{
+    float: left;
+    height: 25px;
+    /* line-height: 25px; */
+    padding-top: 3px;
+}
+
+.xlfilterDataOptions
+{
+    width: 90px;
+    margin: 0 auto;
+    border: 1px solid white;
+    background: white;
+    border-radius: 2px;
+    color: #00bcef;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-out;
+    /*background: url(images/icons/unnamed.png) no-repeat right white;*/
+    background: url(images/icons/arrow.png) no-repeat right white;
+    -webkit-appearance: none;
+    font-family: 'Lato', sans-serif;
+    background-position-y: 60%;
+    font-size: 10px;
+    /* text-align: left; */
+    margin-left: -7px;
+}
+
+.SearchFormatMenu
+{
+      width: 150px;
+    height: 20px;
+    /* line-height: 22px; */
+    float: left;
+    vertical-align: middle;
+    margin-top: 1px;
+    border: 0px;
+    /* border-bottom: 1px solid #DBDDE0; */
+    background-color: #F6F6F6;
+    transition: width 400ms linear 0.1s , background 400ms linear;
+    transition-delay: 0.1s;
+    -webkit-transition: width 400ms linear 0.1s , background 400ms linear;
+    -webkit-transition-delay: 0.1s;
+    /* padding-top: 2px; */
+    background: url(images/icons/searchFormat.png) no-repeat left white;
+    background-position-x: 2%;
+    background-position-y: 63%;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+}
+.xlDataTypeOptionItems
+{
+    color:#666;   
+}
+
+.xlFormatPopUp
+{
+    position:absolute;
+    width: 182px;
+    height: 72px;
+    border: 1px solid #DBDBDB;
+    background-color: #FFFFFF;
+    font-family: 'Istok Web' sans-serif;
+    font-size: 11px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px #EEEEEE;
+    top: 100px;
+    left: 109px;
+}
+
+.xlClosePopUp
+{
+    margin-left: 81px;
+    margin-top: 10px;
+    width: 30px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    padding: 0px;
+}
+
+.xlLabelClass
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+    
+
+
+.xlJustificationGroup
+{
+    height:30px;   
+}
+
+.xlJustificationText
+{
+    width: 50%;
+    float: left;
+    height:30px;
+    padding-left:10px;
+    vertical-align:middle;
+    line-height:30px;
+}
+
+.xlJustificationOptionsParent
+{
+    width: 50%;
+    float: left;
+    height: 30px;
+    padding-top: 4px;
+}
+
+.xlJustificationValueOptions
+{
+     width: 85px;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-bottom: 1px solid #E2E2E2;
+    background: white;
+    border-radius: 2px;
+    color: #666;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-out;
+    /*background: url(images/icons/unnamed.png) no-repeat right white;*/
+    background: url(images/icons/arrow_ivp.png) no-repeat right white;
+    -webkit-appearance: none;
+}
+.xlApplyFormatImage
+{
+    height: 24px;
+    width: 20px;
+    float: left;
+    background: url(images/icons/Action_arrow-polaris_group_normal.png);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-Y: 50%;
+    cursor:pointer;
+}
+
+.xlApplyFormatImage:hover
+{
+    background: url(images/icons/Action_arrow-polaris_group.png);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-Y: 50%;
+}
+
+
+
+.xlTextOptionsParent
+{
+   /* width: 27%; */
+    float: left;
+    height: 25px;
+    /* padding-top: 4px; */
+    margin-left: 5px;
+}
+
+.xlTextValue
+{
+    width: 64px;
+    height: 20px;
+    border:1px solid #E2E2E2;
+    border-radius:2px;
+}
+
+.xlPreviewGroup
+{
+    float: left;
+    width: 109px;
+}
+
+
+.xlPreviewText
+{
+    float: left;
+    width: 40px;
+    line-height: 20px;
+    height: 20px;
+    
+}
+
+.xlTextValue
+{
+    text-align:center;   
+}
+
+
+.xlMasterGridColumnClass
+{
+border-left : 0px solid #f2f0f0; height:22px;  text-align:center; float:left; padding-top:4px; cursor:pointer;
+}
+
+.GridColumnClass {
+overflow: hidden;text-overflow: ellipsis;text-indent:9px;border-right:0px solid #f2f0f0;height:22px;float:left;
+    padding-right: 15px;
+}
+
+.xlDeleteRowButton
+{
+    height: 16px;
+    width: 50px;
+    line-height: 16px;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(231, 229, 229);
+    border-radius: 2px;
+    right:0px;
+    cursor:pointer;
+}
+.xlResetRowButton
+{
+    height : 16px;
+    width:50px;
+    line-height:16px;   
+    position:absolute;
+    text-align: center;
+    background-color: rgb(231, 229, 229);
+    border-radius: 2px;
+    right:50px;
+    cursor:pointer;
+}
+
+.xlEditGridDropDown
+{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #E5E1E1;
+    /*border-bottom: 1px solid #E2E2E2;*/
+    background: white;
+    border-radius: 2px;
+    color: #666;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-out;
+    background: url(images/icons/arrow_ivp.png) no-repeat right white;
+    -webkit-appearance: none;
+    height: 22px;
+    margin-top: 8px;
+    background-color: #A59F9F;
+    line-height: 22px;
+    color:White;
+    background-position: 95%;
+}
+
+.xlgreyoutRow
+{
+    background-color: #f1f1f1;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: default;
+    color: #1a1919;
+    padding-top: 0px;
+    height: 22px;
+    line-height:22px;
+    vertical-align:middle;
+    font-size:12px;
+    font-weight:normal;
+    font-style:normal;
+    font-family:'Istok Web', sans-serif;
+    text-overflow: ellipsis;
+   
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    /*border-bottom:1px solid;
+    -moz-border-image: url(images/icons/borderline.png) 27 0 repeat;
+    -webkit-border-image: url(images/icons/borderline.png) 27 0 repeat; 
+    -o-border-image: url(images/icons/borderline.png) 27 0 repeat;
+    border-image: url(images/icons/borderline.png) 27 0 fill repeat;*/
+}
+
+.xlEditGridTextBox
+{
+    border: 1px solid #E5E1E1 ! important;
+    width: 100%;
+    height: 22px;
+    margin-top: 8px;
+    width: 90%;
+    border-radius: 2px;
+    background-color: #A59F9F;
+    line-height: 22px;   
+    padding-left:2px;
+    padding-right:2px;
+}
+
+.xlResetRowIcon
+{
+    height : 12px;
+    width:20px;
+    line-height:5px;   
+    position:absolute;
+    text-align: center;
+    background-color: rgb(231, 229, 229);
+    border-radius: 2px;
+    right:50px;
+    cursor:pointer;
+    background: url(images/icons/undo_icon.png) no-repeat
+}
+
+
+div[id*='_MessageBoxID']
+{
+    background-color: #F5F5F5;
+    /*border: 1px solid rgb(196, 189, 189);*/
+    border-radius: 1px;
+    padding-left: 25px;
+    /* top: 180px !important; */
+    color: #8A8787;
+    font-size: 12px;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 30px;
+    box-shadow: 3px 3px 5px #888888;
+    padding-right: 25px;
+    }
+    .errorDiv
+    {
+      color: #950D0D;
+    position: relative;
+    font-size: 12px;  
+    }
+
+.ComputedHeaderClass
+{
+border-bottom: 1px solid grey;
+}
+-----------------------
+.ComputedHeaderClass
+{
+border-bottom: 1px solid grey;
+}
+
+.xlgridrankingdiv
+{
+    top: 70px;
+    left:20px;
+    position : absolute;
+    border: 1px solid #DBDBDB;
+    background-color: #FFFFFF;
+    font-family: 'Istok Web' sans-serif;
+    font-size: 11px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px #EEEEEE;
+    width:750px;
+    height: 159px;
+}
+.xlrankingheader
+{
+      font-size: 14px;
+      color: lightgray;
+      padding-left: 25px;
+      /* padding-top: 5px; */
+      /* height: 35px; */
+      line-height: 35px;
+}
+.xlrankingcolumn
+{
+width:150px;
+height:30px;
+border-radius:2px;
+border:1px solid lightgray;
+margin-left:50px;
+margin-top:30px;
+padding-left:2px;
+font-size:13px;
+font-style:italic;
+    
+}
+.xlrankinggroupColumn
+{
+  width: 350px;
+  height: 30px;
+  border-radius: 2px;
+  margin-left: 99px;
+  margin-top: -1px;
+  /* padding-left: 2px; */
+  background: url(images/icons/árrow.png);
+  /* overflow: hidden; */
+    
+}
+.xlrankingbutton {
+    background-color: #43d9c6;
+  
+    width: 55px;
+  
+    height: 25px;
+  border-radius: 2px;
+  margin-left: 700px;
+  /* margin-top: 56px; */
+  color: White;
+  
+    padding-left: 13px;
+  padding-top: 10px;
+  font-size: 13px;
+  
+    bottom: 65px;
+  position: absolute;
+  right: 20px;
+    line-height: 25px;
+    padding-top: 0px;
+    cursor:pointer;
+}
+.xlrankingcheckbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 1px;
+  border: 1px solid lightgray;
+  /* margin-left: 50px; */
+  margin-left: 400px;
+ /* margin-top: -23px;*/
+  position: absolute;
+  bottom: 20px;
+  right:450px;
+  top: 105px;
+}
+.xlrankingselect {
+  width: 150px;
+  height: 26px;
+  border-radius: 2px;
+  /* border: 1px solid lightgray; */
+  margin-left: 27px;
+  margin-top: -1px;
+  /* padding-left: 2px; */
+}
+.divText
+{
+   
+     position: absolute;
+  
+     left: 306px;
+  
+     top: 108px;
+  font-size: 14px;
+  
+     /* font-style: italic; */
+  
+     color: rgb(96, 92, 92);
+ 
+}
+.xltopbottom
+{
+position:absolute;
+width: 120px;
+  height: 30px;
+  border-radius: 2px;
+  
+left: 58px;
+  
+bottom: 20px;
+    
+}
+.xlrankingcolumnname
+{
+width: 450px;
+  position: absolute;
+  
+left: 448px;
+  
+top: 108px;
+  font-size: 14px;
+  
+/* font-style: italic; */
+  
+color:  rgb(96, 92, 92);
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 20px;
+  padding-left: 5px;
+font-weight: bold;
+}
+.rankingeditIcon
+{
+    
+position: absolute;
+  top: 161px;
+}
+.xltopbottomcheckbox
+{
+     width: 20px;
+  height: 20px;
+  border-radius: 1px;
+  border: 1px solid lightgray;
+  /* margin-left: 50px; */
+  margin-left: 400px;
+ /* margin-top: -23px;*/
+  position: absolute;
+  bottom: 20px;
+  right:450px;
+  
+     top: 106px;
+  
+     left: 29px;
+}
+.xlrankingparentspinner
+{
+  width: 100px;
+  position: absolute;
+  top: 109px;
+  left: 185px;    
+}
+
+div[id*='rankingColumnInfo'] > a
+{
+    border-top-right-radius: 0px ! important;
+    border-bottom-right-radius: 0px ! important;
+}
+
+div[id*='rankingColumnInfo'] > a > span:last-child
+{
+     background-color: #F8F8F8 ! important;
+  background-image: url(images/icons/arrow-select2.png) ! important;
+  border-left: 0px solid ! important;
+  background-repeat: no-repeat ! important;
+  background-position-x: 28% ! important;
+  background-position-y: 66% ! important;
+}
+
+
+.xlRankingOrderDivASC
+{
+  height: 26px;
+  width: 58px;
+  position: absolute;
+  top: 36px;
+  left: 176px;
+  border: 1px solid #aaa;
+  line-height: 26px;
+  padding-left: 10px;
+  border-top-right-radius: 4px ! important;
+  border-bottom-right-radius: 4px ! important;
+  background-image: url(images/icons/asc_des_con.png) ! important;
+  background-repeat: no-repeat ! important;
+  background-position-x: 92% ! important;
+  background-position-y: 50% ! important;
+  cursor:pointer;
+}
+
+.xlRankingOrderDivDSC
+{
+    height: 26px;
+  width: 58px;
+  position: absolute;
+  top: 36px;
+  left: 176px;
+  border: 1px solid #aaa;
+  line-height: 26px;
+  padding-left: 10px;
+  border-top-right-radius: 4px ! important;
+  border-bottom-right-radius: 4px ! important;
+  background-image: url(images/icons/asc_icon.png) ! important;
+  background-repeat: no-repeat ! important;
+  background-position-x: 92% ! important;
+  background-position-y: 50% ! important;
+  cursor:pointer;
+}
+
+.xlRemoveCurrentRankHeader
+{
+     width:25%;
+    text-align:right;
+    /*padding-right:10px;      */
+    float:left; 
+    color:Red;
+    font-size:10px;
+    height:22px;
+    line-height:22px;
+    padding-top:4px;
+    cursor:pointer;
+    border-bottom:1px solid #EFEDED;
+    margin-right:10px;
+    
+}
+
+.xlBorderDiv
+{
+      width: 1px;
+      height: 100px;
+      position: absolute;
+      top: 31px;
+      border: 1px solid rgb(236, 233, 233);
+      right: 98px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ CSS styles go here */
+    .xlneoalternatingrow
+    {
+  
+        background-color: #fdfdfd;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: default;
+        color: #1a1919;
+        padding-top: 0px;
+        height: 22px;
+        line-height:22px;
+        vertical-align:middle;
+        font-size:10px;
+        font-weight:normal;
+        font-style:normal;
+        font-family:'Istok Web', sans-serif;
+        text-overflow: ellipsis;
+        border-top:0px;
+        border-left:0px;
+        border-right:0px;
+        border-bottom:1px solid #f4f1f1;
+    }
+
+    .xlneonormalRow
+    {
+        background-color: #ffffff; 
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: default;
+        color: #1a1919;
+        padding-top: 0px;
+        height: 22px;
+        line-height:22px;
+        vertical-align:middle;
+        font-size:10px;
+        font-weight:normal;
+        font-style:normal;
+        font-family:'Istok Web', sans-serif;
+        border-top:0px;
+       border-left:0px;
+       border-right:0px;
+       border-bottom:1px solid #f4f1f1;
+        text-overflow: ellipsis;
+    }
+    .SearchBoxVisible .SearchTextBoxx
+    {
+        width:150px;
+        height:20px;    
+        /*line-height:22px;*/
+        float:left;
+        vertical-align:middle;
+        margin-top: 2px;
+        border:0px;
+        border-bottom:1px solid #DBDDE0;
+        background-color:#F6F6F6;
+        visibility:visible;
+        font-size: 12px;
+        padding-top: 2px;
+        padding-bottom:2px;
+    }
+    .SearchIcon
+    {
+        margin-left: 2px;
+        /* padding-left: 10px; */
+        /* z-index: 100000; */
+        position: absolute;
+        margin-top: 4px;   
+        color:#A3A3A3; 
+        padding-top:1px;
+    }
+    .dataColumn_0 > input
+    {
+        margin-top:4px;
+    }
+}
+
+.errorDivLayout
+{
+    height : 20px;
+    line-height:19px;   
+}
+
+.xlEditRowBackground
+{
+    background-color : #A59F9F !important;      
+}
+
+.xlEditGridCheckBoxMargin
+{
+    margin-top : 13px ! important;   
+}
+
+
+.mathOpMenuSigma {
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    /* background-image: url(images/icons/sigma.png); */
+    color: Black;
+    line-height: 20px;
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 15px;
+    height: 20px;
+    width: 10px;
+    display: inline-block;
+    font-style: normal;
+    position: relative;
+    top: -1px;
+    margin-right: 3px;
+}
+
+.xlEditComitPopUp
+{
+        width: 20%;
+      height: 135px;
+      position: absolute;
+      top: 63px;
+      margin-left: 40%;
+      min-width: 300px;
+      background-color: #FAF7F7;
+      border: 1px solid #DDDDDD;
+      border-radius: 4px;
+      font-family: 'Istok Web' sans-serif;
+      box-shadow: 6px 6px 12px rgba(0,0,0,0.175);
+}
+
+.xlEditComotPopUpFooter
+{
+      height: 35px;
+      line-height: 35px;
+      margin-top: 15px;
+      text-align: center;
+}
+
+
+div[id*='_repeatedBodyDiv']
+{
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+}
+
+
+/*New Classes addd for Theme Part */
+.xlneoheaderbackground
+{
+    background-color:#FCFCFC;
+    box-shadow: 0px 3px 6px 0px rgba(218, 218, 218, 0.75);   
+}
+
+.xlneoMasterheaderbackground
+{
+    background-color:#EEEEEE; box-shadow: 0px 1px 6px 0px rgba(218, 218, 218, 0.75);
+}
+
+
+.xlheaderparentWithShadow
+{
+    background-color:#FFFFFF;
+    height:38px;
+}
+
+.xlheaderparentWithoutShadow
+{
+    background-color:#FFFFFF;
+    height:30px;
+}
+
+.xlheaderparentMasterGrid
+{
+    background-color:#FFFFFF;
+    height:38px;   
+}
+
+.newHeaderColumnNormal
+{
+    height:29px;
+    vertical-align:middle; 
+    overflow:hidden;
+    float:left;
+}
+
+.newHeaderColumnMasterChild
+{
+    height:25px;
+    vertical-align:middle;
+    overflow:hidden;
+    float:left;
+}
+
+
+.repeatedBodyDivHead
+{
+    outline : none;   
+}
+.existingLayoutsIndividual
+{
+    /* padding-bottom:20px; */
+    padding-left:5px;
+    font-size:12px;
+    text-overflow:ellipsis;
+}
+
+.xlManageLayoutNew
+{
+/*background-color: #FCFCFC;*/
+border-radius:2px;
+border:1px solid #E9E9E9;
+left:0px !important;
+  background: url(Images\pop_up_tex.png); 
+ box-shadow: 1px 1px 5px #E4E4E4; 
+    
+width: 233px;font-family: 'Lato', sans-serif;margin-bottom: 5px;}
+.xlLayoutHeader
+{
+        color: #ABABAB;
+        padding-left: 10px;
+        padding-top: 3px;
+        display: inline-block;
+        width: 100%;
+}
+.xlLayoutPopUpHeading
+{
+    display:inline-block;
+}
+.xlLayoutClose
+{
+display: inline-block;
+    float: right;
+    padding-right: 5px;    
+    color:#DADADA;
+}
+.xlsaveCurrentLayout
+{
+   /* position: relative; */
+   left: 93px;
+   /* top: 3px; */
+   width: 140px;
+   text-align: center;
+   font-size: 12px;
+   border-radius: 2px;
+   background-color: #40D3C0;
+   color: white;
+   height: 20px;
+   line-height: 20px;
+   /* margin-left: 8px; */
+   cursor: pointer;
+   margin: 15px 0px 5px 85px;
+}
+.xlDefaultLayout
+{
+  
+    /* position: relative; */
+    /* top: 50%; */
+    font-size: 9px;
+    background-color: #32BDE8;
+    width: 45px;
+    text-align: center;
+    color: white;
+    left: -10px;
+    margin-left: 23px;
+    position:relative;
+    top:0px;
+}
+.xlDefaultLayoutsEach
+{
+    
+}
+.existingSharedLayout
+{
+/* position: relative; */
+    width: 100%;
+    height: auto;
+    /*top: 70px;*/
+    left: 15px;
+    /* padding-left: 5px; */
+    padding-top: 0px;
+    font-size: 12px;
+    color: #5E5E5E;
+    font-weight:bold;
+    padding-bottom:15px;
+ /* margin: 0 0px; *//* padding: 0 5px; */}
+ .existingDefaultLayout
+ {
+    /*position: relative;
+    top: 51%;*/
+    width: 100%;
+    height: auto;
+    /* left: 15px; */
+    padding-top: 0px;
+    font-size: 12px;
+    color: #5E5E5E;
+    font-weight:bold;
+    margin-top: 5px ! important;
+    background-color: rgb(245, 244, 244);
+ }
+
+.existingDefaultLayoutsIndividual
+{
+    /* padding-bottom: 40px; */
+    padding-left: 23px;
+    font-size: 13px;
+    width:100px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    height:20px;
+    margin-top: -11px;
+}
+.existingLayoutsIndividual
+{
+    /* padding-bottom: 30px; */
+    /*padding-left: 5px;*/
+    font-size:12px;
+    font-size: 13px;
+    /* width:90px; */
+    text-overflow:ellipsis;
+    overflow:hidden;
+    display: inline-block;
+    color:#5E5E5E;
+}
+.xlgridlayoutdeleteicon
+{
+/* position: relative; */
+    left: 110px;
+    color: #E0E0E0;
+    width: 30px;
+    height: 25px;
+    text-align: center;  
+top: 24px;/* display: inline-block; */float: right;margin-top: 2px;}
+.xlgridlayoutdeleteicon:hover
+{
+color:Gray;    
+}
+.xlgriddefaultlayoutdeleteicon
+{
+   /* position: relative; */
+   left: 125px;
+   color: #E0E0E0;
+   width: 30px;
+   height: 25px;
+   text-align: center;
+   top: 24px;
+   float: right;
+   margin-top: 2px;
+}
+.xlgriddefaultlayoutdeleteicon:hover
+{
+color:Gray;    
+}
+.xlgriddefaultlayouteyeicon
+{
+     position: relative;
+     left: 112px;
+     color: #E0E0E0;
+     top: 24px;
+}
+.xlgridlayouteyeicon
+{
+    position: relative;
+    left: 100px;
+    color: #E0E0E0;
+    top: 24px;
+}
+.xlgridDefaultLayoutSave
+{
+  width: 50px;
+  text-align: center;
+  display: inline-block;
+  /* position: relative; */
+  left: 130px;
+  font-size: 11px;
+  border: 1px solid #CDEEE5;
+  border-radius: 1px;
+  /* height: 15px; */
+  /* line-height: 15px; */
+  vertical-align: middle;
+  color: #7ABCB0;
+  top: 24px;
+  float: right;
+  margin-right: 5px;
+}
+.xlgridDefaultLayoutSave:hover
+{
+background-color:#7ABCB0;
+color:White;
+}
+.xlgridLayoutSave
+{
+    width: 50px;
+    text-align: center;
+    /* display: inline-block; */
+    /* position: relative; */
+    left: 115px;
+    font-size: 11px;
+    border: 1px solid #CDEEE5;
+    border-radius: 1px;
+    /* height: 15px; */
+    /* line-height: 15px; */
+    vertical-align: middle;
+    color: #7ABCB0;
+    /* top: 24px; */
+    float: right;
+    margin-right: 5px;
+}
+.xlgridLayoutSave:hover
+{
+background-color:#7ABCB0;
+color:White;
+}
+.xlgridaddNewLayout
+{
+    height: 40px;
+    /* float: right; */
+    /* position: absolute; */
+    left: 140px;
+    position: relative;
+    width: 85px;
+    padding-top: 5px;
+    color: #7FCEC8;
+    font-size: 15px;  
+    cursor:pointer;  
+}
+.xlgridaddnewlayoutparent
+{
+        border-top: 2px solid#EEEEEE;
+        /* border-bottom: 2px solid #EEEEEE; */
+        /* height: 165px; */
+        margin: 6px 0;
+}
+.xlgridlayoutHeading
+{
+  width: 100px;
+  /* position: relative; */
+  top: 20px;
+  color: #757575;
+  left: 60px;
+  margin: 5px 0px 0px 55px;
+}
+.xlgridLayoutNameText
+{
+    /* position: relative; */
+    top: 25px;
+    border: 1px solid #CCCCC2;
+    width: 165px;
+    left: 25px;
+    outline: none;
+    padding-left:5px;
+    margin: 5px 0px 0px 20px;
+}
+.xlgridcancelNewLayout
+{
+    /* position: relative; */
+    top: 29px;
+    width: 50px;
+    left: 110px;
+    font-size: 12px;
+    color: #C7C7C7;
+    cursor:pointer;
+    margin: -16px 0px 0px 120px;
+}
+.xlgridsaveNewLayout
+{
+    /* position: relative; */
+    top: 45px;
+    width: 50px;
+    text-align: center;
+    background-color: #7ACCCA;
+    border-radius: 2px;
+    color: white;
+    font-size: 12px;
+    left: 40px;
+    cursor:pointer;
+    margin: 0px 0px 0px 55px;
+}
+.xlgriddefaultCheckBoxLabel
+{
+    /* position: relative; */
+    /* top: 40px; */
+    font-size: 11px;
+    /* left: 25px; */
+    /* width: 60px; */
+    display: inline-block;
+    margin: 10px -5px 15px 30px;
+}
+
+.xlgriddefaultCheckBox
+{
+    position: relative;
+    top: 16px;
+    width: 15px;
+    border: 1px solid #49D5CA;
+    height: 15px;
+    left: 83px;
+    border-radius: 2px;
+    color:#49D5CA;
+}
+
+.xlgridsharedCheckBoxLabel
+{
+    /* position: relative; */
+    /* top: 40px; */
+    font-size: 11px;
+    /* left: -35px; */
+    /* width: 60px; */
+    display: inline-block;
+    margin: 0px -5px 0px 12px;
+    padding-bottom: -10px;
+}
+
+.xlgridsharedCheckBox
+{
+    position: relative;
+    top: -15px;
+    width: 15px;
+    border: 1px solid #49D5CA;
+    height: 15px;
+    left: 170px;
+    border-radius: 2px;
+    color:#49D5CA;
+
+}
+
+.xlgridlayoutDefaultArrow
+{
+     position: relative;
+     left: 13px;
+     color: #E3DEDB;
+     top: 5px;
+     padding-right: 6px;
+}
+.xlgridlayoutDefaultArrow:hover
+{
+color:Black;    
+}
+.xlgridlayoutSharedArrow:hover
+{
+color:Black;    
+}
+.xlgridlayoutSharedArrow
+{
+    position: relative;
+    top: -4px;
+    left: 5px;
+    color: #E3DEDB;
+    padding-right: 5px;
+}
+.xlgridcheckBoxesParentExpandDefault
+{
+    display: inline-block;
+    font-size: 11px;
+    width: 100%;
+    padding-left: 45px;
+    color: #757776;
+    text-align: right;
+    padding-left: 79px ! important;
+    text-align: left;
+    font-weight:normal;
+}
+.xlgridcheckBoxesParentExpand
+{
+    /* position: relative; */
+    /* top: -25px; */
+    display: inline-block;
+    font-size: 11px;
+    width: 100%;
+    padding-left: 45px;
+    color: #757776;
+    text-align: right;
+    padding-left: 70px ! important;
+    text-align: left;
+    font-weight:normal;
+ }
+ 
+ .xlgriddefaultCheckBoxLabelExpand
+ {
+     /* position: relative; */
+     top: 0px;
+     display: inline-block
+  ;
+     margin: 0 -5px;
+  }
+  .xlgridDefaultCheckBoxExpand
+  {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      border: 1px solid #46DEC9;
+      position: relative;
+      top: 3px;
+      /* left: 7px; */
+      border-radius: 2px;
+      color:#46DEC9;
+      margin: 0 5px;
+  }
+  .xlgridsharedCheckBoxLabelExpand
+  {
+      /* position: relative; */
+      top: 0px;
+      display: inline-block;
+      /* left: 25px; */
+      margin: 0 -6px 0px 15px;
+  }
+  .xlgridSharedCheckBoxExpand
+  {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      border: 1px solid #46DEC9;
+      /* position: relative; */
+      top: 3px;
+      /* left: 35px; */
+      border-radius: 2px;
+      color:#46DEC9;
+      /* padding: 5px 0; */
+      margin: 0 5px;
+   }
+   .xlgriddefaultviewdefaultCheckBoxLabelExpand
+   {
+       display:inline-block;
+       margin: 0 -5px;
+   }
+   
+   .xlgriddefaultviewdDefaultCheckBoxExpand
+   {
+       display: inline-block;
+       width: 15px;
+       height: 15px;
+       border: 1px solid #46DEC9;
+       position: relative;
+      /* top: 3px ! important;*/
+       /* left: 7px; */
+       border-radius: 2px;
+       color:#46DEC9;
+       margin: 0 5px;
+   }
+   
+   .xlgriddefaultviewdsharedCheckBoxLabelExpand
+   {
+       display: inline-block;
+       /* position: relative; */
+       left: 25px;
+       margin: 0px -6px 0px 15px;
+       /* margin-left: 5px; */
+       padding-left: -1px;
+   }
+   .xlgriddefaultviewdSharedCheckBoxExpand
+   {
+       display: inline-block;
+       width: 15px;
+       height: 15px;
+       border: 1px solid #46DEC9;
+       position: relative;
+      /* top: 3px !important;*/
+       /* left: 35px; */
+       border-radius: 2px;
+       color:#46DEC9;
+       margin: 0 5px;
+   }
+   
+   .ruleColoringPopUpNewParent
+   {
+          background-color: #FCFCFC;
+    border-radius: 2px;
+    border: 1px solid #E9E9E9;
+    left: 0px !important;
+    top: 30px !important;
+    position: absolute;
+    z-index: 10001;
+    width: 250px !important;
+    /* height: 520px !important; */
+    box-shadow: 3px 2px 2px #888888;
+     background-image: url(Images\pop_up_tex.png); 
+    box-shadow: 1px 1px 5px #E4E4E4;
+    font-family: 'Lato', sans-serif;
+   }
+   .ruleColorHeader
+   {
+    display: inline-block;
+    }
+   .ruleColorHeaderParent
+   {
+       color: #BCBCBC;
+       padding-left: 5px;
+       padding-top: 3px;
+       display: inline-block;
+       width: 100%;
+       margin: 5px 0px;
+    }
+    .cancelRulePopUp
+    {
+        display: inline-block;
+    float: right;
+    padding-right: 5px;
+    cursor:pointer;
+     }
+     .addNewRuleParent
+     {
+       display: inline-block;
+       width: 100%;
+       color: #7BCBC8;
+       padding-right: 0px;
+       /* top: 10px; */
+       position: relative;
+       margin: 8px 0;
+     }
+     .addRuleLabel
+     {
+         /* display: inline-block; */
+         float: right;
+         cursor:pointer;
+     }
+     
+     .addRuleIcon
+     {
+         /* display: inline-block; */
+         /* float: right; */
+         position: relative;
+         /* left: 130px; */
+         top: 3px;
+         cursor:pointer;
+         float: right;
+         right: 113px;
+     }
+     .addNewRulePopUpParent
+     {
+         
+         
+    }
+    .ruleColorPopUpDropDowns
+    {
+        width: 100%;
+    position: relative;
+    top: 20px;
+
+    }
+
+    .existingColumnNames
+    {
+            color: #969696;
+            border: 1px none;
+            width: 120px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            /* background-color:#F8F8F8; */
+            width: 120px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            /* background-color: #F8F8F8; */
+            height: 20px;
+            display: inline-block;
+            color: #969696;
+            overflow:scroll;
+            overflow-x:hidden;
+            /* border: 1px solid #ccc; */
+            -webkit-box-shadow: inset 0 1px 9px rgba(0,0,0,.075);
+            margin-left: 5px;
+            padding-left: 5px;
+            position: absolute;
+            background-color: white;
+            z-index: 99;
+            box-shadow: 0px 2px 10px #C5C5C5;
+            top:-12px;
+    }
+    .existingOperators
+    {
+        color: #969696;
+        border: 1px none;
+        width: 85px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        background-color: #F8F8F8;
+        /* border: 1px solid #ccc; */
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        color:#969696;
+        display: inline-block;
+        margin-left: 135px;
+        height: 20px;
+        padding-left: 5px;
+        box-shadow: 0px 2px 10px #C5C5C5;
+        position:absolute;
+        top:-12px;
+    }
+    .columnNameText
+    {
+    /* position: relative; */
+    top: 35px;
+    outline: none;
+    left: 5px;
+    padding-left: 5px;
+    margin-top: 35px;
+    margin-left: 5px;
+    /* text-align: center; */
+    font-size: 11px;
+    color: #BDBAB3;
+    font-style: italic;
+    width: 180px;
+    height: 25px;
+    background-color:#F7F2DC;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    }
+    .rulePopUptoBeHidden
+    {
+        position: relative;
+        /* top: 15px; */
+        height: 170px;
+        background-color: #F8F8F8;
+        border-top: 1px solid #EDEDED;
+        border-bottom: 1px solid #EDEDED;
+    }
+    .columnRowColorParent
+    {
+       /* position: relative; */
+       top: 38px;
+       display: inline-block;
+       font-size: 10px;
+       /* padding-left: 5px; */
+       width: 180px;
+       margin-left: 5px;
+       border: 1px solid #00C0EF;
+       border-radius: 2px;
+       margin-top: 15px;
+    }
+    .columnColor
+    {
+        display: inline-block;
+    color: white;
+    background-color: #00BFEE;
+    text-align: center;
+    width: 90px;
+    cursor:pointer;
+    }
+    .rowColor
+    {
+        display: inline-block;
+    width: 88px;
+    text-align: center;
+    color: #B8B8B8;
+    cursor:pointer;
+    }
+    .saveCancelParent
+    {
+      /* position: relative; */
+      top: 60px;
+      display: inline-block;
+      margin-left: 64px;
+      margin-top: 15px;
+      /* z-index: 999; */
+    }
+    .saveRuleBasedColor
+    {
+        position: relative; 
+    /* top: 45px; */
+    /* left: -114px; */
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    font-size: 11px;
+    background-color: #7ACCC8;
+    color: white;
+    border-radius: 2px;
+    cursor:pointer;
+    }
+    
+    .cancelRuleBasedColor
+    {
+        position: relative; 
+    /* top: 25px; */
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    font-size: 11px;
+    color: #A5A5A5;
+    cursor:pointer;
+    }
+    .colorPalleteIcon
+    {
+        float: right;
+        /* position: relative; */
+        top: 35px;
+        font-size: 11px;
+        left: -20px;
+        width: 30px;
+        height: 25px;
+        text-align: center;
+        line-height: 25px;
+        background-color: #F7F2DC;
+        border-radius: 20px;
+        color: #B6B2B3;
+        cursor:pointer;
+        margin-top: 35px;
+        margin-right: 20px;
+     }
+     .colorPaletteDiv
+     {
+         width: 10%;
+    /*top: 70px !important;
+    left: 230px !important;*/
+    position: absolute !important;
+    z-index: 99999 !important;
+     }
+     .editDeleteRuleParent
+     {
+         /* display: inline-block; */
+         width: 100%;
+         /* position: relative; */
+         /* position: relative; */
+         top: 0px;
+         display: inline-block;
+         margin-left: -15px;
+         margin-bottom: 20px;
+         /* width: 100px; */
+         text-align: center;
+     }
+     
+     .btnEditRule
+     {
+         /* display: inline-block; */
+         /* padding-left: 70px; */
+         /* width: 35px; */
+         position: absolute;
+         left: 0px;
+         text-align: center;
+         height: 18px;
+         line-height: 18px;
+         background-color: #7ACCC8;
+         position: relative;
+         /* top: 45px; */
+         /* left: -114px; */
+         display: inline-block;
+         width: 45px;
+         text-align: center;
+         font-size: 11px;
+         /* background-color: #7ACCC8; */
+         color: white;
+         border-radius: 2px;
+         cursor:pointer;
+         display: inline-block;
+     }
+     .btnDeleteRule
+     {
+         display: inline-block;
+         padding-left: 10px;
+         position: relative;
+         /* top: 25px; */
+         display: inline-block;
+         /* width: 50px; */
+         text-align: center;
+         font-size: 11px;
+         color: #A5A5A5;
+         cursor:pointer;
+     }
+     .ruleTextParent
+     {
+         display: inline-block;
+         width: 100%;
+         margin-top: 10px;
+         padding-left: 10px;
+         color: #5E5E5E;
+         font-weight: bold;
+     }
+     .ruleColumnName
+     {
+         display: inline-block;
+     }
+     .ruleOperator
+     {
+         display: inline-block;
+         /* position: relative; */
+         left: 17px;
+         margin-left: 20px;
+      }
+      .ruleSeperator
+      {
+      display: inline-block;
+      position: relative;
+      left: 10px;
+      color: #CBCBCB;
+      top: -2px;
+      }
+      .ruleValueParent
+      {
+          padding-left: 10px;
+          margin-top: 5px;
+      }
+      .ruleValueText
+      {
+          padding-left: 5px;
+          font-size: 11px;
+          font-style: italic;
+          width: 175px;
+          height: 25px;
+          display: inline-block ! important;
+          border: 1px solid #ccc;
+          -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+          /* box-shadow: inset 0 1px 1px rgba(0,0,0,.075); */
+          /* -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; */
+          /* transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; */
+       }
+       .addRuleGridPanelNew
+       {
+           height: auto;
+    width: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+       }
+       .eachAddRule
+       {
+     /* position: relative; */
+     /* top: 30px; */
+     border-top: 1px solid #EBEBEB;
+     border-bottom: 1px solid #EBEBEB;
+     }
+     .rowColumnColored
+     {
+         float: right;
+         width: 50px;
+         height: 30px;
+         font-size: 11px;
+         color: #616161;
+         /* display: inline-block; */
+     }
+     .existingLayoutApplyTexture
+     {
+     background:url(Images\main_texture.png);
+     margin-top: 8px ! important;
+     }
+     
+     .existingLayoutApplyTexture:hover
+     {
+        
+background-color:#F5F4F4 !important;
+     }
+     
+     .xlgridcheckBoxesParentExpandDefault .toggle-group {
+    /* margin-left: 10px; */
+    height: 15px;
+}
+
+.xlgridcheckBoxesParentExpandDefault .toggle.btn.btn-xs.btn-default.off {
+    min-height: 15px;
+}
+
+.xlgridcheckBoxesParentExpandDefault .toggle.btn.btn-xs.btn-default.off {
+    min-height: 15px;
+    min-width: 30px;
+    text-align: center;
+    margin-left: 12px;
+}
+.xlgridcheckBoxesParentExpandDefault .toggle .btn .btn-xs .btn-info {
+    min-height: 15px;
+    min-width: 30px;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.xlgridcheckBoxesParentExpandDefault .toggle {
+    min-height: 15px;
+    line-height: 15px !important;
+     min-height: 15px;
+    min-width: 30px;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.xlgridcheckBoxesParentExpandDefault .toggle .toggle-on {
+    line-height: 13px ! important;
+    font-size: 9px;
+}
+
+.xlgridcheckBoxesParentExpandDefault .toggle .toggle-off {
+    line-height: 13px ! important;
+    font-size: 9px;
+}
+.footerlayoutname
+{
+text-align:right;
+padding-right:15px;    
+}
+
+  .xlgridcheckBoxesParentExpand .toggle-group {
+    /* margin-left: 10px; */
+    height: 15px;
+}
+
+.xlgridcheckBoxesParentExpand .toggle.btn.btn-xs.btn-default.off {
+    min-height: 15px;
+}
+
+.xlgridcheckBoxesParentExpand .toggle.btn.btn-xs.btn-default.off {
+    min-height: 15px;
+    min-width: 30px;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.xlgridcheckBoxesParentExpand .toggle .btn .btn-xs .btn-info {
+    min-height: 15px;
+    min-width: 30px;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.xlgridcheckBoxesParentExpand .toggle {
+    min-height: 15px;
+    line-height: 15px !important;
+     min-height: 15px;
+    min-width: 30px;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.xlgridcheckBoxesParentExpand .toggle .toggle-on {
+    line-height: 13px ! important;
+    font-size: 9px;
+}
+
+.xlgridcheckBoxesParentExpand .toggle .toggle-off {
+    line-height: 13px ! important;
+    font-size: 9px;
+}
+.defaultsharedhiddenparent
+{
+margin-top: 0px;
+margin-bottom: 1px;    
+padding-left: -7px;margin-left: -5px;}
+.defaultsharedhiddenparent .toggle.btn.btn-xs.btn-default.off
+{
+    min-height: 15px;
+    line-height: 15px;
+    text-align: center;
+    min-width: 30px;
+    height: 15px !important;
+    margin-left: 12px;
+}
+.defaultsharedhiddenparent .toggle-group
+{
+    height: 15px !important;
+}
+
+.defaultsharedhiddenparent .toggle .toggle-off {
+    line-height: 13px !important;
+    font-size: 9px;
+}
+.defaultsharedhiddenparent .toggle .toggle-on {
+    line-height: 13px !important;
+    font-size: 9px;
+}
+.defaultsharedhiddenparent .toggle.btn.btn-xs.btn-default.on
+{
+    min-height: 15px;
+    line-height: 15px;
+    text-align: center;
+    min-width: 30px;
+    height: 15px !important;
+    margin-left: 12px;
+}
+.defaultsharedhiddenparent .toggle {
+    min-height: 15px;
+    line-height: 15px;
+    text-align: center;
+    min-width: 30px;
+    height: 15px !important;
+    margin-left: 12px;
+}
+
+ .existingDefaultLayout .existingLayoutApplyTexture {
+    padding-top: 0px ! important;
+    padding-bottom: 10px ! important;
+}
+
+.existingLayoutAppend
+{
+    margin-top : 0px ! important;
+}
+.columnOptionsEach
+{
+    
+height: 20px;
+    
+overflow: hidden;
+    
+text-overflow: ellipsis;
+ }
+ .columnOptionsEach:hover
+ {
+  border-left: 3px solid #00BCEF;
+  background-color:lightgray;
+  }
+  .eachOperation:hover
+  {
+      border-left: 3px solid #00BCEF;
+  background-color:lightgray;
+  }
+  .eachOperation
+  {
+      height: 20px;
+    
+overflow: hidden;
+    
+text-overflow: ellipsis;
+  }
+  /*View Css*/
+  .mergerParentDiv
+  {
+      position: absolute;
+      top: 70px;
+      left: 65px;
+      width: 80%;
+      /* height: 525px; */
+      border: 1px solid lightgray;
+      background-color:white;
+      font-family: 'Lato', sans-serif;
+      border-radius: 2px;
+      z-index: 99;
+      /* padding-bottom: 2px; */
+     /* height: 80%;*/
+  }
+  .mergerMainContentDiv
+  {
+      
+/* height: 490px; */
+      
+width: 100%;
+      
+/* margin-right: 35px; */
+      
+/* padding-right: 3px; */
+      
+/* border-right: 1px solid #EEEEEE; */
+      
+/* height: 100%; */
+  }
+  .mergerHeaderDiv
+  {
+  
+color: #B9B9B9;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size:12px;
+  }
+  .mergerTabsMainDiv
+  {
+      
+width: 100%;
+      
+display: inline-block;
+      
+font-size: 14px;
+      
+color: #d7d7d7;
+      
+margin-left: -15px;
+      
+margin-top: 0px;
+      
+text-align: center;
+      
+height: 30px;
+  }
+  .mergerTabs
+  {
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -webkit-transition-delay: 0s;
+    -webkit-transition-duration: 0.218s;
+    -webkit-transition-property: border-color;
+    -webkit-transition-timing-function: ease;
+    border-left-color: rgb(66, 127, 237);
+    border-right-color: rgb(66, 127, 237);
+    border-top-color: rgb(66, 127, 237);
+    color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    /* font-weight: bold; */
+    /* line-height: 19.600000381469727px; */
+    margin-bottom: 0px;
+    margin-left: 25px;
+    margin-right: 18px;
+    margin-top: -5px;
+    max-width: 180px;
+    min-width: 20px;
+    outline-color: rgb(38, 38, 38);
+    outline-style: none;
+    outline-width: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-top: 15px;
+    text-decoration: none solid rgb(38, 38, 38);
+    text-overflow: ellipsis;
+    transition-delay: 0s;
+    transition-duration: 0.218s;
+    transition-property: border-color;
+    transition-timing-function: ease;
+    vertical-align: top;
+    visibility: visible;
+    white-space: nowrap;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    display: inline-block;
+    float: left;
+    color: #ABABAB;
+  }
+   .mergerTabs:hover
+  {
+  
+display: inline-block;
+color:#54D4F4;
+  }
+  .mergerTabsSelected
+  {
+      color:#54D4F4;
+  }
+  
+  .mergerSearchToggleParentDiv
+  {
+      /* border-bottom: 1px solid #EEEEEE; */
+      margin-left: 28px;
+      margin-right: 0px;
+      height: 35px;
+      margin-top: 10px;
+      position: relative;
+  }
+  .searchBarContainer
+  {
+    height: 20px;
+    position: relative;
+    margin-bottom: 5px;
+    display: inline-block;
+    margin-left: 195px;
+    width: 680px;
+    border-bottom: 1px solid #EEEEEE;
+  }
+  .searchIconDiv
+  {
+  width: 30px;
+  height: 25px;
+  display: inline-block;
+  position: relative;
+  bottom: 5px;
+  }
+  .searchIcon
+  {
+      width: auto;
+      color: rgb(153, 153, 153);
+      /* min-width: 25px; */
+      font-size: 17px;
+      cursor: pointer;
+      margin-top: 10px;
+      border-bottom: none;
+      margin-right: 15px;
+      margin-top: 6px;
+      margin-bottom: 5px;
+      /* transition: width 400ms ease; */
+      -webkit-transform: rotate(90deg);
+  }
+  .searchColumnDiv
+  {
+      border: none;
+      color: #7A7575;
+      height: 25px;
+      border-bottom: 1px solid #54D4F4;
+      outline:none;
+      margin-left: 222px;
+      margin-top: -30px;
+      width: 680px;
+      /* margin-bottom: 13px; */
+      position: absolute;
+      left: -7px;
+      top: 25px;
+      padding-left: 5px;
+  }
+  .searchColumnDivFooter
+  {
+      
+border: none;
+      
+color: #7A7575;
+      
+height: 25px;
+      
+border-bottom: 1px solid #54D4F4;
+      
+outline:none;
+      
+/*margin-left: 222px;
+      
+margin-top: -50px;*/
+      
+width: 680px;
+      
+position: absolute;
+      
+left: 25px;
+      
+top: -5px;
+  }
+  input#_searchColumn.searchColumnDiv {
+    width: 65%;
+    visibility: visible;
+    transition: width 400ms linear 0.1s, background 400ms linear;
+  }
+  input#_searchColumn {
+    height: 25px;
+    width: 0px;
+    visibility: hidden;
+    border: none;
+    border-bottom: 1px solid #00BEEF;
+}
+.mergerEachColumnNameParent
+{
+    height: 35px;
+    width: 115px;
+    display: inline-block;
+    border: 1px solid #EBE8E8;
+    margin: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    float: left;
+    border-radius: 2px;
+    line-height: 30px;
+    vertical-align: middle;
+    
+}
+.mergerEachColumnNameParentSelected
+{
+        background-image: url(Images/tick_selected.png) !important;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-color:#65C6E3;
+}
+.mergerEachColumnNameChild
+{
+    font-family: Lato;
+    padding: 5px;
+    color: #726F6F;
+    height: inherit;
+    text-align: center;
+    line-height: 15px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    OVERFLOW: hidden;
+    white-space: nowrap;
+}
+.mergerEachColumnNameChildSelected
+{
+color:White;    
+}
+.mergerColumnsMainDiv
+{
+   height: 375px;
+   width: 100%;
+   padding-right: 0px;
+   /* border: 2px solid; */
+   padding-left: 25px;
+   border-right: 1px solid #EEEEEE;
+   /* float: left; */
+   overflow: auto;
+   overflow-x: hidden;
+   margin-bottom: 10px;
+   /* width: 95%; */
+   /* margin-right: 0px; */
+   /* margin-right: 20px; */
+   /* padding-right: 10px; */
+   margin-top: 10px;
+}
+/*.mergerEachColumnNameParentSelected
+{
+    background-image:url(Images\tick_selected.png);
+    background-position :bottom right;
+    background-repeat : no-repeat;
+}*/
+.columnsExistingInGridParent
+{
+    
+/* display: inline-block; */
+    
+float: left;
+    
+/* margin-top: -230px; */
+    
+width: 155px;
+    
+text-align: center;
+    
+height: 239px;
+    
+border-right: 1px solid #EEEEEE;
+    
+margin-left: 10px;
+}
+.columnsExistingInGridIndividualParent
+{
+    
+height: 30px;
+    
+width: 20%;
+    
+/* display: inline-block; */
+    
+/* border: 1px solid #EBE8E8; */
+    
+/* margin: 5px; */
+    
+background-color: #F7F7F7;
+    
+cursor: pointer;
+    
+/* float: left; */
+    
+border-radius: 2px;
+    
+line-height: 30px;
+    
+vertical-align: middle;
+    
+font-size: 12px;
+    
+display: inline-block;
+    
+text-align: left;
+    
+padding-left: 10px;
+    
+margin-left: 7px;
+}
+.columnsExistingInGridIndividualParentSelected
+{
+background-color:#65C6E3;    
+}
+.columnsExistingInGridIndividualChild
+{
+    
+font-family: Lato;
+    
+padding: 0 10px;
+    
+color: #726F6F;
+    
+height: inherit;
+    
+text-align: center;
+    
+line-height: 15px;
+    
+font-weight: bold;
+    
+text-overflow: ellipsis;
+    
+OVERFLOW: hidden;
+    
+white-space: nowrap;
+    
+position: relative;
+    
+font-size: 13px;
+    
+display: inline-block;
+    
+height: 31px;
+    
+line-height: 30px;
+}
+.columnsExistingInGridIndividualChildSelected
+{
+    color:white;
+}
+.columnsExistingInGridIndividualChildInfoIcon
+{
+/* float: right; */
+    /* margin-bottom: 6px; */
+    /* position: absolute; */
+    /* margin-left: 15px; */
+    margin-right: 0px;
+    font-size: 12px;
+    color: #65C6E3;
+    /* bottom: 34px; */    
+position: absolute;bottom: 3px;/* left: 7px; */right: 2px;}
+.columnsExistingInGridIndividualChildInfoIconSelected
+{
+ color:white;   
+ }
+ .mergerEachColumnMainParent
+ {
+     
+margin-left: 5px;
+     
+border-top: 1px solid #F7F7F7;
+     
+margin-top: 5px;
+     
+margin-bottom: 0px;
+     
+border-bottom: 1px solid #F7F7F7;
+     
+/* padding-top: 5px; */
+     
+vertical-align: middle;
+     
+width: 90%;
+     
+position: relative;
+     
+border-right: 1px solid #F7F7F7;
+  }
+  .mergerFormatterParent
+  {
+      
+/* margin-left: 185px; */
+      
+margin-bottom: 0px;
+      
+font-size: 14px;
+      
+color: #d7d7d7;
+      
+margin-top: 0px;
+      
+padding-left: 0px;
+      
+/*padding-left: 25px;*/
+      
+width: 90%;
+  }
+ .mergerDataType
+ {
+     
+display: inline-block;
+     
+/* margin-right: 30px; */
+     
+/* margin-left: 75px; */
+     
+/* padding: 0 146px; */
+     
+padding-left: 10px;
+     
+/* padding-right: 70px; */
+     
+width: 12%;
+     
+padding-left: 5px;
+     
+text-align: left;
+ }
+ .mergerUnit
+ {
+     
+display: inline-block;
+     
+/* margin-right: 30px; */
+     
+/* padding-right: 60px; */
+     
+width: 12%;
+     
+padding-left: 5px;
+     
+text-align: left;
+     
+margin: 0 5px;
+ }
+  .mergerNegativeValue
+  {
+      
+display: inline-block;
+      
+/* margin-right: 55px; */
+      
+padding-right: 0px;
+      
+width: 15%;
+      
+padding-left: 0px;
+      
+text-align: left;
+      
+margin: 0 5px;
+  }
+  .mergerPrefix
+  {
+      
+display: inline-block;
+      
+/* margin-right: 55px; */
+      
+/* padding-right: 35px; */
+      
+width: 12%;
+      
+padding-left: 6px;
+      
+text-align: left;
+  }
+  .mergerSample
+  {
+      
+display: inline-block;
+      
+/* margin-right: 55px; */
+      
+width: 10%;
+      
+padding-left: 5px;
+      
+text-align: left;
+   }
+   .mergerDecimalPlaces
+   {
+       display: inline-block;
+       /* margin-right: 55px; */
+       /* padding-right: 25px; */
+       width: 14%;
+       padding-left: 0px;
+       text-align: left;
+   }
+   .mergerEachColumnDataType
+   {
+       
+width: 12%;
+       
+display: inline-block;
+       
+vertical-align: top;
+       
+/* margin-right: 30px; */
+       
+/* margin-left: 30px; */
+       
+font-size: 13px;
+       
+color: #726F6F;
+       
+padding-top: 5px;
+       
+padding: 0 10px;
+       
+/* padding-top: 5px; */
+       
+cursor: pointer;
+       
+position: relative;
+       
+/* margin-top: 1px; */
+       
+margin-top: 5px;
+   }
+   .mergerEachColumnUnit
+   {
+       display: inline-block;
+       vertical-align: top;
+       /* margin-right: 30px; */
+       font-size: 13px;
+       color: #726F6F;
+       width: 12%;
+       /* padding-top: 5px; */
+       text-align: left;
+       margin: 0 5px;
+       margin-top: 5px;
+       padding: 0 5px;
+       position:relative;
+       cursor:pointer;
+   }
+   .mergerEachColumnNegativeValue
+   {
+       display: inline-block;
+       vertical-align: top;
+       /* margin-right: 55px; */
+       font-size: 13px;
+       color: #726F6F;
+       width: 15%;
+       /* padding-top: 5px; */
+       text-align: left;
+       margin: 0 5px;
+       margin-top: 5px;
+       padding: 0 5px;
+       position:relative;
+       padding-left: 5px;
+       cursor:pointer;
+       /* margin: 0 5px; */
+   }
+   .mergerEachColumnPrefix
+   {
+       display: inline-block;
+       vertical-align: top;
+       /* margin-right: 55px; */
+       font-size: 13px;
+       color: #726F6F;
+       width: 12%;
+       /* padding-top: 5px; */
+       /* text-align: center; */
+       margin-top: 5px;
+       padding: 0px 15px;
+       cursor:pointer;
+   }
+   .mergerEachColumnDecimalPlaces
+   {
+       display: inline-block;
+       vertical-align: top;
+       /* margin-right: 55px; */
+       font-size: 13px;
+       color: #726F6F;
+       width: 14%;
+       padding-top: 5px;
+       /* text-align: center; */
+       margin-top: 5px;
+       padding: 0px 12px;
+       cursor:pointer;
+   }
+   .mergerEachColumnSample
+   {
+       display: inline-block;
+       vertical-align: top;
+       /* margin-right: 55px; */
+       font-size: 13px;
+       color: #726F6F;
+       width: 10%;
+       /* padding-top: 5px; */
+       margin-top: 6px;
+       /* text-align: center; */
+       padding: 0 -5px;
+       cursor:pointer;
+       padding: 0 5px;
+       text-align: left;
+   }
+   .hamBurger
+   {
+       
+margin-right: 4px;
+       
+/* color: black; */
+       
+cursor: pointer;
+       
+font-size: 13px;
+       
+background: url(Images/icon.png) no-repeat;
+       
+/* width: 0px; */
+       
+width: 20px;
+       
+height: 30px;
+       
+position: absolute;
+       
+z-index: 999;
+       
+top: 6px;
+       
+top: 0px;
+       
+margin-right: 5px;
+       
+/* padding-bottom: 3px; */
+       
+/* vertical-align: top; */
+       
+background-position-y: 7%;
+   }
+   .mergerAddColumnFooter
+   {
+       width: 100px;
+       height: 30px;
+       margin-left: 16px;
+       color: #00AFF0;
+       font-family: lato;
+       font-weight: bold;
+       margin-bottom: 10px;
+       display:inline-block;
+       cursor:pointer;
+   }
+   .viewColumnsMainDiv
+   {
+        display:none;
+        /* height: 100px; */
+        /* margin-top: 150px; */
+        margin-left: 0px;
+        max-height: 205px;
+        overflow:auto;
+        margin-top: 0px;
+        width:100%;
+        background: url(Images/tex.png) repeat;
+        padding-left: 10px;
+        width: 100%;
+   }
+   .viewColumnsIndividualParent
+   {
+       
+height: 30px;
+       
+width: 160px;
+       
+display: inline-block;
+       
+border: 1px solid #EBE8E8;
+       
+margin: 5px;
+       
+background-color: #fff;
+       
+cursor: pointer;
+       
+float: left;
+       
+border-radius: 2px;
+   }
+   .viewColumnsIndividualChild
+   {
+       
+font-family: Lato;
+       
+padding: 5px;
+       
+color: #726F6F;
+       
+height: inherit;
+       
+text-align: center;
+       
+line-height: 15px;
+       
+font-weight: bold;
+       
+text-overflow: ellipsis;
+       
+OVERFLOW: hidden;
+       
+white-space: nowrap;
+       
+font-size: 12px;
+   }
+   .viewColumnsIndividualParentSelected
+   {
+       
+background-image: url(Images/tick_selected.png) !important;
+       
+background-repeat: no-repeat;
+       
+background-position: bottom right;
+       
+background-color:#65C6E3;
+   }
+   .viewColumnsIndividualChildSelected
+   {
+       
+color: white;
+   }
+   .firstUnitOption
+   {
+       outline: none;
+       border: 1px solid #d7d7d7;
+       border-radius: 2px;
+       color: #726F6F;
+       padding-left: 4px;
+   }
+   .firstnegativeValueOption
+   {
+      outline: none;
+      border: 1px solid #d7d7d7;
+      border-radius: 2px;
+      color: #726F6F;
+      padding-left: 4px;
+   }
+   .firstPrefixOption
+   {
+       outline: none;
+       border: 1px solid #d7d7d7;
+       border-radius: 2px;
+       color: #726F6F;
+       padding-left: 4px;
+   }
+   .samplePrefixOption
+   {
+       outline: none;
+    /*border: 1px solid #EEEEEE;*/
+    border-radius: 2px;
+    color: #969696;
+   }
+   .firstdecimalPlacesOption
+   {
+        outline: none;
+        border: 1px solid #d7d7d7;
+        border-radius: 2px;
+        color: #726F6F;
+        padding-left: 4px;
+   }
+   .thousandOption
+   {
+       
+   }
+   .millionOption
+   {
+       
+   }
+   .billionOption
+   {
+       
+   }
+   .noneOption
+   {
+       
+   }
+   .parentEmptyOption
+   {
+       position: absolute;
+       z-index: 999;
+       background-color: white;
+       /* border: 1px solid #EEEEEE; */
+       width: 102%;
+       left: -1px;
+       border-left: 1px solid rgb(215, 215, 215);
+       border-right: 1px solid rgb(215, 215, 215);
+       border-bottom: 1px solid rgb(215, 215, 215);
+       text-align:left;
+       color:#969696;
+   }
+   .defaultBrac
+   {
+       
+   }
+   .colored
+   {
+       
+   }
+   .coloredBrac
+   {
+       
+   }
+   .defaultOption
+   {
+       
+   }
+   .optionselected:hover
+   {
+   border-left: 3px solid #00BCEF;
+   background-color:lightgray;
+   color:#969696 !important;
+   padding-left: 8px !important;
+   }
+   .parentEmptyOptionNegative
+   {
+     
+position: absolute;
+     
+z-index: 999;
+     
+background-color: white;
+     
+/* border: 1px solid #EEEEEE; */
+     
+width: 102%;
+     
+left: -1px;
+     
+border-left: 1px solid rgb(215, 215, 215);
+     
+border-right: 1px solid rgb(215, 215, 215);
+     
+border-bottom: 1px solid rgb(215, 215, 215);
+     
+text-align: left;
+     
+/* margin-left: 10px; */
+     
+color: #726F6F;
+   }
+   
+.parentEmptyOption .optionselected
+{
+        color: #726F6F;
+        width: 100%;
+        padding-left: 9px;
+}
+.parentEmptyOptionNegative .optionselected
+{
+       color: #726F6F;
+       width: 100%;
+       /* padding-left: 1px; */
+       padding-left: 10px;
+}
+.mergerColumnDeleteIcon
+{
+    color: #7A6F6F;
+    font-size: 12px;
+    cursor:pointer;
+    margin-left:10px;
+    position: absolute;
+    top: 8px;
+    right: -52px;
+ }
+ .mergerColumnRefreshIcon
+ {
+     color: #7A6F6F;
+     font-size: 12px;
+     cursor:pointer;
+     width:20px;
+     display: inline-block;
+     position: absolute;
+     top: 8px;
+     right: -39px;
+ }
+ .mergerDeleteFooter
+ {
+     display: inline-block;
+    margin-left: 0px;
+    color: #999999;
+ }
+ .mergerAddColumnFooterParent
+ {
+     height: 35px;
+     border-top: 1px solid #EEEEEE;
+     /* margin-left: 2px; */
+     margin-top: 20px;
+     background: url(Images/tex.png) repeat;
+     width: 100%;
+     /* margin-left: 0px; */
+ }
+ .applyButtonMainDiv
+ {
+     
+ }
+ .applyButton
+ {
+     
+display: inline-block;
+     
+/* padding-left: 70px; */
+     
+/* width: 35px; */
+     
+position: absolute;
+     
+left: 0px;
+     
+text-align: center;
+     
+height: 18px;
+     
+line-height: 18px;
+     
+background-color: #7ACCC8;
+     
+position: relative;
+     
+/* top: 45px; */
+     
+/* left: -114px; */
+     
+display: inline-block;
+     
+width: 60px;
+     
+text-align: center;
+     
+font-size: 12px;
+     
+/* background-color: #7ACCC8; */
+     
+color: white;
+     
+border-radius: 2px;
+     
+cursor: pointer;
+     
+display: inline-block;
+     
+float: right;
+     
+margin-right: 10px;
+     
+margin-top: 15px;
+ }
+ .cancelButton
+ {
+     
+/* width: 20px; */
+     
+display: inline-block;
+     
+/* padding-left: 70px; */
+     
+/* width: 35px; */
+     
+left: 0px;
+     
+text-align: center;
+     
+height: 18px;
+     
+line-height: 18px;
+     
+/* background-color: #7ACCC8; */
+     
+position: relative;
+     
+/* top: 45px; */
+     
+/* left: -114px; */
+     
+display: inline-block;
+     
+width: 60px;
+     
+text-align: center;
+     
+font-size: 12px;
+     
+/* background-color: #7ACCC8; */
+     
+color: #ABABAB;
+     
+border-radius: 2px;
+     
+cursor: pointer;
+     
+display: inline-block;
+     
+float: right;
+     
+margin-right: 10px;
+     
+margin-top: 15px;
+ }
+ .viewColumnsIndividualParent:hover
+ {
+ background-color:#00AFF0;    
+ }
+ .viewColumnsIndividualChild:hover
+ {
+ color:White    
+ }
+ .parentEmptyOptionDataType
+ {
+         position: absolute;
+         z-index: 999;
+         background-color: white;
+         /* border: 1px solid #EEEEEE; */
+         width: 102%;
+         left: -1px;
+         border-left: 1px solid rgb(215, 215, 215);
+         border-right: 1px solid rgb(215, 215, 215);
+         border-bottom: 1px solid rgb(215, 215, 215);
+         text-align: left;
+         color: #969696;
+ }
+ .parentEmptyOptionDataType .optionselected
+ {
+ color: #726F6F;
+ width: 100%;
+ padding-left: 13px;
+ }
+ .number optionselected
+ {
+     
+ }
+ .currencyOption optionselected
+ {
+     
+ }
+ .percentageOption optionselected
+ {
+     
+ }
+ .firstDataTypeOption
+ {
+  outline: none;
+  border: 1px solid #d7d7d7;
+  border-radius: 2px;
+  color: #726F6F;
+  padding-left: 4px;
+  }
+  .hamBurger:hover 
+  {
+      background: url(Images/icon_hover.png) no-repeat;
+      /* width: 0px; */
+      width: 15px;
+      height: 25px;
+      position: absolute;
+      z-index: 999;
+      top: 0px;
+      cursor:move;
+      margin-right: 5px;
+}
+.neoexpandGroupButton {
+    padding-left: 5px;
+    padding-top: 6px;
+}
+
+.xlQtipvalue
+{
+    float: left;
+    width: 100px;
+    overflow:;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 25px;
+}
+.xlQtipLabel
+{
+    float: left;
+    width: 150px;
+    overflow:hidden;
+}
+.xlQtipMain
+{
+width:300px;    
+}
+.xlQtipEach
+{/* height: 25px; *//* line-height: 25px; */}
+
+
+.saveAsLayout
+{
+display: inline-block;
+    /* padding-left: 70px; */
+    /* width: 35px; */
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    height: 18px;
+    line-height: 18px;
+    background-color: #7ACCC8;
+    position: relative;
+    /* top: 45px; */
+    /* left: -114px; */
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    /* background-color: #7ACCC8; */
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;    
+}
+.mainParentMergedViewNew
+{
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    width: 75%;
+    height: 85%;
+    border: 1px solid lightgray;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    border-radius: 2px;
+    z-index: 99;
+    padding-left: 8px;
+    padding-top: 5px;
+    color: #D6CFD6;
+}
+.mainHeaderMergedViewNew
+{
+    
+/* position: absolute; */
+    
+margin-top: 25px;
+    
+margin-left: 50px;
+    
+font-size: 24px;
+    
+font-family: fantasy;
+    
+width: 100%;
+    
+/* font-weight: 100; */
+}
+.mergerCustomizeColumn
+{
+    
+display: inline-block;
+    
+/* font-size: 20px; */
+}
+.mergerColorRule
+{
+    
+display: inline-block;
+    
+margin-left: 200px;
+}
+.mergerGrouping
+{
+    
+display: inline-block;
+    
+margin-left: 200px;
+}
+.mainCustomizeColumnsParent
+{
+    width: 30%;
+    padding-left: 65px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #FFF7FF;
+    height: 438px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.mainColorRuleParent
+{
+    
+    width: 30%;
+    padding-left: 65px;
+    margin-top: 60px;
+    display:inline-block;
+}
+.mainGroupingParent
+{
+    
+width: 30%;
+    
+padding-left: 10px;
+    
+margin-top: 10px;
+    
+display:inline-block;
+    
+float: right;
+}
+.GRoupingColumnsindividual
+{
+    
+}
+.customizeColumnsIndividual
+{
+    
+}

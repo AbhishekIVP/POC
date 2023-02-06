@@ -1,0 +1,3968 @@
+﻿
+
+/*Mail Subscription Css Start*/
+
+
+.RADWFMailSubscriptionMain 
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    /* right:  0px; */
+    /* opacity:  .4; */
+    background-color: transparent;
+    padding-top: 40px;
+    z-index: 40;
+}
+
+.RADWFMailSubscriptionHeader 
+{
+    width: 15%;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    font-size: 17px;
+    font-family: Oswald;
+    /* font-weight: bold; */
+    float: left;
+    text-transform:  uppercase;
+    color:  #8C8C8C;
+    display: none;
+}
+
+.RADWFMailSubscriptionMessage
+{
+    display: block;
+    position: relative;
+    /* grid-template-columns: repeat(7, 14%); */
+    /* grid-column-gap: 0; */
+    /* grid-row-gap: 15px; */
+    /* justify-items: stretch; */
+    /* grid-template-rows: 30px; */
+    /* border-bottom: 1px dotted lightgray; */
+    /* border-right: 0px; */
+    /* color: white; */
+    /* border-top-left-radius: 4px; */
+    /* background-image: linear-gradient(to right, #3F5061 0, #3F5061 20%,#EBF0F6 20%,#EBF0F6 100%); */
+
+    width: 60%;
+    height: 20px;
+    line-height: 20px;
+    text-align :center;
+    font-size:13px;
+    font-family:lato;
+    color:red;
+    margin: 0 auto;
+}
+
+.RADWFMailSubscriptionContent 
+{
+    width: 41%;
+    height: 84%;
+    box-shadow: 3px 2px 10px #a9a9a9;
+    border-radius: 4px;
+    background-color: white;
+    /* margin: 0 auto; */
+    /* top: 20px; */
+    position: absolute;
+    position: middle;
+    right: 0px;
+    bottom: 31px;
+    /* top: 188px; */
+    opacity: 1 !important;
+}
+
+.RADWFMailSubscriptionMailParent 
+{
+    width: 93%;
+    height: 72%;
+    margin:  0 auto;
+    overflow: auto;
+    height: calc(100% - 90px);
+}
+
+.RADWFMailSubscriptionToParent 
+{
+    width: 100%;
+    min-height: 40px;
+    margin-bottom: 10px;
+    /* display: none; */
+}
+
+.RADWFMailSubscriptionCCParent 
+{
+    width: 100%;
+}
+
+.RADWFMailSubscriptionBCCParent 
+{
+    width: 100%;
+}
+
+.RADWFMailSubscriptionTo 
+{
+    width: 9%;
+    height: 40px;
+    line-height: 62px;
+    display: inline-block;
+    font-size: 14px;
+    font-family: lato;
+    font-weight: 600;
+    vertical-align: top;
+    color: #6F6F6F;
+}
+
+.RADWFMailSubscriptionCC 
+{
+    width: 29%;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    font-size: 12px;
+    font-family: lato;
+    vertical-align: top;
+}
+
+.RADWFMailSubscriptionBCC 
+{
+    width: 29%;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    font-size: 12px;
+    font-family: lato;
+    vertical-align: top;
+}
+
+.RADWFMailSubscriptionToTextParent
+{
+    width: 90%;
+    display: inline-block;
+    font-size: 12px;
+    font-family: lato;
+    border-bottom: 1px solid lightgray;
+    outline: none;
+}
+
+.RADWFMailSubscriptionCCTextParent
+{
+    width: 70%;
+    display: inline-block;
+    font-size: 12px;
+    font-family: lato;
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+.RADWFMailSubscriptionBCCTextParent
+{
+    width: 70%;
+    display: inline-block;
+    font-size: 12px;
+    font-family: lato;
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+.RADWFMailSubscriptionToText 
+{
+    width: 30%;
+    height: 40px;
+    font-size: 14px;
+    font-family: lato;
+    display: inline-block;
+    outline: none;
+    line-height: 40px;
+    padding-left:5px;
+}
+
+.RADWFMailSubscriptionCCText 
+{
+    width: 20%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    font-family: lato;
+    display: inline-block;
+    outline: none;
+}
+
+
+.RADWFMailSubscriptionBCCText 
+{
+    width: 20%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    font-family: lato;
+    display: inline-block;
+    outline: none;
+}
+
+
+.RADWFMailSubscriptionSubjectParent 
+{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.RADWFMailSubscriptionSubject 
+{
+    width: 9%;
+    height: 40px;
+    line-height: 65px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: lato;
+    color: #6F6F6F;
+}
+
+.RADWFMailSubscriptionSubjectText 
+{
+    width: 90%;
+    height: 40px;
+    line-height: 62px;
+    display: inline-block;
+    font-size: 14px;
+    font-family: lato;
+    border-bottom: 1px solid lightgray;
+    outline: none;
+}
+
+.RADWFMailSubscriptionBodyParent
+{
+    width: 100%;
+    /* height: 49%; */
+}
+
+.RADWFMailUserAutoSuggestPopup 
+{
+    position: absolute;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    padding: 10px;
+    z-index:999;
+}
+
+.RADWFMailUserAutoSuggestPopupChild 
+{
+    max-height: 200px;
+    width: 200px;
+    overflow: auto;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.RADWFMailUserAutoSuggestParent
+{  
+    padding: 2px 5px;
+    cursor: pointer;
+
+}
+
+.RADWFMailUserAutoSuggestParent:hover
+{  
+    background-color:#F0F0F0;
+
+}
+
+.RADWFMailUserAutoSuggestChild
+{
+    height: 20px;
+    line-height: 20px;
+    padding-left: 5px;
+    outline:none;
+}
+
+.RADWFMailUserAutoSuggestNameChild
+{
+    height: 20px;
+    line-height: 20px;
+    padding-left: 5px;
+    outline:none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.RADWFMailUserAutoSuggestEmailChild
+{
+    height: 20px;
+    line-height: 20px;
+    padding-left: 5px;
+    outline:none;
+
+}
+
+.RADWFMailAddedUserParent
+{
+    padding: 5px 2px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.RADWFMailAddedUserChild
+{
+    background: #eaf1f3;
+    border-radius: 5px;
+    padding: 0 5px 0 10px;
+}
+.RADWFMailAddedUserChildIco
+{
+    height: 30px;       
+    width: 20px;
+    text-align: center;
+    vertical-align: top;
+    color: #ccc6c6;
+    display: none !important;
+}
+.RADWFMailAddedUserChildText
+{
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    color: #070f10;
+    /*text-transform: capitalize;*/
+}
+.RADWFMailAddedUserChildDeleteIco
+{
+    height: 30px;
+    line-height: 30px !important;
+    display: inline-block;
+    width: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: #b7b7b7;
+    vertical-align: top;
+}
+
+.RADWFMailHightlight
+{
+    background-color:lightgray;
+}
+
+.RADWFMailHeader
+{
+    width: 60%;
+    height: 50px;
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+    /* vertical-align: middle; */
+}
+
+.RADWFMailFooter
+{
+    width: 30%;
+    padding: 7px 0;
+    height: 40px;
+    text-align: right;
+    margin: 0 auto;
+}
+
+.RADWFMailButtonBarMain 
+{
+    height: 26px;
+    /* float: right; */
+}
+
+.RADWFMailButtonBarParent 
+{
+    height: 25px;
+    width: 50%;
+    /* padding: 12px; */
+    /* display:  inline-block; */
+    float: left;
+}
+
+.RADWFMailButtonBarButton 
+{
+    height: 25px;
+    line-height: 25px;
+    /* padding: 0 5px; */
+    background-color: #43D9C6;
+    color: white;
+    cursor: pointer;
+    text-align:  center;
+    font-family:  lato;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.RADWFMailCheckBoxMain 
+{
+    height: 35px;
+    display: table;
+    margin: 0 auto;
+}
+
+.RADWFMailCheckBoxParent 
+{
+    height: 35px;
+    padding-top: 10px;
+    /* padding-right: 50px; */
+    display: inline-block;
+}
+
+.RADWFMailCheckBox 
+{
+    font-size: 14px;
+    font-weight: 550;
+    font-family: lato;
+    color: #6F6F6F;
+    letter-spacing: -1px;
+}
+
+.RADWFMailCheckBox > input[type="checkbox"] 
+{
+    margin-right : 5px;
+}
+
+
+.RADWFMailTypeParent
+{
+    width: 85%;
+    height: 30px;
+    display: table;
+    display: none;
+    margin: 0 auto;
+}
+
+.RADWFMailTypeToggle
+{
+    height: 20px;
+    width: 50%;
+    display: table;
+    border-radius: 2px;
+    border: 1px solid #0FA7E8;
+    cursor: pointer;
+    /* padding-left: 0px; */
+    margin: 0 auto;
+}
+
+.RADWFMailNormalType
+{
+    width: 50%;
+    float: left;
+    height: 23px;
+    line-height: 23px;
+    text-indent: 25px;
+    font-family:  Lato;
+    font-size: 14px;
+    color: #9D9EA0;
+}
+
+.RADWFMailEscaledType
+{
+     width: 50%;
+     float: left;
+     height: 23px;
+     line-height: 23px;
+     text-indent: 30px;
+     font-family: Lato;
+     font-size: 14px;
+     color: #9D9EA0;
+}
+
+.RADWFMailToggleHighLight
+{
+    background-color: #0FA7E8;
+    color: white;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+
+
+/*Mail Subscription Css End*/
+
+.radAllWorkFlowGridBody 
+{
+    overflow: auto;
+    border-bottom-left-radius: 4px;
+    background-image: linear-gradient(to  right, #526b84 0, #3F5061 20%,#EBF0F6 20%,#EBF0F6 100%);
+    padding-left: 20px;
+}
+
+.radAllWorkFLowMainDiv 
+{
+    width: 100%;
+    background-color: #F2F6F9;
+}
+
+.radAllWorkFLowHeader
+{
+    width: 100%;
+    height: 50px;
+    text-align: right;
+}
+
+
+.radAllWorkFlowDataRow:last-child 
+{
+    /* border-bottom:1px solid lightgray; */
+}
+
+.raddltWorkFlowPopUp:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -6px;
+    right: 37px;
+}
+
+.raddltWorkFlowPopUp:before 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #a9a7a7 transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    top: -7px;
+    right: 37px;
+}
+
+
+.radDeleteWorkFlowButtonBar 
+{
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+}
+
+.radDeleteWorkFlowOKButtonParent 
+{
+    height: 30px;
+    display: inline-block;
+    padding: 4px 0px;
+    font-size: 12px;
+}
+
+.radDeleteWorkFlowOKButton 
+{
+    height: 22px;
+    line-height: 22px;
+    padding: 0 5px;
+    background-color: #43D9C6;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.radDeleteWorkFlowCancelButtonParent 
+{
+    height: 30px;
+    padding: 4px 7px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.radDeleteWorkFlowcancelButton 
+{
+    height: 22px;
+    line-height: 22px;
+    padding: 0 5px;
+    background-color: #43D9C6;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.radDisplayNoneClass
+{
+    display:none;
+}
+
+
+/* Alert Div Css Start*/
+.radworkflowAlertPopUpParent
+{
+    box-shadow: 5px 7px 22px -7px #6D6D6D;
+    background-image: url('images/popup_texture.png');
+    min-height: 168px;
+    font-family: Lato;
+    border: 1px solid #D4D4D4;
+    border-top: 0px;
+    position: absolute;
+    background-color: white;
+    left: 40%;
+    width: 400px;
+    z-index: 100000316;
+}
+
+.radworkflowPopupAlertUpperSuccessDiv
+{
+     height: 4px;
+     width: 100%;
+     background-color: #ACD373;    
+}
+
+.radworkflowPopUpError
+{
+      min-width: 200px;    
+}
+
+
+.radworkflowErrorDivLeft
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 12%;
+    margin-top: 27px;
+    margin-left: 20px;    
+}
+
+.radworkflowUserSuccess
+{
+   background-image: url("../Images/icons/rad_alert_success.png"); 
+   height: 50px;
+   width: 50px;
+}
+
+.radworkflowErrorDivRight
+{
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 30px;
+      width: 70%;
+      margin-left: 15px;
+}
+
+.radworkflowErrorDivText
+{
+      font-size: 14px;
+      font-weight: normal;
+      margin-top: 15px;
+}
+/* Alert Div Css End*/
+
+
+/*Changes by Tushar*/
+
+.radAllWorkFlowGridHeader
+{
+    /* display: inline-block; */
+    /* grid-template-columns: repeat(5, 20%); */
+    /* grid-column-gap: 0; */
+    /* grid-row-gap: 15px; */
+    /* justify-items: stretch; */
+    /* grid-template-rows: 30px; */
+    /* border-bottom: 1px dotted lightgray; */
+    height: 30px;
+    /* border-right: 0px; */
+    /* border-bottom: 0px solid; */
+    border-radius: 2px;
+}
+
+.radAllWorkFlowDataRow 
+{
+    /* display: grid; */
+    /* grid-template-columns: repeat(5, 20%); */
+    /* grid-column-gap: 0; */
+    /* grid-row-gap: 15px; */
+    /* justify-items: stretch; */
+    /* grid-template-rows: 30px; */
+    border-bottom: 1px dashed #b4c1d0;
+    height: 37px;
+    line-height: 37px;
+    /* border-image: linear-gradient(to  right, #526b84 0, #3F5061 20%,#EBF0F6 20%,#EBF0F6 100%); */
+    /* border-bottom: 0px solid; */
+    /* border-radius: 2px; */
+    position:relative;
+}
+.radAllWorkFlowGridBody 
+{
+    overflow: auto;
+}
+
+.radAllWorkFLowMainDiv 
+{
+    width: 100%;
+    background-color: #EBF0F6;
+    position: relative;
+}
+
+.radAllWorkFLowHeader 
+{
+    width: 100%;
+    height: 50px;
+    text-align: right;
+    width: 1400px;
+    width: 90%;
+    display: table;
+    margin: 0 auto;
+}
+
+.radAllWFEmpty 
+{
+    width: 1400px;
+    max-width: 90%;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-family: Lato;
+}
+
+.radAllWorkFlowBody 
+{
+    width: 1400px;
+    width: 90%;
+    /*display: table;*/
+    margin: 0 auto;
+    /* padding-top: 10px; */
+    position: relative;
+}
+
+.radAllWorkFlowGridHeader > .radWorkFlowHeaderItems 
+{
+    text-align: center;
+    height: 30px;
+    line-height: 26px;
+    text-align: left;
+    float: left;
+    vertical-align: top;
+    font-family: Lato;
+}
+
+.radWorkFlowHeaderItems 
+{
+    text-align: center;
+    height: 37px;
+    line-height: 50px;
+    text-align: left;
+    float: left;
+    vertical-align: top;
+    font-family: Lato;
+}
+
+.radWorkFlowHeaderItems:last-child
+{
+    border-right:0px;   
+}
+
+.radAllWorkFlowButtonBar 
+{
+    height: 50px;
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    /* box-shadow: -3px 3px 9px #949494; */
+    background-color: #EBF0F6;
+    box-shadow: -3px 3px 7px 0px #aaaaaa;
+    float: right;
+}
+
+.radUploadWorkFlowParent
+{
+    height: 50px;
+    padding: 12px;
+    position: absolute;
+    display: inline-block;
+    right: 114px;
+}
+
+.radAddWorkFlowParent 
+{
+    height: 50px;
+    padding: 12px;
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+}
+
+.radAddWorkFlow,.radUploadWorkFlow 
+{
+    height: 26px;
+    line-height: 26px;
+    padding: 0 5px;
+    background-color: #43D9C6;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.radAllWorkFlowDataRow:last-child 
+{
+    /* border-bottom:1px solid lightgray; */
+}
+
+.radAllWorkFlowDelete,.radAllWorkFlowEdit ,.radAllWorkFlowAuditParent,.radAllWorkFlowDownload
+{
+    cursor: pointer;
+    display: inline;
+    color:#428bca;
+}
+
+.raddltWorkFlowPopUp {
+    position: absolute;
+    height: 60px;
+    z-index: 1;
+    top: 39px;
+    border-radius: 2px;
+    left: 47%;
+    box-shadow: 2px 1px 11px #949494;
+    background-color: white;
+}
+
+.raddltWorkFlowPopUp:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -6px;
+    right: 37px;
+}
+
+.raddltWorkFlowPopUp:before 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #a9a7a7 transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    top: -7px;
+    right: 37px;
+}
+
+.radDltWorkFlowPopUpText 
+{
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+}
+
+.radDeleteWorkFlowButtonBar 
+{
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+}
+
+.radDeleteWorkFlowOKButtonParent 
+{
+    height: 30px;
+    display: inline-block;
+    padding: 4px 0px;
+    font-size: 12px;
+}
+
+.radDeleteWorkFlowOKButton 
+{
+    height: 22px;
+    line-height: 22px;
+    padding: 0 5px;
+    background-color: #43D9C6;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.radDeleteWorkFlowCancelButtonParent 
+{
+    height: 30px;
+    padding: 4px 7px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.radDeleteWorkFlowcancelButton 
+{
+    height: 22px;
+    line-height: 22px;
+    padding: 0 5px;
+    background-color: #43D9C6;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.radDisplayNoneClass
+{
+    display: none !important;
+}
+
+
+.radWorkFLowStateItem 
+{
+    width: 115px;
+    background-color: #f0f5fb;
+    position: absolute;
+    border-radius: 6px;
+    z-index:1;
+}
+
+.radWorkFLowStateItemPadding
+{
+    /* padding-bottom:10px; */
+}
+
+.radAddWorkFlowHeader 
+{
+    height: 50px;
+    text-align: right;
+    padding-left: 10px;
+}
+
+.radWFStatePopup {
+    position: absolute;
+    width: 250px;
+    box-shadow: 2px 1px 11px #949494;
+    top: -5px;
+    right: 30px;
+    z-index: 1;
+    background-color: white;
+}
+
+.radWFStatePopup:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -6px;
+    left: 37px;
+}
+
+.radWFStatePopup:before 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #a9a7a7 transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    top: -7px;
+    left: 37px;
+}
+
+.radWFStateLabel {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    height: 30px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.radWFStateText > input 
+{
+    border: 0px;
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    outline:none;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.radWFStateText {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    height: 30px;
+    line-height: 30px;
+}
+
+.radWFStateLabelparent {
+    height: 40px;
+    padding: 5px;
+    display: inline-block;
+    width: 90%;
+    vertical-align: top;
+}
+
+.radWFStateSave {
+    display: inline-block;
+    width: 10%;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: top;
+    text-align: center;
+    color: #0A77B9;
+    cursor:pointer;
+}
+
+.radAddNewStateParent 
+{
+    height: 50px;
+    position: relative;
+    display: inline-block;
+    padding: 13px 5px;
+    vertical-align: top;
+}
+
+.radAddNewState 
+{
+    height: 24px;
+    line-height: 24px;
+    background-color: #43D7C4;
+    border: 1px solid #43D7C4;
+    color: white;
+    border-radius: 2px;
+    width: 120px;
+    text-align: center;
+    cursor:pointer;
+}
+
+.radCustomEndPoint
+{
+    cursor:pointer;
+    z-index:1;
+}
+
+.radSaveWF
+{
+   height: 24px;
+    line-height: 24px;
+    background-color: #43D7C4;
+    border: 1px solid #43D7C4;
+    color: white;
+    border-radius: 2px;
+    width: 120px;
+    text-align: center;
+    cursor:pointer;
+}
+
+.radSaveWFParent
+{
+     height: 50px;
+     display: inline-block;
+     padding: 13px 5px;
+     vertical-align: top;
+}
+
+.radAddWorkFlowBody 
+{
+    /* position: relative; */
+}
+
+.radWorkFlowStateEdit > input 
+{
+    border: 0px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 2px;
+    padding-left: 5px;
+    width: 100%;
+    outline: none;
+}
+
+.radAddWorkFlowBodyLeft 
+{
+    height: 100%;
+}
+
+.radAddWorkFlowBodyPlumb 
+{
+    position: relative;
+    height: 100%;
+    padding: 15px 30px 0 30px;
+}
+
+.radWorkFlowStateNameSection 
+{
+    background-color: #57749F;
+    color: white;
+    border-radius: 6px;
+    /*padding: 2px 2px 3px 2px;*/
+    padding: 0px 0px 3px 0px;
+    font-family: Oswald;
+    /* font-size: 14px; */
+    text-transform: uppercase;
+    cursor:pointer;
+    /* color: lightgray; */
+    box-shadow: 0px 2px 6px 1px #a9a9a9c7;
+    /* padding-top: 0px; */
+}
+
+
+
+.radWorkFlowStateName 
+{
+    width: 110%;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    padding: 0 8px;
+    padding-bottom: 8px;
+    padding-top: 3px;
+    position: relative;
+    left: -5%;
+    word-break: break-word;
+}
+
+.radWorkFlowStateNameEdit 
+{
+    width: 100%;
+    text-align: center;
+    color: #99b1cf;
+    font-weight: bold;
+    height: 22px;
+    line-height: 25px !important;
+    display:inline-block;
+    text-align:right;
+    padding-right:5px;
+    width:50%;
+    font-size: 12px;
+}
+
+.radWorkFlowStateNameEdit:hover
+{
+    color: #e0eaf7;
+}
+
+.radWorkFlowStateNameDelete
+{
+    width: 100%;
+    text-align: center;
+    color: #99b1cf;
+    font-weight: bold;
+    height: 22px;
+    line-height: 25px !important;
+    display:inline-block;
+    text-align:left;
+    padding-left:5px;
+    width:50%;
+    font-size: 12px;
+}
+
+.radWFBoundaryStates
+{
+    width:100% !important;
+    text-align:center !important;
+}
+
+.raddltStatePopUp 
+{
+    position: absolute;
+    height: 60px;
+    z-index: 10;
+    top: 71px;
+    border-radius: 2px;
+    left: 36%;
+    box-shadow: 2px 1px 11px #949494;
+    background-color: white;
+    width: 280px;
+    color: black;
+    font-weight: normal;
+    text-transform: initial;
+    font-family: Lato;
+}
+
+.raddltStatePopUp:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -6px;
+    left: 20px;
+}
+
+.raddltStatePopUp:before 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #a9a7a7 transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    top: -7px;
+    left: 20px;
+}
+
+
+.raddltStatePopUpRight 
+{
+    position: absolute;
+    height: 60px;
+    z-index: 101;
+    top: 71px;
+    border-radius: 2px;
+    right:0px;
+    box-shadow: 2px 1px 11px #949494;
+    background-color: white;
+    width: 280px;
+    color: black;
+    font-weight: normal;
+    text-transform: initial;
+    font-family: Lato;
+}
+
+.raddltStatePopUpRight:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -6px;
+    right: 39px;
+}
+
+.raddltStatePopUpRight:before 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #a9a7a7 transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    top: -7px;
+    right: 39px;
+}
+
+
+.radWorkFlowStateNameDelete:hover
+{
+    color: #e0eaf7;
+}
+
+.radWorkFlowStateEdit 
+{
+    background-color: white;
+    border-radius: 2px;
+    color: lightgray;
+    outline: none;
+}
+
+.radAddWorkFlowPopUpParent 
+{
+    position: absolute;
+    width: 375px;
+    right: 12px;
+    top: 50px;
+    background-color: #fafcff;
+    border-radius: 2px;
+    font-family: Lato;
+    padding-bottom: 5px;
+    box-shadow: -2px 4px 10px #C5C5C5;
+    z-index:1;
+    padding-top: 16px;
+    padding-right: 10px;
+}
+
+
+.radAddWorkFlowPopUpParent:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -6px;
+    right: 37px;
+}
+
+.radAddWorkFlowPopUpParent:before 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #e2e2e2 transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    top: -7px;
+    right: 37px;
+}
+
+
+.radAddWorkFlowNameHeader 
+{
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.radWFValidation 
+{
+    position: absolute;
+    right: 11px;
+    color: white;
+    top: 11px;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    text-align: center;
+    background-color: #c34848;
+    border-radius: 50%;
+}
+
+.radAddWorkFlowModuleParent {
+    padding: 5px 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.radWorkFlowModulelabel {
+    width: 40%;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 10px;
+    /* background-color: #EEEEEE; */
+    /* border: 1px solid #EEEEEE; */
+    border-right: none;
+}
+
+
+.radWFModuleParent {
+    position: absolute;
+    top: 43px;
+    left: 40%;
+    width: 60%;
+    background-color: #FBFBFB;
+    box-shadow: 0px 4px 11px #949494;
+    z-index: 2;
+}
+
+.radWFModule {
+    text-align: left;
+    height: 22px;
+    font-size: 13px;
+    line-height: 22px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.radWFModule:hover {
+    padding-left:7px;
+    border-left:3px solid #00BFF0;
+}
+
+.radWFModuleParent:after   
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -6px;
+    left: 37px;
+}    
+
+.radWFModuleParent:before   
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #cecece transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    top: -7px;
+    left: 37px;
+}
+
+.radWorkFlowModuletext {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+    border-bottom: 1px solid #e0dcdc;
+    text-align: left;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.radWorkFlowModuletext:before
+{
+     content: "\f0d7";
+     position: absolute;
+     right: 12px;
+}
+
+.radAddWorkFlowNameParent 
+{
+    padding: 5px 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.radWorkFlowNamelabel 
+{
+    width: 40%;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 10px;
+    /* background-color: #EEEEEE; */
+    /* border: 1px solid #EEEEEE; */
+    border-right: none;
+    -webkit-user-select: none;
+}
+
+.radWorkFlowNametext 
+{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+    border-bottom: 1px solid #e0dcdc;
+    text-align: left;
+    padding-left: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.radAddWorkFlowDescParent 
+{
+    padding: 15px 10px 25px 19px;
+}
+
+.radWorkFlowDesclabel 
+{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.radWorkFlowDesctext 
+{
+    height: 26px;
+    border-bottom: 1px solid #e0dcdc;
+    outline: none;
+}
+
+
+
+.radWorkFlowDesctext > textarea 
+{
+    outline: none;
+    border: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #fafcff;
+    max-height: 26px;
+}
+
+.radAddWorkFlowNameFooter 
+{
+    height: 30px;
+    text-align: right;
+}
+
+.radSaveWorkFlowParent 
+{
+    height: 30px;
+    display: inline-block;
+    padding: 3px 5px;
+}
+
+.radCancelWorkFlowParent 
+{
+    height: 30px;
+    display: inline-block;
+    padding: 3px 5px;
+}
+
+.radSaveWorkFlow 
+{
+    background-color: #43D9C6;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 0 15px;
+    font-size: 13px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.radCancelWorkFlow 
+{
+    /* background-color: #43D9C6; */
+    color: #868686;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 0 5px;
+    font-size: 13px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.radAllWFParent 
+{
+    height: 50px;
+    /* width: 118px; */
+    float: left;
+    padding: 13px 5px;
+    position: relative;
+    vertical-align: top;
+}
+
+.radAllWF 
+{
+    height: 27px;
+    line-height: 27px;
+    /* background-color: #43D7C4; */
+    font-size: 19px;
+    color: #00BFF0;
+    border-radius: 2px;
+    width: 20px;
+    text-align: center;
+    cursor:pointer;
+} 
+
+.radAddAttributeParent 
+{
+    height: 50px;
+    /* width: 118px; */
+    display: inline-block;
+    padding: 13px 5px;
+    position: relative;
+    vertical-align: top;
+}
+
+.radAddAttribute 
+{
+    height: 24px;
+    line-height: 24px;
+    background-color: #43D7C4;
+    border: 1px solid #43D7C4;
+    color: white;
+    border-radius: 2px;
+    width: 120px;
+    text-align: center;
+    cursor:pointer;
+}
+
+.radAddAttrPopUPParent 
+{
+    position: absolute;
+    top: 50px;
+    z-index: 5;
+    width: 400px;
+    right: 0px;
+    font-family: Lato;
+    background-color: #FBFBFB;
+    box-shadow: 0px 4px 11px #949494;
+}
+
+.radAddAttrPopUPParent:after   
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -6px;
+    right: 37px;  
+}    
+
+.radAddAttrPopUPParent:before   
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #cecece transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    top: -7px;
+    right: 37px;
+}
+
+.radAddAttrHeader 
+{
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+
+.radWFlabel 
+{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.radAddWFbtn.fa.fa-plus-circle 
+{
+    position: absolute;
+    top: 0px;
+    color: #41D8C7;
+    right: 0px;
+    font-size: 17px;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px !important;
+    cursor: pointer;
+}
+
+.radAddAttrCreate 
+{
+    padding: 5px;
+}
+
+.radAddAttrRowParent 
+{
+    padding: 2px 0;
+    position:relative;
+}
+
+.radAttrLabel 
+{
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 5px;
+    background-color: #F0F0F0;
+    border: 1px solid #f0f0f0;
+    border-right: 0px;
+    font-size: 13px;
+}
+
+.radAttNameVal 
+{
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    width: 54%;
+    vertical-align: top;
+    /* background-color: #F0F0F0; */
+    border: 1px solid #f0f0f0;
+    position: relative;
+    left: -3px;
+    font-size: 13px;
+    outline: none;
+    text-align: left;
+    padding-left:10px;
+}
+
+.radAttDefVal 
+{
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    width: 54%;
+    vertical-align: top;
+    border: 1px solid #f0f0f0;
+    position: relative;
+    left: -3px;
+    outline: none;
+    font-size: 13px;
+    text-align: left;
+    padding-left:10px;
+}
+
+.radAttTypeVal 
+{
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    width: 54%;
+    vertical-align: top;
+    border: 1px solid #f0f0f0;
+    position: relative;
+    left: -3px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 13px;
+    cursor:pointer;
+}
+
+.radAttTypeVal:before 
+{
+    content: "\f0d7";
+    font-family: FontAwesome;
+    color: lightgray;
+    position: absolute;
+    right: 6px;
+    font-size: 16px;
+}
+
+.radAddWFFooter 
+{
+    height: 30px;
+    text-align: right;
+    padding: 4px 0;
+}
+
+.radAttrSave 
+{
+    height: 22px;
+    line-height: 21px;
+    background-color: #43D7C4;
+    border: 1px solid #43D7C4;
+    color: white;
+    border-radius: 2px;
+    padding: 0 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.radAttrSaveParent 
+{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.radAttrCancelParent 
+{
+    display: inline-block;
+}
+
+.radAttrCancel 
+{
+    height: 22px;
+    line-height: 21px;
+    background-color: #43D7C4;
+    border: 1px solid #43D7C4;
+    color: white;
+    border-radius: 2px;
+    padding: 0 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.radSavedAttrRowParent 
+{
+    padding: 2px 0;
+}
+
+.radSavedAttrLabel 
+{
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 5px;
+    background-color: #F0F0F0;
+    border: 1px solid #f0f0f0;
+    border-right: 0px;
+    font-size: 13px;
+}
+
+.radSavedAttDefVal 
+{
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    width: 54%;
+    vertical-align: top;
+    /* background-color: #F0F0F0; */
+    border: 1px solid #f0f0f0;
+    position: relative;
+    left: -3px;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.radSavedAttTypeVal 
+{
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    width: 54%;
+    vertical-align: top;
+    /* background-color: #F0F0F0; */
+    border: 1px solid #f0f0f0;
+    position: relative;
+    left: -3px;
+    font-size: 13px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.radSavedAttrHeader 
+{
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+
+.radSavedAttrName 
+{
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.radWFfunctionRow
+{
+    height: 25px;
+    line-height: 23px;
+    padding-right: 10px;
+    position: absolute;
+    top: 8px;
+    right: 0px;
+}
+
+.radSavedWFAttributes 
+{
+    padding: 0 5px;
+}
+
+.radSavedWFAttributes 
+{
+    padding: 10px 5px;
+    max-height: 400px;
+    overflow: auto;
+}
+
+.radeditAttr 
+{
+    cursor: pointer;
+}
+
+.raddeleteAttr 
+{
+    cursor: pointer;
+}
+
+.radWFDataTypeParent {
+    position: absolute;
+    top: 34px;
+    left: 45%;
+    width: 55%;
+    background-color: #FBFBFB;
+    box-shadow: 0px 4px 11px #949494;
+    z-index: 2;
+}
+
+.radWFDataType {
+    text-align: left;
+    height: 22px;
+    font-size: 13px;
+    line-height: 22px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.radWFDataType:hover {
+    padding-left:7px;
+    border-left:3px solid #00BFF0;
+}
+
+.radWFDataTypeParent:after   
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -6px;
+    left: 37px;
+}    
+
+.radWFDataTypeParent:before   
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #cecece transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    top: -7px;
+    left: 37px;
+}
+
+.radWorkFlowActionNameSection 
+{
+    padding: 2px 5px 2px 8px;
+    box-sizing: border-box;
+    height: 25px;
+}
+
+.radWorkFlowActionName
+{
+    width: 73%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    padding-left: 5px;
+    display: inline-block;
+    background-color: white;
+    white-space: nowrap;
+}
+
+.radAddWorkFlowMain 
+{
+    background-color: white;
+    height: 100%;
+    position:relative;
+}
+
+.radWorkFlowActionNameImgs 
+{
+    height: 20px;
+    line-height: 20px;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+}
+
+.radWorkFlowActionNameSectionParent 
+{
+    padding: 4px 0;
+}
+
+.radWFName 
+{
+    width: 19%;
+    color: #fbfbfb !important;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    font-size: 18px;
+    padding-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    font-family: oswald !important;
+    letter-spacing: 1px;
+    cursor:pointer;
+}
+
+.radWFDesc 
+{
+    width: 30%;
+    padding-left: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.radWFModuleName 
+{
+    width: 14%;
+    padding-left: 10px;
+}
+
+.radWFStates 
+{
+    width: 13%;
+    padding-left: 10px;
+}
+
+.radWFBtns 
+{
+    width: 12%;
+    padding-left: 10px;
+}
+
+.radWFLabel 
+{
+    display: inline-block;
+    height: 50px;
+    line-height: 65px;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 10px;
+    color: #89A4C3;
+    width: 20%;
+    font-size: 26px;
+    vertical-align: top;
+    font-family: oswald;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.radAllWorkFlowHeaderBody 
+{
+    background-image: linear-gradient(to  right, #526b84 0, #3F5061 20%,#EBF0F6 20%,#EBF0F6 100%);
+    padding-left: 20px;
+    border-top-left-radius: 4px;
+    color: #89A4C3;
+    text-transform: uppercase;
+}
+
+/* Alert Div Css Start*/
+.radworkflowAlertPopUpParent
+{
+    box-shadow: 5px 7px 22px -7px #6D6D6D;
+    background-image: url('images/popup_texture.png');
+    min-height: 168px;
+    font-family: Lato;
+    border: 1px solid #D4D4D4;
+    border-top: 0px;
+    position: absolute;
+    background-color: white;
+    left: 40%;
+    width: 400px;
+    z-index: 100000316;
+}
+
+.radworkflowPopupAlertUpperSuccessDiv
+{
+     height: 4px;
+     width: 100%;
+     background-color: #ACD373;    
+}
+
+.radworkflowPopUpError
+{
+      min-width: 200px;    
+}
+
+
+.radworkflowErrorDivLeft
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 12%;
+    margin-top: 27px;
+    margin-left: 20px;    
+}
+
+.radworkflowUserSuccess
+{
+   background-image: url("../Images/icons/rad_alert_success.png"); 
+   height: 50px;
+   width: 50px;
+}
+
+.radworkflowErrorDivRight
+{
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 30px;
+      width: 70%;
+      margin-left: 15px;
+}
+
+.radworkflowErrorDivText
+{
+      font-size: 14px;
+      font-weight: normal;
+      margin-top: 15px;
+}
+/* Alert Div Css End*/
+
+
+/*Changes by Tushar*/
+.RADWorkFlowActionComponent 
+{
+    width: 68%;
+    height: 90%;
+    /* padding-left: 2%; */
+    background-color: #EFF4F7;
+    /* padding-right: 2%; */
+    /* margin: 15px 5%; */
+    position:  absolute;
+    right: 8px;
+    bottom: 16px;
+    z-index:1;
+    box-shadow: 1px 1px 5px 2px #e4e4e4;
+}
+
+.RADWorkFlowMainParent 
+{
+    width: 100%;
+    height: 100%;
+    z-index: 26;
+    position:  absolute;
+    /* left: 78px; */
+    top: 0px;
+    /* background-color: #e6e6e6; */
+    /* opacity: .4; */
+    /* opacity: .4; */
+}
+
+.RADWorkFlowActionHeader 
+{
+    width: 100%;
+    height: 45px;
+    /* border-bottom: 2px solid #A4ACBC; */
+    background-color: white;
+}
+
+.RADWorkFlowActionHeaderTitle 
+{
+    width: 87%;
+    height: 45px;
+    line-height: 45px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: lighter;
+    color: #55739D;
+    float: left;
+    padding-left: 20px;
+    font-size: 22px;
+    font-family: oswald;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.RADWorkFlowActionCross 
+{
+    width: 3%;
+    height: 45px;
+    line-height: 45px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: lighter;
+    float: right;
+    color: #55739D;
+    cursor: pointer;
+    text-align: center;
+}
+
+.RADWorkFlowActionComponentParent 
+{
+    width: 100%;
+    max-height: 600px;
+    /* padding-top: 30px; */
+    padding: 40px 36px;
+    overflow:  auto;
+    cursor: pointer;
+    /* padding-top: 40px; */
+}
+.RADWorkFlowActionFooter 
+{
+    margin: 0 auto;
+    height: 40px;
+    text-align: center;
+    display: table;
+}
+
+.RADWorkFlowActionFooterSave {
+    background-color: #43D9C6;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+
+.RADWorkFlowActionCancel {
+    border-radius: 4px;
+    color: #6f6f6f;
+}
+
+.RADWorkFlowActionFooterSaveParent 
+{
+    /* width: 65px; */
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    /* background-color: #43D9C6; */
+    text-align:  center;
+    font-size: 15px;
+    font-weight:  lighter;
+    color: white;
+    display: inline-block;
+    /* border-radius: 4px; */
+    cursor: pointer;
+}
+
+.RADWorkFlowActionCancelParent 
+{
+    width: 65px;
+    height: 30px;
+    line-height: 30px;
+    /* float: right; */
+    /* background-color: #43D9C6; */
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+    display: inline-block;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.RADWorkFlowActionComponentList 
+{
+    width: 200px;
+    /* display: inline-block; */
+    float: left;
+    padding: 13px 17px;
+    background-color: transparent;
+    cursor: pointer;
+    float: left;
+    border-radius: 2px;
+    /* position: relative; */
+}
+
+.RADWorkFlowActionComponentItem 
+{
+    font-family: Lato;
+    padding: 0px;
+    color: #4d737d;
+    height: inherit;
+    text-align: center;
+    line-height: 15px;
+    /* font-weight: bold; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 40px;
+    line-height: 40px;
+    white-space: nowrap;
+    font-size: 14px;
+    border-radius: 1px;
+    border: 1px solid #d0f0f8;
+    background-color: white;
+    padding: 0 5px;
+}
+.radselected 
+{
+    color: #63bed6 !important;
+    border: 1px solid #59ddff!important;
+}
+.RADWorkFlowActionStateConfigurationComponent 
+{
+    width: 68%;
+    height: 90%;
+    /* padding-left: 2%; */
+    background-color: #fbfbfb;
+    /* padding-right: 2%; */
+    /* margin: 15px 5%; */
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+    z-index:1;
+    box-shadow: 2px 1px 6px 2px #a5a5a5a3;
+    border-radius: 4px;
+}
+
+.RADWorkFlowStateConfigurationTitleComponent 
+{
+    width: 100%;
+    height: 40px;
+    padding-top: 6px;
+    text-align: right;
+}
+
+.RADWorkFlowStateConfigurationTitle 
+{
+    width: 87%;
+    height: 45px;
+    line-height: 45px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: lighter;
+    color: #55739D;
+    float: left;
+    padding-left: 20px;
+    font-size: 24px;
+    font-family: oswald;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.RADWorkFlowStatesCross 
+{
+    width: 3%;
+    height: 29px;
+    line-height: 30px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: lighter;
+    float: right;
+    color: #55739D;
+    cursor: pointer;
+    text-align: center;
+}
+
+.RADWorkFlowStateSaveButton
+{
+    height: 27px;
+    line-height: 27px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: normal;
+    float: right;
+    background-color: #43D9C6;
+    cursor: pointer;
+    color: white;
+    padding: 0 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+div#RADWorkFlowStateComponent 
+{
+    width: 100%;
+    padding-top: 0px;
+    height: calc(100% - 45px);
+    /* opacity: 0.3; */
+}
+.RADWorkFlowStateActionComponent 
+{
+    width: 17%;
+    height: 100%;
+    float: left;
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-right: 5px;
+    /* background-color: white; */
+}
+
+.RADWorkFlowStateActionTitle 
+{
+    width: 115px;
+    padding-left: 23px;
+    height: 35px;
+    line-height:  35px;
+    text-align:  center;
+    font-size: 13px;
+    color: #A9A8A6;
+}
+
+.RADWorkFlowStateActionListItemSection 
+{
+    padding-top: 5px;
+    height: 85%;
+    overflow:  auto;
+}
+
+.RADWorkFlowStateActionItem {
+    padding: 0 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.RADWorkFlowStateActionListParent 
+{
+    width: 100%;
+    height: 43px;
+    /* align-items: center; */
+    /* padding-top: 7px; */
+    /* line-height:  35px; */
+    padding-left: 15px;
+}
+
+.RADWorkFlowStateActionList 
+{
+    width: 120px;
+    text-align:  center;
+    border: 1px solid #00A6E4;
+    border-radius: 15px;
+    float: left;
+    cursor:pointer;
+    height: 26px;
+    line-height: 26px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    /* padding: 0 5px; */
+}
+
+.RADWorkFlowStateActionListselect
+{
+    background-color: #00A6E4;
+    border-radius: 8px;
+}
+
+.RADWorkFlowStateActionItemColor
+{
+    color:white !important;
+}
+.RADWorkFlowStateActionListCaret 
+{
+    float:  left;
+    padding-left: 5px;
+    font-size: 18px;
+    color: #00A6E4;
+    padding-top: 3px;
+}
+
+.RADHidden 
+{
+    display: none;
+}
+
+.RADWorkFlowStateUserComponent 
+{
+    width: 60%;
+    height: 100%;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 15px;
+    /* background-color: white; */
+    border: 1px solid #cce1e8;
+    border-radius: 2px;
+}
+
+.RADWorkFlowStateSubscriptionComponent 
+{
+    width: 23%;
+    height: 100%;
+    float: left;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    /* background-color: white; */
+}
+
+.RADWorkFlowStateUserTitle 
+{
+    width: 100%;
+    height: 50px;
+    line-height: 20px;
+    /* text-align:  center; */
+    font-size: 13px;
+    font-family:  Lato;
+    color: #149cd2;
+}
+
+.RADWorkFlowStateUserComponentParent 
+{
+    width: 100%;
+    height: calc(100% - 60px);
+    padding: 0px 13px;
+}
+
+.RADWorkFlowStateUserTitle 
+{
+    width: 80%;
+    height: 50px;
+    line-height: 20px;
+    /* text-align:  center; */
+    text-indent: 44%;
+    font-size: 13px;
+    font-family:  Lato;
+    float:  left;
+    color: #149cd2;
+    /* border-right: 1px solid #F2F2F2; */
+}
+
+.RADWorkFlowStateUserComponentParent 
+{
+    width: 100%;
+    height: calc(100% - 50px);
+    padding: 0px 13px;
+    /* border-right: 1px solid #F2F2F2; */
+}
+
+.RADWorkFlowStateUser 
+{
+    width: 225px;
+    height: 380px;
+    float: left;
+    border: 1px solid #F1F1F1;
+    border-radius:  4px;
+    margin-right: 75px;
+}
+
+.RADWorkFlowStateGroup 
+{
+    width: 100%;
+    /* height: 275px; */
+    /* float: left; */
+    /* border: 1px solid #F1F1F1; */
+    border-radius: 4px;
+}
+
+.RADWorkFlowStateUserTitleDiv 
+{
+    width: 100%;
+    height: 50px;
+    background-color:  #72B4BF;
+    border-radius: 4px;
+    line-height:  50px;
+    text-align:  center;
+    color: white;
+    font-family: lato;
+    font-size: 16px;
+}
+
+.RADWorkFlowStateUserParent 
+{
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+    overflow-x:  hidden;
+    padding: 15px 10px 10px 10px;
+    /* overflow-y:  hidden; */
+}
+
+.RADWorkFlowStateGroup {}
+
+.RADWorkFlowStateGroupTitleDiv 
+{
+    width: 100%;
+    height: 50px;
+    background-color: #72B4BF;
+    border-radius: 4px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-family: lato;
+    font-size: 16px;
+}
+
+.RADWFSelectFooter 
+{
+    display: table;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.RADWorkFlowSaveOneActionInfoParent 
+{
+    display: inline-block;
+}
+
+.RADWorkFlowCancelOneActionInfoParent 
+{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.RADWorkFlowCancelOneActionInfo 
+{
+    width: 75px;
+    /* margin-left: 100px; */
+    /* position: absolute; */
+    height: 22px;
+    line-height: 22px;
+    color: #A3A3A3;
+    /* background-color: #F1F1F1; */
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    /* top: 0px; */
+    /* right: 22px; */
+    /* border: 1px solid #cecbcb; */
+}
+
+.RADWorkFlowStateGroupParent 
+{
+    width: 100%;
+    height: 224px;
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 15px 0;
+}
+
+.RADWorkFlowStateUserParentDiv 
+{
+    width:  100%;
+    height: 25px;
+    text-indent: 15px;
+    font-size:  14px;
+    font-family:  lato;
+    font-weight:  bold;
+    cursor:  pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:  ellipsis;
+}
+
+.RADWorkFlowStateGroupParentDivParent 
+{
+  /*display: inline-block; */
+    padding: 7px 5px;
+    position: relative;
+    float: left;
+}
+
+.RADWorkflowCircleSelected 
+{
+    background-color: #00AFEE;
+    color: white;
+    border: 0px !important;
+    text-align: center;
+}
+
+.RADWorkflowCircle 
+{
+    position: absolute;
+    left: 5px;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid #e0e0e0;
+    top: 13px;
+}
+
+.RADWorkFlowStateGroupParentDiv 
+{
+    width: 185px;
+    height: 32px;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: Lato;
+    /* font-weight: bold; */
+    cursor: pointer;
+    text-overflow:  ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #F9FDFF;
+    text-align: left;
+    border-radius: 30px;
+    border: 1px solid #c7e4eb;
+    padding: 0px 25px;
+    color: #3f3f3f;
+    padding-left: 27px;
+}
+
+.radAllWorkFLowMainDiv::-webkit-scrollbar
+{
+    width: 0px;
+}
+
+.RADMiddleParent 
+{
+    width: 100%;
+    /* height: 380px; */
+    /* padding: 0px 26px; */
+}
+
+.RADWorkFlowRuleEditorDivParent 
+{
+    width: 100%;
+    /* height: 125px; */
+    padding: 25px 0;
+}
+
+.RADWorkFlowAddConditionParent 
+{
+    /* width: 100%; */
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding-right: 5px;
+    padding-left: 15px;
+}
+
+.RADWorkFlowAddCondition 
+{
+    /* width: 76%; */
+    display: table;
+    margin: 0 auto;
+    /* border: 1px solid #4AE1D0; */
+    border-radius: 4px;
+    text-align: center;
+    line-height: 32px;
+    color: #4AE1D0;
+    font-family: lato;
+    font-size: 14px;
+    cursor: pointer;
+    /* float: left; */
+}
+
+.RADWorkFlowAddCondition:before 
+{
+    content: "\f055";
+}
+
+.RADWorkFlowAddAction 
+{
+    height: 35px;
+    width: 100%;
+    /* border: 1px solid #4AE1D0; */
+    color: #4AE1D0;
+    text-align:  center;
+    line-height: 35px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.radselect
+{
+    color: #47a3da;
+}
+.RADWorkFlowSaveOneActionInfo 
+{
+    width: 75px;
+    /* margin-left: 100px; */
+    /* position: absolute; */
+    height: 22px;
+    line-height: 22px;
+    color: #A3A3A3;
+    background-color: #F1F1F1;
+    text-align:  center;
+    border-radius: 4px;
+    cursor:pointer;
+    /* top: 0px; */
+    /* right: 22px; */
+    border: 1px solid #cecbcb;
+}
+
+.RADWorkFlowStateUserTitleParentDiv 
+{
+    width: 100%;
+    position: relative;
+    /* height: 50px; */
+    /* border-right: 1px solid #F2F2F2; */
+}
+
+.clickable
+{
+    background-color:#4AE1D0;
+    color:  white;
+    border: none;
+}
+.RADWorkFlowStateType 
+{
+    width: 100%;
+    /* height: 60px; */
+    /* float: left; */
+}
+
+.radWFActionConfig {
+    display: table;
+    margin: 0 auto;
+    padding-top: 11px;
+    font-family: Lato;
+}
+
+.radWFActionConfig > input {
+    border: 0px;
+    border-bottom: 1px dashed lightgray;
+    width: 20px;
+    background-color: #fbfbfb;
+    outline:none;
+    text-align: center;
+    color: #0FA7E8;
+}
+
+.radWFActionConfig > span {
+    padding: 0 5px;
+}
+
+.RADWorkFlowTypeToggle 
+{
+    height: 25px;
+    width: 29%;
+    display: table;
+    margin: 0 auto;
+    border-radius: 4px;
+    border: 1px solid #0FA7E8;
+    cursor: pointer;
+    display:none;
+}
+
+.RADWorkFlowNormalType 
+{
+    width: 50%;
+    float: left;
+    height: 23px;
+    line-height: 23px;
+    text-indent: 15px;
+    font-family:  Lato;
+    font-size: 15px;
+    color: #9D9EA0;
+    font-size: 13px;
+}
+
+.RADWorkFlowEscaledType 
+{
+    width: 50%;
+    float: left;
+    height: 23px;
+    line-height: 23px;
+    text-indent: 15px;
+    font-family: Lato;
+    font-size: 13px;
+    color: #9D9EA0;
+}
+
+.RADNormalCss 
+{
+    background-color: #0FA7E8;
+    color: white;
+    /* border-top-right-radius: 4px; */
+    /* border-bottom-right-radius: 4px; */
+}
+
+.RADEscalatedCss 
+{
+    background-color: #0FA7E8;
+    color: white;
+    /* border-top-left-radius: 4px; */
+    /* border-bottom-left-radius: 4px; */
+}
+
+.RADWorkFlowStateMail 
+{
+    width: 100%;
+    /* height: 100px; */
+    padding-left:  10px;
+}
+
+.RADWFEscalateParent 
+{
+    padding: 25px 0;
+    display:none;
+}
+
+.RADWFEscalateText 
+{
+    /* display: inline-block; */
+    height: 22px;
+    line-height: 21px;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid lightgray;
+    /* border-top: 1px #F2F2F2 solid; */
+    font-size: 13px;
+    /* border-bottom: 1px #F2F2F2 solid; */
+    width: 100%;
+    outline: none;
+    padding-left: 5px;
+}
+
+.RADWFEscalateLabel 
+{
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    padding: 0 2px;
+    /* border-left: 1px #F2F2F2 solid; */
+    /* border-top: 1px #F2F2F2 solid; */
+    /* border-bottom: 1px #F2F2F2 solid; */
+    /* background-color: #F0F0F0; */
+    text-transform: uppercase;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+}
+
+
+
+.RADWorkFlowStateMailTile 
+{
+    width: 100%;
+    height: 35px;
+    line-height: 40px;
+    font-family:  lato;
+    font-size:  16px;
+    color: #243B5C;
+    font-size: 12px;
+}
+
+.RADWorkFlowStateMailToggle 
+{
+    width: 33%;
+    height: 22px;
+    border: 1px solid #0FA7E8;
+    border-radius: 9px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.RADWorkFlowStateMailToggleElement 
+{
+    width: 50%;
+    height:  100%;
+    float: left;
+    text-indent: 5px;
+    font-size: 12px;
+    line-height: 20px;
+    font-family:  lato;
+    color:  #9D9EA0;
+}
+
+.RADOnCSS 
+{
+    background-color: #0FA7E8;
+    border-radius: 7px;
+    /* border: 1px solid #0FA7E8; */
+    color:  white;
+}
+
+.RADOffCss 
+{
+    color: white;
+    background-color:  #0FA7E8;
+    border-radius: 7px;
+}
+
+
+.RADWorkFlowStateEditMail 
+{
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    font-family:  lato;
+    color: #43D9C6;
+    text-indent: 10px;
+    cursor:  pointer;
+    display: inline-block;
+}
+
+.RADWorkFlowPUBSUBParent 
+{
+    width: 100%;
+    padding-left:  10px;
+    padding-top: 35px;
+    display:none;
+}
+
+.PUBSUBtitle 
+{
+    width:  100%;
+    height: 30px;
+    line-height:  30px;
+    font-family:  Lato;
+    font-size: 13px;
+    font-weight: 500;
+    color: #7A808D;
+}
+
+.RADWorkFlowExchangeParent {width: 100%;/* height: 30px; */padding-bottom: 5px;}
+
+.RADWorkFlowExchangeTitle 
+{
+    /* float: left; */
+    width: 100%;
+    /* padding-left: 10px; */
+    position: relative;
+    /* border-left: 1px #F2F2F2 solid; */
+    /* border-top: 1px #F2F2F2 solid; */
+    /* border-bottom: 1px #F2F2F2 solid; */
+    /* background-color: #F0F0F0; */
+    PADDING-LEFT: 2px;
+    color: #5b5b5b;
+    font-size: 13px;
+    height: 74%;
+    line-height: 21px;
+    /* text-indent: 3px; */
+    font-family:  lato;
+}
+
+.RADWorkFlowExchangeName 
+{
+    /* float: left; */
+    width: 100%;
+    padding-left: 10px;
+    overflow: hidden;
+    height: 22px;
+    line-height: 21px;
+    text-overflow: ellipsis;
+    /* border-right: 1px #F2F2F2 solid; */
+    /* border-top: 1px #F2F2F2 solid; */
+    font-size: 13px;
+    border-bottom: 1px solid lightgray;
+    font-family: lato;
+    outline: none;
+    /* text-decoration:  none; */
+}
+
+.RADWorkFlowRoutingKeyParent 
+{
+    width: 100%;
+    padding: 15px 0;
+}
+
+.RADWorkFlowRoutingKeyTitle 
+{
+    /* float: left; */
+    width: 100%;
+    /* padding-left: 10px; */
+    position: relative;
+    /* border-left: 1px #F2F2F2 solid; */
+    /* border-top: 1px #F2F2F2 solid; */
+    /* border-bottom: 1px #F2F2F2 solid; */
+    /* background-color: #F0F0F0; */
+    PADDING-LEFT: 2px;
+    color: #5b5b5b;
+    font-size: 13px;
+    height: 74%;
+    line-height: 21px;
+    /* text-indent: 3px; */
+    font-family: lato;
+}
+
+.RADWorkFlowRoutingKeyName 
+{
+    /* float: left; */
+    width: 100%;
+    padding-left: 10px;
+    overflow: hidden;
+    height: 22px;
+    line-height: 21px;
+    text-overflow: ellipsis;
+    /* border-right: 1px #F2F2F2 solid; */
+    /* border-top: 1px #F2F2F2 solid; */
+    font-size: 13px;
+    border-bottom: 1px solid lightgray;
+    font-family: lato;
+    outline: none;
+    /* text-decoration: none; */
+}
+input.RADWorkFlowStateUserSearch 
+{
+    width: 91%;
+    outline: none;
+    font-size: 12px;
+    font-family:  lato;
+    font-weight:  normal;
+    border-radius: 7px;
+    text-indent:  5px;
+}
+
+.RADWorkFlowStateUserSearchParent 
+{
+    padding-top: 3px;
+    padding-left: 5px;
+}
+
+.RADsearchIcon 
+{
+    color: lightgray;
+}
+
+input.RADWorkFlowStateGroupSearch 
+{
+    width: 91%;
+    outline: none;
+    font-size: 14px;
+    font-family:  lato;
+    font-weight:  normal;
+    border-radius: 7px;
+    text-indent:  5px;
+    border: 0px;
+    background-color: #fbfbfb;
+}
+
+.RADWorkFlowStateGroupSearchParent 
+{
+    padding-top: 3px;
+    padding-left: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.RADWorkFlowStateUserMappedParent 
+{
+    padding-top: 10px;
+    /* padding-left: 10px; */
+    /* padding-right:  10px; */
+    width: 100%;
+    /* border: 1px solid lightgrey; */
+    /* border-right: 1px solid #F2F2F2; */
+    max-height: calc(100% - 100px);
+    -webkit-fill-available;
+}
+
+.RADWorkFlowStateUserMapDiv 
+{
+    /* border: 1px solid #e6e6e6; */
+    background-color: whitesmoke;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 50px;
+    border-radius: 2px;
+}
+
+.RADWorkFlowStateUserMapppedRule 
+{
+    /* width: 82%; */
+    /* height: 100%; */
+    /* float: left; */
+    /* padding-left: 15px; */
+    padding: 5px 0;
+    font-family: lato;
+    font-size:  12px;
+}
+
+.RADWorkFlowStateUserMapppedUsers {
+    width: 3%;
+    height: 25px;
+    float: left;
+    line-height: 24px;
+    text-align:  center;
+    border: 1px solid #b7aac0;
+    border-radius: 4px;
+    position: relative;
+    top: 11px;
+    cursor:  pointer;
+    color:  #6b6b6b;
+    font-family: Lato;
+    font-size: 13px;
+    display: none;
+}
+
+.RADWorkFlowStateUserMapppedGroups {
+    /* width: 3%; */
+    height: 20px;
+    /* float: left; */
+    line-height: 18px;
+    text-align: center;
+    /* border: 1px solid #9cb6c6; */
+    border-radius: 4px;
+    /* position: relative; */
+    /* top: 13px; */
+    /* left: 20px; */
+    cursor: pointer;
+    font-family: Oswald;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.RADWorkFlowStateEdit 
+{
+
+    width: 3%;
+    height: 25px;
+    float: left;
+    line-height: 25px;
+    text-align: center;
+    position: relative;
+    top: 11px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.RADWorkFlowStateDelete 
+{
+    width: 3%;
+    height: 25px;
+    float: left;
+    line-height: 25px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.Usersdisabled 
+{
+    background-color:  #b7aac0;
+    color:  white;
+}
+
+.Groupsdisabled {
+    /* background-color:  #9cb6c6; */
+    /* color: white; */
+}
+
+.RADWorkFlowStateEdit:hover 
+{
+    color: #0FA7E8;
+}
+
+.RADWorkFlowStateDelete:hover 
+{
+    color: #0FA7E8;
+}
+
+.UserListforpopUp 
+{
+    height: 22px;
+    line-height: 22px;
+    padding: 0 5px;
+    overflow: hidden;
+    cursor: pointer;
+    text-overflow: ellipsis;
+}
+
+.UserListforpopUp:hover 
+{
+    background-color:lightgray;
+}
+
+.RADpopUPforUsersandGroup 
+{
+    position:  absolute;
+    width: 150px;
+    overflow:  auto;
+    max-height: 200px;
+    background-color: white;
+    padding: 5px 0;
+    /* right: 450px; */
+    box-shadow: 2px 2px 4px 1px #a9a9a9;
+    z-index: 1;
+}
+
+.RADWorkFlowStateAdd 
+{
+    height: 27px;
+    line-height: 26px;
+    font-family:  lato;
+    font-size: 14px;
+    color: #4AE1D0;
+    text-indent:  42%;
+    cursor: pointer;
+    border: 1px solid #4ae1d05e;
+    border-radius: 2px;
+}
+
+
+.radCreateWFName 
+{
+    height: 50px;
+    line-height: 50px;
+    width: 50%;
+    float: left;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 5px;
+    font-family: Oswald;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+}
+/* Changes ended*/
+
+
+/*
+    Changes By me in mail
+*/
+
+.RADWFMailFirstPartParent {
+    width:  100%;
+    height: 50px;
+    padding: 10px;
+}
+
+.RADWFMailSecondPartParent {
+    width: 100%;
+    height: calc(100% - 50px);
+    background-color: #f8f8f8;
+    position:relative;
+    /* overflow: auto; */
+}
+
+.RADWFMailTemplate 
+{
+    height: 35px;
+    line-height: 35px;
+    width: 100px;
+    text-decoration: underline;
+    color: #6994a2;
+    font-family: Lato;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.radWFMailTemplatePopUp {
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    background-color: white;
+    width: 250px;
+    padding: 10px 0;
+    border-radius: 4px;
+    box-shadow: 3px 2px 10px #a9a9a9;
+    z-index:1;
+    max-height: 200px;
+    overflow: auto;
+}
+
+.radWFTemplateRow {
+    width: 100%;
+    padding: 3px 0;
+}
+
+.radWFTemplateRowParent {
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+}
+
+.radWFTemplateLabel {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    text-align: left;
+    padding-left: 5px;
+    cursor:pointer;
+}
+
+.radWFTemplateText {
+    display: inline-block;
+    vertical-align: top;
+    width: 58%;
+    text-align: left;
+    padding-left: 5px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor:pointer;
+}
+
+.RADWFMailTemplateParent
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.RADWFMailSubscriptionBodyParentWrapper {
+    width: 100%;
+    padding: 4px;
+    /* background-color:  white; */
+    margin-top: 35px;
+}
+
+.RADChangeBCcolor {
+    background-color: #f8f8f8 !important;
+    color: #848484 !important;
+    font-weight: 600;
+}
+
+.RADPadding {
+    padding-left: 30px;
+    padding-right:  0px !important;
+}
+
+.radWFConfigRow {
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.radWFConfigSelected 
+{
+    background-color: #5e6a76;
+    box-shadow: 0px 1px 1px 0px #6d6d6d63;
+}
+
+.radWFConfigRowLeft 
+{
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #b4cbe2;
+    border-radius: 2px;
+    padding-left: 4px;
+    padding-top: 9px;
+}
+
+.radWFConfigRowRight 
+{
+    padding-left: 5px;
+    display: inline-block;
+    background-color: white;
+    width: 85%;
+}
+
+.radWFCOnfigTitle 
+{
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.radWFConfigRowParent {
+    padding: 5px 0;
+}
+
+.radWFConfigCircle {
+    height: 12px;
+    width: 12px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.radWFConfigPopUPParent {
+    width: 345px;
+    padding: 21px 18PX;
+    background-color: #F7F7F7;
+    box-shadow: 0px 0px 6px 0px #6d6d6d85;
+    position: absolute;
+    top: 42px;
+    right: 1px;
+    z-index: 2;
+}
+
+.radWFConfigPopUPParent:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #F7F7F7 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -6px;
+    right: 7px;
+}
+
+.radWFConfigPopUPParent:before 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #F7F7F7 transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    top: -7px;
+    right: 7px;
+}
+
+.radWFConfigParent {
+    height: 50px;
+    display: inline-block;
+    padding: 13px 5px;
+    vertical-align: top;
+    position: relative;
+}
+
+.radWFConfig {
+    height: 24px;
+    line-height: 24px;
+    font-size: 20px;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.radWFRuleMappingParent 
+{
+    width: 82%;
+    height: 100%;
+    float: left;
+    padding-left: 15px;
+    padding: 0 0 5px 0;
+    font-family: lato;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+/*Upload Pop Up Starts*/
+
+.radWFDropDiv 
+{
+    height: 100px;
+    font-size: 20px;
+    display: table;
+    padding-top: 173px;
+    cursor: pointer;
+    margin: 2% auto;
+    font-family: lato;
+    /* left: 195px; */
+    /* top: 23px; */
+    color: #7a7b7c;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.radWFDropDivImg
+{
+     background-image: url(Images/upload.png);
+     background-size: 100px;
+     /* height: 100px; */
+}
+
+
+/*.radWFUploadButton:before
+{
+    content: "\f093";
+    position: absolute;
+    right: 2px;
+}*/
+
+.radWorkflowUploadPopUp
+{
+    width: 500px;
+    /* height: 324px; */
+    background-color: white;
+    /* margin: 0 400px; */
+    position: absolute;
+    right: 60px;
+    top: 0px;
+    box-shadow: 0px 0px 21px #a9a9a9;
+    border-radius: 2px;
+    z-index: 9;
+    padding: 0 25px;
+}
+
+
+.radWorkflowUploadPopUp:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 7px 7px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -6px;
+    right: 37px;
+}
+
+.radWorkflowHeaderName 
+{
+    width: 96%;
+    display: inline-block;
+    color: #AE8F7F;
+    font-size: 15px;
+    font-family: Lato;
+    height: 35px;
+    line-height: 35px;
+}
+
+.radWorkflowDragNDropRegion 
+{
+    display: inline-block;
+    width: 80%;
+    margin-left: 10%;
+    height: 70%;
+    position: relative;
+    /* line-height: 300px; */
+    /* margin-right: 25px; */
+    border: 2px dashed;
+    border-radius: 4px;
+    border-color: #d8d8d8;
+    margin-top: 5%;
+}
+
+.radWorkflowUploadButton 
+{
+    border: none;
+    outline-color: #43D9C6;
+    border-radius: 2px;
+    background-color: #43D9C6;
+    color: whitesmoke;
+    height: 25px;
+    font-family: Lato;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-family: Lato;
+    /* font-weight: bold; */
+    display: inline-block;
+    padding: 3px 7px;
+}
+
+.radWorkflowUploadButtonParent 
+{
+    height: 35px;
+    line-height: 35px;
+    text-align: right;
+    width: 100%;
+    padding-right: 23px;
+}
+
+ .radWorkflowHeader
+ {
+    height: 35px;
+    position: relative;
+    /* padding-top: 9px; */
+    /* border-bottom: 1px solid #e3ddd9; */
+ }
+ .radWorkflowcross 
+ {
+    position: absolute;
+    height: 35px;
+    line-height: 35px !important;
+    vertical-align: top;
+    cursor: pointer;
+    top: 0px;
+    right: 0px;
+}
+
+.WorkflowParentDropDrag
+{
+   text-align: center;
+   height: 115px;
+   line-height: 7;
+   padding-top: 15px;
+}
+
+.radAllWorkFlowEditParent 
+{
+    height: 100%;
+    cursor: pointer;
+}
+
+.radWFTagNames 
+{
+    max-width: 80%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.radWFTagNamesEdit 
+{
+    height: 37px;
+    width: 19%;
+    vertical-align: top;
+    line-height: 45px;
+}
+
+
+.radWFTagPopUpParent 
+{
+    z-index: 5;
+    background-color: white;
+    left: 58%;
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    padding: 10px 5px;
+    border-radius: 4px;
+    box-shadow: 3px 2px 10px #a9a9a9;
+    font-family: Lato;
+    /* position: relative; */
+}
+
+.radWFTagPopUpHeader 
+{
+    height: 25px;
+    line-height: 25px;
+    font-weight: bold;
+    padding-left: 5px;
+    /* position: relative; */
+}
+
+.radWFAddTagPopUp {}
+
+.radAddTagBtnParent 
+{
+    height: 25px;
+    text-align: right;
+    line-height: 25px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.radAddTagBtn 
+{
+    height: 25px;
+    line-height: 25px;
+    width: 20px;
+    text-align: center;
+    display: inline-block;
+    color: #43D9C6;
+    border-radius: 2px;
+    /* color: white; */
+    font-size: 15px;
+    cursor:pointer;
+}
+
+.radWFTagPopUpbody 
+{
+    font-size: 13px;
+    max-height: 200px;
+    overflow: auto;
+}
+
+
+
+.radSaveTagBtnParent 
+{
+    height: 26px;
+    text-align: right;
+    line-height: 26px;
+}
+
+.radSaveTagBtn 
+{
+    height: 22px;
+    line-height: 22px;
+    width: 70px;
+    text-align: center;
+    display: inline-block;
+    background-color: #43D9C6;
+    border-radius: 2px;
+    color: white;
+    font-size: 13px;
+    cursor:pointer;
+}
+
+.radWFaddNewTag 
+{
+    height: 24px;
+    line-height: 24px;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    font-size: 13px;
+    padding-left: 4px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.radWFAddTagBody 
+{
+    padding: 5px 0;
+}
+
+.radWFaddNewTagParent 
+{
+    padding: 4px 0;
+}
+
+.radWFTagNamerow 
+{
+    height: 22px;
+    line-height: 22px;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.radWFTagNamerowParent 
+{
+    padding: 2px 0;
+    position: relative;
+}
+
+.radWFTagNameDelete 
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 22px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.radWFUploadButton {
+    position: relative;
+    /* background-image: url(Images/upload.png); */
+    /* background-repeat: no-repeat; */
+    background-position-x: 0;
+    background-position-y: -105;
+}
+.radWFStateErrMsgParent 
+{
+    width: 91%;
+    position: absolute;
+    height: 40px;
+    padding: 3px 0;
+}
+
+.radWFStateErrMsg {
+    display: table;
+    margin: 0 auto;
+    height: 34px;
+    line-height: 34px;
+    border-radius: 2px;
+    background-color: #ffcece;
+    padding: 0 15px;
+    color: #8c6a6a;
+}
+
+
+.radAttrNameValidator,.radAttrTypeValidator 
+{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    height: 26px;
+    line-height: 26px;
+    width: 15px;
+    text-align: center;
+    color: white;
+    background-color: #a57171;
+    cursor: pointer;
+}
+
+.radWFEndStateLabel,.radWFFailedStateLabel 
+{
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    width: 90%;
+    vertical-align: top;
+}
+
+.radWFEndStateLabelparent,.radWFFailedStateLabelparent 
+{
+    height: 40px;
+    padding: 5px 0 5px 5px;
+}
+
+.radWFCreateEndState,.radWFCreateFailedState 
+{
+    display: inline-block;
+    width: 10%;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: top;
+    text-align: center;
+    color: #0A77B9;
+    cursor: pointer;
+}
+
+.radWFSearchParent 
+{
+    width: 80%;
+    display: inline-block;
+    height: 50px;
+    padding: 5px 0 5px 5px;
+    font-family: Lato;
+}
+
+.radWFSearch 
+{
+    height: 40px;
+    width: 100%;
+    border: none;
+    padding-left: 5px;
+    outline: none;
+    font-size: 16px;
+    background-color: #EBF0F6;
+    color: #89A4C3;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.radWFEndState > .radWorkFlowActionNameSectionParent
+{
+    display:none;
+}
+
+.radWFFailedState > .radWorkFlowActionNameSectionParent
+{
+    display:none;
+}
+
+
+.radWFStartState > .radWorkFlowActionNameSectionParent
+{
+    display:none;
+}
+
+.radWFEndState > .radWorkFlowStateNameSection
+{
+    border-radius: 50% !important;
+}
+
+.radWFFailedState > .radWorkFlowStateNameSection
+{
+    border-radius: 50% !important;
+}
+
+.radWFStartState > .radWorkFlowStateNameSection
+{
+    border-radius: 50% !important;
+    padding: 15px 5px 15px 5px;
+}
+
+.radWFEndState .radWorkFlowStateName
+{
+    padding-bottom: 0px !important;
+    height:35px;
+}
+
+.radWFFailedState .radWorkFlowStateName
+{
+    padding-bottom: 0px !important;
+    height:35px;
+}
+
+.radWFStartState .radWorkFlowStateName
+{
+    padding-bottom: 0px !important;
+}
+
+
+
+.radWFStartState, .radWFFailedState, .radWFEndState 
+{
+    background-color: transparent;
+}
+/*Upload Pop Up Ends*/
+
+
+
+.ItemHovered  .radWorkFlowStateNameSection
+{
+    background-color: #3c5273 !important;
+}
+
+.ItemHovered 
+{
+   box-shadow: #b5b5b5 3px 3px 10px;
+   border: solid 1px #bbe1ea;
+   z-index:2;
+}
+.ItemArrowHovered path
+{
+   fill: #1f3858;
+   stroke: #112c4e;
+   stroke-width: 2px;
+}
+

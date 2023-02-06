@@ -1,0 +1,766 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RLoggerException</name>
+    </assembly>
+    <members>
+        <member name="T:com.ivp.rad.common.IRLogger">
+            <summary>
+            Interface IRLogger for the logging objects
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.common.IRLogger.Debug(System.Object)">
+            <overloads>Log assembly message object with the level.
+            </overloads>
+            <summary>
+            Log assembly message object with the  level.
+            </summary>
+            <param name="message">The message object to log.</param>
+            <remarks>
+            <para>
+            This method first checks if this logger is <c>DEBUG</c>
+            enabled by comparing the level of this logger with the 
+            level. If this logger is
+            <c>DEBUG</c> enabled, then it converts the message object
+            (passed as parameter) to assembly string by invoking the appropriate
+            <see cref="T:log4net.ObjectRenderer.IObjectRenderer"/>. It then 
+            proceeds to call all the registered appenders in this logger 
+            and also higher in the hierarchy depending on the value of 
+            the additivity flag.
+            </para>
+            </remarks>
+            <seealso cref="M:com.ivp.rad.common.IRLogger.Debug(System.Object)"/>
+            <seealso cref="P:com.ivp.rad.common.IRLogger.IsDebugEnabled"/>
+        </member>
+        <member name="M:com.ivp.rad.common.IRLogger.Info(System.Object)">
+            <summary>
+            Logs assembly message object with the <c>INFO</c> level including
+            the stack trace of the message passed
+            as assembly parameter.
+            </summary>
+            <param name="message">The message object to log.</param>
+            <remarks>
+            <para>
+            See the <see cref="M:com.ivp.rad.common.IRLogger.Info(System.Object)"/> form for more detailed information.
+            </para>
+            </remarks>
+            <seealso cref="M:com.ivp.rad.common.IRLogger.Info(System.Object)"/>
+            <seealso cref="P:com.ivp.rad.common.IRLogger.IsInfoEnabled"/>
+        </member>
+        <member name="M:com.ivp.rad.common.IRLogger.Warn(System.Object)">
+            <summary>
+            Log assembly message object with the level including
+            the stack trace of the message passed
+            as assembly parameter.
+            </summary>
+            <param name="message">The message object to log.</param>
+            <remarks>
+            <para>
+            See the <see cref="M:com.ivp.rad.common.IRLogger.Warn(System.Object)"/> form for more detailed information.
+            </para>
+            </remarks>
+            <seealso cref="M:com.ivp.rad.common.IRLogger.Warn(System.Object)"/>
+            <seealso cref="P:com.ivp.rad.common.IRLogger.IsWarnEnabled"/>
+        </member>
+        <member name="M:com.ivp.rad.common.IRLogger.Error(System.Object)">
+            <summary>
+            Log assembly message object with the level including
+            the stack trace of the  object message passed
+            as assembly parameter.
+            </summary>
+            <param name="message">The message object to log.</param>
+            <remarks>
+            <para>
+            See the <see cref="M:com.ivp.rad.common.IRLogger.Error(System.Object)"/> form for more detailed information.
+            </para>
+            </remarks>
+            <seealso cref="M:com.ivp.rad.common.IRLogger.Error(System.Object)"/>
+            <seealso cref="P:com.ivp.rad.common.IRLogger.IsErrorEnabled"/>
+        </member>
+        <member name="M:com.ivp.rad.common.IRLogger.Fatal(System.Object)">
+            <summary>
+            Log assembly message object with the level including
+            the stack trace of the passed
+            as assembly parameter.
+            </summary>
+            <param name="message">The message object to log.</param>
+            <remarks>
+            <para>
+            See the <see cref="M:com.ivp.rad.common.IRLogger.Fatal(System.Object)"/> form for more detailed information.
+            </para>
+            </remarks>
+            <seealso cref="M:com.ivp.rad.common.IRLogger.Fatal(System.Object)"/>
+            <seealso cref="P:com.ivp.rad.common.IRLogger.IsFatalEnabled"/>
+        </member>
+        <member name="M:com.ivp.rad.common.IRLogger.Shutdown">
+            <summary>
+            Shuts down the log4net system.
+            </summary>
+            <remarks>
+            <para>
+            Calling this method will <b>safely</b> close and remove all
+            appenders in all the loggers including root contained in all the
+            default repositories.
+            </para>
+            <para>
+            Some appenders need to be closed before the application exists. 
+            Otherwise, pending logging events might be lost.
+            </para>
+            <para>The <c>shutdown</c> method is careful to close nested
+            appenders before closing regular appenders. This is allows
+            configurations where assembly regular appender is attached to assembly logger
+            and again to assembly nested appender.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:com.ivp.rad.common.IRLogger.ResetConfiguration">
+            <overloads>Reset the configuration of assembly repository</overloads>
+            <summary>
+            Resets all values contained in this repository instance to their defaults.
+            </summary>
+            <remarks>
+            <para>
+            Resets all values contained in the repository instance to their
+            defaults.  This removes all appenders from all loggers, sets
+            the level of all non-root loggers to <c>null</c>,
+            sets their additivity flag to <c>true</c> and sets the level
+            of the root logger to Level.Debug. Moreover,
+            message disabling is set to its default "off" value.
+            </para>		
+            </remarks>
+        </member>
+        <member name="M:com.ivp.rad.common.IRLogger.SetConfigurationFile(System.String)">
+            <summary>
+            configure logger for logging path
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:com.ivp.rad.common.IRLogger.IsDebugEnabled">
+            <summary>
+            Checks if this logger is enabled for the Level.Debug level.
+            </summary>
+            <value>
+            <c>true</c> if this logger is enabled for Level.Debug events, <c>false</c> 
+            otherwise.
+            </value>
+            <remarks>
+            For more information see <see cref="P:com.ivp.rad.common.IRLogger.IsDebugEnabled"/>.
+            </remarks>
+        </member>
+        <member name="P:com.ivp.rad.common.IRLogger.IsInfoEnabled">
+            <summary>
+            Checks if this logger is enabled for the Level.Info level.
+            </summary>
+            <value>
+            <c>true</c> if this logger is enabled for Level.Info events, <c>false</c> 
+            otherwise.
+            </value>
+            <remarks>
+            For more information see <see cref="P:com.ivp.rad.common.IRLogger.IsDebugEnabled"/>.
+            </remarks>
+            <seealso cref="M:com.ivp.rad.common.IRLogger.Info(System.Object)"/>
+            <seealso cref="P:com.ivp.rad.common.IRLogger.IsDebugEnabled"/>
+        </member>
+        <member name="P:com.ivp.rad.common.IRLogger.IsWarnEnabled">
+            <summary>
+            Checks if this logger is enabled for the Level.Warn  level.
+            </summary>
+            <value>
+            <c>true</c> if this logger is enabled for Level.Warn events, <c>false</c> 
+            otherwise.
+            </value>
+            <remarks>
+            For more information see <see cref="P:com.ivp.rad.common.IRLogger.IsDebugEnabled"/>.
+            </remarks>
+            <seealso cref="M:com.ivp.rad.common.IRLogger.Warn(System.Object)"/>
+            <seealso cref="P:com.ivp.rad.common.IRLogger.IsDebugEnabled"/>
+        </member>
+        <member name="P:com.ivp.rad.common.IRLogger.IsErrorEnabled">
+            <summary>
+            Checks if this logger is enabled for the Level.Error  level.
+            </summary>
+            <value>
+            <c>true</c> if this logger is enabled for Level.Error events, <c>false</c>
+            otherwise.
+            </value>
+            <remarks>
+            For more information see <see cref="P:com.ivp.rad.common.IRLogger.IsDebugEnabled"/>.
+            </remarks>
+            <seealso cref="M:com.ivp.rad.common.IRLogger.Error(System.Object)"/>
+            <seealso cref="P:com.ivp.rad.common.IRLogger.IsDebugEnabled"/>
+        </member>
+        <member name="P:com.ivp.rad.common.IRLogger.IsFatalEnabled">
+            <summary>
+            Checks if this logger is enabled for the Level.Fatal  level.
+            </summary>
+            <value>
+            <c>true</c> if this logger is enabled for Level.Fatal events, <c>false</c>
+            otherwise.
+            </value>
+            <remarks>
+            For more information see <see cref="P:com.ivp.rad.common.IRLogger.IsDebugEnabled"/>.
+            </remarks>
+            <seealso cref="M:com.ivp.rad.common.IRLogger.Fatal(System.Object)"/>
+            <seealso cref="P:com.ivp.rad.common.IRLogger.IsDebugEnabled"/>
+        </member>
+        <member name="T:com.ivp.rad.common.RLog4NetWrapper">
+            <summary>
+            test
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.common.RLog4NetWrapper.mLog">
+            <summary>
+            Private Member of  log4net.ILog Type.
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.common.RLog4NetWrapper._configurationFile">
+            <summary>
+            string _configurationFilePath used for config file path
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.common.RLog4NetWrapper.mIsLoggerConfigured">
+             <summary>
+             Private bool type memebr for logger is configured 
+             </summary>
+            <value>
+             <c>true</c> if this logger is configured
+             <c>false</c> otherwise.
+             </value>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.#ctor(System.String)">
+            <summary>
+            This constructor creates assembly new IRLog4NetWrapper.
+            </summary>
+            <param name="className">Name of the class.</param>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:com.ivp.rad.common.RLog4NetWrapper"/> class.
+            </summary>
+            <param name="className">Name of the class.</param>
+            <param name="LogLocation">The log location.</param>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.GetNewLogger(System.String)">
+            <summary>
+            Gets the new logger with the Given name 
+            </summary>
+            <param name="className">Name of the class.</param>
+            <remarks>
+            <para> mIsConfigured tells the logging system the correct pathConfiguers the logger and 
+            starts the logger Instance.</para><para>Checks for the configuration
+            file (specified in .Config File of application) with log4net section if found configures the logger and starts a new instance
+            </para>of the logger with the given name.
+            </remarks>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.GetAssemblyInContext">
+            <summary>
+            Gets the assembly in context.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.SetLoggerForWebContext(System.String)">
+            <summary>
+            Sets the logger for web context.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.GetConfigFile">
+            <summary>
+            Gets the config file path.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.SetConfigurationFile(System.String)">
+            <summary>
+            Sets the configuration file and configures the log4net logger instance with a
+            found configuration file
+            </summary>
+            <param name="configurationFile">The configuration file.</param>
+            <remarks>
+            Method is used to configure log4net with the given file as param
+            This method configuers the logger and sets the bool variable
+            mIsLoggerConfiguredas true
+            </remarks>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.FindConfigInPath(System.String)">
+            <summary>
+            Finds the config Files in the given  path.
+            </summary>
+            <param name="path">String path.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.CreateLogMessage(System.Object)">
+             <summary>
+             Creates the log message and returns message object.
+             </summary>
+             <param name="message">object message.</param>
+             <returns> Object</returns>
+             <remarks><c>CreateLogMessage </c> used for processing the log message given to the 
+             logger using <c>strinbuilder object</c> and returned as Object string to be sollowed by 
+             log4net.ILog type objects <see cref="M:com.ivp.rad.common.RLog4NetWrapper.Debug(System.Object)"/> virtual public void <see cref="M:com.ivp.rad.common.RLog4NetWrapper.Debug(System.Object)">
+             </see>(object message)
+             </remarks>
+            <example>
+             <para> <code lang="c#">
+             {
+             mLog.Debug(<see cref="M:com.ivp.rad.common.RLog4NetWrapper.CreateLogMessage(System.Object)"></see>(message));
+             }
+             </code></para>
+             </example>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.GetWebSessionDetails">
+             <summary> <para>
+             Gets the web Environment and session details.As </para>
+             <para>Absolute URI:</para>
+             <para>Referer URI: </para>   
+            <para>User host address: 127.0.0.1,</para>
+            <para>User host name: ivp-pkumar.ivp.co.in,</para>
+            <para>HTTP method: POST.</para>
+            <para>Server Name: ivp-pkumar</para>
+             </summary>
+             <returns>string</returns>
+             <remarks> <para>Method is used to fetch Web Application details if logger is initialized
+               for Web application and Append the web details to the log message </para>
+            </remarks>
+              <example> 
+             <para>
+             <code lang="C#">
+             private object <see cref="M:com.ivp.rad.common.RLog4NetWrapper.CreateLogMessage(System.Object)"/> (object message)
+                {
+             StringBuilder objMessage = new StringBuilder();
+                objMessage.Append(Environment.NewLine + message + Environment.NewLine);
+                objMessage.Append(<see cref="M:com.ivp.rad.common.RLog4NetWrapper.GetWebSessionDetails"/>() + Environment.NewLine);
+             objMessage.Append("------------------------------------------------------------------");
+             return (object)objMessage;
+            }
+             </code> </para></example>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.Debug(System.Object)">
+            <summary>
+            Logs assembly message object with the <c>DEBUG</c> level.
+            </summary>
+            <param name="message">The message object to log.</param>
+            <remarks>
+            <para>
+            This method first checks if this logger is <c>DEBUG</c>
+            enabled by comparing the level of this logger with the 
+            <c>DEBUG</c> level. If this logger is
+            <c>DEBUG</c> enabled, then it converts the message object
+            (passed as parameter) to assembly string by invoking the appropriate
+            <see cref="T:log4net.ObjectRenderer.IObjectRenderer"/>. It then 
+            proceeds to call all the registered appenders in this logger 
+            and also higher in the hierarchy depending on the value of the 
+            additivity flag.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.IsValidAssembly(System.String)">
+            <summary>
+            Determines whether [is valid assembly] i.e. whether the log for this assembly needs to be created or not.
+            </summary>
+            <returns>
+            	<c>true</c> if [is valid assembly]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.Info(System.Object)">
+            <summary>
+            Logs assembly message object with the <c>INFO</c> level.
+            </summary>
+            <param name="message">The message object to log.</param>
+            <remarks>
+            <para>
+            This method first checks if this logger is <c>INFO</c>
+            enabled by comparing the level of this logger with the 
+            <c>INFO</c> level. If this logger is
+            <c>INFO</c> enabled, then it converts the message object
+            (passed as parameter) to assembly string by invoking the appropriate
+            <see cref="T:log4net.ObjectRenderer.IObjectRenderer"/>. It then 
+            proceeds to call all the registered appenders in this logger 
+            and also higher in the hierarchy depending on the value of 
+            the additivity flag.
+            </para>
+             </remarks>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.Warn(System.Object)">
+            <summary>
+            Logs assembly message object with the <c>WARN</c> level.
+            </summary>
+            <param name="message">the message object to log</param>
+            <remarks>
+            <para>
+            This method first checks if this logger is <c>WARN</c>
+            enabled by comparing the level of this logger with the 
+            <c>WARN</c> level. If this logger is
+            <c>WARN</c> enabled, then it converts the message object
+            (passed as parameter) to assembly string by invoking the appropriate
+            <see cref="T:log4net.ObjectRenderer.IObjectRenderer"/>. It then 
+            proceeds to call all the registered appenders in this logger and 
+            also higher in the hierarchy depending on the value of the 
+            additivity flag.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.Error(System.Object)">
+            <summary>
+            Logs assembly message object with the <c>ERROR</c> level.
+            </summary>
+            <param name="message">The message object to log.</param>
+            <remarks>
+            <para>
+            This method first checks if this logger is <c>ERROR</c>
+            enabled by comparing the level of this logger with the 
+            <c>ERROR</c> level. If this logger is
+            <c>ERROR</c> enabled, then it converts the message object
+            (passed as parameter) to assembly string by invoking the appropriate
+            <see cref="T:log4net.ObjectRenderer.IObjectRenderer"/>. It then 
+            proceeds to call all the registered appenders in this logger and 
+            also higher in the hierarchy depending on the value of the 
+            additivity flag.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.Fatal(System.Object)">
+            <summary>
+            Logs assembly message object with the <c>FATAL</c> level.
+            </summary>
+            <param name="message">The message object to log.</param>
+            <remarks>
+            <para>
+            This method first checks if this logger is <c>FATAL</c>
+            enabled by comparing the level of this logger with the 
+            <c>FATAL</c> level. If this logger is
+            <c>FATAL</c> enabled, then it converts the message object
+            (passed as parameter) to assembly string by invoking the appropriate
+            <see cref="T:log4net.ObjectRenderer.IObjectRenderer"/>. It then 
+            proceeds to call all the registered appenders in this logger and 
+            also higher in the hierarchy depending on the value of the 
+            additivity flag.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.Shutdown">
+            <summary>
+            Shuts down the log4net system.
+            </summary>
+            <remarks>
+            <para>
+            Calling this method will <b>safely</b> close and remove all
+            appenders in all the loggers including root contained in all the
+            default repositories.
+            </para>
+            <para>
+            Some appenders need to be closed before the application exists. 
+            Otherwise, pending logging events might be lost.
+            </para>
+            <para>The <c>shutdown</c> method is careful to close nested
+            appenders before closing regular appenders. This is allows
+            configurations where assembly regular appender is attached to assembly logger
+            and again to assembly nested appender.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.ResetConfiguration">
+            <overloads>Reset the configuration of assembly repository</overloads>
+            <summary>
+            Resets all values contained in this repository instance to their defaults.
+            </summary>
+            <remarks>
+            <para>
+            Resets all values contained in the repository instance to their
+            defaults.  This removes all appenders from all loggers, sets
+            the level of all non-root loggers to <c>null</c>,
+            sets their additivity flag to <c>true</c> and sets the level
+            of the root logger to <see cref="F:log4net.Core.Level.Debug"/>. Moreover,
+            message disabling is set to its default "off" value.
+            </para>		
+            </remarks>
+        </member>
+        <member name="M:com.ivp.rad.common.RLog4NetWrapper.IsHttpContext">
+            <summary>
+            Determines whether [is HTTP context].
+            </summary>
+            <returns>
+            	<c>true</c> if [is HTTP context]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="P:com.ivp.rad.common.RLog4NetWrapper.ConfigurationFile">
+            <summary>
+            Get the full path to the configuration file of this
+            application. Usually assembly file with ".CONFIG" extension.
+            </summary>
+            <value> String</value>
+            <remarks> public property for getting the Configuration File Path. Only getter is 
+            defined  </remarks>
+        </member>
+        <member name="P:com.ivp.rad.common.RLog4NetWrapper.IsDebugEnabled">
+            <summary>
+            Checks if this logger is enabled for the <c>DEBUG</c>
+            level.
+            </summary>
+            <value>
+            <c>true</c> if this logger is enabled for <c>DEBUG</c> events,
+            <c>false</c> otherwise.
+            </value>
+            <remarks>
+            <para>
+            This function is intended to lessen the computational cost of
+            disabled log debug statements.
+            </para>
+            <para>
+            For some <c>log</c> Logger object, when you write:
+            </para>
+            <code lang="C#">
+            log.Debug("This is entry number: " + i );
+            </code>
+            <para>
+            You incur the cost constructing the message, concatenation in
+            this case, regardless of whether the message is logged or not.
+            </para>
+            <para>
+            If you are worried about speed, then you should write:
+            </para>
+            <code lang="C#">
+            if (log.IsDebugEnabled())
+            { 
+             log.Debug("This is entry number: " + i );
+            }
+            </code>
+            <para>
+            This way you will not incur the cost of parameter
+            construction if debugging is disabled for <c>log</c>. On
+            the other hand, if the <c>log</c> is debug enabled, you
+            will incur the cost of evaluating whether the logger is debug
+            enabled twice. Once in <c>IsDebugEnabled</c> and once in
+            the <c>Debug</c>.  This is an insignificant overhead
+            since evaluating assembly logger takes about 1% of the time it
+            takes to actually log.
+            </para>
+            </remarks>
+        </member>
+        <member name="P:com.ivp.rad.common.RLog4NetWrapper.IsInfoEnabled">
+            <summary>
+            Checks if this logger is enabled for the <c>INFO</c> level.
+            </summary>
+            <value>
+            <c>true</c> if this logger is enabled for <c>INFO</c> events,
+            <c>false</c> otherwise.
+            </value>
+            <remarks>
+            <para>
+            See <see cref="P:com.ivp.rad.common.RLog4NetWrapper.IsDebugEnabled"/> for more information and examples 
+            of using this method.
+            </para>
+            </remarks>
+            <seealso cref="P:log4net.Core.LogImpl.IsDebugEnabled"/>
+        </member>
+        <member name="P:com.ivp.rad.common.RLog4NetWrapper.IsWarnEnabled">
+            <summary>
+            Checks if this logger is enabled for the <c>WARN</c> level.
+            </summary>
+            <value>
+            <c>true</c> if this logger is enabled for <c>WARN</c> events,
+            <c>false</c> otherwise.
+            </value>
+            <remarks>
+            <para>
+            See <see cref="P:com.ivp.rad.common.RLog4NetWrapper.IsDebugEnabled"/> for more information and examples 
+            of using this method.
+            </para>
+            </remarks>
+            <seealso cref="P:com.ivp.rad.common.IRLogger.IsDebugEnabled"/>
+        </member>
+        <member name="P:com.ivp.rad.common.RLog4NetWrapper.IsErrorEnabled">
+            <summary>
+            Checks if this logger is enabled for the <c>ERROR</c> level.
+            </summary>
+            <value>
+            <c>true</c> if this logger is enabled for <c>ERROR</c> events,
+            <c>false</c> otherwise.
+            </value>
+            <remarks>
+            <para>
+            See <see cref="P:com.ivp.rad.common.RLog4NetWrapper.IsDebugEnabled"/> for more information and examples of using this method.
+            </para>
+            </remarks>
+            <seealso cref="P:com.ivp.rad.common.IRLogger.IsDebugEnabled"/>
+        </member>
+        <member name="P:com.ivp.rad.common.RLog4NetWrapper.IsFatalEnabled">
+            <summary>
+            Checks if this logger is enabled for the <c>FATAL</c> level.
+            </summary>
+            <value>
+            <c>true</c> if this logger is enabled for <c>FATAL</c> events,
+            <c>false</c> otherwise.
+            </value>
+            <remarks>
+            <para>
+            See <see cref="P:com.ivp.rad.common.RLog4NetWrapper.IsDebugEnabled"/> for more information and examples of using this method.
+            </para>
+            </remarks>
+            <seealso cref="P:com.ivp.rad.common.IRLogger.IsDebugEnabled"/>
+        </member>
+        <member name="T:com.ivp.rad.common.RLogFactory">
+            <summary>
+            IRLogFactory class for creating objects through factory
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.common.RLogFactory.CreateLogger(System.String)">
+            <summary>
+            Creates the object through Factory with the specified fully 
+            specified classname.
+            </summary>
+            <param name="classname"> classname of the logger type to be instantiated.</param>
+            <returns>IRLogger</returns>
+            <remarks> Createobject Method takes string as parameter for fully specified class name 
+            and returns an IRLogger type object</remarks>
+        </member>
+        <member name="M:com.ivp.rad.common.RLogFactory.CreateLogger(System.String,System.String)">
+            <summary>
+            Creates the logger.
+            </summary>
+            <param name="classname">The classname.</param>
+            <param name="configFile">The config file.</param>
+            <returns></returns>
+        </member>
+        <member name="M:com.ivp.rad.common.RLogFactory.FindConfigInPath(System.String)">
+            <summary>
+            Finds the file and reads th value to Create an Object of type in path.
+            </summary>
+            <param name="path">The path.</param>
+            <returns>string</returns>
+            <remarks> Method Finds the file in the root directory recursively and returns the
+            file with the specified extension </remarks>
+        </member>
+        <member name="M:com.ivp.rad.common.RLogFactory.readLoggerType">
+            <summary>
+            Reads the type of the logger from a XML file.
+            </summary>
+            <returns>string</returns>
+            <remarks> Open and parsees the XML file and reads the Values from file to determine
+            Logger Type.Read Loggertype will be sallowed by factory to return a object of loggertype </remarks>
+        </member>
+        <member name="T:com.ivp.rad.common.RLoggerConfigReader">
+            <summary>
+            Class for reading config file for RloggerException Module.
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.common.RLoggerConfigReader.mLoggerName">
+            <summary>
+            public string variable for Loggername
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.common.RLoggerConfigReader.mAssemblies">
+            <summary>
+            global list of assemblies
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.common.RLoggerConfigReader.LoadConfig">
+            <summary>
+            Loads the config.
+            </summary>
+        </member>
+        <member name="T:com.ivp.rad.common.RException">
+            <summary>
+            IRException class for handling the exception
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.common.RException._message">
+            <summary>
+            Private member for message string
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.common.RException._machineName">
+            <summary>
+            Private member for machine name.
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.common.RException._source">
+            <summary>
+            Private member for exception source
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.common.RException._customMessage">
+            <summary>
+            Private member for custom message
+            </summary>
+        </member>
+        <member name="F:com.ivp.rad.common.RException._customProperties">
+            <summary>
+            Private member for stoing custoom message in Hashtable
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.common.RException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:com.ivp.rad.common.RException"/> class.
+            </summary>
+        </member>
+        <member name="M:com.ivp.rad.common.RException.#ctor(System.String)">
+            <summary>
+            Overloaded constructor to take a user defined message
+            </summary>
+            <param name="message">string</param>
+        </member>
+        <member name="M:com.ivp.rad.common.RException.#ctor(System.String,System.Exception)">
+            <summary>
+            Overloaded constructor in custom exception to take user defined message and exception 
+            </summary>
+            <param name="message">string</param>
+            <param name="ex">System.Exception</param>
+        </member>
+        <member name="M:com.ivp.rad.common.RException.#ctor(System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:com.ivp.rad.common.RException"/> class.
+            </summary>
+            <param name="ex">Exception ex.</param>
+        </member>
+        <member name="M:com.ivp.rad.common.RException.HandleException(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Handles the exception.
+            </summary>
+            <param name="message">string message.</param>
+            <param name="source">string source.</param>
+            <param name="customMessage">string custom message.</param>
+            <param name="hResult">int hresult.</param>
+        </member>
+        <member name="M:com.ivp.rad.common.RException.ToString">
+            <summary>
+            Creates and returns a string representation of the current exception.
+            And also set the custom properties given by the user as a hashtable
+            </summary>
+            <returns>
+            A string representation of the current exception.
+            </returns>
+            <PermissionSet><IPermission class="System.Security.Permissions.FileIOPermission, 
+            mscorlib,Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" PathDiscovery="*AllFiles*"/></PermissionSet>
+        </member>
+        <member name="P:com.ivp.rad.common.RException.Message">
+            <summary>
+            Gets a message that describes the current exception.
+            </summary>
+            <value></value>
+            <returns>The error message that explains the reason for the exception, 
+            or an empty string("").</returns>
+        </member>
+        <member name="P:com.ivp.rad.common.RException.ExceptionSource">
+            <summary>
+            Gets or sets the exception source.
+            </summary>
+            <value>The exception source.</value>
+        </member>
+        <member name="P:com.ivp.rad.common.RException.MachineName">
+            <summary>
+            Gets the machine name where the exception has occured
+            </summary>
+        </member>
+        <member name="P:com.ivp.rad.common.RException.CustomMessage">
+            <summary>
+            Gets or sets the custom message.
+            </summary>
+            <value>The custom message.</value>
+        </member>
+        <member name="P:com.ivp.rad.common.RException.CustomProperties">
+            <summary>
+            Stores customproperties in a hashtable
+            </summary>
+        </member>
+    </members>
+</doc>

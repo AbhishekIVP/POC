@@ -1,0 +1,88 @@
+﻿{{#each css}}
+<link rel="stylesheet" type="text/css" href="{{css}}" />
+{{/each}}
+
+<div class="col-md-12">
+    <div class="page-title">Please Select Workflow</div>
+    <div class="new-workflow-link pull-right" title="add new workflow">
+        <div id="exportWorkflowButton" title="Download Workflow Configuration" style="display: none; margin-right: 25px;">
+            <div class="AddNewWorkFlow"> Download WorkFlow Configuration </div>
+        </div>
+        <div id="addNewWorkflowButton" class="" data-container="body" data-toggle="popover" title="New Workflow" data-placement="bottom">
+            <i class="WorkFlowCircle fa fa-plus-circle"> </i>
+            <div class="AddNewWorkFlow"> Add New WorkFlow </div>
+        </div>
+    </div>
+</div>
+
+<div class="add-new-workflow-form">
+    <div class="add-new-workflow-container">
+        <div class="new-workflow-title">ADD NEW WORKFLOW</div>
+
+        <input id="newWorkflowName" class="new-workflow-text-box" placeholder="Enter WorkFlow Name">
+
+        <div class="new-workflow-group-control">
+            <div class="new-workflow-label">Module</div>
+            <div id="newWorkflowModuleDropdown" class="new-workflow-dropdown"></div>
+        </div>
+
+        <div class="new-workflow-group-control">
+            <div class="new-workflow-label">Action Type</div>
+            <div id="newWorkflowActionTypeDropdown" class="new-workflow-dropdown"></div>
+        </div>
+        <div class="newWorkflowErrorandButtonContainer">
+            <p class="newWorkflowErroMessage"></p>
+            <div id="newWorkflowSubmit" class="new-workflow-button" data-bind="click: onClickCreateWorkflow">ADD</div>
+        </div>
+    </div>
+</div>
+
+{{#each workflows}}
+<div class="workflow-box col-md-4">
+    <div class="workflow-card">
+        <div class="workflowHeaderLeft">
+            <div class="workflow-header" title="{{Name}}">
+                <div class="workflow-title">{{Name}}</div>
+                <!--<div class="hover-link pull-right">
+                    <i class="fa fa-arrow-circle-right" title="Update Workflow"></i>
+                </div>-->
+            </div>
+
+            <div class="workflow-body">
+                <!--<p class="workflow-description">{{Description}}</p>-->
+                <div class="workflowHeaderMetaContainer">
+                    <div class="workflow-meta">
+                        <div class="workflow-module" title="Module">
+                            <div class="workflow-icon">
+                                <i class="fa fa-bookmark"></i>
+                            </div>
+                            <div class="workflow-module-name" title="{{ModuleName}}">
+                                {{ModuleName}}
+                            </div>
+                        </div>
+                        <div class="workflow-level" title="{{WorkflowActionTypeName}}">
+                            <div class="workflow-icon">
+                                <i class="fa fa-tag"></i>
+                            </div>
+                            <div class="workflow-level-name">
+                                {{WorkflowActionTypeName}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-instanceId="{{InstanceId}}" data-name="{{Name}}" data-moduleName="{{ModuleName}}" data-moduleId="{{ModuleId}}" data-workflowActionTypeName="{{WorkflowActionTypeName}}" data-workflowActionTypeId="{{WorkflowActionTypeId}}"
+             data-workflowIsCreate="{{WorkflowIsCreate}}" data-workflowIsUpdate="{{WorkflowIsUpdate}}" data-workflowIsTimeSeries="{{WorkflowIsTimeSeries}}" data-raiseForNonEmptyValue="{{RaiseForNonEmptyValue}}"
+             data-workflowIsDelete="{{WorkflowIsDelete}}" data-typeids="{{TypeIds}}" data-primaryattributeids="{{PrimaryAttributeIds}}"
+             data-otherattributeids="{{OtherAttributeIds}}" class="hover-link workflowHeaderRight">
+            <i class="fa fa-arrow-right workflow-card-arrow-right"></i>
+        </div>
+    </div>
+</div>
+{{/each}}
+
+
+{{#each scripts}}
+<script src="{{script}}"></script>
+{{/each}}

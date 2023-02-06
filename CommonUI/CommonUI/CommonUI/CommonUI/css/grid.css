@@ -1,0 +1,2810 @@
+﻿
+
+.BalancePopupClass
+{
+	background: none;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 32px;
+	cursor: pointer;
+	background-image:url(images/icons/cashBalancePopupButton.gif);
+	margin-right:5px;
+	height: 22px;
+}
+
+.editGrid
+{
+    background: none;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 32px;
+	cursor: pointer;
+	background-image: url(images/icons/editGridButton.gif);
+	height: 22px;
+	margin-right:5px;
+}
+
+.commitGrid
+{
+    background: none;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 32px;
+	cursor: pointer;
+	background-image: url(images/icons/commitGridButton.gif);
+	height: 22px;
+	margin-right:5px;
+}
+/* commented by pp 20 feb
+.clearGrouping:hover
+{
+	background: none;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 29px;
+	cursor: pointer;
+	background-image: url(images/clearGrouping_hover.gif);
+	height: 22px;
+}
+*/
+
+a.manageViewIcon
+{
+                   background-image:url(images/icons/ico-4.png);
+                   background-repeat:no-repeat;
+                   background-position:left;
+                   font-size:18px;
+                   cursor:pointer;
+                   display:block;
+                   width:32px;
+                   height:22px;
+                   margin-right:5px;
+                   margin-left:5px;
+}
+
+
+/* commented by pp 20 feb
+.clearFilter:hover
+{
+	background: none;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 29px;
+	cursor: pointer;
+	background-image: url(images/clearFilter_hover.gif);
+	height: 22px;
+}
+*/
+
+
+/* commented by pp 20 feb
+.clearSort:hover
+{
+	background: none;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 29px;
+	cursor: pointer;
+	background-image: url(images/clearSort_hover.gif);
+	height: 22px;
+}
+*/
+body
+{
+	/*font-family: tahoma;
+	font-size: 10px;*/
+	/* commented by pp 20 feb
+	scrollbar-base-color: #6CA7D2;
+	scrollbar-arrow-color: #ffffff;
+	scrollbar-3dlight-color: #ffffff;
+	scrollbar-darkshadow-color: #ffffff;
+	scrollbar-face-color: #6CA7D2;
+	scrollbar-highlight-color: ##d7d7dc;
+	scrollbar-shadow-color: #d7d7dc;
+	scrollbar-track-color: #ffffff;
+	*/
+
+}
+.detailRow
+{
+	background-color:Silver;
+	}
+.detailRow td
+{
+	padding-left:1%;
+	
+	}
+/* updated by pp 20 feb */	
+
+/* commented by pp 23 feb
+.selectedCell
+{
+	background-color: #91C2E5;
+	font-weight:bold;
+	color:#fff;
+}
+.highlightedCell
+{
+	background-color: Yellow;
+}
+*/
+
+/* added by pp 23 feb */
+td.selectedCell
+{
+	background-color: #CDF7E2;
+	font-weight:bold;
+}
+.highlightedCell
+{
+	background-color: #CAB1EA;
+	color:#333;
+}
+
+
+.selectedRow
+{
+	border: 1px solid #fbb785;
+	background-color: #FFDBBB;
+	padding-left: 19px;
+	white-space: nowrap;
+	border-right: 0px solid #999999;
+	padding-right: 0px;
+	border-top: #f7f7f7 1px solid;
+	border-left: 1px solid #f7f7f7;
+	padding-left: 0px;
+	font-size: 10px;
+	padding-bottom: 0px;
+	vertical-align: middle;
+	cursor: default;
+	color: #333;
+	padding-top: 0px;
+	font-family: tahoma;
+	height: 20px;
+}
+
+
+/* added by pp 20 feb */
+.selectedRow td{
+	padding:0 7px;
+	border-left:1px solid #eee;
+	text-overflow:ellipsis;
+	word-wrap: break-word;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+
+.sortIndex
+{
+	padding: 0px 2px 0px 2px;
+	width: 1px;
+	font-size: 12px;
+	color: #000000;
+}
+
+/* commented by pp 17 feb 
+.recordSummary
+{
+	background-image:url(images/gridHeaderSeperator.gif);
+	background-position:right;
+	background-repeat:no-repeat;
+	font-size: 12px;
+	white-space:nowrap;
+	padding-right:15px;
+}
+*/
+/* added by pp 17 feb  */
+
+/* commented by pp 17 feb
+.gridControlPanel
+{
+	background-image:url(images/gridHeaderSeperator.gif);
+	background-position:left;
+	background-repeat:no-repeat;
+}
+*/
+/* added by pp 17 feb */
+.gridControlPanel
+{
+	padding:0 5px;
+}
+
+/* commented by pp 17 feb
+.groupDropPanel
+{
+	font-size: 10px;
+	background:none;
+	background-image: url(images/grouping_area_light.gif);
+	background-repeat: repeat-x;
+	height:26px;
+	padding-left:10px;
+	}
+*/
+
+/* added by pp 17 feb */
+
+/* updated by pp 23 feb */
+.maingroupDragButton
+{
+	float: left;
+	display:inline;
+	font-family:tahoma;
+	font-weight:bold;
+	font-size:10px;
+	/* color:#515352; */
+	line-height:20px;
+	padding:0px 10px;
+	text-align:center;
+	/*background-image:url(images/gridDragbtnBg.gif); commented by pp 23 feb*/
+	/* background-image:url(images/group_drag_btn_bg.gif); */ /* added by pp 23 feb*/
+	/* background-repeat:repeat-x; */
+	/* border:1px solid #085993; commented by pp 23 feb*/
+	border-top:1px solid #A9A48E;
+	border-right:1px solid #817E6D;
+	border-bottom:1px solid #817E6D;
+	border-left:1px solid #A9A48E;
+	/*-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+	-khtml-border-radius: 18px;
+	border-radius: 18px;*/
+	background-image:none;
+background-repeat:repeat-x;
+border-color:#c9c9c9;
+color:#767676;
+background-color:#e3e3e3;
+background-image:linear-gradient(#fefefe 0,#e3e3e3 100%);
+color:#767676;
+border:1px solid #c9c9c9;
+border-radius:4px
+	}
+	
+	.DraggedgroupDragButton
+{
+	float: left;
+	display:inline;
+	font-family:tahoma;
+	font-weight:bold;
+	font-size:10px;
+	/* color:#515352; */
+	line-height:20px;
+	padding:0px 10px;
+	text-align:center;
+	/*background-image:url(images/gridDragbtnBg.gif); commented by pp 23 feb*/
+	/* background-image:url(images/group_drag_btn_bg.gif); */ /* added by pp 23 feb*/
+	/* background-repeat:repeat-x; */
+	/* border:1px solid #085993; commented by pp 23 feb*/
+	border-top:1px solid #A9A48E;
+	border-right:1px solid #817E6D;
+	border-bottom:1px solid #817E6D;
+	border-left:1px solid #A9A48E;
+	/*-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+	-khtml-border-radius: 18px;
+	border-radius: 18px;*/
+	background-image:none;
+background-repeat:repeat-x;
+border-color:#c9c9c9;
+color:#767676;
+background-color:#e3e3e3;
+background-image:linear-gradient(#fefefe 0,#e3e3e3 100%);
+color:#767676;
+border:1px solid #c9c9c9;
+border-radius:4px
+
+	}
+	
+	.DraggedgroupDragButtonStart
+	{
+		float: left;
+	display:inline;
+	font-family:tahoma;
+	font-weight:bold;
+	font-size:10px;
+	/* color:#515352; */
+	line-height:20px;
+	padding:0px 10px;
+	text-align:center;
+	border-top:1px solid #A9A48E;
+	border-right:1px solid #817E6D;
+	border-bottom:1px solid #817E6D;
+	border-left:1px solid #A9A48E;
+	background-image:none;
+    background-repeat:repeat-x;
+    border-color:#c9c9c9;
+    color:#4C4C4C !important;
+    background-color:#E6E6E6;
+    text-align:left;
+    color:#767676;
+    border:1px solid #c9c9c9;
+   /* border-radius:4px;*/
+
+	    }
+	/* commented by pp 23 feb
+.groupDragButton:hover
+{
+	float: left;
+	cursor:default;
+	display:inline;
+	font-family:tahoma;
+	font-weight:bold;
+	font-size:10px;
+	color:#0F4267;
+	line-height:16px;
+	padding:0px 10px;
+	text-align:center;
+	background-image:url(images/gridDragbtnBg_hover.gif);
+	background-repeat:repeat-x;
+	border:1px solid #0C7CB5;
+	}
+	*/
+
+/* updated by pp 23 feb */
+.groupDragButtonSeparator
+{
+	BORDER-RIGHT: none;	
+	/*PADDING-RIGHT: 7px;*/	
+	BORDER-TOP: none;	
+/*	PADDING-LEFT: 7px;	*/
+	FONT-WEIGHT: bold;	
+	FONT-SIZE: 1px;	
+	FLOAT: left;	
+	PADDING-BOTTOM: 2px;	
+	VERTICAL-ALIGN: middle;	
+	BORDER-LEFT: none;	
+	CURSOR: move;	
+	COLOR: #ffffff;	
+	/*PADDING-TOP: 2px;	*/
+	BORDER-BOTTOM: none;	
+	FONT-FAMILY: Tahoma;	
+	HEIGHT: 12px;	
+	TEXT-ALIGN: center;
+	background-image:url(images/dropPanelSep.gif);
+	background-repeat:repeat-x;
+	background-position:center;
+	padding-top:20px;
+	width:5px;
+}
+.groupOnDragHeader
+{
+	background:none;
+	background-color:#ccc;
+	color:#fff;
+}
+
+
+
+
+/* commented by pp 17 feb
+a.exportToExcel
+{
+		background-image:url(images/ExportToExcel_b.gif);
+		background-repeat:no-repeat;
+		background-position:center;
+		font-size:16px;
+		padding-right:30px;
+		cursor:pointer;
+}
+
+a.exportToExcelVisibleRows
+{
+		background-image:url(images/ExportExcel.gif);
+		background-repeat:no-repeat;
+		background-position:center;
+		font-size:16px;
+		padding-right:30px;
+		cursor:pointer;
+}
+*/
+/* Added by pp 17 feb */
+
+
+
+input[type=image]
+{
+	cursor:pointer;
+}
+
+/* commented by pp 17 feb
+.upperHeader td
+{
+	text-align: left;
+	padding-left: 10px;
+}
+.upperHeader
+{
+	border-right: #ffffff 0px solid;
+	border-top: #ffffff 0px solid;
+	padding-left: 20px;
+	font-weight: bold;
+	font-size: 10px;
+	background:none;
+	background-image: url(images/grouping_area.gif);
+	background-repeat: repeat-x;
+	background-color:#8bb7d7;
+	border-left: #ffffff 0px solid;
+	color: #0F4267;
+	border-bottom: #ffffff 0px solid;
+	font-family: verdana;
+	height: 26px;
+	text-align: left;
+}
+*/
+
+/* added by pp 17 feb */
+
+
+
+
+.groupDragVisualClue
+{
+	background-image:url(images/header.gif);
+	background-repeat:repeat-x;
+	background-color:#d3ecf6;
+	color: MenuText;
+	border: 0px;
+	cursor: default;
+	border-right: 0px;
+	border-top: 0px;
+	padding-left: 0px;
+	font-weight: bold;
+	font-size: 10px;
+	vertical-align: middle;
+	border-left: 0px;
+	cursor: pointer;
+	color: #0F4267;
+	border-bottom: 0px;
+	font-family: Tahoma;
+	text-align: left;
+	}
+
+/* commented by pp 23 feb
+.groupedRow
+{
+	background-color: #e0e0e9;
+	color: Blue;
+	font-size: 11px;
+	font-weight: bold;
+	height: 22px;
+	cursor: default;
+}
+
+.groupHeaderClose
+{
+	background-color: #e0e0e9;
+	color: Blue;
+	font-size: 11px;
+	font-weight: bold;
+	height: 22px;
+	cursor: pointer;
+}
+.groupHeaderClose:hover
+{
+	border: 1px solid orange;
+}
+*/
+
+/* added by pp 23 feb */
+
+.groupedRow_0
+{
+   color: #4C4C4C;
+
+   font-family: 'Istok Web';
+
+   height: 24px !important;
+border-top:1px solid #EDEDED;
+   font-size: 12px;
+   vertical-align: middle !important;
+   line-height: 24px;
+/*border-bottom:1px solid #8B8B8B;*/
+/*background-image: -webkit-linear-gradient(top,white 0,#f2f2f2 30%,#d5d4d3 100%);
+background: url(App_Themes/Aqua/images/icons/Arrowhead-Down-01.png) no-repeat 0px left;*/
+/*background:url(images/icons/grey-bgpatt.jpg) top left repeat-x;*/
+
+  /* background: #bbc3c7;*/
+  background:#d1d1d1;
+
+   color: #5d5c5c;
+   z-index:10;
+   /*border-right:1px solid #D3CCB0;*/
+/*background-color: #e8e8e3;
+color: #3399CC;
+font-family:tahoma;
+font-size: 11px;
+font-weight: bold;
+height: 22px;
+cursor: default;
+white-space:nowrap;
+border-bottom:1px solid #8B8B8B;*/
+
+   white-space: nowrap;
+   vertical-align: middle;
+   cursor: default;
+  /* color: #5e5e70;*/
+   padding-top: 0px;
+   height: 22px;
+   padding-top: 0px;
+   font-weight:400;
+   height: 22px;
+}
+
+.groupedRow_1
+{
+   color: #4C4C4C;
+
+   font-family: 'Istok Web';
+
+   height: 23px !important;
+border-top:1px solid #EDEDED;
+   vertical-align: middle !important;
+   line-height: 23px;
+   font-size: 12px;
+   cursor: default;
+/*border-bottom:1px solid #8B8B8B;*/
+/*background-image: -webkit-linear-gradient(top,white 0,#f2f2f2 30%,#d5d4d3 100%);
+background: url(App_Themes/Aqua/images/icons/Arrowhead-Down-01.png) no-repeat 0px left;*/
+/*background:url(images/icons/grey-bgpatt.jpg) top left repeat-x;*/
+background:#E2E2E2;
+/*e7e9e9*/	
+   color: #5d5c5c;
+   z-index:10;
+   /*border-right:1px solid #D3CCB0;*/
+/*background-color: #e8e8e3;
+color: #3399CC;
+font-family:tahoma;
+font-size: 11px;
+font-weight: bold;
+height: 22px;
+cursor: default;
+white-space:nowrap;
+border-bottom:1px solid #8B8B8B;*/
+font-weight:400;
+   white-space: nowrap;
+   vertical-align: middle;
+   cursor: default;
+  /* color: #5e5e70;*/
+   padding-top: 0px;
+   height: 22px;
+}
+
+
+
+.groupedRow_0
+{
+   color: #4C4C4C;
+
+   font-family: 'Istok Web';
+
+   height: 24px !important;
+border-top:1px solid #EDEDED;
+   font-size: 12px;
+   vertical-align: middle !important;
+   line-height: 24px;
+/*border-bottom:1px solid #8B8B8B;*/
+/*background-image: -webkit-linear-gradient(top,white 0,#f2f2f2 30%,#d5d4d3 100%);
+background: url(App_Themes/Aqua/images/icons/Arrowhead-Down-01.png) no-repeat 0px left;*/
+/*background:url(images/icons/grey-bgpatt.jpg) top left repeat-x;*/
+
+  /* background: #bbc3c7;*/
+  background:#d1d1d1;
+
+   color: #5d5c5c;
+   z-index:10;
+   /*border-right:1px solid #D3CCB0;*/
+/*background-color: #e8e8e3;
+color: #3399CC;
+font-family:tahoma;
+font-size: 11px;
+font-weight: bold;
+height: 22px;
+cursor: default;
+white-space:nowrap;
+border-bottom:1px solid #8B8B8B;*/
+
+   white-space: nowrap;
+   vertical-align: middle;
+   cursor: default;
+  /* color: #5e5e70;*/
+   padding-top: 0px;
+   height: 22px;
+   padding-top: 0px;
+   font-weight:400;
+   height: 22px;
+}
+
+.groupedRow_1
+{
+   color: #4C4C4C;
+
+   font-family: 'Istok Web';
+
+   height: 23px !important;
+border-top:1px solid #EDEDED;
+   vertical-align: middle !important;
+   line-height: 23px;
+   font-size: 12px;
+   cursor: default;
+/*border-bottom:1px solid #8B8B8B;*/
+/*background-image: -webkit-linear-gradient(top,white 0,#f2f2f2 30%,#d5d4d3 100%);
+background: url(App_Themes/Aqua/images/icons/Arrowhead-Down-01.png) no-repeat 0px left;*/
+/*background:url(images/icons/grey-bgpatt.jpg) top left repeat-x;*/
+background:#E2E2E2;
+/*e7e9e9*/	
+   color: #A0A0A0;
+   z-index:10;
+   /*border-right:1px solid #D3CCB0;*/
+/*background-color: #e8e8e3;
+color: #3399CC;
+font-family:tahoma;
+font-size: 11px;
+font-weight: bold;
+height: 22px;
+cursor: default;
+white-space:nowrap;
+border-bottom:1px solid #8B8B8B;*/
+font-weight:400;
+   white-space: nowrap;
+   vertical-align: middle;
+   cursor: default;
+  /* color: #5e5e70;*/
+   padding-top: 0px;
+   height: 22px;
+}
+
+
+
+.groupedRow
+{
+    font-weight:400;
+	color: #4C4C4C;
+	font-family: 'Istok Web';
+	height: 23px !important;
+	font-size: 12px;
+	vertical-align: middle !important;
+	line-height: 23px;
+	/*border-bottom:1px solid #8B8B8B;*/
+	/*background-image: -webkit-linear-gradient(top,white 0,#f2f2f2 30%,#d5d4d3 100%);
+	background: url(App_Themes/Aqua/images/icons/Arrowhead-Down-01.png) no-repeat 0px left;*/
+	background:#F0F0F0;
+    z-index:10;
+    border-top:1px solid #EDEDED;
+    /*border-right:1px solid #D3CCB0;*/
+	/*background-color: #e8e8e3;
+	color: #3399CC;
+	font-family:tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	height: 22px;
+	cursor: default;
+	white-space:nowrap;
+	border-bottom:1px solid #8B8B8B;*/
+	 
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: default;
+    
+	color: #505050;
+    padding-top: 0px;
+    height: 22px;
+}
+
+.groupHeaderClose
+{
+	background-color: #F5F0DA;
+	color: #3399CC;
+	font-family:tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	height: 22px;
+	cursor: pointer;
+}
+/* added by pp 23 feb for sub group */
+
+.subGroupedRow{
+	background-color: #D8D8D8;
+	color: #006666;
+	font-family:tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	height: 22px;
+	cursor: default;
+	border-bottom:1px solid #8B8B8B;
+}
+
+.subGroupedRowClose
+{
+	background-color: #D8D8D8;
+	color: #006666;
+	font-family:tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	height: 22px;
+	cursor: pointer;
+}
+.groupHeaderClose:hover
+{
+	border: 1px solid orange;
+}
+
+
+
+
+
+.sortDownIcon
+{
+	cursor:pointer;
+	padding:0px 8px;
+	/* commented by pp 20 feb
+	background:none;
+	background-image:url(images/gridSortDownIcon.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	*/
+	background:url(images/icons/gridSortDownIcon.gif) center center no-repeat;
+	height:25px;
+}
+.sortUpIcon
+{
+	cursor:pointer;
+	padding:0px 8px;
+	background:none;
+	/* commented by pp 20 feb
+	background-image:url(images/gridSortUpIcon.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	*/
+	background:url(images/icons/gridSortUpIcon.gif) center center no-repeat;
+	height:25px;
+}
+.filterSortDownIcon
+{
+	cursor:pointer;
+	padding:0px 8px;
+	background:none;
+	/* commented by pp 20 feb
+	background-image:url(images/gridFilterSortDownIcon.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	*/
+	background:url(images/icons/gridFilterSortDownIcon.gif) center center no-repeat;
+	height:25px;
+}
+.filterSortUpIcon
+{
+	cursor:pointer;
+	padding:0px 8px;
+	background:none;
+	/* commented by pp 20 feb
+	background-image:url(images/gridFilterSortUpIcon.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	*/
+	background:url(images/icons/gridFilterSortUpIcon.gif) center center no-repeat;
+	height:25px;
+}
+
+.chk
+{
+	
+}
+/* commented by pp 20 feb 
+.filterSelectList
+{
+	border: 1px solid #0F4267;
+	background-color: #ffffff;
+}
+*/
+
+/* added by pp 20 feb */
+/*.filterSelectList
+{
+	border: 1px solid #C8CCCD;
+	background-color: #f4f5f5;
+	padding-top:5px;
+	z-index:1001;
+	box-shadow: 6px 6px 12px rgba(0,0,0,0.175);
+	*//* background-color: #434A54; */
+	/*border: 1px solid #d8d9d9;
+	border-radius: 5px;
+}*/
+
+.filterSelectList
+{
+	border: 1px solid #C8CCCD;
+	/*background-color: #f4f5f5;*/
+	background-color: #FFFFFF;
+	padding-top:5px;
+	z-index:1001;
+	box-shadow: 6px 6px 12px rgba(0,0,0,0.175);
+	-webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-family:'Open Sans', sans-serif;
+}
+
+.slimScrollDivNew
+{
+    /*border: px solid #ccc;   */
+    /*border: 2px solid #b8b8b8;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;*/
+}
+
+.slimscrollborder
+{
+    border: 2px solid #b8b8b8;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+/*.filterSelectList div div
+{
+    margin-left : 0px ! important
+}*/
+
+/* commented by pp 20 feb 
+.selectLabel
+{
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #0F4267;
+}
+*/
+
+/* added by pp 20 feb */
+
+
+/* commented by pp 20 feb
+.selectButtonPanel
+{
+	background-color: #A0C1D8;
+	padding: 4px 0px 4px 0px;
+}
+*/
+
+/* added by pp 20 feb */
+.selectButtonPanel
+{
+	padding-top: 2px;
+	padding-bottom:2px;
+	padding-left:5px;
+	background:#ECECEC url(images/resizeDragControl.png) right bottom no-repeat;
+	text-align:center;
+}
+
+/* commented by pp 20 feb
+.filterButton
+{
+	background-color: #E2ECF3;
+	font-family: Arial;
+	font-size: 11px;
+	color: #0F4267;
+	border: 1px solid #0F4267;
+	font-weight: bold;
+}
+.filterButton:hover
+{
+	border: 1px solid #fff;
+}
+.filterCancelButton
+{
+	background-color: #E2ECF3;
+	font-family: Arial;
+	font-size: 11px;
+	color: #0F4267;
+	border: 1px solid #0F4267;
+	font-weight: bold;
+}
+.filterCancelButton:hover
+{
+	border: 1px solid #fff;
+}
+.filterResetButton
+{
+	background-color: #E2ECF3;
+	font-family: Arial;
+	font-size: 11px;
+	color: #0F4267;
+	border: 1px solid #0F4267;
+	font-weight: bold;
+}
+.filterResetButton:hover
+{
+	border: 1px solid #fff;
+}
+*/
+
+/* Added by pp 20 feb */
+
+.filterButton,
+.filterCancelButton,
+.filterResetButton{
+	font-family:tahoma;
+	font-size:10px;
+	font-weight:bold;
+	color:#333;
+	padding:2px 0;
+	margin-right:5px;
+	}
+
+
+/* Added by pp 20 feb */
+.filterImageButton{
+    background:url(images/icons/Check.png) left top no-repeat;
+    height:20px;
+    width:18px;
+    margin-right:20px;
+    border-radius:10px;
+}
+
+.filterImageButton:hover{
+    background:url(images/icons/CheckHover.png) left top no-repeat;
+    height:20px;
+    width:18px;
+    margin-right:20px;
+    border-radius:10px;
+}
+
+
+.filterButton,
+.filterResetButton{
+	border:0;
+	/*border-top:1px solid #6E949D;
+	border-right:1px solid #557278;
+	border-bottom:1px solid #557278;
+	border-left:1px solid #6E949D; */
+}
+
+/* Added by pp 20 feb */
+.filterCancelButton{
+	background: url(images/icons/Close.png) left top no-repeat;
+    height:20px;
+	border:0;
+	width:18px;
+margin-right:20px;
+border-radius:10px;
+}
+
+.filterCancelButton:hover{
+	background: url(images/icons/Closehover.png) left top no-repeat;
+    height:20px;
+	border:0;
+	width:18px;
+    margin-right:20px;
+    border-radius:10px;
+}
+
+.filterResetImageButton
+{
+    background:url(images/icons/Data-Synchronize.png) left top no-repeat;
+    height:20px;
+    width:18px;
+    border-radius:10px;
+}
+.filterResetImageButton:hover
+{
+    background:url(images/icons/Data-Synchronizehover.png) left top no-repeat;
+    height:20px;
+    width:18px;
+    border-radius:10px;
+    
+}
+
+
+
+.filterIndex
+{
+	padding: 0px 2px 0px 2px;
+	width: 1px;
+	font-size: 12px;
+	color: #000000;
+}
+
+
+/* updated by pp 23 feb added icons path */
+.expandGroupButton
+{
+	width: 15px;
+	cursor: pointer;
+	/*background-image: url(images/icons/Arrowhead-Right-05.png);*/
+	background-repeat: no-repeat;
+	background-position: center;
+	height:22px;
+	line-height:22px;
+	vertical-align:middle;
+	text-align:center;
+	cursor:pointer;
+	color:#848284;
+	font-size:14px;
+}
+/* updated by pp 23 feb added icons path */
+.collapseGroupButton
+{
+	width: 15px;
+	cursor: pointer;
+	/*background-image: url(images/icons/Arrowhead-Down-05.png);*/
+	background-repeat: no-repeat;
+	background-position: center;
+	height:22px;
+	line-height:22px;
+	vertical-align:middle;
+	text-align:center;
+	cursor:pointer;
+	color:#848284;
+	font-size:13px;
+}
+/* updated by pp 23 feb added icons path */
+.expandGridButton
+{
+	padding:0px 15px;
+	cursor: pointer;
+	background-image: url(images/icons/plus.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/* updated by pp 23 feb added icons path */
+.collapseGridButton
+{
+	padding:0px 15px;
+	cursor: pointer;
+	background-image: url(images/icons/minus.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.pagerRow
+{
+PADDING-RIGHT: 0px;	
+MARGIN-TOP: 2px;	
+PADDING-LEFT: 20px;	
+BACKGROUND-IMAGE: url(images/grouping_area.gif);	
+PADDING-BOTTOM: 0px;	
+PADDING-TOP: 0px;	
+HEIGHT: 26px;
+background-repeat:repeat-x;
+cursor:default;
+color:#7c7c8b;-
+}
+.pagerRow td
+{
+	padding-left:10px;
+	}
+
+ .prevPage a
+{
+	text-decoration:none;
+}
+	.nextPage a{ text-decoration:none;}
+a.prevPage
+{
+	text-decoration:none;
+	padding:4px 10px;
+}
+a.nextPage 
+{
+	text-decoration:none;
+	padding:4px 10px;
+}
+
+/* updated by pp 23 feb */
+
+
+
+/*Context Menu CSS*/
+
+.hideMenu
+{
+	position:absolute;
+	z-index: 1001;
+	width:130px;
+}
+.contextMenuHideColumns
+{
+	border:1px solid #BABBB6;
+	z-index:10;
+	
+}
+/* updated by pp 23 feb */
+.contextMenuHideColumnsItem
+{
+	cursor:pointer;
+	border:0px;
+	background:none;
+	margin:0px;
+	text-align:left;
+	/*background-image:url(images/contextTrBg.gif); commented by pp 23 feb*/
+	background:#fff url(images/hidemenu_bg.gif) left top repeat-x;
+	background-attachment:scroll;
+	font-family:tahoma;
+	border-collapse:separate;
+	font-size:11px;
+	font-weight:normal;
+	color:#006666;
+	vertical-align:middle;
+	height:20px;
+	border-color:#BABBB6;	
+	
+}
+
+/*
+pre span
+{
+	font-family:tahoma;
+	font-size:10px;
+	float:left;
+	margin-top:-8px;
+}
+*/
+
+pre
+{
+	height:26px;
+	DISPLAY: block; MARGIN-BOTTOM: 0px; VERTICAL-ALIGN: middle;	
+}
+.btnModify
+{
+	background:none;
+	border:none;
+	cursor:pointer;
+	background-image:url(images/btnModify.gif);
+	background-repeat:no-repeat;
+	background-position:center 50%;
+	width:22px;
+}
+.btnModifyDisabled
+{
+	background:none;
+	border:none;
+	cursor:pointer;
+	background-image:url(images/btnModifyDisabled.gif);
+	background-repeat:no-repeat;
+	background-position:center 50%;
+	width:22px;	
+}
+.btnUpdate
+{
+	background:none;
+	border:none;
+	cursor:pointer;
+	background-image:url(images/updateIcon.gif);
+	background-repeat:no-repeat;
+	background-position:center 50%;
+	width:22px;
+}
+.btnUpdateDisabled
+{
+	background:none;
+	border:none;
+	cursor:pointer;
+	background-image:url(images/updateIconDisabled.gif);
+	background-repeat:no-repeat;
+	background-position:center 50%;
+	width:22px;	
+}
+.btnDelete
+{
+	background:none;
+	border:none;
+	cursor:pointer;
+	background-image:url(images/deleteIcon.gif);
+	background-repeat:no-repeat;
+	background-position:center 50%;
+	width:22px;
+}
+.btnDeleteDisabled
+{
+	background:none;
+	border:none;
+	cursor:pointer;
+	background-image:url(images/deleteIcon_disabled.gif);
+	background-repeat:no-repeat;
+	background-position:center 50%;
+	width:22px;	
+}
+.noDisplay
+{
+	display:none;
+}
+
+.displayNone
+{
+	display:none;
+}
+
+.groupFooter
+{
+	background-color:#ccccce;
+	font-family:Tahoma;
+	font-weight:bold;
+	
+	font-size:11px;
+}
+
+.groupFooterSmall
+{
+	background-color:#505050;
+	font-family:Tahoma;
+	font-weight:bold;
+	color:#FFCB00;
+	font-size:11px;
+	height:auto;
+}
+
+.groupFooter td
+{
+	border:0px;
+	border-top:1px solid #fff;
+	text-align:right;
+	height:20px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+	padding:0 3px;
+}
+
+.frozenColumn
+{
+	font-weight:bold;
+	border-color:#eee;
+	position:relative;
+}
+
+.shiftSelectedRow
+{
+border: 1px solid #fbb785;
+background-color: #C3F5FF;
+padding-left: 19px;
+white-space: nowrap;
+border-right: 0px solid #999999;
+padding-right: 0px;
+border-top: #f7f7f7 1px solid;
+border-left: 1px solid #f7f7f7;
+padding-left: 0px;
+font-size: 10px;
+padding-bottom: 0px;
+vertical-align: middle;
+cursor: default;
+color: #333;
+padding-top: 0px;
+font-family: tahoma;
+height: 20px;
+}
+.ellipsis
+{
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.hidePanel
+{
+	background: none;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 32px;
+	cursor: pointer;
+	background-image: url(images/icons/hideSliderPane.gif);
+	height: 22px;
+	margin-right:5px;
+}
+.showPanel
+{
+	background: none;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 32px;
+	cursor: pointer;
+	background-image: url(images/icons/showSliderPane.gif);
+	height: 22px;
+	margin-right:5px;
+}
+
+.sliderRail
+{
+	background-image:url(images/sliderBar.png);
+	background-position:center 3px;
+	background-repeat:no-repeat;
+	}
+.sliderRailElementUp
+{
+	background-image:url(images/sliderUp.png);
+	background-position:center top;
+	background-repeat:no-repeat;
+	}
+.sliderRailElementDown
+{
+	margin-top:13px;
+	background-image:url(images/sliderDown.png);
+	background-position:center bottom;
+	background-repeat:no-repeat;
+}
+.sliderOuterTable
+{
+border-left:1px solid #DED9CD;border-top:1px solid #DED9CD;border-right:2px solid #ccc;border-bottom:2px solid #ccc; background-color:#FAFAFA; height:30px; width:300px; margin:5px 20px 10px 10px; float:left;
+}
+.sliderTitle
+{
+background:none !important;
+font:bold 11px verdana;
+color:#666666;
+height:10px;
+width:200px;
+padding-left:10px;
+padding-right:10px;
+text-align:center;
+width:100px;
+}
+
+.sliderTitle DIV
+{
+	white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+
+.sliderCurveLt
+{
+width:50%;
+height:10px;
+}
+.sliderCurveRt
+{
+ width:5%;
+ height:10px;
+ text-align:right;
+}
+.closeButton{background:url(images/sldrClose.png) -2px center no-repeat;
+ width:12px; height:12px; border:none; margin-left:12px; cursor:hand
+ }
+.closeButton:hover{background:url(images/sldrCloseHover.png) -2px center no-repeat;
+ width:12px; height:12px;border:none; margin-left:12px; cursor:hand
+ }
+.selectAllRowsOuterDiv
+{
+	width:100%;
+	text-align:center;
+	background:#333;
+	height:20px;
+	vertical-align:middle;
+	line-height:20px;
+	padding:10px;
+	display:none;
+}
+.selectAllRowsInnerDiv
+{
+	display:inline;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#ff0;
+	text-decoration:underline;
+	padding:0px 10px 0px 10px;
+	cursor:pointer;
+}
+.selectAllRowsCancel
+{
+	display:inline;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#fff;
+	text-decoration:underline;
+	padding:0 10px;
+	cursor:pointer;
+}
+
+/* RuleBasedColoring Css*/
+.addRuleCanvas
+{
+width:550px;
+background:#fff;
+border-bottom:2px solid #525252;
+border-left:1px solid #525252;
+border-right:1px solid #525252;
+border-top:none;
+}
+.addRuleTitleBar
+{
+width:100%;
+height:20px;
+background-image:url(images/addRuleTitleBarBg.gif);
+background-repeat:repeat-x;
+background-position:top;
+background-color:#000;
+}
+.addRuleTitleText
+{
+float:left;
+font-family:arial;
+font-size:11px;
+color:#fff;
+padding:3px 5px;
+}
+.addRuleTitleBtn
+{
+float:right;
+margin:5px 4px;
+text-align:right;
+}
+.addRuleEditBtn
+{
+cursor:pointer;
+display:block;
+background-image:url(images/addRuleEditDeleteBtn.gif);
+background-repeat:no-repeat;
+background-position:0 0;
+height:16px;
+width:14px;
+}
+.addRuleRemoveBtn
+{
+cursor:pointer;
+display:block;
+background-image:url(images/addRuleEditDeleteBtn.gif);
+background-repeat:no-repeat;
+background-position:-14px 0;
+height:16px;
+width:14px;
+}
+
+
+.addRuleControlPanel
+{
+/*position:relative;*/
+height:76px;
+width:100%;
+background-image:url(images/addRuleControlPanelBg.gif);
+background-position:bottom;
+background-repeat:repeat-x;
+background-color:#F1F0F0;
+border-top:1px solid #fff;
+}
+.addRuleGridPanel
+{
+/*position:relative;*/
+height:200px;
+overflow:auto;
+}
+.addRuleFormPanel
+{
+/*float:left;*/
+margin:10px;
+/*width:300px;*/
+}
+.addRuleFormFields td
+{
+font-family:arial;
+font-size:11px;
+font-weight:bold;
+color:#000;
+}
+.addRuleInput
+{
+font-family:tahoma;
+font-size:10px;
+color:#525252;
+}
+.addRuleSubmitPanel
+{
+/*position:absolute;
+float:right;
+top:45px;
+right:10px;
+*/
+}
+.addRuleAddBtn
+{
+border:none;
+border:1px solid #AEB4C3;
+background:none;
+background-image:url(images/addNew.gif);
+background-position:left;
+height:24px;
+width:80px;
+font-family:arial;
+font-size:11px;
+color:#525252;
+font-weight:bold;
+text-align:left;
+padding-left:20px;
+}
+
+.addRuleClearBtn
+{
+border:none;
+border:1px solid #AEB4C3;
+background:none;
+background-repeat: no-repeat;
+background-image:url(images/deleteIcon.gif);
+background-position:left;
+height:24px;
+width:80px;
+font-family:arial;
+font-size:11px;
+color:#525252;
+font-weight:bold;
+text-align:left;
+padding-left:20px;
+}
+
+.addRuleApplyBtn
+{
+	border:none;
+	border:1px solid #AEB4C3;
+	background:none;
+	background-repeat: no-repeat;
+	background-image:url(images/updateIcon.gif);
+	background-position:left;
+	height:24px;
+	width:80px;
+	font-family:arial;
+	font-size:11px;
+	color:#525252;
+	font-weight:bold;
+	text-align:left;
+	padding-left:20px;
+	
+}
+.addPickColorBtn
+{
+	background: none;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 22px;
+	cursor: pointer;
+	background-image: url(images/addRuleColorPaletteButton.gif);
+	height: 22px;
+	
+}
+a.addRuleCloseBtn
+{
+cursor:pointer;
+display:block;
+background-image:url(images/addRuleCloseBtnStripe.gif);
+background-repeat:no-repeat;
+background-position:0 0;
+height:10px;
+width:10px;
+}
+a.addRuleCloseBtn:hover
+{
+background-position:-10px 0;
+}
+
+.addRuleGrid
+{
+
+
+}
+.addRuleGrid thead tr
+{
+position:relative;
+top:expression(this.offsetParent.ScrollTop);
+}
+.addRuleGrid thead tr th
+{
+background-image:url(addRuleImages/addRuleGridHeadBg.gif);
+background-repeat:repeat-x;
+height:26px;
+border-top:1px solid #fff;
+background-color:#5F6A85;
+font-family:arial;
+font-size:11px;
+font-weight:bold;
+color:#fff;
+text-align:left;
+padding-left:5px;
+}
+.addRuleGrid tbody tr td
+{
+border-top:1px solid #fff;
+height:20px;
+background-color:#F5F4F4;
+font-family:tahoma;
+font-size:11px;
+font-weight:normal;
+color:#525252;
+text-align:left;
+padding-left:5px;
+}
+
+a.ruleEditorPopup
+{
+  background-image:url(images/icons/ruleEditorPopup.gif); 
+  background-repeat:no-repeat;
+  background-position:left;
+  font-size:18px;
+  cursor:pointer;
+  display:block;
+  width:32px;
+  height:22px;
+  margin-right:5px;
+}
+
+.radbalancepopup
+{
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    width:470px;
+    BORDER-RIGHT: #248da2 1px solid;	BORDER-TOP: #248da2 1px solid;	BORDER-LEFT: #248da2 1px solid;	BORDER-BOTTOM: #248da2 1px solid;
+    background-color:#fff;
+}
+
+/* Formula Editor */
+
+.REUICanvas
+{z-index:10001; width:500px; position:absolute; top:35%; left:37%}
+.REUIHeader
+{width:100%; height:22px; background-image:url(images/Grid/REUIHeader.gif);}
+.REUIHeaderText
+{float:left; font-family:arial; line-height:22px; padding-left:5px; font-size:11px; color:#fff;}
+.REUICloseButton
+{float:right; margin:3px 2px 0 0; cursor:pointer; height:17px; width:17px; background-image:url(images/Grid/REUICloseButton.png); background-repeat:no-repeat;}
+.REUIBody
+{clear:left; float:left; width:100%;}
+.REUIGradientTop
+{height:22px; background-image:url(images/Grid/REUIGradientBg.gif); background-repeat:repeat-x; background-color:#fff; background-position:top; border-top:1px solid #fff; font-family:tahoma; font-size:11px; color:#000;}
+.REUIHorizontalBar
+{background-image:url(images/Grid/REUIHorizontalBar.gif); background-repeat:repeat-x; font-size:1px; height:4px;}
+.REUIFunctionArea
+{width:100%; position:relative;}
+.REUIRightPanel
+{float:right; width:70%;  background-color:#fff; border-top:1px solid #d1d1d1; border-bottom:1px solid #d1d1d1;}
+.REUIFunctionButtons
+{background-color:#f8f8f8; height:32px; border-left:1px solid #d1d1d1; border-bottom:1px solid #d1d1d1; text-align:center;}
+.REUIButtonSmall
+{background:none; border:none; height:19px; width:19px; background-image:url(images/Grid/REUIFunctionButtonSmallBg.gif); margin-top:6px; background-repeat:no-repeat; font-family:arial; font-size:11px; color:#5A5444;}
+.REUIButtonBig
+{background:none; border:none; height:19px; width:46px; margin-left:3px; background-image:url(images/Grid/REUIFunctionButtonBigBg.gif); margin-top:6px; background-repeat:no-repeat; font-family:arial; font-size:11px; color:#5A5444;}
+.REUIRuleEditorTextbox
+{background-color:#fff; border-left:1px solid #d1d1d1; height:70%;}
+.REUINumericButtonPanel
+{background-color:#f8f8f8; height:32px;  border-left:1px solid #d1d1d1; border-top:1px solid #d1d1d1; text-align:center;}
+.REUINumericButton
+{background:none; border:none; height:19px;margin-left:5px; width:19px; background-image:url(images/Grid/REUINumericButtonBg.gif); margin-top:6px; background-repeat:no-repeat; font-family:arial; font-size:11px; color:#fff;}
+.REUILeftPanel
+{float:left; height:106px; width:30%; background-color:#e9e9e9; border-top:1px solid #d1d1d1; border-bottom:1px solid #d1d1d1;}
+.REUILeftPanelItems
+{display:block; height:15px; line-height:15px; width:auto; margin:2px; padding-left:4px; background-image:url(images/Grid/REUILeftPanelItemsBg.gif); background-repeat:repeat-x; border:1px solid #fff; font-family:arial; font-size:11px; color:#fff; text-decoration:none;}
+.REUIFooter
+{width:100%;}
+.REUIButtonPanel
+{background-image:url(images/Grid/REUIGradientBg.gif); background-repeat:repeat-x; background-color:#fff; background-position:top; border-top:1px solid #fff; text-align:right; padding:6px;}
+.REUIHorizontalBar
+{background-image:url(images/Grid/REUIHorizontalBar.gif); background-repeat:repeat-x; font-size:1px; height:4px;}
+
+/* This style is already added in the existing stylesheet */
+.button {	BORDER-RIGHT: #a2a2a2 1px solid;	PADDING-RIGHT: 0px;	BORDER-TOP: #c7c7c7 1px solid;	PADDING-LEFT: 0px;	FONT-WEIGHT: bold;	FONT-SIZE: 10px;	BACKGROUND: url(images/Grid/btn_bg.gif) #eaeceb repeat-x left top;	PADDING-BOTTOM: 2px;	BORDER-LEFT: #c7c7c7 1px solid;	WIDTH: auto;	COLOR: #666666;	PADDING-TOP: 2px;	BORDER-BOTTOM: #a2a2a2 1px solid;	FONT-FAMILY: tahoma;	WHITE-SPACE: nowrap;	HEIGHT: 20px;	TEXT-ALIGN: center}
+/* This style is already added in the existing stylesheet */
+
+/* End */
+
+/* Balance Popup Styles */
+.balancePopupDiv
+{
+	cursor:hand;
+	table-layout:fixed;
+	border:1px solid #b7b7b7;
+	margin:2px;
+}
+.balancePopupHeader
+{
+	padding:1px;
+	background-color:#eee;
+	border-bottom:1px solid #b7b7b7;
+	font-family:Arial;
+	font-size:9px;
+	font-weight:bold;
+	cursor:hand;
+}
+tr.balancePopupContentRows td:first-child
+{
+	border:none;
+	padding:1px;
+	white-space:nowrap;
+	font-family:Arial;
+	font-size:8px;
+	font-weight:bold;
+}
+tr.balancePopupContentRows td
+{
+	border-left:1px solid #b7b7b7;
+	padding:1px;
+	font-family:Tahoma;
+	white-space:nowrap;
+	font-size:8px;
+}
+tr.balancePopupFinalRow td:first-child
+{
+	background-color:#feeeca;
+	border:none;
+	border-top:1px solid #b7b7b7;
+	padding:1px;
+	font-family:Arial;
+	white-space:nowrap;
+	font-size:8px;
+	font-weight:bold;
+}
+tr.balancePopupFinalRow td
+{
+	background-color:#feeeca;
+	border-top:1px solid #b7b7b7;
+	border-left:1px solid #b7b7b7;
+	padding:1px;
+	white-space:nowrap;
+	font-family:Tahoma;
+	font-size:8px;
+}
+
+tr.balancePopupFinalRow th
+{
+	background-color:#feeeca;
+	border-top:1px solid #b7b7b7;
+	border-left:1px solid #b7b7b7;
+	padding:1px;
+	white-space:nowrap;
+	font-family:Tahoma;
+	font-size:8px;
+}
+
+
+/* Balance Popup Styles */
+/* Balance Popup Large Styles */
+.LbalancePopupContainer
+{
+	position:absolute;
+	background-color:#ccc;
+	left:20px;
+	top:20px;
+	
+	z-index:10008;
+}
+.LBalancePopupDiv
+{
+	position:absolute;
+	background-color:white;
+	float:left;
+	border:2px groove #b7b7b7;
+	margin:2px;
+	z-index:100;
+}
+.LBalancePopupHeader
+{
+	padding:2px;
+	background-color:#eee;
+	border-bottom:1px solid #b7b7b7;
+	font-family:verdana;
+	font-size:12px;
+	
+}
+tr.LBalancePopupContentRows td:first-child
+{
+	border:none;
+	padding:2px;
+	font-family:Arial;
+	text-align:left;
+	font-size:11px;
+	font-weight:bold;
+}
+tr.LBalancePopupContentRows td
+{
+	border-left:1px solid #b7b7b7;
+	padding:2px;
+	text-align:right;
+	font-family:Tahoma;
+	font-size:11px;
+}
+tr.LBalancePopupFinalRow td:first-child
+{
+	background-color:#feeeca;
+	border:none;
+	border-top:1px solid #b7b7b7;
+	padding:2px;
+	text-align:left;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+}
+tr.LBalancePopupFinalRow td
+{
+	background-color:#feeeca;
+	border-top:1px solid #b7b7b7;
+	border-left:1px solid #b7b7b7;
+	padding:2px;
+	text-align:right;
+	font-family:Tahoma;
+	font-size:11px;
+}
+
+tr.LBalancePopupFinalRow th
+{
+	background-color:#feeeca;
+	border-top:1px solid #b7b7b7;
+	border-left:1px solid #b7b7b7;
+	padding:2px;
+	text-align:right;
+	font-family:Tahoma;
+	font-size:11px;
+}
+/* Balance Popup Large Styles */
+.aggregationFooter
+{
+	background-color:#00334E;
+}
+.aggregationFooter td
+{
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	color:#fff;
+	border:none;
+	position:relative;
+	bottom: expression(-1*(this.parentElement.parentElement.parentElement.firstChild.firstChild.firstChild.offsetTop - this.parentElement.parentElement.parentElement.offsetHeight + this.parentElement.parentElement.parentElement.parentElement.offsetHeight)+16);
+}
+
+.upArrow
+{
+	background-color:Transparent;
+	background-image:url(images/gridNavigation/up_arrow.gif);
+	background-position:top;
+	background-repeat:no-repeat;
+	/*margin-bottom:150px;*/
+}
+
+
+.imageascending
+{
+ background-image:url(images/icons/Arrowhead-Down-05.png);   
+ height:15px;
+ width:15px;
+ border:0px;
+ display:inline-block;
+ vertical-align:middle;
+ padding-left:2px;
+    }
+    
+    
+    
+.imagedescending
+{ background-image:url(images/icons/Arrowhead-Down-01.png);   
+ height:15px;
+ width:15px;
+ border:0px;
+ display:inline-block;
+ vertical-align:middle;
+ padding-left:2px;
+    
+    }
+    
+    
+    
+    
+.searchTextBox
+{
+    background-image:url(images/icons/Search.png);
+    background-position:3% 50%;
+    background-repeat:no-repeat;
+    padding-right:5px !important;
+    padding-left:20px !important;
+    width:150px !important;
+    height:20px !important;
+   /* place-holder:Search;*/
+    border-radius:3px !important;
+    }
+    
+.searchTextBoxInFilter
+{
+    background-image:url(images/icons/Search.png);
+    background-position:4px 50%;
+    background-repeat:no-repeat;
+    padding-left:20px !important;
+    padding-right:5px !important;
+    width:75% !important;
+    height:18px !important;
+    border-radius:3px !important;
+    float:left;
+    margin-left:5px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.enterValueTextBoxInFilter
+{
+    }
+    
+    
+    .filterOperatorSelect
+    {
+        color:Black;
+        
+        }
+        
+        
+        .filterOperatorSelect:hover
+        {
+            color:Black;
+            text-decoration:none;
+            }
+
+                
+                .filterOperatorListElement
+                {
+                    cursor:pointer;
+                    text-indent:4px;
+                    border-radius:5px;
+                    font-family:'Istok Web', sans-serif;
+                    }
+                
+                .filterOperatorListElement:hover
+                {
+                    cursor:pointer;
+                   background-color:#d3d3d3;
+                    color:Black;
+                    text-decoration:none;
+                     border-radius:5px;
+                    }
+    
+    #filterOperationTextBox
+    {
+        width: 75% !important;
+        height: 20px;/*margin-bottom: 5px;margin-top: 5px;padding-left:20px !important;*/
+        padding-right:5px !important;border-radius:3px;margin-top:0px;float:left;margin-left:5px!important;
+        }
+    
+    .searchTextBox::-webkit-input-placeholder
+    {
+        font-size:12px;
+        text-align:left;
+        vertical-align:middle;
+        padding-top:1px;
+        padding-left:2px;
+        }
+        
+    
+    .searchTextBox::-moz-placeholder
+    {
+        font-size:12px;
+        text-align:left;
+        vertical-align:middle;
+        padding-top:1px;
+        padding-left:2px;
+        }
+        
+        
+        
+        #data_filter_flip_btn
+        {
+            /*background:url(images/flip_button.png) left top no-repeat;*/
+            /*background:url(images/icons/images.jpg) left top no-repeat;*/
+            background:url(images/icons/ad-01.png) left top no-repeat;
+            width:30px;
+            border:0px;
+            width:15% !important;
+            margin-left:6px !important;
+            margin-top:-2px;
+            /*-webkit-animation:spin 5s infinite linear;*/
+            }
+        
+        
+            
+    .searchTextBox::-ms-input-placeholder
+    {
+       font-size:12px;
+        text-align:left;
+        vertical-align:middle;
+        padding-top:1px;
+        padding-left:2px;
+        
+        }
+        
+            
+
+        .PageTextInFooter
+        {
+            /*padding-left:150px;*/
+            }
+            
+            
+            .SelectedPageNumberDiv
+            {
+                text-align:center;
+                
+                }
+                
+                .SelectedPageNumber
+                {
+                    padding-left:0px !important;
+                position:relative;
+                left:-10px;
+                    }
+                    
+                    .dataRow
+                    {
+                        height:20px;
+                        width:100%;
+                        }
+                        
+                        .dataColumn
+                        {
+                            float:left;
+                            border-right:1px solid;
+                        display:block;
+                            }
+                            
+                            .newHeaderColumn
+                            {
+                                border-right:1px dashed #E7E7E7;
+                                position:relative;
+                                }
+                                
+                              /*  .ui-widget { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 12px; }
+                                
+                                .ui-datepicker-calendar tr, .ui-datepicker-calendar td, .ui-datepicker-calendar td a, .ui-datepicker-calendar th{font-size:inherit;}
+div.ui-datepicker{font-size:16px;height:20px;width:100px;}
+.ui-datepicker-title span{font-size:16px;}*/
+
+/*to change the height and width of header */
+.myDatePicker .ui-datepicker-header
+{
+    position: relative;
+	padding: .2em 0;
+	width: 160px !important;
+	height: 20px !important;
+    }
+ 
+ /*to change the overall height*/   
+.myDatePicker  {
+	border-bottom-right-radius: 4px;
+	height: 160px !important;
+	width:170px !important;
+}
+
+
+.myDatePicker .ui-datepicker-prev {
+	left: 2px;
+	width: 20px !important;
+	height: 17px !important;
+	top: 0px !important;
+	padding-top: 0px !important;
+}
+
+.myDatePicker .ui-datepicker-next {
+	right: 2px;
+		width: 20px !important;
+	height: 17px !important;
+	top: 0px !important;
+	padding-top: 0px !important;
+}
+
+
+.myDatePicker .ui-datepicker-title {
+	/* margin: 0 2.3em; */
+	line-height: 1.8em;
+	text-align: center;
+	line-height: 12px !important;
+	vertical-align:middle;
+	font-weight: 600;
+	font-size: 10px !important;
+}
+
+.myDatePicker table {
+	width: 100%;
+	font-size: .9em;
+	border-collapse: collapse;
+	margin: 0 0 .4em;
+	font-size:9px !important;
+}
+    
+.myDatePicker .ui-state-default, .myDatePicker .ui-widget-content .ui-state-default,.myDatePicker  .ui-widget-header .ui-state-default
+{
+    background:#d3d3d3 url(images/icons/grey-bgpatt.jpg) top left repeat-x !important;
+    border:1px solid #a8a8a8 !important;
+    color:#545454 !important;    
+}
+
+.myDatePicker .ui-widget-header
+{
+    background:#d3d3d3 url(images/icons/grey-bgpatt.jpg) top left repeat-x !important;
+    border:1px solid #a8a8a8 !important;
+    color:#545454 !important;    
+}
+
+.myDatePicker .ui-state-default ui-state-active
+{
+background:#545454 !important;    
+}
+
+.myDatePicker .ui-state-active,
+.myDatePicker .ui-widget-content .ui-state-active,
+.myDatePicker .ui-widget-header .ui-state-active {
+	border: 1px solid #a8a8a8 !important;
+	background: #A2C3DB !important;
+	background-image:url();
+	font-weight: bold  !important;
+	color: #ffffff  !important;
+}
+
+.myDatePicker .ui-state-highlight,
+.myDatePicker .ui-widget-content .ui-state-highlight,
+.myDatePicker .ui-widget-header .ui-state-highlight
+{border: 1px solid #a8a8a8 !important;
+	background: #CDE0EE !important;
+	background-image:url();
+	font-weight: bold  !important;
+	/*color: #ffffff  !important;*/
+    
+    }
+    
+    
+.myDatePicker .ui-datepicker-year
+ {
+     height:15px;
+     top:-3px;
+     position:relative;
+     border:0px;
+     }
+     
+     
+ .myDatePicker .ui-datepicker-month
+  {
+     top:-3px;
+     position:relative;
+      }
+      
+      
+      .DivInGroupByDropDown
+ {
+     text-indent:10px;cursor:pointer;
+     padding:2px;
+     font-family: 'Istok Web' sans-serif;
+     font-size: 12px;
+     color: #4a4949;
+     /*font-weight: 700;*/
+     /* font-family: 'Lato', sans-serif; */
+}
+
+ .DivInGroupByDropDown:hover
+ {
+     text-indent:8px;cursor:pointer;
+     padding:2px;
+     font-family: 'Istok Web' sans-serif;
+     font-size: 12px;
+     color: #4a4949;
+     /*font-weight: 800;*/
+     background-color:rgb(246, 246, 246);
+     border-left:2px solid #00BCEF;
+     /* font-family: 'Lato', sans-serif; */
+}
+     
+     
+.DivToBeGroupedInGroupDropDown
+{
+    float:left;
+    text-indent:5px;
+    width:78%;
+    color: #00BCEF;
+    padding:2px;
+    cursor:pointer;
+     
+    font-family: 'Lato' sans-serif;
+    font-size: 12px;
+	height: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+   /* font-weight: 800;*/
+}
+
+.DivToBeGroupedInGroupDropDown:hover
+{
+    float:left;
+    text-indent:5px;
+    width:78%;
+    color: #00BCEF;
+    padding:2px;
+    cursor:pointer;
+     background-color:rgb(246, 246, 246);     
+    font-family: 'Lato' sans-serif;
+    font-size: 12px;
+    /*font-weight: 800;*/
+}
+    
+    
+ .ToBeGroupedDiv  
+{
+    /* width:150px; */
+    margin-left:3px;
+    border-bottom: 1px solid rgb(238, 231, 231);
+    margin-bottom: 5px;
+    margin-right:3px;
+}
+    
+    
+    
+.ApplyCSS
+{
+   width: 100%;
+text-align: right;
+color: #4FB29E;
+cursor: pointer;
+border-top: 1px solid rgb(245, 244, 244);
+font-size: 12px;
+font-family: 'Lato' sans-serif;
+/* float: left; */
+font-weight: 800;
+height:22px;
+    }
+    
+.ApplyCSS:hover
+{
+   width: 100%;
+text-align: right;
+color: #217866;
+cursor: pointer;
+border-top: 1px solid rgb(245, 244, 244);
+font-size: 12px;
+font-family: 'Lato' sans-serif;
+/* float: left; */
+font-weight: 800;
+height:22px;
+background-color:#E9E7E7;
+
+    }
+    /*#217866*/
+    
+.SearchInGroupDiv
+{
+   background-image: url(images/icons/Search.png);
+background-position: 3% 50%;
+background-repeat: no-repeat;
+padding-right: 5px !important;
+padding-left: 20px !important;
+/* width: 155px !important; */
+height: 20px !important;
+place-holder: Search;
+border-radius: 0px !important;
+/* margin: 2px; */
+width: 100%;
+border: 0px;
+border-bottom: 1px solid rgb(245, 244, 244)
+
+    }
+    
+    
+    .UpArrowClass
+    {
+        background: url(images/icons/arrow_grey.png) center center no-repeat;
+        width: 10%;
+        height: 20px;
+        }
+  .UpArrowClass:hover
+    {
+        background: url(images/icons/arrow_grey_hover.png) center center no-repeat;
+    width: 10%;
+        height: 20px;
+        }
+        
+    
+    .DownArrowClass
+    {
+        background: url(images/icons/arrow_grey.png) center center no-repeat;
+    height: 20px;
+    width: 10%;
+    margin-right: 2px;
+    transform: rotate(180deg);
+        
+        }
+        .DownArrowClass:hover
+    {
+        background: url(images/icons/arrow_grey_hover.png) center center no-repeat;
+    height: 20px;
+    width: 10%;
+    margin-right: 2px;
+    transform: rotate(180deg);
+        
+        }
+        
+        
+  .MainDivClassInGroupBy
+  {
+      z-index: 9999;
+      position: absolute;
+      top: 60px;
+      left: 10px;
+      width: 180px;
+      border: 1px solid rgb(219, 219, 219);
+      border-top:0px solid;
+      background-color: white;
+      box-shadow:1px 1px 5px #EEEEEE;
+}
+            
+            
+ .TextDivInDragDrop
+ {
+     float:left;
+     }
+     
+.MainDivInDragDrop
+{
+   float: left;
+display: inline;
+font-family: 'Istok Web' sans-serif;
+font-weight: bold;
+font-size: 10px;
+/* color: #515352; */
+line-height: 20px;
+padding: 0px 10px;
+text-align: center;
+/* background-image: url(images/group_drag_btn_bg.gif); */
+/* background-repeat: repeat-x; */
+border-top: 1px solid #A9A48E;
+border-right: 1px solid #817E6D;
+border-bottom: 1px solid #817E6D;
+border-left: 1px solid #A9A48E;
+background-image: none;
+background-repeat: repeat-x;
+border-color: #c9c9c9;
+color: #767676;
+/*background-color: #e3e3e3;
+background-image: linear-gradient(#fefefe 0,#e3e3e3 100%);*/
+color: #767676;
+border: 1px solid #c9c9c9;
+border-radius: 4px;
+opacity:0.6;
+    }
+  
+  
+  .ArrowCSS
+  {
+   background:url(images/icons/Action-arrow-polaris_group_normal.png) center center no-repeat ;
+    width: 20px;
+    height: 20px;
+  }
+  
+   .ApplyCSS:hover  .ArrowCSS
+  {
+      background:url(images/icons/Action-arrow-polaris_group.png) center center no-repeat ;
+      width: 20px;
+        height: 20px;
+  }
+  .crossInGroupDragButtonVirtual
+  {
+       background-image: url(images/icons/Closesmall.png);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-position: center; /*float:right;*/
+    display: inline-block;
+    height: 20px;
+    width: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+      }
+      
+      .sortInGroupDragButtonVirtual
+      {
+           background-image: url(images/icons/Arrowhead-Down-01_small.png);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-position: center; /* float:left;*/
+    float: none;
+    height: 20px;
+    width: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: inline-block;
+          }
+          
+ .groupingInUpperHeader:hover  
+ {
+    color:rgb(0, 188, 239);
+ }
+      
+.groupingInUpperHeader  
+ {
+    min-width : 91px;
+ }
+      
+      .DivInGroupByDropDown
+ {
+     text-indent:10px;cursor:pointer;
+     padding:2px;
+     font-family: 'Istok Web' sans-serif;
+     font-size: 12px;
+     color: #4a4949;
+     /*font-weight: 700;*/
+     /* font-family: 'Lato', sans-serif; */
+}
+
+ .DivInGroupByDropDown:hover
+ {
+     text-indent:8px;cursor:pointer;
+     padding:2px;
+     font-family: 'Istok Web' sans-serif;
+     font-size: 12px;
+     color: #4a4949;
+     /*font-weight: 800;*/
+     background-color:rgb(246, 246, 246);
+     border-left:2px solid #00BCEF;
+     /* font-family: 'Lato', sans-serif; */
+}
+     
+     
+.DivToBeGroupedInGroupDropDown
+{
+    float:left;
+    text-indent:5px;
+    width:78%;
+    color: #00BCEF;
+    padding:2px;
+    cursor:pointer;
+     
+    font-family: 'Lato' sans-serif;
+    font-size: 12px;
+   /* font-weight: 800;*/
+}
+
+.DivToBeGroupedInGroupDropDown:hover
+{
+    float:left;
+    text-indent:5px;
+    width:78%;
+    color: #00BCEF;
+    padding:2px;
+    cursor:pointer;
+     background-color:rgb(246, 246, 246);     
+    font-family: 'Lato' sans-serif;
+    font-size: 12px;
+    /*font-weight: 800;*/
+}
+    
+    
+ .ToBeGroupedDiv  
+{
+    /* width:150px; */
+    margin-left:3px;
+    border-bottom: 1px solid rgb(238, 231, 231);
+    margin-bottom: 5px;
+    margin-right:3px;
+}
+    
+    
+    
+.ApplyCSS
+{
+   width: 100%;
+text-align: right;
+color: #4FB29E;
+cursor: pointer;
+border-top: 1px solid rgb(245, 244, 244);
+font-size: 12px;
+font-family: 'Lato' sans-serif;
+/* float: left; */
+font-weight: 800;
+height:22px;
+    }
+    
+.ApplyCSS:hover
+{
+   width: 100%;
+text-align: right;
+color: #217866;
+cursor: pointer;
+border-top: 1px solid rgb(245, 244, 244);
+font-size: 12px;
+font-family: 'Lato' sans-serif;
+/* float: left; */
+font-weight: 800;
+height:22px;
+background-color:#E6E4E4;
+
+    }
+    /*#217866*/
+    
+.SearchInGroupDiv
+{
+   background-image: url(images/icons/Search.png);
+background-position: 3% 50%;
+background-repeat: no-repeat;
+padding-right: 5px !important;
+padding-left: 20px !important;
+/* width: 155px !important; */
+height: 20px !important;
+place-holder: Search;
+border-radius: 0px !important;
+/* margin: 2px; */
+width: 100%;
+border: 0px;
+border-bottom: 1px solid rgb(245, 244, 244)
+
+    }
+    
+    
+    .UpArrowClass
+    {
+        background: url(images/icons/arrow_grey.png) center center no-repeat;
+        width: 10%;
+        height: 20px;
+        }
+  .UpArrowClass:hover
+    {
+        background: url(images/icons/arrow_grey_hover.png) center center no-repeat;
+    width: 10%;
+        height: 20px;
+        }
+        
+    
+    .DownArrowClass
+    {
+        background: url(images/icons/arrow_grey.png) center center no-repeat;
+    height: 20px;
+    width: 10%;
+    margin-right: 2px;
+    transform: rotate(180deg);
+        
+        }
+        .DownArrowClass:hover
+    {
+        background: url(images/icons/arrow_grey_hover.png) center center no-repeat;
+    height: 20px;
+    width: 10%;
+    margin-right: 2px;
+    transform: rotate(180deg);
+        
+        }
+        
+        
+  .MainDivClassInGroupBy
+  {
+      z-index: 9999;
+      position: absolute;
+      top: 60px;
+      left: 10px;
+      width: 180px;
+      border: 1px solid rgb(219, 219, 219);
+      border-top:0px solid;
+      background-color: white;
+      box-shadow:1px 1px 5px #EEEEEE;
+}
+            
+            
+ .TextDivInDragDrop
+ {
+     float:left;
+     }
+     
+.MainDivInDragDrop
+{
+   float: left;
+display: inline;
+font-family: 'Istok Web' sans-serif;
+font-weight: bold;
+font-size: 10px;
+/* color: #515352; */
+line-height: 20px;
+padding: 0px 10px;
+text-align: center;
+/* background-image: url(images/group_drag_btn_bg.gif); */
+/* background-repeat: repeat-x; */
+border-top: 1px solid #A9A48E;
+border-right: 1px solid #817E6D;
+border-bottom: 1px solid #817E6D;
+border-left: 1px solid #A9A48E;
+background-image: none;
+background-repeat: repeat-x;
+border-color: #c9c9c9;
+color: #767676;
+/*background-color: #e3e3e3;
+background-image: linear-gradient(#fefefe 0,#e3e3e3 100%);*/
+color: #767676;
+border: 1px solid #c9c9c9;
+border-radius: 4px;
+opacity:0.6;
+    }
+  
+  
+  .ArrowCSS
+  {
+   background:url(images/icons/Action-arrow-polaris_group_normal.png) center center no-repeat ;
+    width: 20px;
+    height: 20px;
+  }
+  
+   .ApplyCSS:hover  .ArrowCSS
+  {
+      background:url(images/icons/Action-arrow-polaris_group.png) center center no-repeat ;
+      width: 20px;
+        height: 20px;
+  }
+  .crossInGroupDragButtonVirtual
+  {
+       background-image: url(images/icons/Closesmall.png);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-position: center; /*float:right;*/
+    display: inline-block;
+    height: 20px;
+    width: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+      }
+      
+      .sortInGroupDragButtonVirtual
+      {
+           background-image: url(images/icons/Arrowhead-Down-01_small.png);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-position: center; /* float:left;*/
+    float: none;
+    height: 20px;
+    width: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: inline-block;
+          }
+          
+ .groupingInUpperHeader:hover  
+ {
+    color:rgb(0, 188, 239);
+ }
+
+
+.ComputedHeaderClass
+{
+    border-bottom: 1px solid grey;
+    }
+	
+	
+.filterNeoButton,
+.filterNeoCancelButton,
+.filterResetButton{
+	font-family:tahoma;
+	font-size:10px;
+	font-weight:bold;
+	color:#333;
+	padding:2px 0;
+	margin-right:5px;
+	}
+
+
+/* Added by pp 20 feb */
+.filterNeoImageButton{
+    background:url(images/icons/Check.png) left top no-repeat;
+    height:20px;
+    width:18px;
+    margin-right:20px;
+    border-radius:10px;
+}
+
+.filterNeoImageButton:hover{
+    background:url(images/icons/CheckHover.png) left top no-repeat;
+    height:20px;
+    width:18px;
+    margin-right:20px;
+    border-radius:10px;
+}
+
+
+.filterNeoButton,
+.filterResetButton{
+	border:0;
+	/*border-top:1px solid #6E949D;
+	border-right:1px solid #557278;
+	border-bottom:1px solid #557278;
+	border-left:1px solid #6E949D; */
+}
+
+/* Added by pp 20 feb */
+.filterNeoCancelButton{
+	background: url(images/icons/Close.png) left top no-repeat;
+    height:20px;
+	border:0;
+	width:18px;
+	margin-right:20px;
+	border-radius:10px;
+}
+
+.filterNeoCancelButton:hover{
+	background: url(images/icons/Closehover.png) left top no-repeat;
+    height:20px;
+	border:0;
+	width:18px;
+    margin-right:20px;
+    border-radius:10px;
+}
+
+.filterNeoResetImageButton
+{
+    background:url(images/icons/Data-Synchronize.png) left top no-repeat;
+    height:20px;
+    width:18px;
+    border-radius:10px;
+}
+.filterNeoResetImageButton:hover
+{
+    background:url(images/icons/Data-Synchronizehover.png) left top no-repeat;
+    height:20px;
+    width:18px;
+    border-radius:10px;
+    
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ CSS styles go here */
+    .SearchBoxVisible .SearchTextBoxx
+    {
+        width:150px;
+        height:20px;    
+        /*line-height:22px;*/
+        float:left;
+        vertical-align:middle;
+        margin-top: 2px;
+        border:0px;
+        border-bottom:1px solid #DBDDE0;
+        background-color:#F6F6F6;
+        visibility:visible;
+        font-size: 12px;
+        padding-top: 2px;
+        padding-bottom:2px;
+    }
+    .SearchIcon
+    {
+        margin-left: 2px;
+        /* padding-left: 10px; */
+        /* z-index: 100000; */
+        position: absolute;
+        margin-top: 4px;   
+        color:#A3A3A3; 
+        padding-top:1px;
+    }
+}
+
+
+.hideMenu table
+{
+	position:absolute;
+	z-index: 1001;
+	width:130px;
+	border-collapse : separate;
+}
+
+/* updated by pp 23 feb added icons path */
+.neoexpandGroupButton
+{
+	width: 15px;
+	cursor: pointer;
+	background-image: url(images/icons/Arrowhead-Right-05.png) ! important;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:22px !important;
+	line-height:22px !important;
+	vertical-align:middle;
+	text-align:center;
+	cursor:pointer;
+	color:#848284;
+	font-size:14px;
+}
+/* updated by pp 23 feb added icons path */
+.neocollapseGroupButton
+{
+	width: 15px;
+	cursor: pointer;
+	background-image: url(images/icons/Arrowhead-Down-05.png) ! important;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:22px !important;
+	line-height:22px !important;
+	vertical-align:middle;
+	text-align:center;
+	cursor:pointer;
+	color:#848284;
+	font-size:13px;
+}

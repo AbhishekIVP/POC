@@ -1,0 +1,106 @@
+﻿.mailtagContainer {
+    position: relative;
+    display: inline-block;
+    width: 100% !important;
+    /*padding-bottom: 5px;*/
+    border-bottom: 1px solid #aaaaaa !important;
+    z-index: 999 !important;
+    overflow: hidden !important;
+}
+
+.mailtagContent {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 11px;
+    background: #eaf1f3;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 0 5px 0 10px;
+    bottom: 7px;
+    height: 2.9em;
+}
+
+.mailtagText {
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    padding: 6px;
+}
+
+    .mailtagText.OverflowText {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 173px;
+    }
+
+.mailtagTextContainer {
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 100px;
+    height: 2.3em;
+    top: 5px;
+}
+
+.mailtagTextElement {
+    outline: none !important;
+    border: none !important;
+    width: 100% !important;
+    padding: 0px !important;
+    height: 25px;
+    overflow: hidden;
+    font-family: Lato;
+}
+
+.mailtagClose {
+    position: relative;
+    display: inline-block;
+    color: #808080;
+    line-height: 16px !important;
+    margin-right: 4px;
+    top: 10px;
+}
+
+.mailtagsearchddl {
+    position: fixed;
+    display: none;
+    height: 200px;
+    width: 200px;
+    z-index: 1000000;
+    font-family: Lato;
+    font-size: 12px;
+    border: 1px solid rgb(202, 202, 202);
+    background-color: #FFFFFF;
+}
+
+.mailtagsearchddlItem {
+    border-left: 5px solid #FCFCFC;
+    position: relative;
+    display: block;
+    width: 190px;
+    line-height: 25px;
+    text-indent: 5px;
+    height: 22px;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: Lato, sans-serif;
+    font-size: 11px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: Black;
+}
+
+    .mailtagsearchddlItem:hover {
+        border-left: 5px solid #48a3dd;
+        background: #f9f9f9 !important;
+        color: rgb(178, 178, 178);
+    }
+
+.mailtagsearchddlOverflowContainer {
+    padding-top: 4px;
+}

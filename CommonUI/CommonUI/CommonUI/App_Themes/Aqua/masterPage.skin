@@ -1,0 +1,15 @@
+﻿<asp:Image runat="server" SkinID="imgBrandingLeft" ImageUrl="images/sec_master_logo_int.png" />
+<asp:ImageButton runat="server" SkinID="imgBrandingLeft" ImageUrl="images/sec_master_logo_int.png" />
+<asp:Image runat="server" SkinID="imgShowBranding" ImageUrl="images/arr_shead.png" />
+<asp:Image runat="server" SkinID="imgHideBranding" ImageUrl="images/arr_hhead.png" />
+<asp:ImageButton runat="server" SkinID="searchSuggestSubmitButton" ImageUrl="images/suggestBoxBg.png" />
+<asp:ImageButton runat="server" SkinID="AquaThumb" CssClass="thumbnails" ImageUrl="images/thumbnails/aquaThumb.jpg" />
+<asp:Image runat="server" SkinID="hlpTlCor" ImageUrl="images/hlp-tl-cor.gif" />
+<asp:ImageButton SkinID="btnImg" ImageUrl="images/btn-img.gif" CSSClass="image-button" runat="server"></asp:ImageButton>
+<asp:Image runat="server" SkinID="hlpTrCor" ImageUrl="images/hlp-tr-cor.gif" />
+<asp:Image runat="server" SkinID="hlpLtBg" ImageUrl="images/hlp-lt-bg.gif" />
+<asp:Image runat="server" SkinID="hlpRtBg" ImageUrl="images/hlp-rt-bg.gif" />
+<asp:Image runat="server" SkinID="hlpBlCor" ImageUrl="images/hlp-bl-cor.gif" />
+<asp:Image runat="server" SkinID="hlpBtmBg" ImageUrl="images/hlp-btm-bg.gif" />
+<asp:Image runat="server" SkinID="hlpBrtCor" ImageUrl="images/hlp-brt-cor.gif" />
+<asp:Image runat="server" SkinID="imgLoading" ImageUrl="images/ajax-working.gif" />

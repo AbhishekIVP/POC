@@ -1,0 +1,924 @@
+﻿.smmergeduplicateHorizontalAlign
+{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.smmergeduplicateMergeDupesDivContainerStyle
+{
+    overflow: hidden;
+}
+
+.smmergeduplicateCenterAlign
+{
+    margin: 0 auto;
+}
+
+.smmergeduplicateProductTab
+{
+    color: #00BFF2;
+    font-size: 1.2em;
+    font-family: Lato;
+    cursor: pointer;
+    background: none;
+    border: none;
+    width: 29%;
+    outline: none;
+    text-align: center;
+    padding: 6% 2%;
+}
+
+.smmergeduplicateProductTabSelected
+{
+    border-bottom: 2px solid #00BFF2;
+}
+
+.smmergeduplicateAttributeDropDown
+{
+    height: 33px;
+    border-right: 1px solid rgb(199, 196, 196);
+    padding-top: 5px;
+}
+.smmergeduplicateAttributeDropDownMatchCriteria{
+    height: 24px;
+    border-right: 1px solid rgb(199, 196, 196);
+    padding-top: 5px;
+}
+
+
+
+
+.smmergeduplicateAttributeInput
+{
+    height: 29px;
+    border: none;
+    text-align: center;
+    width: 50px;
+    border-bottom: 1px solid #c0bebe;
+    background-color: inherit;
+    font-size: 14px;
+    margin-left: 40%;
+    color:#353839;
+    
+}
+ 
+
+.smmergeduplicateMsgTextStyle
+{
+    text-align: Center;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.smmergeduplicateTrashIconPosition
+{
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+
+.smmergeduplicateErrorColor
+{
+    color: #C7898C;
+}
+
+.smmergeduplicateSuccessColor
+{
+    color: #98C25A;
+}
+
+.smmergeduplicateAttributeInput:disabled
+{
+    height: 28px;
+    border: none;
+    text-align: center;
+    width: 160px;
+    border-bottom: 1px solid #cecece;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    color: #6D697D;
+    font-weight: normal;
+}
+
+.smmergeduplicateShiftRight
+{
+    position: relative;
+    text-align: right;
+}
+
+.smmergeduplicatePrimaryBtnStyle
+{
+    /*margin-right: 5px;
+    height: 30px;
+    width: 130px;
+    font-size: 1.2em;*/
+    /*padding-left: 12px !important;
+    padding-right: 12px !important;*/
+}
+
+.smmergeduplicatePrimaryBtnAsTextStyle
+{
+    /*background: none;
+    color: #43D9C6;*/
+}
+
+.smmergeduplicateAddAttributeBtnStyle
+{
+    color: #43D9C6;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 25px ;
+    background-color: #f5f5f5;
+}
+
+.smmergeduplicateText
+{
+    /*font-family: "lato";
+    font-size: 16px;
+    color: #e0e0e2;*/
+    font-family: "lato";
+    font-size: 19px;
+    color: #c2c2c2;
+}
+
+.smmergeduplicateTextForMatch
+{
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: bold;
+    color: #9b9ba2 !important;
+    font-family: "oswald";
+}
+
+.smmergeduplicateFilterRow
+{
+    margin: 30px 0px;
+}
+
+.smmergeduplicateFilterRowBottom
+{
+    margin: 30px 0px;
+}
+
+.smmergeduplicateAttrDivStyle
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.smmergeduplicateFilterSelectionDivStyle
+{
+    /*padding-bottom: 20px;*/
+    width: 100%;
+    z-index: 3000;
+    position: absolute;
+    background: #f5f5f5;
+    display: block;
+    box-shadow: 2px 2px 10px 3px #e0e0e0;
+}
+
+.smmergeduplicateFinalWeightTextStyle
+{
+    width: 80px;
+    border-bottom: 3px solid #4e7084;
+    font-size: 1.2em;
+    font-family: "Oswald" !important;
+    color: black;
+    margin: 0px 5px;
+    border-radius: 2px;
+}
+
+.smmergeduplicateFinalWeightTextStyle p
+{
+    text-align: center;
+}
+
+.smmergeduplicateRunningTextDropDown
+{
+    padding-top: 0px;
+    height: 23px;
+    border: none;
+}
+
+.smmergeduplicateFilterInnerDiv
+{
+    /*width: 60%;
+    margin: 0 auto;
+    padding: 20px 0px;*/
+}
+
+.smmergeduplicateFilterOuterDiv
+{
+    background-color: #f5f5f5;
+    height: 91%;
+}
+
+.smmergeduplicateRowStyle
+{
+    border: 1px solid #eaeaea;
+    border-radius: 4px; /*padding: 5px 0px;    */
+    background: #eff0f2 !important;
+}
+
+.smmergeduplicateMatchTypeDropDown
+{
+    margin-left: 2px;
+}
+
+.smmergeduplicateMatchCriteriaHeading
+{
+    margin-bottom: 1%;
+    /* font-weight: bold; */
+    font-size: 15px;
+    width: 100%;
+    font-family:oswald !important;
+    text-transform: uppercase;
+    color: #bdbdbf !important;
+}
+
+.smmergeduplicateSecondaryBtn
+{
+    background-color: #EA9747;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.smmergeduplicateMergeBtn
+{
+    height: 25px;
+    width: 90px;
+    position: relative;
+    z-index:1000000;
+}
+
+.smmergeduplicateHeading
+{
+    font-size: 14px;
+    padding: 0px 10px;
+    color: #ACACAC;
+}
+
+.smmergeduplicateGridDivHeader
+{
+    padding-top: 5px;
+}
+
+.smmergeduplicateMergeSecCell
+{
+    height: 26px;
+    font-size: 14px;
+    font-family: Lato;
+    /*cursor: pointer;*/
+    margin: 10px 0px;
+    z-index: 1000;
+    position: relative;
+    padding-top: 2px;
+    border: 2px solid transparent;
+}
+
+.smmergeduplicateMergeSecHeader
+{
+    height: 25px;
+    background-color: #7D848E;
+    color: #C3C3C3;
+    font-family: "Oswald";
+    font-size: 15px;
+    text-align: center;
+    padding-top: 6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 0px;
+}
+
+.smmergeduplicateMergeSecHeader:hover
+{
+    /*background-color: #00BFF0;
+    color: #fff;
+    cursor: pointer;*/
+}
+
+.smmergeduplicatePrimaryHeader
+{
+    background-color: #00BFF0;
+    color: #fff;
+}
+
+.smmergeduplicateMergeSecAttrHeader
+{
+    color: #fff;
+    background-color: #fff;
+    height: 20px;
+}
+
+.smmergeduplicateBackgroundRow
+{
+    border: 1px solid #EDEDED;
+    height: 30px;
+    position: absolute;
+    width: 1000px;
+    z-index: 10;
+}
+
+.smmergeduplicateMergeGridInput
+{
+    width: 95%;
+    height: 23px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    margin-top: 1px;
+}
+
+.smmergeduplicateMergeGridCellText
+{
+    text-align: center;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.smmergeduplicateMergeSecAttr
+{
+    background-color: #E6E6E6;
+    text-align: center;
+    height: 26px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    line-height: 1.5;
+}
+
+.smmergeduplicateHighlightedCell
+{
+    color: #4197ce;
+    padding-top: 2px;
+    height: 26px;
+    border-radius: 3px;
+}
+
+.smmergeduplicateMergeAllSecuritiesContanier
+{
+    overflow-x: scroll;
+    width: 60%;
+}
+
+.smmergeduplicateMergeSecColumn
+{
+    margin: 0px 15px;
+    /*background-color: rgba(254, 254, 254, 0.76);*/
+    background-color: transparent;
+    z-index: 999;
+    position: relative;
+    border-left: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+}
+
+.smmergeduplicateAttrColClass
+{
+    box-shadow: 0px 0px 0px 0px #fff;
+    border: none;
+}
+
+.smmergeduplicateOverlay
+{
+    position: absolute;
+    top: 0px;
+    left: -1px;
+    width: 162px;
+    height: 570px;
+    background: #fff;
+    z-index: 10001;
+    opacity: 0.7;
+}
+
+.smmergeduplicateMergeDuplicateCloseBtn
+{
+    position: relative;
+    top: 3px; /* left: 90%; */
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: inline;
+    float: right;
+    cursor: pointer;
+}
+
+.smDeleteOptionsCloseBtn
+{
+    position: relative;
+    top: -8px; /* left: 90%; */
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: inline;
+    float: right;
+    cursor: pointer;
+}
+
+.smmergeduplicateMergeOptionContainerStyle
+{
+    z-index: 100000;
+    background-color: #fff;
+    border: 1px solid #D8D8D8;
+    width: 300px;
+    height: inherit;
+    position: absolute;
+    padding: 10px;
+}
+
+
+.smmergeduplicateDeleteOptionsContainer
+{
+    z-index: 100000;
+    background-color: #fff;
+    border: 1px solid #D8D8D8;
+    width: 345px;
+    height: inherit;
+    position: absolute;
+    padding: 10px;
+    top: 25%;
+    left: 37%;
+    font-size: 13px;
+}
+
+
+.smmergeduplicateCreatePresetDivStyle
+{
+    z-index: 3010;
+    background-color: #fff;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    padding: 5px;
+    box-shadow: 2px 2px 10px 0px #cecece;
+    border-radius: 5px;
+}
+
+.smmergeduplicateMergeOptionOkBtn
+{
+    margin-left: 14px;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+}
+
+.smmergeduplicateCheckboxContainer
+{
+    margin: 3px 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.smmergeduplicateMergeOptionRow
+{
+    margin: 10px 5px;
+}
+
+.smmergeduplicatePresetNameStyle
+{
+    border: none;
+    border-bottom: 1px solid #ececec;
+    height: 30px;
+    width: 160px;
+}
+
+.smmergeduplicatePresetCheckStyle
+{
+    font-size: 20px;
+    margin-left: 10px;
+    position: relative;
+    top: 3px;
+    color: #43D9C6;
+    cursor: pointer;
+}
+
+.smmergeduplicateMergeSecMergeBtn
+{
+    font-size: 14px;
+    padding: 0px 15px;
+    position: relative;
+    left: 91%;
+    width: 100px;
+    height: 26px;
+}
+
+.smmergeduplicateoverlay
+{
+    top: 0px;
+    left: 0px;
+    z-index: 99999;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.6;
+}
+
+.smmergeduplicateOrOption
+{
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.smmergeduplicateDetailsGrid
+{   
+    padding-top:30px;
+    background-color: #fff;
+    width: 97%;
+    z-index: 1000;
+    display: none;
+    margin: 5px auto;
+}
+
+.smmergeduplicateRightFilterStyle
+{
+    font-size: 15px !important;
+    position: absolute;
+    top: 4px;
+    font-family:lato !important;
+    cursor: pointer;
+    right: 1px;
+    /*color: #B1B1B1;*/
+    left: 14px;
+}
+
+.smmergeduplicateCheckBoxText
+{
+    margin-top: 1px;
+    font-size: 13px;
+}
+
+.smmergeduplicateRightFilterBackground
+{
+    width: 30px;
+    background-color: #F5F5F5;
+    z-index: 4000;
+}
+
+.smmergeduplicateMergeSecMainScroll
+{
+    width: 20px;
+    position: fixed;
+}
+
+.smmergeduplicateMergeOptionLeftText
+{
+    line-height: 23px;
+    font-size: 13px;
+}
+
+.sm_grid_horizontal_align
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sm_grid_title
+{
+    font-family: "Oswald";
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    padding: 4px 10px;
+    color: #7b7b7a;
+}
+
+.sm_grid_col
+{
+    width: 15%;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0px 5px;
+}
+
+.sm_grid_checkbox
+{
+    width: 20px;
+}
+
+.sm_grid_container
+{
+    margin: 20px auto;
+    box-shadow: 0px 0px 3px 0px #EFEFEF;
+    padding-bottom: 10px;
+}
+
+.sm_grid_grid_container
+{
+    margin-left: 10px;
+}
+
+.sm_grid_row
+{
+    height: 22px;
+}
+
+.sm_grid_header_col
+{
+    font-weight: lighter;
+    font-size: 12px;
+    color: #B5B5B5;
+}
+
+.sm_grid_security
+{
+    color: #00bff0;
+    cursor: pointer;
+}
+
+.smmergeduplicateLegsListStyle
+{
+    border-top: 1px solid #e2e2e2;
+}
+
+.smmergeduplicateLegName
+{
+    width: 150px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.smmergeduplicateLegRow
+{
+    line-height: 23px;
+    height: 20px;
+    padding: 3px 0px;
+}
+
+.smmergeduplicateDeleteSecurityPopupCloseBtnStyle
+{
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+
+.smmergeduplicateDeleteSecurityPopupStyle
+{
+    height: 0px;
+    width: 80%;
+    background-color: #fff;
+    position: absolute;
+    z-index: 100000;
+    top: 10%;
+    left: 10%;
+    border: 1px solid #dddddd;
+    box-shadow: 0px 0px 4px 1px #cdcdcd;
+}
+
+.smmergeduplicateDeleteSecurityPopupIframeStyle
+{
+    height: inherit;
+    width: 100%;
+    border: 0px;
+}
+
+.smmergeduplicateSaveBtn 
+{
+	width: 60px !important;
+    /*margin-top: 3px;*/
+}
+
+.smergeduplicateToleranceInput
+{
+    border: 0px;
+    border-bottom: 1px solid #cdcdcd;
+    background-color: rgba(0, 0, 0, 0);
+    width: 20px;
+    font-size: 16px;
+    padding: 0px 5px;
+    min-width:10px;
+}
+
+input.smergeduplicateToleranceInput[disabled]
+{
+     border: 0px;
+   
+    border-bottom: 1px solid #cdcdcd;
+    background-color: rgba(0, 0, 0, 0);
+    width: 20px;
+    font-size: 14px;
+    padding: 0px 5px;
+    min-width:10px;
+}
+
+.smmergeduplicatePlusSign 
+{
+    font-size:16px;
+    /*color:#00bff0;*/
+}
+
+.smmergeduplicateMinusSign
+{
+    font-size: 28px;
+    line-height: 0px;
+    /*color:#00bff0;*/
+}
+
+.smmergeduplicatePlusMinusContainer
+{
+    width: 15px;
+    margin-top: -7px;
+}
+
+.smmergeduplicateToleranceContainer
+{
+    border-left: 1px solid rgb(199, 199, 199);
+    height: 31px;
+    padding-top: 7px;
+    padding-left: 20px;
+}
+
+.smmergeduplicateToleranceContainerMatchCriteria{
+    border-left: 1px solid rgb(199, 199, 199);
+    height: 23px;
+    padding-top: 7px;
+    padding-left: 20px;
+}
+
+.smmergeduplicateMergeLeftGridHeader
+{
+    height:31px;
+}
+
+
+#smmergeduplicateChooseProduct {
+    margin-left: 30%;
+    width: 40%;
+}
+
+.smmergedUnderlineChildren{
+
+border-bottom: 1px solid black;
+
+color: #91a1ad;
+
+border-bottom-color: #e7eaeb;
+}
+
+.smmergeTopSection{
+    padding-top: 30px;
+    background: white;
+    display: inline-flex;
+    height: 70px;
+    width: 100%;
+}
+.smmergedTopFilterBackground{
+    height: 37px;
+    background-color: #e3eaf2;
+    border: 1px #e3eaf2;
+}
+
+.smmergedFirstPageStyle{
+    display: block;
+    background:white;
+}
+
+.smmergedFirstPageStyle .smmergedTopFilterBackground {
+        margin-left: 6.5%;
+            /*margin-top: 15px;*/
+}
+
+/*.smmergedFirstPageStyle {
+    margin-left: 6%;
+}*/
+
+
+ 
+
+.smmergedFirstPageStyle #smmergeduplicateSectypeDropDown{
+        margin-left: 0% !important;
+        font-family: oswald !important;
+        margin-top: 12px;
+}
+
+#smmergeduplicateSectypeDropDown{
+    margin-top: 0px;
+    }
+
+.bottomMarginsForRows{
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+.selectedOptionToleranceTextDisplay{
+        font-size: 14px;
+    padding-left: 8px;
+}
+
+.smmergedBlueColorHide{
+    color:black !important;
+}
+
+.smmergeTopSection .smmergeduplicateText {
+    font-size:14px;
+}
+
+.smmergeTopSection .smmergedParentSecTypeOption {
+    text-align:left !important;
+    
+}
+
+.smmergeTopSection .smmergedParentSecTypeOption .smmergeduplicateText {
+    margin-left:30%;
+    margin-bottom:4px;
+}
+
+
+
+#smmergedChooseProductParentDiv{
+    background:white;
+    /* padding: 4px; */
+    /* font-size: 17px; */
+    /* color: #04a4cf; */
+    /* margin-bottom: 8px; */
+    /* padding-right: 3px; */
+    /* height: 30px; */
+    /* font-family: 'lato', Sans-Serif; */
+    /* background: #ffffff; */
+    position: relative;
+    box-shadow: 0 5px 3px -1px rgba(216, 212, 212, 0.31);
+}
+
+#smselect_smmergeduplicateSectypeDropDown {
+    width: 280px !important;
+}
+
+.smmergeTopSection .smmergedParentSecTypeOption{
+    text-align:left;
+    
+}
+
+.smmergedFirstPageStyle .smmergeduplicateAddAttributeBtnStyle   {
+    font-size:25px !important;
+}
+
+.smmergedFirstPageStyle .smmergedTopFilterBackground{
+    padding-top:40px !important;
+    padding-bottom:30px;
+    margin-top:20px;
+}
+
+.smmergedFirstPageStyle .smmergedTopFilterBackground{
+    padding-top:10px;
+}
+
+.smmergedFirstPageStyle .CommonIcon{
+    margin-top:25px !important;
+}
+
+.smmergedFirstPageStyle .smmergeduplicateAttributeInput{
+     height: 29px;
+    border: none;
+    text-align: center;
+    width: 60px;
+    border-bottom: 1px solid #c0bebe;
+    background-color: inherit;
+    font-size: 18px;
+    margin-left: 40%;
+  
+    color: #353839;
+}
+
+.smmergeduplicateMergeSecLeftContainer{
+    top:-13px;
+    position:relative;
+}
+
+.smmergedFirstPageStyle .smergeduplicateToleranceInput{
+    font-size:18px;
+}
+
+.smmergedFirstPageStyle .smmergeduplicatePlusSign{
+    font-size:17px;
+}
+
+.smmergedFirstPageStyle .smmergeduplicateMinusSign{
+    font-size:30px;
+}
+
+.smmergeTopSection .smmergedTopFilterBackground .smmergeduplicateAttributeDropDown
+{
+    height: 24px;
+    border-right: 1px solid rgb(199, 196, 196);
+    padding-top: 5px;
+}
+
+.smmergeTopSection .smmergedTopFilterBackground .smmergeduplicateToleranceContainer {
+    height:24px;
+    border-left: 1px solid rgb(199, 196, 196);
+}
+
+/*.smmergeTopSection .smmergeduplicateAttributeDropDown:first-child
+{
+    height: 33px;
+    border-right: 0px solid rgb(199, 196, 196);
+    padding-top: 0px;
+}*/

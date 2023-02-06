@@ -1,0 +1,92 @@
+﻿
+.srm_mandatorydatareport_NoRecordDiv {
+    display:none;
+    vertical-align: central;
+    position: center;
+    /*margin-top:200px;*/
+}
+
+#srm_mandatorydatareport_NoRecordsIcon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-image: url('images/icons/no-data.png');
+    margin-bottom: 20px;
+}
+
+#srm_mandatorydatareport_NoRecordMsg {
+    font-size: 22px;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    color: #d3d3d3;
+}
+#srm_mandatorydatareport_RadNeoCLientGridDiv{
+    margin:0 auto;
+}
+.workFlowDetailsError_popupContainer {
+    box-shadow: 5px 7px 22px -7px #6D6D6D;
+    /* background-image: url(images/popup_texture.png); */
+    background-color: #fff;
+    background-repeat: repeat;
+    min-height: 140px;
+    font-family: Lato;
+    border: 1px solid #D4D4D4;
+    border-top: 0px;
+    position: absolute;
+    top: 0px;
+    padding-top: 5px;
+    width: 400px;
+    margin-left: 40%;
+    z-index: 100000;
+}
+.workFlowDetailsError_popupHeader {
+    margin-left: 19px;
+    margin-top: 5px;
+}
+.workFlowDetailsError_imageContainer {
+    display: inline-block;
+}
+.workFlowDetailsError_popupTitle {
+    font-family: Lato;
+    font-size: 24px;
+    display:inline-block;
+}
+
+.workFlowDetailsError_messageContainer {
+    position: relative;
+    /*top: -16px;*/
+    display: inline-block;
+}
+.workFlowDetailsError_popupMessage {
+    font-family: Lato;
+        overflow-y: auto;
+        overflow-wrap: break-word;
+        font-size: 13px;
+}
+.sm_workFlowDisableDiv {
+    background-color: #fff;
+    filter: alpha(opacity=50);
+    opacity: 0.6;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+.workFlowDetailsError_popupCloseBtnContainer{
+        float: right;
+    padding: 4px;
+    font-size: 13px;
+        cursor: pointer;
+}
+.srm_mandatoryreport_href{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #48a3dd;
+}
+.mandatoryReportFilterExpand{
+    display:block;
+}

@@ -1,0 +1,259 @@
+﻿.smselect
+{
+    display: inline-block;
+    position: relative;
+    font-family: Lato;
+    font-size: 12px;
+}
+
+.smselectbar
+{
+    position: relative;
+}
+
+.smselecttext
+{
+    position: relative;
+    display: inline-block;
+    height: 21px;
+    padding-left: 6px;
+    width: 95%;
+    margin-bottom: 4px;
+    border: none;
+    box-shadow: 0px 0px 7px 0px #aaaaaa;
+    font-family: Lato;
+}
+.smselectrun
+{
+    display: inline-block;
+    position: relative;
+}
+.smselectrun:hover
+{
+    cursor: pointer;
+}
+.smselectanchorrun
+{
+    text-decoration: none;
+    color: #00bff2;
+    border-bottom: 1px dashed #00bff2;
+    width: 120px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.smselectimage
+{
+    position: relative;
+    display: inline-block;
+    font-size: 14px !important;
+    height: 16px;
+    top: 2px;
+    color: black;
+}
+.smselectcon
+{
+    position: absolute;
+    display: none;
+    width: 100%;
+    border: 1px solid rgb(202, 202, 202);
+    box-shadow: 5px 7px 14px -8px #aaaaaa;
+    background-color: #FFFFFF;
+    z-index: 123123123123;
+    width: 200px;
+}
+.smselectoptions
+{
+    max-height: 250px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.smselectoption
+{
+    position: relative;
+    display: block;
+    height: 20px;
+    border-left: 5px solid #FCFCFC;
+    line-height: 25px;
+    text-indent: 5px;
+    height: 25px;
+    overflow: hidden; /* added by neetika */
+    cursor: pointer;
+    font-family: Lato, sans-serif;
+    font-size: 11px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: Black;
+    text-align: left;
+}
+
+/*added by neetika color and border-left*/
+.smselectoption:hover
+{
+    border-left: 5px solid #00bff2;
+    background: #f9f9f9 !important;
+    color: rgb(178, 178, 178);
+}
+/*added by neetika color and border-left*/
+.smselecthover
+{
+    color: #00bff2;
+}
+
+.smselected
+{
+    /*background: transparent;*/
+    /*color: #000;*/
+}
+
+.smselectdone
+{
+}
+.smselectdisabled
+{
+    color: rgb(200, 200, 200);
+    border-bottom: none;
+}
+
+.smselectrun2
+{
+    width: 100%;
+}
+
+.smselectanchorrun2
+{
+    border-bottom: none;
+    line-height: 23px;
+    margin-left: 5px;
+    color: Gray;
+}
+
+.smselectimage2
+{
+    float: right;
+    margin-right: 5px;
+}
+.smselectanchorcontainer
+{
+    float: left;
+}
+.smselectanchorcontainer2
+{
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.smselectsectionbar
+{
+    height: 20px;
+    position: relative;
+    line-height: 25px;
+    color: rgb(165, 165, 165);
+    text-indent: 2px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    margin-left: 7px;
+    margin-right: 3px;
+    width: 180px;
+}
+.smselecthidebar
+{
+    display: none;
+}
+.smselectmultioption
+{
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    line-height: 25px;
+    text-indent: 5px;
+    height: 22px;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: Lato, sans-serif;
+    font-size: 11px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: Black;
+    float: left;
+}
+
+.smselectmulticon
+{
+    height: 23px;
+    border-left: 5px solid #FCFCFC;
+    clear: both;
+}
+.smselectmulticon:hover
+{
+    border-left: 5px solid #00bff2;
+    background: #f9f9f9 !important;
+    color: rgb(178, 178, 178);
+}
+
+.smselectcheck
+{
+    position: relative;
+    display: inline-block;
+    float: right;
+    width: 27px;
+    top: 5px;
+    color: Black;
+}
+.smselectmultioptions
+{
+    max-height: none;
+    overflow-y: initial;
+}
+.smselectsectionfirst
+{
+    top: 3px;
+}
+.smselectallmultioption
+{
+    border: 1px solid #43D9C6;
+    width: 23px;
+    float: right;
+    border-radius: 3px;
+    position: relative;
+    margin-right: 14px;
+    color: rgb(0, 128, 104);
+    height: 20px;
+    margin-top: 5px;
+    line-height: 21px;
+    text-align: center;
+}
+.smselectallmultioption:hover
+{
+    color: White;
+    background: #43D9C6;
+    cursor: pointer;
+}
+.smselectallmultioptionchecked
+{
+    color: White;
+    background: #43D9C6;
+    cursor: pointer;
+}
+.smselectallmulticon
+{
+    z-index: 10;
+}
+.smselectallmulticon:hover
+{
+    cursor: pointer;
+    border-left: 5px solid #FCFCFC !important;
+    background: white !important;
+}
+.smselectsection
+{
+    position: relative;
+}
+.smselectanchorrun2:hover
+{
+    border-bottom: none;
+    line-height: 23px;
+    margin-left: 5px;
+    color: Gray;
+    text-decoration: none;
+}

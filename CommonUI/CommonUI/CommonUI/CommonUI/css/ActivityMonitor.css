@@ -1,0 +1,31 @@
+﻿.dataTable {
+    border: none;
+}
+
+#TableID tr td {
+    padding: 0px 5px;
+    white-space: nowrap;
+    border-right: 0px;
+    font-size: 12px;
+    cursor: default;
+    color: #1A1919;
+    font-family: "Istok Web",sans-serif;
+    line-height: 20px;
+    text-align: center;
+}
+
+table th {
+    font-size: 11px !important;
+    color: #8a8787;
+    font-family: "Istok Web",sans-serif;
+}
+.popover-title {
+    font-size: 11px;
+    color: #8a8787;
+}
+
+.popover-content {
+    font-size: 12px;
+    color: #1A1919;
+}
+
